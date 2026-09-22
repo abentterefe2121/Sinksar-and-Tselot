@@ -1,0 +1,61 @@
+batch,#,section,group,canonical_group,book_id,title,language,final_dates,decision_source,status
+Batch7,1,G,አቡነ ፊልጶስ ዘደብረ ሊባኖስ,አቡነ ፊልጶስ ዘደብረ ሊባኖስ,GZ-GDL-001,ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ,ግእዝ,"ሐምሌ 28, መጋቢት 23",User Hard Copy p547,verified
+Batch7,2,G,ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ,ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ,GZ-GDL-012,ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ,ግእዝ,መስከረም 21,User Research Verified,verified
+Batch7,3,G,አቡነ ፍሬ ሚካኤል,አቡነ ፍሬ ሚካኤል,GZ-GDL-034,ገድለ አቡነ ፍሬ ሚካኤል በግእዝ,ግእዝ,ኅዳር 3,User Research Verified,verified
+Batch7,4,G,አባ ሊቃኖስ,አባ ሊቃኖስ,GZ-MEL-003,መልከዐ አቡነ ሊቃኖስ በግእዝ,ግእዝ,ኅዳር 28,Sinksar DB Annual Match,verified
+Batch7,5,G,ቅዱስ ሚካኤል ሊቀ መላእክት,ቅዱስ ሚካኤል ሊቀ መላእክት,GZ-MEL-009,መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ,ግእዝ,"ኅዳር 12, ጥር 12, ሰኔ 12, ሐምሌ 12 / Monthly Day 12",Sinksar DB + User Confirmed (ሚካኤል),verified
+Batch7,6,G,ቅዱስ ፋኑኤል,ቅዱስ ፋኑኤል,GZ-MEL-015,መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ,ግእዝ,ታኅሣሥ 3 / Monthly Day 3,Sinksar DB Annual + Monthly,verified
+Batch7,7,G,ቅዱስ ላሊበላ,ቅዱስ ላሊበላ,GZ-MEL-019,መልክዐ ላሊበላ በግዕዝ,ግእዝ,"ታኅሣሥ 29, መጋቢት 29, ሰኔ 12 / Monthly Day 12",Sinksar DB (ልደቱ + ጽንሰቱ + ጻድቅ),verified
+Batch7,8,G,ልደታ ለማርያም,ልደታ ለማርያም,GZ-MEL-020,መልክዐ ልደታ በግእዝ,ግእዝ,ግንቦት 1 / Monthly Day 1,Sinksar DB (ልደታ ለማርያም ወርሃዊ),verified
+Batch7,9,G,ቅዱስ ፋሲለደስ,ቅዱስ ፋሲለደስ,GZ-MEL-041,መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ,ግእዝ,የካቲት 11 / Monthly Day 11,Sinksar DB,verified
+Batch7,10,G,አማኑኤል,አማኑኤል,GZ-MEL-072,መልክዐ አማኑኤል በግእዝ,ግእዝ,ታኅሣሥ 28 / Monthly Day 28,Sinksar DB Annual + Monthly,verified
+Batch7,11,G,አቡነ መዝገበ ሥላሴ,አቡነ መዝገበ ሥላሴ,GZ-MEL-077,መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ,ግእዝ,ጥቅምት 9,Sinksar DB (ጻድቅ ኢትዮጵያዊ),verified
+Batch7,12,G,አቡነ መድኃኒነ እግዚእ,አቡነ መድኃኒነ እግዚእ,GZ-MEL-078,መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ,ግእዝ,ኅዳር 3 / Monthly Day 3,Sinksar DB (ዘደብረ በንኮል),verified
+Batch7,13,G,አቡነ ተክለ አልፋ,አቡነ ተክለ አልፋ ዘደብረ ድማሕ,GZ-MEL-093,መልክዐ አቡነ ተክለ አልፋ በግእዝ,ግእዝ,ታኅሣሥ 8,Sinksar DB Single Row,verified
+Batch7,14,G,አቡነ አብሳዲ ዘደብረ ማርያም,አቡነ አብሳዲ ዘደብረ ማርያም,GZ-MEL-099,መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ,ግእዝ,መስከረም 30,Sinksar DB Exact Match,verified
+Batch7,15,G,አቡነ ዮሐንስ ከማ,አቡነ ዮሐንስ ከማ,GZ-MEL-109,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,ግእዝ,ታኅሣሥ 25,Sinksar DB Exact Match,verified
+Batch7,16,G,እግዚአብሔር አብ,እግዚአብሔር አብ,GZ-MEL-139,መልክዐ እግዚአብሔር አብ በግእዝ,ግእዝ,Monthly Day 13,Sinksar DB Monthly Cycle,verified
+Batch7,17,G,እግዚአብሔር አብ ካልዕ,እግዚአብሔር አብ,GZ-MEL-140,መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ,ግእዝ,Monthly Day 13,Sinksar DB Monthly Cycle,verified
+Batch7,18,G,ካህናተ ሰማይ,24ቱ ካህናተ ሰማይ (ሱራፌል),GZ-MEL-142,መልክዐ ካህናተ ሰማይ በግእዝ,ግእዝ,ኅዳር 24 / Monthly Day 24,Sinksar DB (ሱራፌል ካህናተ ሰማይ),verified
+Batch7,19,G,ቅዱስ ያሬድ,ቅዱስ ያሬድ ማኅሌታይ,GZ-MEL-146,መልክዐ ያሬድ በግእዝ,ግእዝ,"ኅዳር 11, ግንቦት 11 / Monthly Day 11",Sinksar DB (ልደቱ + ወማኅሌታይ),verified
+Batch7,20,G,ቅዱስ ያሬድ,ቅዱስ ያሬው ማኅሌታይ,GZ-MEL-147,መልክዐ ያሬድ ካልዕ በግእዝ,ግእዝ,"ኅዳር 11, ግንቦት 11 / Monthly Day 11",Sinksar DB (ልደቱ + ወማኅሌታይ),verified
+Batch7,21,G,ቅዱስ ያሬድ,ቅዩስ ያሬድ ማኅሌታይ,GZ-GDL-021,ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ,ግእዝ,"ኅዳር 11, ግንቦት 11 / Monthly Day 11",Sinksar DB (ልደቱ + ወማኅሌታይ),verified
+Batch7,22,G,፬ቱ እንስሳ,፬ቱ እንስሳ (ኪሩቤል),GZ-MEL-164,መልክዐ ፬ቱ እንስሳ በግእዝ,ግእዝ,ኅዳር 8 / Monthly Day 8,Sinksar DB (ኪሩቤል),verified
+Batch7,23,G,መጽሐፈ ልደታ ለማርያም,ዕፀ ልደታ ለማርያም,GZ-MTS-001,መጽሐፈ ልደታ ለማርያም በግእዝ,ግእዝ,ግንቦት 1 / Monthly Day 1,Sinksar DB (ልደታ ለማርያም ወርሃዊ),verified
+Batch7,24,G,አቡነ ሰላማ ከሣቴ ብርሃን,አቡነ ሰላማ ከሣቴ ብርሃን (ፍሩሜንጢስ),GZ-MEL-038,መልክዐ ሰላማ በግእዝ,ግእዝ,"ታኅሣሥ 18, ሐምሌ 26",User Verified (Consecration ታኅሣሥ 18 + Departure ሐምሌ 26),verified
+Batch7,25,G,አቡነ ኤዎስጣቴዎስ,አቡነ ኤዎስጣቴዎስ,GZ-MEL-135,መልክዐ ኤዎስጣቴዎስ በግእዝ,ግእዝ,መስከረም 18,User Verified (Tazkar; birth ሐምሌ 21 not used),verified
+Batch7,26,G,ጴጥሮስ ወጳውሎስ,ሐዋርያት ጴጥሮስ ወጳውሎስ,GZ-MEL-158,መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ,ግእዝ,ሐምሌ 5,User Verified (Joint Martyrdom; corrected from ሰኔ 5),verified
+Batch7,27,G,ቅዱስ ሱርያል ሊቀ መላእክት,ቅዱስ ሱርያል ሊቀ መላእክት,GZ-MEL-008,መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ,ግእዝ,የካቲት 27 / Monthly Day 27,User Verified (Annual የካቲት 27 + Monthly 27),verified
+
+batch,#,section,group,canonical_group,book_id,title,language,final_dates,decision_source,status
+Batch7,28,G,ዘመጠራ,ቅዱሳን ዘመጠራ,GZ-MEL-048,መልክዐ ቅዱሳን ዘመጠራ በግእዝ,ግእዝ,ጥቅምት 19,User Hard Copy Research,verified
+Batch7,29,G,አፍቅረነ እግዚእ,አቡነ አፍቅረነ እግዚእ,GZ-MEL-100,መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ,ግእዝ,ግንቦት 19,User Hard Copy p349,verified
+Batch7,30,G,ሰይፈ ሚካኤል,አቡነ ሰይፈ ሚካኤል,GZ-MEL-083,መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ,ግእዝ,ጥቅምት 19,User Research Verified,verified
+Batch7,31,G,ይምአታ,አቡነ ይምአታ,GZ-MEL-108,መልክዐ አቡነ ይምአታ በግእዝ,ግእዝ,ጥቅምት 28,User Research Verified,verified
+Batch7,32,G,ዮናስ ዘደብረ ድኁኃን,አቡነ ዮናስ ዘደብረ ድኁኃን,GZ-MEL-113,መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ,ግእዝ,"መጋቢት 17, ኅዳር 17",User Verified (two annual dates),verified
+Batch7,33,G,የሐንስ ዘደብረ ቢዘን,አቡነ የሐንስ ዘደብረ ቢዘን,GZ-MEL-107,መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ,ግእዝ,Monthly Day 13,User Verified (ወርሃዊ 13),verified
+Batch7,34,G,ጰንጠሌዎን,አባ ጰንጠሌዎን ጻድቅ,GZ-MEL-115,መልክዐ አቡነ ጰንጠሌዎን በግእዝ,ግእዝ,ጥቅምት 6,User Verified (ጥቅምት 6),verified
+Batch7,35,G,ሠለስቱ ምዕት,ሠለስቱ ምዕት,GZ-MEL-033,መልክዐ ሠለስቱ ምዕት በግእዝ,ግእዝ,ኅዳር 9,User Verified,verified
+Batch7,36,G,ተክለ ማርያም,አቡነ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን,GZ-MEL-070,መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ,ግእዝ,ነሐሴ 13,User Verified,verified
+Batch7,37,G,አበክረዙን,አቡነ አበክረዙን,GZ-GDL-005,ገድለ አቡነ አበክረዙን በግእዝ,ግእዝ,ሐምሌ 3,User Verified,verified
+Batch7,38,G,ተንሥአ መድኅን,ተንሥአ መድኅን,GZ-MEL-090,መልክዐ አቡነ ተንሥአ መድኅን በግእዝ,ግእዝ,Seasonal: ከትንሣኤ እስከ ጰራቅሊጦስ (50 ቀናት),User Verified (movable season - SEASON/PENTECOST row),verified
+Batch7,39,G,ፊሳልጎስ (መጽሐፍ),የፊሳልጎስ መጽሐፍ,GZ-DRS-006,ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ,ግእዝ,,User Decision (book not saint - educational skip),skipped
+Batch7,40,G,ይምርሃነ ክርስቶስ,ይምርሃነ ክርስቶስ,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,ግእዝ,ጥቅምት 19,User Hard Copy p376,verified
+Batch7,41,G,ዜናሁ ለንጉሥ ገላውዴዎስ,ማር ገላውዴዎስ,GZ-ZNA-002,ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ,ግእዝ,መጋቢት 27,User Verified,verified
+Batch7,42,G,ሰማዕቱ ጲላጦስ,ሰማዕቱ ጲላጦስ መስፍን,GZ-SME-001,ስምዐ ጲላጦስ በግእዝ,ግእዝ,ሰኔ 25,User Verified,verified
+Batch7,43,G,ሥሉስ ቅዱስ,በዓለ ሥሉስ,GZ-MEL-034,መልክዐ ሥሉስ ቅዱስ በግእዝ,ግእዝ,ጥር 7,User Verified (annual feast only),verified
+Batch7,44,G,እንጦንስ አበ መነኮሳት,አባ እንጦንስ አበ መነኮሳት,GZ-MEL-138,መልክዐ እንጦንዮስ በግእዝ,ግእዝ,"ጥር 22, መጋቢት 6, ሐምሌ 22",User Verified (ልደቱ/ዕረፍቱ + ገዳማዊ + ቅዳሴ ቤቱ),verified
+Batch7,45,G,ቅዱስ አባዲር,ቅዱስ አባዲር,GZ-MEL-056,መልክዐ ቅዱስ አባዲር በግእዝ,ግእዝ,መስከረም 28,User Verified,verified
+Batch7,46,G,ቅዱስ አባዲር ወኢራኢ,ቅዱስ አባዲር ወኢራኢ,GZ-GDL-026,ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ,ግእዝ,መስከረም 28,User Verified,verified
+Batch7,47,G,ቅዱስ ሱስንዮስ,ቅዱስ ሱስንዮስ ሰማዕት ሶርያዊ,GZ-GDL-009,ገድለ ቅዱስ ሱስንዮስ በግእዝ,ግእዝ,ሚያዝያ 26,User Verified (martyr not ጻድቅ),verified
+Batch7,48,G,ገብረ ክርስቶስ,ቅዱስ ገብረ ክርስቶስ መርዓዊ,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,ግእዝ,ጥቅምት 14,User Verified (መርዓዊ),verified
+Batch7,49,G,አቡነ ሙሴ,አቡነ ሙሴ,GZ-MEL-079,መልክዐ አቡነ ሙሴ በግእዝ,ግእዝ,መስከረም 4,User Verified (identified among 11),verified
+Batch7,50,G,ዮሐንስ ዘድብረ ዳጋ,አቡነ ዮሐንስ ዘድብረ ዳጋ,GZ-MEL-110,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,ግእዝ,ነሐሴ 8,User Verified (identified among 38),verified
+Batch7,51,G,አቡነ ዮሐንስ,አቡነ ዮሐንስ,GZ-GDL-018,ገድለ አቡነ ዮሐንስ በግእዝ,ግእዝ,ሐምሌ 29,User Verified (identified among 38),verified
+Batch7,52,G,ቶማስ ዘዘናቁዴ,አቡነ ቶማስ ዘዘናቁዴ,GZ-MEL-094,መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ,ግእዝ,ኅዳር 3,User Verified,verified
+Batch7,53,G,ማቴዎስ ዘደብረ በርበሬ ካልእ,አቡነ ማቴዎስ ዘደብረ በርበሬ,GZ-MEL-081,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ ካልዕ በግእዝ,ግእዝ,ኅዳር 13,User Verified,verified
+Batch7,54,G,ማቴዎስ ዘደብረ በርበሬ,አቡነ ማቴዎስ ዘደብረ በርበሬ,GZ-MEL-080,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ,ግእዝ,ጥር 14,User Verified,verified
+Batch7,55,G,ፊልጶስ ዘደብረ ቢዘን,አቡነ ፊልጶስ ዘደብረ ቢዘን,GZ-MEL-120,መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ,ግእዝ,ነሐሴ 5,User Verified (monk not apostle),verified
+Batch7,56,G,መርቆሬዎስ ዘደብረ ድማኅ,አቡነ መርቆሬዎስ ዘደብረ ድማኅ,GZ-MEL-076,መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ,ግእዝ,ታኅሣሥ 16,User Verified (monk not martyr),verified
+Batch7,57,G,እንድርያስ ዘደብረ ጽጌ,አቡነ እንድርያስ ዘደብረ ጽጌ,GZ-MEL-103,መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ,ግእዝ,የካቲት 1,User Verified (monk not apostle),verified
+Batch7,58,G,እንድርያስ ዘደብረ ስኂን,አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን),GZ-MEL-102,መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ,ግእዝ,መጋቢት 29,User Verified (monk not apostle),verified

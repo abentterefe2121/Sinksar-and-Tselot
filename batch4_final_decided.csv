@@ -1,0 +1,58 @@
+﻿batch,#,section,group,canonical_group,book_id,title,language,final_dates,decision_source,status
+Batch4,135,D,ሰባቱ ሊቃነ መላእክት,ሰባቱ ሊቃነ መላእክት,AM-DIR-001,የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ,አማርኛ,ኅዳር 13 / Monthly Day 13,Sinksar 100% Match,verified
+Batch4,136,D,ሰባቱ ሊቃነ መላእክት,ሰባቱ ሊቃነ መላእክት,AM-MEL-038,የቅዱሳን አእላፍ መላእክት 2ኛ መልክዕ በአማርኛ,አማርኛ,ኅዳር 13 / Monthly Day 13,Sinksar 100% Match,verified
+Batch4,137,D,ሰባቱ ሊቃነ መላእክት,ሰባቱ ሊቃነ መላእክት,GZ-MEL-125,መልክዐ አእላፍ መላእክት በግእዝ,ግእዝ,ኅዳር 13 / Monthly Day 13,Sinksar 100% Match,verified
+Batch4,138,D,ሰባቱ ሊቃነ መላእክት,ሰባቱ ሊቃነ መላእክት,GZ-MEL-126,መልክዐ አእላፍ መላእክት ካልእ በግእዝ,ግእዝ,ኅዳር 13 / Monthly Day 13,Sinksar 100% Match,verified
+Batch4,139,D,ሰንበት,ሰንበት,AM-DRS-002,ድርሳነ ሰንበት በአማርኛ,አማርኛ,"Weekly: ቅዳሜ, እሁድ",Liturgical Weekly,verified
+Batch4,140,D,ሰንበት,ሰንበት,GZ-MEL-044,መልክዐ ሰንበት በግዕዝ,ግእዝ,"Weekly: ቅዳሜ, እሁድ",Liturgical Weekly,verified
+Batch4,141,D,ቅዱስ ገብርኤል,ቅዱስ ገብርኤል,AM-DRS-003,ድርሳነ ገብርኤል በአማርኛ,አማርኛ,"ታኅሣሥ 19, ታኅሣሥ 22, መጋቢት 30, ሰኔ 13, ሰኔ 26, ሐምሌ 19, ነሐሴ 7 / Monthly Day 19",Sinksar Canonical Cycle,verified
+Batch4,142,D,ቅዱስ ገብርኤል,ቅዱስ ገብርኤል,AM-MEL-050,የቅዱስ ገብርኤል መልክዕ በአማርኛ,አማርኛ,"ታኅሣሥ 19, ታኅሣሥ 22, መጋቢት 30, ሰኔ 13, ሰኔ 26, ሐምሌ 19, ነሐሴ 7 / Monthly Day 19",Sinksar Canonical Cycle,verified
+Batch4,143,D,ቅዱስ ገብርኤል,ቅዱስ ገብርኤል,GZ-DRS-010,ድርሳነ ገብርኤል በግእዝ,ግእዝ,"ታኅሣሥ 19, ታኅሣሥ 22, መጋቢት 30, ሰኔ 13, ሰኔ 26, ሐምሌ 19, ነሐሴ 7 / Monthly Day 19",Sinksar Canonical Cycle,verified
+Batch4,144,D,ቅዱስ ገብርኤል,ቅዱስ ገብርኤል,GZ-MEL-013,መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ,ግእዝ,"ታኅሣሥ 19, ታኅሣሥ 22, መጋቢት 30, ሰኔ 13, ሰኔ 26, ሐምሌ 19, ነሐሴ 7 / Monthly Day 19",Sinksar Canonical Cycle,verified
+Batch4,145,D,ቅዱስ ገብርኤል,ቅዱስ ገብርኤል,GZ-MEL-014,መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ,ግእዝ,"ታኅሣሥ 19, ታኅሣሥ 22, መጋቢት 30, ሰኔ 13, ሰኔ 26, ሐምሌ 19, ነሐሴ 7 / Monthly Day 19",Sinksar Canonical Cycle,verified
+Batch4,146,D,መድኃኔ ዓለም,መድኃኔ ዓለም,AM-DRS-004,ድርሳነ መድኃኔ ዓለም በአማርኛ,አማርኛ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,147,D,መድኃኔ ዓለም,መድኃኔ ዓለም,AM-MEL-034,የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ,አማርኛ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,148,D,መድኃኔ ዓለም,መድኃኔ ዓለም,AM-MEL-035,የመድኀኔ ዓለም መልክዕ በአማርኛ,አማርኛ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,149,D,መድኃኔ ዓለም,መድኃኔ ዓለም,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,አማርኛ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,150,D,መድኃኔ ዓለም,መድኃኔ ዓለም,GZ-DRS-005,ድርሳነ መድኃኔ ዓለም በግእዝ,ግእዝ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,151,D,መድኃኔ ዓለም,መድኃኔ ዓለም,GZ-MEL-001,ሐዲስ መልክዐ መድኃኔዓለም በግእዝ,ግእዝ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,152,D,መድኃኔ ዓለም,መድኃኔ ዓለም,GZ-MEL-027,መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ,ግእዝ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,153,D,መድኃኔ ዓለም,መድኃኔ ዓለም,GZ-MEL-028,መልክዐ መድኃኔ ዓለም በግእዝ,ግእዝ,"ኅዳር 27, መጋቢት 27 / Monthly Day 27",Sinksar Monthly + Tradition,verified
+Batch4,154,D,ቅዱስ ዑራኤል,ቅዱስ ዑራኤል,AM-DRS-006,ድርሳነ ዑራኤል በአማርኛ,አማርኛ,"ጥር 22, ሐምሌ 21, ሐምሌ 22 / Monthly Day 22",Sinksar Canonical Cycle,verified
+Batch4,155,D,ቅዱስ ዑራኤል,ቅዱስ ዑራኤል,GZ-DRS-001,ድርሳነ ዑራኤል በግእዝ,ግእዝ,"ጥር 22, ሐምሌ 21, ሐምሌ 22 / Monthly Day 22",Sinksar Canonical Cycle,verified
+Batch4,156,D,ቅዱስ ዑራኤል,ቅዱስ ዑራኤል,GZ-MEL-011,መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል በግእዝ,ግእዝ,"ጥር 22, ሐምሌ 21, ሐምሌ 22 / Monthly Day 22",Sinksar Canonical Cycle,verified
+Batch4,157,D,ቅዱስ ዑራኤል,ቅዱስ ዑራኤል,GZ-MEL-012,መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል ካልእ በግእዝ,ግእዝ,"ጥር 22, ሐምሌ 21, ሐምሌ 22 / Monthly Day 22",Sinksar Canonical Cycle,verified
+Batch4,158,D,ማኅየዊ,ማኅየዊ,AM-DRS-007,ድርሳነ ማኅየዊ በአማርኛ,አማርኛ,"Weekly: ረቡዕ, አርብ",Liturgical Fasting,verified
+Batch4,159,D,ማኅየዊ,ማኅየዊ,AM-MEL-007,መልክዐ ማሕየዊ በአማርኛ,አማርኛ,"Weekly: ረቡዕ, አርብ",Liturgical Fasting,verified
+Batch4,160,D,ማኅየዊ,ማኅየዊ,GZ-MEL-029,መልክዐ ማሕየዊ በግእዝ,ግእዝ,"Weekly: ረቡዕ, አርብ",Liturgical Fasting,verified
+Batch4,161,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,AM-DRS-009,ድርሳነ ሚካኤል በአማርኛ,አማርኛ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,162,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,AM-MEL-006,መልክዐ ሚካኤል በአማርኛ,አማርኛ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,163,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,AM-MEL-041,የቅዱስ ሚካኤል 3ኛ መልክዕ በአማርኛ,አማርኛ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,164,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,GZ-DRS-008,ድርሳነ ሚካኤል በግእዝ,ግእዝ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,165,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,GZ-MEL-004,መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ሣልስ በግእዝ,ግእዝ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,166,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,GZ-MEL-005,መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእዝ,ግእዝ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,167,D,ቅዱስ ሚካኤል,ቅዱስ ሚካኤል,GZ-MEL-165,መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእ,ግእዝ,"መስከረም 9, ኅዳር 12, ሰኔ 12 / Monthly Day 12",Sinksar Canonical Cycle,verified
+Batch4,168,D,ቅዱስ ራጉኤል,ቅዱስ ራጉኤል,AM-DRS-010,ድርሳነ ቅዱስ ራጉኤል በአማርኛ,አማርኛ,"መስከረም 1, ጳጉሜ 6 / Monthly Day 1",Sinksar + Leap Canon,verified
+Batch4,169,D,ቅዱስ ራጉኤል,ቅዱስ ራጉኤል,AM-MEL-014,መልክዐ ቅዱስ ራጉኤል በአማርኛ,አማርኛ,"መስከረም 1, ጳጉሜ 6 / Monthly Day 1",Sinksar + Leap Canon,verified
+Batch4,170,D,ቅዱስ ራጉኤል,ቅዱስ ራጉኤል,GZ-DRS-003,ድርሳነ ቅዱስ ራጉኤል በግእዝ,ግእዝ,"መስከረም 1, ጳጉሜ 6 / Monthly Day 1",Sinksar + Leap Canon,verified
+Batch4,171,D,ቅዱስ ራጉኤል,ቅዱስ ራጉኤል,GZ-MEL-007,መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ,ግእዝ,"መስከረም 1, ጳጉሜ 6 / Monthly Day 1",Sinksar + Leap Canon,verified
+Batch4,172,D,አባ ጊዮርጊስ ዘጋሥጫ,አባ ጊዮርጊስ ዘጋሥጫ,AM-GDL-001,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ,አማርኛ,ሐምሌ 7 / Monthly Day 7,Sinksar 100% Match,verified
+Batch4,173,D,አባ ጊዮርጊስ ዘጋሥጫ,አባ ጊዮርጊስ ዘጋሥጫ,GZ-GDL-007,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,ግእዝ,ሐምሌ 7 / Monthly Day 7,Sinksar 100% Match,verified
+Batch4,174,D,አባ ጊዮርጊስ ዘጋሥጫ,አባ ጊዮርጊስ ዘጋሥጫ,GZ-MEL-123,መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,ግእዝ,ሐምሌ 7 / Monthly Day 7,Sinksar 100% Match,verified
+Batch4,175,D,ማርያም እንተ ዕፍረት,ማርያም እንተ ዕፍረት,AM-GDL-002,ገድለ ማርያም እንተ ዕፍረት በአማርኛ,አማርኛ,"ጥቅምት 1, የካቲት 6",Sinksar 100% Match,verified
+Batch4,176,D,ማርያም መግደላዊት,ማርያም መግደላዊት,AM-GDL-003,ገድለ ማርያም መግደላዊት በአማርኛ,አማርኛ,"መጋቢት 29, ነሐሴ 6",Sinksar 100% Match,verified
+Batch4,177,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,AM-GDL-004,ገድለ ተክለ ሃይማኖት በአማርኛ,አማርኛ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,178,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,AM-MEL-057,የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ,አማርኛ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,179,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,AM-MEL-058,የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ,አማርኛ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,180,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,GZ-MEL-068,መልክዐ ተክለ ሃይማኖት በግእዝ,ግእዝ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,181,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,GZ-MEL-069,መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ,ግእዝ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,182,D,አቡነ ተክለ ሃይማኖት,አቡነ ተክለ ሃይማኖት,GZ-MEL-092,መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ,ግእዝ,"ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + National Canon,verified
+Batch4,183,D,ቅድስት ክርስቶስ ሠምራ,ቅድስት ክርስቶስ ሠምራ,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,አማርኛ,"መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + Monastic Covenant,verified
+Batch4,184,D,ቅድስት ክርስቶስ ሠምራ,ቅድስት ክርስቶስ ሠምራ,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,ግእዝ,"መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + Monastic Covenant,verified
+Batch4,185,D,ቅድስት ክርስቶስ ሠምራ,ቅድስት ክርስቶስ ሠምራ,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,ግእዝ,"መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24",Sinksar + Monastic Covenant,verified
+Batch4,186,D,አቡነ ገብረ መንፈስ ቅዱስ,አቡነ ገብረ መንፈስ ቅዱስ,AM-GDL-007,ገድለ አቡነ ገብረ መንፈስ ቅዱስ በአማርኛ,አማርኛ,"ጥቅምት 5, ታኅሣሥ 29, መጋቢት 5, መጋቢት 29 / Monthly Day 5",Sinksar Canonical Cycle,verified
+Batch4,187,D,አቡነ ገብረ መንፈስ ቅዱስ,አቡነ ገብረ መንፈስ ቅዱስ,GZ-MEL-151,መልክዐ ገብረ መንፈስ ቅዱስ በግእዝ,ግእዝ,"ጥቅምት 5, ታኅሣሥ 29, መጋቢት 5, መጋቢት 29 / Monthly Day 5",Sinksar Canonical Cycle,verified
+Batch4,188,D,አቡነ ገብረ መንፈስ ቅዱስ,አቡነ ገብረ መንፈስ ቅዱስ,GZ-MEL-152,መልክዐ ገብረ መንፈስ ቅዱስ ካልዕ በግእዝ,ግእዝ,"ጥቅምት 5, ታኅሣሥ 29, መጋቢት 5, መጋቢት 29 / Monthly Day 5",Sinksar Canonical Cycle,verified
+Batch4,189,D,ቅድስት አርሴማ,ቅድስት አርሴማ,AM-GDL-008,ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ,አማርኛ,"መስከረም 29, ታኅሣሥ 6, ሰኔ 17 / Monthly Day 6",Sinksar Canonical Cycle,verified
+Batch4,190,D,ቅድስት አርሴማ,ቅድስት አርሴማ,GZ-GDL-033,ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ,ግእዝ,"መስከረም 29, ታኅሣሥ 6, ሰኔ 17 / Monthly Day 6",Sinksar Canonical Cycle,verified
+Batch4,191,D,ቅድስት አርሴማ,ቅድስት አርሴማ,GZ-MEL-042,መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ,ግእዝ,"መስከረም 29, ታኅሣሥ 6, ሰኔ 17 / Monthly Day 6",Sinksar Canonical Cycle,verified

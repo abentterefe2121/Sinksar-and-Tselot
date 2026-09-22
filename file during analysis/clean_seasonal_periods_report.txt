@@ -1,0 +1,101 @@
+CLEAN SEASONAL PERIODS REPORT
+Generated: 2026-09-21T09:59:07
+Goal: keep only movable seasons with professional labels.
+Deleted: FILSETA_1_16, MESKEREM_26_HIDAR_5
+Kept/renamed:
+  GREAT_LENT            | ዓቢይ ጾም              | Great Lent                    | MOVABLE
+  HOLY_WEEK             | ሰሙነ ሕማማት            | Holy Week                     | MOVABLE
+  HOLY_WEEK_WED_FRI     | ረቡዕ ወዓርብ ዘሕማማት     | Holy Week Wednesday & Friday  | MOVABLE_WEEKDAY
+
+================================================================================
+DATABASE: ORIGINAL
+C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+================================================================================
+COUNTS BEFORE
+  seasonal_periods: 5
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  book_calendar_mappings: 0
+  book_seasonal_mappings: 0
+  commemorations: 0
+  chapters: 2756
+  content_blocks: 90149
+
+SEASONAL_PERIODS BEFORE
+  code=FILSETA_1_16 | name_am=ፍልሰታ 1-16 | name_en=Filseta Fast Nehase 1-16 | type=FIXED_RANGE | start_month=12 | start_day=1 | end_month=12 | end_day=16 | is_movable=0
+  code=GREAT_LENT | name_am=ዓቢይ ጾም | name_en=Great Lent (Hudade) - movable 55 days | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=MESKEREM_26_HIDAR_5 | name_am=መስከረም 26 - ኅዳር 5 | name_en=Meskerem 26 to Hidar 5 for S'el | type=FIXED_RANGE | start_month=1 | start_day=26 | end_month=3 | end_day=5 | is_movable=0
+  code=SEMUNE_HIMAMAT | name_am=ሰሙነ ሕማማት | name_en=Passion Week / Holy Week - movable | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=WED_FRI_HIMAMAT | name_am=ረቡዕ አርብ ሕማማት | name_en=Wednesday Friday Passion Week | type=WEEKLY_PLUS_SEASON | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+
+DELETED all seasonal_periods rows
+INSERTED 3 professional movable seasons
+TRANSACTION COMMITTED
+
+COUNTS AFTER
+  seasonal_periods: 3
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  book_calendar_mappings: 0
+  book_seasonal_mappings: 0
+  commemorations: 0
+  chapters: 2756
+  content_blocks: 90149
+
+SEASONAL_PERIODS AFTER
+  code=GREAT_LENT | name_am=ዓቢይ ጾም | name_en=Great Lent | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=HOLY_WEEK | name_am=ሰሙነ ሕማማት | name_en=Holy Week | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=HOLY_WEEK_WED_FRI | name_am=ረቡዕ ወዓርብ ዘሕማማት | name_en=Holy Week Wednesday & Friday | type=MOVABLE_WEEKDAY | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+
+PRAGMA integrity_check: ok
+
+================================================================================
+DATABASE: FOR ANALYSIS COPY
+C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+================================================================================
+COUNTS BEFORE
+  seasonal_periods: 5
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  book_calendar_mappings: 0
+  book_seasonal_mappings: 0
+  commemorations: 0
+  chapters: 2756
+  content_blocks: 90149
+
+SEASONAL_PERIODS BEFORE
+  code=FILSETA_1_16 | name_am=ፍልሰታ 1-16 | name_en=Filseta Fast Nehase 1-16 | type=FIXED_RANGE | start_month=12 | start_day=1 | end_month=12 | end_day=16 | is_movable=0
+  code=GREAT_LENT | name_am=ዓቢይ ጾም | name_en=Great Lent (Hudade) - movable 55 days | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=MESKEREM_26_HIDAR_5 | name_am=መስከረም 26 - ኅዳር 5 | name_en=Meskerem 26 to Hidar 5 for S'el | type=FIXED_RANGE | start_month=1 | start_day=26 | end_month=3 | end_day=5 | is_movable=0
+  code=SEMUNE_HIMAMAT | name_am=ሰሙነ ሕማማት | name_en=Passion Week / Holy Week - movable | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=WED_FRI_HIMAMAT | name_am=ረቡዕ አርብ ሕማማት | name_en=Wednesday Friday Passion Week | type=WEEKLY_PLUS_SEASON | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+
+DELETED all seasonal_periods rows
+INSERTED 3 professional movable seasons
+TRANSACTION COMMITTED
+
+COUNTS AFTER
+  seasonal_periods: 3
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  book_calendar_mappings: 0
+  book_seasonal_mappings: 0
+  commemorations: 0
+  chapters: 2756
+  content_blocks: 90149
+
+SEASONAL_PERIODS AFTER
+  code=GREAT_LENT | name_am=ዓቢይ ጾም | name_en=Great Lent | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=HOLY_WEEK | name_am=ሰሙነ ሕማማት | name_en=Holy Week | type=MOVABLE | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+  code=HOLY_WEEK_WED_FRI | name_am=ረቡዕ ወዓርብ ዘሕማማት | name_en=Holy Week Wednesday & Friday | type=MOVABLE_WEEKDAY | start_month=None | start_day=None | end_month=None | end_day=None | is_movable=1
+
+PRAGMA integrity_check: ok
+
+RESULT: PASS
+seasonal_periods now has exactly 3 movable seasons.
+Fixed ranges removed. Mapping tables still empty.
+Ready for Batch 1 book-date mapping after you confirm.

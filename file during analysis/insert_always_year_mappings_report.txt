@@ -1,0 +1,159 @@
+INSERT ALWAYS YEAR MAPPINGS REPORT
+Generated: 2026-09-21T14:52:04
+Write target: WORKING COPY only
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Locked everyday book_id count: 43
+Method: SQL CROSS JOIN to calendar_days
+
+ORIGINAL DB BEFORE COPY
+  size: 57786368
+  book_calendar_mappings: 811
+  books: 415
+  calendar_days: 366
+
+FRESH COPY CREATED
+  copied original -> working copy
+  working copy size after clone: 57786368
+
+CALENDAR YEAR COVERAGE
+  no calendar days missing; Pagumen 6 already present
+  month 1: days=30 min=1 max=30
+  month 2: days=30 min=1 max=30
+  month 3: days=30 min=1 max=30
+  month 4: days=30 min=1 max=30
+  month 5: days=30 min=1 max=30
+  month 6: days=30 min=1 max=30
+  month 7: days=30 min=1 max=30
+  month 8: days=30 min=1 max=30
+  month 9: days=30 min=1 max=30
+  month 10: days=30 min=1 max=30
+  month 11: days=30 min=1 max=30
+  month 12: days=30 min=1 max=30
+  month 13: days=6 min=1 max=6
+  calendar_days total: 366
+
+INSERT SUMMARY
+  mappings before insert: 811
+  deleted leftover always rows: 0
+  inserted rows: 15738
+  expected inserted rows: 15738
+  mappings after insert: 16549
+  expected after insert: 16549
+
+NOTES COUNTS
+  ALWAYS: 15738
+  MONTHLY: 577
+  ANNUAL: 168
+  ANNUAL+MONTHLY: 66
+
+ROW COUNT PER EVERYDAY book_id
+  PASS AM-BEE-001: 366/366 distinct_dates=366
+  PASS AM-LIT-001: 366/366 distinct_dates=366
+  PASS AM-MEL-028: 366/366 distinct_dates=366
+  PASS AM-MET-001: 366/366 distinct_dates=366
+  PASS AM-MET-002: 366/366 distinct_dates=366
+  PASS AM-MZM-001: 366/366 distinct_dates=366
+  PASS AM-SEY-001: 366/366 distinct_dates=366
+  PASS AM-TEA-002: 366/366 distinct_dates=366
+  PASS AM-TEA-003: 366/366 distinct_dates=366
+  PASS AM-TSE-001: 366/366 distinct_dates=366
+  PASS AM-TSE-002: 366/366 distinct_dates=366
+  PASS AM-TSE-003: 366/366 distinct_dates=366
+  PASS AM-TSE-004: 366/366 distinct_dates=366
+  PASS AM-TSE-005: 366/366 distinct_dates=366
+  PASS AM-WUD-001: 366/366 distinct_dates=366
+  PASS EN-TSE-001: 366/366 distinct_dates=366
+  PASS GZ-BEE-001: 366/366 distinct_dates=366
+  PASS GZ-DRS-004: 366/366 distinct_dates=366
+  PASS GZ-HAT-001: 366/366 distinct_dates=366
+  PASS GZ-MEL-156: 366/366 distinct_dates=366
+  PASS GZ-MET-001: 366/366 distinct_dates=366
+  PASS GZ-MET-003: 366/366 distinct_dates=366
+  PASS GZ-MZM-004: 366/366 distinct_dates=366
+  PASS GZ-SEY-001: 366/366 distinct_dates=366
+  PASS GZ-TAM-003: 366/366 distinct_dates=366
+  PASS GZ-TEA-002: 366/366 distinct_dates=366
+  PASS GZ-TEA-003: 366/366 distinct_dates=366
+  PASS GZ-TSE-001: 366/366 distinct_dates=366
+  PASS GZ-TSE-002: 366/366 distinct_dates=366
+  PASS GZ-TSE-004: 366/366 distinct_dates=366
+  PASS GZ-TSE-005: 366/366 distinct_dates=366
+  PASS GZ-TSE-006: 366/366 distinct_dates=366
+  PASS GZ-WUD-001: 366/366 distinct_dates=366
+  PASS OR-MZM-001: 366/366 distinct_dates=366
+  PASS OR-TSE-001: 366/366 distinct_dates=366
+  PASS OR-TSE-002: 366/366 distinct_dates=366
+  PASS OR-WUD-001: 366/366 distinct_dates=366
+  PASS TI-BEE-001: 366/366 distinct_dates=366
+  PASS TI-MZM-001: 366/366 distinct_dates=366
+  PASS TI-MZM-002: 366/366 distinct_dates=366
+  PASS TI-TSE-001: 366/366 distinct_dates=366
+  PASS TI-TSE-002: 366/366 distinct_dates=366
+  PASS TI-TSE-003: 366/366 distinct_dates=366
+
+YEAR LOOKUP TESTS (every sampled date must include all 43)
+  PASS 1/1 found=49 missing=0
+  PASS 1/30 found=45 missing=0
+  PASS 2/25 found=48 missing=0
+  PASS 4/27 found=49 missing=0
+  PASS 5/27 found=47 missing=0
+  PASS 6/30 found=45 missing=0
+  PASS 12/30 found=45 missing=0
+  PASS 13/1 found=49 missing=0
+  PASS 13/5 found=44 missing=0
+  PASS 13/6 found=48 missing=0
+
+FEAST STILL PRESENT
+  PASS GZ-GDL-025 4/27
+  PASS AM-GDL-006 4/27
+  PASS GZ-GDL-027 4/5
+  PASS AM-GOL-001 10/21
+  PASS AM-GOL-001 7/21
+  PASS GZ-MIK-001 9/12
+
+FEAST STILL ABSENT ON WRONG DATES
+  PASS GZ-GDL-025 not on 5/27
+  PASS AM-GDL-006 not on 5/27
+  PASS GZ-GDL-020 not on 12/5
+  PASS GZ-MEL-091 not on 8/10
+  PASS AM-GOL-001 not on 7/20
+  PASS AM-GOL-001 not on 13/1
+  PASS GZ-MIK-001 not on 3/12
+
+IS_ANNUAL FLAG TESTS
+  PASS GZ-GDL-025 4/27 is_annual=1 expected=1 notes=ANNUAL
+  PASS GZ-GDL-027 8/27 is_annual=1 expected=1 notes=ANNUAL+MONTHLY
+  PASS GZ-GDL-027 1/27 is_annual=0 expected=0 notes=MONTHLY
+  PASS AM-GDL-024 2/25 is_annual=1 expected=1 notes=ANNUAL+MONTHLY
+  PASS AM-GDL-024 1/25 is_annual=0 expected=0 notes=MONTHLY
+  PASS AM-GOL-001 10/21 is_annual=0 expected=0 notes=MONTHLY
+  PASS AM-GOL-001 7/21 is_annual=0 expected=0 notes=MONTHLY
+  PASS AM-BEE-001 1/1 is_annual=0 expected=0 notes=ALWAYS
+  PASS AM-TSE-005 13/6 is_annual=0 expected=0 notes=ALWAYS
+  PASS OR-WUD-001 4/27 is_annual=0 expected=0 notes=ALWAYS
+  PASS TI-TSE-002 12/30 is_annual=0 expected=0 notes=ALWAYS
+
+calendar_day_id mismatches: 0
+ALWAYS rows with unexpected flags: 0
+books: 415
+commemorations: 0
+book_seasonal_mappings: 0
+PRAGMA integrity_check: ok
+
+ORIGINAL DB UNCHANGED CHECK
+  size before: 57786368
+  size after : 57786368
+  mappings before: 811
+  mappings after : 811
+  mtime unchanged
+
+Expanded CSV: C:\Android Project Collection\analyze\New folder\for analysis\always_year_mappings_by_id.csv
+Working copy updated: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+CSV rows: 15738
+
+RESULT: PASS
+43 everyday book_id values mapped to every calendar day.
+15738 ALWAYS rows inserted on working copy only.
+Original DB not modified.
+Feast mappings preserved. Year lookup tests passed.

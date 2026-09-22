@@ -1,0 +1,268 @@
+INSERT SKIPPED-38 MAPPINGS REPORT
+Generated: 2026-09-21T18:53:50
+Write target: WORKING COPY only
+Rules locked by user:
+  weekly/daily books -> 1 ALWAYS row each (no weekday numbers)
+  movable Pentecost -> Monthly Day 7 rows + PENTECOST season_code
+  AM-KID-001, AM-MEN-001 -> left unmapped (educational)
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+ORIGINAL DB BEFORE WRITE
+  size: 57786368
+  mappings: 811
+  ALWAYS: 0
+  seasonal_periods: 3
+
+WORKING COPY BEFORE INSERT
+  mappings: 3336
+  existing rows for this batch: 58
+  baseline without this batch: 3278
+  ALWAYS: 77
+  books: 415
+  calendar_days: 366
+  seasonal_periods: 4
+
+INSERT SUMMARY
+  mappings before: 3336
+  deleted leftover rows for this batch: 58
+  ALWAYS rows inserted: 34
+  movable monthly rows inserted: 24
+  mappings after: 3336
+  expected after: 3336
+
+SEASONAL PERIODS
+  count before: 4
+  count after: 4
+  PENTECOST row: ('PENTECOST', 'ጰንጠቆስጤ', 'Pentecost', 'MOVABLE', 1)
+
+READING_CYCLE COUNTS
+  CALENDAR: 3259
+  ALWAYS: 77
+
+NOTES COUNTS
+  MONTHLY: 2451
+  ANNUAL: 461
+  ANNUAL+MONTHLY: 347
+  ALWAYS: 77
+
+ALWAYS ROWS FOR THE 34
+  PASS AM-DRS-002: 1/1
+  PASS GZ-MEL-044: 1/1
+  PASS AM-DRS-007: 1/1
+  PASS AM-MEL-007: 1/1
+  PASS GZ-MEL-029: 1/1
+  PASS AM-ENZ-001: 1/1
+  PASS AM-ETA-001: 1/1
+  PASS AM-KOH-001: 1/1
+  PASS AM-MEL-026: 1/1
+  PASS AM-MTS-001: 1/1
+  PASS AM-TEA-001: 1/1
+  PASS AM-WUD-002: 1/1
+  PASS GZ-ENZ-001: 1/1
+  PASS GZ-KOH-001: 1/1
+  PASS GZ-MTS-003: 1/1
+  PASS GZ-TEA-001: 1/1
+  PASS GZ-WUD-002: 1/1
+  PASS TI-WUD-001: 1/1
+  PASS AM-MEL-001: 1/1
+  PASS AM-MEL-004: 1/1
+  PASS GZ-MEL-024: 1/1
+  PASS AM-MEL-010: 1/1
+  PASS AM-SEY-002: 1/1
+  PASS AM-ZNA-001: 1/1
+  PASS GZ-MEL-035: 1/1
+  PASS GZ-SEY-002: 1/1
+  PASS GZ-ZNA-004: 1/1
+  PASS AM-MEL-011: 1/1
+  PASS GZ-MEL-046: 1/1
+  PASS AM-TSE-006: 1/1
+  PASS GZ-TSE-003: 1/1
+  PASS AM-WUD-003: 1/1
+  PASS TI-WUD-002: 1/1
+  PASS EN-WUD-001: 1/1
+
+MOVABLE ROWS (Monthly Day 7 + PENTECOST)
+  PASS AM-MEL-029: 12 rows, months 1-12 day 7, season PENTECOST
+  PASS GZ-MEL-157: 12 rows, months 1-12 day 7, season PENTECOST
+
+MOVABLE FLAG TESTS
+  PASS AM-MEL-029 1/7 -> (0, 'MONTHLY', 'PENTECOST')
+  PASS AM-MEL-029 7/7 -> (0, 'MONTHLY', 'PENTECOST')
+  PASS AM-MEL-029 12/7 -> (0, 'MONTHLY', 'PENTECOST')
+  PASS GZ-MEL-157 1/7 -> (0, 'MONTHLY', 'PENTECOST')
+  PASS GZ-MEL-157 7/7 -> (0, 'MONTHLY', 'PENTECOST')
+  PASS GZ-MEL-157 12/7 -> (0, 'MONTHLY', 'PENTECOST')
+
+MOVABLE ABSENT TESTS
+  PASS AM-MEL-029 not on 13/1
+  PASS AM-MEL-029 not on 1/1
+  PASS AM-MEL-029 not on 7/8
+  PASS GZ-MEL-157 not on 13/1
+  PASS GZ-MEL-157 not on 1/1
+  PASS GZ-MEL-157 not on 7/8
+
+DATE-ONLY LOOKUP MUST NOT RETURN THE 34 ALWAYS BOOKS
+  PASS 1/1 leaks=0
+  PASS 4/21 leaks=0
+  PASS 7/7 leaks=0
+  PASS 12/7 leaks=0
+
+COMBINED LOOKUP MUST INCLUDE ALL 77 ALWAYS BOOKS
+  PASS 1/1 found=91 missing_always=0
+  PASS 4/21 found=98 missing_always=0
+  PASS 4/27 found=93 missing_always=0
+  PASS 12/7 found=98 missing_always=0
+  PASS 13/6 found=92 missing_always=0
+
+PREVIOUS BATCHES PRESERVED
+  PASS GZ-GDL-025 4/27 -> (1, 'ANNUAL')
+  PASS AM-LAH-001 12/16 -> (1, 'ANNUAL')
+  PASS AM-GOL-001 7/21 -> (0, 'MONTHLY')
+  PASS AM-DIR-001: 12/12
+  PASS AM-MEL-030: 16/16
+  PASS AM-SEL-001: 16/16
+  PASS AM-GDL-030: 26/26
+  PASS GZ-HIB-001: 12/12
+
+PREVIOUS 43 ALWAYS PRESERVED
+  PASS AM-BEE-001: 1/1
+  PASS AM-LIT-001: 1/1
+  PASS AM-MEL-028: 1/1
+  PASS AM-MET-001: 1/1
+  PASS AM-MET-002: 1/1
+  PASS AM-MZM-001: 1/1
+  PASS AM-SEY-001: 1/1
+  PASS AM-TEA-002: 1/1
+  PASS AM-TEA-003: 1/1
+  PASS AM-TSE-001: 1/1
+  PASS AM-TSE-002: 1/1
+  PASS AM-TSE-003: 1/1
+  PASS AM-TSE-004: 1/1
+  PASS AM-TSE-005: 1/1
+  PASS AM-WUD-001: 1/1
+  PASS EN-TSE-001: 1/1
+  PASS GZ-BEE-001: 1/1
+  PASS GZ-DRS-004: 1/1
+  PASS GZ-HAT-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS GZ-MET-001: 1/1
+  PASS GZ-MET-003: 1/1
+  PASS GZ-MZM-004: 1/1
+  PASS GZ-SEY-001: 1/1
+  PASS GZ-TAM-003: 1/1
+  PASS GZ-TEA-002: 1/1
+  PASS GZ-TEA-003: 1/1
+  PASS GZ-TSE-001: 1/1
+  PASS GZ-TSE-002: 1/1
+  PASS GZ-TSE-004: 1/1
+  PASS GZ-TSE-005: 1/1
+  PASS GZ-TSE-006: 1/1
+  PASS GZ-WUD-001: 1/1
+  PASS OR-MZM-001: 1/1
+  PASS OR-TSE-001: 1/1
+  PASS OR-TSE-002: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-BEE-001: 1/1
+  PASS TI-MZM-001: 1/1
+  PASS TI-MZM-002: 1/1
+  PASS TI-TSE-001: 1/1
+  PASS TI-TSE-002: 1/1
+  PASS TI-TSE-003: 1/1
+
+LEAVE-UNMAPPED BOOKS STILL UNMAPPED: 0 rows (expect 0)
+calendar_day_id mismatches: 0
+books: 415
+commemorations: 0
+book_seasonal_mappings: 0
+PRAGMA integrity_check: ok
+
+UNMAPPED BOOKS AFTER THIS INSERT: 67 (expected 67)
+  AM-KID-001 | AM | TSE | MC-09/SC-09-04 | መዓዛ ቅዳሴ በአማርኛ
+  AM-MEN-001 | AM | TSE | MC-09/SC-09-03 | መንገደ ሰማይ በአማርኛ
+  AM-SBT-001 | AM | TSE | MC-08/SC-08-04 | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+  GZ-DRS-006 | GZ | DRS | MC-04/SC-04-03 | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+  GZ-GDL-001 | GZ | GDL | MC-05/SC-05-04 | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+  GZ-GDL-005 | GZ | GDL | MC-05/SC-05-04 | ገድለ አቡነ አበክረዙን በግእዝ
+  GZ-GDL-009 | GZ | GDL | MC-05/SC-05-02 | ገድለ ቅዱስ ሱስንዮስ በግእዝ
+  GZ-GDL-012 | GZ | GDL | MC-05/SC-05-02 | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+  GZ-GDL-018 | GZ | GDL | MC-05/SC-05-04 | ገድለ አቡነ ዮሐንስ በግእዝ
+  GZ-GDL-021 | GZ | GDL | MC-05/SC-05-03 | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+  GZ-GDL-026 | GZ | GDL | MC-05/SC-05-02 | ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ
+  GZ-GDL-034 | GZ | GDL | MC-05/SC-05-04 | ገድለ አቡነ ፍሬ ሚካኤል በግእዝ
+  GZ-MEL-003 | GZ | MEL | MC-06/SC-06-03 | መልከዐ አቡነ ሊቃኖስ በግእዝ
+  GZ-MEL-008 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+  GZ-MEL-009 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-015 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+  GZ-MEL-019 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ላሊበላ በግዕዝ
+  GZ-MEL-020 | GZ | MEL | MC-06/SC-06-02 | መልክዐ ልደታ በግእዝ
+  GZ-MEL-033 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ሠለስቱ ምዕት በግእዝ
+  GZ-MEL-034 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ሥሉስ ቅዱስ በግእዝ
+  GZ-MEL-038 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ሰላማ በግእዝ
+  GZ-MEL-041 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+  GZ-MEL-048 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+  GZ-MEL-056 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ቅዱስ አባዲር በግእዝ
+  GZ-MEL-067 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ቍርባን በግዕዝ
+  GZ-MEL-070 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ
+  GZ-MEL-072 | GZ | MEL | MC-06/SC-06-01 | መልክዐ አማኑኤል በግእዝ
+  GZ-MEL-076 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ
+  GZ-MEL-077 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ
+  GZ-MEL-078 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ
+  GZ-MEL-079 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ሙሴ በግእዝ
+  GZ-MEL-080 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+  GZ-MEL-081 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+  GZ-MEL-083 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ
+  GZ-MEL-090 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+  GZ-MEL-093 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ተክለ አልፋ በግእዝ
+  GZ-MEL-094 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+  GZ-MEL-099 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ
+  GZ-MEL-100 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ
+  GZ-MEL-102 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ
+  GZ-MEL-103 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ
+  GZ-MEL-107 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-108 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ይምአታ በግእዝ
+  GZ-MEL-109 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ዮሐንስ ከማ በግእዝ
+  GZ-MEL-110 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+  GZ-MEL-113 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+  GZ-MEL-115 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+  GZ-MEL-120 | GZ | MEL | MC-06/SC-06-03 | መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-135 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ኤዎስጣቴዎስ በግእዝ
+  GZ-MEL-138 | GZ | MEL | MC-06/SC-06-03 | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-139 | GZ | MEL | MC-06/SC-06-01 | መልክዐ እግዚአብሔር አብ በግእዝ
+  GZ-MEL-140 | GZ | MEL | MC-06/SC-06-01 | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+  GZ-MEL-142 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ካህናተ ሰማይ በግእዝ
+  GZ-MEL-146 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ያሬድ በግእዝ
+  GZ-MEL-147 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ያሬድ ካልዕ በግእዝ
+  GZ-MEL-148 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ይምርሃነ ክርስቶስ በግእዝ
+  GZ-MEL-153 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ገብረ ክርስቶስ በግእዝ
+  GZ-MEL-158 | GZ | MEL | MC-06/SC-06-03 | መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ
+  GZ-MEL-164 | GZ | MEL | MC-06/SC-06-01 | መልክዐ ፬ቱ እንስሳ በግእዝ
+  GZ-MTS-001 | GZ | MTS | MC-08/SC-08-04 | መጽሐፈ ልደታ ለማርያም በግእዝ
+  GZ-MTS-002 | GZ | MTS | MC-09/SC-09-03 | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+  GZ-SME-001 | GZ | SME | MC-09/SC-09-05 | ስምዐ ጲላጦስ በግእዝ
+  GZ-TBB-001 | GZ | TBB | MC-09/SC-09-05 | ጥበበ ሰሎሞን በግእዝ
+  GZ-TUL-001 | GZ | MET | MC-08/SC-08-03 | መጽሐፈ ቱላዳን በግእዝ
+  GZ-ZNA-001 | GZ | ZNA | MC-07/SC-07-04 | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+  GZ-ZNA-002 | GZ | ZNA | MC-07/SC-07-04 | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+  GZ-ZNA-003 | GZ | ZNA | MC-07/SC-07-04 | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+
+ORIGINAL DB UNCHANGED CHECK
+  size before: 57786368
+  size after : 57786368
+  mappings before: 811
+  mappings after : 811
+  seasonal_periods before: 3
+  seasonal_periods after : 3
+  mtime unchanged
+
+ALWAYS CSV: C:\Android Project Collection\analyze\New folder\for analysis\skipped38_always_rows.csv rows=34
+MOVABLE CSV: C:\Android Project Collection\analyze\New folder\for analysis\skipped38_movable_rows.csv rows=24
+UNMAPPED CSV: C:\Android Project Collection\analyze\New folder\for analysis\unmapped_books_after_batch6.csv rows=67
+Working copy updated: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+RESULT: PASS
+34 weekly/daily books -> 34 ALWAYS rows (no weekday numbers).
+2 Pentecost books -> 24 Monthly Day 7 rows + PENTECOST season_code.
+seasonal_periods contains PENTECOST (movable, HOLY_WEEK pattern).
+AM-KID-001 and AM-MEN-001 left unmapped.
+Previous batches preserved. Original DB not modified.

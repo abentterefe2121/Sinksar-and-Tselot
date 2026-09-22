@@ -1,0 +1,437 @@
+ANALYZE ALL UNMAPPED BOOKS
+Generated: 2026-09-21T18:59:59
+Read-only DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Purpose: organize the unmapped books for the next decision batches
+No inserts. No guessing. Candidates need your confirmation.
+
+SUMMARY
+  total books: 415
+  mapped books: 348
+  unmapped books: 67
+  unmapped AM: 3
+  unmapped GZ: 64
+  educational keep-outs (locked, stay unmapped): AM-KID-001, AM-MEN-001
+  remaining to decide: 65
+
+================================================================================
+UNMAPPED BY MAIN/SUB CATEGORY
+================================================================================
+
+MC-04 / SC-04-03  (1 books)
+  GZ-DRS-006 | GZ | DRS | 1 ch | TSADQAN | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+
+MC-05 / SC-05-02  (3 books)
+  GZ-GDL-009 | GZ | GDL | 1 ch | TSADQAN | ገድለ ቅዱስ ሱስንዮስ በግእዝ
+  GZ-GDL-012 | GZ | GDL | 1 ch | TSADQAN | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+  GZ-GDL-026 | GZ | GDL | 1 ch | TSADQAN | ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ
+
+MC-05 / SC-05-03  (1 books)
+  GZ-GDL-021 | GZ | GDL | 4 ch | TSADQAN | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+
+MC-05 / SC-05-04  (4 books)
+  GZ-GDL-001 | GZ | GDL | 22 ch | TSADQAN | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+  GZ-GDL-005 | GZ | GDL | 1 ch | TSADQAN | ገድለ አቡነ አበክረዙን በግእዝ
+  GZ-GDL-018 | GZ | GDL | 1 ch | TSADQAN | ገድለ አቡነ ዮሐንስ በግእዝ
+  GZ-GDL-034 | GZ | GDL | 1 ch | MALAKT | ገድለ አቡነ ፍሬ ሚካኤል በግእዝ
+
+MC-06 / SC-06-01  (10 books)
+  GZ-MEL-008 | GZ | MEL | 1 ch | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+  GZ-MEL-009 | GZ | MEL | 1 ch | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-015 | GZ | MEL | 1 ch | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+  GZ-MEL-034 | GZ | MEL | 1 ch | AMLAK | መልክዐ ሥሉስ ቅዱስ በግእዝ
+  GZ-MEL-067 | GZ | MEL | 1 ch | AMLAK | መልክዐ ቍርባን በግዕዝ
+  GZ-MEL-072 | GZ | MEL | 1 ch | AMLAK | መልክዐ አማኑኤል በግእዝ
+  GZ-MEL-139 | GZ | MEL | 1 ch | AMLAK | መልክዐ እግዚአብሔር አብ በግእዝ
+  GZ-MEL-140 | GZ | MEL | 1 ch | AMLAK | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+  GZ-MEL-142 | GZ | MEL | 1 ch | MALAKT | መልክዐ ካህናተ ሰማይ በግእዝ
+  GZ-MEL-164 | GZ | MEL | 1 ch | MALAKT | መልክዐ ፬ቱ እንስሳ በግእዝ
+
+MC-06 / SC-06-02  (1 books)
+  GZ-MEL-020 | GZ | MEL | 1 ch | MARIAM | መልክዐ ልደታ በግእዝ
+
+MC-06 / SC-06-03  (36 books)
+  GZ-MEL-003 | GZ | MEL | 1 ch | TESATU | መልከዐ አቡነ ሊቃኖስ በግእዝ
+  GZ-MEL-019 | GZ | MEL | 2 ch | TSADQAN | መልክዐ ላሊበላ በግዕዝ
+  GZ-MEL-033 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ሠለስቱ ምዕት በግእዝ
+  GZ-MEL-038 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ሰላማ በግእዝ
+  GZ-MEL-041 | GZ | MEL | 1 ch | SAMAET | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+  GZ-MEL-048 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+  GZ-MEL-056 | GZ | MEL | 1 ch | SAMAET | መልክዐ ቅዱስ አባዲር በግእዝ
+  GZ-MEL-070 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ
+  GZ-MEL-076 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ
+  GZ-MEL-077 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ
+  GZ-MEL-078 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ
+  GZ-MEL-079 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ሙሴ በግእዝ
+  GZ-MEL-080 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+  GZ-MEL-081 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+  GZ-MEL-083 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ
+  GZ-MEL-090 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+  GZ-MEL-093 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ተክለ አልፋ በግእዝ
+  GZ-MEL-094 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+  GZ-MEL-099 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ
+  GZ-MEL-100 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ
+  GZ-MEL-102 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ
+  GZ-MEL-103 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ
+  GZ-MEL-107 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-108 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ይምአታ በግእዝ
+  GZ-MEL-109 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ዮሐንስ ከማ በግእዝ
+  GZ-MEL-110 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+  GZ-MEL-113 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+  GZ-MEL-115 | GZ | MEL | 1 ch | TESATU | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+  GZ-MEL-120 | GZ | MEL | 1 ch | TSADQAN | መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-135 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ኤዎስጣቴዎስ በግእዝ
+  GZ-MEL-138 | GZ | MEL | 1 ch | TSADQAN | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-146 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ያሬድ በግእዝ
+  GZ-MEL-147 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ያሬድ ካልዕ በግእዝ
+  GZ-MEL-148 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ይምርሃነ ክርስቶስ በግእዝ
+  GZ-MEL-153 | GZ | MEL | 1 ch | TSADQAN | መልክዐ ገብረ ክርስቶስ በግእዝ
+  GZ-MEL-158 | GZ | MEL | 1 ch | HAWARYAT | መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ
+
+MC-07 / SC-07-04  (3 books)
+  GZ-ZNA-001 | GZ | ZNA | 2 ch | TSADQAN | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+  GZ-ZNA-002 | GZ | ZNA | 95 ch | TSADQAN | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+  GZ-ZNA-003 | GZ | ZNA | 15 ch | TSADQAN | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+
+MC-08 / SC-08-03  (1 books)
+  GZ-TUL-001 | GZ | MET | 7 ch | AMLAK | መጽሐፈ ቱላዳን በግእዝ
+
+MC-08 / SC-08-04  (2 books)
+  AM-SBT-001 | AM | TSE | 1 ch | HAYMANOT | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+  GZ-MTS-001 | GZ | MTS | 1 ch | MARIAM | መጽሐፈ ልደታ ለማርያም በግእዝ
+
+MC-09 / SC-09-03  (2 books)
+  AM-MEN-001 | AM | TSE | 1 ch | AMLAK | መንገደ ሰማይ በአማርኛ
+  GZ-MTS-002 | GZ | MTS | 1 ch | TSADQAN | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+
+MC-09 / SC-09-04  (1 books)
+  AM-KID-001 | AM | TSE | 1 ch | AMLAK | መዓዛ ቅዳሴ በአማርኛ
+
+MC-09 / SC-09-05  (2 books)
+  GZ-SME-001 | GZ | SME | 7 ch | TSADQAN | ስምዐ ጲላጦስ በግእዝ
+  GZ-TBB-001 | GZ | TBB | 1 ch | TSADQAN | ጥበበ ሰሎሞን በግእዝ
+
+================================================================================
+WEEKDAY-CHAPTER DETECTION (books whose chapters are named by weekday)
+================================================================================
+
+  GZ-MEL-034 | መልክዐ ሥሉስ ቅዱስ በግእዝ | 1/1 weekday chapters
+    C01: መልክዐ ሥሉስ ቅዱስ በግእዝ
+    -> candidate for the locked ALWAYS rule (weekly/daily reading)
+
+  GZ-TUL-001 | መጽሐፈ ቱላዳን በግእዝ | 5/7 weekday chapters
+    C01: ቱላዳን ዘሰኑይ
+    C03: ቱላዳን ዘረቡዕ
+    C04: ቱላዳን ዘሐሙስ
+    C05: ቱላዳን ዘዓርብ።
+    C06: ቱላዳን ዘቀዳሚት
+    -> candidate for the locked ALWAYS rule (weekly/daily reading)
+
+================================================================================
+SUBJECT CROSS-MATCH: unmapped vs already-decided books and CSV groups
+================================================================================
+  Matches are CANDIDATES only. Same saint token does not guarantee
+  same person (e.g. two different Abba Endreyas). You confirm each one.
+
+  AM-KID-001 | መዓዛ ቅዳሴ በአማርኛ
+    CSV-GROUP CANDIDATE: መዓዛ ቅዳሴ | dates= | src=Liturgical Commentary | shared=መዓዛ,ቅዳሴ
+
+  AM-MEN-001 | መንገደ ሰማይ በአማርኛ
+    CSV-GROUP CANDIDATE: መንገደ ሰማይ | dates=ጸሎተ ፍትሐት (Funeral & Memorial Services) | src=Liturgical Memorial Service | shared=መንገደ
+
+  AM-SBT-001 | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-DRS-006 | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-GDL-001 | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+    MAPPED CANDIDATE: AM-MEL-053 | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ | shared=ሊባኖስ
+    MAPPED CANDIDATE: GZ-GDL-011 | ገድለ አቡነ ፊልጶስ በግእዝ | shared=ፊልጶስ
+    MAPPED CANDIDATE: GZ-MEL-018 | መልክዐ ሊባኖስ በግእዝ | shared=ሊባኖስ
+    MAPPED CANDIDATE: GZ-MEL-074 | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ | shared=ሊባኖስ
+    MAPPED CANDIDATE: GZ-MEL-118 | መልክዐ አቡነ ፊልጶስ በግእዝ | shared=ፊልጶስ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-120 (decide together)
+
+  GZ-GDL-005 | ገድለ አቡነ አበክረዙን በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-GDL-009 | ገድለ ቅዱስ ሱስንዮስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-GDL-012 | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-GDL-021 | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-146, GZ-MEL-147 (decide together)
+
+  GZ-GDL-026 | ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-056 (decide together)
+
+  GZ-MEL-003 | መልከዐ አቡነ ሊቃኖስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-008 | መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-015 | መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-019 | መልክዐ ላሊበላ በግዕዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-034 | መልክዐ ሥሉስ ቅዱስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-038 | መልክዐ ሰላማ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-041 | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-048 | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-056 | መልክዐ ቅዱስ አባዲር በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-GDL-026 (decide together)
+
+  GZ-MEL-067 | መልክዐ ቍርባን በግዕዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-070 | መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ
+    MAPPED CANDIDATE: AM-GDL-004 | ገድለ ተክለ ሃይማኖት በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: AM-GDL-022 | የመባዓ ጽዮን ገድል በአማርኛ | shared=ጽዮን
+    MAPPED CANDIDATE: AM-MEL-057 | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: AM-MEL-058 | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: GZ-GDL-017 | ገድለ አቡነ ተክለ ሐዋርያት በግእዝ | shared=ተክለ
+    CSV-GROUP CANDIDATE: አቡነ ተክለ ሃይማኖት | dates=ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24 | src=Sinksar + National Canon | shared=ተክለ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-093, GZ-MEL-113 (decide together)
+
+  GZ-MEL-076 | መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ
+    MAPPED CANDIDATE: AM-GDL-015 | ገድለ ሰማዕት ቅዱስ መርቆሬዎስ በአማርኛ | shared=መርቆሬዎስ
+    MAPPED CANDIDATE: GZ-GDL-002 | ገድለ ሰማዕት ቅዱስ መርቆሬዎስ በግእዝ | shared=መርቆሬዎስ
+    MAPPED CANDIDATE: GZ-MEL-039 | መልክዐ ሰማዕት ቅዱስ መርቆሬዎስ በግእዝ | shared=መርቆሬዎስ
+    CSV-GROUP CANDIDATE: ቅዱስ መርቆሬዎስ | dates=ኅዳር 25, ጥር 25, ሐምሌ 25 / Monthly Day 25 | src=Sinksar Canonical Cycle | shared=መርቆሬዎስ
+
+  GZ-MEL-077 | መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-078 | መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ
+    MAPPED CANDIDATE: GZ-MEL-145 | መልክዐ ዓቢየ እግዚእ በግእዝ | shared=እግዚእ
+    MAPPED CANDIDATE: GZ-MEL-150 | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ | shared=እግዚእ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-100 (decide together)
+
+  GZ-MEL-080 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-081 (decide together)
+
+  GZ-MEL-081 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-080 (decide together)
+
+  GZ-MEL-083 | መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ
+    MAPPED CANDIDATE: AM-SEY-001 | ሰይፈ መለኮት በአማርኛ | shared=ሰይፈ
+    MAPPED CANDIDATE: AM-SEY-002 | ሰይፈ ሥላሴ በአማርኛ | shared=ሰይፈ
+    MAPPED CANDIDATE: GZ-SEY-001 | ሰይፈ መለኮት በግእዝ | shared=ሰይፈ
+    MAPPED CANDIDATE: GZ-SEY-002 | ሰይፈ ሥላሴ በግእዝ | shared=ሰይፈ
+
+  GZ-MEL-090 | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-093 | መልክዐ አቡነ ተክለ አልፋ በግእዝ
+    MAPPED CANDIDATE: AM-GDL-004 | ገድለ ተክለ ሃይማኖት በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: AM-MEL-057 | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: AM-MEL-058 | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ | shared=ተክለ
+    MAPPED CANDIDATE: GZ-GDL-017 | ገድለ አቡነ ተክለ ሐዋርያት በግእዝ | shared=ተክለ
+    MAPPED CANDIDATE: GZ-MEL-068 | መልክዐ ተክለ ሃይማኖት በግእዝ | shared=ተክለ
+    CSV-GROUP CANDIDATE: አቡነ ተክለ ሃይማኖት | dates=ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24 | src=Sinksar + National Canon | shared=ተክለ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-070 (decide together)
+
+  GZ-MEL-094 | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-099 | መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-100 | መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ
+    MAPPED CANDIDATE: GZ-MEL-145 | መልክዐ ዓቢየ እግዚእ በግእዝ | shared=እግዚእ
+    MAPPED CANDIDATE: GZ-MEL-150 | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ | shared=እግዚእ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-078 (decide together)
+
+  GZ-MEL-102 | መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ
+    MAPPED CANDIDATE: AM-MEL-046 | የቅዱስ እንድርያስ ሐዋርያ መልክዕ በአማርኛ | shared=እንድርያስ
+    MAPPED CANDIDATE: GZ-MEL-137 | መልክዐ እንድርያስ ሐዋርያ በግእዝ | shared=እንድርያስ
+    CSV-GROUP CANDIDATE: ቅዱስ እንድርያስ | dates=ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4 | src=Sinksar Canonical Cycle | shared=እንድርያስ
+    CSV-GROUP CANDIDATE: ቅዱስ እንድርያስ ሐዋርያ | dates=ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4 | src=Sinksar Canonical Cycle | shared=እንድርያስ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-103 (decide together)
+
+  GZ-MEL-103 | መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ
+    MAPPED CANDIDATE: AM-MEL-046 | የቅዱስ እንድርያስ ሐዋርያ መልክዕ በአማርኛ | shared=እንድርያስ
+    MAPPED CANDIDATE: GZ-MEL-137 | መልክዐ እንድርያስ ሐዋርያ በግእዝ | shared=እንድርያስ
+    CSV-GROUP CANDIDATE: ቅዱስ እንድርያስ | dates=ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4 | src=Sinksar Canonical Cycle | shared=እንድርያስ
+    CSV-GROUP CANDIDATE: ቅዱስ እንድርያስ ሐዋርያ | dates=ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4 | src=Sinksar Canonical Cycle | shared=እንድርያስ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-102 (decide together)
+
+  GZ-MEL-107 | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-120 (decide together)
+
+  GZ-MEL-108 | መልክዐ አቡነ ይምአታ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-110 | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-113 | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+    MAPPED CANDIDATE: AM-GDL-022 | የመባዓ ጽዮን ገድል በአማርኛ | shared=ጽዮን
+    MAPPED CANDIDATE: GZ-MEL-089 | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ | shared=ወዘደብረ
+    MAPPED CANDIDATE: GZ-MEL-161 | መልክዐ ጽዮን ማርያም ሣልስ በግእዝ | shared=ጽዮን
+    UNMAPPED SAME-SUBJECT: GZ-MEL-070 (decide together)
+
+  GZ-MEL-115 | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-120 | መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ
+    MAPPED CANDIDATE: GZ-GDL-011 | ገድለ አቡነ ፊልጶስ በግእዝ | shared=ፊልጶስ
+    MAPPED CANDIDATE: GZ-MEL-118 | መልክዐ አቡነ ፊልጶስ በግእዝ | shared=ፊልጶስ
+    UNMAPPED SAME-SUBJECT: GZ-GDL-001, GZ-MEL-107 (decide together)
+
+  GZ-MEL-135 | መልክዐ ኤዎስጣቴዎስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-138 | መልክዐ እንጦንዮስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-MEL-139 | መልክዐ እግዚአብሔር አብ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-140 (decide together)
+
+  GZ-MEL-140 | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-139 (decide together)
+
+  GZ-MEL-146 | መልክዐ ያሬድ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-GDL-021, GZ-MEL-147 (decide together)
+
+  GZ-MEL-147 | መልክዐ ያሬድ ካልዕ በግእዝ
+    UNMAPPED SAME-SUBJECT: GZ-GDL-021, GZ-MEL-146 (decide together)
+
+  GZ-MEL-148 | መልክዐ ይምርሃነ ክርስቶስ በግእዝ
+    MAPPED CANDIDATE: AM-GDL-005 | ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-GDL-014 | የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-MEL-018 | መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-MEL-060 | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-MIK-001 | ምክሓ ምእመናን ክርስቶስ በአማርኛ | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: ቅድስት ክርስቶስ ሠምራ | dates=መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24 | src=Sinksar + Monastic Covenant | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: ቅድስት ፍቅርተ ክርስቶስ | dates=የካቲት 29, መጋቢት 29 / Monthly Day 29 | src=Sinksar 100% Match | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: አቡነ እስትንፋሰ ክርስቶስ | dates=የካቲት 9, ሚያዝያ 9 / Monthly Day 9 | src=Sinksar 100% Match | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: ኢየሱስ ክርስቶስ | dates=ታኅሣሥ 29, መጋቢት 29 / Monthly Day 29 | src=Sinksar Canonical Cycle | shared=ክርስቶስ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-153 (decide together)
+
+  GZ-MEL-153 | መልክዐ ገብረ ክርስቶስ በግእዝ
+    MAPPED CANDIDATE: AM-GDL-005 | ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-GDL-007 | ገድለ አቡነ ገብረ መንፈስ ቅዱስ በአማርኛ | shared=ገብረ
+    MAPPED CANDIDATE: AM-GDL-014 | የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-MEL-018 | መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ | shared=ክርስቶስ
+    MAPPED CANDIDATE: AM-MEL-060 | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: ቅድስት ክርስቶስ ሠምራ | dates=መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24 | src=Sinksar + Monastic Covenant | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: ቅድስት ፍቅርተ ክርስቶስ | dates=የካቲት 29, መጋቢት 29 / Monthly Day 29 | src=Sinksar 100% Match | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: አቡነ እስትንፋሰ ክርስቶስ | dates=የካቲት 9, ሚያዝያ 9 / Monthly Day 9 | src=Sinksar 100% Match | shared=ክርስቶስ
+    CSV-GROUP CANDIDATE: አቡነ ገብረ መንፈስ ቅዱስ | dates=ጥቅምት 5, ታኅሣሥ 29, መጋቢት 5, መጋቢት 29 / Monthly Day 5 | src=Sinksar Canonical Cycle | shared=ገብረ
+    CSV-GROUP CANDIDATE: ኢየሱስ ክርስቶስ | dates=ታኅሣሥ 29, መጋቢት 29 / Monthly Day 29 | src=Sinksar Canonical Cycle | shared=ክርስቶስ
+    UNMAPPED SAME-SUBJECT: GZ-MEL-148 (decide together)
+
+  GZ-MEL-158 | መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ
+    MAPPED CANDIDATE: AM-GDL-020 | ገድለ እምነ ወለተ ጴጥሮስ በአማርኛ | shared=ጴጥሮስ
+    MAPPED CANDIDATE: GZ-GDL-003 | ገድለ እምነ ወለተ ጴጥሮስ በግእዝ | shared=ጴጥሮስ
+    CSV-GROUP CANDIDATE: እምነ ወለተ ጴጥሮስ | dates=ኅዳር 17 / Monthly Day 17 | src=Sinksar 100% Match | shared=ጴጥሮስ
+    CSV-GROUP CANDIDATE: ወለተ ጴጥሮስ | dates=ኅዳር 17 / Monthly Day 17 | src=Sinksar 100% Match | shared=ጴጥሮስ
+
+  GZ-MEL-164 | መልክዐ ፬ቱ እንስሳ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-SME-001 | ስምዐ ጲላጦስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-TBB-001 | ጥበበ ሰሎሞን በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-ZNA-002 | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+  GZ-ZNA-003 | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+    no match anywhere -> needs fresh sinksar research
+
+================================================================================
+UNMAPPED SUBJECT CLUSTERS (books sharing a distinctive title token)
+================================================================================
+  GZ-GDL-001 + GZ-MEL-107 + GZ-MEL-120
+  GZ-GDL-021 + GZ-MEL-146 + GZ-MEL-147
+  GZ-GDL-026 + GZ-MEL-056
+  GZ-MEL-070 + GZ-MEL-093 + GZ-MEL-113
+  GZ-MEL-078 + GZ-MEL-100
+  GZ-MEL-080 + GZ-MEL-081
+  GZ-MEL-102 + GZ-MEL-103
+  GZ-MEL-139 + GZ-MEL-140
+  GZ-MEL-148 + GZ-MEL-153
+
+================================================================================
+BOOKS WITH NO CANDIDATE MATCH (need fresh research)
+================================================================================
+  AM-SBT-001 | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+  GZ-DRS-006 | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+  GZ-GDL-005 | ገድለ አቡነ አበክረዙን በግእዝ
+  GZ-GDL-009 | ገድለ ቅዱስ ሱስንዮስ በግእዝ
+  GZ-GDL-012 | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+  GZ-GDL-018 | ገድለ አቡነ ዮሐንስ በግእዝ
+  GZ-GDL-021 | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+  GZ-GDL-026 | ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ
+  GZ-GDL-034 | ገድለ አቡነ ፍሬ ሚካኤል በግእዝ
+  GZ-MEL-003 | መልከዐ አቡነ ሊቃኖስ በግእዝ
+  GZ-MEL-008 | መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+  GZ-MEL-009 | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-015 | መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+  GZ-MEL-019 | መልክዐ ላሊበላ በግዕዝ
+  GZ-MEL-020 | መልክዐ ልደታ በግእዝ
+  GZ-MEL-033 | መልክዐ ሠለስቱ ምዕት በግእዝ
+  GZ-MEL-034 | መልክዐ ሥሉስ ቅዱስ በግእዝ
+  GZ-MEL-038 | መልክዐ ሰላማ በግእዝ
+  GZ-MEL-041 | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+  GZ-MEL-048 | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+  GZ-MEL-056 | መልክዐ ቅዱስ አባዲር በግእዝ
+  GZ-MEL-067 | መልክዐ ቍርባን በግዕዝ
+  GZ-MEL-072 | መልክዐ አማኑኤል በግእዝ
+  GZ-MEL-077 | መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ
+  GZ-MEL-079 | መልክዐ አቡነ ሙሴ በግእዝ
+  GZ-MEL-080 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+  GZ-MEL-081 | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+  GZ-MEL-090 | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+  GZ-MEL-094 | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+  GZ-MEL-099 | መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ
+  GZ-MEL-107 | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-108 | መልክዐ አቡነ ይምአታ በግእዝ
+  GZ-MEL-109 | መልክዐ አቡነ ዮሐንስ ከማ በግእዝ
+  GZ-MEL-110 | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+  GZ-MEL-115 | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+  GZ-MEL-135 | መልክዐ ኤዎስጣቴዎስ በግእዝ
+  GZ-MEL-138 | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-139 | መልክዐ እግዚአብሔር አብ በግእዝ
+  GZ-MEL-140 | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+  GZ-MEL-142 | መልክዐ ካህናተ ሰማይ በግእዝ
+  GZ-MEL-146 | መልክዐ ያሬድ በግእዝ
+  GZ-MEL-147 | መልክዐ ያሬድ ካልዕ በግእዝ
+  GZ-MEL-164 | መልክዐ ፬ቱ እንስሳ በግእዝ
+  GZ-MTS-001 | መጽሐፈ ልደታ ለማርያም በግእዝ
+  GZ-MTS-002 | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+  GZ-SME-001 | ስምዐ ጲላጦስ በግእዝ
+  GZ-TBB-001 | ጥበበ ሰሎሞን በግእዝ
+  GZ-TUL-001 | መጽሐፈ ቱላዳን በግእዝ
+  GZ-ZNA-001 | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+  GZ-ZNA-002 | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+  GZ-ZNA-003 | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+
+================================================================================
+EDUCATIONAL KEEP-OUTS (locked by you, stay unmapped)
+================================================================================
+  AM-KID-001 | መዓዛ ቅዳሴ በአማርኛ
+  AM-MEN-001 | መንገደ ሰማይ በአማርኛ
+
+================================================================================
+OUTPUT
+================================================================================
+  Analysis CSV: C:\Android Project Collection\analyze\New folder\for analysis\unmapped_books_analysis.csv rows=67
+  Report: C:\Android Project Collection\analyze\New folder\for analysis\analyze_unmapped_books_report.txt

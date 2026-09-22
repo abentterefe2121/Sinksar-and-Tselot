@@ -1,0 +1,77 @@
+FINAL AUDIT
+Generated: 2026-09-21T23:11:58
+
+ORIGINAL DB: mappings=811 ALWAYS=0 seasons=3
+
+WORKING COPY: mappings=3591 books=415 calendar_days=366 seasons=4 commemorations=0 seasonal_mappings=0
+
+CYCLES: {'ALWAYS': 77, 'CALENDAR': 3513, 'SEASON': 1}
+NOTES: {'ALWAYS': 77, 'ANNUAL': 507, 'ANNUAL+MONTHLY': 367, 'MONTHLY': 2639, 'PENTECOST': 1}
+PENTECOST season rows: 25
+duplicate book_id+date rows: 0
+calendar_day_id mismatches: 0
+UNMAPPED BOOKS: 10
+  AM-KID-001 | መዓዛ ቅዳሴ በአማርኛ
+  AM-MEN-001 | መንገደ ሰማይ በአማርኛ
+  AM-SBT-001 | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+  GZ-DRS-006 | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+  GZ-MEL-067 | መልክዐ ቍርባን በግዕዝ
+  GZ-MTS-002 | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+  GZ-TBB-001 | ጥበበ ሰሎሞን በግእዝ
+  GZ-TUL-001 | መጽሐፈ ቱላዳን በግእዝ
+  GZ-ZNA-001 | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+  GZ-ZNA-003 | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+MAPPED BOOKS: 405
+integrity_check: ok
+
+SPOT CHECKS
+  PASS GZ-GDL-025 4/27 -> [(1, 'ANNUAL')]
+  PASS AM-GOL-001 7/21 -> [(0, 'MONTHLY')]
+  PASS AM-BEE-001 / -> (1, 1)
+  PASS TI-WUD-002 / -> (1, 1)
+  PASS AM-MEL-029 7/7 -> [(0, 'MONTHLY')]
+  PASS GZ-MEL-090 / -> [('SEASON', 'PENTECOST', 'PENTECOST')]
+  PASS GZ-GDL-001 11/28 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-008 6/27 -> [(1, 'ANNUAL+MONTHLY')]
+  PASS GZ-MEL-158 11/5 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-158 10/5 -> 0
+  PASS GZ-MEL-102 7/29 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-102 4/4 -> 0
+  PASS GZ-MEL-103 6/1 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-076 4/16 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-076 3/25 -> 0
+  PASS GZ-MEL-120 12/5 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-120 11/28 -> 0
+  PASS GZ-MEL-113 7/17 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-113 3/17 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-138 5/22 -> [(1, 'ANNUAL')]
+  PASS GZ-GDL-018 11/29 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-110 12/8 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-079 1/4 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-080 5/14 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-081 3/13 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-094 3/3 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-056 1/28 -> [(1, 'ANNUAL')]
+  PASS GZ-GDL-026 1/28 -> [(1, 'ANNUAL')]
+  PASS GZ-GDL-009 8/26 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-153 2/14 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-148 2/19 -> [(1, 'ANNUAL')]
+  PASS GZ-ZNA-002 7/27 -> [(1, 'ANNUAL')]
+  PASS GZ-SME-001 10/25 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-034 5/7 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-048 2/19 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-100 9/19 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-083 2/19 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-108 2/28 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-107 1/13 -> [(0, 'MONTHLY')]
+  PASS GZ-MEL-115 2/6 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-033 3/9 -> [(1, 'ANNUAL')]
+  PASS GZ-MEL-070 12/13 -> [(1, 'ANNUAL')]
+  PASS GZ-GDL-005 11/3 -> [(1, 'ANNUAL')]
+
+KEEP-OUTS UNMAPPED
+  PASS AM-KID-001: 0 rows
+  PASS AM-MEN-001: 0 rows
+  PASS GZ-DRS-006: 0 rows
+
+RESULT: PASS - DB IS COMPLETE AND CONSISTENT

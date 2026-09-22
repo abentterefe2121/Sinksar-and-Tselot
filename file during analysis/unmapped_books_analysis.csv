@@ -1,0 +1,68 @@
+﻿book_id,language_id,category_id,main_category_id,sub_category_id,subject_category,title,total_chapters,weekday_chapter_count,weekday_chapters,matched_mapped_books,matched_csv_groups,unmapped_cluster
+AM-KID-001,AM,TSE,MC-09,SC-09-04,AMLAK,መዓዛ ቅዳሴ በአማርኛ,1,0,,,"መዓዛ ቅዳሴ [] (መዓዛ,ቅዳሴ)",
+AM-MEN-001,AM,TSE,MC-09,SC-09-03,AMLAK,መንገደ ሰማይ በአማርኛ,1,0,,,መንገደ ሰማይ [ጸሎተ ፍትሐት (Funeral & Memorial Services)] (መንገደ),
+AM-SBT-001,AM,TSE,MC-08,SC-08-04,HAYMANOT,የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት,1,0,,,,
+GZ-DRS-006,GZ,DRS,MC-04,SC-04-03,TSADQAN,ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ,1,0,,,,
+GZ-GDL-001,GZ,GDL,MC-05,SC-05-04,TSADQAN,ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ,22,0,,AM-MEL-053 (ሊባኖስ) ; GZ-GDL-011 (ፊልጶስ) ; GZ-MEL-018 (ሊባኖስ) ; GZ-MEL-074 (ሊባኖስ) ; GZ-MEL-118 (ፊልጶስ),,GZ-MEL-120
+GZ-GDL-005,GZ,GDL,MC-05,SC-05-04,TSADQAN,ገድለ አቡነ አበክረዙን በግእዝ,1,0,,,,
+GZ-GDL-009,GZ,GDL,MC-05,SC-05-02,TSADQAN,ገድለ ቅዱስ ሱስንዮስ በግእዝ,1,0,,,,
+GZ-GDL-012,GZ,GDL,MC-05,SC-05-02,TSADQAN,ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ,1,0,,,,
+GZ-GDL-018,GZ,GDL,MC-05,SC-05-04,TSADQAN,ገድለ አቡነ ዮሐንስ በግእዝ,1,0,,,,
+GZ-GDL-021,GZ,GDL,MC-05,SC-05-03,TSADQAN,ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ,4,0,,,,"GZ-MEL-146,GZ-MEL-147"
+GZ-GDL-026,GZ,GDL,MC-05,SC-05-02,TSADQAN,ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ,1,0,,,,GZ-MEL-056
+GZ-GDL-034,GZ,GDL,MC-05,SC-05-04,MALAKT,ገድለ አቡነ ፍሬ ሚካኤል በግእዝ,1,0,,,,
+GZ-MEL-003,GZ,MEL,MC-06,SC-06-03,TESATU,መልከዐ አቡነ ሊቃኖስ በግእዝ,1,0,,,,
+GZ-MEL-008,GZ,MEL,MC-06,SC-06-01,MALAKT,መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ,1,0,,,,
+GZ-MEL-009,GZ,MEL,MC-06,SC-06-01,MALAKT,መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ,1,0,,,,
+GZ-MEL-015,GZ,MEL,MC-06,SC-06-01,MALAKT,መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ,1,0,,,,
+GZ-MEL-019,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ላሊበላ በግዕዝ,2,0,,,,
+GZ-MEL-020,GZ,MEL,MC-06,SC-06-02,MARIAM,መልክዐ ልደታ በግእዝ,1,0,,,,
+GZ-MEL-033,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ሠለስቱ ምዕት በግእዝ,1,0,,,,
+GZ-MEL-034,GZ,MEL,MC-06,SC-06-01,AMLAK,መልክዐ ሥሉስ ቅዱስ በግእዝ,1,1,C1:መልክዐ ሥሉስ ቅዱስ በግእዝ,,,
+GZ-MEL-038,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ሰላማ በግእዝ,1,0,,,,
+GZ-MEL-041,GZ,MEL,MC-06,SC-06-03,SAMAET,መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ,1,0,,,,
+GZ-MEL-048,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ቅዱሳን ዘመጠራ በግእዝ,1,0,,,,
+GZ-MEL-056,GZ,MEL,MC-06,SC-06-03,SAMAET,መልክዐ ቅዱስ አባዲር በግእዝ,1,0,,,,GZ-GDL-026
+GZ-MEL-067,GZ,MEL,MC-06,SC-06-01,AMLAK,መልክዐ ቍርባን በግዕዝ,1,0,,,,
+GZ-MEL-070,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ,1,0,,AM-GDL-004 (ተክለ) ; AM-GDL-022 (ጽዮን) ; AM-MEL-057 (ተክለ) ; AM-MEL-058 (ተክለ) ; GZ-GDL-017 (ተክለ),"አቡነ ተክለ ሃይማኖት [ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24] (ተክለ)","GZ-MEL-093,GZ-MEL-113"
+GZ-MEL-072,GZ,MEL,MC-06,SC-06-01,AMLAK,መልክዐ አማኑኤል በግእዝ,1,0,,,,
+GZ-MEL-076,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ,1,0,,AM-GDL-015 (መርቆሬዎስ) ; GZ-GDL-002 (መርቆሬዎስ) ; GZ-MEL-039 (መርቆሬዎስ),"ቅዱስ መርቆሬዎስ [ኅዳር 25, ጥር 25, ሐምሌ 25 / Monthly Day 25] (መርቆሬዎስ)",
+GZ-MEL-077,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ,1,0,,,,
+GZ-MEL-078,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ,1,0,,GZ-MEL-145 (እግዚእ) ; GZ-MEL-150 (እግዚእ),,GZ-MEL-100
+GZ-MEL-079,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ሙሴ በግእዝ,1,0,,,,
+GZ-MEL-080,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ,1,0,,,,GZ-MEL-081
+GZ-MEL-081,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ,1,0,,,,GZ-MEL-080
+GZ-MEL-083,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ,1,0,,AM-SEY-001 (ሰይፈ) ; AM-SEY-002 (ሰይፈ) ; GZ-SEY-001 (ሰይፈ) ; GZ-SEY-002 (ሰይፈ),,
+GZ-MEL-090,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ተንሥአ መድኅን በግእዝ,1,0,,,,
+GZ-MEL-093,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ተክለ አልፋ በግእዝ,1,0,,AM-GDL-004 (ተክለ) ; AM-MEL-057 (ተክለ) ; AM-MEL-058 (ተክለ) ; GZ-GDL-017 (ተክለ) ; GZ-MEL-068 (ተክለ),"አቡነ ተክለ ሃይማኖት [ታኅሣሥ 24, ጥር 24, መጋቢት 24, ሚያዝያ 22, ግንቦት 12, ነሐሴ 24 / Monthly Day 24] (ተክለ)",GZ-MEL-070
+GZ-MEL-094,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ,1,0,,,,
+GZ-MEL-099,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ,1,0,,,,
+GZ-MEL-100,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ,1,0,,GZ-MEL-145 (እግዚእ) ; GZ-MEL-150 (እግዚእ),,GZ-MEL-078
+GZ-MEL-102,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ,1,0,,AM-MEL-046 (እንድርያስ) ; GZ-MEL-137 (እንድርያስ),"ቅዱስ እንድርያስ [ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4] (እንድርያስ) ; ቅዱስ እንድርያስ ሐዋርያ [ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4] (እንድርያስ)",GZ-MEL-103
+GZ-MEL-103,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ,1,0,,AM-MEL-046 (እንድርያስ) ; GZ-MEL-137 (እንድርያስ),"ቅዱስ እንድርያስ [ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4] (እንድርያስ) ; ቅዱስ እንድርያስ ሐዋርያ [ታኅሣሥ 4, ሐምሌ 30, ነሐሴ 30 / Monthly Day 4] (እንድርያስ)",GZ-MEL-102
+GZ-MEL-107,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ,1,0,,,,GZ-MEL-120
+GZ-MEL-108,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ይምአታ በግእዝ,1,0,,,,
+GZ-MEL-109,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,1,0,,,,
+GZ-MEL-110,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,1,0,,,,
+GZ-MEL-113,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ,1,0,,AM-GDL-022 (ጽዮን) ; GZ-MEL-089 (ወዘደብረ) ; GZ-MEL-161 (ጽዮን),,GZ-MEL-070
+GZ-MEL-115,GZ,MEL,MC-06,SC-06-03,TESATU,መልክዐ አቡነ ጰንጠሌዎን በግእዝ,1,0,,,,
+GZ-MEL-120,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ,1,0,,GZ-GDL-011 (ፊልጶስ) ; GZ-MEL-118 (ፊልጶስ),,"GZ-GDL-001,GZ-MEL-107"
+GZ-MEL-135,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ኤዎስጣቴዎስ በግእዝ,1,0,,,,
+GZ-MEL-138,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ እንጦንዮስ በግእዝ,1,0,,,,
+GZ-MEL-139,GZ,MEL,MC-06,SC-06-01,AMLAK,መልክዐ እግዚአብሔር አብ በግእዝ,1,0,,,,GZ-MEL-140
+GZ-MEL-140,GZ,MEL,MC-06,SC-06-01,AMLAK,መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ,1,0,,,,GZ-MEL-139
+GZ-MEL-142,GZ,MEL,MC-06,SC-06-01,MALAKT,መልክዐ ካህናተ ሰማይ በግእዝ,1,0,,,,
+GZ-MEL-146,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ያሬድ በግእዝ,1,0,,,,"GZ-GDL-021,GZ-MEL-147"
+GZ-MEL-147,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ያሬድ ካልዕ በግእዝ,1,0,,,,"GZ-GDL-021,GZ-MEL-146"
+GZ-MEL-148,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,1,0,,AM-GDL-005 (ክርስቶስ) ; AM-GDL-014 (ክርስቶስ) ; AM-MEL-018 (ክርስቶስ) ; AM-MEL-060 (ክርስቶስ) ; AM-MIK-001 (ክርስቶስ),"ቅድስት ክርስቶስ ሠምራ [መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24] (ክርስቶስ) ; ቅድስት ፍቅርተ ክርስቶስ [የካቲት 29, መጋቢት 29 / Monthly Day 29] (ክርስቶስ) ; አቡነ እስትንፋሰ ክርስቶስ [የካቲት 9, ሚያዝያ 9 / Monthly Day 9] (ክርስቶስ) ; ኢየሱስ ክርስቶስ [ታኅሣሥ 29, መጋቢት 29 / Monthly Day 29] (ክርስቶስ)",GZ-MEL-153
+GZ-MEL-153,GZ,MEL,MC-06,SC-06-03,TSADQAN,መልክዐ ገብረ ክርስቶስ በግእዝ,1,0,,AM-GDL-005 (ክርስቶስ) ; AM-GDL-007 (ገብረ) ; AM-GDL-014 (ክርስቶስ) ; AM-MEL-018 (ክርስቶስ) ; AM-MEL-060 (ክርስቶስ),"ቅድስት ክርስቶስ ሠምራ [መስከረም 24, ግንቦት 12, ነሐሴ 24 / Monthly Day 24] (ክርስቶስ) ; ቅድስት ፍቅርተ ክርስቶስ [የካቲት 29, መጋቢት 29 / Monthly Day 29] (ክርስቶስ) ; አቡነ እስትንፋሰ ክርስቶስ [የካቲት 9, ሚያዝያ 9 / Monthly Day 9] (ክርስቶስ) ; አቡነ ገብረ መንፈስ ቅዱስ [ጥቅምት 5, ታኅሣሥ 29, መጋቢት 5, መጋቢት 29 / Monthly Day 5] (ገብረ) ; ኢየሱስ ክርስቶስ [ታኅሣሥ 29, መጋቢት 29 / Monthly Day 29] (ክርስቶስ)",GZ-MEL-148
+GZ-MEL-158,GZ,MEL,MC-06,SC-06-03,HAWARYAT,መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ,1,0,,AM-GDL-020 (ጴጥሮስ) ; GZ-GDL-003 (ጴጥሮስ),እምነ ወለተ ጴጥሮስ [ኅዳር 17 / Monthly Day 17] (ጴጥሮስ) ; ወለተ ጴጥሮስ [ኅዳር 17 / Monthly Day 17] (ጴጥሮስ),
+GZ-MEL-164,GZ,MEL,MC-06,SC-06-01,MALAKT,መልክዐ ፬ቱ እንስሳ በግእዝ,1,0,,,,
+GZ-MTS-001,GZ,MTS,MC-08,SC-08-04,MARIAM,መጽሐፈ ልደታ ለማርያም በግእዝ,1,0,,,,
+GZ-MTS-002,GZ,MTS,MC-09,SC-09-03,TSADQAN,መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ,1,0,,,,
+GZ-SME-001,GZ,SME,MC-09,SC-09-05,TSADQAN,ስምዐ ጲላጦስ በግእዝ,7,0,,,,
+GZ-TBB-001,GZ,TBB,MC-09,SC-09-05,TSADQAN,ጥበበ ሰሎሞን በግእዝ,1,0,,,,
+GZ-TUL-001,GZ,MET,MC-08,SC-08-03,AMLAK,መጽሐፈ ቱላዳን በግእዝ,7,0,,,,
+GZ-ZNA-001,GZ,ZNA,MC-07,SC-07-04,TSADQAN,ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ,2,0,,,,
+GZ-ZNA-002,GZ,ZNA,MC-07,SC-07-04,TSADQAN,ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ,95,0,,,,
+GZ-ZNA-003,GZ,ZNA,MC-07,SC-07-04,TSADQAN,ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ,15,0,,,,

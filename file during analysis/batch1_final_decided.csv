@@ -1,0 +1,38 @@
+﻿#,section,group,book_id,title,language,final_dates,decision_source,status
+63,B,አባ በግዑ,GZ-GDL-025,ገድለ አባ በግዑ በግእዝ,ግእዝ,ታኅሣሥ 27,Sinksar 100% Match,verified
+64,B,አባ በግዑ,AM-GDL-006,የአባ በግዑ ገድል በአማርኛ,አማርኛ,ታኅሣሥ 27,Sinksar 100% Match,verified
+65,B,ቅዱስ ፊቅጦር,GZ-GDL-027,ገድለ ቅዱስ ፊቅጦር በግእዝ,ግእዝ,"ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27",Sinksar Canonical Cycle,verified
+66,B,ቅዱስ ፊቅጦር,AM-GDL-029,ገድለ ቅዱስ ፊቅጦር በአማርኛ,አማርኛ,"ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27",Sinksar Canonical Cycle,verified
+67,B,ቅዱስ ፊቅጦር,GZ-MEL-162,መልክዐ ፊቅጦር በግእዝ,ግእዝ,"ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27",Sinksar Canonical Cycle,verified
+68,B,አቡነ አቢብ,AM-GDL-024,ገድለ ቅዱስ አቡነ አቢብ በአማርኛ,አማርኛ,"ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25",Sinksar 100% Match,verified
+69,B,አቡነ አቢብ,AM-MEL-003,መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ,አማርኛ,"ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25",Sinksar 100% Match,verified
+70,B,አቡነ አቢብ,GZ-MEL-095,መልክዐ አቡነ አቢብ በግእዝ,ግእዝ,"ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25",Sinksar 100% Match,verified
+71,B,አቡነ አቢብ,GZ-MEL-144,መልክዐ ዐቢብ ካልዕ በግእዝ,ግእዝ,"ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25",Sinksar 100% Match,verified
+72,B,አቡነ አቢብ,AM-MEL-059,የአቡነ አቢብ መልክዕ በአማርኛ,አማርኛ,"ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25",Sinksar 100% Match,verified
+73,B,ኤልያስ ነቢይ,AM-DRS-005,ድርሳነ ኤልያስ ነቢይ በአማርኛ,አማርኛ,"ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6",Sinksar Canonical Cycle,verified
+74,B,ኤልያስ ነቢይ,GZ-MEL-134,መልክዐ ኤልያስ በግእዝ,ግእዝ,"ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6",Sinksar Canonical Cycle,verified
+75,B,ኤልያስ ነቢይ,GZ-MEL-059,መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ,ግእዝ,"ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6",Sinksar Canonical Cycle,verified
+76,B,ኤልያስ ነቢይ,AM-MEL-052,የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ,አማርኛ,"ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6",Sinksar Canonical Cycle,verified
+77,B,ዮሐንስ መጥምቅ,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,ግእዝ,"መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1 / Monthly Day 2, 30",Sinksar Canonical Cycle,verified
+78,B,ዮሐንስ መጥምቅ,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,አማርኛ,"መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1 / Monthly Day 2, 30",Sinksar Canonical Cycle,verified
+79,B,አቡነ ሊባኖስ,GZ-MEL-018,መልክዐ ሊባኖስ በግእዝ,ግእዝ,ጥር 3 / Monthly Day 3,Sinksar (Excluding Monasteries),verified
+80,B,አቡነ ሊባኖስ,GZ-MEL-074,መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ,ግእዝ,ጥር 3 / Monthly Day 3,Sinksar (Excluding Monasteries),verified
+81,B,አቡነ ሊባኖስ,AM-MEL-053,የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ,አማርኛ,ጥር 3 / Monthly Day 3,Sinksar (Excluding Monasteries),verified
+82,B,አቡነ ተከስተ ብርሃን,GZ-MEL-091,መልክዐ አቡነ ተከስተ ብርሃን በግእዝ,ግእዝ,መጋቢት 10,Verified Fallback,verified
+83,B,አቡነ ተከስተ ብርሃን,AM-MEL-056,የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ,አማርኛ,መጋቢት 10,Verified Fallback,verified
+84,B,አቡነ አባለ ክርስቶስ,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,ግእዝ,"ታኅሣሥ 19, የካቲት 19",Verified Fallback,verified
+85,B,አቡነ አባለ ክርስቶስ,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,አማርኛ,"ታኅሣሥ 19, የካቲት 19",Verified Fallback,verified
+86,B,አብርሃም,GZ-MEL-098,መልክዐ አቡነ አብርሃም በግእዝ,ግእዝ,"ሐምሌ 7, ነሐሴ 28",Sinksar Canonical,verified
+87,B,አብርሃም,AM-MEL-063,የአባታችን አብርሃም መልክዕ በአማርኛ,አማርኛ,"ሐምሌ 7, ነሐሴ 28",Sinksar Canonical,verified
+88,B,መልከ ጼዴቅ,GZ-MEL-075,መልክዐ አቡነ መልከ ጼዴቅ በግእዝ,ግእዝ,"ግንቦት 4, ጳጉሜን 3 / Monthly Day 9",Sinksar Canonical,verified
+89,B,መልከ ጼዴቅ,AM-MEL-068,የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ,አማርኛ,"ግንቦት 4, ጳጉሜን 3 / Monthly Day 9",Sinksar Canonical,verified
+92,B,ቅዱስ ዮስጦስ,GZ-GDL-010,ገድለ ቅዱስ ዮስጦስ በግእዝ,ግእዝ,"የካቲት 10, ሐምሌ 17",Sinksar Canonical,verified
+93,B,ቅዱስ ዮስጦስ,GZ-MEL-063,መልክዐ ቅዱስ ዮስጦስ በግእዝ,ግእዝ,"የካቲት 10, ሐምሌ 17",Sinksar Canonical,verified
+94,B,አቡነ ፊልጶስ,GZ-GDL-011,ገድለ አቡነ ፊልጶስ በግእዝ,ግእዝ,ሐምሌ 28,Sinksar (ፊልዾስ Equivalence),verified
+95,B,አቡነ ፊልጶስ,GZ-MEL-118,መልክዐ አቡነ ፊልጶስ በግእዝ,ግእዝ,ሐምሌ 28,Sinksar (ፊልዾስ Equivalence),verified
+96,B,አቡነ ፊልሞና,GZ-GDL-020,ገድለ አቡነ ፊልሞና በግእዝ,ግእዝ,ታኅሣሥ 22,Verified Corrected,verified
+97,B,አቡነ ፊልሞና,GZ-MEL-117,መልክዐ አቡነ ፊልሞና በግእዝ,ግእዝ,ታኅሣሥ 22,Verified Corrected,verified
+98,B,አቡነ ዳንኤል,GZ-GDL-028,ገድለ አቡነ ዳንኤል በግእዝ,ግእዝ,ኅዳር 6,Verified Fallback (Gedle Abune Daniel),verified
+99,B,አቡነ ዳንኤል,GZ-MEL-114,መልክዐ አቡነ ዳንኤል በግእዝ,ግእዝ,ኅዳር 6,Verified Fallback (Gedle Abune Daniel),verified
+100,B,አቡነ ዮሴፍ,GZ-GDL-029,ገድለ አቡነ ዮሴፍ በግእዝ,ግእዝ,ግንቦት 19 / Monthly Day 19,Sinksar Canonical,verified
+101,B,አቡነ ዮሴፍ,GZ-MEL-111,መልክዐ አቡነ ዮሴፍ በግእዝ,ግእዝ,ግንቦት 19 / Monthly Day 19,Sinksar Canonical,verified

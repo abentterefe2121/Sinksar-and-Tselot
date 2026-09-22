@@ -1,0 +1,201 @@
+INSPECT UNMAPPED BOOKS AND SEASONAL PERIODS
+Generated: 2026-09-21T18:44:15
+Read-only DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+================================================================================
+seasonal_periods (ALL)
+================================================================================
+code | name_am | name_en | type | start_month | start_day | end_month | end_day | is_movable
+--------------------------------------------------------------------------------
+GREAT_LENT | ዓቢይ ጾም | Great Lent | MOVABLE |  |  |  |  | 1
+HOLY_WEEK | ሰሙነ ሕማማት | Holy Week | MOVABLE |  |  |  |  | 1
+HOLY_WEEK_WED_FRI | ረቡዕ ወዓርብ ዘሕማማት | Holy Week Wednesday & Friday | MOVABLE_WEEKDAY |  |  |  |  | 1
+ROW COUNT: 3
+
+================================================================================
+book_seasonal_mappings (ALL)
+================================================================================
+id | book_id | season_code | reading_order | notes
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+distinct season_code in book_calendar_mappings
+================================================================================
+season_code | c
+--------------------------------------------------------------------------------
+ | 3278
+ROW COUNT: 1
+
+================================================================================
+MAPPING COUNTS
+================================================================================
+books: 415
+mappings: 3278
+books with mappings: 312
+books with NO mappings: 103
+
+================================================================================
+ALL BOOKS WITH NO MAPPINGS (full list with categories)
+================================================================================
+id | language_id | category_id | main_category_id | sub_category_id | subject_category | title
+--------------------------------------------------------------------------------
+AM-DRS-002 | AM | DRS | MC-04 | SC-04-02 | TESATU | ድርሳነ ሰንበት በአማርኛ
+AM-DRS-007 | AM | DRS | MC-04 | SC-04-02 | AMLAK | ድርሳነ ማኅየዊ በአማርኛ
+AM-ENZ-001 | AM | ENZ | MC-03 | SC-03-04 | AMLAK | እንዚራ ስብሐት በአማርኛ
+AM-ETA-001 | AM | TSE | MC-09 | SC-09-04 | MARIAM | በሰማይ ወበምድር በአማርኛ
+AM-KID-001 | AM | TSE | MC-09 | SC-09-04 | AMLAK | መዓዛ ቅዳሴ በአማርኛ
+AM-KOH-001 | AM | KOH | MC-03 | SC-03-04 | AMLAK | ኆኅተ ብርሃን በአማርኛ
+AM-MEL-001 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክአ ኖላዊ በአማርኛ
+AM-MEL-004 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሕማማተ መስቀል በአማርኛ
+AM-MEL-007 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ማሕየዊ በአማርኛ
+AM-MEL-010 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሥላሴ በአማርኛ
+AM-MEL-011 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ቅንዋት በአማርኛ
+AM-MEL-026 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ኤዶም በአማርኛ
+AM-MEL-029 | AM | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ጰራቅሊጦስ በአማርኛ
+AM-MEN-001 | AM | TSE | MC-09 | SC-09-03 | AMLAK | መንገደ ሰማይ በአማርኛ
+AM-MTS-001 | AM | MTS | MC-04 | SC-04-02 | TSADQAN | መጽሐፈ ሜላድ በአማርኛ
+AM-SBT-001 | AM | TSE | MC-08 | SC-08-04 | HAYMANOT | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+AM-SEY-002 | AM | SEY | MC-09 | SC-09-01 | AMLAK | ሰይፈ ሥላሴ በአማርኛ
+AM-TEA-001 | AM | TEA | MC-03 | SC-03-05 | TSADQAN | ተአምኆ ቅዱሳን በአማርኛ
+AM-TSE-006 | AM | TSE | MC-09 | SC-09-03 | AMLAK | ጸሎተ ንድራ በአማርኛ
+AM-WUD-002 | AM | WUD | MC-03 | SC-03-01 | MARIAM | ውዳሴ ማርያም በአማርኛ
+AM-WUD-003 | AM | WUD | MC-03 | SC-03-02 | AMLAK | ውዳሴ አምላክ በአማርኛ
+AM-ZNA-001 | AM | ZNA | MC-07 | SC-07-03 | AMLAK | ዜና ሥላሴ በአማርኛ
+EN-WUD-001 | EN | WUD | MC-03 | SC-03-02 | AMLAK | HYMN OF PRAISE
+GZ-DRS-006 | GZ | DRS | MC-04 | SC-04-03 | TSADQAN | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+GZ-ENZ-001 | GZ | ENZ | MC-03 | SC-03-04 | AMLAK | እንዚራ ስብሐት በግእዝ
+GZ-GDL-001 | GZ | GDL | MC-05 | SC-05-04 | TSADQAN | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+GZ-GDL-005 | GZ | GDL | MC-05 | SC-05-04 | TSADQAN | ገድለ አቡነ አበክረዙን በግእዝ
+GZ-GDL-009 | GZ | GDL | MC-05 | SC-05-02 | TSADQAN | ገድለ ቅዱስ ሱስንዮስ በግእዝ
+GZ-GDL-012 | GZ | GDL | MC-05 | SC-05-02 | TSADQAN | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+GZ-GDL-018 | GZ | GDL | MC-05 | SC-05-04 | TSADQAN | ገድለ አቡነ ዮሐንስ በግእዝ
+GZ-GDL-021 | GZ | GDL | MC-05 | SC-05-03 | TSADQAN | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+GZ-GDL-026 | GZ | GDL | MC-05 | SC-05-02 | TSADQAN | ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ
+GZ-GDL-034 | GZ | GDL | MC-05 | SC-05-04 | MALAKT | ገድለ አቡነ ፍሬ ሚካኤል በግእዝ
+GZ-KOH-001 | GZ | KOH | MC-03 | SC-03-04 | AMLAK | ኆኅተ ብርሃን በግእዝ
+GZ-MEL-003 | GZ | MEL | MC-06 | SC-06-03 | TESATU | መልከዐ አቡነ ሊቃኖስ በግእዝ
+GZ-MEL-008 | GZ | MEL | MC-06 | SC-06-01 | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+GZ-MEL-009 | GZ | MEL | MC-06 | SC-06-01 | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+GZ-MEL-015 | GZ | MEL | MC-06 | SC-06-01 | MALAKT | መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+GZ-MEL-019 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ላሊበላ በግዕዝ
+GZ-MEL-020 | GZ | MEL | MC-06 | SC-06-02 | MARIAM | መልክዐ ልደታ በግእዝ
+GZ-MEL-024 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሕማማተ መስቀል በግእዝ
+GZ-MEL-029 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ማሕየዊ በግእዝ
+GZ-MEL-033 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ሠለስቱ ምዕት በግእዝ
+GZ-MEL-034 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሥሉስ ቅዱስ በግእዝ
+GZ-MEL-035 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሥላሴ በግእዝ
+GZ-MEL-038 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ሰላማ በግእዝ
+GZ-MEL-041 | GZ | MEL | MC-06 | SC-06-03 | SAMAET | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+GZ-MEL-044 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ሰንበት በግዕዝ
+GZ-MEL-046 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ቅንዋት በግእዝ
+GZ-MEL-048 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+GZ-MEL-056 | GZ | MEL | MC-06 | SC-06-03 | SAMAET | መልክዐ ቅዱስ አባዲር በግእዝ
+GZ-MEL-067 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ቍርባን በግዕዝ
+GZ-MEL-070 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ
+GZ-MEL-072 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ አማኑኤል በግእዝ
+GZ-MEL-076 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ
+GZ-MEL-077 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ
+GZ-MEL-078 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ
+GZ-MEL-079 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ሙሴ በግእዝ
+GZ-MEL-080 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+GZ-MEL-081 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+GZ-MEL-083 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ
+GZ-MEL-090 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+GZ-MEL-093 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ተክለ አልፋ በግእዝ
+GZ-MEL-094 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+GZ-MEL-099 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ
+GZ-MEL-100 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ
+GZ-MEL-102 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ
+GZ-MEL-103 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ
+GZ-MEL-107 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+GZ-MEL-108 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ይምአታ በግእዝ
+GZ-MEL-109 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ዮሐንስ ከማ በግእዝ
+GZ-MEL-110 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+GZ-MEL-113 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+GZ-MEL-115 | GZ | MEL | MC-06 | SC-06-03 | TESATU | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+GZ-MEL-120 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ
+GZ-MEL-135 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ኤዎስጣቴዎስ በግእዝ
+GZ-MEL-138 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ እንጦንዮስ በግእዝ
+GZ-MEL-139 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ እግዚአብሔር አብ በግእዝ
+GZ-MEL-140 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+GZ-MEL-142 | GZ | MEL | MC-06 | SC-06-01 | MALAKT | መልክዐ ካህናተ ሰማይ በግእዝ
+GZ-MEL-146 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ያሬድ በግእዝ
+GZ-MEL-147 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ያሬድ ካልዕ በግእዝ
+GZ-MEL-148 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ይምርሃነ ክርስቶስ በግእዝ
+GZ-MEL-153 | GZ | MEL | MC-06 | SC-06-03 | TSADQAN | መልክዐ ገብረ ክርስቶስ በግእዝ
+GZ-MEL-157 | GZ | MEL | MC-06 | SC-06-01 | AMLAK | መልክዐ ጰራቅሊጦስ በግእዝ
+GZ-MEL-158 | GZ | MEL | MC-06 | SC-06-03 | HAWARYAT | መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ
+GZ-MEL-164 | GZ | MEL | MC-06 | SC-06-01 | MALAKT | መልክዐ ፬ቱ እንስሳ በግእዝ
+GZ-MTS-001 | GZ | MTS | MC-08 | SC-08-04 | MARIAM | መጽሐፈ ልደታ ለማርያም በግእዝ
+GZ-MTS-002 | GZ | MTS | MC-09 | SC-09-03 | TSADQAN | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+GZ-MTS-003 | GZ | MTS | MC-04 | SC-04-02 | TSADQAN | መጽሐፈ ሜላድ በግእዝ
+GZ-SEY-002 | GZ | SEY | MC-09 | SC-09-01 | AMLAK | ሰይፈ ሥላሴ በግእዝ
+GZ-SME-001 | GZ | SME | MC-09 | SC-09-05 | TSADQAN | ስምዐ ጲላጦስ በግእዝ
+GZ-TBB-001 | GZ | TBB | MC-09 | SC-09-05 | TSADQAN | ጥበበ ሰሎሞን በግእዝ
+GZ-TEA-001 | GZ | TEA | MC-03 | SC-03-05 | TSADQAN | ተአምኆ ቅዱሳን በግእዝ
+GZ-TSE-003 | GZ | TSE | MC-09 | SC-09-03 | AMLAK | ጸሎተ ንድራ በግእዝ
+GZ-TUL-001 | GZ | MET | MC-08 | SC-08-03 | AMLAK | መጽሐፈ ቱላዳን በግእዝ
+GZ-WUD-002 | GZ | WUD | MC-03 | SC-03-01 | MARIAM | ውዳሴ ማርያም በግእዝ
+GZ-ZNA-001 | GZ | ZNA | MC-07 | SC-07-04 | TSADQAN | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+GZ-ZNA-002 | GZ | ZNA | MC-07 | SC-07-04 | TSADQAN | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+GZ-ZNA-003 | GZ | ZNA | MC-07 | SC-07-04 | TSADQAN | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+GZ-ZNA-004 | GZ | ZNA | MC-07 | SC-07-03 | AMLAK | ዜና ሥላሴ በግእዝ
+TI-WUD-001 | TI | WUD | MC-03 | SC-03-01 | MARIAM | ውዳሴ ማርያም ብትግርኛ
+TI-WUD-002 | TI | WUD | MC-03 | SC-03-02 | AMLAK | ውዳሴ አምላክ ብትግርኛ
+ROW COUNT: 103
+
+================================================================================
+THE 38 SKIPPED BOOKS: EXIST IN books TABLE?
+================================================================================
+found in books: 38/38
+
+================================================================================
+CURRENT MAPPING STATE OF THE 38
+================================================================================
+(none of the 38 have any mapping rows — as expected)
+
+================================================================================
+GROUP SUMMARY
+================================================================================
+WEEKLY_DAILY_BOOKS (to become ALWAYS): 34
+  AM-DRS-002
+  GZ-MEL-044
+  AM-DRS-007
+  AM-MEL-007
+  GZ-MEL-029
+  AM-ENZ-001
+  AM-ETA-001
+  AM-KOH-001
+  AM-MEL-026
+  AM-MTS-001
+  AM-TEA-001
+  AM-WUD-002
+  GZ-ENZ-001
+  GZ-KOH-001
+  GZ-MTS-003
+  GZ-TEA-001
+  GZ-WUD-002
+  TI-WUD-001
+  AM-MEL-001
+  AM-MEL-004
+  GZ-MEL-024
+  AM-MEL-010
+  AM-SEY-002
+  AM-ZNA-001
+  GZ-MEL-035
+  GZ-SEY-002
+  GZ-ZNA-004
+  AM-MEL-011
+  GZ-MEL-046
+  AM-TSE-006
+  GZ-TSE-003
+  AM-WUD-003
+  TI-WUD-002
+  EN-WUD-001
+MOVABLE_BOOKS (Monthly Day 7 + season): 2
+  AM-MEL-029
+  GZ-MEL-157
+LEAVE_UNMAPPED: 2
+  AM-KID-001
+  AM-MEN-001

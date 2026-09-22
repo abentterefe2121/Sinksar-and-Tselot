@@ -1,0 +1,1010 @@
+SEARCH SINKSAR DB FOR UNMAPPED SAINTS
+Generated: 2026-09-21T21:13:57
+Sinksar DB (read-only): C:\Android Project Collection\analyze\New folder\sinksar_calendar (2).db
+No inserts. Read-only lookup only.
+
+CONFIRMED DECISIONS SO FAR
+  GZ-GDL-001 = ሐምሌ 28, መጋቢት 23  (user hard copy p547)
+  GZ-GDL-034 = ኅዳር 3  (user research)
+  GZ-GDL-012 = መስከረም 21  (user research)
+
+================================================================================
+SINKSAR DB TABLES (9)
+================================================================================
+
+--- calendar_days (366 rows) ---
+CREATE TABLE calendar_days (
+    day_id          INTEGER PRIMARY KEY,       -- (month_num-1)*30 + day_of_month
+    month_num       INTEGER NOT NULL REFERENCES months(month_num),
+    day_of_month    INTEGER NOT NULL,
+    gregorian       TEXT,                      -- ከእንግሊዝኛው ርዕስ (180/366 ብቻ፤ የለም = NULL)
+    gregorian_month TEXT,
+    gregorian_day   INTEGER,
+    has_annual_list INTEGER NOT NULL DEFAULT 0,-- ምንጩ የዓመታዊ ዝርዝር አለው?
+    has_monthly_list INTEGER NOT NULL DEFAULT 0,
+    note            TEXT,                      -- ማጠቃለያ ዝርዝር ለሌላቸው 6 ቀናት
+    UNIQUE (month_num, day_of_month)
+)
+
+--- commemorations (3574 rows) ---
+CREATE TABLE commemorations (
+    id        INTEGER PRIMARY KEY,
+    day_id    INTEGER NOT NULL REFERENCES calendar_days(day_id),
+    kind      TEXT NOT NULL CHECK (kind IN ('annual','monthly')),  -- ዓመታዊ/ወርሃዊ
+    position  INTEGER NOT NULL,                -- በምንጩ ዝርዝር ውስጥ ያለው ቅደም ተከተል
+    name      TEXT NOT NULL,                   -- እንደተጻፈው ሙሉ ርዕስ
+    name_core TEXT NOT NULL                    -- የተጠራ ስም (v_saints ይጠቀመዋል)
+)
+
+--- commemorations_fts (3574 rows) ---
+CREATE VIRTUAL TABLE commemorations_fts USING fts5(name, name_core,
+    content='commemorations', content_rowid='id', tokenize='trigram')
+
+--- commemorations_fts_config (1 rows) ---
+CREATE TABLE 'commemorations_fts_config'(k PRIMARY KEY, v) WITHOUT ROWID
+
+--- commemorations_fts_data (80 rows) ---
+CREATE TABLE 'commemorations_fts_data'(id INTEGER PRIMARY KEY, block BLOB)
+
+--- commemorations_fts_docsize (3574 rows) ---
+CREATE TABLE 'commemorations_fts_docsize'(id INTEGER PRIMARY KEY, sz BLOB)
+
+--- commemorations_fts_idx (76 rows) ---
+CREATE TABLE 'commemorations_fts_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID
+
+--- meta (14 rows) ---
+CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT)
+
+--- months (13 rows) ---
+CREATE TABLE months (
+    month_num    INTEGER PRIMARY KEY,          -- 1 መስከረም … 12 ነሐሴ፣ 13 ጳጉሜ
+    name_am      TEXT NOT NULL UNIQUE,
+    name_en      TEXT NOT NULL,
+    days_count   INTEGER NOT NULL              -- 30 ወይም 6 (ጳጉሜ)
+)
+
+================================================================================
+SAMPLE ROWS (3 per table)
+================================================================================
+  [calendar_days] day_id=1 | month_num=1 | day_of_month=1 | has_annual_list=1 | has_monthly_list=1
+  [calendar_days] day_id=2 | month_num=1 | day_of_month=2 | has_annual_list=1 | has_monthly_list=1
+  [calendar_days] day_id=3 | month_num=1 | day_of_month=3 | has_annual_list=1 | has_monthly_list=1
+  [commemorations] id=1 | day_id=1 | kind=annual | position=1 | name=ርዕሰ ዓውደ ዓመት | name_core=ርዕሰ ዓውደ ዓመት
+  [commemorations] id=2 | day_id=1 | kind=annual | position=2 | name=ቅዱስ በርተሎሜዎስ ሐዋርያ | name_core=በርተሎሜዎስ
+  [commemorations] id=3 | day_id=1 | kind=annual | position=3 | name=ቅዱስ /ማር/ ሚልኪ (ትሩፈ ምግባር) | name_core=/ማር/ ሚልኪ
+  [commemorations_fts] name=ርዕሰ ዓውደ ዓመት | name_core=ርዕሰ ዓውደ ዓመት
+  [commemorations_fts] name=ቅዱስ በርተሎሜዎስ ሐዋርያ | name_core=በርተሎሜዎስ
+  [commemorations_fts] name=ቅዱስ /ማር/ ሚልኪ (ትሩፈ ምግባር) | name_core=/ማር/ ሚልኪ
+  [commemorations_fts_config] k=version | v=4
+  [commemorations_fts_data] id=1 | block=b'\x9bv\x83\xbaC\x81\xd7b'
+  [commemorations_fts_data] id=10 | block=b'\x00\x00\x00\x00\x01\x01N\x00\x01\x01\x01N'
+  [commemorations_fts_data] id=137438953473 | block=b'\x00\x00\x0fe\x060 \xe1\x88\x8a\x995\x06\x01\x01\x06\x05\x01\x8d\x98X\x06\x01\x01\t\x05\x01\x90\x94#\x06\x01\x01\x06\x…
+  [commemorations_fts_docsize] id=1 | sz=b'\t\t'
+  [commemorations_fts_docsize] id=2 | sz=b'\x0e\x05'
+  [commemorations_fts_docsize] id=3 | sz=b'\x15\x06'
+  [commemorations_fts_idx] segid=1 | term=b'' | pgno=2
+  [commemorations_fts_idx] segid=1 | term=b'0 /a' | pgno=4
+  [commemorations_fts_idx] segid=1 | term=b'0 \xe1\x88\x90\xe1\x8b\x8d' | pgno=6
+  [meta] key=name | value=sinksar_calendar
+  [meta] key=version | value=1.0
+  [meta] key=built_at | value=2026-09-20T07:13:56
+  [months] month_num=1 | name_am=መስከረም | name_en=Meskerem | days_count=30
+  [months] month_num=2 | name_am=ጥቅምት | name_en=Tekemt | days_count=30
+  [months] month_num=3 | name_am=ኅዳር | name_en=Hedar | days_count=30
+
+================================================================================
+SAINT SEARCH RESULTS
+================================================================================
+
+================================================================================
+GZ-DRS-006 | search=['ፊሳልጎስ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-GDL-001 | search=['ፊልጶስ'] qual=['ሊባኖስ'] | confirmed - verify in sinksar
+================================================================================
+  primary matches: 4 | qualified: 0
+    [commemorations] id=2810 | day_id=284 | kind=annual | position=1 | name=ቅዱሳን አበው ሰማዕታት (አባ አክራ አባ ዮሐንስ አባ አብጥልማ አባ ፊልጶስ) | name_core=አበው ሰማዕታት
+    [commemorations] id=2813 | day_id=284 | kind=monthly | position=3 | name=ቅዱስ ፊልጶስ ሐዋርያ | name_core=ፊልጶስ
+    [commemorations_fts] name=ቅዱሳን አበው ሰማዕታት (አባ አክራ አባ ዮሐንስ አባ አብጥልማ አባ ፊልጶስ) | name_core=አበው ሰማዕታት
+    [commemorations_fts] name=ቅዱስ ፊልጶስ ሐዋርያ | name_core=ፊልጶስ
+
+================================================================================
+GZ-GDL-005 | search=['አበክረዙን'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-GDL-009 | search=['ሱስንዮስ'] qual=- | 
+================================================================================
+  primary matches: 6 | qualified: 0
+    [commemorations] id=2364 | day_id=236 | kind=annual | position=2 | name=ቅዱስ ሱስንዮስ ሰማዕት (ሶርያዊ) | name_core=ሱስንዮስ ሰማዕት
+    [commemorations] id=2365 | day_id=236 | kind=annual | position=3 | name=ሰማዕታት (የቅዱስ ሱስንዮስ ማኅበር) | name_core=ሰማዕታት
+    [commemorations] id=3162 | day_id=321 | kind=annual | position=7 | name=ቅዱስ ሱስንዮስ ጻድቅ | name_core=ሱስንዮስ
+    [commemorations_fts] name=ቅዱስ ሱስንዮስ ሰማዕት (ሶርያዊ) | name_core=ሱስንዮስ ሰማዕት
+    [commemorations_fts] name=ሰማዕታት (የቅዱስ ሱስንዮስ ማኅበር) | name_core=ሰማዕታት
+    [commemorations_fts] name=ቅዱስ ሱስንዮስ ጻድቅ | name_core=ሱስንዮስ
+
+================================================================================
+GZ-GDL-012 | search=['ቈጵርያኖስ', 'ቁጵርያኖስ'] qual=- | confirmed መስከረም 21 - verify
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-GDL-018 | search=['ዮሐንስ', 'ዮሃንስ'] qual=- | AMBIGUOUS - 38 saints, no qualifier in title
+================================================================================
+  primary matches: 352 | qualified: 0
+    [commemorations] id=9 | day_id=2 | kind=annual | position=1 | name=ቅዱስ ዮሐንስ ነቢይ (መጥምቀ መለኮት) | name_core=ዮሐንስ ነቢይ
+    [commemorations] id=33 | day_id=4 | kind=annual | position=2 | name=ቅዱስ ዮሐንስ ወንጌላዊ (ልደቱ) | name_core=ዮሐንስ ወንጌላዊ
+    [commemorations] id=39 | day_id=4 | kind=monthly | position=3 | name=ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | name_core=ዮሐንስ ዘሐራቅሊ
+    [commemorations] id=70 | day_id=7 | kind=annual | position=5 | name=ቅዱሳን አጋቶን ዼጥሮስ ዮሐንስ አሞንና እናታቸው ራፊቃ (ሰማዕታት) | name_core=አጋቶን ዼጥሮስ ዮሐንስ አሞንና እናታቸው ራፊቃ
+    [commemorations] id=134 | day_id=12 | kind=monthly | position=5 | name=ቅዱስ ዮሐንስ አፈ ወርቅ | name_core=ዮሐንስ አፈ ወርቅ
+    [commemorations] id=156 | day_id=14 | kind=monthly | position=6 | name=አባ ዮሐንስ ጻድቅ | name_core=ዮሐንስ
+    [commemorations] id=172 | day_id=16 | kind=monthly | position=2 | name=ቅድስት ኤልሳቤጥ (የመጥምቁ ዮሐንስ እናት) | name_core=ኤልሳቤጥ
+    [commemorations] id=177 | day_id=16 | kind=monthly | position=7 | name=ቅዱስ አባ ዮሐንስ ጻድቅ (ወንጌሉ ዘወርቅ) | name_core=ዮሐንስ ጻድቅ
+    [commemorations] id=227 | day_id=20 | kind=monthly | position=1 | name=ቅዱስ ዮሐንስ ሐፂር | name_core=ዮሐንስ ሐፂር
+    [commemorations] id=273 | day_id=24 | kind=monthly | position=3 | name=አቡነ ዘዮሐንስ ጻድቅ ዘክብራን | name_core=ዘዮሐንስ ጻድቅ ዘክብራን
+    [commemorations] id=293 | day_id=26 | kind=annual | position=3 | name=ቅዱስ ዮሐንስ መጥምቅ (ጽንሰቱ) | name_core=ዮሐንስ መጥምቅ
+    [commemorations] id=304 | day_id=27 | kind=annual | position=4 | name=አባ ዮሐንስ ዘደብረ ጽጌ | name_core=ዮሐንስ ዘደብረ ጽጌ
+    [commemorations] id=325 | day_id=29 | kind=annual | position=4 | name=ቅዱስ ዮሐንስ ወንጌላዊ (ነባቤ መለኮት) | name_core=ዮሐንስ ወንጌላዊ
+    [commemorations] id=334 | day_id=30 | kind=annual | position=3 | name=ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት) | name_core=ያዕቆብና ዮሐንስ ሐዋርያት
+    [commemorations] id=341 | day_id=30 | kind=monthly | position=4 | name=ቅዱስ ዮሐንስ መጥምቀ መለኮት | name_core=ዮሐንስ መጥምቀ መለኮት
+    … 337 more rows not shown
+
+================================================================================
+GZ-GDL-021 | search=['ያሬድ'] qual=- | cluster with GZ-MEL-146/147
+================================================================================
+  primary matches: 30 | qualified: 0
+    [commemorations] id=120 | day_id=11 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=461 | day_id=41 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=775 | day_id=71 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1071 | day_id=101 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1383 | day_id=131 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1661 | day_id=161 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1938 | day_id=191 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2130 | day_id=212 | kind=annual | position=3 | name=ቅዱስ መላልኤል (የያሬድ አባት - ከአዳም ፭ኛ ትውልድ) | name_core=መላልኤል
+    [commemorations] id=2161 | day_id=215 | kind=annual | position=6 | name=ቅዱስ ያሬድ ካህን (ልደቱ) | name_core=ያሬድ ካህን
+    [commemorations] id=2222 | day_id=221 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2493 | day_id=251 | kind=annual | position=1 | name=ቅዱስ ያሬድ ካህን ወማኅሌታይ | name_core=ያሬድ ካህን ወማኅሌታይ
+    [commemorations] id=2495 | day_id=251 | kind=annual | position=3 | name=ክርስቲናና ይስሐቅ (የቅዱስ ያሬድ ወላጆች) | name_core=ክርስቲናና ይስሐቅ
+    [commemorations] id=2782 | day_id=281 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3070 | day_id=311 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3370 | day_id=341 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    … 15 more rows not shown
+
+================================================================================
+GZ-GDL-026 | search=['አባዲር'] qual=- | cluster with GZ-MEL-056
+================================================================================
+  primary matches: 10 | qualified: 0
+    [commemorations] id=312 | day_id=28 | kind=annual | position=1 | name=ቅዱስ አባዲር ሰማዕት | name_core=አባዲር
+    [commemorations] id=642 | day_id=58 | kind=monthly | position=6 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=952 | day_id=88 | kind=monthly | position=6 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=1249 | day_id=118 | kind=monthly | position=5 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=1622 | day_id=157 | kind=annual | position=4 | name=ቅዱስ አባዲር | name_core=አባዲር
+    [commemorations_fts] name=ቅዱስ አባዲር ሰማዕት | name_core=አባዲር
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲር | name_core=አባዲር
+
+================================================================================
+GZ-GDL-034 | search=['ፍሬ ሚካኤል'] qual=- | confirmed ኅዳር 3 - verify
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-003 | search=['ሊቃኖስ'] qual=- | 
+================================================================================
+  primary matches: 2 | qualified: 0
+    [commemorations] id=945 | day_id=88 | kind=annual | position=1 | name=አባ ሊቃኖስ ጻድቅ (ከተስዓቱ ቅዱሳን) | name_core=ሊቃኖስ ጻድቅ
+    [commemorations_fts] name=አባ ሊቃኖስ ጻድቅ (ከተስዓቱ ቅዱሳን) | name_core=ሊቃኖስ ጻድቅ
+
+================================================================================
+GZ-MEL-008 | search=['ሱርያል', 'ሱራፌል', 'ሱርያኤል'] qual=- | archangel
+================================================================================
+  primary matches: 26 | qualified: 0
+    [commemorations] id=276 | day_id=24 | kind=monthly | position=6 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=602 | day_id=54 | kind=monthly | position=6 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=902 | day_id=84 | kind=annual | position=1 | name="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ
+    [commemorations] id=1208 | day_id=114 | kind=monthly | position=5 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=1532 | day_id=147 | kind=annual | position=5 | name=ቅዱስ ሱርያል ሊቀ መላዕክት (ከ፯ቱ ሊቃናት አንዱ) | name_core=ሱርያል ሊቀ መላዕክት
+    [commemorations] id=1790 | day_id=174 | kind=monthly | position=6 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=2350 | day_id=234 | kind=monthly | position=7 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=2617 | day_id=264 | kind=monthly | position=7 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=2907 | day_id=294 | kind=monthly | position=6 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=3201 | day_id=324 | kind=monthly | position=6 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=3253 | day_id=330 | kind=annual | position=3 | name=ቅዱስ ሱርያል (እሥራልዩ) ሊቀ መላእክት | name_core=ሱርያል ሊቀ መላእክት
+    [commemorations] id=3501 | day_id=354 | kind=monthly | position=4 | name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations] id=3524 | day_id=357 | kind=annual | position=3 | name=ቅዱስ ሱርያል ሊቀ መላእክት | name_core=ሱርያል ሊቀ መላእክት
+    [commemorations_fts] name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    [commemorations_fts] name="፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ካኅናተ ሰማይ
+    … 11 more rows not shown
+
+================================================================================
+GZ-MEL-009 | search=['ሊቀ መላእክት'] qual=- | unnamed archangel - probably Mikael
+================================================================================
+  primary matches: 94 | qualified: 0
+    [commemorations] id=4 | day_id=1 | kind=annual | position=4 | name=ቅዱስ ራጉኤል ሊቀ መላእክት | name_core=ራጉኤል ሊቀ መላእክት
+    [commemorations] id=87 | day_id=9 | kind=annual | position=1 | name=ቅዱስ ሚካኤል ሊቀ መላእክት | name_core=ሚካኤል ሊቀ መላእክት
+    [commemorations] id=130 | day_id=12 | kind=monthly | position=1 | name=ቅዱስ ሚካኤል ሊቀ መላእክት | name_core=ሚካኤል ሊቀ መላእክት
+    [commemorations] id=217 | day_id=19 | kind=monthly | position=1 | name=ቅዱስ ገብርኤል ሊቀ መላእክት | name_core=ገብርኤል ሊቀ መላእክት
+    [commemorations] id=250 | day_id=22 | kind=monthly | position=1 | name=ቅዱስ ዑራኤል ሊቀ መላእክት | name_core=ዑራኤል ሊቀ መላእክት
+    [commemorations] id=350 | day_id=31 | kind=monthly | position=5 | name=ቅዱስ ራጉኤል ሊቀ መላእክት | name_core=ራጉኤል ሊቀ መላእክት
+    [commemorations] id=471 | day_id=42 | kind=monthly | position=1 | name=ቅዱስ ሚካኤል ሊቀ መላእክት | name_core=ሚካኤል ሊቀ መላእክት
+    [commemorations] id=548 | day_id=49 | kind=monthly | position=1 | name=ቅዱስ ገብርኤል ሊቀ መላእክት | name_core=ገብርኤል ሊቀ መላእክት
+    [commemorations] id=576 | day_id=52 | kind=monthly | position=1 | name=ቅዱስ ዑራኤል ሊቀ መላእክት | name_core=ዑራኤል ሊቀ መላእክት
+    [commemorations] id=668 | day_id=61 | kind=monthly | position=5 | name=ቅዱስ ራጉኤል ሊቀ መላእክት | name_core=ራጉኤል ሊቀ መላእክት
+    [commemorations] id=738 | day_id=68 | kind=annual | position=2 | name=ቅዱስ አፍኒን ሊቀ መላእክት | name_core=አፍኒን ሊቀ መላእክት
+    [commemorations] id=779 | day_id=72 | kind=annual | position=1 | name=ቅዱስ ሚካኤል ሊቀ መላእክት | name_core=ሚካኤል ሊቀ መላእክት
+    [commemorations] id=858 | day_id=79 | kind=monthly | position=1 | name=ቅዱስ ገብርኤል ሊቀ መላእክት | name_core=ገብርኤል ሊቀ መላእክት
+    [commemorations] id=886 | day_id=82 | kind=monthly | position=1 | name=ቅዱስ ዑራኤል ሊቀ መላእክት | name_core=ዑራኤል ሊቀ መላእክት
+    [commemorations] id=980 | day_id=91 | kind=monthly | position=5 | name=ቅዱስ ራጉኤል ሊቀ መላእክት | name_core=ራጉኤል ሊቀ መላእክት
+    … 79 more rows not shown
+
+================================================================================
+GZ-MEL-015 | search=['ፋኑኤል'] qual=- | archangel
+================================================================================
+  primary matches: 8 | qualified: 0
+    [commemorations] id=997 | day_id=93 | kind=annual | position=4 | name=ቅዱስ ፋኑኤል ሊቀ መላእክት | name_core=ፋኑኤል ሊቀ መላእክት
+    [commemorations] id=1585 | day_id=153 | kind=monthly | position=2 | name=ፋኑኤል | name_core=ፋኑኤል
+    [commemorations] id=1631 | day_id=158 | kind=annual | position=2 | name=ቅድስት ሐና ነቢይት (የፋኑኤል ልጅ) | name_core=ሐና ነቢይት
+    [commemorations] id=3267 | day_id=331 | kind=annual | position=6 | name=ቅድስት ሐና ነቢይት (ወለተ ፋኑኤል) | name_core=ሐና ነቢይት
+    [commemorations_fts] name=ቅዱስ ፋኑኤል ሊቀ መላእክት | name_core=ፋኑኤል ሊቀ መላእክት
+    [commemorations_fts] name=ፋኑኤል | name_core=ፋኑኤል
+    [commemorations_fts] name=ቅድስት ሐና ነቢይት (የፋኑኤል ልጅ) | name_core=ሐና ነቢይት
+    [commemorations_fts] name=ቅድስት ሐና ነቢይት (ወለተ ፋኑኤል) | name_core=ሐና ነቢይት
+
+================================================================================
+GZ-MEL-019 | search=['ላሊበላ'] qual=- | 
+================================================================================
+  primary matches: 42 | qualified: 0
+    [commemorations] id=131 | day_id=12 | kind=monthly | position=2 | name=ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | name_core=ላሊበላ ጻድቅ
+    [commemorations] id=173 | day_id=16 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=472 | day_id=42 | kind=monthly | position=2 | name=ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | name_core=ላሊበላ ጻድቅ
+    [commemorations] id=515 | day_id=46 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=786 | day_id=72 | kind=monthly | position=1 | name=ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | name_core=ላሊበላ ጻድቅ
+    [commemorations] id=1082 | day_id=102 | kind=monthly | position=2 | name=ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | name_core=ላሊበላ ጻድቅ
+    [commemorations] id=1253 | day_id=119 | kind=annual | position=4 | name=ቅዱስ ላሊበላ (ልደቱ) | name_core=ላሊበላ
+    [commemorations] id=1677 | day_id=162 | kind=monthly | position=8 | name=ቅዱስ ላሊበላ ጻድቅ | name_core=ላሊበላ
+    [commemorations] id=1715 | day_id=166 | kind=annual | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=1986 | day_id=196 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=2101 | day_id=209 | kind=annual | position=11 | name=ቅዱስ ላሊበላ (ጽንሰቱ) | name_core=ላሊበላ
+    [commemorations] id=2272 | day_id=226 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅዱስ ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=2541 | day_id=256 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ
+    [commemorations] id=2787 | day_id=282 | kind=annual | position=2 | name=ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | name_core=ላሊበላ ጻድቅ
+    [commemorations] id=2829 | day_id=286 | kind=monthly | position=3 | name=ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮጵያ (የቅዱስ ላሊበላ ወንድም) | name_core=ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮጵያ
+    … 27 more rows not shown
+
+================================================================================
+GZ-MEL-020 | search=['ልደታ'] qual=- | saint Lideta - many rows expected
+================================================================================
+  primary matches: 32 | qualified: 0
+    [commemorations] id=7 | day_id=1 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=346 | day_id=31 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=664 | day_id=61 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=976 | day_id=91 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=1041 | day_id=98 | kind=annual | position=10 | name=አቡነ እስትፋሰ ክርስቶስ (ልደታቸው) | name_core=እስትፋሰ ክርስቶስ
+    [commemorations] id=1254 | day_id=119 | kind=annual | position=5 | name=አቡነ ገብረ መንፈስ ቅዱስ (ልደታቸው) | name_core=ገብረ መንፈስ ቅዱስ
+    [commemorations] id=1279 | day_id=121 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=1567 | day_id=151 | kind=monthly | position=1 | name=ልደታ ለቅድስት ድንግል ማርያም እግዝእትነ | name_core=ልደታ ለቅድስት ድንግል ማርያም እግዝእትነ
+    [commemorations] id=1841 | day_id=181 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2123 | day_id=211 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2407 | day_id=241 | kind=annual | position=1 | name=እመቤታችን ቅድስት ድንግል ማርያም (ልደታ) | name_core=ድንግል ማርያም
+    [commemorations] id=2681 | day_id=271 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2973 | day_id=301 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=3160 | day_id=321 | kind=annual | position=5 | name=አቡነ ኤዎስጣቴዎስ (ኢትዮዽያዊ) ልደታቸው | name_core=ኤዎስጣቴዎስ ልደታቸው
+    [commemorations] id=3269 | day_id=331 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    … 17 more rows not shown
+
+================================================================================
+GZ-MEL-033 | search=['ሠለስቱ ምዕት', 'ሰለስቱ ምዕት'] qual=- | collective
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-034 | search=['ሥሉስ', 'ሠሉስ'] qual=- | 
+================================================================================
+  primary matches: 42 | qualified: 0
+    [commemorations] id=63 | day_id=6 | kind=monthly | position=8 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=71 | day_id=7 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=407 | day_id=36 | kind=monthly | position=8 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=414 | day_id=37 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=722 | day_id=66 | kind=monthly | position=5 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=730 | day_id=67 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=1026 | day_id=97 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=1333 | day_id=126 | kind=monthly | position=5 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=1336 | day_id=127 | kind=annual | position=1 | name=በዓለ ሥሉስ ቅዱስ | name_core=በዓለ ሥሉስ ቅዱስ
+    [commemorations] id=1616 | day_id=156 | kind=monthly | position=8 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=1623 | day_id=157 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወልድ መንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=1892 | day_id=186 | kind=monthly | position=8 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=1899 | day_id=187 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    [commemorations] id=2178 | day_id=216 | kind=monthly | position=7 | name=አባ አርከ ሥሉስ | name_core=አርከ ሥሉስ
+    [commemorations] id=2185 | day_id=217 | kind=monthly | position=1 | name=ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) | name_core=ሥሉስ ቅዱስ
+    … 27 more rows not shown
+
+================================================================================
+GZ-MEL-038 | search=['ሰላማ'] qual=- | 2 saints same name
+================================================================================
+  primary matches: 30 | qualified: 0
+    [commemorations] id=270 | day_id=24 | kind=annual | position=4 | name=አቡነ ሰላማ | name_core=ሰላማ
+    [commemorations] id=300 | day_id=26 | kind=monthly | position=5 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=624 | day_id=56 | kind=monthly | position=5 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=932 | day_id=86 | kind=monthly | position=2 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=1145 | day_id=108 | kind=annual | position=3 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=1229 | day_id=116 | kind=monthly | position=5 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=1527 | day_id=146 | kind=monthly | position=4 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=1808 | day_id=176 | kind=monthly | position=5 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=2076 | day_id=206 | kind=monthly | position=5 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=2372 | day_id=236 | kind=monthly | position=5 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=2635 | day_id=266 | kind=monthly | position=3 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=2926 | day_id=296 | kind=monthly | position=5 | name=አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=3217 | day_id=326 | kind=annual | position=1 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    [commemorations] id=3460 | day_id=350 | kind=annual | position=3 | name=አቡነ ሰላማ ካልዕ (መተርጉም) | name_core=ሰላማ ካልዕ
+    [commemorations] id=3521 | day_id=356 | kind=monthly | position=5 | name=ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | name_core=ሰላማ ከሣቴ ብርሃን
+    … 15 more rows not shown
+
+================================================================================
+GZ-MEL-041 | search=['ፋሲለደስ'] qual=- | 
+================================================================================
+  primary matches: 38 | qualified: 0
+    [commemorations] id=90 | day_id=9 | kind=annual | position=4 | name=ቅዱስ ፋሲለደስ ሰማዕት (ልደቱ) | name_core=ፋሲለደስ ሰማዕት
+    [commemorations] id=91 | day_id=9 | kind=annual | position=5 | name="፲፬,፯፴" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | name_core="፲፬,፯፴" ሰማዕታት
+    [commemorations] id=114 | day_id=11 | kind=annual | position=1 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=459 | day_id=41 | kind=annual | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=777 | day_id=71 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=985 | day_id=92 | kind=annual | position=5 | name=፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | name_core=፯,0፫፫ ሰማዕታት
+    [commemorations] id=1073 | day_id=101 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=1385 | day_id=131 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=1663 | day_id=161 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=1682 | day_id=163 | kind=annual | position=5 | name=ቅዱስ ቴዎድሮስ ሰማዕት (የቅ/ፋሲለደስ ልጅ) | name_core=ቴዎድሮስ ሰማዕት
+    [commemorations] id=1774 | day_id=173 | kind=annual | position=3 | name=ቅዱስ አውሳብዮስ ሰማዕት (የቅዱስ ፋሲለደስ ልጅ) | name_core=አውሳብዮስ ሰማዕት
+    [commemorations] id=1940 | day_id=191 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=2224 | day_id=221 | kind=monthly | position=3 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=2504 | day_id=251 | kind=monthly | position=2 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    [commemorations] id=2783 | day_id=281 | kind=monthly | position=2 | name=ቅዱስ ፋሲለደስ ሰማዕት | name_core=ፋሲለደስ
+    … 23 more rows not shown
+
+================================================================================
+GZ-MEL-048 | search=['መጠራ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-056 | search=['አባዲር'] qual=- | cluster with GZ-GDL-026
+================================================================================
+  primary matches: 10 | qualified: 0
+    [commemorations] id=312 | day_id=28 | kind=annual | position=1 | name=ቅዱስ አባዲር ሰማዕት | name_core=አባዲር
+    [commemorations] id=642 | day_id=58 | kind=monthly | position=6 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=952 | day_id=88 | kind=monthly | position=6 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=1249 | day_id=118 | kind=monthly | position=5 | name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations] id=1622 | day_id=157 | kind=annual | position=4 | name=ቅዱስ አባዲር | name_core=አባዲር
+    [commemorations_fts] name=ቅዱስ አባዲር ሰማዕት | name_core=አባዲር
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲርና ቅድስት ኢራኢ | name_core=አባዲርና ቅድስት ኢራኢ
+    [commemorations_fts] name=ቅዱስ አባዲር | name_core=አባዲር
+
+================================================================================
+GZ-MEL-067 | search=['ቍርባን', 'ቁርባን'] qual=- | sacrament - probably not in sinksar
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-070 | search=['ተክለ ማርያም'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-072 | search=['አማኑኤል'] qual=- | 
+================================================================================
+  primary matches: 20 | qualified: 0
+    [commemorations] id=317 | day_id=28 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=637 | day_id=58 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=947 | day_id=88 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=1241 | day_id=118 | kind=annual | position=1 | name=አማኑኤል አምላካችን | name_core=አማኑኤል አምላካችን
+    [commemorations] id=1819 | day_id=178 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=2089 | day_id=208 | kind=monthly | position=1 | name=አማኑኤል | name_core=አማኑኤል
+    [commemorations] id=2386 | day_id=238 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=2653 | day_id=268 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=2943 | day_id=298 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations] id=3238 | day_id=328 | kind=monthly | position=1 | name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations_fts] name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations_fts] name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations_fts] name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    [commemorations_fts] name=አማኑኤል አምላካችን | name_core=አማኑኤል አምላካችን
+    [commemorations_fts] name=አማኑኤል ቸር አምላካችን | name_core=አማኑኤል ቸር አምላካችን
+    … 5 more rows not shown
+
+================================================================================
+GZ-MEL-076 | search=['መርቆሬዎስ'] qual=['ድማኅ'] | 7 saints - want the monk
+================================================================================
+  primary matches: 42 | qualified: 0
+    [commemorations] id=198 | day_id=18 | kind=annual | position=7 | name=ቅዱስ መርቆሬዎስ ካልዕ (ሰማዕት) | name_core=መርቆሬዎስ ካልዕ
+    [commemorations] id=284 | day_id=25 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=610 | day_id=55 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=635 | day_id=58 | kind=annual | position=2 | name=ቅዱሳን መርትያኖስ ወመርቆሬዎስ (ሰማዕታት) | name_core=መርትያኖስ ወመርቆሬዎስ
+    [commemorations] id=728 | day_id=67 | kind=annual | position=5 | name=ቅዱሳን መርቆሬዎስና ዮሐንስ (ጻድቃን ወሰማዕት) | name_core=መርቆሬዎስና ዮሐንስ
+    [commemorations] id=915 | day_id=85 | kind=annual | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=965 | day_id=90 | kind=annual | position=5 | name=አባ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=1215 | day_id=115 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=1510 | day_id=145 | kind=annual | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕተ ሮሜ | name_core=መርቆሬዎስ ሰማዕተ ሮሜ
+    [commemorations] id=1796 | day_id=175 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=1839 | day_id=181 | kind=annual | position=4 | name=ቅዱስ መርቆሬዎስ | name_core=መርቆሬዎስ
+    [commemorations] id=2063 | day_id=205 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=2357 | day_id=235 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=2624 | day_id=265 | kind=monthly | position=1 | name=ቅዱስ መርቆሬዎስ ሰማዕት | name_core=መርቆሬዎስ
+    [commemorations] id=2649 | day_id=268 | kind=annual | position=3 | name=አባ መርቆሬዎስ ገዳማዊ | name_core=መርቆሬዎስ ገዳማዊ
+    … 27 more rows not shown
+
+================================================================================
+GZ-MEL-077 | search=['መዝገበ ሥላሴ', 'መዘገበ ሥላሴ'] qual=- | 
+================================================================================
+  primary matches: 2 | qualified: 0
+    [commemorations] id=439 | day_id=39 | kind=annual | position=8 | name=አቡነ መዝገበ ሥላሴ ጻድቅ (ኢትዮዽያዊ) | name_core=መዝገበ ሥላሴ ጻድቅ
+    [commemorations_fts] name=አቡነ መዝገበ ሥላሴ ጻድቅ (ኢትዮዽያዊ) | name_core=መዝገበ ሥላሴ ጻድቅ
+
+================================================================================
+GZ-MEL-078 | search=['መድኃኒነ እግዚእ', 'መድኀኒነ እግዚእ'] qual=- | 
+================================================================================
+  primary matches: 22 | qualified: 0
+    [commemorations] id=30 | day_id=3 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=369 | day_id=33 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=680 | day_id=63 | kind=annual | position=1 | name=አቡነ መድኃኒነ እግዚእ ጻድቅ (ዘደብረ በንኮል) | name_core=መድኃኒነ እግዚእ ጻድቅ
+    [commemorations] id=999 | day_id=93 | kind=monthly | position=1 | name=አቡነ መድኃኒነ እግዚእ ጻድቅ (ዘደብረ በንኮል) | name_core=መድኃኒነ እግዚእ ጻድቅ
+    [commemorations] id=1304 | day_id=123 | kind=monthly | position=7 | name=አቡነ መድኃኒነ እግዚእ ጻድቅ | name_core=መድኃኒነ እግዚእ
+    [commemorations] id=1863 | day_id=183 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=2148 | day_id=213 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=2432 | day_id=243 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=2704 | day_id=273 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=2993 | day_id=303 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations] id=3291 | day_id=333 | kind=monthly | position=6 | name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations_fts] name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations_fts] name=አቡነ መድኃኒነ እግዚእ ዘደብረ በንኮል | name_core=መድኃኒነ እግዚእ ዘደብረ በንኮል
+    [commemorations_fts] name=አቡነ መድኃኒነ እግዚእ ጻድቅ (ዘደብረ በንኮል) | name_core=መድኃኒነ እግዚእ ጻድቅ
+    [commemorations_fts] name=አቡነ መድኃኒነ እግዚእ ጻድቅ (ዘደብረ በንኮል) | name_core=መድኃኒነ እግዚእ ጻድቅ
+    … 7 more rows not shown
+
+================================================================================
+GZ-MEL-079 | search=['ሙሴ'] qual=- | AMBIGUOUS - 11 saints
+================================================================================
+  primary matches: 90 | qualified: 0
+    [commemorations] id=19 | day_id=3 | kind=annual | position=1 | name=አባ ሙሴ ዘደብረ ሲሐት | name_core=ሙሴ ዘደብረ ሲሐት
+    [commemorations] id=36 | day_id=4 | kind=annual | position=5 | name=አባ ሙሴ ዻዻስ | name_core=ሙሴ ዻዻስ
+    [commemorations] id=78 | day_id=8 | kind=annual | position=1 | name=ቅዱስ ሙሴ ሊቀ ነቢያት | name_core=ሙሴ ሊቀ ነቢያት
+    [commemorations] id=154 | day_id=14 | kind=monthly | position=4 | name=ቅዱስ ሙሴ ( የእግዚአብሔር ሰው) | name_core=ሙሴ
+    [commemorations] id=277 | day_id=24 | kind=monthly | position=7 | name=ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ) | name_core=ሙሴ ጸሊም
+    [commemorations] id=426 | day_id=38 | kind=monthly | position=1 | name=ቅዱስ ሙሴ ሊቀ ነቢያት | name_core=ሙሴ ሊቀ ነቢያት
+    [commemorations] id=491 | day_id=44 | kind=annual | position=4 | name=ቅዱስ ሙሴ መርዓዊ | name_core=ሙሴ መርዓዊ
+    [commemorations] id=603 | day_id=54 | kind=monthly | position=7 | name=ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ) | name_core=ሙሴ ጸሊም
+    [commemorations] id=742 | day_id=68 | kind=monthly | position=1 | name=ቅዱስ ሙሴ ሊቀ ነቢያት | name_core=ሙሴ ሊቀ ነቢያት
+    [commemorations] id=812 | day_id=74 | kind=monthly | position=7 | name=ቅዱስ ሙሴ መርዓዊ | name_core=ሙሴ መርዓዊ
+    [commemorations] id=913 | day_id=84 | kind=monthly | position=6 | name=ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ) | name_core=ሙሴ ጸሊም
+    [commemorations] id=1042 | day_id=98 | kind=monthly | position=1 | name=ቅዱስ ሙሴ ሊቀ ነቢያት | name_core=ሙሴ ሊቀ ነቢያት
+    [commemorations] id=1113 | day_id=104 | kind=monthly | position=6 | name=ቅዱስ ሙሴ መርዓዊ | name_core=ሙሴ መርዓዊ
+    [commemorations] id=1124 | day_id=106 | kind=annual | position=2 | name=ማርያም እህተ ሙሴ | name_core=ማርያም እህተ ሙሴ
+    [commemorations] id=1209 | day_id=114 | kind=monthly | position=6 | name=ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ) | name_core=ሙሴ ጸሊም
+    … 75 more rows not shown
+
+================================================================================
+GZ-MEL-080 | search=['ማቴዎስ'] qual=['በርበሬ'] | 5 saints - want Debre Berbere
+================================================================================
+  primary matches: 52 | qualified: 0
+    [commemorations] id=132 | day_id=12 | kind=monthly | position=3 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=187 | day_id=17 | kind=monthly | position=3 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=466 | day_id=42 | kind=annual | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=528 | day_id=47 | kind=monthly | position=2 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=791 | day_id=72 | kind=monthly | position=6 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=841 | day_id=77 | kind=monthly | position=3 | name=መክሲሞስና ዱማቴዎስ | name_core=መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1024 | day_id=97 | kind=annual | position=3 | name=አባ ማቴዎስ ገዳማዊ | name_core=ማቴዎስ ገዳማዊ
+    [commemorations] id=1086 | day_id=102 | kind=monthly | position=6 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1137 | day_id=107 | kind=monthly | position=3 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1313 | day_id=125 | kind=annual | position=1 | name=ቅዱስ አባ ማቴዎስ | name_core=ማቴዎስ
+    [commemorations] id=1433 | day_id=137 | kind=annual | position=1 | name=ቅዱሳን እና ክቡራን የሚሆኑ አባቶቻችን "መክሲሞስ እና ዱማቴዎስ" | name_core=እና ክቡራን የሚሆኑ አባቶቻችን "መክሲሞስ እና ዱማቴዎስ"
+    [commemorations] id=1671 | day_id=162 | kind=monthly | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1725 | day_id=167 | kind=monthly | position=4 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1947 | day_id=192 | kind=monthly | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1999 | day_id=197 | kind=monthly | position=4 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    … 37 more rows not shown
+
+================================================================================
+GZ-MEL-081 | search=['ማቴዎስ'] qual=['በርበሬ'] | same as GZ-MEL-080
+================================================================================
+  primary matches: 52 | qualified: 0
+    [commemorations] id=132 | day_id=12 | kind=monthly | position=3 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=187 | day_id=17 | kind=monthly | position=3 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=466 | day_id=42 | kind=annual | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=528 | day_id=47 | kind=monthly | position=2 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=791 | day_id=72 | kind=monthly | position=6 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=841 | day_id=77 | kind=monthly | position=3 | name=መክሲሞስና ዱማቴዎስ | name_core=መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1024 | day_id=97 | kind=annual | position=3 | name=አባ ማቴዎስ ገዳማዊ | name_core=ማቴዎስ ገዳማዊ
+    [commemorations] id=1086 | day_id=102 | kind=monthly | position=6 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1137 | day_id=107 | kind=monthly | position=3 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1313 | day_id=125 | kind=annual | position=1 | name=ቅዱስ አባ ማቴዎስ | name_core=ማቴዎስ
+    [commemorations] id=1433 | day_id=137 | kind=annual | position=1 | name=ቅዱሳን እና ክቡራን የሚሆኑ አባቶቻችን "መክሲሞስ እና ዱማቴዎስ" | name_core=እና ክቡራን የሚሆኑ አባቶቻችን "መክሲሞስ እና ዱማቴዎስ"
+    [commemorations] id=1671 | day_id=162 | kind=monthly | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1725 | day_id=167 | kind=monthly | position=4 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    [commemorations] id=1947 | day_id=192 | kind=monthly | position=2 | name=ቅዱስ ማቴዎስ ሐዋርያ | name_core=ማቴዎስ
+    [commemorations] id=1999 | day_id=197 | kind=monthly | position=4 | name=ቅዱሳን አበው መክሲሞስና ዱማቴዎስ | name_core=አበው መክሲሞስና ዱማቴዎስ
+    … 37 more rows not shown
+
+================================================================================
+GZ-MEL-083 | search=['ሰይፈ ሚካኤል'] qual=['ሚካኤል'] | monk Seyfe Mikael
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-090 | search=['ተንሥአ መድኅን', 'ተንሣአ መድኅን'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-093 | search=['ተክለ አልፋ'] qual=- | 
+================================================================================
+  primary matches: 2 | qualified: 0
+    [commemorations] id=1038 | day_id=98 | kind=annual | position=7 | name=አባ ተክለ አልፋ ዘደብረ ድማሕ | name_core=ተክለ አልፋ ዘደብረ ድማሕ
+    [commemorations_fts] name=አባ ተክለ አልፋ ዘደብረ ድማሕ | name_core=ተክለ አልፋ ዘደብረ ድማሕ
+
+================================================================================
+GZ-MEL-094 | search=['ቶማስ'] qual=['ዘናቁዴ'] | 5 saints - want Zenakude
+================================================================================
+  primary matches: 74 | qualified: 0
+    [commemorations] id=197 | day_id=18 | kind=annual | position=6 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=199 | day_id=18 | kind=annual | position=8 | name=ቅዱስ ቶማስ ሰማዕት | name_core=ቶማስ
+    [commemorations] id=272 | day_id=24 | kind=monthly | position=2 | name=ቅዱስ ቶማስ ዘመርዐስ | name_core=ቶማስ ዘመርዐስ
+    [commemorations] id=296 | day_id=26 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=432 | day_id=39 | kind=annual | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=598 | day_id=54 | kind=monthly | position=2 | name=ቅዱስ ቶማስ ዘመርዐስ | name_core=ቶማስ ዘመርዐስ
+    [commemorations] id=620 | day_id=56 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=692 | day_id=64 | kind=annual | position=1 | name=ቅዱስ ቶማስ ዘደማስቆ | name_core=ቶማስ ዘደማስቆ
+    [commemorations] id=909 | day_id=84 | kind=monthly | position=2 | name=ቅዱስ ቶማስ ዘመርዐስ | name_core=ቶማስ ዘመርዐስ
+    [commemorations] id=931 | day_id=86 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=1143 | day_id=108 | kind=annual | position=1 | name=ቅዱስ ቶማስ ሐዋርያ (ፍልሠቱ) | name_core=ቶማስ ሐዋርያ
+    [commemorations] id=1204 | day_id=114 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ዘመርዐስ | name_core=ቶማስ ዘመርዐስ
+    [commemorations] id=1225 | day_id=116 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    [commemorations] id=1506 | day_id=144 | kind=monthly | position=3 | name=ቅዱስ ቶማስ ዘመርዓስ | name_core=ቶማስ ዘመርዓስ
+    [commemorations] id=1524 | day_id=146 | kind=monthly | position=1 | name=ቅዱስ ቶማስ ሐዋርያ | name_core=ቶማስ
+    … 59 more rows not shown
+
+================================================================================
+GZ-MEL-099 | search=['አብሳዲ'] qual=- | 
+================================================================================
+  primary matches: 6 | qualified: 0
+    [commemorations] id=336 | day_id=30 | kind=annual | position=5 | name=አባ አብሳዲ ዘደብረ ማርያም | name_core=አብሳዲ ዘደብረ ማርያም
+    [commemorations] id=1230 | day_id=117 | kind=annual | position=1 | name=ቅዱስ አብሳዲ ሰማዕት | name_core=አብሳዲ
+    [commemorations] id=1502 | day_id=144 | kind=annual | position=4 | name=አባ አብሳዲ ቀሲስ | name_core=አብሳዲ ቀሲስ
+    [commemorations_fts] name=አባ አብሳዲ ዘደብረ ማርያም | name_core=አብሳዲ ዘደብረ ማርያም
+    [commemorations_fts] name=ቅዱስ አብሳዲ ሰማዕት | name_core=አብሳዲ
+    [commemorations_fts] name=አባ አብሳዲ ቀሲስ | name_core=አብሳዲ ቀሲስ
+
+================================================================================
+GZ-MEL-100 | search=['አፍቅረነ እግዚእ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-102 | search=['እንድርያስ'] qual=['ስኂን'] | 6 saints - want monk of Debre Sihin
+================================================================================
+  primary matches: 28 | qualified: 0
+    [commemorations] id=37 | day_id=4 | kind=monthly | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=255 | day_id=23 | kind=annual | position=1 | name=ቅዱሳን ጻድቃን አውናብዮስ ወእንድርያስ (ሰማዕታት) | name_core=ጻድቃን አውናብዮስ ወእንድርያስ
+    [commemorations] id=378 | day_id=34 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=699 | day_id=64 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1002 | day_id=94 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1310 | day_id=124 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1867 | day_id=184 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2153 | day_id=214 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2437 | day_id=244 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2712 | day_id=274 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2998 | day_id=304 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3251 | day_id=330 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3297 | day_id=334 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3544 | day_id=360 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations_fts] name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    … 13 more rows not shown
+
+================================================================================
+GZ-MEL-103 | search=['እንድርያስ'] qual=['ጽጌ'] | want monk of Debre Tsige
+================================================================================
+  primary matches: 28 | qualified: 0
+    [commemorations] id=37 | day_id=4 | kind=monthly | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=255 | day_id=23 | kind=annual | position=1 | name=ቅዱሳን ጻድቃን አውናብዮስ ወእንድርያስ (ሰማዕታት) | name_core=ጻድቃን አውናብዮስ ወእንድርያስ
+    [commemorations] id=378 | day_id=34 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=699 | day_id=64 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1002 | day_id=94 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1310 | day_id=124 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=1867 | day_id=184 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2153 | day_id=214 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2437 | day_id=244 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2712 | day_id=274 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=2998 | day_id=304 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3251 | day_id=330 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3297 | day_id=334 | kind=monthly | position=2 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations] id=3544 | day_id=360 | kind=annual | position=1 | name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    [commemorations_fts] name=ቅዱስ እንድርያስ ሐዋርያ | name_core=እንድርያስ
+    … 13 more rows not shown
+
+================================================================================
+GZ-MEL-107 | search=['የሐንስ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-108 | search=['ይምአታ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-109 | search=['ዮሐንስ', 'ዮሃንስ'] qual=['ከማ'] | two Kama entries
+================================================================================
+  primary matches: 352 | qualified: 2
+  QUALIFIED MATCHES:
+    [commemorations] id=1212 | day_id=115 | kind=annual | position=2 | name=ቅዱስ ዮሐንስ ከማ (እና የተቀደሰች ሚስቱ) | name_core=ዮሐንስ ከማ
+    [commemorations_fts] name=ቅዱስ ዮሐንስ ከማ (እና የተቀደሰች ሚስቱ) | name_core=ዮሐንስ ከማ
+
+================================================================================
+GZ-MEL-110 | search=['ዮሐንስ', 'ዮሃንስ'] qual=['ዳጋ'] | want Debre Daga
+================================================================================
+  primary matches: 352 | qualified: 0
+    [commemorations] id=9 | day_id=2 | kind=annual | position=1 | name=ቅዱስ ዮሐንስ ነቢይ (መጥምቀ መለኮት) | name_core=ዮሐንስ ነቢይ
+    [commemorations] id=33 | day_id=4 | kind=annual | position=2 | name=ቅዱስ ዮሐንስ ወንጌላዊ (ልደቱ) | name_core=ዮሐንስ ወንጌላዊ
+    [commemorations] id=39 | day_id=4 | kind=monthly | position=3 | name=ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | name_core=ዮሐንስ ዘሐራቅሊ
+    [commemorations] id=70 | day_id=7 | kind=annual | position=5 | name=ቅዱሳን አጋቶን ዼጥሮስ ዮሐንስ አሞንና እናታቸው ራፊቃ (ሰማዕታት) | name_core=አጋቶን ዼጥሮስ ዮሐንስ አሞንና እናታቸው ራፊቃ
+    [commemorations] id=134 | day_id=12 | kind=monthly | position=5 | name=ቅዱስ ዮሐንስ አፈ ወርቅ | name_core=ዮሐንስ አፈ ወርቅ
+    [commemorations] id=156 | day_id=14 | kind=monthly | position=6 | name=አባ ዮሐንስ ጻድቅ | name_core=ዮሐንስ
+    [commemorations] id=172 | day_id=16 | kind=monthly | position=2 | name=ቅድስት ኤልሳቤጥ (የመጥምቁ ዮሐንስ እናት) | name_core=ኤልሳቤጥ
+    [commemorations] id=177 | day_id=16 | kind=monthly | position=7 | name=ቅዱስ አባ ዮሐንስ ጻድቅ (ወንጌሉ ዘወርቅ) | name_core=ዮሐንስ ጻድቅ
+    [commemorations] id=227 | day_id=20 | kind=monthly | position=1 | name=ቅዱስ ዮሐንስ ሐፂር | name_core=ዮሐንስ ሐፂር
+    [commemorations] id=273 | day_id=24 | kind=monthly | position=3 | name=አቡነ ዘዮሐንስ ጻድቅ ዘክብራን | name_core=ዘዮሐንስ ጻድቅ ዘክብራን
+    [commemorations] id=293 | day_id=26 | kind=annual | position=3 | name=ቅዱስ ዮሐንስ መጥምቅ (ጽንሰቱ) | name_core=ዮሐንስ መጥምቅ
+    [commemorations] id=304 | day_id=27 | kind=annual | position=4 | name=አባ ዮሐንስ ዘደብረ ጽጌ | name_core=ዮሐንስ ዘደብረ ጽጌ
+    [commemorations] id=325 | day_id=29 | kind=annual | position=4 | name=ቅዱስ ዮሐንስ ወንጌላዊ (ነባቤ መለኮት) | name_core=ዮሐንስ ወንጌላዊ
+    [commemorations] id=334 | day_id=30 | kind=annual | position=3 | name=ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት) | name_core=ያዕቆብና ዮሐንስ ሐዋርያት
+    [commemorations] id=341 | day_id=30 | kind=monthly | position=4 | name=ቅዱስ ዮሐንስ መጥምቀ መለኮት | name_core=ዮሐንስ መጥምቀ መለኮት
+    … 337 more rows not shown
+
+================================================================================
+GZ-MEL-113 | search=['ዮናስ'] qual=['ድኁኃን'] | 
+================================================================================
+  primary matches: 14 | qualified: 0
+    [commemorations] id=22 | day_id=3 | kind=annual | position=4 | name=አባ ዲዮናስዮስ | name_core=ዲዮናስዮስ
+    [commemorations] id=184 | day_id=17 | kind=annual | position=7 | name=ቅዱስ ዲዮናስዮስ ሊቀ ዻዻሳት | name_core=ዲዮናስዮስ ሊቀ ዻዻሳት
+    [commemorations] id=279 | day_id=25 | kind=annual | position=2 | name=ቅዱስ ዮናስ ነቢይ | name_core=ዮናስ
+    [commemorations] id=391 | day_id=36 | kind=annual | position=1 | name=ቅዱስ ዲዮናስዮስ ሐዋርያዊ | name_core=ዲዮናስዮስ ሐዋርያዊ
+    [commemorations] id=582 | day_id=53 | kind=annual | position=2 | name=ቅዱስ ዲዮናስዮስ ሰማዕት | name_core=ዲዮናስዮስ
+    [commemorations] id=1955 | day_id=193 | kind=annual | position=4 | name=ቅዱስ ዲዮናስዮስ (ጻድቅ ሊቀ ዻዻሳት) | name_core=ዲዮናስዮስ
+    [commemorations] id=3121 | day_id=317 | kind=annual | position=1 | name=ቅዱስ ዮናስ ነቢይ (ከአሣ አንበሪ ሆድ የወጣበት) | name_core=ዮናስ ነቢይ
+    [commemorations_fts] name=አባ ዲዮናስዮስ | name_core=ዲዮናስዮስ
+    [commemorations_fts] name=ቅዱስ ዲዮናስዮስ ሊቀ ዻዻሳት | name_core=ዲዮናስዮስ ሊቀ ዻዻሳት
+    [commemorations_fts] name=ቅዱስ ዮናስ ነቢይ | name_core=ዮናስ
+    [commemorations_fts] name=ቅዱስ ዲዮናስዮስ ሐዋርያዊ | name_core=ዲዮናስዮስ ሐዋርያዊ
+    [commemorations_fts] name=ቅዱስ ዲዮናስዮስ ሰማዕት | name_core=ዲዮናስዮስ
+    [commemorations_fts] name=ቅዱስ ዲዮናስዮስ (ጻድቅ ሊቀ ዻዻሳት) | name_core=ዲዮናስዮስ
+    [commemorations_fts] name=ቅዱስ ዮናስ ነቢይ (ከአሣ አንበሪ ሆድ የወጣበት) | name_core=ዮናስ ነቢይ
+
+================================================================================
+GZ-MEL-115 | search=['ጰንጠሌዎን'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-120 | search=['ፊልጶስ'] qual=['ቢዘን'] | want monk of Debre Bizen
+================================================================================
+  primary matches: 4 | qualified: 0
+    [commemorations] id=2810 | day_id=284 | kind=annual | position=1 | name=ቅዱሳን አበው ሰማዕታት (አባ አክራ አባ ዮሐንስ አባ አብጥልማ አባ ፊልጶስ) | name_core=አበው ሰማዕታት
+    [commemorations] id=2813 | day_id=284 | kind=monthly | position=3 | name=ቅዱስ ፊልጶስ ሐዋርያ | name_core=ፊልጶስ
+    [commemorations_fts] name=ቅዱሳን አበው ሰማዕታት (አባ አክራ አባ ዮሐንስ አባ አብጥልማ አባ ፊልጶስ) | name_core=አበው ሰማዕታት
+    [commemorations_fts] name=ቅዱስ ፊልጶስ ሐዋርያ | name_core=ፊልጶስ
+
+================================================================================
+GZ-MEL-135 | search=['ኤዎስጣቴዎስ', 'ኤውስጣቴዎስ'] qual=- | 
+================================================================================
+  primary matches: 32 | qualified: 0
+    [commemorations] id=192 | day_id=18 | kind=annual | position=1 | name=አቡነ ኤዎስጣቴዎስ ረባን | name_core=ኤዎስጣቴዎስ ረባን
+    [commemorations] id=258 | day_id=23 | kind=annual | position=4 | name=ቅዱስ ኤዎስጣቴዎስ ሰማዕት | name_core=ኤዎስጣቴዎስ
+    [commemorations] id=301 | day_id=27 | kind=annual | position=1 | name=ቅዱስ ኤዎስጣቴዎስና ቤተሰቡ (ሰማዕታት) | name_core=ኤዎስጣቴዎስና ቤተሰቡ
+    [commemorations] id=537 | day_id=48 | kind=monthly | position=1 | name=አቡነ ኤዎስጣቴዎስ ረባን | name_core=ኤዎስጣቴዎስ ረባን
+    [commemorations] id=850 | day_id=78 | kind=monthly | position=1 | name=አቡነ ኤዎስጣቴዎስ ረባን | name_core=ኤዎስጣቴዎስ ረባን
+    [commemorations] id=1115 | day_id=105 | kind=annual | position=2 | name=አቡነ ኤዎስጣቴዎስ ረባን | name_core=ኤዎስጣቴዎስ ረባን
+    [commemorations] id=1148 | day_id=108 | kind=monthly | position=1 | name=አቡነ ኤዎስጣቴዎስ ረባን | name_core=ኤዎስጣቴዎስ ረባን
+    [commemorations] id=1445 | day_id=138 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ | name_core=ኤዎስጣቴዎስ
+    [commemorations] id=1732 | day_id=168 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=2005 | day_id=198 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=2288 | day_id=228 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=2560 | day_id=258 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=2845 | day_id=288 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=3137 | day_id=318 | kind=monthly | position=2 | name=አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | name_core=ኤዎስጣቴዎስ ሰባኬ ሃይማኖት
+    [commemorations] id=3160 | day_id=321 | kind=annual | position=5 | name=አቡነ ኤዎስጣቴዎስ (ኢትዮዽያዊ) ልደታቸው | name_core=ኤዎስጣቴዎስ ልደታቸው
+    … 17 more rows not shown
+
+================================================================================
+GZ-MEL-138 | search=['እንጦንዮስ', 'እንጦንስ'] qual=- | 
+================================================================================
+  primary matches: 30 | qualified: 0
+    [commemorations] id=253 | day_id=22 | kind=monthly | position=4 | name=አባ እንጦንስ አበ መነኮሳት | name_core=እንጦንስ አበ መነኮሳት
+    [commemorations] id=280 | day_id=25 | kind=annual | position=3 | name=ቅዱስ እንጦንዮስ | name_core=እንጦንዮስ
+    [commemorations] id=578 | day_id=52 | kind=monthly | position=3 | name=አባ እንጦንስ አበ መነኮሳት | name_core=እንጦንስ አበ መነኮሳት
+    [commemorations] id=888 | day_id=82 | kind=monthly | position=3 | name=አባ እንጦንስ አበ መነኮሳት | name_core=እንጦንስ አበ መነኮሳት
+    [commemorations] id=1184 | day_id=112 | kind=monthly | position=2 | name=አባ እንጦንስ | name_core=እንጦንስ
+    [commemorations] id=1482 | day_id=142 | kind=annual | position=1 | name=ቅዱስ አባ እንጦንስ (የመነኮሳት አባት - የበርሐው ኮከብ / ልደቱና ዕረፍቱ) | name_core=እንጦንስ
+    [commemorations] id=1770 | day_id=172 | kind=monthly | position=4 | name=አባ እንጦንዮስ (አበ መነኮሳት) | name_core=እንጦንዮስ
+    [commemorations] id=1883 | day_id=186 | kind=annual | position=5 | name=አባ እንጦንስ ገዳማዊ | name_core=እንጦንስ ገዳማዊ
+    [commemorations] id=2043 | day_id=202 | kind=monthly | position=4 | name=አባ እንጦንዮስ (አበ መነኮሳት) | name_core=እንጦንዮስ
+    [commemorations] id=2330 | day_id=232 | kind=monthly | position=4 | name=አባ እንጦንዮስ (አበ መነኮሳት) | name_core=እንጦንዮስ
+    [commemorations] id=2593 | day_id=262 | kind=monthly | position=4 | name=አባ እንጦንዮስ (አበ መነኮሳት) | name_core=እንጦንዮስ
+    [commemorations] id=2888 | day_id=292 | kind=monthly | position=4 | name=አባ እንጦንዮስ (አበ መነኮሳት) | name_core=እንጦንዮስ
+    [commemorations] id=3172 | day_id=322 | kind=annual | position=4 | name=አባ እንጦንስ አበ መነኮሳት (ቅዳሴ ቤታቸው) | name_core=እንጦንስ አበ መነኮሳት
+    [commemorations] id=3195 | day_id=324 | kind=annual | position=7 | name=ቅድስት ክብራ (መስቀል ክብራ) ዘእንጦንስ ኢየሱስ | name_core=ክብራ ዘእንጦንስ ኢየሱስ
+    [commemorations] id=3482 | day_id=352 | kind=monthly | position=4 | name=አባ እንጦንስ አበ መነኮሳት | name_core=እንጦንስ አበ መነኮሳት
+    … 15 more rows not shown
+
+================================================================================
+GZ-MEL-139 | search=['እግዚአብሔር አብ'] qual=- | not a saint
+================================================================================
+  primary matches: 24 | qualified: 0
+    [commemorations] id=140 | day_id=13 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=481 | day_id=43 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=798 | day_id=73 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1094 | day_id=103 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1396 | day_id=133 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1686 | day_id=163 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1956 | day_id=193 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2243 | day_id=223 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2513 | day_id=253 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2803 | day_id=283 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=3088 | day_id=313 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=3392 | day_id=343 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    … 9 more rows not shown
+
+================================================================================
+GZ-MEL-140 | search=['እግዚአብሔር አብ'] qual=- | not a saint
+================================================================================
+  primary matches: 24 | qualified: 0
+    [commemorations] id=140 | day_id=13 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=481 | day_id=43 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=798 | day_id=73 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1094 | day_id=103 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1396 | day_id=133 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1686 | day_id=163 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=1956 | day_id=193 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2243 | day_id=223 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2513 | day_id=253 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=2803 | day_id=283 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=3088 | day_id=313 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations] id=3392 | day_id=343 | kind=monthly | position=1 | name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    [commemorations_fts] name=እግዚአብሔር አብ | name_core=እግዚአብሔር አብ
+    … 9 more rows not shown
+
+================================================================================
+GZ-MEL-142 | search=['ካህናተ ሰማይ'] qual=- | collective
+================================================================================
+  primary matches: 2 | qualified: 0
+    [commemorations] id=902 | day_id=84 | kind=annual | position=1 | name="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ
+    [commemorations_fts] name="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ (ሱራፌል) | name_core="፳፬ቱ" ቅዱሳን ካህናተ ሰማይ
+
+================================================================================
+GZ-MEL-146 | search=['ያሬድ'] qual=- | cluster
+================================================================================
+  primary matches: 30 | qualified: 0
+    [commemorations] id=120 | day_id=11 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=461 | day_id=41 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=775 | day_id=71 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1071 | day_id=101 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1383 | day_id=131 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1661 | day_id=161 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1938 | day_id=191 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2130 | day_id=212 | kind=annual | position=3 | name=ቅዱስ መላልኤል (የያሬድ አባት - ከአዳም ፭ኛ ትውልድ) | name_core=መላልኤል
+    [commemorations] id=2161 | day_id=215 | kind=annual | position=6 | name=ቅዱስ ያሬድ ካህን (ልደቱ) | name_core=ያሬድ ካህን
+    [commemorations] id=2222 | day_id=221 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2493 | day_id=251 | kind=annual | position=1 | name=ቅዱስ ያሬድ ካህን ወማኅሌታይ | name_core=ያሬድ ካህን ወማኅሌታይ
+    [commemorations] id=2495 | day_id=251 | kind=annual | position=3 | name=ክርስቲናና ይስሐቅ (የቅዱስ ያሬድ ወላጆች) | name_core=ክርስቲናና ይስሐቅ
+    [commemorations] id=2782 | day_id=281 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3070 | day_id=311 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3370 | day_id=341 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    … 15 more rows not shown
+
+================================================================================
+GZ-MEL-147 | search=['ያሬድ'] qual=- | cluster
+================================================================================
+  primary matches: 30 | qualified: 0
+    [commemorations] id=120 | day_id=11 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=461 | day_id=41 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=775 | day_id=71 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1071 | day_id=101 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1383 | day_id=131 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1661 | day_id=161 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=1938 | day_id=191 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2130 | day_id=212 | kind=annual | position=3 | name=ቅዱስ መላልኤል (የያሬድ አባት - ከአዳም ፭ኛ ትውልድ) | name_core=መላልኤል
+    [commemorations] id=2161 | day_id=215 | kind=annual | position=6 | name=ቅዱስ ያሬድ ካህን (ልደቱ) | name_core=ያሬድ ካህን
+    [commemorations] id=2222 | day_id=221 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=2493 | day_id=251 | kind=annual | position=1 | name=ቅዱስ ያሬድ ካህን ወማኅሌታይ | name_core=ያሬድ ካህን ወማኅሌታይ
+    [commemorations] id=2495 | day_id=251 | kind=annual | position=3 | name=ክርስቲናና ይስሐቅ (የቅዱስ ያሬድ ወላጆች) | name_core=ክርስቲናና ይስሐቅ
+    [commemorations] id=2782 | day_id=281 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3070 | day_id=311 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    [commemorations] id=3370 | day_id=341 | kind=monthly | position=1 | name=ቅዱስ ያሬድ ካህን | name_core=ያሬድ ካህን
+    … 15 more rows not shown
+
+================================================================================
+GZ-MEL-148 | search=['ይምርሃነ ክርስቶስ'] qual=- | 
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MEL-153 | search=['ገብረ ክርስቶስ'] qual=- | several saints
+================================================================================
+  primary matches: 26 | qualified: 0
+    [commemorations] id=152 | day_id=14 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=490 | day_id=44 | kind=annual | position=3 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=811 | day_id=74 | kind=monthly | position=6 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=1112 | day_id=104 | kind=monthly | position=5 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=1406 | day_id=134 | kind=monthly | position=3 | name=ቅዱስ ገብረ ክርስቶስ (ሙሽራው) | name_core=ገብረ ክርስቶስ
+    [commemorations] id=1699 | day_id=164 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=1968 | day_id=194 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=2252 | day_id=224 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=2522 | day_id=254 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=2722 | day_id=276 | kind=annual | position=2 | name=አባ ገብረ ክርስቶስ | name_core=ገብረ ክርስቶስ
+    [commemorations] id=2812 | day_id=284 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=3100 | day_id=314 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations] id=3404 | day_id=344 | kind=monthly | position=2 | name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations_fts] name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    [commemorations_fts] name=ቅዱስ ገብረ ክርስቶስ መርዓዊ | name_core=ገብረ ክርስቶስ መርዓዊ
+    … 11 more rows not shown
+
+================================================================================
+GZ-MEL-158 | search=['ጴጥሮስ'] qual=['ጳውሎስ'] | both apostles in one malke
+================================================================================
+  primary matches: 14 | qualified: 2
+  QUALIFIED MATCHES:
+    [commemorations] id=2719 | day_id=275 | kind=monthly | position=1 | name=ጴጥሮስና ጳውሎስ | name_core=ጴጥሮስና ጳውሎስ
+    [commemorations_fts] name=ጴጥሮስና ጳውሎስ | name_core=ጴጥሮስና ጳውሎስ
+
+================================================================================
+GZ-MEL-164 | search=['፬ቱ እንስሳ', 'እንስሳ'] qual=- | four creatures
+================================================================================
+  primary matches: 24 | qualified: 0
+    [commemorations] id=83 | day_id=8 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=427 | day_id=38 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=737 | day_id=68 | kind=annual | position=1 | name=ቅዱሳን ፬ቱ እንስሳ (ኪሩቤል) | name_core=፬ቱ እንስሳ
+    [commemorations] id=1044 | day_id=98 | kind=monthly | position=3 | name=ቅዱሳን ፬ቱ እንስሳ (ኪሩቤል) | name_core=፬ቱ እንስሳ
+    [commemorations] id=1351 | day_id=128 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=1636 | day_id=158 | kind=monthly | position=3 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=1910 | day_id=188 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=2196 | day_id=218 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=2469 | day_id=248 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=2751 | day_id=278 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=3044 | day_id=308 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations] id=3342 | day_id=338 | kind=monthly | position=2 | name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations_fts] name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations_fts] name=ኪሩቤል (አርባዕቱ እንስሳ) | name_core=ኪሩቤል
+    [commemorations_fts] name=ቅዱሳን ፬ቱ እንስሳ (ኪሩቤል) | name_core=፬ቱ እንስሳ
+    … 9 more rows not shown
+
+================================================================================
+GZ-MTS-001 | search=['ልደታ ለማርያም'] qual=- | Marian book
+================================================================================
+  primary matches: 20 | qualified: 0
+    [commemorations] id=7 | day_id=1 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=346 | day_id=31 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=664 | day_id=61 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=976 | day_id=91 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=1279 | day_id=121 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=1841 | day_id=181 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2123 | day_id=211 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2681 | day_id=271 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=2973 | day_id=301 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations] id=3269 | day_id=331 | kind=monthly | position=1 | name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations_fts] name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations_fts] name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations_fts] name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations_fts] name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    [commemorations_fts] name=ልደታ ለማርያም ድንግል እግዝእትነ | name_core=ልደታ ለማርያም ድንግል እግዝእትነ
+    … 5 more rows not shown
+
+================================================================================
+AM-SBT-001 | search=['ምሉዕነት'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-MTS-002 | search=['ልፋፈ ጽድቅ'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-SME-001 | search=['ጲላጦስ'] qual=- | keepout candidate
+================================================================================
+  primary matches: 2 | qualified: 0
+    [commemorations] id=2910 | day_id=295 | kind=annual | position=2 | name=ሰማዕቱ ጲላጦስ መስፍን | name_core=ሰማዕቱ ጲላጦስ መስፍን
+    [commemorations_fts] name=ሰማዕቱ ጲላጦስ መስፍን | name_core=ሰማዕቱ ጲላጦስ መስፍን
+
+================================================================================
+GZ-TBB-001 | search=['ጥበበ ሰሎሞን'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-TUL-001 | search=['ቱላዳን'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-ZNA-001 | search=['በካፋ'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+GZ-ZNA-002 | search=['ገላውዴዎስ'] qual=- | keepout candidate
+================================================================================
+  primary matches: 46 | qualified: 0
+    [commemorations] id=121 | day_id=11 | kind=monthly | position=2 | name=ማር ገላውዴዎስ ሰማዕት | name_core=ማር ገላውዴዎስ
+    [commemorations] id=309 | day_id=27 | kind=monthly | position=5 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=631 | day_id=57 | kind=monthly | position=3 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=776 | day_id=71 | kind=monthly | position=2 | name=ማር ገላውዴዎስ ሰማዕት | name_core=ማር ገላውዴዎስ
+    [commemorations] id=942 | day_id=87 | kind=monthly | position=4 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=1072 | day_id=101 | kind=monthly | position=2 | name=ማር ገላውዴዎስ ሰማዕት | name_core=ማር ገላውዴዎስ
+    [commemorations] id=1238 | day_id=117 | kind=monthly | position=5 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=1384 | day_id=131 | kind=monthly | position=2 | name=ማር ገላውዴዎስ ሰማዕት | name_core=ማር ገላውዴዎስ
+    [commemorations] id=1536 | day_id=147 | kind=monthly | position=4 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=1662 | day_id=161 | kind=monthly | position=2 | name=ቅዱስ ገላውዴዎስ ሰማዕት | name_core=ገላውዴዎስ
+    [commemorations] id=1815 | day_id=177 | kind=monthly | position=6 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮጵያ) | name_core=ገላውዴዎስ ሰማዕት
+    [commemorations] id=1939 | day_id=191 | kind=monthly | position=2 | name=ቅዱስ ገላውዴዎስ ሰማዕት | name_core=ገላውዴዎስ
+    [commemorations] id=2082 | day_id=207 | kind=annual | position=6 | name=ማር ገላውዴዎስ ሰማዕት (የኢትዮዽያ ንጉሥ) | name_core=ማር ገላውዴዎስ ሰማዕት
+    [commemorations] id=2223 | day_id=221 | kind=monthly | position=2 | name=ቅዱስ ገላውዴዎስ ሰማዕት | name_core=ገላውዴዎስ
+    [commemorations] id=2381 | day_id=237 | kind=monthly | position=5 | name=ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | name_core=ገላውዴዎስ ሰማዕት
+    … 31 more rows not shown
+
+================================================================================
+GZ-ZNA-003 | search=['ላልይበላ'] qual=- | keepout candidate
+================================================================================
+  primary matches: 0 | qualified: 0
+  NO MATCH in sinksar DB
+
+================================================================================
+BOOKS WITH ZERO MATCHES IN SINKSAR DB
+================================================================================
+  GZ-DRS-006
+  GZ-GDL-005
+  GZ-GDL-012
+  GZ-GDL-034
+  GZ-MEL-033
+  GZ-MEL-048
+  GZ-MEL-067
+  GZ-MEL-070
+  GZ-MEL-083
+  GZ-MEL-090
+  GZ-MEL-100
+  GZ-MEL-107
+  GZ-MEL-108
+  GZ-MEL-115
+  GZ-MEL-148
+  AM-SBT-001
+  GZ-MTS-002
+  GZ-TBB-001
+  GZ-TUL-001
+  GZ-ZNA-001
+  GZ-ZNA-003

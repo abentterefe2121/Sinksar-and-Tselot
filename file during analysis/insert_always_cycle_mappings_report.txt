@@ -1,0 +1,148 @@
+INSERT ALWAYS CYCLE MAPPINGS REPORT
+Generated: 2026-09-21T15:10:13
+Write target: WORKING COPY only
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Locked everyday book_id count: 43
+Method: 1 row per book, NULL calendar date, reading_cycle=ALWAYS
+
+ORIGINAL DB BEFORE COPY
+  size: 57786368
+  book_calendar_mappings: 811
+  ALWAYS rows: 0
+  books: 415
+  calendar_days: 366
+
+FRESH COPY CREATED
+  copied original -> working copy
+  working copy size after clone: 57786368
+
+INSERT SUMMARY
+  mappings before insert: 811
+  deleted leftover rows for these 43: 0
+  inserted rows: 43
+  expected inserted rows: 43
+  mappings after insert: 854
+  expected after insert: 854
+
+NOTES COUNTS
+  MONTHLY: 577
+  ANNUAL: 168
+  ANNUAL+MONTHLY: 66
+  ALWAYS: 43
+
+READING_CYCLE COUNTS
+  CALENDAR: 811
+  ALWAYS: 43
+
+ALWAYS rows with unexpected values: 0
+ROW COUNT PER EVERYDAY book_id
+  PASS AM-BEE-001: 1/1
+  PASS AM-LIT-001: 1/1
+  PASS AM-MEL-028: 1/1
+  PASS AM-MET-001: 1/1
+  PASS AM-MET-002: 1/1
+  PASS AM-MZM-001: 1/1
+  PASS AM-SEY-001: 1/1
+  PASS AM-TEA-002: 1/1
+  PASS AM-TEA-003: 1/1
+  PASS AM-TSE-001: 1/1
+  PASS AM-TSE-002: 1/1
+  PASS AM-TSE-003: 1/1
+  PASS AM-TSE-004: 1/1
+  PASS AM-TSE-005: 1/1
+  PASS AM-WUD-001: 1/1
+  PASS EN-TSE-001: 1/1
+  PASS GZ-BEE-001: 1/1
+  PASS GZ-DRS-004: 1/1
+  PASS GZ-HAT-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS GZ-MET-001: 1/1
+  PASS GZ-MET-003: 1/1
+  PASS GZ-MZM-004: 1/1
+  PASS GZ-SEY-001: 1/1
+  PASS GZ-TAM-003: 1/1
+  PASS GZ-TEA-002: 1/1
+  PASS GZ-TEA-003: 1/1
+  PASS GZ-TSE-001: 1/1
+  PASS GZ-TSE-002: 1/1
+  PASS GZ-TSE-004: 1/1
+  PASS GZ-TSE-005: 1/1
+  PASS GZ-TSE-006: 1/1
+  PASS GZ-WUD-001: 1/1
+  PASS OR-MZM-001: 1/1
+  PASS OR-TSE-001: 1/1
+  PASS OR-TSE-002: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-BEE-001: 1/1
+  PASS TI-MZM-001: 1/1
+  PASS TI-MZM-002: 1/1
+  PASS TI-TSE-001: 1/1
+  PASS TI-TSE-002: 1/1
+  PASS TI-TSE-003: 1/1
+
+ALWAYS CYCLE LOOKUP
+  PASS found=43 expected=43
+
+DATE-ONLY LOOKUP MUST NOT RETURN EVERYDAY BOOKS
+  PASS 4/27 date-only everyday_hits=0
+
+DATE OR ALWAYS LOOKUP ON 4/27 MUST INCLUDE ALL 43
+  PASS 4/27 combined found=49 missing=0
+
+FEAST STILL PRESENT BY DATE
+  PASS GZ-GDL-025 4/27
+  PASS AM-GDL-006 4/27
+  PASS GZ-GDL-027 4/5
+  PASS AM-GOL-001 10/21
+  PASS AM-GOL-001 7/21
+  PASS GZ-MIK-001 9/12
+
+FEAST STILL ABSENT ON WRONG DATES
+  PASS GZ-GDL-025 not on 5/27
+  PASS AM-GDL-006 not on 5/27
+  PASS GZ-GDL-020 not on 12/5
+  PASS GZ-MEL-091 not on 8/10
+  PASS AM-GOL-001 not on 7/20
+  PASS AM-GOL-001 not on 13/1
+  PASS GZ-MIK-001 not on 3/12
+
+IS_ANNUAL FLAG TESTS
+  PASS GZ-GDL-025 4/27 is_annual=1 notes=ANNUAL
+  PASS GZ-GDL-027 8/27 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS GZ-GDL-027 1/27 is_annual=0 notes=MONTHLY
+  PASS AM-GDL-024 2/25 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS AM-GDL-024 1/25 is_annual=0 notes=MONTHLY
+  PASS AM-GOL-001 10/21 is_annual=0 notes=MONTHLY
+  PASS AM-GOL-001 7/21 is_annual=0 notes=MONTHLY
+
+feast calendar_day_id mismatches: 0
+books: 415
+commemorations: 0
+book_seasonal_mappings: 0
+calendar_days: 366
+PRAGMA integrity_check: ok
+
+SIZE
+  original size: 57786368
+  copy size after clone: 57786368
+  copy size after insert: 57786368
+
+ORIGINAL DB UNCHANGED CHECK
+  size before: 57786368
+  size after : 57786368
+  mappings before: 811
+  mappings after : 811
+  ALWAYS before: 0
+  ALWAYS after : 0
+  mtime unchanged
+
+Expanded CSV: C:\Android Project Collection\analyze\New folder\for analysis\always_cycle_mappings_by_id.csv
+Working copy updated: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+CSV rows: 43
+
+RESULT: PASS
+43 everyday books stored as 43 ALWAYS rows on working copy only.
+No 366-day duplication.
+Original DB not modified.
+Feast date mappings preserved.

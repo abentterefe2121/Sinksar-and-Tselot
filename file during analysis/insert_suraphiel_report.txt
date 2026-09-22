@@ -1,0 +1,71 @@
+INSERT SURAPHIEL (GZ-MEL-008) REPORT
+Generated: 2026-09-21T21:45:31
+Write target: WORKING COPY only
+User-locked: annual Yekatit 27 + monthly day 27 every month
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+ORIGINAL DB: size=57786368 mappings=811 ALWAYS=0
+
+WORKING COPY BEFORE
+  mappings: 3535
+  ALWAYS: 77
+
+PARSE / EXPANSION
+  GZ-MEL-008 1/27 is_annual=0 MONTHLY
+  GZ-MEL-008 2/27 is_annual=0 MONTHLY
+  GZ-MEL-008 3/27 is_annual=0 MONTHLY
+  GZ-MEL-008 4/27 is_annual=0 MONTHLY
+  GZ-MEL-008 5/27 is_annual=0 MONTHLY
+  GZ-MEL-008 6/27 is_annual=1 ANNUAL+MONTHLY
+  GZ-MEL-008 7/27 is_annual=0 MONTHLY
+  GZ-MEL-008 8/27 is_annual=0 MONTHLY
+  GZ-MEL-008 9/27 is_annual=0 MONTHLY
+  GZ-MEL-008 10/27 is_annual=0 MONTHLY
+  GZ-MEL-008 11/27 is_annual=0 MONTHLY
+  GZ-MEL-008 12/27 is_annual=0 MONTHLY
+TOTAL EXPANDED ROWS: 12
+
+INSERT SUMMARY
+  mappings before: 3535
+  inserted rows: 12
+  mappings after: 3547
+  expected after: 3547
+
+NOTES COUNTS
+  MONTHLY: 2627
+  ANNUAL: 476
+  ANNUAL+MONTHLY: 367
+  ALWAYS: 77
+
+DATE FLAG TESTS
+  PASS GZ-MEL-008 6/27 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS GZ-MEL-008 1/27 is_annual=0 notes=MONTHLY
+  PASS GZ-MEL-008 5/27 is_annual=0 notes=MONTHLY
+  PASS GZ-MEL-008 12/27 is_annual=0 notes=MONTHLY
+
+ABSENT TESTS
+  PASS GZ-MEL-008 not on 13/27
+  PASS GZ-MEL-008 not on 6/26
+  PASS GZ-MEL-008 not on 6/28
+  PASS GZ-MEL-008 not on 1/26
+
+PREVIOUS BATCHES PRESERVED
+  PASS GZ-GDL-025 4/27 -> (1, 'ANNUAL')
+  PASS GZ-GDL-001 11/28 -> (1, 'ANNUAL')
+  PASS GZ-MEL-038 4/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-135 1/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-158 11/5 -> (1, 'ANNUAL')
+  PASS GZ-MEL-146 3/11 -> (1, 'ANNUAL+MONTHLY')
+  PASS AM-BEE-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS OR-WUD-001: 1/1
+
+calendar_day_id mismatches: 0
+PRAGMA integrity_check: ok
+ORIGINAL DB UNCHANGED: ok
+
+CSV: C:\Android Project Collection\analyze\New folder\for analysis\suraphiel_mappings.csv rows=12
+RESULT: PASS
+GZ-MEL-008 Suraphiel: 12 rows (monthly day 27, months 1-12; Yekatit 27 annual).
+Original DB not modified.

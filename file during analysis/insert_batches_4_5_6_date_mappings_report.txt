@@ -1,0 +1,565 @@
+INSERT BATCHES 4-6 DATE MAPPINGS REPORT
+Generated: 2026-09-21T18:31:51
+Write target: WORKING COPY only
+Skipped: Weekly, Daily, Movable, empty, funeral/memorial
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+CSV rows read: 226
+Verified CSV book_id count: 226
+Date/monthly books to insert: 188
+Skipped books: 38
+TOTAL EXPANDED ROWS: 2424
+
+SKIPPED
+  AM-DRS-002 | WEEKLY_OR_DAILY | Weekly: ቅዳሜ, እሁድ
+  GZ-MEL-044 | WEEKLY_OR_DAILY | Weekly: ቅዳሜ, እሁድ
+  AM-DRS-007 | WEEKLY_OR_DAILY | Weekly: ረቡዕ, አርብ
+  AM-MEL-007 | WEEKLY_OR_DAILY | Weekly: ረቡዕ, አርብ
+  GZ-MEL-029 | WEEKLY_OR_DAILY | Weekly: ረቡዕ, አርብ
+  AM-ENZ-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-ETA-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-KOH-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-MEL-026 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-MTS-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-TEA-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-WUD-002 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ
+  GZ-ENZ-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-KOH-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-MTS-003 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-TEA-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-WUD-002 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ
+  TI-WUD-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ
+  AM-MEL-001 | WEEKLY_OR_DAILY | ታኅሣሥ 21 / Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-MEL-004 | WEEKLY_OR_DAILY | Weekly: ረቡዕ, አርብ
+  GZ-MEL-024 | WEEKLY_OR_DAILY | Weekly: ረቡዕ, አርብ
+  AM-MEL-010 | WEEKLY_OR_DAILY | ሐምሌ 7 / Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-SEY-002 | WEEKLY_OR_DAILY | Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-ZNA-001 | WEEKLY_OR_DAILY | Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-MEL-035 | WEEKLY_OR_DAILY | ሐምሌ 7 / Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-SEY-002 | WEEKLY_OR_DAILY | Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  GZ-ZNA-004 | WEEKLY_OR_DAILY | Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  AM-KID-001 | EMPTY | 
+  AM-MEL-011 | WEEKLY_OR_DAILY | መስከረም 17, መጋቢት 10 / Monthly Day 10 / Weekly: ረቡዕ, አርብ
+  GZ-MEL-046 | WEEKLY_OR_DAILY | መስከረም 17, መጋቢት 10 / Monthly Day 10 / Weekly: ረቡዕ, አርብ
+  AM-MEL-029 | MOVABLE | Movable: ጰንጠቆስጤ / Monthly Day 7
+  GZ-MEL-157 | MOVABLE | Movable: ጰንጠቆስጤ / Monthly Day 7
+  AM-MEN-001 | FUNERAL_MEMORIAL | ጸሎተ ፍትሐት (Funeral & Memorial Services)
+  AM-TSE-006 | WEEKLY_OR_DAILY | ሚያዝያ 26 / Monthly Day 26 / Daily: ሁልጊዜ
+  GZ-TSE-003 | WEEKLY_OR_DAILY | ሚያዝያ 26 / Monthly Day 26 / Daily: ሁልጊዜ
+  AM-WUD-003 | WEEKLY_OR_DAILY | Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  TI-WUD-002 | WEEKLY_OR_DAILY | Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+  EN-WUD-001 | WEEKLY_OR_DAILY | Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ
+
+PARSE / EXPANSION BY book_id
+  AM-DIR-001 | annual=3/13 | monthly=13 | rows=12
+  AM-MEL-038 | annual=3/13 | monthly=13 | rows=12
+  GZ-MEL-125 | annual=3/13 | monthly=13 | rows=12
+  GZ-MEL-126 | annual=3/13 | monthly=13 | rows=12
+  AM-DRS-003 | annual=4/19,4/22,7/30,10/13,10/26,11/19,12/7 | monthly=19 | rows=17
+  AM-MEL-050 | annual=4/19,4/22,7/30,10/13,10/26,11/19,12/7 | monthly=19 | rows=17
+  GZ-DRS-010 | annual=4/19,4/22,7/30,10/13,10/26,11/19,12/7 | monthly=19 | rows=17
+  GZ-MEL-013 | annual=4/19,4/22,7/30,10/13,10/26,11/19,12/7 | monthly=19 | rows=17
+  GZ-MEL-014 | annual=4/19,4/22,7/30,10/13,10/26,11/19,12/7 | monthly=19 | rows=17
+  AM-DRS-004 | annual=3/27,7/27 | monthly=27 | rows=12
+  AM-MEL-034 | annual=3/27,7/27 | monthly=27 | rows=12
+  AM-MEL-035 | annual=3/27,7/27 | monthly=27 | rows=12
+  AM-MIK-001 | annual=3/27,7/27 | monthly=27 | rows=12
+  GZ-DRS-005 | annual=3/27,7/27 | monthly=27 | rows=12
+  GZ-MEL-001 | annual=3/27,7/27 | monthly=27 | rows=12
+  GZ-MEL-027 | annual=3/27,7/27 | monthly=27 | rows=12
+  GZ-MEL-028 | annual=3/27,7/27 | monthly=27 | rows=12
+  AM-DRS-006 | annual=5/22,11/21,11/22 | monthly=22 | rows=13
+  GZ-DRS-001 | annual=5/22,11/21,11/22 | monthly=22 | rows=13
+  GZ-MEL-011 | annual=5/22,11/21,11/22 | monthly=22 | rows=13
+  GZ-MEL-012 | annual=5/22,11/21,11/22 | monthly=22 | rows=13
+  AM-DRS-009 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  AM-MEL-006 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  AM-MEL-041 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  GZ-DRS-008 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  GZ-MEL-004 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  GZ-MEL-005 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  GZ-MEL-165 | annual=1/9,3/12,10/12 | monthly=12 | rows=13
+  AM-DRS-010 | annual=1/1,13/6 | monthly=1 | rows=14
+  AM-MEL-014 | annual=1/1,13/6 | monthly=1 | rows=14
+  GZ-DRS-003 | annual=1/1,13/6 | monthly=1 | rows=14
+  GZ-MEL-007 | annual=1/1,13/6 | monthly=1 | rows=14
+  AM-GDL-001 | annual=11/7 | monthly=7 | rows=12
+  GZ-GDL-007 | annual=11/7 | monthly=7 | rows=12
+  GZ-MEL-123 | annual=11/7 | monthly=7 | rows=12
+  AM-GDL-002 | annual=2/1,6/6 | monthly=- | rows=2
+  AM-GDL-003 | annual=7/29,12/6 | monthly=- | rows=2
+  AM-GDL-004 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  AM-MEL-057 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  AM-MEL-058 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  GZ-MEL-068 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  GZ-MEL-069 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  GZ-MEL-092 | annual=4/24,5/24,7/24,8/22,9/12,12/24 | monthly=24 | rows=14
+  AM-GDL-005 | annual=1/24,9/12,12/24 | monthly=24 | rows=13
+  GZ-GDL-019 | annual=1/24,9/12,12/24 | monthly=24 | rows=13
+  GZ-MEL-143 | annual=1/24,9/12,12/24 | monthly=24 | rows=13
+  AM-GDL-007 | annual=2/5,4/29,7/5,7/29 | monthly=5 | rows=15
+  GZ-MEL-151 | annual=2/5,4/29,7/5,7/29 | monthly=5 | rows=15
+  GZ-MEL-152 | annual=2/5,4/29,7/5,7/29 | monthly=5 | rows=15
+  AM-GDL-008 | annual=1/29,4/6,10/17 | monthly=6 | rows=15
+  GZ-GDL-033 | annual=1/29,4/6,10/17 | monthly=6 | rows=15
+  GZ-MEL-042 | annual=1/29,4/6,10/17 | monthly=6 | rows=15
+  AM-LAH-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-MEL-008 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-MEL-009 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-MEL-064 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-RAY-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-TAM-002 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-ETA-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-LAH-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-MEL-002 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-MEL-031 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-MEL-032 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-MEL-161 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  GZ-TAM-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  TI-RAY-001 | annual=12/16,3/21,5/21,9/1 | monthly=21 | rows=14
+  AM-MEL-002 | annual=4/29,7/29 | monthly=29 | rows=12
+  AM-TAM-001 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-MEL-131 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-MEL-132 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-MZM-001 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-MZM-002 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-MZM-003 | annual=4/29,7/29 | monthly=29 | rows=12
+  GZ-TAM-002 | annual=4/29,7/29 | monthly=29 | rows=12
+  TI-TAM-001 | annual=4/29,7/29 | monthly=29 | rows=12
+  AM-GDL-018 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-MEL-051 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-MEL-065 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-MEL-066 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-MEL-067 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-SIB-001 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  GZ-GDL-014 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  GZ-MEL-036 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  GZ-MEL-065 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  GZ-MEL-154 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  GZ-MEL-155 | annual=3/7,5/18,6/23,8/23,12/16 | monthly=23 | rows=15
+  AM-GDL-013 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  AM-MEL-016 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  AM-MEL-047 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  GZ-MEL-061 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  GZ-MEL-062 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  GZ-MEL-149 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  GZ-MEL-150 | annual=1/4,1/29,5/4,9/16,11/27 | monthly=4 | rows=16
+  AM-GDL-009 | annual=1/15,2/17,5/1 | monthly=17 | rows=14
+  AM-MEL-045 | annual=1/15,2/17,5/1 | monthly=17 | rows=14
+  GZ-GDL-022 | annual=1/15,2/17,5/1 | monthly=17 | rows=14
+  GZ-MEL-016 | annual=1/15,2/17,5/1 | monthly=17 | rows=14
+  GZ-MEL-017 | annual=1/15,2/17,5/1 | monthly=17 | rows=14
+  AM-GDL-015 | annual=3/25,5/25,11/25 | monthly=25 | rows=12
+  GZ-GDL-002 | annual=3/25,5/25,11/25 | monthly=25 | rows=12
+  GZ-MEL-039 | annual=3/25,5/25,11/25 | monthly=25 | rows=12
+  AM-GDL-030 | annual=3/5,3/20,5/12,6/28 | monthly=12,20 | rows=26
+  GZ-GDL-030 | annual=3/5,3/20,5/12,6/28 | monthly=12,20 | rows=26
+  GZ-GDL-031 | annual=3/5,3/20,5/12,6/28 | monthly=12,20 | rows=26
+  GZ-MEL-040 | annual=3/5,3/20,5/12,6/28 | monthly=12,20 | rows=26
+  AM-GDL-014 | annual=6/9,8/9 | monthly=9 | rows=12
+  GZ-GDL-006 | annual=6/9,8/9 | monthly=9 | rows=12
+  GZ-MEL-136 | annual=6/9,8/9 | monthly=9 | rows=12
+  TI-GDL-002 | annual=6/9,8/9 | monthly=9 | rows=12
+  AM-GDL-012 | annual=4/13,5/13 | monthly=13 | rows=12
+  AM-MEL-061 | annual=4/13,5/13 | monthly=13 | rows=12
+  GZ-GDL-004 | annual=4/13,5/13 | monthly=13 | rows=12
+  GZ-MEL-105 | annual=4/13,5/13 | monthly=13 | rows=12
+  TI-GDL-001 | annual=4/13,5/13 | monthly=13 | rows=12
+  AM-GDL-023 | annual=5/15,11/19 | monthly=15 | rows=13
+  AM-MEL-015 | annual=5/15,11/19 | monthly=15 | rows=13
+  GZ-MEL-043 | annual=5/15,11/19 | monthly=15 | rows=13
+  GZ-MEL-054 | annual=5/15,11/19 | monthly=15 | rows=13
+  AM-GDL-028 | annual=1/5 | monthly=5 | rows=13
+  GZ-GDL-024 | annual=1/5 | monthly=5 | rows=13
+  GZ-MEL-128 | annual=1/5 | monthly=5 | rows=13
+  AM-GDL-019 | annual=8/6 | monthly=6 | rows=13
+  AM-MEL-023 | annual=8/6 | monthly=6 | rows=13
+  GZ-MEL-127 | annual=8/6 | monthly=6 | rows=13
+  AM-GDL-011 | annual=2/6,11/21 | monthly=21 | rows=13
+  GZ-GDL-015 | annual=2/6,11/21 | monthly=21 | rows=13
+  GZ-MEL-121 | annual=2/6,11/21 | monthly=21 | rows=13
+  AM-GDL-021 | annual=4/8,11/8 | monthly=8 | rows=12
+  GZ-GDL-016 | annual=4/8,11/8 | monthly=8 | rows=12
+  AM-GDL-016 | annual=2/14,5/14 | monthly=14 | rows=12
+  GZ-MEL-073 | annual=2/14,5/14 | monthly=14 | rows=12
+  AM-GDL-025 | annual=8/9 | monthly=9 | rows=12
+  GZ-GDL-008 | annual=8/9 | monthly=9 | rows=12
+  AM-GDL-020 | annual=3/17 | monthly=17 | rows=12
+  GZ-GDL-003 | annual=3/17 | monthly=17 | rows=12
+  AM-MEL-005 | annual=5/8,7/13,7/27,11/14,12/19 | monthly=27 | rows=16
+  GZ-MEL-026 | annual=5/8,7/13,7/27,11/14,12/19 | monthly=27 | rows=16
+  GZ-HIB-001 | annual=- | monthly=7 | rows=12
+  AM-GDL-017 | annual=10/17 | monthly=17 | rows=12
+  AM-GDL-027 | annual=11/29 | monthly=- | rows=1
+  AM-GDL-010 | annual=3/4,6/12 | monthly=- | rows=2
+  AM-MEL-013 | annual=3/15,10/15 | monthly=15 | rows=12
+  GZ-MEL-052 | annual=3/15,10/15 | monthly=15 | rows=12
+  AM-MEL-017 | annual=2/24 | monthly=24 | rows=12
+  GZ-MEL-159 | annual=2/24 | monthly=24 | rows=12
+  AM-MEL-018 | annual=6/29,7/29 | monthly=29 | rows=12
+  GZ-MEL-066 | annual=6/29,7/29 | monthly=29 | rows=12
+  AM-MEL-021 | annual=5/20,9/7,11/16 | monthly=16 | rows=14
+  AM-MEL-022 | annual=12/24 | monthly=28 | rows=13
+  GZ-MEL-124 | annual=12/24 | monthly=28 | rows=13
+  AM-MEL-025 | annual=1/1 | monthly=- | rows=1
+  GZ-MEL-129 | annual=1/1 | monthly=- | rows=1
+  AM-MEL-027 | annual=6/16 | monthly=16 | rows=12
+  GZ-MEL-141 | annual=6/16 | monthly=16 | rows=12
+  AM-MEL-030 | annual=12/1,12/2,12/3,12/4,12/5,12/6,12/7,12/8,12/9,12/10,12/11,12/12,12/13,12/14,12/15,12/16 | monthly=- | rows=16
+  AM-SEL-001 | annual=12/1,12/2,12/3,12/4,12/5,12/6,12/7,12/8,12/9,12/10,12/11,12/12,12/13,12/14,12/15,12/16 | monthly=- | rows=16
+  GZ-SEL-001 | annual=12/1,12/2,12/3,12/4,12/5,12/6,12/7,12/8,12/9,12/10,12/11,12/12,12/13,12/14,12/15,12/16 | monthly=- | rows=16
+  GZ-MEL-163 | annual=12/1,12/2,12/3,12/4,12/5,12/6,12/7,12/8,12/9,12/10,12/11,12/12,12/13,12/14,12/15,12/16 | monthly=- | rows=16
+  AM-MEL-032 | annual=1/26,3/5 | monthly=21 | rows=14
+  GZ-MEL-037 | annual=1/26,3/5 | monthly=21 | rows=14
+  TI-MEL-001 | annual=1/26,3/5 | monthly=21 | rows=14
+  AM-MEL-033 | annual=11/2,11/29 | monthly=2 | rows=14
+  GZ-MEL-055 | annual=11/2,11/29 | monthly=2 | rows=14
+  AM-MEL-036 | annual=12/16 | monthly=- | rows=1
+  AM-MEL-037 | annual=4/2,4/19,9/10 | monthly=- | rows=3
+  GZ-MEL-047 | annual=4/2,4/19,9/10 | monthly=- | rows=3
+  AM-MEL-042 | annual=2/30,8/30 | monthly=30 | rows=12
+  GZ-MEL-030 | annual=2/30,8/30 | monthly=30 | rows=12
+  GZ-MEL-053 | annual=2/30,8/30 | monthly=30 | rows=12
+  AM-MEL-043 | annual=13/3 | monthly=13 | rows=13
+  GZ-DRS-009 | annual=13/3 | monthly=13 | rows=13
+  GZ-MEL-006 | annual=13/3 | monthly=13 | rows=13
+  AM-MEL-044 | annual=1/26,12/1 | monthly=1 | rows=14
+  GZ-MEL-057 | annual=1/26,12/1 | monthly=1 | rows=14
+  AM-MEL-046 | annual=4/4,11/30,12/30 | monthly=4 | rows=15
+  GZ-MEL-137 | annual=4/4,11/30,12/30 | monthly=4 | rows=15
+  AM-MEL-049 | annual=4/23,8/6 | monthly=23 | rows=13
+  GZ-MEL-064 | annual=4/23,8/6 | monthly=23 | rows=13
+  AM-MEL-054 | annual=4/12 | monthly=12 | rows=12
+  AM-MEL-055 | annual=4/12 | monthly=12 | rows=12
+  GZ-MEL-085 | annual=4/12 | monthly=12 | rows=12
+  GZ-MEL-086 | annual=4/12 | monthly=12 | rows=12
+  AM-MEL-062 | annual=4/3 | monthly=3 | rows=13
+  GZ-MEL-106 | annual=4/3 | monthly=3 | rows=13
+  AM-ZNA-002 | annual=3/4,5/26 | monthly=- | rows=2
+  AM-ZNA-003 | annual=11/5,12/15 | monthly=- | rows=2
+  GZ-GDL-032 | annual=11/5,12/15 | monthly=- | rows=2
+  GZ-MEL-023 | annual=11/5,12/15 | monthly=- | rows=2
+
+ORIGINAL DB BEFORE WRITE
+  size: 57786368
+  mappings: 811
+  ALWAYS: 0
+
+WORKING COPY BEFORE INSERT
+  mappings: 3278
+  existing rows for this batch: 2424
+  baseline without this batch: 854
+  ALWAYS: 43
+  books: 415
+  calendar_days: 366
+
+INSERT SUMMARY
+  mappings before: 3278
+  deleted leftover rows for these book_id values: 2424
+  inserted rows: 2424
+  mappings after: 3278
+  expected after: 3278
+
+NOTES COUNTS AFTER
+  MONTHLY: 2427
+  ANNUAL: 461
+  ANNUAL+MONTHLY: 347
+  ALWAYS: 43
+
+ROW COUNT PER INSERTED book_id
+  PASS AM-DIR-001: 12/12
+  PASS AM-MEL-038: 12/12
+  PASS GZ-MEL-125: 12/12
+  PASS GZ-MEL-126: 12/12
+  PASS AM-DRS-003: 17/17
+  PASS AM-MEL-050: 17/17
+  PASS GZ-DRS-010: 17/17
+  PASS GZ-MEL-013: 17/17
+  PASS GZ-MEL-014: 17/17
+  PASS AM-DRS-004: 12/12
+  PASS AM-MEL-034: 12/12
+  PASS AM-MEL-035: 12/12
+  PASS AM-MIK-001: 12/12
+  PASS GZ-DRS-005: 12/12
+  PASS GZ-MEL-001: 12/12
+  PASS GZ-MEL-027: 12/12
+  PASS GZ-MEL-028: 12/12
+  PASS AM-DRS-006: 13/13
+  PASS GZ-DRS-001: 13/13
+  PASS GZ-MEL-011: 13/13
+  PASS GZ-MEL-012: 13/13
+  PASS AM-DRS-009: 13/13
+  PASS AM-MEL-006: 13/13
+  PASS AM-MEL-041: 13/13
+  PASS GZ-DRS-008: 13/13
+  PASS GZ-MEL-004: 13/13
+  PASS GZ-MEL-005: 13/13
+  PASS GZ-MEL-165: 13/13
+  PASS AM-DRS-010: 14/14
+  PASS AM-MEL-014: 14/14
+  PASS GZ-DRS-003: 14/14
+  PASS GZ-MEL-007: 14/14
+  PASS AM-GDL-001: 12/12
+  PASS GZ-GDL-007: 12/12
+  PASS GZ-MEL-123: 12/12
+  PASS AM-GDL-002: 2/2
+  PASS AM-GDL-003: 2/2
+  PASS AM-GDL-004: 14/14
+  PASS AM-MEL-057: 14/14
+  PASS AM-MEL-058: 14/14
+  PASS GZ-MEL-068: 14/14
+  PASS GZ-MEL-069: 14/14
+  PASS GZ-MEL-092: 14/14
+  PASS AM-GDL-005: 13/13
+  PASS GZ-GDL-019: 13/13
+  PASS GZ-MEL-143: 13/13
+  PASS AM-GDL-007: 15/15
+  PASS GZ-MEL-151: 15/15
+  PASS GZ-MEL-152: 15/15
+  PASS AM-GDL-008: 15/15
+  PASS GZ-GDL-033: 15/15
+  PASS GZ-MEL-042: 15/15
+  PASS AM-LAH-001: 14/14
+  PASS AM-MEL-008: 14/14
+  PASS AM-MEL-009: 14/14
+  PASS AM-MEL-064: 14/14
+  PASS AM-RAY-001: 14/14
+  PASS AM-TAM-002: 14/14
+  PASS GZ-ETA-001: 14/14
+  PASS GZ-LAH-001: 14/14
+  PASS GZ-MEL-002: 14/14
+  PASS GZ-MEL-031: 14/14
+  PASS GZ-MEL-032: 14/14
+  PASS GZ-MEL-161: 14/14
+  PASS GZ-TAM-001: 14/14
+  PASS TI-RAY-001: 14/14
+  PASS AM-MEL-002: 12/12
+  PASS AM-TAM-001: 12/12
+  PASS GZ-MEL-131: 12/12
+  PASS GZ-MEL-132: 12/12
+  PASS GZ-MZM-001: 12/12
+  PASS GZ-MZM-002: 12/12
+  PASS GZ-MZM-003: 12/12
+  PASS GZ-TAM-002: 12/12
+  PASS TI-TAM-001: 12/12
+  PASS AM-GDL-018: 15/15
+  PASS AM-MEL-051: 15/15
+  PASS AM-MEL-065: 15/15
+  PASS AM-MEL-066: 15/15
+  PASS AM-MEL-067: 15/15
+  PASS AM-SIB-001: 15/15
+  PASS GZ-GDL-014: 15/15
+  PASS GZ-MEL-036: 15/15
+  PASS GZ-MEL-065: 15/15
+  PASS GZ-MEL-154: 15/15
+  PASS GZ-MEL-155: 15/15
+  PASS AM-GDL-013: 16/16
+  PASS AM-MEL-016: 16/16
+  PASS AM-MEL-047: 16/16
+  PASS GZ-MEL-061: 16/16
+  PASS GZ-MEL-062: 16/16
+  PASS GZ-MEL-149: 16/16
+  PASS GZ-MEL-150: 16/16
+  PASS AM-GDL-009: 14/14
+  PASS AM-MEL-045: 14/14
+  PASS GZ-GDL-022: 14/14
+  PASS GZ-MEL-016: 14/14
+  PASS GZ-MEL-017: 14/14
+  PASS AM-GDL-015: 12/12
+  PASS GZ-GDL-002: 12/12
+  PASS GZ-MEL-039: 12/12
+  PASS AM-GDL-030: 26/26
+  PASS GZ-GDL-030: 26/26
+  PASS GZ-GDL-031: 26/26
+  PASS GZ-MEL-040: 26/26
+  PASS AM-GDL-014: 12/12
+  PASS GZ-GDL-006: 12/12
+  PASS GZ-MEL-136: 12/12
+  PASS TI-GDL-002: 12/12
+  PASS AM-GDL-012: 12/12
+  PASS AM-MEL-061: 12/12
+  PASS GZ-GDL-004: 12/12
+  PASS GZ-MEL-105: 12/12
+  PASS TI-GDL-001: 12/12
+  PASS AM-GDL-023: 13/13
+  PASS AM-MEL-015: 13/13
+  PASS GZ-MEL-043: 13/13
+  PASS GZ-MEL-054: 13/13
+  PASS AM-GDL-028: 13/13
+  PASS GZ-GDL-024: 13/13
+  PASS GZ-MEL-128: 13/13
+  PASS AM-GDL-019: 13/13
+  PASS AM-MEL-023: 13/13
+  PASS GZ-MEL-127: 13/13
+  PASS AM-GDL-011: 13/13
+  PASS GZ-GDL-015: 13/13
+  PASS GZ-MEL-121: 13/13
+  PASS AM-GDL-021: 12/12
+  PASS GZ-GDL-016: 12/12
+  PASS AM-GDL-016: 12/12
+  PASS GZ-MEL-073: 12/12
+  PASS AM-GDL-025: 12/12
+  PASS GZ-GDL-008: 12/12
+  PASS AM-GDL-020: 12/12
+  PASS GZ-GDL-003: 12/12
+  PASS AM-MEL-005: 16/16
+  PASS GZ-MEL-026: 16/16
+  PASS GZ-HIB-001: 12/12
+  PASS AM-GDL-017: 12/12
+  PASS AM-GDL-027: 1/1
+  PASS AM-GDL-010: 2/2
+  PASS AM-MEL-013: 12/12
+  PASS GZ-MEL-052: 12/12
+  PASS AM-MEL-017: 12/12
+  PASS GZ-MEL-159: 12/12
+  PASS AM-MEL-018: 12/12
+  PASS GZ-MEL-066: 12/12
+  PASS AM-MEL-021: 14/14
+  PASS AM-MEL-022: 13/13
+  PASS GZ-MEL-124: 13/13
+  PASS AM-MEL-025: 1/1
+  PASS GZ-MEL-129: 1/1
+  PASS AM-MEL-027: 12/12
+  PASS GZ-MEL-141: 12/12
+  PASS AM-MEL-030: 16/16
+  PASS AM-SEL-001: 16/16
+  PASS GZ-SEL-001: 16/16
+  PASS GZ-MEL-163: 16/16
+  PASS AM-MEL-032: 14/14
+  PASS GZ-MEL-037: 14/14
+  PASS TI-MEL-001: 14/14
+  PASS AM-MEL-033: 14/14
+  PASS GZ-MEL-055: 14/14
+  PASS AM-MEL-036: 1/1
+  PASS AM-MEL-037: 3/3
+  PASS GZ-MEL-047: 3/3
+  PASS AM-MEL-042: 12/12
+  PASS GZ-MEL-030: 12/12
+  PASS GZ-MEL-053: 12/12
+  PASS AM-MEL-043: 13/13
+  PASS GZ-DRS-009: 13/13
+  PASS GZ-MEL-006: 13/13
+  PASS AM-MEL-044: 14/14
+  PASS GZ-MEL-057: 14/14
+  PASS AM-MEL-046: 15/15
+  PASS GZ-MEL-137: 15/15
+  PASS AM-MEL-049: 13/13
+  PASS GZ-MEL-064: 13/13
+  PASS AM-MEL-054: 12/12
+  PASS AM-MEL-055: 12/12
+  PASS GZ-MEL-085: 12/12
+  PASS GZ-MEL-086: 12/12
+  PASS AM-MEL-062: 13/13
+  PASS GZ-MEL-106: 13/13
+  PASS AM-ZNA-002: 2/2
+  PASS AM-ZNA-003: 2/2
+  PASS GZ-GDL-032: 2/2
+  PASS GZ-MEL-023: 2/2
+
+ALWAYS BATCH PRESERVED
+  PASS AM-BEE-001: 1/1
+  PASS AM-LIT-001: 1/1
+  PASS AM-MEL-028: 1/1
+  PASS AM-MET-001: 1/1
+  PASS AM-MET-002: 1/1
+  PASS AM-MZM-001: 1/1
+  PASS AM-SEY-001: 1/1
+  PASS AM-TEA-002: 1/1
+  PASS AM-TEA-003: 1/1
+  PASS AM-TSE-001: 1/1
+  PASS AM-TSE-002: 1/1
+  PASS AM-TSE-003: 1/1
+  PASS AM-TSE-004: 1/1
+  PASS AM-TSE-005: 1/1
+  PASS AM-WUD-001: 1/1
+  PASS EN-TSE-001: 1/1
+  PASS GZ-BEE-001: 1/1
+  PASS GZ-DRS-004: 1/1
+  PASS GZ-HAT-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS GZ-MET-001: 1/1
+  PASS GZ-MET-003: 1/1
+  PASS GZ-MZM-004: 1/1
+  PASS GZ-SEY-001: 1/1
+  PASS GZ-TAM-003: 1/1
+  PASS GZ-TEA-002: 1/1
+  PASS GZ-TEA-003: 1/1
+  PASS GZ-TSE-001: 1/1
+  PASS GZ-TSE-002: 1/1
+  PASS GZ-TSE-004: 1/1
+  PASS GZ-TSE-005: 1/1
+  PASS GZ-TSE-006: 1/1
+  PASS GZ-WUD-001: 1/1
+  PASS OR-MZM-001: 1/1
+  PASS OR-TSE-001: 1/1
+  PASS OR-TSE-002: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-BEE-001: 1/1
+  PASS TI-MZM-001: 1/1
+  PASS TI-MZM-002: 1/1
+  PASS TI-TSE-001: 1/1
+  PASS TI-TSE-002: 1/1
+  PASS TI-TSE-003: 1/1
+
+DATE FLAG TESTS
+  PASS AM-DIR-001 3/13 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS AM-DIR-001 1/13 is_annual=0 notes=MONTHLY
+  PASS AM-GDL-002 2/1 is_annual=1 notes=ANNUAL
+  PASS AM-GDL-002 6/6 is_annual=1 notes=ANNUAL
+  PASS AM-GDL-027 11/29 is_annual=1 notes=ANNUAL
+  PASS GZ-HIB-001 1/7 is_annual=0 notes=MONTHLY
+  PASS GZ-HIB-001 11/7 is_annual=0 notes=MONTHLY
+  PASS AM-DRS-010 1/1 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS AM-DRS-010 13/6 is_annual=1 notes=ANNUAL
+  PASS AM-DRS-010 2/1 is_annual=0 notes=MONTHLY
+  PASS AM-MEL-022 12/24 is_annual=1 notes=ANNUAL
+  PASS AM-MEL-022 1/28 is_annual=0 notes=MONTHLY
+  PASS AM-MEL-043 13/3 is_annual=1 notes=ANNUAL
+  PASS AM-MEL-043 1/13 is_annual=0 notes=MONTHLY
+  PASS AM-MEL-030 12/1 is_annual=1 notes=ANNUAL
+  PASS AM-MEL-030 12/16 is_annual=1 notes=ANNUAL
+  PASS AM-LAH-001 12/16 is_annual=1 notes=ANNUAL
+  PASS AM-LAH-001 3/21 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS AM-LAH-001 5/21 is_annual=1 notes=ANNUAL+MONTHLY
+  PASS AM-LAH-001 9/1 is_annual=1 notes=ANNUAL
+  PASS AM-LAH-001 1/21 is_annual=0 notes=MONTHLY
+  PASS AM-GOL-001 7/21 is_annual=0 notes=MONTHLY
+  PASS GZ-GDL-025 4/27 is_annual=1 notes=ANNUAL
+
+ABSENT TESTS
+  PASS AM-DIR-001 not on 3/12
+  PASS AM-GDL-002 not on 1/1
+  PASS AM-GDL-027 not on 1/29
+  PASS GZ-HIB-001 not on 13/7
+  PASS AM-MEL-030 not on 12/17
+  PASS AM-MEL-030 not on 1/1
+  PASS AM-MEL-022 not on 12/23
+  PASS AM-MEL-043 not on 13/13
+  PASS AM-KID-001 not on 1/1
+  PASS AM-MEN-001 not on 1/1
+  PASS AM-DRS-002 not on 1/1
+  PASS AM-MEL-029 not on 1/7
+
+calendar_day_id mismatches: 0
+books: 415
+commemorations: 0
+book_seasonal_mappings: 0
+PRAGMA integrity_check: ok
+
+ORIGINAL DB UNCHANGED CHECK
+  size before: 57786368
+  size after : 57786368
+  mappings before: 811
+  mappings after : 811
+  mtime unchanged
+
+Expanded CSV: C:\Android Project Collection\analyze\New folder\for analysis\batches_4_5_6_date_mappings.csv
+Skipped CSV: C:\Android Project Collection\analyze\New folder\for analysis\batches_4_5_6_skipped.csv
+Working copy updated: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+RESULT: PASS
+188 date/monthly books inserted.
+2424 calendar rows inserted on working copy only.
+38 books skipped (weekly/daily/movable/empty/funeral).
+Previous ALWAYS batch preserved. Original DB not modified.

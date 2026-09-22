@@ -1,0 +1,62 @@
+SAINT CROSS-CHECK CSV
+Generated: 2026-09-21T13:37:06
+CSV: C:\Android Project Collection\analyze\New folder\for analysis\saint_crosscheck.csv
+Rows: 81
+PASS: 81
+FAIL: 0
+
+Open the CSV in Excel. Compare columns:
+  group        = saint
+  title        = book title
+  final_dates  = what we locked
+  db_dates     = what is in the database, same format
+  match        = YES / NO
+
+GROUP UNITY
+  PASS  አባ በግዑ  (2 books)
+  PASS  ቅዱስ ፊቅጦር  (3 books)
+  PASS  አቡነ አቢብ  (5 books)
+  PASS  ኤልያስ ነቢይ  (4 books)
+  PASS  ዮሐንስ መጥምቅ  (2 books)
+  PASS  አቡነ ሊባኖስ  (3 books)
+  PASS  አቡነ ተከስተ ብርሃን  (2 books)
+  PASS  አቡነ አባለ ክርስቶስ  (2 books)
+  PASS  አብርሃም  (2 books)
+  PASS  መልከ ጼዴቅ  (2 books)
+  PASS  ቅዱስ ዮስጦስ  (2 books)
+  PASS  አቡነ ፊልጶስ  (2 books)
+  PASS  አቡነ ፊልሞና  (2 books)
+  PASS  አቡነ ዳንኤል  (2 books)
+  PASS  አቡነ ዮሴፍ  (2 books)
+  PASS  ቅዱስ መስቀል  (6 books)
+  PASS  ኢያቄም ወሐና  (4 books)
+  PASS  ሐራ ድንግል  (2 books)
+  PASS  መርምሕናም  (2 books)
+  PASS  ዕጨጌ ዮሐንስ  (2 books)
+  PASS  አፍጼ  (2 books)
+  PASS  ኢየሱስ ሞዐ  (2 books)
+  PASS  ምክሐ ምእመናን  (2 books)
+  PASS  መባዓ ጽዮን  (1 books)
+  PASS  የሰኔ ጎልጎታ  (1 books)
+  PASS  ዘርዐ አብርሃም  (1 books)
+  PASS  ተክለ ሐዋርያት  (1 books)
+  PASS  መዝራዕተ ክርስቶስ  (1 books)
+  PASS  አፍኒን  (1 books)
+  PASS  ሕፃን ሞዐ  (1 books)
+  PASS  ቁስቋም  (1 books)
+  PASS  አግናጥዮስ  (1 books)
+  PASS  ነአኵቶ ለአብ  (1 books)
+  PASS  ሠምረ ክርስቶስ  (1 books)
+  PASS  ሳሙኤል ሣልስ  (1 books)
+  PASS  ሴት  (1 books)
+  PASS  ቡሩከ አምላክ  (1 books)
+  PASS  ብፁዓ አምላክ  (1 books)
+  PASS  አብራንዮስ  (1 books)
+  PASS  ዮስጢኖስ  (1 books)
+  PASS  ጼዋ ለጽድቅ  (1 books)
+  PASS  አባ ኖብ  (1 books)
+  PASS  ዓቢየ እግዚእ  (1 books)
+  PASS  ዘባርክናሃ  (1 books)
+  PASS  ጴጥሮስ  (1 books)
+
+RESULT: PASS

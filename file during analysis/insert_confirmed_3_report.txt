@@ -1,0 +1,90 @@
+INSERT CONFIRMED 3 BOOKS REPORT (Selama / Ewostatewos / Petros-Pawlos)
+Generated: 2026-09-21T21:43:24
+Write target: WORKING COPY only
+User-verified sources: Frumentius feasts, Ewostatewos tazkar, Peter&Paul Hamle 5 correction
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Book count: 3
+
+ORIGINAL DB
+  size: 57786368
+  mappings: 811
+  ALWAYS: 0
+
+WORKING COPY BEFORE
+  mappings: 3531
+  ALWAYS: 77
+  books: 415
+  calendar_days: 366
+  seasonal_periods: 4
+
+PARSE / EXPANSION
+  GZ-MEL-038 | src=ታኅሣሥ 18, ሐምሌ 26 | rows=2
+  GZ-MEL-135 | src=መስከረም 18 | rows=1
+  GZ-MEL-158 | src=ሐምሌ 5 | rows=1
+TOTAL EXPANDED ROWS: 4
+
+INSERT SUMMARY
+  mappings before: 3531
+  inserted rows: 4
+  mappings after: 3535
+  expected after: 3535
+
+NOTES COUNTS
+  MONTHLY: 2616
+  ANNUAL: 476
+  ANNUAL+MONTHLY: 366
+  ALWAYS: 77
+
+ROW COUNT PER book_id
+  PASS GZ-MEL-038: 2/2
+  PASS GZ-MEL-135: 1/1
+  PASS GZ-MEL-158: 1/1
+
+DATE FLAG TESTS
+  PASS GZ-MEL-038 4/18 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-038 11/26 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-135 1/18 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-158 11/5 is_annual=1 notes=ANNUAL
+
+ABSENT TESTS
+  PASS GZ-MEL-038 not on 1/26
+  PASS GZ-MEL-038 not on 4/17
+  PASS GZ-MEL-038 not on 11/25
+  PASS GZ-MEL-135 not on 2/18
+  PASS GZ-MEL-135 not on 4/18
+  PASS GZ-MEL-135 not on 11/21
+  PASS GZ-MEL-158 not on 10/5
+  PASS GZ-MEL-158 not on 11/6
+
+PREVIOUS BATCHES PRESERVED
+  PASS GZ-GDL-025 4/27 -> (1, 'ANNUAL')
+  PASS GZ-GDL-001 11/28 -> (1, 'ANNUAL')
+  PASS GZ-MEL-146 3/11 -> (1, 'ANNUAL+MONTHLY')
+  PASS GZ-MEL-109 4/25 -> (1, 'ANNUAL')
+  PASS AM-MEL-030 12/1 -> (1, 'ANNUAL')
+  PASS AM-DIR-001 3/13 -> (1, 'ANNUAL+MONTHLY')
+  PASS AM-BEE-001: 1/1
+  PASS AM-LIT-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-WUD-002: 1/1
+
+calendar_day_id mismatches: 0
+books: 415
+commemorations: 0
+PRAGMA integrity_check: ok
+ORIGINAL DB UNCHANGED CHECK
+  size before: 57786368
+  size after : 57786368
+  mappings before: 811
+  mappings after : 811
+
+CSV: C:\Android Project Collection\analyze\New folder\for analysis\confirmed_3_mappings.csv rows=4
+Working copy: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+RESULT: PASS
+3 confirmed books inserted (Selama, Ewostatewos, Petros & Pawlos).
+4 calendar rows inserted on working copy only.
+Peter & Paul corrected to Hamle 5; wrong Sene 5 verified absent.
+Original DB not modified.

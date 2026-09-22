@@ -1,0 +1,802 @@
+COVERAGE CHECK ROUND 2 (new random days + systematic 366-day detectors)
+Generated: 2026-09-22T08:17:42
+App DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Sinksar DB: C:\Android Project Collection\analyze\New folder\sinksar_calendar (2).db
+Seed: 20260922 | 2 new days per month, no overlap with round 1
+
+NEW SAMPLED DAYS: 26
+1/24, 1/26, 2/14, 2/26, 3/5, 3/18, 4/1, 4/20, 5/3, 5/20, 6/24, 6/27, 7/2, 7/18, 8/4, 8/27, 9/22, 9/24, 10/15, 10/24, 11/15, 11/26, 12/2, 12/18, 13/1, 13/6
+
+==========================================================================================
+DAY 1/24  (መስከረም 24)
+sinksar: 11 | app date-books: 12
+SINKSAR: [annual#1]ቅዱስ ጐርጐርዮስ ገዳማዊ | [annual#2]ቅድስት ክርስቶስ ሠምራ (ደብረ ሊባኖስ የገባችበት) | [annual#3]ቅዱስ አድሊጦስ ሐዋርያ (ከ፯፪ቱ አርድእት) | [annual#4]አቡነ ሰላማ | [monthly#1]ቅዱስ አቡነ ተክለ ሃይማኖት (መምሕረ ትሩፋት) | [monthly#2]ቅዱስ ቶማስ ዘመርዐስ | [monthly#3]አቡነ ዘዮሐንስ ጻድቅ ዘክብራን | [monthly#4]ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ) | [monthly#5]ቅዱስ አብላርዮስ ታላቁ | [monthly#6]"፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | [monthly#7]ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ)
+APP: AM-GDL-004(MONTHLY) | AM-MEL-057(MONTHLY) | AM-MEL-058(MONTHLY) | GZ-MEL-068(MONTHLY) | GZ-MEL-069(MONTHLY) | GZ-MEL-092(MONTHLY) | AM-GDL-005(ANNUAL+MONTHLY) | GZ-GDL-019(ANNUAL+MONTHLY) | GZ-MEL-143(ANNUAL+MONTHLY) | AM-MEL-017(MONTHLY) | GZ-MEL-159(MONTHLY) | GZ-MEL-142(MONTHLY)
+MATCHES:
+  [sk] ቅድስት ክርስቶስ ሠምራ (ደብረ ሊባኖስ የገባችበት) <-> [app] AM-GDL-005(ANNUAL+MONTHLY) shared=ሠምራ,ክርስቶስ
+  [sk] ቅዱስ አቡነ ተክለ ሃይማኖት (መምሕረ ትሩፋት) <-> [app] AM-GDL-004(MONTHLY) shared=ሃይማኖት,ተክለ
+  [sk] "፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) <-> [app] GZ-MEL-142(MONTHLY) shared=ሰማይ
+GAPS (8):
+  [annual#1] ቅዱስ ጐርጐርዮስ ገዳማዊ
+  [annual#3] ቅዱስ አድሊጦስ ሐዋርያ (ከ፯፪ቱ አርድእት)
+  [annual#4] አቡነ ሰላማ
+  [monthly#2] ቅዱስ ቶማስ ዘመርዐስ
+  [monthly#3] አቡነ ዘዮሐንስ ጻድቅ ዘክብራን
+  [monthly#4] ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ)
+  [monthly#5] ቅዱስ አብላርዮስ ታላቁ
+  [monthly#7] ቅዱስ አባ ሙሴ ጸሊም (ኢትዮዽያዊ)
+APP EXTRAS (9):
+  AM-MEL-057(MONTHLY) የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-058(MONTHLY) የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  GZ-MEL-068(MONTHLY) መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-069(MONTHLY) መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-092(MONTHLY) መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-GDL-019(ANNUAL+MONTHLY) ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ
+  GZ-MEL-143(ANNUAL+MONTHLY) መልክዐ ክርስቶስ ሠምራ በግእዝ
+  AM-MEL-017(MONTHLY) መልክዐ ቅድስት ጸበለ ማርያም በአማርኛ
+  GZ-MEL-159(MONTHLY) መልክዐ ጸበለ ማርያም ቅድስት በግእዝ
+
+==========================================================================================
+DAY 1/26  (መስከረም 26)
+sinksar: 10 | app date-books: 9
+SINKSAR: [annual#1]ቅድስት ድንግል ማርያም | [annual#2]ቅዱስ ዮሴፍ አረጋዊ | [annual#3]ቅዱስ ዮሐንስ መጥምቅ (ጽንሰቱ) | [annual#4]ቅዱሳን ዘካርያስና ኤልሳቤጥ | [annual#5]ቅዱስ አቦሊ ሰማዕት (ፍልሠቱ) | [monthly#1]ቅዱስ ቶማስ ሐዋርያ | [monthly#2]አቡነ ሐብተ ማርያም ጻድቅ | [monthly#3]አቡነ ኢየሱስ ሞዐ ዘሐይቅ | [monthly#4]ቅዱሳን ሰማዕታተ ናግራን | [monthly#5]ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን
+APP: GZ-MEL-060(ANNUAL) | AM-MEL-048(ANNUAL) | AM-GDL-026(MONTHLY) | GZ-MEL-130(MONTHLY) | AM-MEL-032(ANNUAL) | GZ-MEL-037(ANNUAL) | TI-MEL-001(ANNUAL) | AM-MEL-044(ANNUAL) | GZ-MEL-057(ANNUAL)
+MATCHES:
+  [sk] ቅዱስ ዮሐንስ መጥምቅ (ጽንሰቱ) <-> [app] AM-MEL-048(ANNUAL) shared=መጥምቅ,ዮሐንስ
+  [sk] ቅዱስ አቦሊ ሰማዕት (ፍልሠቱ) <-> [app] AM-MEL-044(ANNUAL) shared=አቦሊ
+  [sk] አቡነ ኢየሱስ ሞዐ ዘሐይቅ <-> [app] AM-GDL-026(MONTHLY) shared=ኢየሱስ
+GAPS (7):
+  [annual#1] ቅድስት ድንግል ማርያም
+  [annual#2] ቅዱስ ዮሴፍ አረጋዊ
+  [annual#4] ቅዱሳን ዘካርያስና ኤልሳቤጥ
+  [monthly#1] ቅዱስ ቶማስ ሐዋርያ
+  [monthly#2] አቡነ ሐብተ ማርያም ጻድቅ
+  [monthly#4] ቅዱሳን ሰማዕታተ ናግራን
+  [monthly#5] ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን
+APP EXTRAS (6):
+  GZ-MEL-060(ANNUAL) መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-130(MONTHLY) መልክዐ ኢየሱስ ሞዐ በግእዝ
+  AM-MEL-032(ANNUAL) ኹለተኛ መልክዐ ሥዕል በአማርኛ
+  GZ-MEL-037(ANNUAL) መልክዐ ሥዕል ካልእ በግእዝ
+  TI-MEL-001(ANNUAL) መልክአ ሥዕል ብትግርኛ
+  GZ-MEL-057(ANNUAL) መልክዐ ቅዱስ አቦሊ በግእዝ
+
+==========================================================================================
+DAY 2/14  (ጥቅምት 14)
+sinksar: 10 | app date-books: 3
+SINKSAR: [annual#1]አቡነ አረጋዊ (ዘሚካኤል) | [annual#2]ቅዱስ ፊልዾስ ሐዋርያ (ከ፸፪ቱ አርድእት) | [annual#3]ቅዱስ ገብረ ክርስቶስ መርዓዊ | [annual#4]ቅዱስ ሙሴ መርዓዊ | [annual#5]ቅድስት እድና (የአረጋዊ እናት) | [annual#6]አባ ማትያስ (የአረጋዊ ረድዕ) | [monthly#1]አቡነ አረጋዊ (ዘ ሚካኤል ) | [monthly#2]አባ ስምዖን ገዳማዊ | [monthly#3]አባ ዮሐንስ ጻድቅ | [monthly#4]እናታችን ቅድስት ነሣሒት
+APP: AM-GDL-016(ANNUAL+MONTHLY) | GZ-MEL-073(ANNUAL+MONTHLY) | GZ-MEL-153(ANNUAL)
+MATCHES:
+  [sk] አቡነ አረጋዊ (ዘሚካኤል) <-> [app] AM-GDL-016(ANNUAL+MONTHLY) shared=አረጋዊ
+  [sk] ቅዱስ ገብረ ክርስቶስ መርዓዊ <-> [app] GZ-MEL-153(ANNUAL) shared=ክርስቶስ,ገብረ
+  [sk] አቡነ አረጋዊ (ዘ ሚካኤል ) <-> [app] AM-GDL-016(ANNUAL+MONTHLY) shared=አረጋዊ
+GAPS (7):
+  [annual#2] ቅዱስ ፊልዾስ ሐዋርያ (ከ፸፪ቱ አርድእት)
+  [annual#4] ቅዱስ ሙሴ መርዓዊ
+  [annual#5] ቅድስት እድና (የአረጋዊ እናት)
+  [annual#6] አባ ማትያስ (የአረጋዊ ረድዕ)
+  [monthly#2] አባ ስምዖን ገዳማዊ
+  [monthly#3] አባ ዮሐንስ ጻድቅ
+  [monthly#4] እናታችን ቅድስት ነሣሒት
+APP EXTRAS (1):
+  GZ-MEL-073(ANNUAL+MONTHLY) መልክዐ አረጋዊ በግእዝ
+
+==========================================================================================
+DAY 2/26  (ጥቅምት 26)
+sinksar: 9 | app date-books: 3
+SINKSAR: [annual#1]ቅዱስ ያዕቆብ ሐዋርያ (ወልደ ዮሴፍ) | [annual#2]ቅዱስ ጢሞና ሐዋርያ ወዲያቆን | [annual#3]ቅዱስ አግናጥዮስ | [annual#4]ቅዱስ ፊልዾስ | [monthly#1]ቅዱስ ቶማስ ሐዋርያ | [monthly#2]አቡነ ሐብተ ማርያም ጻድቅ | [monthly#3]አቡነ ኢየሱስ ሞዐ ዘሐይቅ | [monthly#4]ቅዱሳን ሰማዕታተ ናግራን | [monthly#5]ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን
+APP: AM-GDL-026(MONTHLY) | GZ-MEL-130(MONTHLY) | GZ-MEL-058(ANNUAL)
+MATCHES:
+  [sk] ቅዱስ አግናጥዮስ <-> [app] GZ-MEL-058(ANNUAL) shared=አግናጥዮስ
+  [sk] አቡነ ኢየሱስ ሞዐ ዘሐይቅ <-> [app] AM-GDL-026(MONTHLY) shared=ኢየሱስ
+GAPS (7):
+  [annual#1] ቅዱስ ያዕቆብ ሐዋርያ (ወልደ ዮሴፍ)
+  [annual#2] ቅዱስ ጢሞና ሐዋርያ ወዲያቆን
+  [annual#4] ቅዱስ ፊልዾስ
+  [monthly#1] ቅዱስ ቶማስ ሐዋርያ
+  [monthly#2] አቡነ ሐብተ ማርያም ጻድቅ
+  [monthly#4] ቅዱሳን ሰማዕታተ ናግራን
+  [monthly#5] ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን
+APP EXTRAS (1):
+  GZ-MEL-130(MONTHLY) መልክዐ ኢየሱስ ሞዐ በግእዝ
+
+==========================================================================================
+DAY 3/5  (ኅዳር 5)
+sinksar: 9 | app date-books: 14
+SINKSAR: [annual#1]ታላቁ ቅዱስ ዮሐኒ (ዘትግራይ) | [annual#2]አባ አሞኒ ዘናሕሶ | [annual#3]ቅዱስ ለንጊኖስ ሰማዕት | [annual#4]ቅዱስ ቴዎድሮስ ሊቀ ሠራዊት | [annual#5]ቅዱስ ጢሞቴዎስ ሰማዕት | [monthly#1]ቅዱስ ዼጥሮስ ሊቀ ሐዋርያት | [monthly#2]ቅዱስ ዻውሎስ ብርሃነ ዓለም | [monthly#3]ቅድስት አውጋንያ (ሰማዕትና ጻድቅ) | [monthly#4]አቡነ ገብረ መንፈስ ቅዱስ ጻድቅ
+APP: GZ-TSE-007(MONTHLY) | AM-GDL-007(MONTHLY) | GZ-MEL-151(MONTHLY) | GZ-MEL-152(MONTHLY) | AM-GDL-030(ANNUAL) | GZ-GDL-030(ANNUAL) | GZ-GDL-031(ANNUAL) | GZ-MEL-040(ANNUAL) | AM-GDL-028(MONTHLY) | GZ-GDL-024(MONTHLY) | GZ-MEL-128(MONTHLY) | AM-MEL-032(ANNUAL) | GZ-MEL-037(ANNUAL) | TI-MEL-001(ANNUAL)
+MATCHES:
+  [sk] ቅዱስ ቴዎድሮስ ሊቀ ሠራዊት <-> [app] AM-GDL-030(ANNUAL) shared=ቴዎድሮስ
+  [sk] አቡነ ገብረ መንፈስ ቅዱስ ጻድቅ <-> [app] AM-GDL-007(MONTHLY) shared=ገብረ
+GAPS (7):
+  [annual#1] ታላቁ ቅዱስ ዮሐኒ (ዘትግራይ)
+  [annual#2] አባ አሞኒ ዘናሕሶ
+  [annual#3] ቅዱስ ለንጊኖስ ሰማዕት
+  [annual#5] ቅዱስ ጢሞቴዎስ ሰማዕት
+  [monthly#1] ቅዱስ ዼጥሮስ ሊቀ ሐዋርያት
+  [monthly#2] ቅዱስ ዻውሎስ ብርሃነ ዓለም
+  [monthly#3] ቅድስት አውጋንያ (ሰማዕትና ጻድቅ)
+APP EXTRAS (12):
+  GZ-TSE-007(MONTHLY) ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-MEL-151(MONTHLY) መልክዐ ገብረ መንፈስ ቅዱስ በግእዝ
+  GZ-MEL-152(MONTHLY) መልክዐ ገብረ መንፈስ ቅዱስ ካልዕ በግእዝ
+  GZ-GDL-030(ANNUAL) ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031(ANNUAL) ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040(ANNUAL) መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  AM-GDL-028(MONTHLY) ገድለ አቡነ አሮን መንክራዊ በአማርኛ
+  GZ-GDL-024(MONTHLY) ገድለ አቡነ አሮን መንክራዊ ግእዝ
+  GZ-MEL-128(MONTHLY) መልክዐ አᎄነ አሮን መንክራዌ በግእዝ
+  AM-MEL-032(ANNUAL) ኹለተኛ መልክዐ ሥዕል በአማርኛ
+  GZ-MEL-037(ANNUAL) መልክዐ ሥዕል ካልእ በግእዝ
+  TI-MEL-001(ANNUAL) መልክአ ሥዕል ብትግርኛ
+
+==========================================================================================
+DAY 3/18  (ኅዳር 18)
+sinksar: 8 | app date-books: 0
+SINKSAR: [annual#1]ቅዱስ ፊልዾስ ሐዋርያ (ከ፲፪ቱ) | [annual#2]ቅዱስ ኤላውትሮስና እናቱ እንትያ (ሰማዕታት) | [annual#3]ቅዱሳት ደናግል አጥራስስ ወዮና (ሰማዕታት) | [annual#4]ቅዱስ አትናቴዎስ የዋሕ | [monthly#1]አቡነ ኤዎስጣቴዎስ ረባን | [monthly#2]አቡነ አኖሬዎስ ዓቢይ | [monthly#3]ማር ያዕቆብ ግብጻዊ | [monthly#4]ቅዱስ ያዕቆብ ሐዋርያ (ከ፯፪ቱ አርድእት)
+APP: 
+MATCHES:
+  (none)
+GAPS (8):
+  [annual#1] ቅዱስ ፊልዾስ ሐዋርያ (ከ፲፪ቱ)
+  [annual#2] ቅዱስ ኤላውትሮስና እናቱ እንትያ (ሰማዕታት)
+  [annual#3] ቅዱሳት ደናግል አጥራስስ ወዮና (ሰማዕታት)
+  [annual#4] ቅዱስ አትናቴዎስ የዋሕ
+  [monthly#1] አቡነ ኤዎስጣቴዎስ ረባን
+  [monthly#2] አቡነ አኖሬዎስ ዓቢይ
+  [monthly#3] ማር ያዕቆብ ግብጻዊ
+  [monthly#4] ቅዱስ ያዕቆብ ሐዋርያ (ከ፯፪ቱ አርድእት)
+APP EXTRAS (0):
+  (none)
+
+==========================================================================================
+DAY 4/1  (ታኅሣሥ 1)
+sinksar: 10 | app date-books: 18
+SINKSAR: [annual#1]ቅዱስ ኤልያስ ርዕሰ ነቢያት | [annual#2]ቅዱስ ጴጥሮስ ዘጋዛ | [annual#3]ቅድስት ቤርሳቤህ (ቤትስባ) | [annual#4]ናቡቴ ኢይዝራኤላዊ | [annual#5]አባ ዮሐንስ ሊቀ ጳጳሳት | [monthly#1]ልደታ ለማርያም ድንግል እግዝእትነ | [monthly#2]ቅዱሳን ኢያቄም ወሐና | [monthly#3]ቅዱስ በርተሎሜዎስ ሐዋርያ | [monthly#4]ቅዱስ ሚልኪ ትሩፈ ምግባር | [monthly#5]ቅዱስ ራጉኤል ሊቀ መላእክት
+APP: AM-DRS-005(ANNUAL) | GZ-MEL-134(ANNUAL) | GZ-MEL-059(ANNUAL) | AM-MEL-052(ANNUAL) | GZ-DRS-007(MONTHLY) | AM-DRS-001(MONTHLY) | GZ-MEL-022(MONTHLY) | GZ-MEL-133(MONTHLY) | GZ-MEL-089(ANNUAL) | GZ-TSE-007(ANNUAL) | AM-DRS-010(MONTHLY) | AM-MEL-014(MONTHLY) | GZ-DRS-003(MONTHLY) | GZ-MEL-007(MONTHLY) | AM-MEL-044(MONTHLY) | GZ-MEL-057(MONTHLY) | GZ-MEL-020(MONTHLY) | GZ-MTS-001(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ኤልያስ ርዕሰ ነቢያት <-> [app] AM-DRS-005(ANNUAL) shared=ኤልያስ
+  [sk] ልደታ ለማርያም ድንግል እግዝእትነ <-> [app] GZ-MTS-001(MONTHLY) shared=ለማርያም
+  [sk] ቅዱሳን ኢያቄም ወሐና <-> [app] GZ-DRS-007(MONTHLY) shared=ኢያቄም
+  [sk] ቅዱስ ራጉኤል ሊቀ መላእክት <-> [app] AM-DRS-010(MONTHLY) shared=ራጉኤል
+GAPS (6):
+  [annual#2] ቅዱስ ጴጥሮስ ዘጋዛ
+  [annual#3] ቅድስት ቤርሳቤህ (ቤትስባ)
+  [annual#4] ናቡቴ ኢይዝራኤላዊ
+  [annual#5] አባ ዮሐንስ ሊቀ ጳጳሳት
+  [monthly#3] ቅዱስ በርተሎሜዎስ ሐዋርያ
+  [monthly#4] ቅዱስ ሚልኪ ትሩፈ ምግባር
+APP EXTRAS (14):
+  GZ-MEL-134(ANNUAL) መልክዐ ኤልያስ በግእዝ
+  GZ-MEL-059(ANNUAL) መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+  AM-MEL-052(ANNUAL) የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+  AM-DRS-001(MONTHLY) የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  GZ-MEL-022(MONTHLY) መልክዐ ሐና በግእዝ
+  GZ-MEL-133(MONTHLY) መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-089(ANNUAL) መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+  GZ-TSE-007(ANNUAL) ጸሎቱ ለጴጥሮስ በግእዝ
+  AM-MEL-014(MONTHLY) መልክዐ ቅዱስ ራጉኤል በአማርኛ
+  GZ-DRS-003(MONTHLY) ድርሳነ ቅዱስ ራጉኤል በግእዝ
+  GZ-MEL-007(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ
+  AM-MEL-044(MONTHLY) የቅዱስ አቦሊ መልክዕ በአማርኛ
+  GZ-MEL-057(MONTHLY) መልክዐ ቅዱስ አቦሊ በግእዝ
+  GZ-MEL-020(MONTHLY) መልክዐ ልደታ በግእዝ
+
+==========================================================================================
+DAY 4/20  (ታኅሣሥ 20)
+sinksar: 9 | app date-books: 4
+SINKSAR: [annual#1]ቅዱስ ሐጌ ነቢይ | [annual#2]አባ አውጋንዮስ | [annual#3]ታውፊና ንግሥት | [monthly#1]ቅዱስ ዮሐንስ ሐፂር | [monthly#2]ቅዱስ አክሎግ ቀሲስ | [monthly#3]ቅዱስ አፄ ካሌብ ጻድቅ (ንጉሠ ኢትዮዽያ) | [monthly#4]አባ አሞንዮስ ዘሃገረ ቶና | [monthly#5]ቅድስት ሳድዥ የዋሒት | [monthly#6]ማር ቴዎድሮስ ኃያል ሰማዕት
+APP: AM-GDL-030(MONTHLY) | GZ-GDL-030(MONTHLY) | GZ-GDL-031(MONTHLY) | GZ-MEL-040(MONTHLY)
+MATCHES:
+  [sk] ማር ቴዎድሮስ ኃያል ሰማዕት <-> [app] AM-GDL-030(MONTHLY) shared=ቴዎድሮስ
+GAPS (8):
+  [annual#1] ቅዱስ ሐጌ ነቢይ
+  [annual#2] አባ አውጋንዮስ
+  [annual#3] ታውፊና ንግሥት
+  [monthly#1] ቅዱስ ዮሐንስ ሐፂር
+  [monthly#2] ቅዱስ አክሎግ ቀሲስ
+  [monthly#3] ቅዱስ አፄ ካሌብ ጻድቅ (ንጉሠ ኢትዮዽያ)
+  [monthly#4] አባ አሞንዮስ ዘሃገረ ቶና
+  [monthly#5] ቅድስት ሳድዥ የዋሒት
+APP EXTRAS (3):
+  GZ-GDL-030(MONTHLY) ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031(MONTHLY) ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040(MONTHLY) መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+
+==========================================================================================
+DAY 5/3  (ጥር 3)
+sinksar: 10 | app date-books: 11
+SINKSAR: [annual#1]"፲፬፬ ሺ" ቅዱሳን ሕጻናት | [annual#2]አባ ሊባኖስ ዘመጣዕ | [annual#3]አባ አሞን መስተጋድል | [monthly#1]በዓታ ለእግዝእትነ ማርያም ድንግል | [monthly#2]ቅዱሳን ኢያቄም ወሐና | [monthly#3]ቅዱሳን ካህናት (ዘካርያስና ስምዖን) | [monthly#4]አባ ሊባኖስ ዘመጣዕ | [monthly#5]አቡነ ዜና ማርቆስ | [monthly#6]ቅዱስ ቄርሎስ ዓምደ ሃይማኖት | [monthly#7]አቡነ መድኃኒነ እግዚእ ጻድቅ
+APP: GZ-MEL-018(ANNUAL+MONTHLY) | GZ-MEL-074(ANNUAL+MONTHLY) | AM-MEL-053(ANNUAL+MONTHLY) | GZ-DRS-007(MONTHLY) | AM-DRS-001(MONTHLY) | GZ-MEL-022(MONTHLY) | GZ-MEL-133(MONTHLY) | AM-MEL-062(MONTHLY) | GZ-MEL-106(MONTHLY) | GZ-MEL-015(MONTHLY) | GZ-MEL-078(MONTHLY)
+MATCHES:
+  [sk] አባ ሊባኖስ ዘመጣዕ <-> [app] AM-MEL-053(ANNUAL+MONTHLY) shared=ሊባኖስ
+  [sk] ቅዱሳን ኢያቄም ወሐና <-> [app] GZ-DRS-007(MONTHLY) shared=ኢያቄም
+  [sk] አባ ሊባኖስ ዘመጣዕ <-> [app] AM-MEL-053(ANNUAL+MONTHLY) shared=ሊባኖስ
+  [sk] አቡነ ዜና ማርቆስ <-> [app] AM-MEL-062(MONTHLY) shared=ማርቆስ
+  [sk] አቡነ መድኃኒነ እግዚእ ጻድቅ <-> [app] GZ-MEL-078(MONTHLY) shared=መድኃኒነ
+GAPS (5):
+  [annual#1] "፲፬፬ ሺ" ቅዱሳን ሕጻናት
+  [annual#3] አባ አሞን መስተጋድል
+  [monthly#1] በዓታ ለእግዝእትነ ማርያም ድንግል
+  [monthly#3] ቅዱሳን ካህናት (ዘካርያስና ስምዖን)
+  [monthly#6] ቅዱስ ቄርሎስ ዓምደ ሃይማኖት
+APP EXTRAS (7):
+  GZ-MEL-018(ANNUAL+MONTHLY) መልክዐ ሊባኖስ በግእዝ
+  GZ-MEL-074(ANNUAL+MONTHLY) መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+  AM-DRS-001(MONTHLY) የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  GZ-MEL-022(MONTHLY) መልክዐ ሐና በግእዝ
+  GZ-MEL-133(MONTHLY) መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-106(MONTHLY) መልክዐ አቡነ ዜና ማርቆስ በግእዝ
+  GZ-MEL-015(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ
+
+==========================================================================================
+DAY 5/20  (ጥር 20)
+sinksar: 12 | app date-books: 8
+SINKSAR: [annual#1]ቅዱስ አክሎግ ቀሲስ (ሰማዕትና ጻድቅ) | [annual#2]ቅዱስ መርምሕናም ሰማዕት (ቅዳሴ ቤቱ) | [annual#3]ቅዱስ ዮሐንስ ወንጌሉ ዘወርቅ (ቅዳሴ ቤቱ) | [annual#4]አባ አብድዩ ጻድቅ | [annual#5]ቅዱስ ብሕኑ ሰማዕት | [annual#6]ቅዱስ አብሮኮሮስ ሐዋርያ (የወንጌላዊው ቅዱስ ዮሐንስ ደቀ መዝሙር) | [annual#7]አባ ኖሕ | [monthly#1]ቅዱስ ዮሐንስ ሐፂር | [monthly#2]ቅዱስ ቴዎድሮስ ሊቀ ሠራዊት | [monthly#3]ቅዱስ አሞንዮስ | [monthly#4]ቅዱስ ካሌብ ንጉሠ ኢትዮዽያ | [monthly#5]ቅድስት ሳድዥ የዋሂት
+APP: GZ-MEL-049(ANNUAL) | AM-MEL-039(ANNUAL) | GZ-MEL-082(ANNUAL) | AM-GDL-030(MONTHLY) | GZ-GDL-030(MONTHLY) | GZ-GDL-031(MONTHLY) | GZ-MEL-040(MONTHLY) | AM-MEL-021(ANNUAL)
+MATCHES:
+  [sk] ቅዱስ መርምሕናም ሰማዕት (ቅዳሴ ቤቱ) <-> [app] AM-MEL-039(ANNUAL) shared=መርምሕናም
+  [sk] ቅዱስ ዮሐንስ ወንጌሉ ዘወርቅ (ቅዳሴ ቤቱ) <-> [app] AM-MEL-021(ANNUAL) shared=ዮሐንስ
+  [sk] ቅዱስ ዮሐንስ ሐፂር <-> [app] AM-MEL-021(ANNUAL) shared=ዮሐንስ
+  [sk] ቅዱስ ቴዎድሮስ ሊቀ ሠራዊት <-> [app] AM-GDL-030(MONTHLY) shared=ቴዎድሮስ
+GAPS (8):
+  [annual#1] ቅዱስ አክሎግ ቀሲስ (ሰማዕትና ጻድቅ)
+  [annual#4] አባ አብድዩ ጻድቅ
+  [annual#5] ቅዱስ ብሕኑ ሰማዕት
+  [annual#6] ቅዱስ አብሮኮሮስ ሐዋርያ (የወንጌላዊው ቅዱስ ዮሐንስ ደቀ መዝሙር)
+  [annual#7] አባ ኖሕ
+  [monthly#3] ቅዱስ አሞንዮስ
+  [monthly#4] ቅዱስ ካሌብ ንጉሠ ኢትዮዽያ
+  [monthly#5] ቅድስት ሳድዥ የዋሂት
+APP EXTRAS (5):
+  GZ-MEL-049(ANNUAL) መልክዐ ቅዱስ መርምሕናም በግእዝ
+  GZ-MEL-082(ANNUAL) መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ
+  GZ-GDL-030(MONTHLY) ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031(MONTHLY) ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040(MONTHLY) መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+
+==========================================================================================
+DAY 6/24  (የካቲት 24)
+sinksar: 9 | app date-books: 12
+SINKSAR: [annual#1]ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ) | [annual#2]ቅዱስ ጢሞቴዎስ ሰማዕት (ዘጋዛ) | [annual#3]ቅዱስ ሚናስ ዘቆዽሮስ | [monthly#1]ቅዱስ አቡነ ተክለ ሃይማኖት (መምሕረ ትሩፋት) | [monthly#2]ቅድስት ክርስቶስ ሠምራ | [monthly#3]ቅዱስ ሙሴ ፀሊም | [monthly#4]ቅዱስ ቶማስ ዘመርዐስ | [monthly#5]ቅዱስ አብላርዮስ ታላቁ | [monthly#6]"፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል)
+APP: AM-GDL-004(MONTHLY) | AM-MEL-057(MONTHLY) | AM-MEL-058(MONTHLY) | GZ-MEL-068(MONTHLY) | GZ-MEL-069(MONTHLY) | GZ-MEL-092(MONTHLY) | AM-GDL-005(MONTHLY) | GZ-GDL-019(MONTHLY) | GZ-MEL-143(MONTHLY) | AM-MEL-017(MONTHLY) | GZ-MEL-159(MONTHLY) | GZ-MEL-142(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ አቡነ ተክለ ሃይማኖት (መምሕረ ትሩፋት) <-> [app] AM-GDL-004(MONTHLY) shared=ሃይማኖት,ተክለ
+  [sk] ቅድስት ክርስቶስ ሠምራ <-> [app] AM-GDL-005(MONTHLY) shared=ሠምራ,ክርስቶስ
+  [sk] "፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) <-> [app] GZ-MEL-142(MONTHLY) shared=ሰማይ
+GAPS (6):
+  [annual#1] ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ)
+  [annual#2] ቅዱስ ጢሞቴዎስ ሰማዕት (ዘጋዛ)
+  [annual#3] ቅዱስ ሚናስ ዘቆዽሮስ
+  [monthly#3] ቅዱስ ሙሴ ፀሊም
+  [monthly#4] ቅዱስ ቶማስ ዘመርዐስ
+  [monthly#5] ቅዱስ አብላርዮስ ታላቁ
+APP EXTRAS (9):
+  AM-MEL-057(MONTHLY) የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-058(MONTHLY) የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  GZ-MEL-068(MONTHLY) መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-069(MONTHLY) መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-092(MONTHLY) መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-GDL-019(MONTHLY) ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ
+  GZ-MEL-143(MONTHLY) መልክዐ ክርስቶስ ሠምራ በግእዝ
+  AM-MEL-017(MONTHLY) መልክዐ ቅድስት ጸበለ ማርያም በአማርኛ
+  GZ-MEL-159(MONTHLY) መልክዐ ጸበለ ማርያም ቅድስት በግእዝ
+
+==========================================================================================
+DAY 6/27  (የካቲት 27)
+sinksar: 8 | app date-books: 15
+SINKSAR: [annual#1]አባ አንስጣስዮስ ርቱዓ ሃይማኖት (ዘአንጾኪያ) | [monthly#1]የጌታችንና አምላካችን መድኃኔ ዓለም ክርስቶስ በዓለ ስቅለት | [monthly#2]አቡነ መብዐ ፅዮን ጻድቅ | [monthly#3]ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ) | [monthly#4]ቅዱስ ፊቅጦር ሰማዕት | [monthly#5]ቅዱስ ያዕቆብ ዘግሙድ | [monthly#6]ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮጵያ) | [monthly#7]ቅዱስ ቢፋሞን ጻድቅና ሰማዕት
+APP: GZ-GDL-027(MONTHLY) | AM-GDL-029(MONTHLY) | GZ-MEL-162(MONTHLY) | AM-GDL-022(MONTHLY) | AM-DRS-004(MONTHLY) | AM-MEL-034(MONTHLY) | AM-MEL-035(MONTHLY) | AM-MIK-001(MONTHLY) | GZ-DRS-005(MONTHLY) | GZ-MEL-001(MONTHLY) | GZ-MEL-027(MONTHLY) | GZ-MEL-028(MONTHLY) | AM-MEL-005(MONTHLY) | GZ-MEL-026(MONTHLY) | GZ-MEL-008(ANNUAL+MONTHLY)
+MATCHES:
+  [sk] የጌታችንና አምላካችን መድኃኔ ዓለም ክርስቶስ በዓለ ስቅለት <-> [app] AM-DRS-004(MONTHLY) shared=መድኃኔ,ዓለም
+  [sk] ቅዱስ ፊቅጦር ሰማዕት <-> [app] AM-GDL-029(MONTHLY) shared=ፊቅጦር
+GAPS (6):
+  [annual#1] አባ አንስጣስዮስ ርቱዓ ሃይማኖት (ዘአንጾኪያ)
+  [monthly#2] አቡነ መብዐ ፅዮን ጻድቅ
+  [monthly#3] ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ)
+  [monthly#5] ቅዱስ ያዕቆብ ዘግሙድ
+  [monthly#6] ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮጵያ)
+  [monthly#7] ቅዱስ ቢፋሞን ጻድቅና ሰማዕት
+APP EXTRAS (13):
+  GZ-GDL-027(MONTHLY) ገድለ ቅዱስ ፊቅጦር በግእዝ
+  GZ-MEL-162(MONTHLY) መልክዐ ፊቅጦር በግእዝ
+  AM-GDL-022(MONTHLY) የመባዓ ጽዮን ገድል በአማርኛ
+  AM-MEL-034(MONTHLY) የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-035(MONTHLY) የመድኀኔ ዓለም መልክዕ በአማርኛ
+  AM-MIK-001(MONTHLY) ምክሓ ምእመናን ክርስቶስ በአማርኛ
+  GZ-DRS-005(MONTHLY) ድርሳነ መድኃኔ ዓለም በግእዝ
+  GZ-MEL-001(MONTHLY) ሐዲስ መልክዐ መድኃኔዓለም በግእዝ
+  GZ-MEL-027(MONTHLY) መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ
+  GZ-MEL-028(MONTHLY) መልክዐ መድኃኔ ዓለም በግእዝ
+  AM-MEL-005(MONTHLY) መልክዐ መቃርዮስ በአማርኛ
+  GZ-MEL-026(MONTHLY) መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-008(ANNUAL+MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+
+==========================================================================================
+DAY 7/2  (መጋቢት 2)
+sinksar: 10 | app date-books: 4
+SINKSAR: [annual#1]ቅዱስ ጎርጎርዮስ ረዓዬ ኅቡዓት (ዘሃገረ ሮሀ) | [annual#2]አቡነ መክፈልተ ማርያም ጻድቅ (ኢትዮዽያዊ) | [annual#3]አባ መከራዊ ዘሀገረ ኒቅዮስ (አረጋዊ ጻድቅ ዻዻስና ሰማዕት) | [monthly#1]ቅዱስ ዮሐንስ መጥምቀ መለኮት | [monthly#2]ቅዱስ ታዴዎስ ሐዋርያ | [monthly#3]ቅዱስ ዕዮብ ጻድቅ ተአጋሲ | [monthly#4]ቅዱስ አቤል ጻድቅ | [monthly#5]ቅዱስ አባ ዻውሊ ገዳማዊ (ታላቁ) | [monthly#6]ቅዱስ ሳዊሮስ ዘአንጾኪያ | [monthly#7]አባ ሕርያቆስ ዘሀገረ ብሕንሳ
+APP: GZ-MEL-060(MONTHLY) | AM-MEL-048(MONTHLY) | AM-MEL-033(MONTHLY) | GZ-MEL-055(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ዮሐንስ መጥምቀ መለኮት <-> [app] AM-MEL-048(MONTHLY) shared=ዮሐንስ
+  [sk] ቅዱስ ታዴዎስ ሐዋርያ <-> [app] AM-MEL-033(MONTHLY) shared=ታዴዎስ
+GAPS (8):
+  [annual#1] ቅዱስ ጎርጎርዮስ ረዓዬ ኅቡዓት (ዘሃገረ ሮሀ)
+  [annual#2] አቡነ መክፈልተ ማርያም ጻድቅ (ኢትዮዽያዊ)
+  [annual#3] አባ መከራዊ ዘሀገረ ኒቅዮስ (አረጋዊ ጻድቅ ዻዻስና ሰማዕት)
+  [monthly#3] ቅዱስ ዕዮብ ጻድቅ ተአጋሲ
+  [monthly#4] ቅዱስ አቤል ጻድቅ
+  [monthly#5] ቅዱስ አባ ዻውሊ ገዳማዊ (ታላቁ)
+  [monthly#6] ቅዱስ ሳዊሮስ ዘአንጾኪያ
+  [monthly#7] አባ ሕርያቆስ ዘሀገረ ብሕንሳ
+APP EXTRAS (2):
+  GZ-MEL-060(MONTHLY) መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-055(MONTHLY) መልክዐ ቅዱስ ታዴዎስ በግእዝ
+
+==========================================================================================
+DAY 7/18  (መጋቢት 18)
+sinksar: 5 | app date-books: 0
+SINKSAR: [annual#1]ቅዱስ ኤስድሮስ ሰማዕት | [monthly#1]ቅዱስ ፊልዾስ ሐዋርያ | [monthly#2]አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | [monthly#3]አቡነ አኖሬዎስ ዘደብረ ጽጋጋ | [monthly#4]ማር ያዕቆብ ግብፃዊ
+APP: 
+MATCHES:
+  (none)
+GAPS (5):
+  [annual#1] ቅዱስ ኤስድሮስ ሰማዕት
+  [monthly#1] ቅዱስ ፊልዾስ ሐዋርያ
+  [monthly#2] አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን)
+  [monthly#3] አቡነ አኖሬዎስ ዘደብረ ጽጋጋ
+  [monthly#4] ማር ያዕቆብ ግብፃዊ
+APP EXTRAS (0):
+  (none)
+
+==========================================================================================
+DAY 8/4  (ሚያዝያ 4)
+sinksar: 7 | app date-books: 9
+SINKSAR: [annual#1]እግዚአብሔር የሰው ልጅን ፈጠረ | [annual#2]ቅዱሳን አብርሃ ወአጽብሐ (ጻድቃን ነገሥት) | [annual#3]ቅዱሳን ፊቅጦር ዳኬዎስና ኤርሞ (ሰማዕታት) | [monthly#1]ቅዱስ ዮሐንስ ወልደ ነጎድጉዋድ (ወንጌላዊው) | [monthly#2]ቅዱስ እንድርያስ ሐዋርያ | [monthly#3]ቅድስት ሶፍያ ሰማዕት | [monthly#4]ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት)
+APP: AM-GDL-013(MONTHLY) | AM-MEL-016(MONTHLY) | AM-MEL-047(MONTHLY) | GZ-MEL-061(MONTHLY) | GZ-MEL-062(MONTHLY) | GZ-MEL-149(MONTHLY) | GZ-MEL-150(MONTHLY) | AM-MEL-046(MONTHLY) | GZ-MEL-137(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ዮሐንስ ወልደ ነጎድጉዋድ (ወንጌላዊው) <-> [app] AM-GDL-013(MONTHLY) shared=ዮሐንስ
+  [sk] ቅዱስ እንድርያስ ሐዋርያ <-> [app] AM-MEL-046(MONTHLY) shared=እንድርያስ
+  [sk] ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) <-> [app] AM-GDL-013(MONTHLY) shared=ዮሐንስ
+GAPS (4):
+  [annual#1] እግዚአብሔር የሰው ልጅን ፈጠረ
+  [annual#2] ቅዱሳን አብርሃ ወአጽብሐ (ጻድቃን ነገሥት)
+  [annual#3] ቅዱሳን ፊቅጦር ዳኬዎስና ኤርሞ (ሰማዕታት)
+  [monthly#3] ቅድስት ሶፍያ ሰማዕት
+APP EXTRAS (7):
+  AM-MEL-016(MONTHLY) መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ
+  AM-MEL-047(MONTHLY) የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  GZ-MEL-061(MONTHLY) መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-062(MONTHLY) መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ
+  GZ-MEL-149(MONTHLY) መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-150(MONTHLY) መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-137(MONTHLY) መልክዐ እንድርያስ ሐዋርያ በግእዝ
+
+==========================================================================================
+DAY 8/27  (ሚያዝያ 27)
+sinksar: 10 | app date-books: 15
+SINKSAR: [annual#1]ጽኑዕና ኃያል ማር ቅዱስ ፊቅጦር ሰማዕት | [annual#2]ቅድስት ማርታ (የፊቅጦር እናት) | [annual#3]ብጽዕት እስጢፋና ( በክርስቶስ ስላመነች ከ፪ ሰንጥቀው የገደሏት የ፲፭ ዓመት ብላቴና) | [annual#4]ቅዱሳን ሳሲማና አባ ኖባ (ሰማዕታት) | [monthly#1]የጌታችንና አምላካችን መድኃኔ ዓለም ክርስቶስ በዓለ ስቅለት | [monthly#2]አቡነ መብዐ ጽዮን ጻድቅ | [monthly#3]ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ) | [monthly#4]ቅዱስ ያዕቆብ ዘግሙድ | [monthly#5]ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ) | [monthly#6]ቅዱስ ቢፋሞን ጻድቅና ሰማዕት
+APP: GZ-GDL-027(ANNUAL+MONTHLY) | AM-GDL-029(ANNUAL+MONTHLY) | GZ-MEL-162(ANNUAL+MONTHLY) | AM-GDL-022(MONTHLY) | AM-DRS-004(MONTHLY) | AM-MEL-034(MONTHLY) | AM-MEL-035(MONTHLY) | AM-MIK-001(MONTHLY) | GZ-DRS-005(MONTHLY) | GZ-MEL-001(MONTHLY) | GZ-MEL-027(MONTHLY) | GZ-MEL-028(MONTHLY) | AM-MEL-005(MONTHLY) | GZ-MEL-026(MONTHLY) | GZ-MEL-008(MONTHLY)
+MATCHES:
+  [sk] ጽኑዕና ኃያል ማር ቅዱስ ፊቅጦር ሰማዕት <-> [app] AM-GDL-029(ANNUAL+MONTHLY) shared=ፊቅጦር
+  [sk] የጌታችንና አምላካችን መድኃኔ ዓለም ክርስቶስ በዓለ ስቅለት <-> [app] AM-DRS-004(MONTHLY) shared=መድኃኔ,ዓለም
+  [sk] አቡነ መብዐ ጽዮን ጻድቅ <-> [app] AM-GDL-022(MONTHLY) shared=ጽዮን
+GAPS (7):
+  [annual#2] ቅድስት ማርታ (የፊቅጦር እናት)
+  [annual#3] ብጽዕት እስጢፋና ( በክርስቶስ ስላመነች ከ፪ ሰንጥቀው የገደሏት የ፲፭ ዓመት ብላቴና)
+  [annual#4] ቅዱሳን ሳሲማና አባ ኖባ (ሰማዕታት)
+  [monthly#3] ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ)
+  [monthly#4] ቅዱስ ያዕቆብ ዘግሙድ
+  [monthly#5] ቅዱስ ገላውዴዎስ ሰማዕት (ንጉሠ ኢትዮዽያ)
+  [monthly#6] ቅዱስ ቢፋሞን ጻድቅና ሰማዕት
+APP EXTRAS (12):
+  GZ-GDL-027(ANNUAL+MONTHLY) ገድለ ቅዱስ ፊቅጦር በግእዝ
+  GZ-MEL-162(ANNUAL+MONTHLY) መልክዐ ፊቅጦር በግእዝ
+  AM-MEL-034(MONTHLY) የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-035(MONTHLY) የመድኀኔ ዓለም መልክዕ በአማርኛ
+  AM-MIK-001(MONTHLY) ምክሓ ምእመናን ክርስቶስ በአማርኛ
+  GZ-DRS-005(MONTHLY) ድርሳነ መድኃኔ ዓለም በግእዝ
+  GZ-MEL-001(MONTHLY) ሐዲስ መልክዐ መድኃኔዓለም በግእዝ
+  GZ-MEL-027(MONTHLY) መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ
+  GZ-MEL-028(MONTHLY) መልክዐ መድኃኔ ዓለም በግእዝ
+  AM-MEL-005(MONTHLY) መልክዐ መቃርዮስ በአማርኛ
+  GZ-MEL-026(MONTHLY) መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-008(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ
+
+==========================================================================================
+DAY 9/22  (ግንቦት 22)
+sinksar: 7 | app date-books: 4
+SINKSAR: [annual#1]ቅዱስ እንድራኒቆስ ሐዋርያ (ከ፯፪ቱ አርድእት) | [annual#2]ቅዱስ ያዕቆብ ምሥራቃዊ ( ለክርስቶስ የታመነ) | [monthly#1]ቅዱስ ዑራኤል ሊቀ መላእክት | [monthly#2]ቅዱስ ሉቃስ ወንጌላዊ | [monthly#3]ቅዱስ ደቅስዮስ (የእመቤታችን ወዳጅ) | [monthly#4]አባ እንጦንዮስ (አበ መነኮሳት) | [monthly#5]አባ ዻውሊ የዋህ
+APP: AM-DRS-006(MONTHLY) | GZ-DRS-001(MONTHLY) | GZ-MEL-011(MONTHLY) | GZ-MEL-012(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ዑራኤል ሊቀ መላእክት <-> [app] AM-DRS-006(MONTHLY) shared=ዑራኤል
+GAPS (6):
+  [annual#1] ቅዱስ እንድራኒቆስ ሐዋርያ (ከ፯፪ቱ አርድእት)
+  [annual#2] ቅዱስ ያዕቆብ ምሥራቃዊ ( ለክርስቶስ የታመነ)
+  [monthly#2] ቅዱስ ሉቃስ ወንጌላዊ
+  [monthly#3] ቅዱስ ደቅስዮስ (የእመቤታችን ወዳጅ)
+  [monthly#4] አባ እንጦንዮስ (አበ መነኮሳት)
+  [monthly#5] አባ ዻውሊ የዋህ
+APP EXTRAS (3):
+  GZ-DRS-001(MONTHLY) ድርሳነ ዑራኤል በግእዝ
+  GZ-MEL-011(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል በግእዝ
+  GZ-MEL-012(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል ካልእ በግእዝ
+
+==========================================================================================
+DAY 9/24  (ግንቦት 24)
+sinksar: 12 | app date-books: 12
+SINKSAR: [annual#1]ቅዱስ ዕንባቆም ነቢይ | [annual#2]ቅዱስ ዮሴፍ አረጋዊና ቅድስት ሰሎሜ | [annual#3]ቅዱስ አብቁልታ ሰማዕት | [annual#4]ቅዱስ አልዓዛር ካህን (የአሮን ልጅ) | [monthly#1]ቅዱስ አቡነ ተክለ ሃይማኖት | [monthly#2]ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ) | [monthly#3]ቅድስት ክርስቶስ ሠምራ | [monthly#4]ቅዱስ ሙሴ ፀሊም | [monthly#5]ቅዱስ ቶማስ ዘመርዐስ | [monthly#6]ቅዱስ አብላርዮስ ታላቁ | [monthly#7]"፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | [monthly#8]አቡነ ዘዮሐንስ ጻድቅ (ኢትዮዽያዊ)
+APP: AM-GDL-004(MONTHLY) | AM-MEL-057(MONTHLY) | AM-MEL-058(MONTHLY) | GZ-MEL-068(MONTHLY) | GZ-MEL-069(MONTHLY) | GZ-MEL-092(MONTHLY) | AM-GDL-005(MONTHLY) | GZ-GDL-019(MONTHLY) | GZ-MEL-143(MONTHLY) | AM-MEL-017(MONTHLY) | GZ-MEL-159(MONTHLY) | GZ-MEL-142(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ አቡነ ተክለ ሃይማኖት <-> [app] AM-GDL-004(MONTHLY) shared=ሃይማኖት,ተክለ
+  [sk] ቅድስት ክርስቶስ ሠምራ <-> [app] AM-GDL-005(MONTHLY) shared=ሠምራ,ክርስቶስ
+  [sk] "፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) <-> [app] GZ-MEL-142(MONTHLY) shared=ሰማይ
+GAPS (9):
+  [annual#1] ቅዱስ ዕንባቆም ነቢይ
+  [annual#2] ቅዱስ ዮሴፍ አረጋዊና ቅድስት ሰሎሜ
+  [annual#3] ቅዱስ አብቁልታ ሰማዕት
+  [annual#4] ቅዱስ አልዓዛር ካህን (የአሮን ልጅ)
+  [monthly#2] ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ)
+  [monthly#4] ቅዱስ ሙሴ ፀሊም
+  [monthly#5] ቅዱስ ቶማስ ዘመርዐስ
+  [monthly#6] ቅዱስ አብላርዮስ ታላቁ
+  [monthly#8] አቡነ ዘዮሐንስ ጻድቅ (ኢትዮዽያዊ)
+APP EXTRAS (9):
+  AM-MEL-057(MONTHLY) የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-058(MONTHLY) የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  GZ-MEL-068(MONTHLY) መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-069(MONTHLY) መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-092(MONTHLY) መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-GDL-019(MONTHLY) ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ
+  GZ-MEL-143(MONTHLY) መልክዐ ክርስቶስ ሠምራ በግእዝ
+  AM-MEL-017(MONTHLY) መልክዐ ቅድስት ጸበለ ማርያም በአማርኛ
+  GZ-MEL-159(MONTHLY) መልክዐ ጸበለ ማርያም ቅድስት በግእዝ
+
+==========================================================================================
+DAY 10/15  (ሰኔ 15)
+sinksar: 5 | app date-books: 6
+SINKSAR: [annual#1]ቅዱስ ሚናስ (ማር ሚና) ሰማዕት (ቅዳሴ ቤቱ) | [monthly#1]ቅዱስ ቂርቆስና እናቱ ኢየሉጣ | [monthly#2]ቅዱስ ኤፍሬም ሶርያዊ (አፈ በረከት) | [monthly#3]ቅድስት እንባ መሪና | [monthly#4]ቅድስት ክርስጢና
+APP: AM-GDL-023(MONTHLY) | AM-MEL-015(MONTHLY) | GZ-MEL-043(MONTHLY) | GZ-MEL-054(MONTHLY) | AM-MEL-013(ANNUAL+MONTHLY) | GZ-MEL-052(ANNUAL+MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ሚናስ (ማር ሚና) ሰማዕት (ቅዳሴ ቤቱ) <-> [app] AM-MEL-013(ANNUAL+MONTHLY) shared=ሚናስ
+  [sk] ቅዱስ ቂርቆስና እናቱ ኢየሉጣ <-> [app] AM-GDL-023(MONTHLY) shared=ቂርቆስና,ኢየሉጣ
+GAPS (3):
+  [monthly#2] ቅዱስ ኤፍሬም ሶርያዊ (አፈ በረከት)
+  [monthly#3] ቅድስት እንባ መሪና
+  [monthly#4] ቅድስት ክርስጢና
+APP EXTRAS (4):
+  AM-MEL-015(MONTHLY) መልክዐ ቅዱስ ቂርቆስ በአማርኛ
+  GZ-MEL-043(MONTHLY) መልክዐ ሰማዕት ቅድስት ኢየሉጣ በግእዝ
+  GZ-MEL-054(MONTHLY) መልክዐ ቅዱስ ቂርቆስ በግእዝ
+  GZ-MEL-052(ANNUAL+MONTHLY) መልክዐ ቅዱስ ሚናስ በግእዝ
+
+==========================================================================================
+DAY 10/24  (ሰኔ 24)
+sinksar: 10 | app date-books: 12
+SINKSAR: [annual#1]ቅዱስ አባ ሙሴ ጸሊም (ኢትዮጵያዊ) | [annual#2]"፯ቱ" ቅዱሳን መነኮሳት (ደቀ መዛሙርቱ) | [annual#3]አባ ኤስድሮስ ታላቁ | [monthly#1]ቅዱስ አቡነ ተክለ ሃይማኖት | [monthly#2]ቅዱስ አጋቢጦስ (ጻድቅ ኤጲስቆጶስ) | [monthly#3]ቅድስት ክርስቶስ ሠምራ | [monthly#4]ቅዱስ ቶማስ ዘመርዐስ | [monthly#5]ቅዱስ አብላርዮስ ታላቁ | [monthly#6]"፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) | [monthly#7]አቡነ ዘዮሐንስ ጻድቅ (ኢትዮጵያዊ)
+APP: AM-GDL-004(MONTHLY) | AM-MEL-057(MONTHLY) | AM-MEL-058(MONTHLY) | GZ-MEL-068(MONTHLY) | GZ-MEL-069(MONTHLY) | GZ-MEL-092(MONTHLY) | AM-GDL-005(MONTHLY) | GZ-GDL-019(MONTHLY) | GZ-MEL-143(MONTHLY) | AM-MEL-017(MONTHLY) | GZ-MEL-159(MONTHLY) | GZ-MEL-142(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ አቡነ ተክለ ሃይማኖት <-> [app] AM-GDL-004(MONTHLY) shared=ሃይማኖት,ተክለ
+  [sk] ቅድስት ክርስቶስ ሠምራ <-> [app] AM-GDL-005(MONTHLY) shared=ሠምራ,ክርስቶስ
+  [sk] "፳፬ቱ" ካኅናተ ሰማይ (ሱራፌል) <-> [app] GZ-MEL-142(MONTHLY) shared=ሰማይ
+GAPS (7):
+  [annual#1] ቅዱስ አባ ሙሴ ጸሊም (ኢትዮጵያዊ)
+  [annual#2] "፯ቱ" ቅዱሳን መነኮሳት (ደቀ መዛሙርቱ)
+  [annual#3] አባ ኤስድሮስ ታላቁ
+  [monthly#2] ቅዱስ አጋቢጦስ (ጻድቅ ኤጲስቆጶስ)
+  [monthly#4] ቅዱስ ቶማስ ዘመርዐስ
+  [monthly#5] ቅዱስ አብላርዮስ ታላቁ
+  [monthly#7] አቡነ ዘዮሐንስ ጻድቅ (ኢትዮጵያዊ)
+APP EXTRAS (9):
+  AM-MEL-057(MONTHLY) የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-058(MONTHLY) የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  GZ-MEL-068(MONTHLY) መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-069(MONTHLY) መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-092(MONTHLY) መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-GDL-019(MONTHLY) ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ
+  GZ-MEL-143(MONTHLY) መልክዐ ክርስቶስ ሠምራ በግእዝ
+  AM-MEL-017(MONTHLY) መልክዐ ቅድስት ጸበለ ማርያም በአማርኛ
+  GZ-MEL-159(MONTHLY) መልክዐ ጸበለ ማርያም ቅድስት በግእዝ
+
+==========================================================================================
+DAY 11/15  (ሐምሌ 15)
+sinksar: 8 | app date-books: 6
+SINKSAR: [annual#1]ቅዱስ ማር ኤፍሬም ሶርያዊ (አፈ በረከት) | [annual#2]ብርሃናተ ዓለም ቅዱሳን ሐዋርያት ዼጥሮስ ወዻውሎስ | [annual#3]አባ ሐርዮንና ደቀ መዛሙርቱ (ሰማዕታት) | [annual#4]አባ ፍሬምናጦስ መስተጋድል | [monthly#1]ቅዱስ ቂርቆስና እናቱ ኢየሉጣ | [monthly#2]ቅዱስ ሚናስ (ማር ሚና) ሰማዕት | [monthly#3]ቅድስት እንባ መሪና | [monthly#4]ቅድስት ክርስጢና
+APP: AM-GDL-023(MONTHLY) | AM-MEL-015(MONTHLY) | GZ-MEL-043(MONTHLY) | GZ-MEL-054(MONTHLY) | AM-MEL-013(MONTHLY) | GZ-MEL-052(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ቂርቆስና እናቱ ኢየሉጣ <-> [app] AM-GDL-023(MONTHLY) shared=ቂርቆስና,ኢየሉጣ
+  [sk] ቅዱስ ሚናስ (ማር ሚና) ሰማዕት <-> [app] AM-MEL-013(MONTHLY) shared=ሚናስ
+GAPS (6):
+  [annual#1] ቅዱስ ማር ኤፍሬም ሶርያዊ (አፈ በረከት)
+  [annual#2] ብርሃናተ ዓለም ቅዱሳን ሐዋርያት ዼጥሮስ ወዻውሎስ
+  [annual#3] አባ ሐርዮንና ደቀ መዛሙርቱ (ሰማዕታት)
+  [annual#4] አባ ፍሬምናጦስ መስተጋድል
+  [monthly#3] ቅድስት እንባ መሪና
+  [monthly#4] ቅድስት ክርስጢና
+APP EXTRAS (4):
+  AM-MEL-015(MONTHLY) መልክዐ ቅዱስ ቂርቆስ በአማርኛ
+  GZ-MEL-043(MONTHLY) መልክዐ ሰማዕት ቅድስት ኢየሉጣ በግእዝ
+  GZ-MEL-054(MONTHLY) መልክዐ ቅዱስ ቂርቆስ በግእዝ
+  GZ-MEL-052(MONTHLY) መልክዐ ቅዱስ ሚናስ በግእዝ
+
+==========================================================================================
+DAY 11/26  (ሐምሌ 26)
+sinksar: 8 | app date-books: 3
+SINKSAR: [annual#1]ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | [annual#2]ቅዱስ ዮሴፍ አረጋዊ (የ ድንግል ማርያም ጠባቂ) | [annual#3]ቅዱስ አባ ጢሞቴዎስ (ዘአልቦ ጥሪት) | [annual#4]አባ ሮዲስ | [monthly#1]ቅዱስ ቶማስ ሐዋርያ | [monthly#2]አቡነ ሐብተ ማርያም ጻድቅ | [monthly#3]አቡነ ኢየሱስ ሞዐ ዘሐይቅ | [monthly#4]ቅዱሳን ሰማዕታተ ናግራን
+APP: AM-GDL-026(MONTHLY) | GZ-MEL-130(MONTHLY) | GZ-MEL-038(ANNUAL)
+MATCHES:
+  [sk] ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን <-> [app] GZ-MEL-038(ANNUAL) shared=ሰላማ
+  [sk] አቡነ ኢየሱስ ሞዐ ዘሐይቅ <-> [app] AM-GDL-026(MONTHLY) shared=ኢየሱስ
+GAPS (6):
+  [annual#2] ቅዱስ ዮሴፍ አረጋዊ (የ ድንግል ማርያም ጠባቂ)
+  [annual#3] ቅዱስ አባ ጢሞቴዎስ (ዘአልቦ ጥሪት)
+  [annual#4] አባ ሮዲስ
+  [monthly#1] ቅዱስ ቶማስ ሐዋርያ
+  [monthly#2] አቡነ ሐብተ ማርያም ጻድቅ
+  [monthly#4] ቅዱሳን ሰማዕታተ ናግራን
+APP EXTRAS (1):
+  GZ-MEL-130(MONTHLY) መልክዐ ኢየሱስ ሞዐ በግእዝ
+
+==========================================================================================
+DAY 12/2  (ነሐሴ 2)
+sinksar: 10 | app date-books: 8
+SINKSAR: [annual#1]ቅድስት አትናስያ ቡርክት | [annual#2]ቅድስት ኢዮዸራቅስያ ድንግል | [annual#3]ቅዱስ ዴሚና ሰማዕት | [monthly#1]ቅዱስ ዮሐንስ መጥምቀ መለኮት | [monthly#2]ቅዱስ ኢዮብ ጻድቅ ተአጋሲ | [monthly#3]ቅዱስ አቤል ጻድቅ | [monthly#4]ቅዱስ አባ ዻውሊ ገዳማዊ (ታላቁ) | [monthly#5]ቅዱስ ሳዊሮስ ዘአንጾኪያ | [monthly#6]አባ ሕርያቆስ ዘሃገረ ብሕንሳ | [monthly#7]ቅዱስ ታዴዎስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት)
+APP: GZ-MEL-060(MONTHLY) | AM-MEL-048(MONTHLY) | AM-MEL-030(ANNUAL) | AM-SEL-001(ANNUAL) | GZ-SEL-001(ANNUAL) | GZ-MEL-163(ANNUAL) | AM-MEL-033(MONTHLY) | GZ-MEL-055(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ዮሐንስ መጥምቀ መለኮት <-> [app] AM-MEL-048(MONTHLY) shared=ዮሐንስ
+  [sk] ቅዱስ ታዴዎስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት) <-> [app] AM-MEL-033(MONTHLY) shared=ታዴዎስ
+GAPS (8):
+  [annual#1] ቅድስት አትናስያ ቡርክት
+  [annual#2] ቅድስት ኢዮዸራቅስያ ድንግል
+  [annual#3] ቅዱስ ዴሚና ሰማዕት
+  [monthly#2] ቅዱስ ኢዮብ ጻድቅ ተአጋሲ
+  [monthly#3] ቅዱስ አቤል ጻድቅ
+  [monthly#4] ቅዱስ አባ ዻውሊ ገዳማዊ (ታላቁ)
+  [monthly#5] ቅዱስ ሳዊሮስ ዘአንጾኪያ
+  [monthly#6] አባ ሕርያቆስ ዘሃገረ ብሕንሳ
+APP EXTRAS (6):
+  GZ-MEL-060(MONTHLY) መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  AM-MEL-030(ANNUAL) መልክዐ ፍልሰታ በአማርኛ
+  AM-SEL-001(ANNUAL) ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  GZ-SEL-001(ANNUAL) ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-MEL-163(ANNUAL) መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-055(MONTHLY) መልክዐ ቅዱስ ታዴዎስ በግእዝ
+
+==========================================================================================
+DAY 12/18  (ነሐሴ 18)
+sinksar: 9 | app date-books: 0
+SINKSAR: [annual#1]ተዝካረ ፍልሠታ ለማርያም ድንግል (፫ኛ ቀን) | [annual#2]ቅዱስ እለእስክንድሮስ ሊቅ | [annual#3]ቅዱስ እንድራኒቆስ ዲያቆን | [annual#4]አባ ዘ ክርስቶስ ዘወሎ (ኢትዮዽያዊ ጻድቅ) | [monthly#1]ቅዱስ ፊልዾስ ሐዋርያ | [monthly#2]አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን) | [monthly#3]አቡነ አኖሬዎስ ዘደብረ ጽጋጋ | [monthly#4]ማር ያዕቆብ ግብፃዊ | [monthly#5]ቅዱስ ያዕቆብ ሐዋርያ (ከ፯፪ቱ አርድእት)
+APP: 
+MATCHES:
+  (none)
+GAPS (9):
+  [annual#1] ተዝካረ ፍልሠታ ለማርያም ድንግል (፫ኛ ቀን)
+  [annual#2] ቅዱስ እለእስክንድሮስ ሊቅ
+  [annual#3] ቅዱስ እንድራኒቆስ ዲያቆን
+  [annual#4] አባ ዘ ክርስቶስ ዘወሎ (ኢትዮዽያዊ ጻድቅ)
+  [monthly#1] ቅዱስ ፊልዾስ ሐዋርያ
+  [monthly#2] አቡነ ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (ረባን)
+  [monthly#3] አቡነ አኖሬዎስ ዘደብረ ጽጋጋ
+  [monthly#4] ማር ያዕቆብ ግብፃዊ
+  [monthly#5] ቅዱስ ያዕቆብ ሐዋርያ (ከ፯፪ቱ አርድእት)
+APP EXTRAS (0):
+  (none)
+
+==========================================================================================
+DAY 13/1  (ጳጉሜን 1)
+sinksar: 5 | app date-books: 14
+SINKSAR: [annual#1]ቅዱስ ዮሐንስ መጥምቅ (የታሠረበት) | [annual#2]ቅዱስ ዑቲኮስ ሐዋርያ (ከ፯፪ቱ አርድእት) | [annual#3]ቅዱስ ብሶይ ቀሲስ (ሰማዕት) | [annual#4]አባ ዻኩሚስ / ባኹም (የ፫,000 ቅዱሳን አባት) | [annual#5]አባ ሰራብዮን / ሰራፕዮን (የ፲,000 ቅዱሳን አባት)
+APP: GZ-MEL-060(ANNUAL) | AM-MEL-048(ANNUAL) | GZ-DRS-007(MONTHLY) | AM-DRS-001(MONTHLY) | GZ-MEL-022(MONTHLY) | GZ-MEL-133(MONTHLY) | AM-DRS-010(MONTHLY) | AM-MEL-014(MONTHLY) | GZ-DRS-003(MONTHLY) | GZ-MEL-007(MONTHLY) | AM-MEL-044(MONTHLY) | GZ-MEL-057(MONTHLY) | GZ-MEL-020(MONTHLY) | GZ-MTS-001(MONTHLY)
+MATCHES:
+  [sk] ቅዱስ ዮሐንስ መጥምቅ (የታሠረበት) <-> [app] AM-MEL-048(ANNUAL) shared=መጥምቅ,ዮሐንስ
+GAPS (4):
+  [annual#2] ቅዱስ ዑቲኮስ ሐዋርያ (ከ፯፪ቱ አርድእት)
+  [annual#3] ቅዱስ ብሶይ ቀሲስ (ሰማዕት)
+  [annual#4] አባ ዻኩሚስ / ባኹም (የ፫,000 ቅዱሳን አባት)
+  [annual#5] አባ ሰራብዮን / ሰራፕዮን (የ፲,000 ቅዱሳን አባት)
+APP EXTRAS (13):
+  GZ-MEL-060(ANNUAL) መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-DRS-007(MONTHLY) ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+  AM-DRS-001(MONTHLY) የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  GZ-MEL-022(MONTHLY) መልክዐ ሐና በግእዝ
+  GZ-MEL-133(MONTHLY) መልክዐ ኢያቄም በግእዝ
+  AM-DRS-010(MONTHLY) ድርሳነ ቅዱስ ራጉኤል በአማርኛ
+  AM-MEL-014(MONTHLY) መልክዐ ቅዱስ ራጉኤል በአማርኛ
+  GZ-DRS-003(MONTHLY) ድርሳነ ቅዱስ ራጉኤል በግእዝ
+  GZ-MEL-007(MONTHLY) መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ
+  AM-MEL-044(MONTHLY) የቅዱስ አቦሊ መልክዕ በአማርኛ
+  GZ-MEL-057(MONTHLY) መልክዐ ቅዱስ አቦሊ በግእዝ
+  GZ-MEL-020(MONTHLY) መልክዐ ልደታ በግእዝ
+  GZ-MTS-001(MONTHLY) መጽሐፈ ልደታ ለማርያም በግእዝ
+
+==========================================================================================
+DAY 13/6  (ጳጉሜን 6)
+sinksar: 0 | app date-books: 15
+SINKSAR: 
+APP: AM-DRS-005(MONTHLY) | GZ-MEL-134(MONTHLY) | GZ-MEL-059(MONTHLY) | AM-MEL-052(MONTHLY) | GZ-MEL-045(MONTHLY) | AM-DRS-010(ANNUAL) | AM-MEL-014(ANNUAL) | GZ-DRS-003(ANNUAL) | GZ-MEL-007(ANNUAL) | AM-GDL-008(MONTHLY) | GZ-GDL-033(MONTHLY) | GZ-MEL-042(MONTHLY) | AM-GDL-019(MONTHLY) | AM-MEL-023(MONTHLY) | GZ-MEL-127(MONTHLY)
+MATCHES:
+  (none)
+GAPS (0):
+  (none)
+APP EXTRAS (15):
+  AM-DRS-005(MONTHLY) ድርሳነ ኤልያስ ነቢይ በአማርኛ
+  GZ-MEL-134(MONTHLY) መልክዐ ኤልያስ በግእዝ
+  GZ-MEL-059(MONTHLY) መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+  AM-MEL-052(MONTHLY) የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+  GZ-MEL-045(MONTHLY) መልክዐ ቁስቋም በግእዝ
+  AM-DRS-010(ANNUAL) ድርሳነ ቅዱስ ራጉኤል በአማርኛ
+  AM-MEL-014(ANNUAL) መልክዐ ቅዱስ ራጉኤል በአማርኛ
+  GZ-DRS-003(ANNUAL) ድርሳነ ቅዱስ ራጉኤል በግእዝ
+  GZ-MEL-007(ANNUAL) መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ
+  AM-GDL-008(MONTHLY) ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ
+  GZ-GDL-033(MONTHLY) ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ
+  GZ-MEL-042(MONTHLY) መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ
+  AM-GDL-019(MONTHLY) ገድለ አዳም በአማርኛ
+  AM-MEL-023(MONTHLY) መልክዐ አዳም ወሔዋን በአማርኛ
+  GZ-MEL-127(MONTHLY) መልክዐ አዳም ወሔዋን በግእዝ
+
+==========================================================================================
+SYSTEMATIC DETECTORS (all 366 days, read-only)
+==========================================================================================
+DETECTOR A - sinksar annual, app monthly on same date: 118
+  1/11 | ቅዱስ ፋሲለደስ ሰማዕት | app GZ-MEL-041 (MONTHLY) | shared ፋሲለደስ
+  1/29 | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች) | app GZ-MZM-001 (MONTHLY) | shared ክርስቶስ
+  1/29 | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች) | app GZ-MZM-002 (MONTHLY) | shared ክርስቶስ
+  1/29 | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች) | app GZ-MZM-003 (MONTHLY) | shared ክርስቶስ
+  1/29 | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች) | app AM-MEL-018 (MONTHLY) | shared ክርስቶስ
+  1/29 | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች) | app GZ-MEL-066 (MONTHLY) | shared ክርስቶስ
+  1/30 | ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት) | app GZ-MEL-060 (MONTHLY) | shared ዮሐንስ
+  1/30 | ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት) | app AM-MEL-048 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app AM-GDL-013 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app AM-MEL-016 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app AM-MEL-047 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app GZ-MEL-061 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app GZ-MEL-062 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app GZ-MEL-149 (MONTHLY) | shared ዮሐንስ
+  2/4 | ቅዱስ ዮሐንስ ሕጽው | app GZ-MEL-150 (MONTHLY) | shared ዮሐንስ
+  2/11 | ቅዱስ ፋሲለደስ ሰማዕት | app GZ-MEL-041 (MONTHLY) | shared ፋሲለደስ
+  2/12 | ቅዱስ ሳሙኤል ነቢይ | app GZ-MEL-084 (MONTHLY) | shared ሳሙኤል
+  2/12 | ቅዱስ ሳሙኤል ነቢይ | app AM-MEL-054 (MONTHLY) | shared ሳሙኤል
+  2/12 | ቅዱስ ሳሙኤል ነቢይ | app AM-MEL-055 (MONTHLY) | shared ሳሙኤል
+  2/12 | ቅዱስ ሳሙኤል ነቢይ | app GZ-MEL-085 (MONTHLY) | shared ሳሙኤል
+  2/12 | ቅዱስ ሳሙኤል ነቢይ | app GZ-MEL-086 (MONTHLY) | shared ሳሙኤል
+  2/15 | "፻፶፰" ሰማዕታት (የቅዱስ ቢላሞን ማሕበር) | app AM-GDL-023 (MONTHLY) | shared የቅዱስ
+  2/27 | ጌታችን ኢየሱስ ክርስቶስ | app AM-MIK-001 (MONTHLY) | shared ክርስቶስ
+  2/30 | ቅዱስ ዮሐንስ መጥምቀ መለኮት | app GZ-MEL-060 (MONTHLY) | shared ዮሐንስ
+  2/30 | ቅዱስ ዮሐንስ መጥምቀ መለኮት | app AM-MEL-048 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app AM-GDL-013 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app AM-MEL-016 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app AM-MEL-047 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app GZ-MEL-061 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app GZ-MEL-062 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app GZ-MEL-149 (MONTHLY) | shared ዮሐንስ
+  3/4 | ቅዱሳን ያዕቆብና ዮሐንስ | app GZ-MEL-150 (MONTHLY) | shared ዮሐንስ
+  3/7 | ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ) | app AM-GDL-001 (MONTHLY) | shared ጊዮርጊስ
+  3/7 | ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ) | app GZ-GDL-007 (MONTHLY) | shared ጊዮርጊስ
+  3/7 | ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ) | app GZ-MEL-123 (MONTHLY) | shared ጊዮርጊስ
+  3/7 | ቅዱስ ጊዮርጊስ እስክንድርያዊ | app AM-GDL-001 (MONTHLY) | shared ጊዮርጊስ
+  3/7 | ቅዱስ ጊዮርጊስ እስክንድርያዊ | app GZ-GDL-007 (MONTHLY) | shared ጊዮርጊስ
+  3/7 | ቅዱስ ጊዮርጊስ እስክንድርያዊ | app GZ-MEL-123 (MONTHLY) | shared ጊዮርጊስ
+  3/15 | ልደተ ቅዱስ ቂርቆስ | app AM-MEL-015 (MONTHLY) | shared ቂርቆስ
+  3/15 | ልደተ ቅዱስ ቂርቆስ | app GZ-MEL-054 (MONTHLY) | shared ቂርቆስ
+  3/15 | ብጽዕት ኢየሉጣ | app AM-GDL-023 (MONTHLY) | shared ኢየሉጣ
+  3/15 | ብጽዕት ኢየሉጣ | app GZ-MEL-043 (MONTHLY) | shared ኢየሉጣ
+  3/16 | አባ ዮሐንስ መሐሪ | app AM-MEL-021 (MONTHLY) | shared ዮሐንስ
+  3/29 | ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | app GZ-MZM-001 (MONTHLY) | shared ክርስቶስ
+  3/29 | ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | app GZ-MZM-002 (MONTHLY) | shared ክርስቶስ
+  3/29 | ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | app GZ-MZM-003 (MONTHLY) | shared ክርስቶስ
+  3/29 | ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | app AM-MEL-018 (MONTHLY) | shared ክርስቶስ
+  3/29 | ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | app GZ-MEL-066 (MONTHLY) | shared ክርስቶስ
+  4/2 | ፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | app AM-MEL-048 (MONTHLY) | shared የቅዱስ
+  4/2 | ፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | app AM-MEL-033 (MONTHLY) | shared የቅዱስ
+  4/5 | አባ ገብረ ናዝራዊ ንጹሕ | app AM-GDL-007 (MONTHLY) | shared ገብረ
+  4/5 | አባ ገብረ ናዝራዊ ንጹሕ | app GZ-MEL-151 (MONTHLY) | shared ገብረ
+  4/5 | አባ ገብረ ናዝራዊ ንጹሕ | app GZ-MEL-152 (MONTHLY) | shared ገብረ
+  4/29 | ልደተ ክርስቶስ ስቡሕ | app AM-MEL-018 (MONTHLY) | shared ክርስቶስ
+  4/29 | ልደተ ክርስቶስ ስቡሕ | app GZ-MEL-066 (MONTHLY) | shared ክርስቶስ
+  4/30 | አባ ዮሐንስ አበ ምኔት | app GZ-MEL-060 (MONTHLY) | shared ዮሐንስ
+  4/30 | አባ ዮሐንስ አበ ምኔት | app AM-MEL-048 (MONTHLY) | shared ዮሐንስ
+  4/30 | አባ ዮሐንስ ብጹዕ | app GZ-MEL-060 (MONTHLY) | shared ዮሐንስ
+  4/30 | አባ ዮሐንስ ብጹዕ | app AM-MEL-048 (MONTHLY) | shared ዮሐንስ
+  5/16 | አባ ዮሐንስ መሐሪ (ሊቀ ዻዻሳት) | app AM-MEL-021 (MONTHLY) | shared ዮሐንስ
+  5/27 | ቅዱስ ሱርያል ሊቀ መላዕክት (ከ፯ቱ ሊቃናት አንዱ) | app GZ-MEL-008 (MONTHLY) | shared ሱርያል
+  6/29 | ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት | app GZ-MZM-001 (MONTHLY) | shared ክርስቶስ
+  6/29 | ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት | app GZ-MZM-002 (MONTHLY) | shared ክርስቶስ
+  6/29 | ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት | app GZ-MZM-003 (MONTHLY) | shared ክርስቶስ
+  6/29 | ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት) | app GZ-MZM-001 (MONTHLY) | shared ክርስቶስ
+  6/29 | ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት) | app GZ-MZM-002 (MONTHLY) | shared ክርስቶስ
+  6/29 | ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት) | app GZ-MZM-003 (MONTHLY) | shared ክርስቶስ
+  7/30 | ቅዱስ ዮሐንስ ዘአክሱም (ድርሳነ ሚካኤልን መጻፉ የሚነገርለት አባት) | app GZ-MEL-060 (MONTHLY) | shared ዮሐንስ
+  7/30 | ቅዱስ ዮሐንስ ዘአክሱም (ድርሳነ ሚካኤልን መጻፉ የሚነገርለት አባት) | app AM-MEL-048 (MONTHLY) | shared ዮሐንስ
+  8/12 | አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ) | app AM-MEL-054 (MONTHLY) | shared ሳሙኤል
+  8/12 | አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ) | app AM-MEL-055 (MONTHLY) | shared ሳሙኤል
+  8/12 | አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ) | app GZ-MEL-085 (MONTHLY) | shared ሳሙኤል
+  8/12 | አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ) | app GZ-MEL-086 (MONTHLY) | shared ሳሙኤል
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app AM-GDL-013 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app AM-MEL-016 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app AM-MEL-047 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app GZ-MEL-061 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app GZ-MEL-062 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app GZ-MEL-149 (MONTHLY) | shared ዮሐንስ
+  9/4 | አባ ዮሐንስ ሊቀ ዻዻሳት | app GZ-MEL-150 (MONTHLY) | shared ዮሐንስ
+  9/15 | ቅዱስ ሚናስ ባሕታዊ | app AM-MEL-013 (MONTHLY) | shared ሚናስ
+  9/15 | ቅዱስ ሚናስ ባሕታዊ | app GZ-MEL-052 (MONTHLY) | shared ሚናስ
+  9/16 | ቅዱስ ዮሐንስ ወንጌላዊ (ስብከቱና ቅዳሴ ቤቱ) | app AM-MEL-021 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app AM-GDL-013 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app AM-MEL-016 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app AM-MEL-047 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app GZ-MEL-061 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app GZ-MEL-062 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app GZ-MEL-149 (MONTHLY) | shared ዮሐንስ
+  10/4 | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | app GZ-MEL-150 (MONTHLY) | shared ዮሐንስ
+  10/11 | "፩,0፰፰" ሰማዕታት (የቅዱስ ገላውዴዎስ ማኅበር) | app AM-DRS-001 (MONTHLY) | shared የቅዱስ
+  10/28 | ቅዱስ ያዕቆብ ዘእልበረዳይ | app AM-MEL-022 (MONTHLY) | shared ያዕቆብ
+  10/28 | ቅዱስ ያዕቆብ ዘእልበረዳይ | app GZ-MEL-124 (MONTHLY) | shared ያዕቆብ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app AM-GDL-013 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app AM-MEL-016 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app AM-MEL-047 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app GZ-MEL-061 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app GZ-MEL-062 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app GZ-MEL-149 (MONTHLY) | shared ዮሐንስ
+  11/4 | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው) | app GZ-MEL-150 (MONTHLY) | shared ዮሐንስ
+  11/20 | ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ) | app AM-GDL-030 (MONTHLY) | shared ቴዎድሮስ
+  11/20 | ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ) | app GZ-GDL-030 (MONTHLY) | shared ቴዎድሮስ
+  11/20 | ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ) | app GZ-GDL-031 (MONTHLY) | shared ቴዎድሮስ
+  11/20 | ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ) | app GZ-MEL-040 (MONTHLY) | shared ቴዎድሮስ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app AM-GDL-004 (MONTHLY) | shared ተክለ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app AM-MEL-057 (MONTHLY) | shared ተክለ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app AM-MEL-058 (MONTHLY) | shared ተክለ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app GZ-MEL-068 (MONTHLY) | shared ተክለ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app GZ-MEL-069 (MONTHLY) | shared ተክለ
+  11/24 | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | app GZ-MEL-092 (MONTHLY) | shared ተክለ
+  12/11 | "34" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | app AM-DRS-001 (MONTHLY) | shared የቅዱስ
+  12/11 | "34" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | app GZ-MEL-041 (MONTHLY) | shared ፋሲለደስ
+  12/15 | ፴፻ ሰማዕታት (የቅድስት ክርስቲና ማሕበር) | app AM-GDL-023 (MONTHLY) | shared የቅድስት
+  12/27 | ቅዱስ ሱርያል ሊቀ መላእክት | app GZ-MEL-008 (MONTHLY) | shared ሱርያል
+  12/28 | ቅዱስ አብርሃም (የአባቶች አለቃ) | app AM-MEL-022 (MONTHLY) | shared አብርሃም
+  12/28 | ቅዱስ አብርሃም (የአባቶች አለቃ) | app GZ-MEL-124 (MONTHLY) | shared አብርሃም
+  12/28 | ቅዱስ ያዕቆብ (የአባቶች አለቃ) | app AM-MEL-022 (MONTHLY) | shared ያዕቆብ
+  12/28 | ቅዱስ ያዕቆብ (የአባቶች አለቃ) | app GZ-MEL-124 (MONTHLY) | shared ያዕቆብ
+
+DETECTOR B - sinksar monthly cycles found: 115 distinct (name_core, day)
+  partial coverage (1..expected-1 months): 23
+  day 26 | ሰላማ ከሣቴ ብርሃን | app GZ-MEL-038 (መልክዐ ሰላማ በግእዝ) covers 1/12 months (11/26) | shared ሰላማ
+  day 23 | ሳሙኤል | app GZ-MEL-084 (መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ) covers 1/12 months (4/23) | shared ሳሙኤል
+  day 29 | አርሴማ ድንግል | app AM-GDL-008 (ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ) covers 1/12 months (1/29) | shared አርሴማ
+  day 29 | አርሴማ ድንግል | app GZ-GDL-033 (ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ) covers 1/12 months (1/29) | shared አርሴማ
+  day 29 | አርሴማ ድንግል | app GZ-MEL-042 (መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ) covers 1/12 months (1/29) | shared አርሴማ
+  day 12 | ክርስቶስ ሠምራ | app AM-GDL-005 (ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ) covers 1/12 months (9/12) | shared ሠምራ,ክርስቶስ
+  day 12 | ክርስቶስ ሠምራ | app GZ-GDL-019 (ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ) covers 1/12 months (9/12) | shared ሠምራ,ክርስቶስ
+  day 12 | ክርስቶስ ሠምራ | app GZ-MEL-143 (መልክዐ ክርስቶስ ሠምራ በግእዝ) covers 1/12 months (9/12) | shared ሠምራ,ክርስቶስ
+  day 29 | ዘርዐ ክርስቶስ | app GZ-GDL-023 (ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ) covers 1/12 months (9/29) | shared ክርስቶስ
+  day 20 | ዮሐንስ ሐፂር | app AM-MEL-021 (መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ) covers 1/12 months (5/20) | shared ዮሐንስ
+  day 22 | ደቅስዮስ | app GZ-MEL-014 (መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ) covers 1/12 months (4/22) | shared ደቅስዮስ
+  day 27 | ገላውዴዎስ ሰማዕት | app GZ-ZNA-002 (ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ) covers 1/12 months (7/27) | shared ገላውዴዎስ
+  day 14 | ገብረ ክርስቶስ መርዓዊ | app GZ-MEL-153 (መልክዐ ገብረ ክርስቶስ በግእዝ) covers 1/12 months (2/14) | shared ክርስቶስ,ገብረ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-GDL-018 (ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-MEL-051 (የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-MEL-065 (ጸሎተ መልክዐ ሥቃዩ ለቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-MEL-066 (ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-MEL-067 (ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት ካልዕ በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app AM-SIB-001 (ስብሐተ ፍቁር ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app GZ-GDL-014 (ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app GZ-MEL-065 (መልክዐ ቅዱስ ጊዮርጊስ በግእዝ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app GZ-MEL-154 (መልክዐ ጊዮርጊስ በግእዝ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  day 7 | ጊዮርጊስ ዘጋስጫ | app GZ-MEL-155 (መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ) covers 1/12 months (3/7) | shared ጊዮርጊስ
+  zero-coverage title matches (INFO only, likely different saint/dates): 241
+
+DETECTOR C - app books with truncated monthly cycles: 0
+
+DETECTOR D - cycle counts unchanged: {'ALWAYS': 77, 'CALENDAR': 3513, 'SEASON': 1}
+
+SUMMARY
+new days sampled: 26
+Detector A (annual vs monthly mismatches): 118
+Detector B (partial monthly coverage vs sinksar): 23
+Detector B zero-coverage INFO rows: 241
+Detector C (app truncated cycles): 0
+
+KNOWN FROM ROUND 1 (verify they appear above):
+  - GZ-MEL-135 Ewostatewos should hit Detector B (day 18, 1/12)
+  - GZ-MEL-008 Suraphiel should hit Detector A (ነሐሴ 27)
+  - ፊልጶስ day-18 vs day-14 discrepancy (manual check)

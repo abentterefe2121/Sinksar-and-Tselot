@@ -1,0 +1,383 @@
+﻿type,book_id,title,detail,sinksar_name,app_notes,shared,coverage,expected
+A_annual_vs_monthly,GZ-MEL-041,መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ,1/11,ቅዱስ ፋሲለደስ ሰማዕት,MONTHLY,ፋሲለደስ,,
+A_annual_vs_monthly,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,1/29,ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,1/29,ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,1/29,ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,1/29,ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,1/29,ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,1/30,ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,1/30,ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,2/4,ቅዱስ ዮሐንስ ሕጽው,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-041,መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ,2/11,ቅዱስ ፋሲለደስ ሰማዕት,MONTHLY,ፋሲለደስ,,
+A_annual_vs_monthly,GZ-MEL-084,መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ,2/12,ቅዱስ ሳሙኤል ነቢይ,MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,AM-MEL-054,የአቡነ ሳሙኤል ዘዋልድባ መልክዕ በአማርኛ,2/12,ቅዱስ ሳሙኤል ነቢይ,MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,AM-MEL-055,የአቡነ ሳሙኤል ዘዋልድባ ኹለተኛ መልክዕ በአማርኛ,2/12,ቅዱስ ሳሙኤል ነቢይ,MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,GZ-MEL-085,መልክዐ አቡነ ሳሙኤል ዘዋልድባ በግእዝ,2/12,ቅዱስ ሳሙኤል ነቢይ,MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,GZ-MEL-086,መልክዐ አቡነ ሳሙኤል ዘዋልድባ ካልዕ በግእዝ,2/12,ቅዱስ ሳሙኤል ነቢይ,MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,AM-GDL-023,የቅዱስ ቂርቆስና የቅድስት ኢየሉጣ ገድል በአማርኛ,2/15,"""፻፶፰"" ሰማዕታት (የቅዱስ ቢላሞን ማሕበር)",MONTHLY,የቅዱስ,,
+A_annual_vs_monthly,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,2/27,ጌታችን ኢየሱስ ክርስቶስ,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,2/30,ቅዱስ ዮሐንስ መጥምቀ መለኮት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,2/30,ቅዱስ ዮሐንስ መጥምቀ መለኮት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,3/4,ቅዱሳን ያዕቆብና ዮሐንስ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-GDL-001,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ,3/7,ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ),MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,GZ-GDL-007,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,3/7,ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ),MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,GZ-MEL-123,መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,3/7,ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ),MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,AM-GDL-001,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ,3/7,ቅዱስ ጊዮርጊስ እስክንድርያዊ,MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,GZ-GDL-007,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,3/7,ቅዱስ ጊዮርጊስ እስክንድርያዊ,MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,GZ-MEL-123,መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,3/7,ቅዱስ ጊዮርጊስ እስክንድርያዊ,MONTHLY,ጊዮርጊስ,,
+A_annual_vs_monthly,AM-MEL-015,መልክዐ ቅዱስ ቂርቆስ በአማርኛ,3/15,ልደተ ቅዱስ ቂርቆስ,MONTHLY,ቂርቆስ,,
+A_annual_vs_monthly,GZ-MEL-054,መልክዐ ቅዱስ ቂርቆስ በግእዝ,3/15,ልደተ ቅዱስ ቂርቆስ,MONTHLY,ቂርቆስ,,
+A_annual_vs_monthly,AM-GDL-023,የቅዱስ ቂርቆስና የቅድስት ኢየሉጣ ገድል በአማርኛ,3/15,ብጽዕት ኢየሉጣ,MONTHLY,ኢየሉጣ,,
+A_annual_vs_monthly,GZ-MEL-043,መልክዐ ሰማዕት ቅድስት ኢየሉጣ በግእዝ,3/15,ብጽዕት ኢየሉጣ,MONTHLY,ኢየሉጣ,,
+A_annual_vs_monthly,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,3/16,አባ ዮሐንስ መሐሪ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,3/29,ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,3/29,ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,3/29,ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,3/29,ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,3/29,ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,4/2,"፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)",MONTHLY,የቅዱስ,,
+A_annual_vs_monthly,AM-MEL-033,የሐዋርያው የቅዱስ ታዴዎስ መልክዕ በአማርኛ,4/2,"፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)",MONTHLY,የቅዱስ,,
+A_annual_vs_monthly,AM-GDL-007,ገድለ አቡነ ገብረ መንፈስ ቅዱስ በአማርኛ,4/5,አባ ገብረ ናዝራዊ ንጹሕ,MONTHLY,ገብረ,,
+A_annual_vs_monthly,GZ-MEL-151,መልክዐ ገብረ መንፈስ ቅዱስ በግእዝ,4/5,አባ ገብረ ናዝራዊ ንጹሕ,MONTHLY,ገብረ,,
+A_annual_vs_monthly,GZ-MEL-152,መልክዐ ገብረ መንፈስ ቅዱስ ካልዕ በግእዝ,4/5,አባ ገብረ ናዝራዊ ንጹሕ,MONTHLY,ገብረ,,
+A_annual_vs_monthly,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,4/29,ልደተ ክርስቶስ ስቡሕ,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,4/29,ልደተ ክርስቶስ ስቡሕ,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,4/30,አባ ዮሐንስ አበ ምኔት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,4/30,አባ ዮሐንስ አበ ምኔት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,4/30,አባ ዮሐንስ ብጹዕ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,4/30,አባ ዮሐንስ ብጹዕ,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,5/16,አባ ዮሐንስ መሐሪ (ሊቀ ዻዻሳት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-008,መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ,5/27,ቅዱስ ሱርያል ሊቀ መላዕክት (ከ፯ቱ ሊቃናት አንዱ),MONTHLY,ሱርያል,,
+A_annual_vs_monthly,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,6/29,ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,6/29,ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,6/29,ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት,MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,6/29,ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,6/29,ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,6/29,ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት),MONTHLY,ክርስቶስ,,
+A_annual_vs_monthly,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,7/30,ቅዱስ ዮሐንስ ዘአክሱም (ድርሳነ ሚካኤልን መጻፉ የሚነገርለት አባት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,7/30,ቅዱስ ዮሐንስ ዘአክሱም (ድርሳነ ሚካኤልን መጻፉ የሚነገርለት አባት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-054,የአቡነ ሳሙኤል ዘዋልድባ መልክዕ በአማርኛ,8/12,አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ),MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,AM-MEL-055,የአቡነ ሳሙኤል ዘዋልድባ ኹለተኛ መልክዕ በአማርኛ,8/12,አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ),MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,GZ-MEL-085,መልክዐ አቡነ ሳሙኤል ዘዋልድባ በግእዝ,8/12,አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ),MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,GZ-MEL-086,መልክዐ አቡነ ሳሙኤል ዘዋልድባ ካልዕ በግእዝ,8/12,አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ),MONTHLY,ሳሙኤል,,
+A_annual_vs_monthly,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,9/4,አባ ዮሐንስ ሊቀ ዻዻሳት,MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-013,መልክዐ ቅዱስ ሚናስ በአማርኛ,9/15,ቅዱስ ሚናስ ባሕታዊ,MONTHLY,ሚናስ,,
+A_annual_vs_monthly,GZ-MEL-052,መልክዐ ቅዱስ ሚናስ በግእዝ,9/15,ቅዱስ ሚናስ ባሕታዊ,MONTHLY,ሚናስ,,
+A_annual_vs_monthly,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,9/16,ቅዱስ ዮሐንስ ወንጌላዊ (ስብከቱና ቅዳሴ ቤቱ),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,10/4,ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-DRS-001,የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ,10/11,"""፩,0፰፰"" ሰማዕታት (የቅዱስ ገላውዴዎስ ማኅበር)",MONTHLY,የቅዱስ,,
+A_annual_vs_monthly,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,10/28,ቅዱስ ያዕቆብ ዘእልበረዳይ,MONTHLY,ያዕቆብ,,
+A_annual_vs_monthly,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,10/28,ቅዱስ ያዕቆብ ዘእልበረዳይ,MONTHLY,ያዕቆብ,,
+A_annual_vs_monthly,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,11/4,ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው),MONTHLY,ዮሐንስ,,
+A_annual_vs_monthly,AM-GDL-030,ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ,11/20,ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ),MONTHLY,ቴዎድሮስ,,
+A_annual_vs_monthly,GZ-GDL-030,ገድለ ቅዱስ ቴዎድሮስ በግእዝ,11/20,ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ),MONTHLY,ቴዎድሮስ,,
+A_annual_vs_monthly,GZ-GDL-031,ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ,11/20,ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ),MONTHLY,ቴዎድሮስ,,
+A_annual_vs_monthly,GZ-MEL-040,መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ,11/20,ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ),MONTHLY,ቴዎድሮስ,,
+A_annual_vs_monthly,AM-GDL-004,ገድለ ተክለ ሃይማኖት በአማርኛ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,AM-MEL-057,የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,AM-MEL-058,የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,GZ-MEL-068,መልክዐ ተክለ ሃይማኖት በግእዝ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,GZ-MEL-069,መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,GZ-MEL-092,መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ,11/24,አባ ተክለ አዶናይ ዘደብረ ሊባኖስ,MONTHLY,ተክለ,,
+A_annual_vs_monthly,AM-DRS-001,የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ,12/11,"""34"" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)",MONTHLY,የቅዱስ,,
+A_annual_vs_monthly,GZ-MEL-041,መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ,12/11,"""34"" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)",MONTHLY,ፋሲለደስ,,
+A_annual_vs_monthly,AM-GDL-023,የቅዱስ ቂርቆስና የቅድስት ኢየሉጣ ገድል በአማርኛ,12/15,፴፻ ሰማዕታት (የቅድስት ክርስቲና ማሕበር),MONTHLY,የቅድስት,,
+A_annual_vs_monthly,GZ-MEL-008,መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ,12/27,ቅዱስ ሱርያል ሊቀ መላእክት,MONTHLY,ሱርያል,,
+A_annual_vs_monthly,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,12/28,ቅዱስ አብርሃም (የአባቶች አለቃ),MONTHLY,አብርሃም,,
+A_annual_vs_monthly,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,12/28,ቅዱስ አብርሃም (የአባቶች አለቃ),MONTHLY,አብርሃም,,
+A_annual_vs_monthly,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,12/28,ቅዱስ ያዕቆብ (የአባቶች አለቃ),MONTHLY,ያዕቆብ,,
+A_annual_vs_monthly,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,12/28,ቅዱስ ያዕቆብ (የአባቶች አለቃ),MONTHLY,ያዕቆብ,,
+B_zero_at_day_INFO,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,monthly day 22,ሉቃስ ወንጌላዊ,,ንጌላዊ,0,12
+B_zero_at_day_INFO,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,monthly day 22,ሉቃስ ወንጌላዊ,,ንጌላዊ,0,12
+B_zero_at_day_INFO,GZ-GDL-001,ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ,monthly day 3,ሊባኖስ ዘመጣዕ,,ሊባኖስ,0,13
+B_zero_at_day_INFO,GZ-MEL-088,መልክዐ አቡነ ቡሩከ አምላክ ዘደብረ ኮል በግእዝ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,አምላክ,0,12
+B_zero_at_day_INFO,GZ-MEL-089,መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,አምላክ,0,12
+B_zero_at_day_INFO,AM-MZM-001,መዝሙረ ዳዊት በአማርኛ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,ዳዊት,0,12
+B_zero_at_day_INFO,GZ-MZM-004,መዝሙረ ዳዊት በግእዝ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,ዳዊት,0,12
+B_zero_at_day_INFO,TI-MZM-001,መዝሙረ ዳዊት ብትግርኛ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,ዳዊት,0,12
+B_zero_at_day_INFO,AM-WUD-003,ውዳሴ አምላክ በአማርኛ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,አምላክ,0,12
+B_zero_at_day_INFO,TI-WUD-002,ውዳሴ አምላክ ብትግርኛ,monthly day 23,ልበ አምላክ ቅዱስ ዳዊት,,አምላክ,0,12
+B_zero_at_day_INFO,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-023,ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-082,መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-014,የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-006,ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-136,መልክዐ እስትንፋሰ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,TI-GDL-002,ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,monthly day 10,መልክዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-TSE-002,ጸሎተ ነቢያት በግእዝ,monthly day 8,ሙሴ ሊቀ ነቢያት,,ነቢያት,0,12
+B_zero_at_day_INFO,TI-MZM-002,መዝሙር መኃልይ ነቢያት ብትግርኛ,monthly day 8,ሙሴ ሊቀ ነቢያት,,ነቢያት,0,12
+B_zero_at_day_INFO,AM-MEL-042,የቅዱስ ማርቆስ 2ኛ መልክዕ በአማርኛ,monthly day 29,ማርቆስ ዘቶርማቅ,,ማርቆስ,0,12
+B_zero_at_day_INFO,GZ-MEL-030,መልክዐ ማርቆስ በግእዝ,monthly day 29,ማርቆስ ዘቶርማቅ,,ማርቆስ,0,12
+B_zero_at_day_INFO,GZ-MEL-053,መልክዐ ቅዱስ ማርቆስ ካልእ በግእዝ,monthly day 29,ማርቆስ ዘቶርማቅ,,ማርቆስ,0,12
+B_zero_at_day_INFO,AM-MEL-062,የአቡነ ዜና ማርቆስ መልክዕ በአማርኛ,monthly day 29,ማርቆስ ዘቶርማቅ,,ማርቆስ,0,12
+B_zero_at_day_INFO,GZ-MEL-106,መልክዐ አቡነ ዜና ማርቆስ በግእዝ,monthly day 29,ማርቆስ ዘቶርማቅ,,ማርቆስ,0,12
+B_zero_at_day_INFO,GZ-MEL-081,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ,monthly day 12,ማቴዎስ,,ማቴዎስ,0,12
+B_zero_at_day_INFO,GZ-MEL-080,መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ,monthly day 12,ማቴዎስ,,ማቴዎስ,0,12
+B_zero_at_day_INFO,GZ-MEL-091,መልክዐ አቡነ ተከስተ ብርሃን በግእዝ,monthly day 26,ሰላማ ከሣቴ ብርሃን,,ብርሃን,0,12
+B_zero_at_day_INFO,AM-MEL-056,የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ,monthly day 26,ሰላማ ከሣቴ ብርሃን,,ብርሃን,0,12
+B_zero_at_day_INFO,AM-KOH-001,ኆኅተ ብርሃን በአማርኛ,monthly day 26,ሰላማ ከሣቴ ብርሃን,,ብርሃን,0,12
+B_zero_at_day_INFO,GZ-KOH-001,ኆኅተ ብርሃን በግእዝ,monthly day 26,ሰላማ ከሣቴ ብርሃን,,ብርሃን,0,12
+B_partial_monthly,GZ-MEL-038,መልክዐ ሰላማ በግእዝ,monthly day 26,ሰላማ ከሣቴ ብርሃን,,ሰላማ,1,12
+B_partial_monthly,GZ-MEL-084,መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ,monthly day 23,ሳሙኤል,,ሳሙኤል,1,12
+B_zero_at_day_INFO,AM-MEL-054,የአቡነ ሳሙኤል ዘዋልድባ መልክዕ በአማርኛ,monthly day 23,ሳሙኤል,,ሳሙኤል,0,12
+B_zero_at_day_INFO,AM-MEL-055,የአቡነ ሳሙኤል ዘዋልድባ ኹለተኛ መልክዕ በአማርኛ,monthly day 23,ሳሙኤል,,ሳሙኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-085,መልክዐ አቡነ ሳሙኤል ዘዋልድባ በግእዝ,monthly day 23,ሳሙኤል,,ሳሙኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-086,መልክዐ አቡነ ሳሙኤል ዘዋልድባ ካልዕ በግእዝ,monthly day 23,ሳሙኤል,,ሳሙኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-084,መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ,monthly day 8,ሳሙኤል ዘደብረ ቀልሞን,,ሳሙኤል,0,12
+B_zero_at_day_INFO,AM-MEL-054,የአቡነ ሳሙኤል ዘዋልድባ መልክዕ በአማርኛ,monthly day 8,ሳሙኤል ዘደብረ ቀልሞን,,ሳሙኤል,0,12
+B_zero_at_day_INFO,AM-MEL-055,የአቡነ ሳሙኤል ዘዋልድባ ኹለተኛ መልክዕ በአማርኛ,monthly day 8,ሳሙኤል ዘደብረ ቀልሞን,,ሳሙኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-085,መልክዐ አቡነ ሳሙኤል ዘዋልድባ በግእዝ,monthly day 8,ሳሙኤል ዘደብረ ቀልሞን,,ሳሙኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-086,መልክዐ አቡነ ሳሙኤል ዘዋልድባ ካልዕ በግእዝ,monthly day 8,ሳሙኤል ዘደብረ ቀልሞን,,ሳሙኤል,0,12
+B_zero_at_day_INFO,AM-GDL-026,ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-130,መልክዐ ኢየሱስ ሞዐ በግእዝ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,AM-MEL-002,መልክአ ኢየሱስ በአማርኛ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,AM-TAM-001,ተአምረ ኢየሱስ በአማርኛ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-131,መልክዐ ኢየሱስ በግእዝ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-132,መልክዐ ኢየሱስ ካልዕ በግእዝ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-TAM-002,ተአምረ ኢየሱስ በግእዝ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,TI-TAM-001,ተአምረ ኢየሱስ ብትግርኛ,monthly day 19,ስነ ኢየሱስ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-094,መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ,monthly day 26,ቶማስ,,ቶማስ,0,12
+B_zero_at_day_INFO,GZ-MEL-094,መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ,monthly day 24,ቶማስ ዘመርዐስ,,ቶማስ,0,12
+B_zero_at_day_INFO,GZ-HIB-001,ኅብረ ሥላሴ በግእዝ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,AM-MEL-010,መልክዐ ሥላሴ በአማርኛ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,AM-SEY-002,ሰይፈ ሥላሴ በአማርኛ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,AM-ZNA-001,ዜና ሥላሴ በአማርኛ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,GZ-MEL-035,መልክዐ ሥላሴ በግእዝ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,GZ-SEY-002,ሰይፈ ሥላሴ በግእዝ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,GZ-ZNA-004,ዜና ሥላሴ በግእዝ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_zero_at_day_INFO,GZ-MEL-077,መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ,monthly day 21,አምደ ሥላሴ,,ሥላሴ,0,12
+B_partial_monthly,AM-GDL-008,ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ,monthly day 29,አርሴማ ድንግል,,አርሴማ,1,12
+B_partial_monthly,GZ-GDL-033,ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ,monthly day 29,አርሴማ ድንግል,,አርሴማ,1,12
+B_partial_monthly,GZ-MEL-042,መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ,monthly day 29,አርሴማ ድንግል,,አርሴማ,1,12
+B_zero_at_day_INFO,AM-TEA-002,ተአምኆ ዘሥሉስ ቅዱስ በአማርኛ,monthly day 6,አርከ ሥሉስ,,ሥሉስ,0,13
+B_zero_at_day_INFO,AM-TEA-003,ተአምኆ ዘሥሉስ ቅዱስ መልክዕ በአማርኛ,monthly day 6,አርከ ሥሉስ,,ሥሉስ,0,13
+B_zero_at_day_INFO,GZ-TEA-002,ተአምኆ ዘሥሉስ ቅዱስ በግእዝ,monthly day 6,አርከ ሥሉስ,,ሥሉስ,0,13
+B_zero_at_day_INFO,GZ-TEA-003,ተአምኆ ዘሥሉስ ቅዱስ በግእዝ ካልእ,monthly day 6,አርከ ሥሉስ,,ሥሉስ,0,13
+B_zero_at_day_INFO,GZ-MEL-034,መልክዐ ሥሉስ ቅዱስ በግእዝ,monthly day 6,አርከ ሥሉስ,,ሥሉስ,0,13
+B_zero_at_day_INFO,AM-GDL-028,ገድለ አቡነ አሮን መንክራዊ በአማርኛ,monthly day 21,አሮን ሶርያዊ,,አሮን,0,12
+B_zero_at_day_INFO,GZ-GDL-024,ገድለ አቡነ አሮን መንክራዊ ግእዝ,monthly day 21,አሮን ሶርያዊ,,አሮን,0,12
+B_zero_at_day_INFO,GZ-MEL-128,መልክዐ አᎄነ አሮን መንክራዌ በግእዝ,monthly day 21,አሮን ሶርያዊ,,አሮን,0,12
+B_zero_at_day_INFO,AM-ZNA-002,ዜና አበው በአማርኛ,monthly day 17,አበው መክሲሞስና ዱማቴዎስ,,አበው,0,12
+B_zero_at_day_INFO,AM-ZNA-002,ዜና አበው በአማርኛ,monthly day 21,አበው ጎርጎርዮሳት,,አበው,0,12
+B_zero_at_day_INFO,AM-MEL-002,መልክአ ኢየሱስ በአማርኛ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,AM-TAM-001,ተአምረ ኢየሱስ በአማርኛ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-131,መልክዐ ኢየሱስ በግእዝ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-132,መልክዐ ኢየሱስ ካልዕ በግእዝ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-TAM-002,ተአምረ ኢየሱስ በግእዝ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,TI-TAM-001,ተአምረ ኢየሱስ ብትግርኛ,monthly day 26,ኢየሱስ ሞዐ ዘሐይቅ,,ኢየሱስ,0,12
+B_zero_at_day_INFO,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-023,ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-082,መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,monthly day 9,እስትንፋሰ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-103,መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ,monthly day 4,እንድርያስ,,እንድርያስ,0,13
+B_zero_at_day_INFO,GZ-MEL-102,መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ,monthly day 4,እንድርያስ,,እንድርያስ,0,13
+B_zero_at_day_INFO,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-023,ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-082,መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_partial_monthly,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,monthly day 12,ክርስቶስ ሠምራ,,"ሠምራ,ክርስቶስ",1,12
+B_partial_monthly,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,"ሠምራ,ክርስቶስ",1,12
+B_partial_monthly,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,"ሠምራ,ክርስቶስ",1,12
+B_zero_at_day_INFO,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-014,የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-006,ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-136,መልክዐ እስትንፋሰ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,TI-GDL-002,ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,monthly day 12,ክርስቶስ ሠምራ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_partial_monthly,GZ-GDL-023,ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,1,12
+B_zero_at_day_INFO,GZ-MEL-082,መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-014,የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-006,ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-136,መልክዐ እስትንፋሰ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,TI-GDL-002,ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,monthly day 29,ዘርዐ ክርስቶስ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-042,የቅዱስ ማርቆስ 2ኛ መልክዕ በአማርኛ,monthly day 3,ዜና ማርቆስ,,ማርቆስ,0,13
+B_zero_at_day_INFO,GZ-MEL-030,መልክዐ ማርቆስ በግእዝ,monthly day 3,ዜና ማርቆስ,,ማርቆስ,0,13
+B_zero_at_day_INFO,GZ-MEL-053,መልክዐ ቅዱስ ማርቆስ ካልእ በግእዝ,monthly day 3,ዜና ማርቆስ,,ማርቆስ,0,13
+B_zero_at_day_INFO,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,monthly day 10,ያዕቆብ ሐዋርያ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,monthly day 10,ያዕቆብ ሐዋርያ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,monthly day 17,ያዕቆብ ሐዋርያ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,monthly day 17,ያዕቆብ ሐዋርያ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,AM-MEL-022,መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ,monthly day 27,ያዕቆብ ዘግሙድ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,GZ-MEL-124,መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ,monthly day 27,ያዕቆብ ዘግሙድ,,ያዕቆብ,0,12
+B_zero_at_day_INFO,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-104,መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-020,መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-027,ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-109,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-110,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-GDL-018,ገድለ አቡነ ዮሐንስ በግእዝ,monthly day 14,ዮሐንስ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-104,መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-020,መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-027,ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_partial_monthly,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,1,12
+B_zero_at_day_INFO,GZ-MEL-109,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-110,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-GDL-018,ገድለ አቡነ ዮሐንስ በግእዝ,monthly day 20,ዮሐንስ ሐፂር,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-104,መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-020,መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-013,የቅዱስ ዮሐንስ ገድል በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-016,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-047,የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-061,መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-062,መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-149,መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-150,መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-GDL-027,ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-109,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-110,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-GDL-018,ገድለ አቡነ ዮሐንስ በግእዝ,monthly day 12,ዮሐንስ አፈ ወርቅ,,ዮሐንስ,0,12
+B_zero_at_day_INFO,GZ-MEL-060,መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,AM-MEL-048,የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,GZ-MEL-104,መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,AM-MEL-020,መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,AM-GDL-027,ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,AM-MEL-021,መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,GZ-MEL-109,መልክዐ አቡነ ዮሐንስ ከማ በግእዝ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,GZ-MEL-110,መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,GZ-GDL-018,ገድለ አቡነ ዮሐንስ በግእዝ,monthly day 4,ዮሐንስ ዘሐራቅሊ,,ዮሐንስ,0,13
+B_zero_at_day_INFO,AM-DRS-004,ድርሳነ መድኃኔ ዓለም በአማርኛ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,AM-MEL-034,የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,AM-MEL-035,የመድኀኔ ዓለም መልክዕ በአማርኛ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,GZ-DRS-005,ድርሳነ መድኃኔ ዓለም በግእዝ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,GZ-MEL-027,መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,GZ-MEL-028,መልክዐ መድኃኔ ዓለም በግእዝ,monthly day 19,ዮሴፍ ብርሃነ ዓለም,,ዓለም,0,12
+B_zero_at_day_INFO,GZ-GDL-029,ገድለ አቡነ ዮሴፍ በግእዝ,monthly day 6,ዮሴፍ አረጋዊ,,ዮሴፍ,0,13
+B_zero_at_day_INFO,GZ-MEL-111,መልክዐ አቡነ ዮሴፍ በግእዝ,monthly day 6,ዮሴፍ አረጋዊ,,ዮሴፍ,0,13
+B_zero_at_day_INFO,AM-GDL-016,ገድለ አቡነ አረጋዊ በአማርኛ,monthly day 6,ዮሴፍ አረጋዊ,,አረጋዊ,0,13
+B_zero_at_day_INFO,GZ-MEL-073,መልክዐ አረጋዊ በግእዝ,monthly day 6,ዮሴፍ አረጋዊ,,አረጋዊ,0,13
+B_partial_monthly,GZ-MEL-014,መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ,monthly day 22,ደቅስዮስ,,ደቅስዮስ,1,12
+B_zero_at_day_INFO,GZ-GDL-028,ገድለ አቡነ ዳንኤል በግእዝ,monthly day 16,ዳንኤል,,ዳንኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-114,መልክዐ አቡነ ዳንኤል በግእዝ,monthly day 16,ዳንኤል,,ዳንኤል,0,12
+B_zero_at_day_INFO,GZ-GDL-028,ገድለ አቡነ ዳንኤል በግእዝ,monthly day 7,ዳንኤል ዘገዳመ ሲሐት,,ዳንኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-114,መልክዐ አቡነ ዳንኤል በግእዝ,monthly day 7,ዳንኤል ዘገዳመ ሲሐት,,ዳንኤል,0,12
+B_partial_monthly,GZ-ZNA-002,ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ,monthly day 27,ገላውዴዎስ ሰማዕት,,ገላውዴዎስ,1,12
+B_zero_at_day_INFO,GZ-MEL-096,መልክዐ አቡነ አባለ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-060,የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-023,ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-082,መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MIK-001,ምክሓ ምእመናን ክርስቶስ በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-005,ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-019,ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-143,መልክዐ ክርስቶስ ሠምራ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-007,ገድለ አቡነ ገብረ መንፈስ ቅዱስ በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ገብረ,0,12
+B_zero_at_day_INFO,GZ-MEL-151,መልክዐ ገብረ መንፈስ ቅዱስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ገብረ,0,12
+B_zero_at_day_INFO,GZ-MEL-152,መልክዐ ገብረ መንፈስ ቅዱስ ካልዕ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ገብረ,0,12
+B_zero_at_day_INFO,GZ-MZM-001,መዝሙረ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-002,መዝሙረ ክርስቶስ ካልዕ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MZM-003,መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-GDL-014,የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-GDL-006,ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-136,መልክዐ እስትንፋሰ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,TI-GDL-002,ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,AM-MEL-018,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-066,መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_zero_at_day_INFO,GZ-MEL-148,መልክዐ ይምርሃነ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,ክርስቶስ,0,12
+B_partial_monthly,GZ-MEL-153,መልክዐ ገብረ ክርስቶስ በግእዝ,monthly day 14,ገብረ ክርስቶስ መርዓዊ,,"ክርስቶስ,ገብረ",1,12
+B_zero_at_day_INFO,AM-DRS-003,ድርሳነ ገብርኤል በአማርኛ,monthly day 23,ገብርኤል,,ገብርኤል,0,12
+B_zero_at_day_INFO,AM-MEL-050,የቅዱስ ገብርኤል መልክዕ በአማርኛ,monthly day 23,ገብርኤል,,ገብርኤል,0,12
+B_zero_at_day_INFO,GZ-DRS-010,ድርሳነ ገብርኤል በግእዝ,monthly day 23,ገብርኤል,,ገብርኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-013,መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ,monthly day 23,ገብርኤል,,ገብርኤል,0,12
+B_zero_at_day_INFO,GZ-MEL-014,መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ,monthly day 23,ገብርኤል,,ገብርኤል,0,12
+B_zero_at_day_INFO,AM-GDL-001,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ,monthly day 23,ጊዮርጊስ ሊቀ ሰማዕታት,,ጊዮርጊስ,0,12
+B_zero_at_day_INFO,GZ-GDL-007,ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,monthly day 23,ጊዮርጊስ ሊቀ ሰማዕታት,,ጊዮርጊስ,0,12
+B_zero_at_day_INFO,GZ-MEL-123,መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ,monthly day 23,ጊዮርጊስ ሊቀ ሰማዕታት,,ጊዮርጊስ,0,12
+B_partial_monthly,AM-GDL-018,ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,AM-MEL-051,የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,AM-MEL-065,ጸሎተ መልክዐ ሥቃዩ ለቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,AM-MEL-066,ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,AM-MEL-067,ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት ካልዕ በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,AM-SIB-001,ስብሐተ ፍቁር ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,GZ-GDL-014,ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,GZ-MEL-065,መልክዐ ቅዱስ ጊዮርጊስ በግእዝ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,GZ-MEL-154,መልክዐ ጊዮርጊስ በግእዝ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_partial_monthly,GZ-MEL-155,መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ,monthly day 7,ጊዮርጊስ ዘጋስጫ,,ጊዮርጊስ,1,12
+B_zero_at_day_INFO,AM-SEY-001,ሰይፈ መለኮት በአማርኛ,monthly day 30,ጐርጐርዮስ ነባቤ መለኮት,,መለኮት,0,12
+B_zero_at_day_INFO,GZ-SEY-001,ሰይፈ መለኮት በግእዝ,monthly day 30,ጐርጐርዮስ ነባቤ መለኮት,,መለኮት,0,12

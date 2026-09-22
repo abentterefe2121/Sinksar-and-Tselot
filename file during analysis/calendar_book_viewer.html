@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mezgebe Tselot Calendar Viewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1412;
+      --bg-2: #18201c;
+      --panel: #1d2823;
+      --line: #31443b;
+      --gold: #d4b46a;
+      --gold-2: #f0d9a0;
+      --text: #e8eee9;
+      --muted: #9aada3;
+      --feast: #c9844a;
+      --always: #6fb089;
+      --monthly: #7ea6d8;
+      --annual: #d4b46a;
+      --danger: #d36b6b;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #2a3b32 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      font-family: "Source Sans 3", "Noto Sans Ethiopic", sans-serif;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; padding: 28px 20px 60px; }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: .02em;
+      color: var(--gold-2);
+    }
+    .sub { color: var(--muted); margin-bottom: 22px; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .row { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+    label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    select, input, button {
+      font: inherit;
+      color: var(--text);
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    select, input { min-width: 140px; }
+    button {
+      cursor: pointer;
+      background: linear-gradient(180deg, #c9a45a, #a7843d);
+      color: #1a1408;
+      font-weight: 700;
+      border: 0;
+    }
+    button.secondary {
+      background: var(--bg-2);
+      color: var(--text);
+      border: 1px solid var(--line);
+      font-weight: 600;
+    }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .tabs { display: flex; gap: 8px; margin: 8px 0 16px; flex-wrap: wrap; }
+    .tab {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+    .tab.active { background: #2b3c34; color: var(--gold-2); border-color: var(--gold); }
+    .hidden { display: none; }
+    .status { color: var(--muted); font-size: 14px; }
+    .status.ok { color: var(--always); }
+    .status.err { color: var(--danger); }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+    .stat {
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .stat b { display: block; font-size: 22px; color: var(--gold-2); }
+    .stat span { color: var(--muted); font-size: 12px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th { color: var(--gold); font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+    tr:hover td { background: rgba(255,255,255,.03); }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .03em;
+    }
+    .ALWAYS { background: rgba(111,176,137,.2); color: var(--always); }
+    .ANNUAL { background: rgba(212,180,106,.2); color: var(--annual); }
+    .MONTHLY { background: rgba(126,166,216,.2); color: var(--monthly); }
+    .ANNUALMONTHLY { background: rgba(201,132,74,.2); color: var(--feast); }
+    .count { margin: 0 0 10px; color: var(--gold-2); }
+    .group-title { margin: 18px 0 8px; color: var(--gold); }
+    .filebox {
+      border: 1px dashed var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      background: var(--bg-2);
+    }
+    .muted { color: var(--muted); }
+    .book-link { color: var(--gold-2); cursor: pointer; text-decoration: underline; background: none; border: 0; padding: 0; font-weight: 700; }
+    .filters input { min-width: 220px; width: 280px; }
+    @media (max-width: 700px) {
+      select, input { min-width: 100%; width: 100%; }
+      .filters input { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>መዝገበ ጸሎት · Calendar Viewer</h1>
+    <p class="sub">Open the working-copy DB, enter an Ethiopian date, and see feast books for that day plus everyday <code>ALWAYS</code> books.</p>
+
+    <div class="card filebox">
+      <label for="dbfile">SQLite database</label>
+      <div class="row">
+        <input id="dbfile" type="file" accept=".db,.sqlite,.sqlite3">
+        <button class="secondary" id="reloadBtn" type="button" disabled>Reload query</button>
+      </div>
+      <p class="status" id="loadStatus">Choose <b>mezgebe_tselot_v4_CLEARED.db</b> from the <b>for analysis</b> folder. Original DB has no ALWAYS rows.</p>
+    </div>
+
+    <div class="card">
+      <div class="stats" id="stats"></div>
+    </div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="dateTab" type="button">By date</button>
+      <button class="tab" data-tab="bookTab" type="button">By book</button>
+      <button class="tab" data-tab="alwaysTab" type="button">ALWAYS books</button>
+    </div>
+
+    <section id="dateTab">
+      <div class="card">
+        <div class="row">
+          <div>
+            <label for="month">Ethiopian month</label>
+            <select id="month"></select>
+          </div>
+          <div>
+            <label for="day">Day</label>
+            <select id="day"></select>
+          </div>
+          <div>
+            <label for="langFilter">Language</label>
+            <select id="langFilter">
+              <option value="">All</option>
+              <option value="AM">AM</option>
+              <option value="GZ">GZ</option>
+              <option value="EN">EN</option>
+              <option value="OR">OR</option>
+              <option value="TI">TI</option>
+            </select>
+          </div>
+          <div>
+            <label for="kindFilter">Kind</label>
+            <select id="kindFilter">
+              <option value="">All</option>
+              <option value="DATE">Date feast only</option>
+              <option value="ALWAYS">ALWAYS only</option>
+            </select>
+          </div>
+          <button id="searchBtn" type="button" disabled>Show books</button>
+        </div>
+      </div>
+      <div class="card">
+        <div id="dateResults"><p class="muted">Load the DB, pick a date, then click Show books.</p></div>
+      </div>
+    </section>
+
+    <section id="bookTab" class="hidden">
+      <div class="card">
+        <div class="row filters">
+          <div>
+            <label for="bookQuery">book_id or title</label>
+            <input id="bookQuery" placeholder="GZ-GDL-025 or መልክዐ">
+          </div>
+          <button id="bookSearchBtn" type="button" disabled>Lookup book</button>
+        </div>
+      </div>
+      <div class="card">
+        <div id="bookResults"><p class="muted">Search a book to see every mapped date / ALWAYS row.</p></div>
+      </div>
+    </section>
+
+    <section id="alwaysTab" class="hidden">
+      <div class="card">
+        <div id="alwaysResults"><p class="muted">Load the DB to list everyday books.</p></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+  <script>
+    const MONTHS = [
+      [1, "መስከረም", "Meskerem", 30],
+      [2, "ጥቅምት", "Tikimt", 30],
+      [3, "ኅዳር", "Hidar", 30],
+      [4, "ታኅሣሥ", "Tahsas", 30],
+      [5, "ጥር", "Tir", 30],
+      [6, "የካቲት", "Yekatit", 30],
+      [7, "መጋቢት", "Megabit", 30],
+      [8, "ሚያዝያ", "Miyazia", 30],
+      [9, "ግንቦት", "Ginbot", 30],
+      [10, "ሰኔ", "Sene", 30],
+      [11, "ሐምሌ", "Hamle", 30],
+      [12, "ነሐሴ", "Nehase", 30],
+      [13, "ጳጉሜን", "Pagumen", 6]
+    ];
+
+    let SQL = null;
+    let db = null;
+
+    const monthEl = document.getElementById("month");
+    const dayEl = document.getElementById("day");
+    const loadStatus = document.getElementById("loadStatus");
+    const statsEl = document.getElementById("stats");
+    const searchBtn = document.getElementById("searchBtn");
+    const bookSearchBtn = document.getElementById("bookSearchBtn");
+    const reloadBtn = document.getElementById("reloadBtn");
+
+    function setStatus(text, cls) {
+      loadStatus.className = "status" + (cls ? " " + cls : "");
+      loadStatus.innerHTML = text;
+    }
+
+    function fillMonths() {
+      monthEl.innerHTML = MONTHS.map(([num, am, en]) =>
+        `<option value="${num}">${num} · ${am} · ${en}</option>`
+      ).join("");
+      monthEl.value = "1";
+      fillDays();
+    }
+
+    function fillDays() {
+      const month = Number(monthEl.value);
+      const max = MONTHS.find(m => m[0] === month)[3];
+      const prev = Number(dayEl.value) || 1;
+      dayEl.innerHTML = Array.from({ length: max }, (_, i) => {
+        const d = i + 1;
+        return `<option value="${d}">${d}</option>`;
+      }).join("");
+      dayEl.value = String(Math.min(prev, max));
+    }
+
+    function badge(notes) {
+      const key = String(notes || "").replace("+", "");
+      return `<span class="badge ${key}">${notes || ""}</span>`;
+    }
+
+    function dateLabel(month, day) {
+      if (month == null || day == null || month === "" || day === "") return "everyday";
+      const m = MONTHS.find(x => x[0] === Number(month));
+      const name = m ? m[1] : month;
+      return `${name} ${day} (${month}/${day})`;
+    }
+
+    function rowsFrom(result) {
+      if (!result || !result.length) return [];
+      const { columns, values } = result[0];
+      return values.map(v => Object.fromEntries(columns.map((c, i) => [c, v[i]])));
+    }
+
+    function exec(sql, params) {
+      if (!db) throw new Error("DB not loaded");
+      if (!params || !params.length) return rowsFrom(db.exec(sql));
+      const stmt = db.prepare(sql);
+      stmt.bind(params);
+      const columns = stmt.getColumnNames();
+      const values = [];
+      while (stmt.step()) values.push(stmt.get());
+      stmt.free();
+      return rowsFrom([{ columns, values }]);
+    }
+
+    function tableHtml(rows, columns) {
+      if (!rows.length) return `<p class="muted">No rows.</p>`;
+      const head = columns.map(c => `<th>${c}</th>`).join("");
+      const body = rows.map(r => `<tr>${columns.map(c => `<td>${r[c] ?? ""}</td>`).join("")}</tr>`).join("");
+      return `<table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+    }
+
+    function bookCell(id, title) {
+      return `<button class="book-link" data-book="${id}">${id}</button><div>${title || ""}</div>`;
+    }
+
+    function renderDateResults(rows, month, day) {
+      const lang = document.getElementById("langFilter").value;
+      const kind = document.getElementById("kindFilter").value;
+      let filtered = rows;
+      if (lang) filtered = filtered.filter(r => r.language_id === lang);
+      if (kind === "ALWAYS") filtered = filtered.filter(r => r.reading_cycle === "ALWAYS");
+      if (kind === "DATE") filtered = filtered.filter(r => r.reading_cycle !== "ALWAYS");
+
+      const feast = filtered.filter(r => r.reading_cycle !== "ALWAYS");
+      const always = filtered.filter(r => r.reading_cycle === "ALWAYS");
+      const cols = ["book", "language", "kind", "is_annual", "cycle", "section"];
+
+      function toView(list) {
+        return list.map(r => ({
+          book: bookCell(r.book_id, r.title),
+          language: r.language_id,
+          kind: badge(r.notes),
+          is_annual: r.is_annual,
+          cycle: r.reading_cycle,
+          section: r.app_section
+        }));
+      }
+
+      document.getElementById("dateResults").innerHTML = `
+        <p class="count">${dateLabel(month, day)} · ${filtered.length} books shown (${feast.length} date + ${always.length} always)</p>
+        <h3 class="group-title">Date mappings</h3>
+        ${tableHtml(toView(feast), cols)}
+        <h3 class="group-title">ALWAYS / everyday</h3>
+        ${tableHtml(toView(always), cols)}
+      `;
+    }
+
+    function loadStats() {
+      const notes = exec("SELECT IFNULL(notes, '') AS notes, COUNT(*) AS c FROM book_calendar_mappings GROUP BY notes ORDER BY c DESC;");
+      const cycles = exec("SELECT reading_cycle, COUNT(*) AS c FROM book_calendar_mappings GROUP BY reading_cycle ORDER BY c DESC;");
+      const totals = exec(`
+        SELECT
+          (SELECT COUNT(*) FROM books) AS books,
+          (SELECT COUNT(*) FROM book_calendar_mappings) AS mappings,
+          (SELECT COUNT(*) FROM calendar_days) AS calendar_days,
+          (SELECT COUNT(*) FROM book_calendar_mappings WHERE reading_cycle = 'ALWAYS') AS always_rows
+      `)[0];
+      statsEl.innerHTML = `
+        <div class="stat"><b>${totals.books}</b><span>books</span></div>
+        <div class="stat"><b>${totals.mappings}</b><span>mappings</span></div>
+        <div class="stat"><b>${totals.always_rows}</b><span>ALWAYS rows</span></div>
+        <div class="stat"><b>${totals.calendar_days}</b><span>calendar days</span></div>
+        ${cycles.map(r => `<div class="stat"><b>${r.c}</b><span>cycle ${r.reading_cycle}</span></div>`).join("")}
+        ${notes.map(r => `<div class="stat"><b>${r.c}</b><span>notes ${r.notes || "(null)"}</span></div>`).join("")}
+      `;
+    }
+
+    function loadAlwaysTab() {
+      const rows = exec(`
+        SELECT bcm.book_id, b.title, b.language_id, b.category_id, bcm.reading_cycle, bcm.notes
+        FROM book_calendar_mappings bcm
+        JOIN books b ON b.id = bcm.book_id
+        WHERE bcm.reading_cycle = 'ALWAYS'
+        ORDER BY b.language_id, bcm.book_id;
+      `);
+      const view = rows.map(r => ({
+        book: bookCell(r.book_id, r.title),
+        language: r.language_id,
+        category: r.category_id,
+        kind: badge(r.notes),
+        cycle: r.reading_cycle
+      }));
+      document.getElementById("alwaysResults").innerHTML = `
+        <p class="count">${rows.length} everyday books</p>
+        ${tableHtml(view, ["book", "language", "category", "kind", "cycle"])}
+      `;
+    }
+
+    function searchDate() {
+      if (!db) return;
+      const month = Number(monthEl.value);
+      const day = Number(dayEl.value);
+      const rows = exec(`
+        SELECT
+          bcm.book_id,
+          b.title,
+          b.language_id,
+          b.category_id,
+          bcm.ethiopian_month,
+          bcm.ethiopian_day,
+          bcm.is_annual,
+          bcm.reading_cycle,
+          bcm.notes,
+          bcm.app_section
+        FROM book_calendar_mappings bcm
+        JOIN books b ON b.id = bcm.book_id
+        WHERE (bcm.ethiopian_month = ? AND bcm.ethiopian_day = ?)
+           OR bcm.reading_cycle = 'ALWAYS'
+        ORDER BY CASE WHEN bcm.reading_cycle = 'ALWAYS' THEN 1 ELSE 0 END, b.language_id, bcm.book_id;
+      `, [month, day]);
+      renderDateResults(rows, month, day);
+    }
+
+    function searchBook(rawId) {
+      if (!db) return;
+      const q = (rawId || document.getElementById("bookQuery").value || "").trim();
+      if (!q) {
+        document.getElementById("bookResults").innerHTML = `<p class="muted">Enter a book_id or title fragment.</p>`;
+        return;
+      }
+      const like = `%${q}%`;
+      const books = exec(`
+        SELECT id, title, language_id, category_id, subject_tag, main_category_id, sub_category_id
+        FROM books
+        WHERE id = ? OR id LIKE ? OR title LIKE ?
+        ORDER BY id
+        LIMIT 50;
+      `, [q, like, like]);
+      if (!books.length) {
+        document.getElementById("bookResults").innerHTML = `<p class="muted">No book matched <b>${q}</b>.</p>`;
+        return;
+      }
+      const parts = books.map(b => {
+        const maps = exec(`
+          SELECT ethiopian_month, ethiopian_day, is_annual, reading_cycle, notes, app_section
+          FROM book_calendar_mappings
+          WHERE book_id = ?
+          ORDER BY reading_cycle, ethiopian_month, ethiopian_day;
+        `, [b.id]);
+        const view = maps.map(r => ({
+          date: dateLabel(r.ethiopian_month, r.ethiopian_day),
+          month: r.ethiopian_month ?? "",
+          day: r.ethiopian_day ?? "",
+          is_annual: r.is_annual,
+          cycle: r.reading_cycle,
+          kind: badge(r.notes),
+          section: r.app_section
+        }));
+        return `
+          <h3 class="group-title">${b.id} · ${b.title}</h3>
+          <p class="muted">${b.language_id} · ${b.category_id} · ${b.subject_tag || ""} · ${b.main_category_id || ""} / ${b.sub_category_id || ""} · ${maps.length} mapping row(s)</p>
+          ${tableHtml(view, ["date", "month", "day", "is_annual", "cycle", "kind", "section"])}
+        `;
+      });
+      document.getElementById("bookResults").innerHTML = parts.join("");
+    }
+
+    function enableUi(on) {
+      searchBtn.disabled = !on;
+      bookSearchBtn.disabled = !on;
+      reloadBtn.disabled = !on;
+    }
+
+    async function loadDb(file) {
+      setStatus("Loading SQL engine and database… this can take a few seconds.", "");
+      enableUi(false);
+      if (!SQL) {
+        SQL = await initSqlJs({
+          locateFile: f => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/${f}`
+        });
+      }
+      const buf = new Uint8Array(await file.arrayBuffer());
+      if (db) db.close();
+      db = new SQL.Database(buf);
+      const check = exec("SELECT COUNT(*) AS c FROM sqlite_master WHERE type='table' AND name='book_calendar_mappings';");
+      if (!check.length || check[0].c !== 1) {
+        throw new Error("This file has no book_calendar_mappings table.");
+      }
+      loadStats();
+      loadAlwaysTab();
+      enableUi(true);
+      setStatus(`Loaded <b>${file.name}</b> (${Math.round(file.size / 1024 / 1024)} MB). Original DB is read-only; use the CLEARED working copy.`, "ok");
+      searchDate();
+    }
+
+    document.querySelectorAll(".tab").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        ["dateTab", "bookTab", "alwaysTab"].forEach(id => {
+          document.getElementById(id).classList.toggle("hidden", id !== btn.dataset.tab);
+        });
+      });
+    });
+
+    document.addEventListener("click", e => {
+      const btn = e.target.closest("[data-book]");
+      if (!btn) return;
+      document.getElementById("bookQuery").value = btn.dataset.book;
+      document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.tab === "bookTab"));
+      ["dateTab", "bookTab", "alwaysTab"].forEach(id => {
+        document.getElementById(id).classList.toggle("hidden", id !== "bookTab");
+      });
+      searchBook(btn.dataset.book);
+    });
+
+    monthEl.addEventListener("change", fillDays);
+    searchBtn.addEventListener("click", searchDate);
+    bookSearchBtn.addEventListener("click", () => searchBook());
+    reloadBtn.addEventListener("click", searchDate);
+    document.getElementById("dbfile").addEventListener("change", async e => {
+      const file = e.target.files && e.target.files[0];
+      if (!file) return;
+      try {
+        await loadDb(file);
+      } catch (err) {
+        enableUi(false);
+        setStatus("Failed: " + err.message, "err");
+      }
+    });
+    document.getElementById("bookQuery").addEventListener("keydown", e => {
+      if (e.key === "Enter") searchBook();
+    });
+
+    fillMonths();
+  </script>
+</body>
+</html>

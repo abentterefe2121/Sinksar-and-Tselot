@@ -1,0 +1,1045 @@
+INSPECT DAILY / ALWAYS BOOKS
+Generated: 2026-09-21T14:10:49
+ORIGINAL_DB: C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+WORKING_COPY_DB exists: True
+Locked book_id count: 43
+ALWAYS_ONLY count: 24
+ALWAYS_PLUS_ALL_WEEKDAYS count: 19
+Group split total: 43
+
+================================================================================
+DATABASE FILES
+================================================================================
+original exists: True
+original size: 57786368
+working copy size: 57786368
+
+================================================================================
+ALL TABLES
+================================================================================
+name | type
+--------------------------------------------------------------------------------
+book_calendar_mappings | table
+book_seasonal_mappings | table
+books | table
+calendar_days | table
+categories | table
+chapters | table
+commemorations | table
+content_blocks | table
+cover_display_names | table
+cross_references | table
+ethiopian_months | table
+footnotes | table
+languages | table
+main_categories | table
+seasonal_periods | table
+sqlite_sequence | table
+sub_categories | table
+text_formats | table
+
+================================================================================
+ALL TABLE SQL
+================================================================================
+
+--- book_calendar_mappings ---
+CREATE TABLE book_calendar_mappings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id TEXT NOT NULL,
+            calendar_day_id INTEGER,
+            ethiopian_month INTEGER,
+            ethiopian_day INTEGER,
+            is_annual INTEGER NOT NULL DEFAULT 0,
+            is_primary_feast INTEGER NOT NULL DEFAULT 1,
+            reading_cycle TEXT NOT NULL DEFAULT 'CALENDAR',
+            weekday_number INTEGER,
+            season_code TEXT,
+            app_section TEXT NOT NULL DEFAULT 'TODAYS_FEAST',
+            notes TEXT,
+            FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE,
+            FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id) ON DELETE SET NULL
+        )
+
+--- book_seasonal_mappings ---
+CREATE TABLE book_seasonal_mappings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  book_id TEXT,
+  season_code TEXT,
+  reading_order INTEGER,
+  notes TEXT,
+  FOREIGN KEY(book_id) REFERENCES books(id),
+  FOREIGN KEY(season_code) REFERENCES seasonal_periods(code)
+)
+
+--- books ---
+CREATE TABLE "books" (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id TEXT NOT NULL,
+    category_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    title_short TEXT,
+    description TEXT,
+    total_chapters INTEGER NOT NULL DEFAULT 0,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    subject_category TEXT DEFAULT '' NOT NULL,
+    subject_tag TEXT DEFAULT '' NOT NULL,
+    cover_image TEXT DEFAULT '' NOT NULL, main_category_id TEXT REFERENCES main_categories(id), sub_category_id TEXT REFERENCES sub_categories(id),
+    FOREIGN KEY (language_id) REFERENCES languages(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+)
+
+--- calendar_days ---
+CREATE TABLE calendar_days (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ethiopian_month INTEGER NOT NULL,
+    day_of_month INTEGER NOT NULL,
+    UNIQUE(ethiopian_month, day_of_month),
+    FOREIGN KEY (ethiopian_month) REFERENCES ethiopian_months(id)
+)
+
+--- categories ---
+CREATE TABLE categories (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT,
+    name_amharic TEXT,
+    name_geez TEXT,
+    icon_name TEXT,
+    sort_order INTEGER NOT NULL DEFAULT 0
+)
+
+--- chapters ---
+CREATE TABLE "chapters" (
+    id TEXT NOT NULL PRIMARY KEY,
+    book_id TEXT NOT NULL,
+    chapter_number INTEGER NOT NULL,
+    title TEXT,
+    description TEXT,
+    verse_count INTEGER NOT NULL DEFAULT 0,
+    block_count INTEGER NOT NULL DEFAULT 0,
+    estimated_read_minutes INTEGER NOT NULL DEFAULT 1,
+    FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
+)
+
+--- commemorations ---
+CREATE TABLE commemorations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    calendar_day_id INTEGER NOT NULL,
+    feast_name TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id)
+)
+
+--- content_blocks ---
+CREATE TABLE content_blocks (
+    id TEXT NOT NULL PRIMARY KEY,
+    chapter_id TEXT NOT NULL,
+    sequence INTEGER NOT NULL,
+    block_type TEXT NOT NULL,
+    indent_level INTEGER NOT NULL DEFAULT 0,
+    verse_number INTEGER,
+    verse_ethiopic TEXT,
+    text_plain TEXT NOT NULL
+)
+
+--- cover_display_names ---
+CREATE TABLE cover_display_names (
+            cover_image TEXT NOT NULL PRIMARY KEY,
+            display_name TEXT NOT NULL,
+            subject_category TEXT,
+            subject_tag TEXT
+        )
+
+--- cross_references ---
+CREATE TABLE cross_references (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    origin_ref TEXT,
+    target_refs TEXT
+)
+
+--- ethiopian_months ---
+CREATE TABLE ethiopian_months (
+    id INTEGER PRIMARY KEY,
+    name_geez TEXT NOT NULL,
+    name_amharic TEXT NOT NULL,
+    name_english TEXT NOT NULL
+)
+
+--- footnotes ---
+CREATE TABLE footnotes (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    marker TEXT,
+    footnote_text TEXT
+)
+
+--- languages ---
+CREATE TABLE languages (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT NOT NULL,
+    name_native TEXT NOT NULL
+)
+
+--- main_categories ---
+CREATE TABLE main_categories (id TEXT PRIMARY KEY, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER)
+
+--- seasonal_periods ---
+CREATE TABLE seasonal_periods (
+  code TEXT PRIMARY KEY,
+  name_am TEXT,
+  name_en TEXT,
+  type TEXT,
+  start_month INTEGER,
+  start_day INTEGER,
+  end_month INTEGER,
+  end_day INTEGER,
+  is_movable INTEGER
+)
+
+--- sqlite_sequence ---
+CREATE TABLE sqlite_sequence(name,seq)
+
+--- sub_categories ---
+CREATE TABLE sub_categories (id TEXT PRIMARY KEY, main_category_id TEXT NOT NULL, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER, FOREIGN KEY (main_category_id) REFERENCES main_categories(id))
+
+--- text_formats ---
+CREATE TABLE text_formats (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    format_type TEXT NOT NULL,
+    start_pos INTEGER NOT NULL,
+    end_pos INTEGER NOT NULL
+)
+
+================================================================================
+MAPPING-LIKE TABLES
+================================================================================
+SELECT name, sql
+        FROM sqlite_master
+        WHERE type = 'table'
+          AND (
+                name LIKE '%map%'
+             OR name LIKE '%week%'
+             OR name LIKE '%daily%'
+             OR name LIKE '%season%'
+             OR name LIKE '%calendar%'
+             OR name LIKE '%book%'
+          )
+        ORDER BY name;
+name | sql
+--------------------------------------------------------------------------------
+book_calendar_mappings | CREATE TABLE book_calendar_mappings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id TEXT NOT NULL,
+            calendar_day_id INTEGER,
+            ethiopian_month INTEGER,
+            ethiopian_day INTEGER,
+            is_annual INTEGER NOT NULL DEFAULT 0,
+            is_primary_feast INTEGER NOT NULL DEFAULT 1,
+            reading_cycle TEXT NOT NULL DEFAULT 'CALENDAR',
+            weekday_number INTEGER,
+            season_code TEXT,
+            app_section TEXT NOT NULL DEFAULT 'TODAYS_FEAST',
+            notes TEXT,
+            FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE,
+            FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id) ON DELETE SET NULL
+        )
+book_seasonal_mappings | CREATE TABLE book_seasonal_mappings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  book_id TEXT,
+  season_code TEXT,
+  reading_order INTEGER,
+  notes TEXT,
+  FOREIGN KEY(book_id) REFERENCES books(id),
+  FOREIGN KEY(season_code) REFERENCES seasonal_periods(code)
+)
+books | CREATE TABLE "books" (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id TEXT NOT NULL,
+    category_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    title_short TEXT,
+    description TEXT,
+    total_chapters INTEGER NOT NULL DEFAULT 0,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    subject_category TEXT DEFAULT '' NOT NULL,
+    subject_tag TEXT DEFAULT '' NOT NULL,
+    cover_image TEXT DEFAULT '' NOT NULL, main_category_id TEXT REFERENCES main_categories(id), sub_category_id TEXT REFERENCES sub_categories(id),
+    FOREIGN KEY (language_id) REFERENCES languages(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+)
+calendar_days | CREATE TABLE calendar_days (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ethiopian_month INTEGER NOT NULL,
+    day_of_month INTEGER NOT NULL,
+    UNIQUE(ethiopian_month, day_of_month),
+    FOREIGN KEY (ethiopian_month) REFERENCES ethiopian_months(id)
+)
+seasonal_periods | CREATE TABLE seasonal_periods (
+  code TEXT PRIMARY KEY,
+  name_am TEXT,
+  name_en TEXT,
+  type TEXT,
+  start_month INTEGER,
+  start_day INTEGER,
+  end_month INTEGER,
+  end_day INTEGER,
+  is_movable INTEGER
+)
+ROW COUNT SHOWN: 5
+
+================================================================================
+PRAGMA table_info(books)
+================================================================================
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | TEXT | 1 |  | 1
+1 | language_id | TEXT | 1 |  | 0
+2 | category_id | TEXT | 1 |  | 0
+3 | title | TEXT | 1 |  | 0
+4 | title_short | TEXT | 0 |  | 0
+5 | description | TEXT | 0 |  | 0
+6 | total_chapters | INTEGER | 1 | 0 | 0
+7 | sort_order | INTEGER | 1 | 0 | 0
+8 | subject_category | TEXT | 1 | '' | 0
+9 | subject_tag | TEXT | 1 | '' | 0
+10 | cover_image | TEXT | 1 | '' | 0
+11 | main_category_id | TEXT | 0 |  | 0
+12 | sub_category_id | TEXT | 0 |  | 0
+
+================================================================================
+PRAGMA foreign_key_list(books)
+================================================================================
+id | seq | table | from | to | on_update | on_delete | match
+--------------------------------------------------------------------------------
+0 | 0 | categories | category_id | id | NO ACTION | NO ACTION | NONE
+1 | 0 | languages | language_id | id | NO ACTION | NO ACTION | NONE
+2 | 0 | sub_categories | sub_category_id | id | NO ACTION | NO ACTION | NONE
+3 | 0 | main_categories | main_category_id | id | NO ACTION | NO ACTION | NONE
+
+================================================================================
+PRAGMA index_list(books)
+================================================================================
+seq | name | unique | origin | partial
+--------------------------------------------------------------------------------
+0 | idx_books_lang_main | 0 | c | 0
+  index_info idx_books_lang_main: seqno | cid | name
+    0 | 1 | language_id
+    1 | 11 | main_category_id
+1 | idx_books_sub_cat | 0 | c | 0
+  index_info idx_books_sub_cat: seqno | cid | name
+    0 | 12 | sub_category_id
+2 | idx_books_main_cat | 0 | c | 0
+  index_info idx_books_main_cat: seqno | cid | name
+    0 | 11 | main_category_id
+3 | idx_books_subject_category | 0 | c | 0
+  index_info idx_books_subject_category: seqno | cid | name
+    0 | 8 | subject_category
+4 | idx_books_language | 0 | c | 0
+  index_info idx_books_language: seqno | cid | name
+    0 | 1 | language_id
+5 | idx_books_cover | 0 | c | 0
+  index_info idx_books_cover: seqno | cid | name
+    0 | 10 | cover_image
+6 | idx_books_category | 0 | c | 0
+  index_info idx_books_category: seqno | cid | name
+    0 | 2 | category_id
+7 | sqlite_autoindex_books_1 | 1 | pk | 0
+  index_info sqlite_autoindex_books_1: seqno | cid | name
+    0 | 0 | id
+
+================================================================================
+PRAGMA table_info(book_calendar_mappings)
+================================================================================
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | INTEGER | 0 |  | 1
+1 | book_id | TEXT | 1 |  | 0
+2 | calendar_day_id | INTEGER | 0 |  | 0
+3 | ethiopian_month | INTEGER | 0 |  | 0
+4 | ethiopian_day | INTEGER | 0 |  | 0
+5 | is_annual | INTEGER | 1 | 0 | 0
+6 | is_primary_feast | INTEGER | 1 | 1 | 0
+7 | reading_cycle | TEXT | 1 | 'CALENDAR' | 0
+8 | weekday_number | INTEGER | 0 |  | 0
+9 | season_code | TEXT | 0 |  | 0
+10 | app_section | TEXT | 1 | 'TODAYS_FEAST' | 0
+11 | notes | TEXT | 0 |  | 0
+
+================================================================================
+PRAGMA foreign_key_list(book_calendar_mappings)
+================================================================================
+id | seq | table | from | to | on_update | on_delete | match
+--------------------------------------------------------------------------------
+0 | 0 | calendar_days | calendar_day_id | id | NO ACTION | SET NULL | NONE
+1 | 0 | books | book_id | id | NO ACTION | CASCADE | NONE
+
+================================================================================
+PRAGMA index_list(book_calendar_mappings)
+================================================================================
+seq | name | unique | origin | partial
+--------------------------------------------------------------------------------
+0 | idx_bcm_section | 0 | c | 0
+  index_info idx_bcm_section: seqno | cid | name
+    0 | 10 | app_section
+1 | idx_bcm_season | 0 | c | 0
+  index_info idx_bcm_season: seqno | cid | name
+    0 | 9 | season_code
+2 | idx_bcm_cycle_weekday | 0 | c | 0
+  index_info idx_bcm_cycle_weekday: seqno | cid | name
+    0 | 7 | reading_cycle
+    1 | 8 | weekday_number
+3 | idx_bcm_book | 0 | c | 0
+  index_info idx_bcm_book: seqno | cid | name
+    0 | 1 | book_id
+4 | idx_bcm_lookup | 0 | c | 0
+  index_info idx_bcm_lookup: seqno | cid | name
+    0 | 3 | ethiopian_month
+    1 | 4 | ethiopian_day
+
+================================================================================
+PRAGMA table_info(book_seasonal_mappings)
+================================================================================
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | INTEGER | 0 |  | 1
+1 | book_id | TEXT | 0 |  | 0
+2 | season_code | TEXT | 0 |  | 0
+3 | reading_order | INTEGER | 0 |  | 0
+4 | notes | TEXT | 0 |  | 0
+
+================================================================================
+PRAGMA foreign_key_list(book_seasonal_mappings)
+================================================================================
+id | seq | table | from | to | on_update | on_delete | match
+--------------------------------------------------------------------------------
+0 | 0 | seasonal_periods | season_code | code | NO ACTION | NO ACTION | NONE
+1 | 0 | books | book_id | id | NO ACTION | NO ACTION | NONE
+
+================================================================================
+PRAGMA index_list(book_seasonal_mappings)
+================================================================================
+(no indexes)
+
+================================================================================
+PRAGMA table_info(calendar_days)
+================================================================================
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | INTEGER | 0 |  | 1
+1 | ethiopian_month | INTEGER | 1 |  | 0
+2 | day_of_month | INTEGER | 1 |  | 0
+
+================================================================================
+PRAGMA foreign_key_list(calendar_days)
+================================================================================
+id | seq | table | from | to | on_update | on_delete | match
+--------------------------------------------------------------------------------
+0 | 0 | ethiopian_months | ethiopian_month | id | NO ACTION | NO ACTION | NONE
+
+================================================================================
+PRAGMA index_list(calendar_days)
+================================================================================
+seq | name | unique | origin | partial
+--------------------------------------------------------------------------------
+0 | idx_calendar_month_day | 0 | c | 0
+  index_info idx_calendar_month_day: seqno | cid | name
+    0 | 1 | ethiopian_month
+    1 | 2 | day_of_month
+1 | idx_day_month | 0 | c | 0
+  index_info idx_day_month: seqno | cid | name
+    0 | 1 | ethiopian_month
+    1 | 2 | day_of_month
+2 | sqlite_autoindex_calendar_days_1 | 1 | u | 0
+  index_info sqlite_autoindex_calendar_days_1: seqno | cid | name
+    0 | 1 | ethiopian_month
+    1 | 2 | day_of_month
+
+================================================================================
+PRAGMA table_info(commemorations)
+================================================================================
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | INTEGER | 0 |  | 1
+1 | calendar_day_id | INTEGER | 1 |  | 0
+2 | feast_name | TEXT | 1 |  | 0
+3 | sort_order | INTEGER | 1 | 0 | 0
+
+================================================================================
+PRAGMA foreign_key_list(commemorations)
+================================================================================
+id | seq | table | from | to | on_update | on_delete | match
+--------------------------------------------------------------------------------
+0 | 0 | calendar_days | calendar_day_id | id | NO ACTION | NO ACTION | NONE
+
+================================================================================
+PRAGMA index_list(commemorations)
+================================================================================
+seq | name | unique | origin | partial
+--------------------------------------------------------------------------------
+0 | idx_comm_day | 0 | c | 0
+  index_info idx_comm_day: seqno | cid | name
+    0 | 1 | calendar_day_id
+
+================================================================================
+CORE COUNTS
+================================================================================
+SELECT COUNT(*) AS books FROM books;
+books
+--------------------------------------------------------------------------------
+415
+ROW COUNT SHOWN: 1
+
+================================================================================
+book_calendar_mappings COUNT
+================================================================================
+SELECT COUNT(*) AS calendar_rows FROM book_calendar_mappings;
+calendar_rows
+--------------------------------------------------------------------------------
+811
+ROW COUNT SHOWN: 1
+
+================================================================================
+book_seasonal_mappings COUNT
+================================================================================
+SELECT COUNT(*) AS seasonal_rows FROM book_seasonal_mappings;
+seasonal_rows
+--------------------------------------------------------------------------------
+0
+ROW COUNT SHOWN: 1
+
+================================================================================
+calendar_days COUNT
+================================================================================
+SELECT COUNT(*) AS calendar_days FROM calendar_days;
+calendar_days
+--------------------------------------------------------------------------------
+366
+ROW COUNT SHOWN: 1
+
+================================================================================
+commemorations COUNT
+================================================================================
+SELECT COUNT(*) AS commemorations FROM commemorations;
+commemorations
+--------------------------------------------------------------------------------
+0
+ROW COUNT SHOWN: 1
+
+================================================================================
+DISTINCT app_section
+================================================================================
+SELECT app_section, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY app_section
+            ORDER BY c DESC;
+app_section | c
+--------------------------------------------------------------------------------
+TODAYS_FEAST | 811
+ROW COUNT SHOWN: 1
+
+================================================================================
+DISTINCT reading_cycle
+================================================================================
+SELECT reading_cycle, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY reading_cycle
+            ORDER BY c DESC;
+reading_cycle | c
+--------------------------------------------------------------------------------
+CALENDAR | 811
+ROW COUNT SHOWN: 1
+
+================================================================================
+DISTINCT season_code
+================================================================================
+SELECT season_code, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY season_code
+            ORDER BY c DESC;
+season_code | c
+--------------------------------------------------------------------------------
+ | 811
+ROW COUNT SHOWN: 1
+
+================================================================================
+weekday_number USAGE
+================================================================================
+SELECT weekday_number, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY weekday_number
+            ORDER BY weekday_number;
+weekday_number | c
+--------------------------------------------------------------------------------
+ | 811
+ROW COUNT SHOWN: 1
+
+================================================================================
+is_annual / is_primary_feast
+================================================================================
+SELECT is_annual, is_primary_feast, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY is_annual, is_primary_feast
+            ORDER BY is_annual, is_primary_feast;
+is_annual | is_primary_feast | c
+--------------------------------------------------------------------------------
+0 | 1 | 577
+1 | 1 | 234
+ROW COUNT SHOWN: 2
+
+================================================================================
+notes VALUES
+================================================================================
+SELECT notes, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY notes
+            ORDER BY c DESC;
+notes | c
+--------------------------------------------------------------------------------
+MONTHLY | 577
+ANNUAL | 168
+ANNUAL+MONTHLY | 66
+ROW COUNT SHOWN: 3
+
+================================================================================
+BOOKS TABLE COLUMNS
+================================================================================
+PRAGMA table_info(books);
+cid | name | type | notnull | dflt_value | pk
+--------------------------------------------------------------------------------
+0 | id | TEXT | 1 |  | 1
+1 | language_id | TEXT | 1 |  | 0
+2 | category_id | TEXT | 1 |  | 0
+3 | title | TEXT | 1 |  | 0
+4 | title_short | TEXT | 0 |  | 0
+5 | description | TEXT | 0 |  | 0
+6 | total_chapters | INTEGER | 1 | 0 | 0
+7 | sort_order | INTEGER | 1 | 0 | 0
+8 | subject_category | TEXT | 1 | '' | 0
+9 | subject_tag | TEXT | 1 | '' | 0
+10 | cover_image | TEXT | 1 | '' | 0
+11 | main_category_id | TEXT | 0 |  | 0
+12 | sub_category_id | TEXT | 0 |  | 0
+ROW COUNT SHOWN: 13
+
+================================================================================
+BOOKS COLUMN NAMES
+================================================================================
+id, language_id, category_id, title, title_short, description, total_chapters, sort_order, subject_category, subject_tag, cover_image, main_category_id, sub_category_id
+
+================================================================================
+THESE 43 IN books
+================================================================================
+SELECT * FROM books WHERE id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ORDER BY id;
+id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+--------------------------------------------------------------------------------
+AM-BEE-001 | AM | TSE | በእንተ ቅድሳት በአማርኛ | በእንተ ቅድሳት በአማርኛ |  | 1 | 7 | TSADQAN | በእንተቅድሳት |  | MC-09 | SC-09-04
+AM-LIT-001 | AM | TSE | የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ | የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ |  | 7 | 11 | AMLAK | ሊጦን | tselot_cover_114.jpg | MC-01 | SC-01-02
+AM-MEL-028 | AM | MEL | መልክዐ ጠቢበ ጠቢባን በአማርኛ | መልክዐ ጠቢበ ጠቢባን በአማርኛ |  | 1 | 28 | AMLAK | ጠቢበጠቢባን |  | MC-06 | SC-06-01
+AM-MET-001 | AM | MET | መጽሐፈ ባርቶስ በአማርኛ | መጽሐፈ ባርቶስ በአማርኛ |  | 8 | 1 | AMLAK | ባርቶስ |  | MC-08 | SC-08-03
+AM-MET-002 | AM | MET | መጽሐፈ አርጋኖን በአማርኛ | መጽሐፈ አርጋኖን በአማርኛ |  | 7 | 2 | MARIAM | አርጋኖን | tselot_cover_97.jpg | MC-08 | SC-08-01
+AM-MZM-001 | AM | MZM | መዝሙረ ዳዊት በአማርኛ | መዝ​ሙረ ዳዊት በአማርኛ |  | 99 | 1 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-01
+AM-SEY-001 | AM | SEY | ሰይፈ መለኮት በአማርኛ | ሰይፈ መለኮት በአማርኛ |  | 1 | 1 | AMLAK | ሰይፈመለኮት |  | MC-09 | SC-09-01
+AM-TEA-002 | AM | TEA | ተአምኆ ዘሥሉስ ቅዱስ በአማርኛ | ተአምኆ ዘሥሉስ ቅዱስ በአማርኛ |  | 1 | 2 | AMLAK | ሥላሴ | tselot_cover_21.jpg | MC-03 | SC-03-05
+AM-TEA-003 | AM | MEL | ተአምኆ ዘሥሉስ ቅዱስ መልክዕ በአማርኛ | ተአምኆ ዘሥሉስ ቅዱስ መልክዕ በአማርኛ |  | 1 | 31 | AMLAK | ሥላሴ | tselot_cover_21.jpg | MC-06 | SC-06-01
+AM-TSE-001 | AM | TSE | የመስቀል አጥር ጸሎት በአማርኛ | የመስቀል አጥር ጸሎት በአማርኛ |  | 8 | 8 | AMLAK | መስቀል | tselot_cover_30.jpg | MC-09 | SC-09-02
+AM-TSE-002 | AM | TSE | የሠርክ ጸሎት በአማርኛ | የሠርክ ጸሎት በአማርኛ |  | 1 | 9 | AMLAK | ሠርክ |  | MC-01 | SC-01-03
+AM-TSE-003 | AM | TSE | የነቢያት ጸሎት በአማርኛ | የነቢያት ጸሎት በአማርኛ |  | 15 | 13 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-02
+AM-TSE-004 | AM | TSE | የኪዳን ጸሎት በአማርኛ | የኪዳን ጸሎት በአማርኛ |  | 1 | 14 | AMLAK | ኪዳን | tselot_cover_120.jpg | MC-01 | SC-01-02
+AM-TSE-005 | AM | TSE | የዘወትር ጸሎት በአማርኛ | የዘወትር ጸሎት በአማርኛ |  | 1 | 15 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+AM-WUD-001 | AM | WUD | ውዳሴ መስቀል በአማርኛ | ውዳሴ መስቀል በአማርኛ |  | 5 | 2 | AMLAK | መስቀል | tselot_cover_109.jpg | MC-03 | SC-03-03
+EN-TSE-001 | EN | TSE | Daily prayers | Daily prayers |  | 1 | 17 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+GZ-BEE-001 | GZ | TSE | በእንተ ቅድሳት በግእዝ | በእንተ ቅድሳት በግእዝ |  | 1 | 21 | TSADQAN | በእንተቅድሳት |  | MC-09 | SC-09-04
+GZ-DRS-004 | GZ | DRS | ድርሳነ ማኅየዊ በግእዝ | ድርሳነ ማኅየዊ በግእዝ |  | 7 | 0 | AMLAK | ማኅየዊ |  | MC-04 | SC-04-02
+GZ-HAT-001 | GZ | HAT | ሐፁረ መስቀል በግእዝ | ሐፁረ መስቀል በግእዝ |  | 8 | 1 | AMLAK | መስቀል | tselot_cover_30.jpg | MC-09 | SC-09-02
+GZ-MEL-156 | GZ | MEL | መልክዐ ጠቢበ ጠቢባን በግእዝ | መልክዐ ጠቢበ ጠቢባን በግእዝ |  | 1 | 223 | AMLAK | ጠቢበጠቢባን |  | MC-06 | SC-06-01
+GZ-MET-001 | GZ | MET | መጽሐፈ ባርቶስ በግእዝ | መጽሐፈ ባርቶስ በግእዝ |  | 8 | 3 | AMLAK | ባርቶስ |  | MC-08 | SC-08-03
+GZ-MET-003 | GZ | MET | መጽሐፈ አርጋኖን በግእዝ | መጽሐፈ አርጋኖን በግእዝ |  | 7 | 5 | MARIAM | አርጋኖን | tselot_cover_97.jpg | MC-08 | SC-08-01
+GZ-MZM-004 | GZ | MZM | መዝሙረ ዳዊት በግእዝ | መዝሙረ ዳዊት በግእዝ |  | 98 | 5 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-01
+GZ-SEY-001 | GZ | SEY | ሰይፈ መለኮት በግእዝ | ሰይፈ መለኮት በግእዝ |  | 1 | 3 | AMLAK | ሰይፈመለኮት |  | MC-09 | SC-09-01
+GZ-TAM-003 | GZ | TAM | ተአምራቲሆሙ ለሥላሴ | ተአምራቲሆሙ ለሥላሴ |  | 1 | 0 | AMLAK | ለሥላሴ |  | MC-07 | SC-07-02
+GZ-TEA-002 | GZ | TEA | ተአምኆ ዘሥሉስ ቅዱስ በግእዝ | ተአምኆ ዘሥሉስ ቅዱስ በግእዝ |  | 1 | 4 | AMLAK | ሥላሴ | tselot_cover_21.jpg | MC-03 | SC-03-05
+GZ-TEA-003 | GZ | TEA | ተአምኆ ዘሥሉስ ቅዱስ በግእዝ ካልእ | ተአምኆ ዘሥሉስ ቅዱስ ግዕዝ |  | 1 | 5 | AMLAK | ሥላሴ | tselot_cover_21.jpg | MC-03 | SC-03-05
+GZ-TSE-001 | GZ | TSE | ጸሎተ ሊጦን በግእዝ | ጸሎተ ሊጦን በግእዝ |  | 10 | 24 | AMLAK | ሊጦን | tselot_cover_114.jpg | MC-01 | SC-01-02
+GZ-TSE-002 | GZ | TSE | ጸሎተ ነቢያት በግእዝ | ጸሎተ ነቢያት በግእዝ |  | 20 | 25 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-02
+GZ-TSE-004 | GZ | TSE | ጸሎተ ኪዳን በግእዝ | ጸሎተ ኪዳን በግእዝ |  | 4 | 27 | AMLAK | ኪዳን | tselot_cover_120.jpg | MC-01 | SC-01-02
+GZ-TSE-005 | GZ | TSE | ጸሎተ ዘሠርክ በግእዝ | ጸሎተ ዘሠርክ በግእዝ |  | 1 | 28 | AMLAK | ሠርክ |  | MC-01 | SC-01-03
+GZ-TSE-006 | GZ | TSE | ጸሎት ዘዘወትር በግእዝ | ጸሎት ዘዘወትር በግእዝ |  | 1 | 30 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+GZ-WUD-001 | GZ | WUD | ውዳሴ መስቀል በግእዝ | ውዳሴ መስቀል በግእዝ |  | 5 | 6 | AMLAK | መስቀል | tselot_cover_109.jpg | MC-03 | SC-03-03
+OR-MZM-001 | OR | MZM | MACAAFA FAARFANNAA | MACAAFA FAARFANNAA |  | 99 | 6 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-01
+OR-TSE-001 | OR | TSE | Kadhannaa Raajootaa | Kadhannaa Raajootaa |  | 12 | 31 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-02
+OR-TSE-002 | OR | TSE | Kadhannaa Yeroo Hundaa | Kadhannaa Yeroo Hundaa |  | 1 | 32 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+OR-WUD-001 | OR | WUD | Galata Maariyaam | Galata Maariyaam |  | 9 | 8 | MARIAM | ውዳሴ | tselot_cover_110.jpg | MC-03 | SC-03-01
+TI-BEE-001 | TI | TSE | በእንተ ቅድሳት ብትግርኛ | በእንተ ቅድሳት ብትግርኛ |  | 1 | 35 | TSADQAN | በእንተቅድሳት |  | MC-09 | SC-09-04
+TI-MZM-001 | TI | MZM | መዝሙረ ዳዊት ብትግርኛ | መዝሙር |  | 99 | 7 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-01
+TI-MZM-002 | TI | MZM | መዝሙር መኃልይ ነቢያት ብትግርኛ | መዝሙር መኃልይ ነቢያት ብትግርኛ |  | 15 | 8 | AMLAK | መዝሙረዳዊት |  | MC-02 | SC-02-02
+TI-TSE-001 | TI | TSE | መዓልታዊ ሾብዓተ ሰዓታት ጸሎት ብትግርኛ | መዓልታዊ ሾብዓተ ሰዓታት ጸሎት ብትግርኛ |  | 10 | 33 | MARIAM | ዘወትር |  | MC-01 | SC-01-03
+TI-TSE-002 | TI | TSE | ናይ ኩሉ ጊዜ ጸሎት ብትግርኛ | ናይ ኩሉ ጊዜ ጸሎት ብትግርኛ |  | 1 | 36 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+TI-TSE-003 | TI | TSE | ጸሎተ ኪዳን ብትግርኛ | ጸሎተ ኪዳን ብትግርኛ |  | 4 | 37 | AMLAK | ኪዳን | tselot_cover_120.jpg | MC-01 | SC-01-02
+ROW COUNT SHOWN: 43
+
+================================================================================
+MISSING FROM books
+================================================================================
+WITH want(id) AS (
+            SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id UNION ALL SELECT ? AS id
+        )
+        SELECT want.id
+        FROM want
+        LEFT JOIN books b ON b.id = want.id
+        WHERE b.id IS NULL
+        ORDER BY want.id;
+id
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+EXISTING calendar mappings FOR THESE 43, COUNTS
+================================================================================
+SELECT
+                book_id,
+                COUNT(*) AS c,
+                COUNT(DISTINCT ethiopian_month || '-' || ethiopian_day) AS distinct_dates,
+                COUNT(DISTINCT weekday_number) AS distinct_weekdays,
+                GROUP_CONCAT(DISTINCT app_section) AS sections,
+                GROUP_CONCAT(DISTINCT weekday_number) AS weekdays,
+                GROUP_CONCAT(DISTINCT is_annual) AS annual_flags,
+                GROUP_CONCAT(DISTINCT notes) AS notes_vals
+            FROM book_calendar_mappings
+            WHERE book_id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            GROUP BY book_id
+            ORDER BY book_id;
+book_id | c | distinct_dates | distinct_weekdays | sections | weekdays | annual_flags | notes_vals
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+EXISTING calendar mapping SAMPLE FOR THESE 43
+================================================================================
+SELECT *
+            FROM book_calendar_mappings
+            WHERE book_id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            ORDER BY book_id, ethiopian_month, ethiopian_day, weekday_number
+            LIMIT 200;
+id | book_id | calendar_day_id | ethiopian_month | ethiopian_day | is_annual | is_primary_feast | reading_cycle | weekday_number | season_code | app_section | notes
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+EXISTING seasonal mappings FOR THESE 43
+================================================================================
+SELECT *
+            FROM book_seasonal_mappings
+            WHERE book_id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            ORDER BY book_id;
+id | book_id | season_code | reading_order | notes
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+ALL TABLES THAT CONTAIN book_id COLUMN
+================================================================================
+
+TABLE: book_calendar_mappings
+COLUMNS: id, book_id, calendar_day_id, ethiopian_month, ethiopian_day, is_annual, is_primary_feast, reading_cycle, weekday_number, season_code, app_section, notes
+rows_for_these_43=0 total_rows=811
+
+TABLE: book_seasonal_mappings
+COLUMNS: id, book_id, season_code, reading_order, notes
+rows_for_these_43=0 total_rows=0
+
+TABLE: chapters
+COLUMNS: id, book_id, chapter_number, title, description, verse_count, block_count, estimated_read_minutes
+rows_for_these_43=584 total_rows=2756
+id | book_id | chapter_number | title | description | verse_count | block_count | estimated_read_minutes
+AM-BEE-001-C01 | AM-BEE-001 | 1 | ሕዝብ ሊጸልየው የሚገባ በእንተ ቅድሳት ። |  | 0 | 12 | 1
+AM-LIT-001-C01 | AM-LIT-001 | 1 | ቅዱስ ባስልዮስ የተናገረው የሰኞ ሊጦን ምስጋና ። |  | 0 | 4 | 1
+AM-LIT-001-C02 | AM-LIT-001 | 2 | የማክሰኞ ሊጦን ። |  | 0 | 4 | 1
+AM-LIT-001-C03 | AM-LIT-001 | 3 | የረቡዕ ሊጦን ። |  | 0 | 4 | 1
+AM-LIT-001-C04 | AM-LIT-001 | 4 | የኀሙሰ ሊጦን ። |  | 0 | 4 | 1
+AM-LIT-001-C05 | AM-LIT-001 | 5 | የዓርብ ሊጦን ። |  | 0 | 4 | 1
+AM-LIT-001-C06 | AM-LIT-001 | 6 | የቀዳሚት ሊጦን ። |  | 0 | 4 | 1
+AM-LIT-001-C07 | AM-LIT-001 | 7 | የእሑድ ሊጦን ። |  | 0 | 5 | 1
+AM-MEL-028-C01 | AM-MEL-028 | 1 | መልክዐ ጠቢበ ጠቢባን በአማርኛ |  | 16 | 18 | 1
+AM-MET-001-C01 | AM-MET-001 | 1 | የዘወትር ባርቶስ |  | 0 | 5 | 1
+AM-MET-001-C02 | AM-MET-001 | 2 | የሰኞ ባርቶስ |  | 0 | 12 | 1
+AM-MET-001-C03 | AM-MET-001 | 3 | የማክሰኞ ባርቶስ |  | 0 | 15 | 1
+AM-MET-001-C04 | AM-MET-001 | 4 | የረቡዕ ባርቶስ |  | 0 | 17 | 1
+AM-MET-001-C05 | AM-MET-001 | 5 | የሐሙስ ባርቶስ |  | 0 | 16 | 1
+AM-MET-001-C06 | AM-MET-001 | 6 | የዓርብ ባርቶስ |  | 0 | 4 | 1
+AM-MET-001-C07 | AM-MET-001 | 7 | የቅዳሜ ባርቶስ |  | 0 | 9 | 1
+AM-MET-001-C08 | AM-MET-001 | 8 | የእሑድ ባርቶስ |  | 0 | 11 | 1
+AM-MET-002-C01 | AM-MET-002 | 1 | አርጋኖን ዘሰኑይ |  | 0 | 328 | 16
+AM-MET-002-C02 | AM-MET-002 | 2 | አርጋኖን ዘሠሉስ |  | 0 | 260 | 13
+AM-MET-002-C03 | AM-MET-002 | 3 | አርጋኖን ዘረቡዕ |  | 0 | 225 | 11
+AM-MET-002-C04 | AM-MET-002 | 4 | አርጋኖን ዘሐሙስ |  | 0 | 201 | 10
+AM-MET-002-C05 | AM-MET-002 | 5 | አርጋኖን ዘዓርብ |  | 0 | 162 | 8
+AM-MET-002-C06 | AM-MET-002 | 6 | አርጋኖን ዘቀዳሚት |  | 0 | 88 | 4
+AM-MET-002-C07 | AM-MET-002 | 7 | አርጋኖን ዘእሑድ |  | 0 | 100 | 5
+AM-MZM-001-C10 | AM-MZM-001 | 10 | መዝሙር 10 |  | 7 | 19 | 1
+AM-MZM-001-C20 | AM-MZM-001 | 20 | መዝሙር 20 |  | 13 | 28 | 1
+AM-MZM-001-C30 | AM-MZM-001 | 30 | መዝሙር 30 |  | 24 | 60 | 3
+AM-MZM-001-C40 | AM-MZM-001 | 40 | መዝሙር 40 |  | 13 | 31 | 1
+AM-MZM-001-C50 | AM-MZM-001 | 50 | መዝሙር 50 |  | 19 | 42 | 2
+AM-MZM-001-C60 | AM-MZM-001 | 60 | መዝሙር 60 |  | 8 | 18 | 1
+
+================================================================================
+ANY weekday_number NOT NULL IN WHOLE TABLE
+================================================================================
+SELECT COUNT(*) AS weekday_not_null
+            FROM book_calendar_mappings
+            WHERE weekday_number IS NOT NULL;
+weekday_not_null
+--------------------------------------------------------------------------------
+0
+ROW COUNT SHOWN: 1
+
+================================================================================
+SAMPLE ROWS WITH weekday_number NOT NULL
+================================================================================
+SELECT book_id, calendar_day_id, ethiopian_month, ethiopian_day,
+                   is_annual, is_primary_feast, reading_cycle, weekday_number,
+                   season_code, app_section, notes
+            FROM book_calendar_mappings
+            WHERE weekday_number IS NOT NULL
+            ORDER BY book_id, weekday_number
+            LIMIT 50;
+book_id | calendar_day_id | ethiopian_month | ethiopian_day | is_annual | is_primary_feast | reading_cycle | weekday_number | season_code | app_section | notes
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+BOOKS WITH MOST calendar ROWS
+================================================================================
+SELECT book_id, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY book_id
+            ORDER BY c DESC, book_id
+            LIMIT 30;
+book_id | c
+--------------------------------------------------------------------------------
+AM-DRS-001 | 43
+GZ-DRS-007 | 43
+GZ-MEL-022 | 43
+GZ-MEL-133 | 43
+AM-MEL-048 | 30
+GZ-MEL-060 | 30
+AM-DRS-008 | 20
+AM-MEL-012 | 20
+AM-MEL-040 | 20
+GZ-DRS-002 | 20
+GZ-MEL-050 | 20
+GZ-MEL-051 | 20
+GZ-TSE-007 | 17
+AM-DRS-005 | 15
+AM-MEL-052 | 15
+GZ-MEL-058 | 15
+GZ-MEL-059 | 15
+GZ-MEL-134 | 15
+AM-GDL-029 | 14
+AM-MEL-068 | 14
+GZ-GDL-027 | 14
+GZ-MEL-075 | 14
+GZ-MEL-084 | 14
+GZ-MEL-145 | 14
+GZ-MEL-162 | 14
+AM-GDL-024 | 13
+AM-MEL-003 | 13
+AM-MEL-053 | 13
+AM-MEL-059 | 13
+GZ-MEL-018 | 13
+ROW COUNT SHOWN: 30
+
+================================================================================
+BOOKS WITH EXACTLY 366 calendar ROWS
+================================================================================
+SELECT book_id, COUNT(*) AS c
+            FROM book_calendar_mappings
+            GROUP BY book_id
+            HAVING COUNT(*) = 366
+            ORDER BY book_id;
+book_id | c
+--------------------------------------------------------------------------------
+(0 rows)
+
+================================================================================
+BOOKS WITH EXACTLY 7 calendar ROWS
+================================================================================
+SELECT book_id, COUNT(*) AS c, GROUP_CONCAT(weekday_number) AS weekdays,
+                   GROUP_CONCAT(DISTINCT app_section) AS sections
+            FROM book_calendar_mappings
+            GROUP BY book_id
+            HAVING COUNT(*) = 7
+            ORDER BY book_id;
+book_id | c | weekdays | sections
+--------------------------------------------------------------------------------
+GZ-MEL-122 | 7 |  | TODAYS_FEAST
+ROW COUNT SHOWN: 1
+
+================================================================================
+PREVIOUS FEAST INSERT STILL PRESENT? GZ-GDL-025
+================================================================================
+SELECT book_id, ethiopian_month, ethiopian_day, is_annual, app_section, notes
+            FROM book_calendar_mappings
+            WHERE book_id = 'GZ-GDL-025'
+            ORDER BY ethiopian_month, ethiopian_day;
+book_id | ethiopian_month | ethiopian_day | is_annual | app_section | notes
+--------------------------------------------------------------------------------
+GZ-GDL-025 | 4 | 27 | 1 | TODAYS_FEAST | ANNUAL
+ROW COUNT SHOWN: 1
+
+================================================================================
+calendar_days month/day coverage
+================================================================================
+SELECT ethiopian_month, COUNT(*) AS days, MIN(day_of_month), MAX(day_of_month)
+            FROM calendar_days
+            GROUP BY ethiopian_month
+            ORDER BY ethiopian_month;
+ethiopian_month | days | MIN(day_of_month) | MAX(day_of_month)
+--------------------------------------------------------------------------------
+1 | 30 | 1 | 30
+2 | 30 | 1 | 30
+3 | 30 | 1 | 30
+4 | 30 | 1 | 30
+5 | 30 | 1 | 30
+6 | 30 | 1 | 30
+7 | 30 | 1 | 30
+8 | 30 | 1 | 30
+9 | 30 | 1 | 30
+10 | 30 | 1 | 30
+11 | 30 | 1 | 30
+12 | 30 | 1 | 30
+13 | 6 | 1 | 6
+ROW COUNT SHOWN: 13
+
+================================================================================
+BOOKS COLUMNS THAT LOOK RELEVANT TO DAILY/WEEKLY
+================================================================================
+category_id, subject_category, main_category_id, sub_category_id
+
+================================================================================
+RELEVANT books COLUMNS FOR THESE 43
+================================================================================
+SELECT id, category_id, subject_category, main_category_id, sub_category_id FROM books WHERE id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ORDER BY id;
+id | category_id | subject_category | main_category_id | sub_category_id
+--------------------------------------------------------------------------------
+AM-BEE-001 | TSE | TSADQAN | MC-09 | SC-09-04
+AM-LIT-001 | TSE | AMLAK | MC-01 | SC-01-02
+AM-MEL-028 | MEL | AMLAK | MC-06 | SC-06-01
+AM-MET-001 | MET | AMLAK | MC-08 | SC-08-03
+AM-MET-002 | MET | MARIAM | MC-08 | SC-08-01
+AM-MZM-001 | MZM | AMLAK | MC-02 | SC-02-01
+AM-SEY-001 | SEY | AMLAK | MC-09 | SC-09-01
+AM-TEA-002 | TEA | AMLAK | MC-03 | SC-03-05
+AM-TEA-003 | MEL | AMLAK | MC-06 | SC-06-01
+AM-TSE-001 | TSE | AMLAK | MC-09 | SC-09-02
+AM-TSE-002 | TSE | AMLAK | MC-01 | SC-01-03
+AM-TSE-003 | TSE | AMLAK | MC-02 | SC-02-02
+AM-TSE-004 | TSE | AMLAK | MC-01 | SC-01-02
+AM-TSE-005 | TSE | MARIAM | MC-01 | SC-01-01
+AM-WUD-001 | WUD | AMLAK | MC-03 | SC-03-03
+EN-TSE-001 | TSE | MARIAM | MC-01 | SC-01-01
+GZ-BEE-001 | TSE | TSADQAN | MC-09 | SC-09-04
+GZ-DRS-004 | DRS | AMLAK | MC-04 | SC-04-02
+GZ-HAT-001 | HAT | AMLAK | MC-09 | SC-09-02
+GZ-MEL-156 | MEL | AMLAK | MC-06 | SC-06-01
+GZ-MET-001 | MET | AMLAK | MC-08 | SC-08-03
+GZ-MET-003 | MET | MARIAM | MC-08 | SC-08-01
+GZ-MZM-004 | MZM | AMLAK | MC-02 | SC-02-01
+GZ-SEY-001 | SEY | AMLAK | MC-09 | SC-09-01
+GZ-TAM-003 | TAM | AMLAK | MC-07 | SC-07-02
+GZ-TEA-002 | TEA | AMLAK | MC-03 | SC-03-05
+GZ-TEA-003 | TEA | AMLAK | MC-03 | SC-03-05
+GZ-TSE-001 | TSE | AMLAK | MC-01 | SC-01-02
+GZ-TSE-002 | TSE | AMLAK | MC-02 | SC-02-02
+GZ-TSE-004 | TSE | AMLAK | MC-01 | SC-01-02
+GZ-TSE-005 | TSE | AMLAK | MC-01 | SC-01-03
+GZ-TSE-006 | TSE | MARIAM | MC-01 | SC-01-01
+GZ-WUD-001 | WUD | AMLAK | MC-03 | SC-03-03
+OR-MZM-001 | MZM | AMLAK | MC-02 | SC-02-01
+OR-TSE-001 | TSE | AMLAK | MC-02 | SC-02-02
+OR-TSE-002 | TSE | MARIAM | MC-01 | SC-01-01
+OR-WUD-001 | WUD | MARIAM | MC-03 | SC-03-01
+TI-BEE-001 | TSE | TSADQAN | MC-09 | SC-09-04
+TI-MZM-001 | MZM | AMLAK | MC-02 | SC-02-01
+TI-MZM-002 | MZM | AMLAK | MC-02 | SC-02-02
+TI-TSE-001 | TSE | MARIAM | MC-01 | SC-01-03
+TI-TSE-002 | TSE | MARIAM | MC-01 | SC-01-01
+TI-TSE-003 | TSE | AMLAK | MC-01 | SC-01-02
+ROW COUNT SHOWN: 43
+
+================================================================================
+SAMPLE books ROW AM-TSE-005
+================================================================================
+SELECT * FROM books WHERE id = 'AM-TSE-005';
+id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+--------------------------------------------------------------------------------
+AM-TSE-005 | AM | TSE | የዘወትር ጸሎት በአማርኛ | የዘወትር ጸሎት በአማርኛ |  | 1 | 15 | MARIAM | ዘወትር |  | MC-01 | SC-01-01
+ROW COUNT SHOWN: 1
+
+================================================================================
+SAMPLE books ROW AM-MEL-028
+================================================================================
+SELECT * FROM books WHERE id = 'AM-MEL-028';
+id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+--------------------------------------------------------------------------------
+AM-MEL-028 | AM | MEL | መልክዐ ጠቢበ ጠቢባን በአማርኛ | መልክዐ ጠቢበ ጠቢባን በአማርኛ |  | 1 | 28 | AMLAK | ጠቢበጠቢባን |  | MC-06 | SC-06-01
+ROW COUNT SHOWN: 1
+
+================================================================================
+SAMPLE books ROW OR-WUD-001
+================================================================================
+SELECT * FROM books WHERE id = 'OR-WUD-001';
+id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+--------------------------------------------------------------------------------
+OR-WUD-001 | OR | WUD | Galata Maariyaam | Galata Maariyaam |  | 9 | 8 | MARIAM | ውዳሴ | tselot_cover_110.jpg | MC-03 | SC-03-01
+ROW COUNT SHOWN: 1
+
+================================================================================
+SOURCE GROUP SUMMARY
+================================================================================
+ALWAYS_ONLY:
+  AM-BEE-001
+  AM-LIT-001
+  AM-MZM-001
+  AM-TSE-002
+  AM-TSE-003
+  AM-TSE-004
+  AM-TSE-005
+  EN-TSE-001
+  GZ-BEE-001
+  GZ-MZM-004
+  GZ-TSE-001
+  GZ-TSE-002
+  GZ-TSE-004
+  GZ-TSE-005
+  GZ-TSE-006
+  OR-MZM-001
+  OR-TSE-001
+  OR-TSE-002
+  TI-BEE-001
+  TI-MZM-001
+  TI-MZM-002
+  TI-TSE-001
+  TI-TSE-002
+  TI-TSE-003
+ALWAYS_PLUS_ALL_WEEKDAYS:
+  AM-MEL-028
+  AM-MET-001
+  AM-MET-002
+  AM-SEY-001
+  AM-TEA-002
+  AM-TEA-003
+  AM-TSE-001
+  AM-WUD-001
+  GZ-DRS-004
+  GZ-HAT-001
+  GZ-MEL-156
+  GZ-MET-001
+  GZ-MET-003
+  GZ-SEY-001
+  GZ-TAM-003
+  GZ-TEA-002
+  GZ-TEA-003
+  GZ-WUD-001
+  OR-WUD-001

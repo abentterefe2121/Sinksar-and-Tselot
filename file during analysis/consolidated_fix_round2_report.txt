@@ -1,0 +1,54 @@
+CONSOLIDATED FIX ROUND 2
+Generated: 2026-09-22T08:49:33
+Write target: WORKING COPY only
+Fixes: 1) GZ-MEL-041 annual 6/11→1/11  2) GZ-MEL-008 annual 6/27→5/27+12/27
+       3) GZ-MEL-135 expand monthly day-18  4) GZ-MEL-090 add annual 5/19
+       5) Delete Pagumen MONTHLY rows (54)  6) Verify all
+
+ORIGINAL DB: mappings=811 ALWAYS=0 — untouched ✓
+
+WORKING COPY BEFORE: 3591 rows
+
+PRE-STATE VALIDATION
+  GZ-MEL-041: 12 rows, annual at month 6 day 11
+  GZ-MEL-008: 12 rows, annual at month 6 day 27
+  GZ-MEL-135: 1 row (month 1 day 18)
+  GZ-MEL-090: 1 row (cycle=SEASON)
+  Pagumen MONTHLY rows: 54
+  All pre-state checks PASSED
+
+APPLYING FIXES
+  Fix 1: GZ-MEL-041 annual moved 6/11 → 1/11 ✓
+  Fix 2: GZ-MEL-008 annual moved 6/27 → 5/27 + 12/27 ✓
+  Fix 3: GZ-MEL-135 expanded to 12 rows (monthly day 18, annual 1/18) ✓
+  Fix 4: GZ-MEL-090 annual added at 5/19 (ጥር 19) ✓
+  Fix 5: Deleted 54 Pagumen MONTHLY rows ✓
+
+POST-STATE VALIDATION
+  Total rows: 3549 (expected 3549)
+  Notes: {'ALWAYS': 77, 'ANNUAL': 507, 'ANNUAL+MONTHLY': 369, 'MONTHLY': 2595, 'PENTECOST': 1}
+  Cycles: {'ALWAYS': 77, 'CALENDAR': 3471, 'SEASON': 1}
+  Spot checks:
+    PASS GZ-MEL-041 1/11 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-041 6/11 → (0, 'MONTHLY')
+    PASS GZ-MEL-008 5/27 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-008 12/27 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-008 6/27 → (0, 'MONTHLY')
+    PASS GZ-MEL-008 1/27 → (0, 'MONTHLY')
+    PASS GZ-MEL-135 1/18 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-135 2/18 → (0, 'MONTHLY')
+    PASS GZ-MEL-135 12/18 → (0, 'MONTHLY')
+    PASS GZ-MEL-090 5/19 → (1, 'ANNUAL')
+    PASS GZ-MEL-090 SEASON/PENTECOST row preserved
+    PASS Pagumen MONTHLY rows remaining: 0
+    PASS Pagumen ANNUAL rows preserved: 11
+  Mapped: 405 | Unmapped: 10
+  Integrity: ok
+  calendar_day_id mismatches: 0
+  Duplicates: 0
+  Original DB: 811 (unchanged)
+
+RESULT: PASS
+  3591 → 3549 rows (net -42)
+  All 6 fixes applied and verified.
+  Original DB not modified.

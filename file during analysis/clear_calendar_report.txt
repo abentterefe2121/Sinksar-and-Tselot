@@ -1,0 +1,73 @@
+CLEAR CALENDAR MAPPINGS REPORT
+Generated: 2026-09-21T09:46:42
+Original DB: C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Backup DB  : C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_BEFORE_CLEAR.db
+Cleared copy: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+Original DB size before backup: 57786368 bytes
+Backup created: YES
+Backup size: 57786368 bytes
+Backup size check: PASS
+
+COUNTS BEFORE CLEAR
+  book_calendar_mappings: 1262
+  book_seasonal_mappings: 18
+  commemorations: 4686
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  seasonal_periods: 5
+  chapters: 2756
+  content_blocks: 90149
+  languages: 5
+  categories: 19
+  main_categories: 9
+  sub_categories: 35
+
+SQLITE_SEQUENCE BEFORE CLEAR
+  book_calendar_mappings: 2420
+  book_seasonal_mappings: 18
+  commemorations: 4686
+
+DELETED ALL ROWS FROM: book_calendar_mappings
+DELETED ALL ROWS FROM: book_seasonal_mappings
+DELETED ALL ROWS FROM: commemorations
+RESET sqlite_sequence FOR THE THREE CLEARED TABLES
+TRANSACTION COMMITTED
+
+COUNTS AFTER CLEAR
+  book_calendar_mappings: 0
+  book_seasonal_mappings: 0
+  commemorations: 0
+  books: 415
+  calendar_days: 366
+  ethiopian_months: 13
+  seasonal_periods: 5
+  chapters: 2756
+  content_blocks: 90149
+  languages: 5
+  categories: 19
+  main_categories: 9
+  sub_categories: 35
+
+SQLITE_SEQUENCE AFTER CLEAR
+  book_calendar_mappings: None
+  book_seasonal_mappings: None
+  commemorations: None
+
+TABLE STRUCTURES STILL PRESENT
+  book_calendar_mappings (table)
+  book_seasonal_mappings (table)
+  books (table)
+  calendar_days (table)
+  commemorations (table)
+
+PRAGMA integrity_check: ok
+
+Cleared working copy saved to for analysis: YES
+Cleared copy size: 57786368 bytes
+
+RESULT: PASS
+Cleared tables are empty.
+books=415, calendar_days=366, ethiopian_months=13, seasonal_periods=5 unchanged.
+Ready to map 5 books at a time using explicit Ethiopian dates only.

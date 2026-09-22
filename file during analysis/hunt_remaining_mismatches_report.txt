@@ -1,0 +1,654 @@
+HUNT REMAINING MISMATCHES (post-fix verification + smart scan)
+Generated: 2026-09-22T09:02:49
+
+==========================================================================================
+SECTION 1: VERIFICATION OF ROUND 2 FIXES
+==========================================================================================
+  FIXED: ኅዳር 18 now has 1 date-books
+  FIXED: መጋቢት 18 now has 1 date-books
+  FIXED: ነሐሴ 18 now has 1 date-books
+
+==========================================================================================
+SECTION 2: MISSING ANNUALS (sinksar annual, app monthly, STRONG match)
+==========================================================================================
+Filter: only matches with distinctive (non-generic) shared tokens
+
+Total strong missing-annual candidates: 13
+
+BY BOOK (deduplicated):
+
+  AM-GDL-023 | የቅዱስ ቂርቆስና የቅድስት ኢየሉጣ ገድል በአማርኛ
+    ኅዳር 15 | sinksar: ብጽዕት ኢየሉጣ
+      shared tokens: ኢየሉጣ | app has: MONTHLY
+      existing annuals: ጥር 15, ሐምሌ 19
+
+  AM-MEL-013 | መልክዐ ቅዱስ ሚናስ በአማርኛ
+    ግንቦት 15 | sinksar: ቅዱስ ሚናስ ባሕታዊ
+      shared tokens: ሚናስ | app has: MONTHLY
+      existing annuals: ኅዳር 15, ሰኔ 15
+
+  AM-MEL-015 | መልክዐ ቅዱስ ቂርቆስ በአማርኛ
+    ኅዳር 15 | sinksar: ልደተ ቅዱስ ቂርቆስ
+      shared tokens: ቂርቆስ | app has: MONTHLY
+      existing annuals: ጥር 15, ሐምሌ 19
+
+  AM-MEL-065 | ጸሎተ መልክዐ ሥቃዩ ለቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ
+    ነሐሴ 23 | sinksar: "30,000" የእስክንድርያ (ግብጽ) ሰማዕታት
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: ኅዳር 7, ጥር 18, የካቲት 23, ሚያዝያ 23, ነሐሴ 16
+
+  AM-MEL-066 | ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ
+    ነሐሴ 23 | sinksar: "30,000" የእስክንድርያ (ግብጽ) ሰማዕታት
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: ኅዳር 7, ጥር 18, የካቲት 23, ሚያዝያ 23, ነሐሴ 16
+
+  AM-MEL-067 | ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት ካልዕ በአማርኛ
+    ነሐሴ 23 | sinksar: "30,000" የእስክንድርያ (ግብጽ) ሰማዕታት
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: ኅዳር 7, ጥር 18, የካቲት 23, ሚያዝያ 23, ነሐሴ 16
+
+  AM-SIB-001 | ስብሐተ ፍቁር ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ
+    ነሐሴ 23 | sinksar: "30,000" የእስክንድርያ (ግብጽ) ሰማዕታት
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: ኅዳር 7, ጥር 18, የካቲት 23, ሚያዝያ 23, ነሐሴ 16
+
+  GZ-MEL-016 | መልክዐ ሊቀ ሰማዕታት ቅዱስ እስጢፋኖስ በግእዝ
+    ሰኔ 17 | sinksar: ሰማዕታት እለ አኮራን
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: መስከረም 15, ጥቅምት 17, ጥር 1
+
+  GZ-MEL-017 | መልክዐ ሊቀ ሰማዕታት ቅዱስ እስጢፋኖስ ካልእ በግእዝ
+    ሰኔ 17 | sinksar: ሰማዕታት እለ አኮራን
+      shared tokens: ሰማዕታት | app has: MONTHLY
+      existing annuals: መስከረም 15, ጥቅምት 17, ጥር 1
+
+  GZ-MEL-041 | መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ
+    ጥቅምት 11 | sinksar: ቅዱስ ፋሲለደስ ሰማዕት
+      shared tokens: ፋሲለደስ | app has: MONTHLY
+      existing annuals: መስከረም 11
+
+  GZ-MEL-043 | መልክዐ ሰማዕት ቅድስት ኢየሉጣ በግእዝ
+    ኅዳር 15 | sinksar: ብጽዕት ኢየሉጣ
+      shared tokens: ኢየሉጣ | app has: MONTHLY
+      existing annuals: ጥር 15, ሐምሌ 19
+
+  GZ-MEL-052 | መልክዐ ቅዱስ ሚናስ በግእዝ
+    ግንቦት 15 | sinksar: ቅዱስ ሚናስ ባሕታዊ
+      shared tokens: ሚናስ | app has: MONTHLY
+      existing annuals: ኅዳር 15, ሰኔ 15
+
+  GZ-MEL-054 | መልክዐ ቅዱስ ቂርቆስ በግእዝ
+    ኅዳር 15 | sinksar: ልደተ ቅዱስ ቂርቆስ
+      shared tokens: ቂርቆስ | app has: MONTHLY
+      existing annuals: ጥር 15, ሐምሌ 19
+
+==========================================================================================
+SECTION 3: CALENDAR BOOKS WITH ZERO ANNUAL ROWS
+==========================================================================================
+(These have only monthly dates — some may be correct, some may be missing annuals)
+
+  AM-GOL-001 | monthly day(s): [21] | የሰኔ ጎልጎታ በአማርኛ
+  AM-MEL-029 | monthly day(s): [7] | መልክዐ ጰራቅሊጦስ በአማርኛ
+  GZ-HIB-001 | monthly day(s): [7] | ኅብረ ሥላሴ በግእዝ
+  GZ-MEL-107 | monthly day(s): [13] | መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ
+  GZ-MEL-139 | monthly day(s): [13] | መልክዐ እግዚአብሔር አብ በግእዝ
+  GZ-MEL-140 | monthly day(s): [13] | መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ
+  GZ-MEL-157 | monthly day(s): [7] | መልክዐ ጰራቅሊጦስ በግእዝ
+
+==========================================================================================
+SECTION 4: APP ANNUALS NOT IN SINKSAR ON THAT DATE (informational)
+==========================================================================================
+(May be from your hard-copy research or batch CSVs — NOT errors)
+
+App annuals with no sinksar annual match on that date: 539
+  AM-DIR-001 | ኅዳር 13 | ANNUAL+MONTHLY | የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ
+  AM-DRS-001 | መስከረም 7 | ANNUAL | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | መስከረም 12 | ANNUAL | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ኅዳር 11 | ANNUAL+MONTHLY | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ታኅሣሥ 3 | ANNUAL+MONTHLY | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ታኅሣሥ 13 | ANNUAL | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ሚያዝያ 7 | ANNUAL | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ግንቦት 1 | ANNUAL+MONTHLY | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ነሐሴ 1 | ANNUAL+MONTHLY | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-001 | ነሐሴ 7 | ANNUAL | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+  AM-DRS-003 | ታኅሣሥ 19 | ANNUAL+MONTHLY | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | ታኅሣሥ 22 | ANNUAL | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | መጋቢት 30 | ANNUAL | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | ሰኔ 13 | ANNUAL | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | ሰኔ 26 | ANNUAL | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | ሐምሌ 19 | ANNUAL+MONTHLY | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-003 | ነሐሴ 7 | ANNUAL | ድርሳነ ገብርኤል በአማርኛ
+  AM-DRS-004 | ኅዳር 27 | ANNUAL+MONTHLY | ድርሳነ መድኃኔ ዓለም በአማርኛ
+  AM-DRS-004 | መጋቢት 27 | ANNUAL+MONTHLY | ድርሳነ መድኃኔ ዓለም በአማርኛ
+  AM-DRS-006 | ሐምሌ 22 | ANNUAL+MONTHLY | ድርሳነ ዑራኤል በአማርኛ
+  AM-DRS-008 | ኅዳር 8 | ANNUAL | ድርሳነ መስቀል በአማርኛ
+  AM-DRS-009 | መስከረም 9 | ANNUAL | ድርሳነ ሚካኤል በአማርኛ
+  AM-DRS-009 | ኅዳር 12 | ANNUAL+MONTHLY | ድርሳነ ሚካኤል በአማርኛ
+  AM-DRS-009 | ሰኔ 12 | ANNUAL+MONTHLY | ድርሳነ ሚካኤል በአማርኛ
+  AM-DRS-010 | ጳጉሜን 6 | ANNUAL | ድርሳነ ቅዱስ ራጉኤል በአማርኛ
+  AM-GDL-001 | ሐምሌ 7 | ANNUAL+MONTHLY | ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ
+  AM-GDL-004 | ታኅሣሥ 24 | ANNUAL+MONTHLY | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-004 | ጥር 24 | ANNUAL+MONTHLY | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-004 | መጋቢት 24 | ANNUAL+MONTHLY | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-004 | ሚያዝያ 22 | ANNUAL | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-004 | ግንቦት 12 | ANNUAL | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-004 | ነሐሴ 24 | ANNUAL+MONTHLY | ገድለ ተክለ ሃይማኖት በአማርኛ
+  AM-GDL-005 | ግንቦት 12 | ANNUAL | ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ
+  AM-GDL-006 | ታኅሣሥ 27 | ANNUAL | የአባ በግዑ ገድል በአማርኛ
+  AM-GDL-010 | የካቲት 12 | ANNUAL | ገድለ ሰማዕታት በአማርኛ
+  AM-GDL-012 | ታኅሣሥ 13 | ANNUAL+MONTHLY | ገድለ አቡነ ዘርዐ ቡሩከ በአማርኛ
+  AM-GDL-012 | ጥር 13 | ANNUAL+MONTHLY | ገድለ አቡነ ዘርዐ ቡሩከ በአማርኛ
+  AM-GDL-013 | መስከረም 4 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ ገድል በአማርኛ
+  AM-GDL-013 | መስከረም 29 | ANNUAL | የቅዱስ ዮሐንስ ገድል በአማርኛ
+  AM-GDL-013 | ጥር 4 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ ገድል በአማርኛ
+  AM-GDL-013 | ግንቦት 16 | ANNUAL | የቅዱስ ዮሐንስ ገድል በአማርኛ
+  AM-GDL-013 | ሐምሌ 27 | ANNUAL | የቅዱስ ዮሐንስ ገድል በአማርኛ
+  AM-GDL-018 | ኅዳር 7 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ
+  AM-GDL-018 | ጥር 18 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ
+  AM-GDL-018 | የካቲት 23 | ANNUAL+MONTHLY | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ
+  AM-GDL-018 | ሚያዝያ 23 | ANNUAL+MONTHLY | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ
+  AM-GDL-018 | ነሐሴ 16 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ
+  AM-GDL-019 | ሚያዝያ 6 | ANNUAL+MONTHLY | ገድለ አዳም በአማርኛ
+  AM-GDL-020 | ኅዳር 17 | ANNUAL+MONTHLY | ገድለ እምነ ወለተ ጴጥሮስ በአማርኛ
+  AM-GDL-027 | ሐምሌ 29 | ANNUAL | ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ
+  AM-GDL-030 | ኅዳር 5 | ANNUAL | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ
+  AM-GDL-030 | ኅዳር 20 | ANNUAL+MONTHLY | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ
+  AM-GDL-030 | ጥር 12 | ANNUAL+MONTHLY | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ
+  AM-GDL-030 | የካቲት 28 | ANNUAL | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ
+  AM-LAH-001 | ኅዳር 21 | ANNUAL+MONTHLY | ላሐ ማርያም በአማርኛ
+  AM-LAH-001 | ጥር 21 | ANNUAL+MONTHLY | ላሐ ማርያም በአማርኛ
+  AM-LAH-001 | ግንቦት 1 | ANNUAL | ላሐ ማርያም በአማርኛ
+  AM-LAH-001 | ነሐሴ 16 | ANNUAL | ላሐ ማርያም በአማርኛ
+  AM-MEL-002 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መልክአ ኢየሱስ በአማርኛ
+  AM-MEL-002 | መጋቢት 29 | ANNUAL+MONTHLY | መልክአ ኢየሱስ በአማርኛ
+  AM-MEL-005 | ጥር 8 | ANNUAL | መልክዐ መቃርዮስ በአማርኛ
+  AM-MEL-005 | መጋቢት 27 | ANNUAL+MONTHLY | መልክዐ መቃርዮስ በአማርኛ
+  AM-MEL-005 | ሐምሌ 14 | ANNUAL | መልክዐ መቃርዮስ በአማርኛ
+  AM-MEL-005 | ነሐሴ 19 | ANNUAL | መልክዐ መቃርዮስ በአማርኛ
+  AM-MEL-006 | መስከረም 9 | ANNUAL | መልክዐ ሚካኤል በአማርኛ
+  AM-MEL-006 | ኅዳር 12 | ANNUAL+MONTHLY | መልክዐ ሚካኤል በአማርኛ
+  AM-MEL-006 | ሰኔ 12 | ANNUAL+MONTHLY | መልክዐ ሚካኤል በአማርኛ
+  AM-MEL-008 | ኅዳር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም ሣልሲት በአማርኛ
+  AM-MEL-008 | ጥር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም ሣልሲት በአማርኛ
+  AM-MEL-008 | ግንቦት 1 | ANNUAL | መልክዐ ማርያም ሣልሲት በአማርኛ
+  AM-MEL-008 | ነሐሴ 16 | ANNUAL | መልክዐ ማርያም ሣልሲት በአማርኛ
+  AM-MEL-009 | ኅዳር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም በአማርኛ
+  AM-MEL-009 | ጥር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም በአማርኛ
+  AM-MEL-009 | ግንቦት 1 | ANNUAL | መልክዐ ማርያም በአማርኛ
+  AM-MEL-009 | ነሐሴ 16 | ANNUAL | መልክዐ ማርያም በአማርኛ
+  AM-MEL-012 | ኅዳር 8 | ANNUAL | መልክዐ ቅዱስ መስቀል በአማርኛ
+  AM-MEL-014 | ጳጉሜን 6 | ANNUAL | መልክዐ ቅዱስ ራጉኤል በአማርኛ
+  AM-MEL-015 | ጥር 15 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ቂርቆስ በአማርኛ
+  AM-MEL-016 | ጥር 4 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ
+  AM-MEL-020 | ሐምሌ 29 | ANNUAL | መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ
+  AM-MEL-021 | ጥር 20 | ANNUAL | መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ
+  AM-MEL-021 | ግንቦት 7 | ANNUAL | መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ
+  AM-MEL-021 | ሐምሌ 16 | ANNUAL+MONTHLY | መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ
+  AM-MEL-022 | ነሐሴ 24 | ANNUAL | መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ
+  AM-MEL-024 | ግንቦት 29 | ANNUAL | መልክዐ አፍጼ በአማርኛ
+  AM-MEL-025 | መስከረም 1 | ANNUAL | መልክዐ ኢትዮጵያ በአማርኛ
+  AM-MEL-030 | ነሐሴ 1 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 2 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 3 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 4 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 5 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 6 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 7 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 8 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 9 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 10 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 11 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 12 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 13 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 14 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 15 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-030 | ነሐሴ 16 | ANNUAL | መልክዐ ፍልሰታ በአማርኛ
+  AM-MEL-032 | መስከረም 26 | ANNUAL | ኹለተኛ መልክዐ ሥዕል በአማርኛ
+  AM-MEL-032 | ኅዳር 5 | ANNUAL | ኹለተኛ መልክዐ ሥዕል በአማርኛ
+  AM-MEL-033 | ሐምሌ 2 | ANNUAL+MONTHLY | የሐዋርያው የቅዱስ ታዴዎስ መልክዕ በአማርኛ
+  AM-MEL-033 | ሐምሌ 29 | ANNUAL | የሐዋርያው የቅዱስ ታዴዎስ መልክዕ በአማርኛ
+  AM-MEL-034 | ኅዳር 27 | ANNUAL+MONTHLY | የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-034 | መጋቢት 27 | ANNUAL+MONTHLY | የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-035 | ኅዳር 27 | ANNUAL+MONTHLY | የመድኀኔ ዓለም መልክዕ በአማርኛ
+  AM-MEL-035 | መጋቢት 27 | ANNUAL+MONTHLY | የመድኀኔ ዓለም መልክዕ በአማርኛ
+  AM-MEL-037 | ታኅሣሥ 19 | ANNUAL | የቅዱሳን ሠለስቱ ደቂቅ መልክዕ በአማርኛ
+  AM-MEL-039 | ታኅሣሥ 14 | ANNUAL | የቅዱስ መርምሕናም መልክዕ በአማርኛ
+  AM-MEL-040 | ኅዳር 8 | ANNUAL | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+  AM-MEL-041 | መስከረም 9 | ANNUAL | የቅዱስ ሚካኤል 3ኛ መልክዕ በአማርኛ
+  AM-MEL-041 | ኅዳር 12 | ANNUAL+MONTHLY | የቅዱስ ሚካኤል 3ኛ መልክዕ በአማርኛ
+  AM-MEL-041 | ሰኔ 12 | ANNUAL+MONTHLY | የቅዱስ ሚካኤል 3ኛ መልክዕ በአማርኛ
+  AM-MEL-042 | ጥቅምት 30 | ANNUAL+MONTHLY | የቅዱስ ማርቆስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-042 | ሚያዝያ 30 | ANNUAL+MONTHLY | የቅዱስ ማርቆስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-043 | ጳጉሜን 3 | ANNUAL | የቅዱስ ሩፋኤል መልክዕ በአማርኛ
+  AM-MEL-047 | መስከረም 4 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-047 | መስከረም 29 | ANNUAL | የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-047 | ጥር 4 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-047 | ግንቦት 16 | ANNUAL | የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-047 | ሐምሌ 27 | ANNUAL | የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ
+  AM-MEL-048 | መስከረም 1 | ANNUAL | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | መስከረም 2 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | የካቲት 30 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | ሚያዝያ 15 | ANNUAL | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | ሰኔ 2 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | ሰኔ 30 | ANNUAL+MONTHLY | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-048 | ጳጉሜን 1 | ANNUAL | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+  AM-MEL-050 | ታኅሣሥ 19 | ANNUAL+MONTHLY | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | ታኅሣሥ 22 | ANNUAL | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | መጋቢት 30 | ANNUAL | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | ሰኔ 13 | ANNUAL | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | ሰኔ 26 | ANNUAL | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | ሐምሌ 19 | ANNUAL+MONTHLY | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-050 | ነሐሴ 7 | ANNUAL | የቅዱስ ገብርኤል መልክዕ በአማርኛ
+  AM-MEL-051 | ኅዳር 7 | ANNUAL | የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ
+  AM-MEL-051 | ጥር 18 | ANNUAL | የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ
+  AM-MEL-051 | የካቲት 23 | ANNUAL+MONTHLY | የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ
+  AM-MEL-051 | ሚያዝያ 23 | ANNUAL+MONTHLY | የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ
+  AM-MEL-051 | ነሐሴ 16 | ANNUAL | የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ
+  AM-MEL-056 | መጋቢት 10 | ANNUAL | የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ
+  AM-MEL-057 | ታኅሣሥ 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-057 | ጥር 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-057 | መጋቢት 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-057 | ሚያዝያ 22 | ANNUAL | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-057 | ግንቦት 12 | ANNUAL | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-057 | ነሐሴ 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ
+  AM-MEL-058 | ታኅሣሥ 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-058 | ጥር 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-058 | መጋቢት 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-058 | ሚያዝያ 22 | ANNUAL | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-058 | ግንቦት 12 | ANNUAL | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-058 | ነሐሴ 24 | ANNUAL+MONTHLY | የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ
+  AM-MEL-060 | ታኅሣሥ 19 | ANNUAL | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ
+  AM-MEL-060 | የካቲት 19 | ANNUAL | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ
+  AM-MEL-062 | ታኅሣሥ 3 | ANNUAL+MONTHLY | የአቡነ ዜና ማርቆስ መልክዕ በአማርኛ
+  AM-MEL-063 | ሐምሌ 7 | ANNUAL | የአባታችን አብርሃም መልክዕ በአማርኛ
+  AM-MEL-063 | ነሐሴ 28 | ANNUAL | የአባታችን አብርሃም መልክዕ በአማርኛ
+  AM-MEL-064 | ኅዳር 21 | ANNUAL+MONTHLY | የጽዮን ማርያም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-064 | ጥር 21 | ANNUAL+MONTHLY | የጽዮን ማርያም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-064 | ግንቦት 1 | ANNUAL | የጽዮን ማርያም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-064 | ነሐሴ 16 | ANNUAL | የጽዮን ማርያም 3ኛ መልክዕ በአማርኛ
+  AM-MEL-068 | ጳጉሜን 3 | ANNUAL | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+  AM-MIK-001 | ኅዳር 27 | ANNUAL+MONTHLY | ምክሓ ምእመናን ክርስቶስ በአማርኛ
+  AM-MIK-001 | መጋቢት 27 | ANNUAL+MONTHLY | ምክሓ ምእመናን ክርስቶስ በአማርኛ
+  AM-RAY-001 | ኅዳር 21 | ANNUAL+MONTHLY | ራዕየ ማርያም በአማርኛ
+  AM-RAY-001 | ጥር 21 | ANNUAL+MONTHLY | ራዕየ ማርያም በአማርኛ
+  AM-RAY-001 | ግንቦት 1 | ANNUAL | ራዕየ ማርያም በአማርኛ
+  AM-RAY-001 | ነሐሴ 16 | ANNUAL | ራዕየ ማርያም በአማርኛ
+  AM-SEL-001 | ነሐሴ 1 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 2 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 3 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 4 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 5 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 6 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 7 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 8 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 9 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 10 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 11 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 12 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 13 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 14 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 15 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-SEL-001 | ነሐሴ 16 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በአማርኛ
+  AM-TAM-001 | ታኅሣሥ 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ በአማርኛ
+  AM-TAM-001 | መጋቢት 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ በአማርኛ
+  AM-TAM-002 | ኅዳር 21 | ANNUAL+MONTHLY | ተአምረ ማርያም በአማርኛ
+  AM-TAM-002 | ጥር 21 | ANNUAL+MONTHLY | ተአምረ ማርያም በአማርኛ
+  AM-TAM-002 | ግንቦት 1 | ANNUAL | ተአምረ ማርያም በአማርኛ
+  AM-TAM-002 | ነሐሴ 16 | ANNUAL | ተአምረ ማርያም በአማርኛ
+  AM-ZNA-002 | ኅዳር 4 | ANNUAL | ዜና አበው በአማርኛ
+  AM-ZNA-002 | ጥር 26 | ANNUAL | ዜና አበው በአማርኛ
+  GZ-DRS-001 | ሐምሌ 22 | ANNUAL+MONTHLY | ድርሳነ ዑራኤል በግእዝ
+  GZ-DRS-002 | ኅዳር 8 | ANNUAL | ድርሳነ መስቀል በግእዝ
+  GZ-DRS-003 | ጳጉሜን 6 | ANNUAL | ድርሳነ ቅዱስ ራጉኤል በግእዝ
+  GZ-DRS-005 | ኅዳር 27 | ANNUAL+MONTHLY | ድርሳነ መድኃኔ ዓለም በግእዝ
+  GZ-DRS-005 | መጋቢት 27 | ANNUAL+MONTHLY | ድርሳነ መድኃኔ ዓለም በግእዝ
+  GZ-DRS-007 | መስከረም 7 | ANNUAL | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+  GZ-DRS-007 | ኅዳር 11 | ANNUAL+MONTHLY | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+  GZ-DRS-007 | ታኅሣሥ 13 | ANNUAL | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+  GZ-DRS-007 | ነሐሴ 1 | ANNUAL+MONTHLY | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+  GZ-DRS-008 | መስከረም 9 | ANNUAL | ድርሳነ ሚካኤል በግእዝ
+  GZ-DRS-008 | ኅዳር 12 | ANNUAL+MONTHLY | ድርሳነ ሚካኤል በግእዝ
+  GZ-DRS-008 | ሰኔ 12 | ANNUAL+MONTHLY | ድርሳነ ሚካኤል በግእዝ
+  GZ-DRS-009 | ጳጉሜን 3 | ANNUAL | ድርሳን ቅዱስ ሩፋኤል በግእዝ
+  GZ-DRS-010 | ታኅሣሥ 19 | ANNUAL+MONTHLY | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | ታኅሣሥ 22 | ANNUAL | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | መጋቢት 30 | ANNUAL | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | ሰኔ 13 | ANNUAL | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | ሰኔ 26 | ANNUAL | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | ሐምሌ 19 | ANNUAL+MONTHLY | ድርሳነ ገብርኤል በግእዝ
+  GZ-DRS-010 | ነሐሴ 7 | ANNUAL | ድርሳነ ገብርኤል በግእዝ
+  GZ-ETA-001 | ኅዳር 21 | ANNUAL+MONTHLY | እትአመነኪ ማርያም በሰማይ ወበምድር በግእዝ
+  GZ-ETA-001 | ጥር 21 | ANNUAL+MONTHLY | እትአመነኪ ማርያም በሰማይ ወበምድር በግእዝ
+  GZ-ETA-001 | ግንቦት 1 | ANNUAL | እትአመነኪ ማርያም በሰማይ ወበምድር በግእዝ
+  GZ-ETA-001 | ነሐሴ 16 | ANNUAL | እትአመነኪ ማርያም በሰማይ ወበምድር በግእዝ
+  GZ-GDL-001 | መጋቢት 23 | ANNUAL | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+  GZ-GDL-001 | ሐምሌ 28 | ANNUAL | ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ
+  GZ-GDL-003 | ኅዳር 17 | ANNUAL+MONTHLY | ገድለ እምነ ወለተ ጴጥሮስ በግእዝ
+  GZ-GDL-004 | ታኅሣሥ 13 | ANNUAL+MONTHLY | ገድለ አቡነ ዘርዐ ቡሩከ በግእዝ
+  GZ-GDL-004 | ጥር 13 | ANNUAL+MONTHLY | ገድለ አቡነ ዘርዐ ቡሩከ በግእዝ
+  GZ-GDL-005 | ሐምሌ 3 | ANNUAL | ገድለ አቡነ አበክረዙን በግእዝ
+  GZ-GDL-006 | የካቲት 9 | ANNUAL+MONTHLY | ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ
+  GZ-GDL-006 | ሚያዝያ 9 | ANNUAL+MONTHLY | ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ
+  GZ-GDL-007 | ሐምሌ 7 | ANNUAL+MONTHLY | ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ
+  GZ-GDL-011 | ሐምሌ 28 | ANNUAL | ገድለ አቡነ ፊልጶስ በግእዝ
+  GZ-GDL-012 | መስከረም 21 | ANNUAL | ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ
+  GZ-GDL-013 | ታኅሣሥ 24 | ANNUAL | ገድለ ዘርዐ አብርሃም በግእዝ
+  GZ-GDL-014 | ኅዳር 7 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ
+  GZ-GDL-014 | ጥር 18 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ
+  GZ-GDL-014 | የካቲት 23 | ANNUAL+MONTHLY | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ
+  GZ-GDL-014 | ሚያዝያ 23 | ANNUAL+MONTHLY | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ
+  GZ-GDL-014 | ነሐሴ 16 | ANNUAL | ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ
+  GZ-GDL-018 | ሐምሌ 29 | ANNUAL | ገድለ አቡነ ዮሐንስ በግእዝ
+  GZ-GDL-019 | ግንቦት 12 | ANNUAL | ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ
+  GZ-GDL-020 | ታኅሣሥ 22 | ANNUAL | ገድለ አቡነ ፊልሞና በግእዝ
+  GZ-GDL-021 | ኅዳር 11 | ANNUAL+MONTHLY | ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ
+  GZ-GDL-023 | ግንቦት 29 | ANNUAL | ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ
+  GZ-GDL-025 | ታኅሣሥ 27 | ANNUAL | ገድለ አባ በግዑ በግእዝ
+  GZ-GDL-028 | ኅዳር 6 | ANNUAL | ገድለ አቡነ ዳንኤል በግእዝ
+  GZ-GDL-030 | ኅዳር 5 | ANNUAL | ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-030 | ኅዳር 20 | ANNUAL+MONTHLY | ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-030 | ጥር 12 | ANNUAL+MONTHLY | ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-030 | የካቲት 28 | ANNUAL | ገድለ ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031 | ኅዳር 5 | ANNUAL | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031 | ኅዳር 20 | ANNUAL+MONTHLY | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031 | ጥር 12 | ANNUAL+MONTHLY | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-031 | የካቲት 28 | ANNUAL | ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-GDL-034 | ኅዳር 3 | ANNUAL | ገድለ አቡነ ፍሬ ሚካኤል በግእዝ
+  GZ-LAH-001 | ኅዳር 21 | ANNUAL+MONTHLY | ላሐ ማርያም በግእዝ
+  GZ-LAH-001 | ጥር 21 | ANNUAL+MONTHLY | ላሐ ማርያም በግእዝ
+  GZ-LAH-001 | ግንቦት 1 | ANNUAL | ላሐ ማርያም በግእዝ
+  GZ-LAH-001 | ነሐሴ 16 | ANNUAL | ላሐ ማርያም በግእዝ
+  GZ-MEL-001 | ኅዳር 27 | ANNUAL+MONTHLY | ሐዲስ መልክዐ መድኃኔዓለም በግእዝ
+  GZ-MEL-001 | መጋቢት 27 | ANNUAL+MONTHLY | ሐዲስ መልክዐ መድኃኔዓለም በግእዝ
+  GZ-MEL-002 | ኅዳር 21 | ANNUAL+MONTHLY | መልከዐ ማርያም ዳግሚት በግእዝ
+  GZ-MEL-002 | ጥር 21 | ANNUAL+MONTHLY | መልከዐ ማርያም ዳግሚት በግእዝ
+  GZ-MEL-002 | ግንቦት 1 | ANNUAL | መልከዐ ማርያም ዳግሚት በግእዝ
+  GZ-MEL-002 | ነሐሴ 16 | ANNUAL | መልከዐ ማርያም ዳግሚት በግእዝ
+  GZ-MEL-004 | መስከረም 9 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ሣልስ በግእዝ
+  GZ-MEL-004 | ኅዳር 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ሣልስ በግእዝ
+  GZ-MEL-004 | ሰኔ 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ሣልስ በግእዝ
+  GZ-MEL-005 | መስከረም 9 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእዝ
+  GZ-MEL-005 | ኅዳር 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእዝ
+  GZ-MEL-005 | ሰኔ 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእዝ
+  GZ-MEL-006 | ጳጉሜን 3 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ሩፋኤል በግእዝ
+  GZ-MEL-007 | ጳጉሜን 6 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ
+  GZ-MEL-009 | ኅዳር 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-009 | ጥር 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-009 | ሰኔ 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-009 | ሐምሌ 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+  GZ-MEL-011 | ሐምሌ 22 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል በግእዝ
+  GZ-MEL-012 | ሐምሌ 22 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል ካልእ በግእዝ
+  GZ-MEL-013 | ታኅሣሥ 19 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | ታኅሣሥ 22 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | መጋቢት 30 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | ሰኔ 13 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | ሰኔ 26 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | ሐምሌ 19 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-013 | ነሐሴ 7 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ
+  GZ-MEL-014 | ታኅሣሥ 19 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-014 | መጋቢት 30 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-014 | ሰኔ 13 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-014 | ሰኔ 26 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-014 | ሐምሌ 19 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-014 | ነሐሴ 7 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ
+  GZ-MEL-020 | ግንቦት 1 | ANNUAL+MONTHLY | መልክዐ ልደታ በግእዝ
+  GZ-MEL-022 | መስከረም 7 | ANNUAL | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | መስከረም 12 | ANNUAL | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ኅዳር 11 | ANNUAL+MONTHLY | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ታኅሣሥ 3 | ANNUAL+MONTHLY | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ታኅሣሥ 13 | ANNUAL | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ሚያዝያ 7 | ANNUAL | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ግንቦት 1 | ANNUAL+MONTHLY | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ነሐሴ 1 | ANNUAL+MONTHLY | መልክዐ ሐና በግእዝ
+  GZ-MEL-022 | ነሐሴ 7 | ANNUAL | መልክዐ ሐና በግእዝ
+  GZ-MEL-025 | ሐምሌ 25 | ANNUAL | መልክዐ ሕፃን ሞዐ በግእዝ
+  GZ-MEL-026 | ጥር 8 | ANNUAL | መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-026 | መጋቢት 27 | ANNUAL+MONTHLY | መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-026 | ሐምሌ 14 | ANNUAL | መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-026 | ነሐሴ 19 | ANNUAL | መልክዐ መቃርዮስ በግእዝ
+  GZ-MEL-027 | ኅዳር 27 | ANNUAL+MONTHLY | መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ
+  GZ-MEL-027 | መጋቢት 27 | ANNUAL+MONTHLY | መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ
+  GZ-MEL-028 | ኅዳር 27 | ANNUAL+MONTHLY | መልክዐ መድኃኔ ዓለም በግእዝ
+  GZ-MEL-028 | መጋቢት 27 | ANNUAL+MONTHLY | መልክዐ መድኃኔ ዓለም በግእዝ
+  GZ-MEL-030 | ጥቅምት 30 | ANNUAL+MONTHLY | መልክዐ ማርቆስ በግእዝ
+  GZ-MEL-030 | ሚያዝያ 30 | ANNUAL+MONTHLY | መልክዐ ማርቆስ በግእዝ
+  GZ-MEL-031 | ኅዳር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም ሣልሲት በግእዝ
+  GZ-MEL-031 | ጥር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም ሣልሲት በግእዝ
+  GZ-MEL-031 | ግንቦት 1 | ANNUAL | መልክዐ ማርያም ሣልሲት በግእዝ
+  GZ-MEL-031 | ነሐሴ 16 | ANNUAL | መልክዐ ማርያም ሣልሲት በግእዝ
+  GZ-MEL-032 | ኅዳር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም በግእዝ
+  GZ-MEL-032 | ጥር 21 | ANNUAL+MONTHLY | መልክዐ ማርያም በግእዝ
+  GZ-MEL-032 | ግንቦት 1 | ANNUAL | መልክዐ ማርያም በግእዝ
+  GZ-MEL-032 | ነሐሴ 16 | ANNUAL | መልክዐ ማርያም በግእዝ
+  GZ-MEL-033 | ኅዳር 9 | ANNUAL | መልክዐ ሠለስቱ ምዕት በግእዝ
+  GZ-MEL-036 | ኅዳር 7 | ANNUAL | መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ
+  GZ-MEL-036 | ጥር 18 | ANNUAL | መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ
+  GZ-MEL-036 | የካቲት 23 | ANNUAL+MONTHLY | መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ
+  GZ-MEL-036 | ሚያዝያ 23 | ANNUAL+MONTHLY | መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ
+  GZ-MEL-036 | ነሐሴ 16 | ANNUAL | መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ
+  GZ-MEL-037 | መስከረም 26 | ANNUAL | መልክዐ ሥዕል ካልእ በግእዝ
+  GZ-MEL-037 | ኅዳር 5 | ANNUAL | መልክዐ ሥዕል ካልእ በግእዝ
+  GZ-MEL-040 | ኅዳር 5 | ANNUAL | መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040 | ኅዳር 20 | ANNUAL+MONTHLY | መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040 | ጥር 12 | ANNUAL+MONTHLY | መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-040 | የካቲት 28 | ANNUAL | መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ
+  GZ-MEL-045 | ኅዳር 6 | ANNUAL+MONTHLY | መልክዐ ቁስቋም በግእዝ
+  GZ-MEL-047 | ታኅሣሥ 19 | ANNUAL | መልክዐ ቅዱሳን ሠለስቱ ደቂቅ በግእዝ
+  GZ-MEL-048 | ጥቅምት 19 | ANNUAL | መልክዐ ቅዱሳን ዘመጠራ በግእዝ
+  GZ-MEL-049 | ታኅሣሥ 14 | ANNUAL | መልክዐ ቅዱስ መርምሕናም በግእዝ
+  GZ-MEL-050 | ኅዳር 8 | ANNUAL | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+  GZ-MEL-051 | ኅዳር 8 | ANNUAL | መልክዐ ቅዱስ መስቀል በግእዝ
+  GZ-MEL-053 | ጥቅምት 30 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ማርቆስ ካልእ በግእዝ
+  GZ-MEL-053 | ሚያዝያ 30 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ማርቆስ ካልእ በግእዝ
+  GZ-MEL-054 | ጥር 15 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ቂርቆስ በግእዝ
+  GZ-MEL-055 | ሐምሌ 2 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ታዴዎስ በግእዝ
+  GZ-MEL-055 | ሐምሌ 29 | ANNUAL | መልክዐ ቅዱስ ታዴዎስ በግእዝ
+  GZ-MEL-060 | መስከረም 1 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | መስከረም 2 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | የካቲት 30 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | ሚያዝያ 15 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | ሰኔ 2 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | ሰኔ 30 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-060 | ጳጉሜን 1 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+  GZ-MEL-061 | መስከረም 4 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-061 | መስከረም 29 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-061 | ጥር 4 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-061 | ግንቦት 16 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-061 | ሐምሌ 27 | ANNUAL | መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ
+  GZ-MEL-062 | ጥር 4 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ
+  GZ-MEL-065 | ኅዳር 7 | ANNUAL | መልክዐ ቅዱስ ጊዮርጊስ በግእዝ
+  GZ-MEL-065 | ጥር 18 | ANNUAL | መልክዐ ቅዱስ ጊዮርጊስ በግእዝ
+  GZ-MEL-065 | የካቲት 23 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ጊዮርጊስ በግእዝ
+  GZ-MEL-065 | ሚያዝያ 23 | ANNUAL+MONTHLY | መልክዐ ቅዱስ ጊዮርጊስ በግእዝ
+  GZ-MEL-065 | ነሐሴ 16 | ANNUAL | መልክዐ ቅዱስ ጊዮርጊስ በግእዝ
+  GZ-MEL-068 | ታኅሣሥ 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-068 | ጥር 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-068 | መጋቢት 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-068 | ሚያዝያ 22 | ANNUAL | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-068 | ግንቦት 12 | ANNUAL | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-068 | ነሐሴ 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-069 | ታኅሣሥ 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-069 | ጥር 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-069 | መጋቢት 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-069 | ሚያዝያ 22 | ANNUAL | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-069 | ግንቦት 12 | ANNUAL | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-069 | ነሐሴ 24 | ANNUAL+MONTHLY | መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ
+  GZ-MEL-070 | ነሐሴ 13 | ANNUAL | መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ
+  GZ-MEL-075 | ጳጉሜን 3 | ANNUAL | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+  GZ-MEL-076 | ታኅሣሥ 16 | ANNUAL | መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ
+  GZ-MEL-079 | መስከረም 4 | ANNUAL | መልክዐ አቡነ ሙሴ በግእዝ
+  GZ-MEL-080 | ጥር 14 | ANNUAL | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ
+  GZ-MEL-081 | ኅዳር 13 | ANNUAL | መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ
+  GZ-MEL-082 | ጥር 20 | ANNUAL | መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ
+  GZ-MEL-083 | ጥቅምት 19 | ANNUAL | መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ
+  GZ-MEL-084 | ጥቅምት 29 | ANNUAL | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+  GZ-MEL-084 | ታኅሣሥ 12 | ANNUAL+MONTHLY | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+  GZ-MEL-084 | ታኅሣሥ 23 | ANNUAL | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+  GZ-MEL-084 | ሚያዝያ 12 | ANNUAL+MONTHLY | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+  GZ-MEL-087 | ኅዳር 24 | ANNUAL | መልክዐ አቡነ ሴት በግእዝ
+  GZ-MEL-088 | ነሐሴ 14 | ANNUAL | መልክዐ አቡነ ቡሩከ አምላክ ዘደብረ ኮል በግእዝ
+  GZ-MEL-089 | ታኅሣሥ 1 | ANNUAL | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+  GZ-MEL-089 | ግንቦት 9 | ANNUAL | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+  GZ-MEL-090 | ጥር 19 | ANNUAL | መልክዐ አቡነ ተንሥአ መድኅን በግእዝ
+  GZ-MEL-091 | መጋቢት 10 | ANNUAL | መልክዐ አቡነ ተከስተ ብርሃን በግእዝ
+  GZ-MEL-092 | ታኅሣሥ 24 | ANNUAL+MONTHLY | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-092 | ጥር 24 | ANNUAL+MONTHLY | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-092 | መጋቢት 24 | ANNUAL+MONTHLY | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-092 | ሚያዝያ 22 | ANNUAL | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-092 | ግንቦት 12 | ANNUAL | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-092 | ነሐሴ 24 | ANNUAL+MONTHLY | መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ
+  GZ-MEL-094 | ኅዳር 3 | ANNUAL | መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ
+  GZ-MEL-096 | ታኅሣሥ 19 | ANNUAL | መልክዐ አቡነ አባለ ክርስቶስ በግእዝ
+  GZ-MEL-096 | የካቲት 19 | ANNUAL | መልክዐ አቡነ አባለ ክርስቶስ በግእዝ
+  GZ-MEL-098 | ሐምሌ 7 | ANNUAL | መልክዐ አቡነ አብርሃም በግእዝ
+  GZ-MEL-098 | ነሐሴ 28 | ANNUAL | መልክዐ አቡነ አብርሃም በግእዝ
+  GZ-MEL-100 | ግንቦት 19 | ANNUAL | መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ
+  GZ-MEL-101 | ግንቦት 29 | ANNUAL | መልክዐ አቡነ አፍጼ በግእዝ
+  GZ-MEL-102 | መጋቢት 29 | ANNUAL | መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ
+  GZ-MEL-103 | የካቲት 1 | ANNUAL | መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ
+  GZ-MEL-104 | ሐምሌ 29 | ANNUAL | መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ
+  GZ-MEL-106 | ታኅሣሥ 3 | ANNUAL+MONTHLY | መልክዐ አቡነ ዜና ማርቆስ በግእዝ
+  GZ-MEL-108 | ጥቅምት 28 | ANNUAL | መልክዐ አቡነ ይምአታ በግእዝ
+  GZ-MEL-109 | ታኅሣሥ 25 | ANNUAL | መልክዐ አቡነ ዮሐንስ ከማ በግእዝ
+  GZ-MEL-110 | ነሐሴ 8 | ANNUAL | መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ
+  GZ-MEL-112 | ነሐሴ 16 | ANNUAL | መልክዐ አቡነ ዮስጢኖስ በግእዝ
+  GZ-MEL-113 | ኅዳር 17 | ANNUAL | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+  GZ-MEL-113 | መጋቢት 17 | ANNUAL | መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ
+  GZ-MEL-114 | ኅዳር 6 | ANNUAL | መልክዐ አቡነ ዳንኤል በግእዝ
+  GZ-MEL-115 | ጥቅምት 6 | ANNUAL | መልክዐ አቡነ ጰንጠሌዎን በግእዝ
+  GZ-MEL-116 | ኅዳር 29 | ANNUAL | መልክዐ አቡነ ጼዋ ለጽድቅ በግእዝ
+  GZ-MEL-117 | ታኅሣሥ 22 | ANNUAL | መልክዐ አቡነ ፊልሞና በግእዝ
+  GZ-MEL-118 | ሐምሌ 28 | ANNUAL | መልክዐ አቡነ ፊልጶስ በግእዝ
+  GZ-MEL-122 | መስከረም 18 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | ኅዳር 7 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | የካቲት 5 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | መጋቢት 9 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | ሰኔ 19 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | ሰኔ 23 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-122 | ሐምሌ 24 | ANNUAL | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+  GZ-MEL-123 | ሐምሌ 7 | ANNUAL+MONTHLY | መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ
+  GZ-MEL-124 | ነሐሴ 24 | ANNUAL | መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ
+  GZ-MEL-129 | መስከረም 1 | ANNUAL | መልክዐ ኢትዮጵያ በግዕዝ
+  GZ-MEL-131 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መልክዐ ኢየሱስ በግእዝ
+  GZ-MEL-131 | መጋቢት 29 | ANNUAL+MONTHLY | መልክዐ ኢየሱስ በግእዝ
+  GZ-MEL-132 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መልክዐ ኢየሱስ ካልዕ በግእዝ
+  GZ-MEL-132 | መጋቢት 29 | ANNUAL+MONTHLY | መልክዐ ኢየሱስ ካልዕ በግእዝ
+  GZ-MEL-133 | መስከረም 7 | ANNUAL | መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-133 | ኅዳር 11 | ANNUAL+MONTHLY | መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-133 | ታኅሣሥ 13 | ANNUAL | መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-133 | ነሐሴ 1 | ANNUAL+MONTHLY | መልክዐ ኢያቄም በግእዝ
+  GZ-MEL-138 | ጥር 22 | ANNUAL | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-138 | መጋቢት 6 | ANNUAL | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-138 | ሐምሌ 22 | ANNUAL | መልክዐ እንጦንዮስ በግእዝ
+  GZ-MEL-143 | ግንቦት 12 | ANNUAL | መልክዐ ክርስቶስ ሠምራ በግእዝ
+  GZ-MEL-144 | ጥቅምት 25 | ANNUAL+MONTHLY | መልክዐ ዐቢብ ካልዕ በግእዝ
+  GZ-MEL-144 | ሚያዝያ 15 | ANNUAL | መልክዐ ዐቢብ ካልዕ በግእዝ
+  GZ-MEL-146 | ኅዳር 11 | ANNUAL+MONTHLY | መልክዐ ያሬድ በግእዝ
+  GZ-MEL-147 | ኅዳር 11 | ANNUAL+MONTHLY | መልክዐ ያሬድ ካልዕ በግእዝ
+  GZ-MEL-148 | ጥቅምት 19 | ANNUAL | መልክዐ ይምርሃነ ክርስቶስ በግእዝ
+  GZ-MEL-149 | መስከረም 4 | ANNUAL+MONTHLY | መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-149 | መስከረም 29 | ANNUAL | መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-149 | ጥር 4 | ANNUAL+MONTHLY | መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-149 | ግንቦት 16 | ANNUAL | መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-149 | ሐምሌ 27 | ANNUAL | መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ
+  GZ-MEL-150 | መስከረም 4 | ANNUAL+MONTHLY | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-150 | መስከረም 29 | ANNUAL | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-150 | ጥር 4 | ANNUAL+MONTHLY | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-150 | ግንቦት 16 | ANNUAL | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-150 | ሐምሌ 27 | ANNUAL | መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ
+  GZ-MEL-153 | ጥቅምት 14 | ANNUAL | መልክዐ ገብረ ክርስቶስ በግእዝ
+  GZ-MEL-154 | ኅዳር 7 | ANNUAL | መልክዐ ጊዮርጊስ በግእዝ
+  GZ-MEL-154 | ጥር 18 | ANNUAL | መልክዐ ጊዮርጊስ በግእዝ
+  GZ-MEL-154 | የካቲት 23 | ANNUAL+MONTHLY | መልክዐ ጊዮርጊስ በግእዝ
+  GZ-MEL-154 | ሚያዝያ 23 | ANNUAL+MONTHLY | መልክዐ ጊዮርጊስ በግእዝ
+  GZ-MEL-154 | ነሐሴ 16 | ANNUAL | መልክዐ ጊዮርጊስ በግእዝ
+  GZ-MEL-155 | ኅዳር 7 | ANNUAL | መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ
+  GZ-MEL-155 | ጥር 18 | ANNUAL | መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ
+  GZ-MEL-155 | የካቲት 23 | ANNUAL+MONTHLY | መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ
+  GZ-MEL-155 | ሚያዝያ 23 | ANNUAL+MONTHLY | መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ
+  GZ-MEL-155 | ነሐሴ 16 | ANNUAL | መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ
+  GZ-MEL-158 | ሐምሌ 5 | ANNUAL | መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ
+  GZ-MEL-160 | ታኅሣሥ 29 | ANNUAL | መልክዐ ጻድቃን ዘባርክናሃ በግእዝ
+  GZ-MEL-161 | ጥር 21 | ANNUAL+MONTHLY | መልክዐ ጽዮን ማርያም ሣልስ በግእዝ
+  GZ-MEL-161 | ግንቦት 1 | ANNUAL | መልክዐ ጽዮን ማርያም ሣልስ በግእዝ
+  GZ-MEL-161 | ነሐሴ 16 | ANNUAL | መልክዐ ጽዮን ማርያም ሣልስ በግእዝ
+  GZ-MEL-163 | ነሐሴ 1 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 2 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 3 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 4 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 5 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 6 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 7 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 8 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 9 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 10 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 11 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 12 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 13 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 14 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 15 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-163 | ነሐሴ 16 | ANNUAL | መልክዐ ፍልሰታ በግእዝ
+  GZ-MEL-165 | መስከረም 9 | ANNUAL | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእ
+  GZ-MEL-165 | ኅዳር 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእ
+  GZ-MEL-165 | ሰኔ 12 | ANNUAL+MONTHLY | መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእ
+  GZ-MIK-001 | ግንቦት 12 | ANNUAL | ምክሐ ምእመናን በግእዝ
+  GZ-MIK-002 | ግንቦት 12 | ANNUAL | ምክሓ ምእመናን በግእዝ
+  GZ-MTS-001 | ግንቦት 1 | ANNUAL+MONTHLY | መጽሐፈ ልደታ ለማርያም በግእዝ
+  GZ-MZM-001 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ በግእዝ
+  GZ-MZM-001 | መጋቢት 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ በግእዝ
+  GZ-MZM-002 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ ካልዕ በግእዝ
+  GZ-MZM-002 | መጋቢት 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ ካልዕ በግእዝ
+  GZ-MZM-003 | ታኅሣሥ 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ
+  GZ-MZM-003 | መጋቢት 29 | ANNUAL+MONTHLY | መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ
+  GZ-SEL-001 | ነሐሴ 1 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 2 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 3 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 4 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 5 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 6 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 7 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 8 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 9 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 10 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 11 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 12 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 13 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 14 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 15 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-SEL-001 | ነሐሴ 16 | ANNUAL | ሰላም ለፍልሰተ ሥጋኪ በግእዝ
+  GZ-TAM-001 | ኅዳር 21 | ANNUAL+MONTHLY | ተአምረ ማርያም በግእዝ
+  GZ-TAM-001 | ጥር 21 | ANNUAL+MONTHLY | ተአምረ ማርያም በግእዝ
+  GZ-TAM-001 | ግንቦት 1 | ANNUAL | ተአምረ ማርያም በግእዝ
+  GZ-TAM-001 | ነሐሴ 16 | ANNUAL | ተአምረ ማርያም በግእዝ
+  GZ-TAM-002 | ታኅሣሥ 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ በግእዝ
+  GZ-TAM-002 | መጋቢት 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ በግእዝ
+  GZ-TSE-007 | ታኅሣሥ 1 | ANNUAL | ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-TSE-007 | የካቲት 9 | ANNUAL | ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-TSE-007 | ሰኔ 21 | ANNUAL | ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-TSE-007 | ሐምሌ 5 | ANNUAL+MONTHLY | ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-TSE-007 | ነሐሴ 7 | ANNUAL | ጸሎቱ ለጴጥሮስ በግእዝ
+  GZ-ZNA-002 | መጋቢት 27 | ANNUAL | ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ
+  TI-GDL-001 | ታኅሣሥ 13 | ANNUAL+MONTHLY | ገድሊ ኣቡነ ዘርኣ ቡሩክን ብትግርኛ
+  TI-GDL-001 | ጥር 13 | ANNUAL+MONTHLY | ገድሊ ኣቡነ ዘርኣ ቡሩክን ብትግርኛ
+  TI-GDL-002 | የካቲት 9 | ANNUAL+MONTHLY | ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ
+  TI-GDL-002 | ሚያዝያ 9 | ANNUAL+MONTHLY | ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ
+  TI-MEL-001 | መስከረም 26 | ANNUAL | መልክአ ሥዕል ብትግርኛ
+  TI-MEL-001 | ኅዳር 5 | ANNUAL | መልክአ ሥዕል ብትግርኛ
+  TI-RAY-001 | ኅዳር 21 | ANNUAL+MONTHLY | ራእየ ማርያም ብትግርኛ
+  TI-RAY-001 | ጥር 21 | ANNUAL+MONTHLY | ራእየ ማርያም ብትግርኛ
+  TI-RAY-001 | ግንቦት 1 | ANNUAL | ራእየ ማርያም ብትግርኛ
+  TI-RAY-001 | ነሐሴ 16 | ANNUAL | ራእየ ማርያም ብትግርኛ
+  TI-TAM-001 | ታኅሣሥ 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ ብትግርኛ
+  TI-TAM-001 | መጋቢት 29 | ANNUAL+MONTHLY | ተአምረ ኢየሱስ ብትግርኛ
+
+==========================================================================================
+SUMMARY
+==========================================================================================
+Round 2 fixes verified: day-18 blackout resolved
+Strong missing-annual candidates: 13 rows across 13 books
+Books with zero annuals (monthly-only): 7
+App annuals not matching sinksar on same date: 539
+
+NOTE: Section 2 items are the priority — each is a case where sinksar
+marks a saint's annual on a date where the app only has monthly.
+Review each against your hard copy before adding.

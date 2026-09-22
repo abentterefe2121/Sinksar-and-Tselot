@@ -1,0 +1,2246 @@
+DEEP CALENDAR SCHEMA ANALYSIS
+Database : C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Generated: 2026-09-21T09:34:48
+
+
+==========================================================================================
+1) FULL sqlite_master (tables, views, indexes, triggers)
+==========================================================================================
+[INDEX] idx_bcm_book
+CREATE INDEX idx_bcm_book ON book_calendar_mappings (book_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_bcm_cycle_weekday
+CREATE INDEX idx_bcm_cycle_weekday ON book_calendar_mappings (reading_cycle, weekday_number)
+------------------------------------------------------------------------------------------
+[INDEX] idx_bcm_lookup
+CREATE INDEX idx_bcm_lookup ON book_calendar_mappings (ethiopian_month, ethiopian_day)
+------------------------------------------------------------------------------------------
+[INDEX] idx_bcm_season
+CREATE INDEX idx_bcm_season ON book_calendar_mappings (season_code)
+------------------------------------------------------------------------------------------
+[INDEX] idx_bcm_section
+CREATE INDEX idx_bcm_section ON book_calendar_mappings (app_section)
+------------------------------------------------------------------------------------------
+[INDEX] idx_blocks_chapter
+CREATE INDEX idx_blocks_chapter ON content_blocks(chapter_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_blocks_chapter_seq
+CREATE INDEX idx_blocks_chapter_seq ON content_blocks(chapter_id, sequence)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_category
+CREATE INDEX idx_books_category ON books(category_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_cover
+CREATE INDEX idx_books_cover ON books(cover_image)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_lang_main
+CREATE INDEX idx_books_lang_main ON books(language_id, main_category_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_language
+CREATE INDEX idx_books_language ON books(language_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_main_cat
+CREATE INDEX idx_books_main_cat ON books(main_category_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_sub_cat
+CREATE INDEX idx_books_sub_cat ON books(sub_category_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_books_subject_category
+CREATE INDEX idx_books_subject_category ON books(subject_category)
+------------------------------------------------------------------------------------------
+[INDEX] idx_calendar_month_day
+CREATE INDEX idx_calendar_month_day ON calendar_days (ethiopian_month, day_of_month)
+------------------------------------------------------------------------------------------
+[INDEX] idx_chapters_book
+CREATE INDEX idx_chapters_book ON chapters(book_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_comm_day
+CREATE INDEX idx_comm_day ON commemorations(calendar_day_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_day_month
+CREATE INDEX idx_day_month ON calendar_days(ethiopian_month, day_of_month)
+------------------------------------------------------------------------------------------
+[INDEX] idx_footnotes_block
+CREATE INDEX idx_footnotes_block ON footnotes(block_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_formats_block
+CREATE INDEX idx_formats_block ON text_formats(block_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_subcats_main
+CREATE INDEX idx_subcats_main ON sub_categories(main_category_id)
+------------------------------------------------------------------------------------------
+[INDEX] idx_xref_block
+CREATE INDEX idx_xref_block ON cross_references(block_id)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_books_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_calendar_days_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_categories_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_chapters_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_content_blocks_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_cover_display_names_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_languages_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_main_categories_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_seasonal_periods_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[INDEX] sqlite_autoindex_sub_categories_1
+(no SQL)
+------------------------------------------------------------------------------------------
+[TABLE] book_calendar_mappings
+CREATE TABLE book_calendar_mappings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id TEXT NOT NULL,
+            calendar_day_id INTEGER,
+            ethiopian_month INTEGER,
+            ethiopian_day INTEGER,
+            is_annual INTEGER NOT NULL DEFAULT 0,
+            is_primary_feast INTEGER NOT NULL DEFAULT 1,
+            reading_cycle TEXT NOT NULL DEFAULT 'CALENDAR',
+            weekday_number INTEGER,
+            season_code TEXT,
+            app_section TEXT NOT NULL DEFAULT 'TODAYS_FEAST',
+            notes TEXT,
+            FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE,
+            FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id) ON DELETE SET NULL
+        )
+------------------------------------------------------------------------------------------
+[TABLE] book_seasonal_mappings
+CREATE TABLE book_seasonal_mappings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  book_id TEXT,
+  season_code TEXT,
+  reading_order INTEGER,
+  notes TEXT,
+  FOREIGN KEY(book_id) REFERENCES books(id),
+  FOREIGN KEY(season_code) REFERENCES seasonal_periods(code)
+)
+------------------------------------------------------------------------------------------
+[TABLE] books
+CREATE TABLE "books" (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id TEXT NOT NULL,
+    category_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    title_short TEXT,
+    description TEXT,
+    total_chapters INTEGER NOT NULL DEFAULT 0,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    subject_category TEXT DEFAULT '' NOT NULL,
+    subject_tag TEXT DEFAULT '' NOT NULL,
+    cover_image TEXT DEFAULT '' NOT NULL, main_category_id TEXT REFERENCES main_categories(id), sub_category_id TEXT REFERENCES sub_categories(id),
+    FOREIGN KEY (language_id) REFERENCES languages(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+)
+------------------------------------------------------------------------------------------
+[TABLE] calendar_days
+CREATE TABLE calendar_days (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ethiopian_month INTEGER NOT NULL,
+    day_of_month INTEGER NOT NULL,
+    UNIQUE(ethiopian_month, day_of_month),
+    FOREIGN KEY (ethiopian_month) REFERENCES ethiopian_months(id)
+)
+------------------------------------------------------------------------------------------
+[TABLE] categories
+CREATE TABLE categories (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT,
+    name_amharic TEXT,
+    name_geez TEXT,
+    icon_name TEXT,
+    sort_order INTEGER NOT NULL DEFAULT 0
+)
+------------------------------------------------------------------------------------------
+[TABLE] chapters
+CREATE TABLE "chapters" (
+    id TEXT NOT NULL PRIMARY KEY,
+    book_id TEXT NOT NULL,
+    chapter_number INTEGER NOT NULL,
+    title TEXT,
+    description TEXT,
+    verse_count INTEGER NOT NULL DEFAULT 0,
+    block_count INTEGER NOT NULL DEFAULT 0,
+    estimated_read_minutes INTEGER NOT NULL DEFAULT 1,
+    FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
+)
+------------------------------------------------------------------------------------------
+[TABLE] commemorations
+CREATE TABLE commemorations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    calendar_day_id INTEGER NOT NULL,
+    feast_name TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id)
+)
+------------------------------------------------------------------------------------------
+[TABLE] content_blocks
+CREATE TABLE content_blocks (
+    id TEXT NOT NULL PRIMARY KEY,
+    chapter_id TEXT NOT NULL,
+    sequence INTEGER NOT NULL,
+    block_type TEXT NOT NULL,
+    indent_level INTEGER NOT NULL DEFAULT 0,
+    verse_number INTEGER,
+    verse_ethiopic TEXT,
+    text_plain TEXT NOT NULL
+)
+------------------------------------------------------------------------------------------
+[TABLE] cover_display_names
+CREATE TABLE cover_display_names (
+            cover_image TEXT NOT NULL PRIMARY KEY,
+            display_name TEXT NOT NULL,
+            subject_category TEXT,
+            subject_tag TEXT
+        )
+------------------------------------------------------------------------------------------
+[TABLE] cross_references
+CREATE TABLE cross_references (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    origin_ref TEXT,
+    target_refs TEXT
+)
+------------------------------------------------------------------------------------------
+[TABLE] ethiopian_months
+CREATE TABLE ethiopian_months (
+    id INTEGER PRIMARY KEY,
+    name_geez TEXT NOT NULL,
+    name_amharic TEXT NOT NULL,
+    name_english TEXT NOT NULL
+)
+------------------------------------------------------------------------------------------
+[TABLE] footnotes
+CREATE TABLE footnotes (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    marker TEXT,
+    footnote_text TEXT
+)
+------------------------------------------------------------------------------------------
+[TABLE] languages
+CREATE TABLE languages (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT NOT NULL,
+    name_native TEXT NOT NULL
+)
+------------------------------------------------------------------------------------------
+[TABLE] main_categories
+CREATE TABLE main_categories (id TEXT PRIMARY KEY, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER)
+------------------------------------------------------------------------------------------
+[TABLE] seasonal_periods
+CREATE TABLE seasonal_periods (
+  code TEXT PRIMARY KEY,
+  name_am TEXT,
+  name_en TEXT,
+  type TEXT,
+  start_month INTEGER,
+  start_day INTEGER,
+  end_month INTEGER,
+  end_day INTEGER,
+  is_movable INTEGER
+)
+------------------------------------------------------------------------------------------
+[TABLE] sqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+------------------------------------------------------------------------------------------
+[TABLE] sub_categories
+CREATE TABLE sub_categories (id TEXT PRIMARY KEY, main_category_id TEXT NOT NULL, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER, FOREIGN KEY (main_category_id) REFERENCES main_categories(id))
+------------------------------------------------------------------------------------------
+[TABLE] text_formats
+CREATE TABLE text_formats (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    format_type TEXT NOT NULL,
+    start_pos INTEGER NOT NULL,
+    end_pos INTEGER NOT NULL
+)
+------------------------------------------------------------------------------------------
+
+==========================================================================================
+2) ALL TABLE ROW COUNTS
+==========================================================================================
+book_calendar_mappings: 1262  <== CALENDAR-RELATED
+book_seasonal_mappings: 18  <== CALENDAR-RELATED
+books: 415  <== CALENDAR-RELATED
+calendar_days: 366  <== CALENDAR-RELATED
+categories: 19  <== CALENDAR-RELATED
+chapters: 2756
+commemorations: 4686  <== CALENDAR-RELATED
+content_blocks: 90149
+cover_display_names: 121
+cross_references: 2470
+ethiopian_months: 13  <== CALENDAR-RELATED
+footnotes: 306
+languages: 5  <== CALENDAR-RELATED
+main_categories: 9  <== CALENDAR-RELATED
+seasonal_periods: 5  <== CALENDAR-RELATED
+sub_categories: 35  <== CALENDAR-RELATED
+text_formats: 88163
+
+==========================================================================================
+3) DETAILED INSPECTION OF CALENDAR-RELATED TABLES
+==========================================================================================
+
+==========================================================================================
+TABLE: books
+==========================================================================================
+CREATE SQL:
+CREATE TABLE "books" (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id TEXT NOT NULL,
+    category_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    title_short TEXT,
+    description TEXT,
+    total_chapters INTEGER NOT NULL DEFAULT 0,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    subject_category TEXT DEFAULT '' NOT NULL,
+    subject_tag TEXT DEFAULT '' NOT NULL,
+    cover_image TEXT DEFAULT '' NOT NULL, main_category_id TEXT REFERENCES main_categories(id), sub_category_id TEXT REFERENCES sub_categories(id),
+    FOREIGN KEY (language_id) REFERENCES languages(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=TEXT notnull=1 default=None pk=1
+  cid=1 name=language_id type=TEXT notnull=1 default=None pk=0
+  cid=2 name=category_id type=TEXT notnull=1 default=None pk=0
+  cid=3 name=title type=TEXT notnull=1 default=None pk=0
+  cid=4 name=title_short type=TEXT notnull=0 default=None pk=0
+  cid=5 name=description type=TEXT notnull=0 default=None pk=0
+  cid=6 name=total_chapters type=INTEGER notnull=1 default=0 pk=0
+  cid=7 name=sort_order type=INTEGER notnull=1 default=0 pk=0
+  cid=8 name=subject_category type=TEXT notnull=1 default='' pk=0
+  cid=9 name=subject_tag type=TEXT notnull=1 default='' pk=0
+  cid=10 name=cover_image type=TEXT notnull=1 default='' pk=0
+  cid=11 name=main_category_id type=TEXT notnull=0 default=None pk=0
+  cid=12 name=sub_category_id type=TEXT notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=categories from=category_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+  id=1 seq=0 table=languages from=language_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+  id=2 seq=0 table=sub_categories from=sub_category_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+  id=3 seq=0 table=main_categories from=main_category_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+
+PRAGMA index_list:
+  seq=0 name=idx_books_lang_main unique=0 origin=c partial=0
+    seqno=0 cid=1 name=language_id
+    seqno=1 cid=11 name=main_category_id
+  seq=1 name=idx_books_sub_cat unique=0 origin=c partial=0
+    seqno=0 cid=12 name=sub_category_id
+  seq=2 name=idx_books_main_cat unique=0 origin=c partial=0
+    seqno=0 cid=11 name=main_category_id
+  seq=3 name=idx_books_subject_category unique=0 origin=c partial=0
+    seqno=0 cid=8 name=subject_category
+  seq=4 name=idx_books_language unique=0 origin=c partial=0
+    seqno=0 cid=1 name=language_id
+  seq=5 name=idx_books_cover unique=0 origin=c partial=0
+    seqno=0 cid=10 name=cover_image
+  seq=6 name=idx_books_category unique=0 origin=c partial=0
+    seqno=0 cid=2 name=category_id
+  seq=7 name=sqlite_autoindex_books_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=id
+
+ROW COUNT: 415
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+------------------------------------------------------------------------------------------
+ROW 1: id=AM-BEE-001 || language_id=AM || category_id=TSE || title=በእንተ ቅድሳት በአማርኛ || title_short=በእንተ ቅድሳት በአማርኛ || description= || total_chapters=1 || sort_order=7 || subject_category=TSADQAN || subject_tag=በእንተቅድሳት || cover_image= || main_category_id=MC-09 || sub_category_id=SC-09-04
+ROW 2: id=AM-DIR-001 || language_id=AM || category_id=TSE || title=የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ || title_short=የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ || description= || total_chapters=1 || sort_order=10 || subject_category=MALAKT || subject_tag=ሰባቱሊቃነ || cover_image=tselot_cover_113.jpg || main_category_id=MC-04 || sub_category_id=SC-04-01
+ROW 3: id=AM-ENZ-001 || language_id=AM || category_id=ENZ || title=እንዚራ ስብሐት በአማርኛ || title_short=እንዚራ ስብሐት በአማርኛ || description= || total_chapters=8 || sort_order=1 || subject_category=AMLAK || subject_tag=እንዚራ || cover_image=tselot_cover_108.jpg || main_category_id=MC-03 || sub_category_id=SC-03-04
+ROW 4: id=AM-GOL-001 || language_id=AM || category_id=TSE || title=የሰኔ ጎልጎታ በአማርኛ || title_short=የሰኔ ጎልጎታ በአማርኛ || description= || total_chapters=1 || sort_order=12 || subject_category=MARIAM || subject_tag=ጎልጎታ || cover_image=tselot_cover_115.jpg || main_category_id=MC-08 || sub_category_id=SC-08-02
+ROW 5: id=AM-KID-001 || language_id=AM || category_id=TSE || title=መዓዛ ቅዳሴ በአማርኛ || title_short=መዓዛ ቅዳሴ በአማርኛ || description= || total_chapters=1 || sort_order=2 || subject_category=AMLAK || subject_tag=ቅዳሴ || cover_image=tselot_cover_96.jpg || main_category_id=MC-09 || sub_category_id=SC-09-04
+ROW 6: id=AM-KOH-001 || language_id=AM || category_id=KOH || title=ኆኅተ ብርሃን በአማርኛ || title_short=ኆኅተ ብርሃን በአማርኛ || description= || total_chapters=6 || sort_order=1 || subject_category=AMLAK || subject_tag=ኆኅተ || cover_image=tselot_cover_103.jpg || main_category_id=MC-03 || sub_category_id=SC-03-04
+ROW 7: id=AM-LAH-001 || language_id=AM || category_id=LAH || title=ላሐ ማርያም በአማርኛ || title_short=ላሐ ማርያም በአማርኛ || description= || total_chapters=8 || sort_order=1 || subject_category=MARIAM || subject_tag=ላሐ || cover_image=tselot_cover_2.jpg || main_category_id=MC-08 || sub_category_id=SC-08-02
+ROW 8: id=AM-LIT-001 || language_id=AM || category_id=TSE || title=የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ || title_short=የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ || description= || total_chapters=7 || sort_order=11 || subject_category=AMLAK || subject_tag=ሊጦን || cover_image=tselot_cover_114.jpg || main_category_id=MC-01 || sub_category_id=SC-01-02
+ROW 9: id=AM-MEL-001 || language_id=AM || category_id=MEL || title=መልክአ ኖላዊ በአማርኛ || title_short=መልክአ ኖላዊ በአማርኛ || description= || total_chapters=1 || sort_order=1 || subject_category=AMLAK || subject_tag=ኖላዊ || cover_image=tselot_cover_4.jpg || main_category_id=MC-06 || sub_category_id=SC-06-01
+ROW 10: id=AM-MEL-002 || language_id=AM || category_id=MEL || title=መልክአ ኢየሱስ በአማርኛ || title_short=መልክአ ኢየሱስ በአማርኛ || description= || total_chapters=1 || sort_order=2 || subject_category=AMLAK || subject_tag=ኢየሱስ || cover_image= || main_category_id=MC-06 || sub_category_id=SC-06-01
+ROW 11: id=AM-MEL-003 || language_id=AM || category_id=MEL || title=መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ || title_short=መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ || description= || total_chapters=1 || sort_order=3 || subject_category=TSADQAN || subject_tag=አቢብ || cover_image=tselot_cover_5.jpg || main_category_id=MC-06 || sub_category_id=SC-06-03
+ROW 12: id=AM-MEL-004 || language_id=AM || category_id=MEL || title=መልክዐ ሕማማተ መስቀል በአማርኛ || title_short=መልክዐ ሕማማተ መስቀል በአማርኛ || description= || total_chapters=1 || sort_order=4 || subject_category=AMLAK || subject_tag=መስቀል || cover_image=tselot_cover_18.jpg || main_category_id=MC-06 || sub_category_id=SC-06-01
+ROW 13: id=AM-MEL-005 || language_id=AM || category_id=MEL || title=መልክዐ መቃርዮስ በአማርኛ || title_short=መልክዐ መቃርዮስ አማርኛ || description= || total_chapters=1 || sort_order=5 || subject_category=TSADQAN || subject_tag=መቃርዮስ || cover_image= || main_category_id=MC-06 || sub_category_id=SC-06-03
+ROW 14: id=AM-MEL-006 || language_id=AM || category_id=MEL || title=መልክዐ ሚካኤል በአማርኛ || title_short=መልክዐ ሚካኤል በአማርኛ || description= || total_chapters=1 || sort_order=6 || subject_category=MALAKT || subject_tag=ሚካኤል || cover_image=tselot_cover_6.jpg || main_category_id=MC-06 || sub_category_id=SC-06-01
+ROW 15: id=AM-MEL-007 || language_id=AM || category_id=MEL || title=መልክዐ ማሕየዊ በአማርኛ || title_short=መልክዐ ማሕየዊ በአማርኛ || description= || total_chapters=1 || sort_order=7 || subject_category=AMLAK || subject_tag=ማሕየዊ || cover_image= || main_category_id=MC-06 || sub_category_id=SC-06-01
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=415
+    AM-BEE-001  => 1
+    AM-DIR-001  => 1
+    AM-DRS-001  => 1
+    AM-DRS-002  => 1
+    AM-DRS-003  => 1
+    AM-DRS-004  => 1
+    AM-DRS-005  => 1
+    AM-DRS-006  => 1
+    AM-DRS-007  => 1
+    AM-DRS-008  => 1
+    AM-DRS-009  => 1
+    AM-DRS-010  => 1
+    AM-ENZ-001  => 1
+    AM-ETA-001  => 1
+    AM-GDL-001  => 1
+    AM-GDL-002  => 1
+    AM-GDL-003  => 1
+    AM-GDL-004  => 1
+    AM-GDL-005  => 1
+    AM-GDL-006  => 1
+    AM-GDL-007  => 1
+    AM-GDL-008  => 1
+    AM-GDL-009  => 1
+    AM-GDL-010  => 1
+    AM-GDL-011  => 1
+    AM-GDL-012  => 1
+    AM-GDL-013  => 1
+    AM-GDL-014  => 1
+    AM-GDL-015  => 1
+    AM-GDL-016  => 1
+    AM-GDL-017  => 1
+    AM-GDL-018  => 1
+    AM-GDL-019  => 1
+    AM-GDL-020  => 1
+    AM-GDL-021  => 1
+    AM-GDL-022  => 1
+    AM-GDL-023  => 1
+    AM-GDL-024  => 1
+    AM-GDL-025  => 1
+    AM-GDL-026  => 1
+  COLUMN `language_id` distinct=5
+    GZ  => 251
+    AM  => 145
+    TI  => 13
+    OR  => 4
+    EN  => 2
+  COLUMN `category_id` distinct=18
+    MEL  => 233
+    GDL  => 66
+    TSE  => 38
+    DRS  => 20
+    WUD  => 10
+    MZM  => 8
+    ZNA  => 7
+    TAM  => 6
+    MET  => 5
+    TEA  => 5
+    MTS  => 4
+    SEY  => 4
+    ENZ  => 2
+    KOH  => 2
+    LAH  => 2
+    HAT  => 1
+    SME  => 1
+    TBB  => 1
+  COLUMN `total_chapters` distinct=31
+    1  => 285
+    8  => 23
+    13  => 15
+    7  => 12
+    2  => 10
+    12  => 9
+    14  => 9
+    9  => 7
+    10  => 4
+    4  => 3
+    5  => 3
+    6  => 3
+    15  => 3
+    99  => 3
+    3  => 2
+    11  => 2
+    20  => 2
+    21  => 2
+    22  => 2
+    27  => 2
+    32  => 2
+    65  => 2
+    151  => 2
+    16  => 1
+    19  => 1
+    31  => 1
+    64  => 1
+    88  => 1
+    95  => 1
+    98  => 1
+    149  => 1
+  COLUMN `sort_order` distinct=233
+    0  => 106
+    1  => 11
+    2  => 10
+    3  => 7
+    4  => 7
+    5  => 6
+    6  => 4
+    7  => 4
+    8  => 4
+    9  => 3
+    10  => 3
+    11  => 3
+    12  => 2
+    13  => 2
+    14  => 2
+    15  => 2
+    16  => 2
+    17  => 2
+    18  => 2
+    19  => 2
+    20  => 2
+    21  => 2
+    22  => 2
+    23  => 2
+    24  => 2
+    25  => 2
+    26  => 2
+    27  => 2
+    28  => 2
+    29  => 2
+    30  => 2
+    31  => 2
+    32  => 2
+    33  => 2
+    34  => 2
+    35  => 2
+    36  => 2
+    37  => 2
+    38  => 1
+    39  => 1
+  COLUMN `subject_category` distinct=9
+    TSADQAN  => 157
+    AMLAK  => 98
+    SAMAET  => 44
+    MARIAM  => 41
+    MALAKT  => 36
+    HAWARYAT  => 19
+    NEBIYAT  => 13
+    TESATU  => 6
+    HAYMANOT  => 1
+  COLUMN `subject_tag` distinct=204
+    መስቀል  => 14
+    ሥላሴ  => 12
+    ሚካኤል  => 10
+    ጊዮርጊስ  => 9
+    መዝሙረዳዊት  => 8
+    ኢየሱስ  => 6
+    ዘወትር  => 6
+    ዮሐንስወንጌላዊ  => 6
+    መልክዕ  => 5
+    መድኃኔዓለም  => 5
+    ሳሙኤልዘዋልድባ  => 5
+    ተክለሃይማኖት  => 5
+    እስጢፋኖስ  => 5
+    ገብርኤል  => 5
+    ገድል  => 5
+    ሊባኖስ  => 4
+    ሐዋርያት  => 4
+    ራጉኤል  => 4
+    ቴዎድሮስ  => 4
+    አቢብ  => 4
+    ውዳሴ  => 4
+    ዑራኤል  => 4
+    ፍልሰታ  => 4
+    ሐና  => 3
+    መዝሙረክርስቶስ  => 3
+    ማርቆስ  => 3
+    ምክሓ  => 3
+    ሥዕል  => 3
+    ሩፋኤል  => 3
+    በእንተቅድሳት  => 3
+    አርሴማ  => 3
+    አእላፍ  => 3
+    ኤልያስ  => 3
+    ኪዳን  => 3
+    ክርስቶስ  => 3
+    ውዳሴአምላክ  => 3
+    ያሬድ  => 3
+    ጴጥሮስ  => 3
+    ፊልጶስ  => 3
+    ፊቅጦር  => 3
+  COLUMN `cover_image` distinct=122
+      => 181
+    tselot_cover_21.jpg  => 10
+    tselot_cover_42.jpg  => 9
+    tselot_cover_30.jpg  => 8
+    tselot_cover_39.jpg  => 6
+    tselot_cover_19.jpg  => 5
+    tselot_cover_20.jpg  => 5
+    tselot_cover_54.jpg  => 5
+    tselot_cover_57.jpg  => 5
+    tselot_cover_6.jpg  => 5
+    tselot_cover_110.jpg  => 4
+    tselot_cover_5.jpg  => 4
+    tselot_cover_94.jpg  => 4
+    tselot_cover_1.jpg  => 3
+    tselot_cover_111.jpg  => 3
+    tselot_cover_12.jpg  => 3
+    tselot_cover_120.jpg  => 3
+    tselot_cover_32.jpg  => 3
+    tselot_cover_37.jpg  => 3
+    tselot_cover_48.jpg  => 3
+    tselot_cover_100.jpg  => 2
+    tselot_cover_101.jpg  => 2
+    tselot_cover_102.jpg  => 2
+    tselot_cover_103.jpg  => 2
+    tselot_cover_108.jpg  => 2
+    tselot_cover_109.jpg  => 2
+    tselot_cover_11.jpg  => 2
+    tselot_cover_114.jpg  => 2
+    tselot_cover_116.jpg  => 2
+    tselot_cover_117.jpg  => 2
+    tselot_cover_118.jpg  => 2
+    tselot_cover_18.jpg  => 2
+    tselot_cover_2.jpg  => 2
+    tselot_cover_29.jpg  => 2
+    tselot_cover_31.jpg  => 2
+    tselot_cover_33.jpg  => 2
+    tselot_cover_34.jpg  => 2
+    tselot_cover_38.jpg  => 2
+    tselot_cover_41.jpg  => 2
+    tselot_cover_43.jpg  => 2
+  COLUMN `main_category_id` distinct=9
+    MC-06  => 233
+    MC-05  => 66
+    MC-04  => 23
+    MC-09  => 22
+    MC-03  => 20
+    MC-08  => 14
+    MC-01  => 13
+    MC-07  => 13
+    MC-02  => 11
+  COLUMN `sub_category_id` distinct=35
+    SC-06-03  => 157
+    SC-06-01  => 61
+    SC-05-04  => 31
+    SC-05-02  => 19
+    SC-06-02  => 15
+    SC-04-01  => 10
+    SC-09-04  => 10
+    SC-04-02  => 9
+    SC-03-05  => 7
+    SC-05-03  => 7
+    SC-08-02  => 7
+    SC-05-05  => 6
+    SC-01-01  => 5
+    SC-01-02  => 5
+    SC-02-01  => 4
+    SC-02-02  => 4
+    SC-03-01  => 4
+    SC-03-04  => 4
+    SC-04-03  => 4
+    SC-07-02  => 4
+    SC-07-04  => 4
+    SC-09-01  => 4
+    SC-09-03  => 4
+    SC-01-03  => 3
+    SC-02-03  => 3
+    SC-03-02  => 3
+    SC-05-01  => 3
+    SC-07-03  => 3
+    SC-08-03  => 3
+    SC-03-03  => 2
+    SC-07-01  => 2
+    SC-08-01  => 2
+    SC-08-04  => 2
+    SC-09-02  => 2
+    SC-09-05  => 2
+
+==========================================================================================
+TABLE: book_calendar_mappings
+==========================================================================================
+CREATE SQL:
+CREATE TABLE book_calendar_mappings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id TEXT NOT NULL,
+            calendar_day_id INTEGER,
+            ethiopian_month INTEGER,
+            ethiopian_day INTEGER,
+            is_annual INTEGER NOT NULL DEFAULT 0,
+            is_primary_feast INTEGER NOT NULL DEFAULT 1,
+            reading_cycle TEXT NOT NULL DEFAULT 'CALENDAR',
+            weekday_number INTEGER,
+            season_code TEXT,
+            app_section TEXT NOT NULL DEFAULT 'TODAYS_FEAST',
+            notes TEXT,
+            FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE,
+            FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id) ON DELETE SET NULL
+        )
+
+PRAGMA table_info:
+  cid=0 name=id type=INTEGER notnull=0 default=None pk=1
+  cid=1 name=book_id type=TEXT notnull=1 default=None pk=0
+  cid=2 name=calendar_day_id type=INTEGER notnull=0 default=None pk=0
+  cid=3 name=ethiopian_month type=INTEGER notnull=0 default=None pk=0
+  cid=4 name=ethiopian_day type=INTEGER notnull=0 default=None pk=0
+  cid=5 name=is_annual type=INTEGER notnull=1 default=0 pk=0
+  cid=6 name=is_primary_feast type=INTEGER notnull=1 default=1 pk=0
+  cid=7 name=reading_cycle type=TEXT notnull=1 default='CALENDAR' pk=0
+  cid=8 name=weekday_number type=INTEGER notnull=0 default=None pk=0
+  cid=9 name=season_code type=TEXT notnull=0 default=None pk=0
+  cid=10 name=app_section type=TEXT notnull=1 default='TODAYS_FEAST' pk=0
+  cid=11 name=notes type=TEXT notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=calendar_days from=calendar_day_id to=id on_update=NO ACTION on_delete=SET NULL match=NONE
+  id=1 seq=0 table=books from=book_id to=id on_update=NO ACTION on_delete=CASCADE match=NONE
+
+PRAGMA index_list:
+  seq=0 name=idx_bcm_section unique=0 origin=c partial=0
+    seqno=0 cid=10 name=app_section
+  seq=1 name=idx_bcm_season unique=0 origin=c partial=0
+    seqno=0 cid=9 name=season_code
+  seq=2 name=idx_bcm_cycle_weekday unique=0 origin=c partial=0
+    seqno=0 cid=7 name=reading_cycle
+    seqno=1 cid=8 name=weekday_number
+  seq=3 name=idx_bcm_book unique=0 origin=c partial=0
+    seqno=0 cid=1 name=book_id
+  seq=4 name=idx_bcm_lookup unique=0 origin=c partial=0
+    seqno=0 cid=3 name=ethiopian_month
+    seqno=1 cid=4 name=ethiopian_day
+
+ROW COUNT: 1262
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | book_id | calendar_day_id | ethiopian_month | ethiopian_day | is_annual | is_primary_feast | reading_cycle | weekday_number | season_code | app_section | notes
+------------------------------------------------------------------------------------------
+ROW 1: id=1 || book_id=AM-BEE-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number= || season_code= || app_section=DAILY_BREVIARY || notes=Divine Liturgy Intercessions
+ROW 2: id=5 || book_id=AM-DRS-002 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=WEEKLY || weekday_number=6 || season_code= || app_section=WEEKLY_CYCLE || notes=Qadamit Senbet (Saturday)
+ROW 3: id=6 || book_id=AM-DRS-002 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=WEEKLY || weekday_number=7 || season_code= || app_section=WEEKLY_CYCLE || notes=Senbete Kirstiyan (Sunday)
+ROW 4: id=47 || book_id=AM-GDL-002 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=LIBRARY || weekday_number= || season_code= || app_section=LIBRARY || notes=General Devotional
+ROW 5: id=48 || book_id=AM-GDL-003 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=LIBRARY || weekday_number= || season_code= || app_section=LIBRARY || notes=General Devotional
+ROW 6: id=118 || book_id=AM-KID-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=LIBRARY || weekday_number= || season_code= || app_section=LIBRARY || notes=Liturgy Preparation and Meditation
+ROW 7: id=133 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=1 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 8: id=134 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=2 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 9: id=135 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=3 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 10: id=136 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=4 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 11: id=137 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=5 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 12: id=138 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=6 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 13: id=139 || book_id=AM-LIT-001 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=1 || reading_cycle=DAILY || weekday_number=7 || season_code= || app_section=DAILY_BREVIARY || notes=Daily Liton Supplications
+ROW 14: id=208 || book_id=AM-MEL-025 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=0 || is_primary_feast=0 || reading_cycle=LIBRARY || weekday_number= || season_code= || app_section=LIBRARY || notes=National Intercessions
+ROW 15: id=219 || book_id=AM-MEL-029 || calendar_day_id= || ethiopian_month= || ethiopian_day= || is_annual=1 || is_primary_feast=1 || reading_cycle=SEASONAL || weekday_number= || season_code=PENTECOST || app_section=SEASONAL || notes=Movable Feast of Pentecost
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=1262
+    1  => 1
+    5  => 1
+    6  => 1
+    47  => 1
+    48  => 1
+    118  => 1
+    133  => 1
+    134  => 1
+    135  => 1
+    136  => 1
+    137  => 1
+    138  => 1
+    139  => 1
+    208  => 1
+    219  => 1
+    325  => 1
+    341  => 1
+    342  => 1
+    343  => 1
+    344  => 1
+    345  => 1
+    346  => 1
+    347  => 1
+    353  => 1
+    390  => 1
+    391  => 1
+    392  => 1
+    393  => 1
+    394  => 1
+    395  => 1
+    396  => 1
+    397  => 1
+    398  => 1
+    399  => 1
+    400  => 1
+    404  => 1
+    405  => 1
+    406  => 1
+    407  => 1
+    408  => 1
+  COLUMN `book_id` distinct=282
+    AM-WUD-002  => 16
+    GZ-WUD-002  => 16
+    TI-WUD-001  => 16
+    AM-GDL-013  => 11
+    AM-GDL-027  => 11
+    AM-MEL-016  => 11
+    AM-MEL-021  => 11
+    AM-MEL-047  => 11
+    GZ-GDL-018  => 11
+    GZ-MEL-061  => 11
+    GZ-MEL-062  => 11
+    GZ-MEL-109  => 11
+    GZ-MEL-110  => 11
+    GZ-MEL-149  => 11
+    GZ-MEL-150  => 11
+    AM-ENZ-001  => 10
+    AM-ETA-001  => 10
+    AM-GDL-002  => 10
+    AM-GDL-003  => 10
+    AM-KOH-001  => 10
+    AM-MEL-001  => 10
+    AM-MEL-010  => 10
+    AM-MEL-026  => 10
+    AM-MTS-001  => 10
+    AM-SEY-002  => 10
+    AM-TEA-001  => 10
+    AM-TEA-002  => 10
+    AM-TEA-003  => 10
+    AM-ZNA-001  => 10
+    GZ-ENZ-001  => 10
+    GZ-KOH-001  => 10
+    GZ-MEL-001  => 10
+    GZ-MEL-008  => 10
+    GZ-MEL-009  => 10
+    GZ-MEL-035  => 10
+    GZ-MTS-003  => 10
+    GZ-SEY-002  => 10
+    GZ-TAM-003  => 10
+    GZ-TEA-001  => 10
+    GZ-TEA-002  => 10
+  COLUMN `calendar_day_id` distinct=76
+    NULL  => 892
+    241  => 25
+    346  => 25
+    21  => 24
+    141  => 24
+    113  => 14
+    17  => 13
+    282  => 13
+    2  => 12
+    32  => 12
+    72  => 12
+    180  => 12
+    354  => 9
+    190  => 8
+    109  => 7
+    114  => 7
+    1  => 6
+    55  => 5
+    86  => 5
+    91  => 5
+    119  => 5
+    225  => 5
+    252  => 5
+    319  => 5
+    331  => 5
+    126  => 4
+    337  => 4
+    366  => 4
+    24  => 3
+    26  => 3
+    35  => 3
+    66  => 3
+    87  => 3
+    95  => 3
+    123  => 3
+    125  => 3
+    185  => 3
+    186  => 3
+    207  => 3
+    237  => 3
+  COLUMN `ethiopian_month` distinct=13
+    NULL  => 892
+    1  => 63
+    12  => 47
+    4  => 45
+    9  => 42
+    5  => 40
+    3  => 29
+    2  => 23
+    6  => 20
+    7  => 17
+    10  => 16
+    11  => 14
+    8  => 10
+    13  => 4
+  COLUMN `ethiopian_day` distinct=28
+    NULL  => 529
+    21  => 86
+    1  => 84
+    12  => 64
+    16  => 63
+    24  => 51
+    2  => 38
+    23  => 33
+    26  => 32
+    3  => 30
+    7  => 29
+    14  => 29
+    30  => 24
+    5  => 22
+    19  => 22
+    17  => 18
+    27  => 17
+    6  => 16
+    4  => 14
+    29  => 14
+    20  => 13
+    10  => 10
+    25  => 6
+    15  => 5
+    11  => 4
+    13  => 3
+    8  => 2
+    22  => 2
+    28  => 2
+  COLUMN `is_annual` distinct=2
+    0  => 876
+    1  => 386
+  COLUMN `is_primary_feast` distinct=2
+    1  => 927
+    0  => 335
+  COLUMN `reading_cycle` distinct=5
+    CALENDAR  => 733
+    WEEKLY  => 337
+    DAILY  => 157
+    LIBRARY  => 19
+    SEASONAL  => 16
+  COLUMN `weekday_number` distinct=7
+    NULL  => 855
+    3  => 59
+    5  => 59
+    6  => 59
+    7  => 59
+    1  => 57
+    2  => 57
+    4  => 57
+  COLUMN `season_code` distinct=8
+    NULL  => 1238
+    SEMUNE_HIMAMAT  => 7
+    GREAT_LENT  => 6
+    MESKEREM_26_HIDAR_5  => 3
+    HEALING  => 2
+    PENTECOST  => 2
+    WED_FRI_HIMAMAT  => 2
+    FITHAT  => 1
+    HIMAMAT  => 1
+  COLUMN `app_section` distinct=5
+    TODAYS_FEAST  => 733
+    WEEKLY_CYCLE  => 337
+    DAILY_BREVIARY  => 157
+    LIBRARY  => 19
+    SEASONAL  => 16
+
+==========================================================================================
+TABLE: book_seasonal_mappings
+==========================================================================================
+CREATE SQL:
+CREATE TABLE book_seasonal_mappings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  book_id TEXT,
+  season_code TEXT,
+  reading_order INTEGER,
+  notes TEXT,
+  FOREIGN KEY(book_id) REFERENCES books(id),
+  FOREIGN KEY(season_code) REFERENCES seasonal_periods(code)
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=INTEGER notnull=0 default=None pk=1
+  cid=1 name=book_id type=TEXT notnull=0 default=None pk=0
+  cid=2 name=season_code type=TEXT notnull=0 default=None pk=0
+  cid=3 name=reading_order type=INTEGER notnull=0 default=None pk=0
+  cid=4 name=notes type=TEXT notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=seasonal_periods from=season_code to=code on_update=NO ACTION on_delete=NO ACTION match=NONE
+  id=1 seq=0 table=books from=book_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+
+PRAGMA index_list:
+  (none)
+
+ROW COUNT: 18
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | book_id | season_code | reading_order | notes
+------------------------------------------------------------------------------------------
+ROW 1: id=1 || book_id=GZ-SEL-001 || season_code=FILSETA_1_16 || reading_order=0 || notes=ከነሐሴ 1 እስከ 16
+ROW 2: id=2 || book_id=AM-SEL-001 || season_code=FILSETA_1_16 || reading_order=0 || notes=ከነሐሴ 1 እስከ 16
+ROW 3: id=3 || book_id=GZ-TEA-002 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=Daily / Monthly Day ሰሙነ ሕማማት
+ROW 4: id=4 || book_id=AM-TEA-002 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=Daily / Monthly Day ሰሙነ ሕማማት
+ROW 5: id=5 || book_id=GZ-TEA-003 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=Daily / Monthly Day ሰሙነ ሕማማት
+ROW 6: id=6 || book_id=AM-TEA-003 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=Daily / Monthly Day ሰሙነ ሕማማት
+ROW 7: id=7 || book_id=GZ-TAM-003 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=Daily / Monthly Day ሰሙነ ሕማማት
+ROW 8: id=8 || book_id=GZ-MEL-029 || season_code=WED_FRI_HIMAMAT || reading_order=0 || notes=ረቡዕ አርብ ሕማማት ሳምንት
+ROW 9: id=9 || book_id=AM-MEL-007 || season_code=WED_FRI_HIMAMAT || reading_order=0 || notes=ረቡዕ አርብ ሕማማት ሳምንት
+ROW 10: id=10 || book_id=GZ-MEL-046 || season_code=GREAT_LENT || reading_order=0 || notes=በዓቢይ ጾም variable no date
+ROW 11: id=11 || book_id=AM-MEL-011 || season_code=GREAT_LENT || reading_order=0 || notes=በዓቢይ ጾም variable no date
+ROW 12: id=12 || book_id=GZ-MEL-024 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=በሰሙነ ሕማማት no date
+ROW 13: id=13 || book_id=AM-MEL-004 || season_code=SEMUNE_HIMAMAT || reading_order=0 || notes=በሰሙነ ሕማማት no date
+ROW 14: id=14 || book_id=GZ-MEL-037 || season_code=MESKEREM_26_HIDAR_5 || reading_order=0 || notes=ከመስከረም 26 እስከ ኅዳር 5 ቀን
+ROW 15: id=15 || book_id=AM-MEL-032 || season_code=MESKEREM_26_HIDAR_5 || reading_order=0 || notes=ከመስከረም 26 እስከ ኅዳር 5 ቀን
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=18
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+    10  => 1
+    11  => 1
+    12  => 1
+    13  => 1
+    14  => 1
+    15  => 1
+    16  => 1
+    17  => 1
+    18  => 1
+  COLUMN `book_id` distinct=18
+    AM-MEL-004  => 1
+    AM-MEL-007  => 1
+    AM-MEL-011  => 1
+    AM-MEL-030  => 1
+    AM-MEL-032  => 1
+    AM-SEL-001  => 1
+    AM-TEA-002  => 1
+    AM-TEA-003  => 1
+    GZ-MEL-024  => 1
+    GZ-MEL-029  => 1
+    GZ-MEL-037  => 1
+    GZ-MEL-046  => 1
+    GZ-MEL-163  => 1
+    GZ-SEL-001  => 1
+    GZ-TAM-003  => 1
+    GZ-TEA-002  => 1
+    GZ-TEA-003  => 1
+    TI-MEL-001  => 1
+  COLUMN `season_code` distinct=5
+    SEMUNE_HIMAMAT  => 7
+    FILSETA_1_16  => 4
+    MESKEREM_26_HIDAR_5  => 3
+    GREAT_LENT  => 2
+    WED_FRI_HIMAMAT  => 2
+  COLUMN `reading_order` distinct=1
+    0  => 18
+
+==========================================================================================
+TABLE: calendar_days
+==========================================================================================
+CREATE SQL:
+CREATE TABLE calendar_days (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ethiopian_month INTEGER NOT NULL,
+    day_of_month INTEGER NOT NULL,
+    UNIQUE(ethiopian_month, day_of_month),
+    FOREIGN KEY (ethiopian_month) REFERENCES ethiopian_months(id)
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=INTEGER notnull=0 default=None pk=1
+  cid=1 name=ethiopian_month type=INTEGER notnull=1 default=None pk=0
+  cid=2 name=day_of_month type=INTEGER notnull=1 default=None pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=ethiopian_months from=ethiopian_month to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+
+PRAGMA index_list:
+  seq=0 name=idx_calendar_month_day unique=0 origin=c partial=0
+    seqno=0 cid=1 name=ethiopian_month
+    seqno=1 cid=2 name=day_of_month
+  seq=1 name=idx_day_month unique=0 origin=c partial=0
+    seqno=0 cid=1 name=ethiopian_month
+    seqno=1 cid=2 name=day_of_month
+  seq=2 name=sqlite_autoindex_calendar_days_1 unique=1 origin=u partial=0
+    seqno=0 cid=1 name=ethiopian_month
+    seqno=1 cid=2 name=day_of_month
+
+ROW COUNT: 366
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | ethiopian_month | day_of_month
+------------------------------------------------------------------------------------------
+ROW 1: id=1 || ethiopian_month=1 || day_of_month=1
+ROW 2: id=2 || ethiopian_month=1 || day_of_month=2
+ROW 3: id=3 || ethiopian_month=1 || day_of_month=3
+ROW 4: id=4 || ethiopian_month=1 || day_of_month=4
+ROW 5: id=5 || ethiopian_month=1 || day_of_month=5
+ROW 6: id=6 || ethiopian_month=1 || day_of_month=6
+ROW 7: id=7 || ethiopian_month=1 || day_of_month=7
+ROW 8: id=8 || ethiopian_month=1 || day_of_month=8
+ROW 9: id=9 || ethiopian_month=1 || day_of_month=9
+ROW 10: id=10 || ethiopian_month=1 || day_of_month=10
+ROW 11: id=11 || ethiopian_month=1 || day_of_month=11
+ROW 12: id=12 || ethiopian_month=1 || day_of_month=12
+ROW 13: id=13 || ethiopian_month=1 || day_of_month=13
+ROW 14: id=14 || ethiopian_month=1 || day_of_month=14
+ROW 15: id=15 || ethiopian_month=1 || day_of_month=15
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=366
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+    10  => 1
+    11  => 1
+    12  => 1
+    13  => 1
+    14  => 1
+    15  => 1
+    16  => 1
+    17  => 1
+    18  => 1
+    19  => 1
+    20  => 1
+    21  => 1
+    22  => 1
+    23  => 1
+    24  => 1
+    25  => 1
+    26  => 1
+    27  => 1
+    28  => 1
+    29  => 1
+    30  => 1
+    31  => 1
+    32  => 1
+    33  => 1
+    34  => 1
+    35  => 1
+    36  => 1
+    37  => 1
+    38  => 1
+    39  => 1
+    40  => 1
+  COLUMN `ethiopian_month` distinct=13
+    1  => 30
+    2  => 30
+    3  => 30
+    4  => 30
+    5  => 30
+    6  => 30
+    7  => 30
+    8  => 30
+    9  => 30
+    10  => 30
+    11  => 30
+    12  => 30
+    13  => 6
+  COLUMN `day_of_month` distinct=30
+    1  => 13
+    2  => 13
+    3  => 13
+    4  => 13
+    5  => 13
+    6  => 13
+    7  => 12
+    8  => 12
+    9  => 12
+    10  => 12
+    11  => 12
+    12  => 12
+    13  => 12
+    14  => 12
+    15  => 12
+    16  => 12
+    17  => 12
+    18  => 12
+    19  => 12
+    20  => 12
+    21  => 12
+    22  => 12
+    23  => 12
+    24  => 12
+    25  => 12
+    26  => 12
+    27  => 12
+    28  => 12
+    29  => 12
+    30  => 12
+
+==========================================================================================
+TABLE: commemorations
+==========================================================================================
+CREATE SQL:
+CREATE TABLE commemorations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    calendar_day_id INTEGER NOT NULL,
+    feast_name TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id)
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=INTEGER notnull=0 default=None pk=1
+  cid=1 name=calendar_day_id type=INTEGER notnull=1 default=None pk=0
+  cid=2 name=feast_name type=TEXT notnull=1 default=None pk=0
+  cid=3 name=sort_order type=INTEGER notnull=1 default=0 pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=calendar_days from=calendar_day_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+
+PRAGMA index_list:
+  seq=0 name=idx_comm_day unique=0 origin=c partial=0
+    seqno=0 cid=1 name=calendar_day_id
+
+ROW COUNT: 4686
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | calendar_day_id | feast_name | sort_order
+------------------------------------------------------------------------------------------
+ROW 1: id=1 || calendar_day_id=1 || feast_name=እንቁጣጣሽ (የአዲስ ዓመት መባቻ - ርዕሰ ዐውደ ዓመት) || sort_order=1
+ROW 2: id=2 || calendar_day_id=1 || feast_name=ልደታ ማርያም (ወርሃዊ) || sort_order=2
+ROW 3: id=3 || calendar_day_id=1 || feast_name=ቅዱስ ራጉኤል መልአክ || sort_order=3
+ROW 4: id=4 || calendar_day_id=1 || feast_name=ቅዱስ አትናቴዎስ || sort_order=4
+ROW 5: id=5 || calendar_day_id=2 || feast_name=አባ ጉባ || sort_order=1
+ROW 6: id=6 || calendar_day_id=2 || feast_name=ቅዱስ ኤራቅሊ || sort_order=2
+ROW 7: id=7 || calendar_day_id=2 || feast_name=አባ በሶይ || sort_order=3
+ROW 8: id=8 || calendar_day_id=3 || feast_name=በዓታ ለማርያም || sort_order=1
+ROW 9: id=9 || calendar_day_id=3 || feast_name=አቡነ ዜና ማርቆስ || sort_order=2
+ROW 10: id=10 || calendar_day_id=3 || feast_name=ቅዱስ ፋኑኤል መልአክ || sort_order=3
+ROW 11: id=11 || calendar_day_id=3 || feast_name=ቅዱስ ቄርሎስ || sort_order=4
+ROW 12: id=12 || calendar_day_id=4 || feast_name=ቅዱስ ዮሐንስ ወልደ ነጎድጓድ || sort_order=1
+ROW 13: id=13 || calendar_day_id=4 || feast_name=አባ መቃርስ || sort_order=2
+ROW 14: id=14 || calendar_day_id=4 || feast_name=ቅዱስ ፊቅጦር || sort_order=3
+ROW 15: id=15 || calendar_day_id=5 || feast_name=አቡነ ገብረ መንፈስ ቅዱስ (ወርሃዊ) || sort_order=1
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=4686
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+    10  => 1
+    11  => 1
+    12  => 1
+    13  => 1
+    14  => 1
+    15  => 1
+    16  => 1
+    17  => 1
+    18  => 1
+    19  => 1
+    20  => 1
+    21  => 1
+    22  => 1
+    23  => 1
+    24  => 1
+    25  => 1
+    26  => 1
+    27  => 1
+    28  => 1
+    29  => 1
+    30  => 1
+    31  => 1
+    32  => 1
+    33  => 1
+    34  => 1
+    35  => 1
+    36  => 1
+    37  => 1
+    38  => 1
+    39  => 1
+    40  => 1
+  COLUMN `calendar_day_id` distinct=366
+    36  => 21
+    10  => 19
+    119  => 19
+    126  => 19
+    186  => 19
+    246  => 19
+    306  => 19
+    343  => 19
+    66  => 18
+    163  => 18
+    231  => 18
+    6  => 17
+    17  => 17
+    49  => 17
+    92  => 17
+    96  => 17
+    98  => 17
+    136  => 17
+    139  => 17
+    140  => 17
+    156  => 17
+    200  => 17
+    209  => 17
+    216  => 17
+    251  => 17
+    276  => 17
+    291  => 17
+    325  => 17
+    336  => 17
+    337  => 17
+    18  => 16
+    20  => 16
+    25  => 16
+    39  => 16
+    46  => 16
+    47  => 16
+    77  => 16
+    79  => 16
+    87  => 16
+    141  => 16
+  COLUMN `feast_name` distinct=1725
+    ቅዱስ አትናቴዎስ  => 25
+    ቅዱስ ዮሐንስ አፈወርቅ  => 25
+    ቅዱሳን ኢያቄም ወሐና (ወርሃዊ)  => 24
+    ቅድስት ሶፍያ ሰማዕት (ወርሃዊ)  => 24
+    ቅድስት አርሴማ ድንግል (ወርሃዊ)  => 24
+    አቡነ ኢየሱስ ሞዐ ዘሐይቅ (ወርሃዊ)  => 24
+    አባ መቃርስ  => 24
+    ቅዱስ አቡናፍር  => 22
+    ቅዱስ ፊልጶስ ሐዋርያ (ወርሃዊ)  => 22
+    ቅዱስ ዮሐንስ መጥምቀ መለኮት (ወርሃዊ)  => 21
+    ቅድስት ክርስቶስ ሠምራ (ወርሃዊ)  => 20
+    ቅዱስ ኒቆላዎስ  => 19
+    ቅዱስ ኤራቅሊ  => 19
+    ቅዱስ ራጉኤል መልአክ  => 14
+    ቅዱስ ዘካርያስ  => 13
+    ቅዱስ ዮሐንስ መጥምቅ  => 13
+    ቅዱስ ዮሐንስ ወልደ ነጎድጓድ  => 13
+    አቡነ ሰላማ ከሣቴ ብርሃን  => 13
+    አቡነ ዜና ማርቆስ  => 13
+    አባ ሊባኖስ  => 13
+    አባ ጉባ  => 13
+    ልበ አምላክ ቅዱስ ዳዊት (ወርሃዊ)  => 12
+    ሐዋርያው ቅዱስ ስምዖን  => 12
+    መድኃኔዓለም  => 12
+    ማር ቴዎድሮስ ኃያል ሰማዕት (ወርሃዊ)  => 12
+    ማር ያዕቆብ ግብፃዊ (ወርሃዊ)  => 12
+    ሥሉስ ቅዱስ (አብ ወወልድ ወመንፈስ ቅዱስ) (ወርሃዊ)  => 12
+    ሸንጐው (ወርሃዊ)  => 12
+    ቅዱሳን ሊቃነ ካህናት አበው (ዘካርያስና ስምዖን) (ወርሃዊ)  => 12
+    ቅዱሳን ሰማዕታተ ናግራን (ወርሃዊ)  => 12
+    ቅዱሳን አበው (አብርሃም ይስሐቅና ያዕቆብ) (ወርሃዊ)  => 12
+    ቅዱሳን አበው መክሲሞስና ዱማቴዎስ (ወርሃዊ)  => 12
+    ቅዱሳን ካህናት (ዘካርያስና ስምዖን) (ወርሃዊ)  => 12
+    ቅዱሳን ጴጥሮስ ወጳውሎስ  => 12
+    ቅዱስ መርቆሬዎስ ሰማዕት  => 12
+    ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ) (ወርሃዊ)  => 12
+    ቅዱስ ሙሴ (የእግዚአብሔር ሰው) (ወርሃዊ)  => 12
+    ቅዱስ ሚልኪ ቁልዝማዊ (ወርሃዊ)  => 12
+    ቅዱስ ማርቆስ ዘቶርማቅ (ወርሃዊ)  => 12
+    ቅዱስ ማትያስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት) (ወርሃዊ)  => 12
+  COLUMN `sort_order` distinct=21
+    1  => 366
+    2  => 366
+    3  => 366
+    4  => 365
+    5  => 364
+    6  => 364
+    7  => 364
+    8  => 362
+    9  => 354
+    10  => 342
+    11  => 309
+    12  => 259
+    13  => 194
+    14  => 134
+    15  => 78
+    16  => 48
+    17  => 30
+    18  => 11
+    19  => 8
+    20  => 1
+    21  => 1
+
+==========================================================================================
+TABLE: ethiopian_months
+==========================================================================================
+CREATE SQL:
+CREATE TABLE ethiopian_months (
+    id INTEGER PRIMARY KEY,
+    name_geez TEXT NOT NULL,
+    name_amharic TEXT NOT NULL,
+    name_english TEXT NOT NULL
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=INTEGER notnull=0 default=None pk=1
+  cid=1 name=name_geez type=TEXT notnull=1 default=None pk=0
+  cid=2 name=name_amharic type=TEXT notnull=1 default=None pk=0
+  cid=3 name=name_english type=TEXT notnull=1 default=None pk=0
+
+PRAGMA foreign_key_list:
+  (none)
+
+PRAGMA index_list:
+  (none)
+
+ROW COUNT: 13
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | name_geez | name_amharic | name_english
+------------------------------------------------------------------------------------------
+ROW 1: id=1 || name_geez=መስከረም || name_amharic=መስከረም || name_english=Meskerem
+ROW 2: id=2 || name_geez=ጥቅምት || name_amharic=ጥቅምት || name_english=Tikimt
+ROW 3: id=3 || name_geez=ኅዳር || name_amharic=ኅዳር || name_english=Hidar
+ROW 4: id=4 || name_geez=ታኅሣሥ || name_amharic=ታኅሣሥ || name_english=Tahsas
+ROW 5: id=5 || name_geez=ጥር || name_amharic=ጥር || name_english=Tir
+ROW 6: id=6 || name_geez=የካቲት || name_amharic=የካቲት || name_english=Yekatit
+ROW 7: id=7 || name_geez=መጋቢት || name_amharic=መጋቢት || name_english=Megabit
+ROW 8: id=8 || name_geez=ሚያዝያ || name_amharic=ሚያዝያ || name_english=Miyazya
+ROW 9: id=9 || name_geez=ግንቦት || name_amharic=ግንቦት || name_english=Ginbot
+ROW 10: id=10 || name_geez=ሰኔ || name_amharic=ሰኔ || name_english=Sene
+ROW 11: id=11 || name_geez=ሐምሌ || name_amharic=ሐምሌ || name_english=Hamle
+ROW 12: id=12 || name_geez=ነሐሴ || name_amharic=ነሐሴ || name_english=Nehase
+ROW 13: id=13 || name_geez=ጳጉሜ || name_amharic=ጳጉሜ || name_english=Pagume
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=13
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+    10  => 1
+    11  => 1
+    12  => 1
+    13  => 1
+  COLUMN `name_geez` distinct=13
+    ሐምሌ  => 1
+    መስከረም  => 1
+    መጋቢት  => 1
+    ሚያዝያ  => 1
+    ሰኔ  => 1
+    ታኅሣሥ  => 1
+    ኅዳር  => 1
+    ነሐሴ  => 1
+    የካቲት  => 1
+    ግንቦት  => 1
+    ጥር  => 1
+    ጥቅምት  => 1
+    ጳጉሜ  => 1
+  COLUMN `name_amharic` distinct=13
+    ሐምሌ  => 1
+    መስከረም  => 1
+    መጋቢት  => 1
+    ሚያዝያ  => 1
+    ሰኔ  => 1
+    ታኅሣሥ  => 1
+    ኅዳር  => 1
+    ነሐሴ  => 1
+    የካቲት  => 1
+    ግንቦት  => 1
+    ጥር  => 1
+    ጥቅምት  => 1
+    ጳጉሜ  => 1
+  COLUMN `name_english` distinct=13
+    Ginbot  => 1
+    Hamle  => 1
+    Hidar  => 1
+    Megabit  => 1
+    Meskerem  => 1
+    Miyazya  => 1
+    Nehase  => 1
+    Pagume  => 1
+    Sene  => 1
+    Tahsas  => 1
+    Tikimt  => 1
+    Tir  => 1
+    Yekatit  => 1
+
+==========================================================================================
+TABLE: seasonal_periods
+==========================================================================================
+CREATE SQL:
+CREATE TABLE seasonal_periods (
+  code TEXT PRIMARY KEY,
+  name_am TEXT,
+  name_en TEXT,
+  type TEXT,
+  start_month INTEGER,
+  start_day INTEGER,
+  end_month INTEGER,
+  end_day INTEGER,
+  is_movable INTEGER
+)
+
+PRAGMA table_info:
+  cid=0 name=code type=TEXT notnull=0 default=None pk=1
+  cid=1 name=name_am type=TEXT notnull=0 default=None pk=0
+  cid=2 name=name_en type=TEXT notnull=0 default=None pk=0
+  cid=3 name=type type=TEXT notnull=0 default=None pk=0
+  cid=4 name=start_month type=INTEGER notnull=0 default=None pk=0
+  cid=5 name=start_day type=INTEGER notnull=0 default=None pk=0
+  cid=6 name=end_month type=INTEGER notnull=0 default=None pk=0
+  cid=7 name=end_day type=INTEGER notnull=0 default=None pk=0
+  cid=8 name=is_movable type=INTEGER notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  (none)
+
+PRAGMA index_list:
+  seq=0 name=sqlite_autoindex_seasonal_periods_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=code
+
+ROW COUNT: 5
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: code | name_am | name_en | type | start_month | start_day | end_month | end_day | is_movable
+------------------------------------------------------------------------------------------
+ROW 1: code=FILSETA_1_16 || name_am=ፍልሰታ 1-16 || name_en=Filseta Fast Nehase 1-16 || type=FIXED_RANGE || start_month=12 || start_day=1 || end_month=12 || end_day=16 || is_movable=0
+ROW 2: code=MESKEREM_26_HIDAR_5 || name_am=መስከረም 26 - ኅዳር 5 || name_en=Meskerem 26 to Hidar 5 for S'el || type=FIXED_RANGE || start_month=1 || start_day=26 || end_month=3 || end_day=5 || is_movable=0
+ROW 3: code=GREAT_LENT || name_am=ዓቢይ ጾም || name_en=Great Lent (Hudade) - movable 55 days || type=MOVABLE || start_month= || start_day= || end_month= || end_day= || is_movable=1
+ROW 4: code=SEMUNE_HIMAMAT || name_am=ሰሙነ ሕማማት || name_en=Passion Week / Holy Week - movable || type=MOVABLE || start_month= || start_day= || end_month= || end_day= || is_movable=1
+ROW 5: code=WED_FRI_HIMAMAT || name_am=ረቡዕ አርብ ሕማማት || name_en=Wednesday Friday Passion Week || type=WEEKLY_PLUS_SEASON || start_month= || start_day= || end_month= || end_day= || is_movable=1
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `code` distinct=5
+    FILSETA_1_16  => 1
+    GREAT_LENT  => 1
+    MESKEREM_26_HIDAR_5  => 1
+    SEMUNE_HIMAMAT  => 1
+    WED_FRI_HIMAMAT  => 1
+  COLUMN `name_am` distinct=5
+    መስከረም 26 - ኅዳር 5  => 1
+    ረቡዕ አርብ ሕማማት  => 1
+    ሰሙነ ሕማማት  => 1
+    ዓቢይ ጾም  => 1
+    ፍልሰታ 1-16  => 1
+  COLUMN `name_en` distinct=5
+    Filseta Fast Nehase 1-16  => 1
+    Great Lent (Hudade) - movable 55 days  => 1
+    Meskerem 26 to Hidar 5 for S'el  => 1
+    Passion Week / Holy Week - movable  => 1
+    Wednesday Friday Passion Week  => 1
+  COLUMN `type` distinct=3
+    FIXED_RANGE  => 2
+    MOVABLE  => 2
+    WEEKLY_PLUS_SEASON  => 1
+  COLUMN `start_month` distinct=2
+    NULL  => 3
+    1  => 1
+    12  => 1
+  COLUMN `start_day` distinct=2
+    NULL  => 3
+    1  => 1
+    26  => 1
+  COLUMN `end_month` distinct=2
+    NULL  => 3
+    3  => 1
+    12  => 1
+  COLUMN `end_day` distinct=2
+    NULL  => 3
+    5  => 1
+    16  => 1
+  COLUMN `is_movable` distinct=2
+    1  => 3
+    0  => 2
+
+==========================================================================================
+TABLE: categories
+==========================================================================================
+CREATE SQL:
+CREATE TABLE categories (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT,
+    name_amharic TEXT,
+    name_geez TEXT,
+    icon_name TEXT,
+    sort_order INTEGER NOT NULL DEFAULT 0
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=TEXT notnull=1 default=None pk=1
+  cid=1 name=name_english type=TEXT notnull=0 default=None pk=0
+  cid=2 name=name_amharic type=TEXT notnull=0 default=None pk=0
+  cid=3 name=name_geez type=TEXT notnull=0 default=None pk=0
+  cid=4 name=icon_name type=TEXT notnull=0 default=None pk=0
+  cid=5 name=sort_order type=INTEGER notnull=1 default=0 pk=0
+
+PRAGMA foreign_key_list:
+  (none)
+
+PRAGMA index_list:
+  seq=0 name=sqlite_autoindex_categories_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=id
+
+ROW COUNT: 19
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | name_english | name_amharic | name_geez | icon_name | sort_order
+------------------------------------------------------------------------------------------
+ROW 1: id=MEL || name_english=Melka || name_amharic=መልክዕ || name_geez=መልክዕ || icon_name=ic_book || sort_order=4
+ROW 2: id=WUD || name_english=Wudase || name_amharic=ውዳሴ || name_geez=ውዳሴ || icon_name=ic_book || sort_order=2
+ROW 3: id=TSE || name_english=Tselot || name_amharic=ጸሎት || name_geez=ጸሎት || icon_name=ic_cross || sort_order=1
+ROW 4: id=MZM || name_english=Mezmur || name_amharic=መዝሙር || name_geez=መዝሙር || icon_name=ic_book || sort_order=3
+ROW 5: id=SEY || name_english=Seyfe || name_amharic=ሰይፈ || name_geez=ሰይፈ || icon_name=ic_book || sort_order=6
+ROW 6: id=MET || name_english=Metshaf || name_amharic=መጽሐፍ || name_geez=መጽሐፍ || icon_name=ic_book || sort_order=5
+ROW 7: id=TEA || name_english=Teameho || name_amharic=ተአምኆ || name_geez=ተአምር || icon_name=ic_book || sort_order=7
+ROW 8: id=ENZ || name_english=Enzira || name_amharic=እንዚራ || name_geez=እንዚራ || icon_name=ic_book || sort_order=8
+ROW 9: id=KOH || name_english=Kohte || name_amharic=ኆኅተ || name_geez=ኆኅተ || icon_name=ic_book || sort_order=10
+ROW 10: id=LAH || name_english=Laha || name_amharic=ላሐ || name_geez=ላሐ || icon_name=ic_book || sort_order=9
+ROW 11: id=HAT || name_english=Hatsure || name_amharic=ሐፁረ || name_geez=ሐጹረ || icon_name=ic_book || sort_order=11
+ROW 12: id=GDL || name_english=Gedl || name_amharic=ገድል || name_geez=ገድል || icon_name=ic_book || sort_order=20
+ROW 13: id=DRS || name_english=Dirsan || name_amharic=ድርሳን || name_geez=ድርሳን || icon_name=ic_book || sort_order=21
+ROW 14: id=ZNA || name_english=Zena || name_amharic=ዜና || name_geez=ዜና || icon_name=ic_book || sort_order=22
+ROW 15: id=TAM || name_english=Teamerat || name_amharic=ተአምራት || name_geez=ተአምራት || icon_name=ic_book || sort_order=23
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=19
+    DRS  => 1
+    ENZ  => 1
+    GDL  => 1
+    HAT  => 1
+    KOH  => 1
+    LAH  => 1
+    MEL  => 1
+    MET  => 1
+    MTS  => 1
+    MZM  => 1
+    SEY  => 1
+    SME  => 1
+    SYF  => 1
+    TAM  => 1
+    TBB  => 1
+    TEA  => 1
+    TSE  => 1
+    WUD  => 1
+    ZNA  => 1
+  COLUMN `name_english` distinct=19
+    Dirsan  => 1
+    Enzira  => 1
+    Gedl  => 1
+    Hatsure  => 1
+    Kohte  => 1
+    Laha  => 1
+    Melka  => 1
+    Metsafe  => 1
+    Metshaf  => 1
+    Mezmur  => 1
+    Seife  => 1
+    Seyfe  => 1
+    Simea  => 1
+    Teameho  => 1
+    Teamerat  => 1
+    Tibebe  => 1
+    Tselot  => 1
+    Wudase  => 1
+    Zena  => 1
+  COLUMN `name_amharic` distinct=18
+    ሰይፈ  => 2
+    ላሐ  => 1
+    ሐፁረ  => 1
+    መልክዕ  => 1
+    መዝሙር  => 1
+    መጽሐፈ  => 1
+    መጽሐፍ  => 1
+    ስምዐ  => 1
+    ተአምራት  => 1
+    ተአምኆ  => 1
+    ኆኅተ  => 1
+    እንዚራ  => 1
+    ውዳሴ  => 1
+    ዜና  => 1
+    ድርሳን  => 1
+    ገድል  => 1
+    ጥበበ  => 1
+    ጸሎት  => 1
+  COLUMN `name_geez` distinct=18
+    ሰይፈ  => 2
+    ላሐ  => 1
+    ሐጹረ  => 1
+    መልክዕ  => 1
+    መዝሙር  => 1
+    መጽሐፈ  => 1
+    መጽሐፍ  => 1
+    ስምዐ  => 1
+    ተአምራት  => 1
+    ተአምር  => 1
+    ኆኅተ  => 1
+    እንዚራ  => 1
+    ውዳሴ  => 1
+    ዜና  => 1
+    ድርሳን  => 1
+    ገድል  => 1
+    ጥበበ  => 1
+    ጸሎት  => 1
+  COLUMN `icon_name` distinct=2
+    ic_book  => 18
+    ic_cross  => 1
+  COLUMN `sort_order` distinct=19
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+    10  => 1
+    11  => 1
+    20  => 1
+    21  => 1
+    22  => 1
+    23  => 1
+    24  => 1
+    26  => 1
+    31  => 1
+    32  => 1
+
+==========================================================================================
+TABLE: main_categories
+==========================================================================================
+CREATE SQL:
+CREATE TABLE main_categories (id TEXT PRIMARY KEY, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER)
+
+PRAGMA table_info:
+  cid=0 name=id type=TEXT notnull=0 default=None pk=1
+  cid=1 name=name_amharic type=TEXT notnull=1 default=None pk=0
+  cid=2 name=name_geez type=TEXT notnull=0 default=None pk=0
+  cid=3 name=name_english type=TEXT notnull=1 default=None pk=0
+  cid=4 name=icon type=TEXT notnull=0 default=None pk=0
+  cid=5 name=sort_order type=INTEGER notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  (none)
+
+PRAGMA index_list:
+  seq=0 name=sqlite_autoindex_main_categories_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=id
+
+ROW COUNT: 9
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | name_amharic | name_geez | name_english | icon | sort_order
+------------------------------------------------------------------------------------------
+ROW 1: id=MC-01 || name_amharic=የዘወትርና የቀን ጸሎታት || name_geez=ጸሎት ዘዘወትር ወዘመዓልት || name_english=Daily & Canonical Hours || icon=alarm || sort_order=1
+ROW 2: id=MC-02 || name_amharic=መዝሙረ ዳዊትና ጸሎተ ነቢያት || name_geez=መዝሙረ ዳዊት ወጸሎተ ነቢያት || name_english=Psalter & Canticles of the Prophets || icon=menu_book || sort_order=2
+ROW 3: id=MC-03 || name_amharic=ውዳሴያትና ማሕሌታት || name_geez=ውዳሴያት ወማሕሌት || name_english=Praises, Hymns & Doxologies || icon=library_music || sort_order=3
+ROW 4: id=MC-04 || name_amharic=ድርሳናት || name_geez=ድርሳናት || name_english=Liturgical Homilies & Readings || icon=auto_stories || sort_order=4
+ROW 5: id=MC-05 || name_amharic=ገድላት || name_geez=ገድላት || name_english=Acts & Hagiographies of Saints || icon=people || sort_order=5
+ROW 6: id=MC-06 || name_amharic=መልክዓት || name_geez=መልክዓት || name_english=Malke'a / Salutations || icon=stars || sort_order=6
+ROW 7: id=MC-07 || name_amharic=ተአምራትና ዜናዎች || name_geez=ተአምራት ወዜናሆሙ || name_english=Miracles & Chronicles || icon=history_edu || sort_order=7
+ROW 8: id=MC-08 || name_amharic=መጻሕፍተ ምስጢርና ተማኅፅኖ || name_geez=መጻሕፍተ ምስጢር ወተማኅፅኖ || name_english=Marian Treatises & Devotional Books || icon=church || sort_order=8
+ROW 9: id=MC-09 || name_amharic=ጸሎተ ጥበቃ፣ አጥርና ሥርዓተ ፍትሐት || name_geez=ጸሎተ ጥበቃ፣ ሐፁር ወሥርዓተ ፍትሐት || name_english=Protection, Cross-Defenses & Funerary Rituals || icon=shield || sort_order=9
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=9
+    MC-01  => 1
+    MC-02  => 1
+    MC-03  => 1
+    MC-04  => 1
+    MC-05  => 1
+    MC-06  => 1
+    MC-07  => 1
+    MC-08  => 1
+    MC-09  => 1
+  COLUMN `name_amharic` distinct=9
+    መልክዓት  => 1
+    መዝሙረ ዳዊትና ጸሎተ ነቢያት  => 1
+    መጻሕፍተ ምስጢርና ተማኅፅኖ  => 1
+    ተአምራትና ዜናዎች  => 1
+    ውዳሴያትና ማሕሌታት  => 1
+    የዘወትርና የቀን ጸሎታት  => 1
+    ድርሳናት  => 1
+    ገድላት  => 1
+    ጸሎተ ጥበቃ፣ አጥርና ሥርዓተ ፍትሐት  => 1
+  COLUMN `name_geez` distinct=9
+    መልክዓት  => 1
+    መዝሙረ ዳዊት ወጸሎተ ነቢያት  => 1
+    መጻሕፍተ ምስጢር ወተማኅፅኖ  => 1
+    ተአምራት ወዜናሆሙ  => 1
+    ውዳሴያት ወማሕሌት  => 1
+    ድርሳናት  => 1
+    ገድላት  => 1
+    ጸሎተ ጥበቃ፣ ሐፁር ወሥርዓተ ፍትሐት  => 1
+    ጸሎት ዘዘወትር ወዘመዓልት  => 1
+  COLUMN `name_english` distinct=9
+    Acts & Hagiographies of Saints  => 1
+    Daily & Canonical Hours  => 1
+    Liturgical Homilies & Readings  => 1
+    Malke'a / Salutations  => 1
+    Marian Treatises & Devotional Books  => 1
+    Miracles & Chronicles  => 1
+    Praises, Hymns & Doxologies  => 1
+    Protection, Cross-Defenses & Funerary Rituals  => 1
+    Psalter & Canticles of the Prophets  => 1
+  COLUMN `icon` distinct=9
+    alarm  => 1
+    auto_stories  => 1
+    church  => 1
+    history_edu  => 1
+    library_music  => 1
+    menu_book  => 1
+    people  => 1
+    shield  => 1
+    stars  => 1
+  COLUMN `sort_order` distinct=9
+    1  => 1
+    2  => 1
+    3  => 1
+    4  => 1
+    5  => 1
+    6  => 1
+    7  => 1
+    8  => 1
+    9  => 1
+
+==========================================================================================
+TABLE: sub_categories
+==========================================================================================
+CREATE SQL:
+CREATE TABLE sub_categories (id TEXT PRIMARY KEY, main_category_id TEXT NOT NULL, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER, FOREIGN KEY (main_category_id) REFERENCES main_categories(id))
+
+PRAGMA table_info:
+  cid=0 name=id type=TEXT notnull=0 default=None pk=1
+  cid=1 name=main_category_id type=TEXT notnull=1 default=None pk=0
+  cid=2 name=name_amharic type=TEXT notnull=1 default=None pk=0
+  cid=3 name=name_geez type=TEXT notnull=0 default=None pk=0
+  cid=4 name=name_english type=TEXT notnull=1 default=None pk=0
+  cid=5 name=icon type=TEXT notnull=0 default=None pk=0
+  cid=6 name=sort_order type=INTEGER notnull=0 default=None pk=0
+
+PRAGMA foreign_key_list:
+  id=0 seq=0 table=main_categories from=main_category_id to=id on_update=NO ACTION on_delete=NO ACTION match=NONE
+
+PRAGMA index_list:
+  seq=0 name=idx_subcats_main unique=0 origin=c partial=0
+    seqno=0 cid=1 name=main_category_id
+  seq=1 name=sqlite_autoindex_sub_categories_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=id
+
+ROW COUNT: 35
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | main_category_id | name_amharic | name_geez | name_english | icon | sort_order
+------------------------------------------------------------------------------------------
+ROW 1: id=SC-01-01 || main_category_id=MC-01 || name_amharic=የዘወትር ጸሎት || name_geez=ጸሎት ዘዘወትር || name_english=Daily Prayers || icon=wb_sunny || sort_order=1
+ROW 2: id=SC-01-02 || main_category_id=MC-01 || name_amharic=ጸሎተ ኪዳንና ሊጦን || name_geez=ጸሎተ ኪዳን ወሊጦን || name_english=Covenant Prayers & Liton || icon=brightness_5 || sort_order=2
+ROW 3: id=SC-01-03 || main_category_id=MC-01 || name_amharic=የሠርክና የሰዓታት ጸሎት || name_geez=ጸሎተ ዘሠርክ ወሰዓታት || name_english=Evening & Canonical Hours || icon=bedtime || sort_order=3
+ROW 4: id=SC-02-01 || main_category_id=MC-02 || name_amharic=መዝሙረ ዳዊት || name_geez=መዝሙረ ዳዊት || name_english=Psalms of David || icon=menu_book || sort_order=1
+ROW 5: id=SC-02-02 || main_category_id=MC-02 || name_amharic=ጸሎተ ነቢያትና መኃልይ || name_geez=ጸሎተ ነቢያት ወመኃልይ || name_english=Canticles of the Prophets || icon=record_voice_over || sort_order=2
+ROW 6: id=SC-02-03 || main_category_id=MC-02 || name_amharic=መዝሙረ ክርስቶስ || name_geez=መዝሙረ ክርስቶስ || name_english=Hymns of Christ || icon=library_music || sort_order=3
+ROW 7: id=SC-03-01 || main_category_id=MC-03 || name_amharic=ውዳሴ ማርያምና አንቀጸ ብርሃን || name_geez=ውዳሴ ማርያም ወአንቀጸ ብርሃን || name_english=Doxology of St. Mary || icon=auto_awesome || sort_order=1
+ROW 8: id=SC-03-02 || main_category_id=MC-03 || name_amharic=ውዳሴ አምላክ || name_geez=ውዳሴ አምላክ || name_english=Praises of God || icon=favorite || sort_order=2
+ROW 9: id=SC-03-03 || main_category_id=MC-03 || name_amharic=ውዳሴና ስብሐተ መስቀል || name_geez=ውዳሴ መስቀል || name_english=Praises of the Holy Cross || icon=add || sort_order=3
+ROW 10: id=SC-03-04 || main_category_id=MC-03 || name_amharic=እንዚራ ስብሐትና ኆኅተ ብርሃን || name_geez=እንዚራ ስብሐት ወኆኅተ ብርሃን || name_english=Harp of Praise & Gate of Light || icon=flare || sort_order=4
+ROW 11: id=SC-03-05 || main_category_id=MC-03 || name_amharic=ተአምኆ ቅዱሳንና ሥላሴ || name_geez=ተአምኆ ቅዱሳን ወሥላሴ || name_english=Salutations of Saints & Trinity || icon=handshake || sort_order=5
+ROW 12: id=SC-04-01 || main_category_id=MC-04 || name_amharic=ድርሳናተ ሊቃነ መላእክት || name_geez=ድርሳናተ መላእክት || name_english=Homilies of Archangels || icon=flight || sort_order=1
+ROW 13: id=SC-04-02 || main_category_id=MC-04 || name_amharic=ድርሳናተ መለኮት፣ መስቀል፣ ሰንበትና ሜላድ || name_geez=ድርሳናት ዘእግዚእነ ወመስቀል ወሰንበት || name_english=Homilies of Divinity, Cross, Sabbath & Melad || icon=brightness_7 || sort_order=2
+ROW 14: id=SC-04-03 || main_category_id=MC-04 || name_amharic=ድርሳናተ ቅዱሳን || name_geez=ድርሳናተ ቅዱሳን || name_english=Homilies of Saints || icon=import_contacts || sort_order=3
+ROW 15: id=SC-05-01 || main_category_id=MC-05 || name_amharic=ገድለ ሐዋርያትና ቀደምት አበው || name_geez=ገድለ ሐዋርያት ወአበው || name_english=Acts of Apostles & Early Patriarchs || icon=public || sort_order=1
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=35
+    SC-01-01  => 1
+    SC-01-02  => 1
+    SC-01-03  => 1
+    SC-02-01  => 1
+    SC-02-02  => 1
+    SC-02-03  => 1
+    SC-03-01  => 1
+    SC-03-02  => 1
+    SC-03-03  => 1
+    SC-03-04  => 1
+    SC-03-05  => 1
+    SC-04-01  => 1
+    SC-04-02  => 1
+    SC-04-03  => 1
+    SC-05-01  => 1
+    SC-05-02  => 1
+    SC-05-03  => 1
+    SC-05-04  => 1
+    SC-05-05  => 1
+    SC-06-01  => 1
+    SC-06-02  => 1
+    SC-06-03  => 1
+    SC-07-01  => 1
+    SC-07-02  => 1
+    SC-07-03  => 1
+    SC-07-04  => 1
+    SC-08-01  => 1
+    SC-08-02  => 1
+    SC-08-03  => 1
+    SC-08-04  => 1
+    SC-09-01  => 1
+    SC-09-02  => 1
+    SC-09-03  => 1
+    SC-09-04  => 1
+    SC-09-05  => 1
+  COLUMN `main_category_id` distinct=9
+    MC-03  => 5
+    MC-05  => 5
+    MC-09  => 5
+    MC-07  => 4
+    MC-08  => 4
+    MC-01  => 3
+    MC-02  => 3
+    MC-04  => 3
+    MC-06  => 3
+  COLUMN `name_amharic` distinct=35
+    ላሐ ማርያም፣ ሰኔ ጎልጎታና ራዕይ  => 1
+    ሐፁረ መስቀልና የመስቀል አጥር  => 1
+    መልክዐ ሥላሴ፣ መለኮትና መላእክት  => 1
+    መልክዐ ነቢያት፣ ሐዋርያትና ቅዱሳን ጻድቃን  => 1
+    መልክዐ እመቤታችን ማርያም  => 1
+    መዝሙረ ክርስቶስ  => 1
+    መዝሙረ ዳዊት  => 1
+    መጽሐፈ ልደታ ለማርያምና ምስጢራት  => 1
+    መጽሐፈ ባርቶስና ቱላዳን  => 1
+    መጽሐፈ አርጋኖን  => 1
+    ሰይፈ ሥላሴና ሰይፈ መለኮት  => 1
+    ተአምረ ማርያም  => 1
+    ተአምረ ኢየሱስና ሥላሴ  => 1
+    ተአምኆ ቅዱሳንና ሥላሴ  => 1
+    እንዚራ ስብሐትና ኆኅተ ብርሃን  => 1
+    ውዳሴ ማርያምና አንቀጸ ብርሃን  => 1
+    ውዳሴ አምላክ  => 1
+    ውዳሴና ስብሐተ መስቀል  => 1
+    ዜና ሐዋርያትና ነገሥታት  => 1
+    ዜና ሥላሴና ዜና አበው  => 1
+    የሠርክና የሰዓታት ጸሎት  => 1
+    የዘወትር ጸሎት  => 1
+    ድርሳናተ ሊቃነ መላእክት  => 1
+    ድርሳናተ መለኮት፣ መስቀል፣ ሰንበትና ሜላድ  => 1
+    ድርሳናተ ቅዱሳን  => 1
+    ገድለ ሐዋርያትና ቀደምት አበው  => 1
+    ገድለ ቅዱሳት እናቶች  => 1
+    ገድለ ቅዱሳን ሰማዕታት  => 1
+    ገድለ ታላላቅ ኢትዮጵያውያን አበው  => 1
+    ገድለ ገዳማውያን አበው  => 1
+    ጥበብና ተግሣጽ  => 1
+    ጸሎተ ማኅበር፣ ፈትቶና በእንተ ቅድሳት  => 1
+    ጸሎተ ነቢያትና መኃልይ  => 1
+    ጸሎተ ኪዳንና ሊጦን  => 1
+    ጸሎተ ፍትሐትና ሥርዓተ ማኅደር  => 1
+  COLUMN `name_geez` distinct=35
+    ላሐ ማርያም ወጎልጎታ  => 1
+    ሐፁረ መስቀል  => 1
+    መልክዐ ሥላሴ፣ መለኮት ወመላእክት  => 1
+    መልክዐ ነቢያት፣ ሐዋርያት ወቅዱሳን  => 1
+    መልክዐ ድንግል ማርያም  => 1
+    መዝሙረ ክርስቶስ  => 1
+    መዝሙረ ዳዊት  => 1
+    መጽሐፈ ልደታ ወምስጢራት  => 1
+    መጽሐፈ ባርቶስ ወቱላዳን  => 1
+    መጽሐፈ አርጋኖን  => 1
+    ሰይፈ ሥላሴ ወመለኮት  => 1
+    ተአምረ ማርያም  => 1
+    ተአምረ ኢየሱስ ወሥላሴ  => 1
+    ተአምኆ ቅዱሳን ወሥላሴ  => 1
+    እንዚራ ስብሐት ወኆኅተ ብርሃን  => 1
+    ውዳሴ መስቀል  => 1
+    ውዳሴ ማርያም ወአንቀጸ ብርሃን  => 1
+    ውዳሴ አምላክ  => 1
+    ዜና ሐዋርያት ወነገሥት  => 1
+    ዜና ሥላሴ ወአበው  => 1
+    ድርሳናተ መላእክት  => 1
+    ድርሳናተ ቅዱሳን  => 1
+    ድርሳናት ዘእግዚእነ ወመስቀል ወሰንበት  => 1
+    ገድለ ሐዋርያት ወአበው  => 1
+    ገድለ መነኮሳት ወባሕታውያን  => 1
+    ገድለ ሰማዕታት  => 1
+    ገድለ አበው ኢትዮጵያውያን  => 1
+    ገድለ አንስት ቅዱሳት  => 1
+    ጥበብ ወተግሣጽ  => 1
+    ጸሎተ ማኅበር ወፈትቶ  => 1
+    ጸሎተ ነቢያት ወመኃልይ  => 1
+    ጸሎተ ኪዳን ወሊጦን  => 1
+    ጸሎተ ዘሠርክ ወሰዓታት  => 1
+    ጸሎተ ፍትሐት ወሥርዓተ ማኅደር  => 1
+    ጸሎት ዘዘወትር  => 1
+  COLUMN `name_english` distinct=35
+    Acts of Apostles & Early Patriarchs  => 1
+    Acts of Apostles & Royal Chronicles  => 1
+    Acts of Holy Martyrs  => 1
+    Acts of Holy Mothers & Women Saints  => 1
+    Acts of Major Ethiopian Saints  => 1
+    Acts of Monastic / Desert Fathers  => 1
+    Canticles of the Prophets  => 1
+    Chronicles of the Trinity & Desert Fathers  => 1
+    Covenant Prayers & Liton  => 1
+    Daily Prayers  => 1
+    Doxology of St. Mary  => 1
+    Evening & Canonical Hours  => 1
+    Funerary & Soul Journey Prayers  => 1
+    Harp of Praise & Gate of Light  => 1
+    Homilies of Archangels  => 1
+    Homilies of Divinity, Cross, Sabbath & Melad  => 1
+    Homilies of Saints  => 1
+    Hymns of Christ  => 1
+    Lamentations, Golgotha & Visions  => 1
+    Liturgical & Community Prayers  => 1
+    Metsihafe Arganon (Mon-Sun)  => 1
+    Metsihafe Bartos & Tuladan  => 1
+    Miracles of Jesus & Trinity  => 1
+    Miracles of the Virgin Mary  => 1
+    Nativity of Mary & Mysteries  => 1
+    Praises of God  => 1
+    Praises of the Holy Cross  => 1
+    Psalms of David  => 1
+    Salutations of Saints & Trinity  => 1
+    Salutations to Prophets, Apostles, Martyrs & Saints  => 1
+    Salutations to Trinity, Divinity & Archangels  => 1
+    Salutations to the Virgin Mary  => 1
+    Sword of Trinity & Sword of Divinity  => 1
+    Wall / Hedge of the Cross  => 1
+    Wisdom & Repentance  => 1
+  COLUMN `icon` distinct=32
+    menu_book  => 3
+    shield  => 2
+    add  => 1
+    auto_awesome  => 1
+    auto_stories  => 1
+    bedtime  => 1
+    brightness_5  => 1
+    brightness_7  => 1
+    colorize  => 1
+    cruelty_free  => 1
+    diversity_3  => 1
+    favorite  => 1
+    filter_vintage  => 1
+    flag  => 1
+    flare  => 1
+    flight  => 1
+    groups  => 1
+    handshake  => 1
+    import_contacts  => 1
+    library_books  => 1
+    library_music  => 1
+    lightbulb  => 1
+    medical_services  => 1
+    military_tech  => 1
+    psychology  => 1
+    public  => 1
+    record_voice_over  => 1
+    spa  => 1
+    terrain  => 1
+    volunteer_activism  => 1
+    wb_sunny  => 1
+    wb_twilight  => 1
+  COLUMN `sort_order` distinct=5
+    1  => 9
+    2  => 9
+    3  => 9
+    4  => 5
+    5  => 3
+
+==========================================================================================
+TABLE: languages
+==========================================================================================
+CREATE SQL:
+CREATE TABLE languages (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT NOT NULL,
+    name_native TEXT NOT NULL
+)
+
+PRAGMA table_info:
+  cid=0 name=id type=TEXT notnull=1 default=None pk=1
+  cid=1 name=name_english type=TEXT notnull=1 default=None pk=0
+  cid=2 name=name_native type=TEXT notnull=1 default=None pk=0
+
+PRAGMA foreign_key_list:
+  (none)
+
+PRAGMA index_list:
+  seq=0 name=sqlite_autoindex_languages_1 unique=1 origin=pk partial=0
+    seqno=0 cid=0 name=id
+
+ROW COUNT: 5
+
+SAMPLE ROWS (LIMIT 15):
+COLUMNS: id | name_english | name_native
+------------------------------------------------------------------------------------------
+ROW 1: id=AM || name_english=Amharic || name_native=አማርኛ
+ROW 2: id=GZ || name_english=Geez || name_native=ግእዝ
+ROW 3: id=TI || name_english=Tigrigna || name_native=ትግርኛ
+ROW 4: id=OR || name_english=Oromo || name_native=Oromoo
+ROW 5: id=EN || name_english=English || name_native=English
+
+DISTINCT VALUE COUNTS FOR KEY COLUMNS:
+  COLUMN `id` distinct=5
+    AM  => 1
+    EN  => 1
+    GZ  => 1
+    OR  => 1
+    TI  => 1
+  COLUMN `name_english` distinct=5
+    Amharic  => 1
+    English  => 1
+    Geez  => 1
+    Oromo  => 1
+    Tigrigna  => 1
+  COLUMN `name_native` distinct=5
+    English  => 1
+    Oromoo  => 1
+    ትግርኛ  => 1
+    አማርኛ  => 1
+    ግእዝ  => 1
+
+==========================================================================================
+4) BOOKS TABLE SHAPE (how 415 books are stored)
+==========================================================================================
+books row count: 415
+books columns: id, language_id, category_id, title, title_short, description, total_chapters, sort_order, subject_category, subject_tag, cover_image, main_category_id, sub_category_id
+COLUMNS: id | language_id | category_id | title | title_short | description | total_chapters | sort_order | subject_category | subject_tag | cover_image | main_category_id | sub_category_id
+------------------------------------------------------------------------------------------
+ROW 1: id=AM-BEE-001 || language_id=AM || category_id=TSE || title=በእንተ ቅድሳት በአማርኛ || title_short=በእንተ ቅድሳት በአማርኛ || description= || total_chapters=1 || sort_order=7 || subject_category=TSADQAN || subject_tag=በእንተቅድሳት || cover_image= || main_category_id=MC-09 || sub_category_id=SC-09-04
+ROW 2: id=AM-DIR-001 || language_id=AM || category_id=TSE || title=የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ || title_short=የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ || description= || total_chapters=1 || sort_order=10 || subject_category=MALAKT || subject_tag=ሰባቱሊቃነ || cover_image=tselot_cover_113.jpg || main_category_id=MC-04 || sub_category_id=SC-04-01
+ROW 3: id=AM-ENZ-001 || language_id=AM || category_id=ENZ || title=እንዚራ ስብሐት በአማርኛ || title_short=እንዚራ ስብሐት በአማርኛ || description= || total_chapters=8 || sort_order=1 || subject_category=AMLAK || subject_tag=እንዚራ || cover_image=tselot_cover_108.jpg || main_category_id=MC-03 || sub_category_id=SC-03-04
+ROW 4: id=AM-GOL-001 || language_id=AM || category_id=TSE || title=የሰኔ ጎልጎታ በአማርኛ || title_short=የሰኔ ጎልጎታ በአማርኛ || description= || total_chapters=1 || sort_order=12 || subject_category=MARIAM || subject_tag=ጎልጎታ || cover_image=tselot_cover_115.jpg || main_category_id=MC-08 || sub_category_id=SC-08-02
+ROW 5: id=AM-KID-001 || language_id=AM || category_id=TSE || title=መዓዛ ቅዳሴ በአማርኛ || title_short=መዓዛ ቅዳሴ በአማርኛ || description= || total_chapters=1 || sort_order=2 || subject_category=AMLAK || subject_tag=ቅዳሴ || cover_image=tselot_cover_96.jpg || main_category_id=MC-09 || sub_category_id=SC-09-04
+ROW 6: id=AM-KOH-001 || language_id=AM || category_id=KOH || title=ኆኅተ ብርሃን በአማርኛ || title_short=ኆኅተ ብርሃን በአማርኛ || description= || total_chapters=6 || sort_order=1 || subject_category=AMLAK || subject_tag=ኆኅተ || cover_image=tselot_cover_103.jpg || main_category_id=MC-03 || sub_category_id=SC-03-04
+ROW 7: id=AM-LAH-001 || language_id=AM || category_id=LAH || title=ላሐ ማርያም በአማርኛ || title_short=ላሐ ማርያም በአማርኛ || description= || total_chapters=8 || sort_order=1 || subject_category=MARIAM || subject_tag=ላሐ || cover_image=tselot_cover_2.jpg || main_category_id=MC-08 || sub_category_id=SC-08-02
+ROW 8: id=AM-LIT-001 || language_id=AM || category_id=TSE || title=የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ || title_short=የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ || description= || total_chapters=7 || sort_order=11 || subject_category=AMLAK || subject_tag=ሊጦን || cover_image=tselot_cover_114.jpg || main_category_id=MC-01 || sub_category_id=SC-01-02
+
+==========================================================================================
+5) JOIN ANALYSIS: books <-> calendar mappings
+==========================================================================================
+
+QUERY: book_calendar_mappings joined to books
+SELECT b.book_id, b.language, b.title, bcm.*
+            FROM book_calendar_mappings bcm
+            LEFT JOIN books b ON b.book_id = bcm.book_id
+            LIMIT 20;
+JOIN QUERY ERROR: no such column: b.book_id
+Trying alternative key names...
+ALTERNATIVE ALSO FAILED: no such column: b.language
+
+QUERY: book_seasonal_mappings joined to books
+SELECT b.book_id, b.language, b.title, bsm.*
+            FROM book_seasonal_mappings bsm
+            LEFT JOIN books b ON b.book_id = bsm.book_id
+            LIMIT 20;
+JOIN QUERY ERROR: no such column: b.book_id
+Trying alternative key names...
+ALTERNATIVE ALSO FAILED: no such column: b.language
+
+QUERY: books with NO book_calendar_mappings
+SELECT COUNT(*) AS books_without_calendar_mappings
+            FROM books b
+            LEFT JOIN book_calendar_mappings bcm ON b.book_id = bcm.book_id
+            WHERE bcm.book_id IS NULL;
+JOIN QUERY ERROR: no such column: b.book_id
+Trying alternative key names...
+ALTERNATIVE QUERY SUCCEEDED:
+SELECT COUNT(*) AS books_without_calendar_mappings
+            FROM books b
+            LEFT JOIN book_calendar_mappings bcm ON b.id = bcm.book_id
+            WHERE bcm.book_id IS NULL;
+COLUMNS: books_without_calendar_mappings
+------------------------------------------------------------------------------------------
+ROW 1: books_without_calendar_mappings=133
+
+QUERY: books with NO book_seasonal_mappings
+SELECT COUNT(*) AS books_without_seasonal_mappings
+            FROM books b
+            LEFT JOIN book_seasonal_mappings bsm ON b.book_id = bsm.book_id
+            WHERE bsm.book_id IS NULL;
+JOIN QUERY ERROR: no such column: b.book_id
+Trying alternative key names...
+ALTERNATIVE QUERY SUCCEEDED:
+SELECT COUNT(*) AS books_without_seasonal_mappings
+            FROM books b
+            LEFT JOIN book_seasonal_mappings bsm ON b.id = bsm.book_id
+            WHERE bsm.book_id IS NULL;
+COLUMNS: books_without_seasonal_mappings
+------------------------------------------------------------------------------------------
+ROW 1: books_without_seasonal_mappings=397
+
+QUERY: mapping counts per book (calendar)
+SELECT bcm.book_id, COUNT(*) AS mapping_count
+            FROM book_calendar_mappings bcm
+            GROUP BY bcm.book_id
+            ORDER BY mapping_count DESC, bcm.book_id
+            LIMIT 30;
+COLUMNS: book_id | mapping_count
+------------------------------------------------------------------------------------------
+ROW 1: book_id=AM-WUD-002 || mapping_count=16
+ROW 2: book_id=GZ-WUD-002 || mapping_count=16
+ROW 3: book_id=TI-WUD-001 || mapping_count=16
+ROW 4: book_id=AM-GDL-013 || mapping_count=11
+ROW 5: book_id=AM-GDL-027 || mapping_count=11
+ROW 6: book_id=AM-MEL-016 || mapping_count=11
+ROW 7: book_id=AM-MEL-021 || mapping_count=11
+ROW 8: book_id=AM-MEL-047 || mapping_count=11
+ROW 9: book_id=GZ-GDL-018 || mapping_count=11
+ROW 10: book_id=GZ-MEL-061 || mapping_count=11
+ROW 11: book_id=GZ-MEL-062 || mapping_count=11
+ROW 12: book_id=GZ-MEL-109 || mapping_count=11
+ROW 13: book_id=GZ-MEL-110 || mapping_count=11
+ROW 14: book_id=GZ-MEL-149 || mapping_count=11
+ROW 15: book_id=GZ-MEL-150 || mapping_count=11
+ROW 16: book_id=AM-ENZ-001 || mapping_count=10
+ROW 17: book_id=AM-ETA-001 || mapping_count=10
+ROW 18: book_id=AM-GDL-002 || mapping_count=10
+ROW 19: book_id=AM-GDL-003 || mapping_count=10
+ROW 20: book_id=AM-KOH-001 || mapping_count=10
+ROW 21: book_id=AM-MEL-001 || mapping_count=10
+ROW 22: book_id=AM-MEL-010 || mapping_count=10
+ROW 23: book_id=AM-MEL-026 || mapping_count=10
+ROW 24: book_id=AM-MTS-001 || mapping_count=10
+ROW 25: book_id=AM-SEY-002 || mapping_count=10
+ROW 26: book_id=AM-TEA-001 || mapping_count=10
+ROW 27: book_id=AM-TEA-002 || mapping_count=10
+ROW 28: book_id=AM-TEA-003 || mapping_count=10
+ROW 29: book_id=AM-ZNA-001 || mapping_count=10
+ROW 30: book_id=GZ-ENZ-001 || mapping_count=10
+
+QUERY: mapping counts per book (seasonal)
+SELECT bsm.book_id, COUNT(*) AS mapping_count
+            FROM book_seasonal_mappings bsm
+            GROUP BY bsm.book_id
+            ORDER BY mapping_count DESC, bsm.book_id
+            LIMIT 30;
+COLUMNS: book_id | mapping_count
+------------------------------------------------------------------------------------------
+ROW 1: book_id=AM-MEL-004 || mapping_count=1
+ROW 2: book_id=AM-MEL-007 || mapping_count=1
+ROW 3: book_id=AM-MEL-011 || mapping_count=1
+ROW 4: book_id=AM-MEL-030 || mapping_count=1
+ROW 5: book_id=AM-MEL-032 || mapping_count=1
+ROW 6: book_id=AM-SEL-001 || mapping_count=1
+ROW 7: book_id=AM-TEA-002 || mapping_count=1
+ROW 8: book_id=AM-TEA-003 || mapping_count=1
+ROW 9: book_id=GZ-MEL-024 || mapping_count=1
+ROW 10: book_id=GZ-MEL-029 || mapping_count=1
+ROW 11: book_id=GZ-MEL-037 || mapping_count=1
+ROW 12: book_id=GZ-MEL-046 || mapping_count=1
+ROW 13: book_id=GZ-MEL-163 || mapping_count=1
+ROW 14: book_id=GZ-SEL-001 || mapping_count=1
+ROW 15: book_id=GZ-TAM-003 || mapping_count=1
+ROW 16: book_id=GZ-TEA-002 || mapping_count=1
+ROW 17: book_id=GZ-TEA-003 || mapping_count=1
+ROW 18: book_id=TI-MEL-001 || mapping_count=1
+
+==========================================================================================
+6) RAW COLUMN DISCOVERY FOR JOIN KEYS
+==========================================================================================
+books columns: ['id', 'language_id', 'category_id', 'title', 'title_short', 'description', 'total_chapters', 'sort_order', 'subject_category', 'subject_tag', 'cover_image', 'main_category_id', 'sub_category_id']
+book_calendar_mappings columns: ['id', 'book_id', 'calendar_day_id', 'ethiopian_month', 'ethiopian_day', 'is_annual', 'is_primary_feast', 'reading_cycle', 'weekday_number', 'season_code', 'app_section', 'notes']
+book_seasonal_mappings columns: ['id', 'book_id', 'season_code', 'reading_order', 'notes']
+calendar_days columns: ['id', 'ethiopian_month', 'day_of_month']
+commemorations columns: ['id', 'calendar_day_id', 'feast_name', 'sort_order']
+seasonal_periods columns: ['code', 'name_am', 'name_en', 'type', 'start_month', 'start_day', 'end_month', 'end_day', 'is_movable']

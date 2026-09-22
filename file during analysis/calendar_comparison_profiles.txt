@@ -1,0 +1,1923 @@
+==============================================================================================================
+COMPLETE CANONICAL & APP CALENDAR COMPARISON PROFILE
+Generated: 2026-09-22T09:11:49
+App DB:    C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Sinksar:   C:\Android Project Collection\analyze\New folder\sinksar_calendar (2).db
+==============================================================================================================
+
+##############################################################################################################
+PART 1: APP BOOKS COMPLETE CALENDAR PROFILE (ALL 415 BOOKS)
+##############################################################################################################
+Total Books in Library: 415
+
+[AM-BEE-001] (AM|TSE) 'በእንተ ቅድሳት በአማርኛ' [Tag: TSADQAN/በእንተቅድሳት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-DIR-001] (AM|TSE) 'የሰባቱ ሊቃነ መላእክት ድርሳን በአማርኛ' [Tag: MALAKT/ሰባቱሊቃነ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/13 (ኅዳር 13) [ANNUAL+MONTHLY]
+
+[AM-DRS-001] (AM|DRS) 'የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ' [Tag: TSADQAN/ሐና]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/7 (መስከረም 7) [ANNUAL], 1/12 (መስከረም 12) [ANNUAL], 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY], 4/13 (ታኅሣሥ 13) [ANNUAL], 8/7 (ሚያዝያ 7) [ANNUAL], 9/1 (ግንቦት 1) [ANNUAL+MONTHLY], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[AM-DRS-002] (AM|DRS) 'ድርሳነ ሰንበት በአማርኛ' [Tag: TESATU/ሰንበት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-DRS-003] (AM|DRS) 'ድርሳነ ገብርኤል በአማርኛ' [Tag: MALAKT/ገብርኤል]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL+MONTHLY], 4/22 (ታኅሣሥ 22) [ANNUAL], 7/30 (መጋቢት 30) [ANNUAL], 10/13 (ሰኔ 13) [ANNUAL], 10/26 (ሰኔ 26) [ANNUAL], 11/19 (ሐምሌ 19) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[AM-DRS-004] (AM|DRS) 'ድርሳነ መድኃኔ ዓለም በአማርኛ' [Tag: AMLAK/ዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[AM-DRS-005] (AM|DRS) 'ድርሳነ ኤልያስ ነቢይ በአማርኛ' [Tag: NEBIYAT/ነቢይ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 5/6 (ጥር 6) [ANNUAL+MONTHLY], 12/13 (ነሐሴ 13) [ANNUAL]
+
+[AM-DRS-006] (AM|DRS) 'ድርሳነ ዑራኤል በአማርኛ' [Tag: MALAKT/ዑራኤል]
+  -> MONTHLY: Day 22 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/22 (ጥር 22) [ANNUAL+MONTHLY], 11/21 (ሐምሌ 21) [ANNUAL], 11/22 (ሐምሌ 22) [ANNUAL+MONTHLY]
+
+[AM-DRS-007] (AM|DRS) 'ድርሳነ ማኅየዊ በአማርኛ' [Tag: AMLAK/ማኅየዊ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-DRS-008] (AM|DRS) 'ድርሳነ መስቀል በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[AM-DRS-009] (AM|DRS) 'ድርሳነ ሚካኤል በአማርኛ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[AM-DRS-010] (AM|DRS) 'ድርሳነ ቅዱስ ራጉኤል በአማርኛ' [Tag: MALAKT/ራጉኤል]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL+MONTHLY], 13/6 (ጳጉሜን 6) [ANNUAL]
+
+[AM-ENZ-001] (AM|ENZ) 'እንዚራ ስብሐት በአማርኛ' [Tag: AMLAK/እንዚራ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-ETA-001] (AM|TSE) 'በሰማይ ወበምድር በአማርኛ' [Tag: MARIAM/እትአመነኪ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-GDL-001] (AM|GDL) 'ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በአማርኛ' [Tag: TSADQAN/ዘጋሥጫ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 11/7 (ሐምሌ 7) [ANNUAL+MONTHLY]
+
+[AM-GDL-002] (AM|GDL) 'ገድለ ማርያም እንተ ዕፍረት በአማርኛ' [Tag: MARIAM/ዕፍረት]
+  -> ANNUAL FEASTS: 2/1 (ጥቅምት 1) [ANNUAL], 6/6 (የካቲት 6) [ANNUAL]
+
+[AM-GDL-003] (AM|GDL) 'ገድለ ማርያም መግደላዊት በአማርኛ' [Tag: MARIAM/መግደላዊት]
+  -> ANNUAL FEASTS: 7/29 (መጋቢት 29) [ANNUAL], 12/6 (ነሐሴ 6) [ANNUAL]
+
+[AM-GDL-004] (AM|GDL) 'ገድለ ተክለ ሃይማኖት በአማርኛ' [Tag: TSADQAN/ሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[AM-GDL-005] (AM|GDL) 'ገድለ ቅድስት ክርስቶስ ሠምራ በአማርኛ' [Tag: TSADQAN/ሠምራ]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/24 (መስከረም 24) [ANNUAL+MONTHLY], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[AM-GDL-006] (AM|GDL) 'የአባ በግዑ ገድል በአማርኛ' [Tag: TSADQAN/ገድል]
+  -> ANNUAL FEASTS: 4/27 (ታኅሣሥ 27) [ANNUAL]
+
+[AM-GDL-007] (AM|GDL) 'ገድለ አቡነ ገብረ መንፈስ ቅዱስ በአማርኛ' [Tag: TSADQAN/ቅዱስ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/5 (ጥቅምት 5) [ANNUAL+MONTHLY], 4/29 (ታኅሣሥ 29) [ANNUAL], 7/5 (መጋቢት 5) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL]
+
+[AM-GDL-008] (AM|GDL) 'ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ' [Tag: SAMAET/አርሴማ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/29 (መስከረም 29) [ANNUAL], 4/6 (ታኅሣሥ 6) [ANNUAL+MONTHLY], 10/17 (ሰኔ 17) [ANNUAL]
+
+[AM-GDL-009] (AM|GDL) 'ገድለ ቅዱስ እስጢፋኖስ አማርኛ' [Tag: SAMAET/እስጢፋኖስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/15 (መስከረም 15) [ANNUAL], 2/17 (ጥቅምት 17) [ANNUAL+MONTHLY], 5/1 (ጥር 1) [ANNUAL]
+
+[AM-GDL-010] (AM|GDL) 'ገድለ ሰማዕታት በአማርኛ' [Tag: SAMAET/ሰማዕታት]
+  -> ANNUAL FEASTS: 3/4 (ኅዳር 4) [ANNUAL], 6/12 (የካቲት 12) [ANNUAL]
+
+[AM-GDL-011] (AM|GDL) 'ገድለ አቡነ በጸሎተ ሚካኤል በአማርኛ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/6 (ጥቅምት 6) [ANNUAL], 11/21 (ሐምሌ 21) [ANNUAL+MONTHLY]
+
+[AM-GDL-012] (AM|GDL) 'ገድለ አቡነ ዘርዐ ቡሩከ በአማርኛ' [Tag: TSADQAN/ቡሩከ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/13 (ታኅሣሥ 13) [ANNUAL+MONTHLY], 5/13 (ጥር 13) [ANNUAL+MONTHLY]
+
+[AM-GDL-013] (AM|GDL) 'የቅዱስ ዮሐንስ ገድል በአማርኛ' [Tag: TSADQAN/ገድል]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[AM-GDL-014] (AM|GDL) 'የአቡነ እስትንፋሰ ክርስቶስ ገድል በአማርኛ' [Tag: TSADQAN/ገድል]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/9 (የካቲት 9) [ANNUAL+MONTHLY], 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[AM-GDL-015] (AM|GDL) 'ገድለ ሰማዕት ቅዱስ መርቆሬዎስ በአማርኛ' [Tag: SAMAET/መርቆሬዎስ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/25 (ኅዳር 25) [ANNUAL+MONTHLY], 5/25 (ጥር 25) [ANNUAL+MONTHLY], 11/25 (ሐምሌ 25) [ANNUAL+MONTHLY]
+
+[AM-GDL-016] (AM|GDL) 'ገድለ አቡነ አረጋዊ በአማርኛ' [Tag: TSADQAN/አረጋዊ]
+  -> MONTHLY: Day 14 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/14 (ጥቅምት 14) [ANNUAL+MONTHLY], 5/14 (ጥር 14) [ANNUAL+MONTHLY]
+
+[AM-GDL-017] (AM|GDL) 'ገድለ አቡነ ገሪማ በአማርኛ' [Tag: TSADQAN/ገሪማ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 10/17 (ሰኔ 17) [ANNUAL+MONTHLY]
+
+[AM-GDL-018] (AM|GDL) 'ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በአማርኛ' [Tag: SAMAET/ሰማዕት]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-GDL-019] (AM|GDL) 'ገድለ አዳም በአማርኛ' [Tag: TSADQAN/አዳም]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 8/6 (ሚያዝያ 6) [ANNUAL+MONTHLY]
+
+[AM-GDL-020] (AM|GDL) 'ገድለ እምነ ወለተ ጴጥሮስ በአማርኛ' [Tag: TSADQAN/ጴጥሮስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/17 (ኅዳር 17) [ANNUAL+MONTHLY]
+
+[AM-GDL-021] (AM|GDL) 'ገድለ አቡነ ኪሮስ በአማርኛ' [Tag: TSADQAN/ኪሮስ]
+  -> MONTHLY: Day 8 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/8 (ታኅሣሥ 8) [ANNUAL+MONTHLY], 11/8 (ሐምሌ 8) [ANNUAL+MONTHLY]
+
+[AM-GDL-022] (AM|GDL) 'የመባዓ ጽዮን ገድል በአማርኛ' [Tag: TSADQAN/ገድል]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/27 (ጥቅምት 27) [ANNUAL+MONTHLY]
+
+[AM-GDL-023] (AM|GDL) 'የቅዱስ ቂርቆስና የቅድስት ኢየሉጣ ገድል በአማርኛ' [Tag: TSADQAN/ገድል]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/15 (ጥር 15) [ANNUAL+MONTHLY], 11/19 (ሐምሌ 19) [ANNUAL]
+
+[AM-GDL-024] (AM|GDL) 'ገድለ ቅዱስ አቡነ አቢብ በአማርኛ' [Tag: TSADQAN/አቢ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/25 (ጥቅምት 25) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL]
+
+[AM-GDL-025] (AM|GDL) 'ገድለ ቅዱስ ዞሲማስ በአማርኛ' [Tag: TSADQAN/ዞሲማስ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[AM-GDL-026] (AM|GDL) 'ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ' [Tag: AMLAK/ሞዐ]
+  -> MONTHLY: Day 26 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/26 (ኅዳር 26) [ANNUAL+MONTHLY]
+
+[AM-GDL-027] (AM|GDL) 'ገድለ አቡነ እጨጌ ዮሐንስ ዘጸገሮ በአማርኛ' [Tag: TSADQAN/ዘጸገሮ]
+  -> ANNUAL FEASTS: 11/29 (ሐምሌ 29) [ANNUAL]
+
+[AM-GDL-028] (AM|GDL) 'ገድለ አቡነ አሮን መንክራዊ በአማርኛ' [Tag: TSADQAN/መንክራዊ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/5 (መስከረም 5) [ANNUAL+MONTHLY]
+
+[AM-GDL-029] (AM|GDL) 'ገድለ ቅዱስ ፊቅጦር በአማርኛ' [Tag: TSADQAN/ፊቅጦር]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/5 (ታኅሣሥ 5) [ANNUAL], 6/13 (የካቲት 13) [ANNUAL], 8/27 (ሚያዝያ 27) [ANNUAL+MONTHLY]
+
+[AM-GDL-030] (AM|GDL) 'ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በአማርኛ' [Tag: SAMAET/ቴዎድሮስ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 20 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/5 (ኅዳር 5) [ANNUAL], 3/20 (ኅዳር 20) [ANNUAL+MONTHLY], 5/12 (ጥር 12) [ANNUAL+MONTHLY], 6/28 (የካቲት 28) [ANNUAL]
+
+[AM-GOL-001] (AM|TSE) 'የሰኔ ጎልጎታ በአማርኛ' [Tag: MARIAM/ጎልጎታ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+
+[AM-KID-001] (AM|TSE) 'መዓዛ ቅዳሴ በአማርኛ' [Tag: AMLAK/ቅዳሴ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ጸሎተ ፈትቶ።']
+  -> Sample Text: 1 አባ ጊዮርጊስ ዘጋስጫ አምላክን ስለ ወለደች ስለ እመቤታችን ድንግል ማርያም በመንፈስ ቅዱስ የደረሰው ምስጋና ይህ ነው። ልመናዋ ክብሯ የልጇ ቸርነት ከሁላች // 2 ይካ፤ እግዚአብሔር ከሁላችሁ ጋር ይሁን። ይሕ፤ እንደቃልህ ይደረግልን። ይካ፤ አምላካችንን አመስትት።ይሕ፤ እውነት ነው ይገባል። ይካ። ልቡናችሁን ከፍ አድር
+
+[AM-KOH-001] (AM|KOH) 'ኆኅተ ብርሃን በአማርኛ' [Tag: AMLAK/ኆኅተ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-LAH-001] (AM|LAH) 'ላሐ ማርያም በአማርኛ' [Tag: MARIAM/ላሐ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-LIT-001] (AM|TSE) 'የሰባቱ ዕለታት የነግህ ሊጦን በአማርኛ' [Tag: AMLAK/ሊጦን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-001] (AM|MEL) 'መልክአ ኖላዊ በአማርኛ' [Tag: AMLAK/ኖላዊ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-002] (AM|MEL) 'መልክአ ኢየሱስ በአማርኛ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[AM-MEL-003] (AM|MEL) 'መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ' [Tag: TSADQAN/አቢብ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/25 (ጥቅምት 25) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL]
+
+[AM-MEL-004] (AM|MEL) 'መልክዐ ሕማማተ መስቀል በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-005] (AM|MEL) 'መልክዐ መቃርዮስ በአማርኛ' [Tag: TSADQAN/መቃርዮስ]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/8 (ጥር 8) [ANNUAL], 7/13 (መጋቢት 13) [ANNUAL], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY], 11/14 (ሐምሌ 14) [ANNUAL], 12/19 (ነሐሴ 19) [ANNUAL]
+
+[AM-MEL-006] (AM|MEL) 'መልክዐ ሚካኤል በአማርኛ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[AM-MEL-007] (AM|MEL) 'መልክዐ ማሕየዊ በአማርኛ' [Tag: AMLAK/ማሕየዊ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-008] (AM|MEL) 'መልክዐ ማርያም ሣልሲት በአማርኛ' [Tag: MARIAM/መልክዕ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-009] (AM|MEL) 'መልክዐ ማርያም በአማርኛ' [Tag: MARIAM/መልክዕ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-010] (AM|MEL) 'መልክዐ ሥላሴ በአማርኛ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-011] (AM|MEL) 'መልክዐ ቅንዋት በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-012] (AM|MEL) 'መልክዐ ቅዱስ መስቀል በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[AM-MEL-013] (AM|MEL) 'መልክዐ ቅዱስ ሚናስ በአማርኛ' [Tag: SAMAET/ሚናስ]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/15 (ኅዳር 15) [ANNUAL+MONTHLY], 10/15 (ሰኔ 15) [ANNUAL+MONTHLY]
+
+[AM-MEL-014] (AM|MEL) 'መልክዐ ቅዱስ ራጉኤል በአማርኛ' [Tag: MALAKT/ራጉኤል]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL+MONTHLY], 13/6 (ጳጉሜን 6) [ANNUAL]
+
+[AM-MEL-015] (AM|MEL) 'መልክዐ ቅዱስ ቂርቆስ በአማርኛ' [Tag: SAMAET/ቂርቆስ]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/15 (ጥር 15) [ANNUAL+MONTHLY], 11/19 (ሐምሌ 19) [ANNUAL]
+
+[AM-MEL-016] (AM|MEL) 'መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በአማርኛ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[AM-MEL-017] (AM|MEL) 'መልክዐ ቅድስት ጸበለ ማርያም በአማርኛ' [Tag: TSADQAN/ጸበለማርያም]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/24 (ጥቅምት 24) [ANNUAL+MONTHLY]
+
+[AM-MEL-018] (AM|MEL) 'መልክዐ ቅድስት ፍቅርተ ክርስቶስ በአማርኛ' [Tag: TSADQAN/ፍቅርተክርስቶስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/29 (የካቲት 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[AM-MEL-019] (AM|MEL) 'መልክዐ አቡነ ሐራ ድንግል በአማርኛ' [Tag: TSADQAN/ሐራድንግል]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/11 (ጥር 11) [ANNUAL+MONTHLY], 9/11 (ግንቦት 11) [ANNUAL+MONTHLY]
+
+[AM-MEL-020] (AM|MEL) 'መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ' [Tag: TSADQAN/ዕጨጌዮሐንስ]
+  -> ANNUAL FEASTS: 11/29 (ሐምሌ 29) [ANNUAL]
+
+[AM-MEL-021] (AM|MEL) 'መልክዐ አቡነ ዮሐንስ ጻድቅ በአማርኛ' [Tag: TSADQAN/ዮሐንስጻድቅ]
+  -> MONTHLY: Day 16 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/20 (ጥር 20) [ANNUAL], 9/7 (ግንቦት 7) [ANNUAL], 11/16 (ሐምሌ 16) [ANNUAL+MONTHLY]
+
+[AM-MEL-022] (AM|MEL) 'መልክዐ አብርሃም ይሥሐቅ ያዕቆብ በአማርኛ' [Tag: NEBIYAT/አብርሃምይሥሐቅያዕቆብ]
+  -> MONTHLY: Day 28 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 12/24 (ነሐሴ 24) [ANNUAL]
+
+[AM-MEL-023] (AM|MEL) 'መልክዐ አዳም ወሔዋን በአማርኛ' [Tag: NEBIYAT/አዳมወሔዋን]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 8/6 (ሚያዝያ 6) [ANNUAL+MONTHLY]
+
+[AM-MEL-024] (AM|MEL) 'መልክዐ አፍጼ በአማርኛ' [Tag: TESATU/አፍጼ]
+  -> ANNUAL FEASTS: 9/29 (ግንቦት 29) [ANNUAL]
+
+[AM-MEL-025] (AM|MEL) 'መልክዐ ኢትዮጵያ በአማርኛ' [Tag: AMLAK/ኢትዮጵያ]
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL]
+
+[AM-MEL-026] (AM|MEL) 'መልክዐ ኤዶም በአማርኛ' [Tag: AMLAK/ኤዶም]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-027] (AM|MEL) 'መልክዐ ኪዳነ ምሕረት በአማርኛ' [Tag: MARIAM/ኪዳነምሕረት]
+  -> MONTHLY: Day 16 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/16 (የካቲት 16) [ANNUAL+MONTHLY]
+
+[AM-MEL-028] (AM|MEL) 'መልክዐ ጠቢበ ጠቢባን በአማርኛ' [Tag: AMLAK/ጠቢበጠቢባን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MEL-029] (AM|MEL) 'መልክዐ ጰራቅሊጦስ በአማርኛ' [Tag: AMLAK/ጰራቅሊጦስ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+
+[AM-MEL-030] (AM|MEL) 'መልክዐ ፍልሰታ በአማርኛ' [Tag: MARIAM/ፍልሰታ]
+  -> ANNUAL FEASTS: 12/1 (ነሐሴ 1) [ANNUAL], 12/2 (ነሐሴ 2) [ANNUAL], 12/3 (ነሐሴ 3) [ANNUAL], 12/4 (ነሐሴ 4) [ANNUAL], 12/5 (ነሐሴ 5) [ANNUAL], 12/6 (ነሐሴ 6) [ANNUAL], 12/7 (ነሐሴ 7) [ANNUAL], 12/8 (ነሐሴ 8) [ANNUAL], 12/9 (ነሐሴ 9) [ANNUAL], 12/10 (ነሐሴ 10) [ANNUAL], 12/11 (ነሐሴ 11) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL], 12/13 (ነሐሴ 13) [ANNUAL], 12/14 (ነሐሴ 14) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-032] (AM|MEL) 'ኹለተኛ መልክዐ ሥዕል በአማርኛ' [Tag: AMLAK/ሥዕል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/26 (መስከረም 26) [ANNUAL], 3/5 (ኅዳር 5) [ANNUAL]
+
+[AM-MEL-033] (AM|MEL) 'የሐዋርያው የቅዱስ ታዴዎስ መልክዕ በአማርኛ' [Tag: HAWARYAT/ታዴዎስ]
+  -> MONTHLY: Day 2 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 11/2 (ሐምሌ 2) [ANNUAL+MONTHLY], 11/29 (ሐምሌ 29) [ANNUAL]
+
+[AM-MEL-034] (AM|MEL) 'የመድኀኔ ዓለም 3ኛ መልክዕ በአማርኛ' [Tag: AMLAK/መድኃኔዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[AM-MEL-035] (AM|MEL) 'የመድኀኔ ዓለም መልክዕ በአማርኛ' [Tag: AMLAK/መድኃኔዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[AM-MEL-036] (AM|MEL) 'የሰማዕቱ ቅዱስ ጊጋር መልክዕ በአማርኛ' [Tag: SAMAET/ጊጋር]
+  -> ANNUAL FEASTS: 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-037] (AM|MEL) 'የቅዱሳን ሠለስቱ ደቂቅ መልክዕ በአማርኛ' [Tag: SAMAET/ሠለስቱደቂቅ]
+  -> ANNUAL FEASTS: 4/2 (ታኅሣሥ 2) [ANNUAL], 4/19 (ታኅሣሥ 19) [ANNUAL], 9/10 (ግንቦት 10) [ANNUAL]
+
+[AM-MEL-038] (AM|MEL) 'የቅዱሳን አእላፍ መላእክት 2ኛ መልክዕ በአማርኛ' [Tag: MALAKT/አእላፍ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/13 (ኅዳር 13) [ANNUAL+MONTHLY]
+
+[AM-MEL-039] (AM|MEL) 'የቅዱስ መርምሕናም መልክዕ በአማርኛ' [Tag: SAMAET/መርምሕናም]
+  -> ANNUAL FEASTS: 4/14 (ታኅሣሥ 14) [ANNUAL], 5/20 (ጥር 20) [ANNUAL]
+
+[AM-MEL-040] (AM|MEL) 'የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[AM-MEL-041] (AM|MEL) 'የቅዱስ ሚካኤል 3ኛ መልክዕ በአማርኛ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[AM-MEL-042] (AM|MEL) 'የቅዱስ ማርቆስ 2ኛ መልክዕ በአማርኛ' [Tag: HAWARYAT/ማርቆስ]
+  -> MONTHLY: Day 30 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/30 (ጥቅምት 30) [ANNUAL+MONTHLY], 8/30 (ሚያዝያ 30) [ANNUAL+MONTHLY]
+
+[AM-MEL-043] (AM|MEL) 'የቅዱስ ሩፋኤል መልክዕ በአማርኛ' [Tag: MALAKT/ሩፋኤል]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 13/3 (ጳጉሜን 3) [ANNUAL]
+
+[AM-MEL-044] (AM|MEL) 'የቅዱስ አቦሊ መልክዕ በአማርኛ' [Tag: SAMAET/አቦሊ]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/26 (መስከረም 26) [ANNUAL], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY]
+
+[AM-MEL-045] (AM|MEL) 'የቅዱስ እስጢፋኖስ 2ኛ መልክዕ በአማርኛ' [Tag: SAMAET/እስጢፋኖስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/15 (መስከረም 15) [ANNUAL], 2/17 (ጥቅምት 17) [ANNUAL+MONTHLY], 5/1 (ጥር 1) [ANNUAL]
+
+[AM-MEL-046] (AM|MEL) 'የቅዱስ እንድርያስ ሐዋርያ መልክዕ በአማርኛ' [Tag: HAWARYAT/እንድርያስሐዋርያ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/4 (ታኅሣሥ 4) [ANNUAL+MONTHLY], 11/30 (ሐምሌ 30) [ANNUAL], 12/30 (ነሐሴ 30) [ANNUAL]
+
+[AM-MEL-047] (AM|MEL) 'የቅዱስ ዮሐንስ 2ኛ መልክዕ በአማርኛ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[AM-MEL-048] (AM|MEL) 'የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ' [Tag: NEBIYAT/ዮሐንስመጥምቅ]
+  -> MONTHLY: Day 2 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 30 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL], 1/2 (መስከረም 2) [ANNUAL+MONTHLY], 1/26 (መስከረም 26) [ANNUAL], 5/11 (ጥር 11) [ANNUAL], 6/30 (የካቲት 30) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL], 10/2 (ሰኔ 2) [ANNUAL+MONTHLY], 10/30 (ሰኔ 30) [ANNUAL+MONTHLY], 13/1 (ጳጉሜን 1) [ANNUAL]
+
+[AM-MEL-049] (AM|MEL) 'የቅዱስ ዳዊት መልክዕ በአማርኛ' [Tag: NEBIYAT/ዳዊት]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/23 (ታኅሣሥ 23) [ANNUAL+MONTHLY], 8/6 (ሚያዝያ 6) [ANNUAL]
+
+[AM-MEL-050] (AM|MEL) 'የቅዱስ ገብርኤል መልክዕ በአማርኛ' [Tag: MALAKT/ገብርኤል]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL+MONTHLY], 4/22 (ታኅሣሥ 22) [ANNUAL], 7/30 (መጋቢት 30) [ANNUAL], 10/13 (ሰኔ 13) [ANNUAL], 10/26 (ሰኔ 26) [ANNUAL], 11/19 (ሐምሌ 19) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[AM-MEL-051] (AM|MEL) 'የቅዱስ ጊዮርጊስ መልክዕ በአማርኛ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-052] (AM|MEL) 'የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ' [Tag: NEBIYAT/ኤልያስ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 5/6 (ጥር 6) [ANNUAL+MONTHLY], 12/13 (ነሐሴ 13) [ANNUAL]
+
+[AM-MEL-053] (AM|MEL) 'የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ' [Tag: TSADQAN/ሊባኖስ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/3 (ጥር 3) [ANNUAL+MONTHLY]
+
+[AM-MEL-054] (AM|MEL) 'የአቡነ ሳሙኤል ዘዋልድባ መልክዕ በአማርኛ' [Tag: TSADQAN/ሳሙኤልዘዋልድባ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/12 (ታኅሣሥ 12) [ANNUAL+MONTHLY]
+
+[AM-MEL-055] (AM|MEL) 'የአቡነ ሳሙኤል ዘዋልድባ ኹለተኛ መልክዕ በአማርኛ' [Tag: TSADQAN/ሳሙኤልዘዋልድባ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/12 (ታኅሣሥ 12) [ANNUAL+MONTHLY]
+
+[AM-MEL-056] (AM|MEL) 'የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ' [Tag: TSADQAN/ተከስተብርሃን]
+  -> ANNUAL FEASTS: 7/10 (መጋቢት 10) [ANNUAL]
+
+[AM-MEL-057] (AM|MEL) 'የአቡነ ተክለ ሃይማኖት 2ኛ መልክዕ በአማርኛ' [Tag: TSADQAN/ተክለሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[AM-MEL-058] (AM|MEL) 'የአቡነ ተክለ ሃይማኖት መልክዕ በአማርኛ' [Tag: TSADQAN/ተክለሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[AM-MEL-059] (AM|MEL) 'የአቡነ አቢብ መልክዕ በአማርኛ' [Tag: TSADQAN/አቢብ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/25 (ጥቅምት 25) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL]
+
+[AM-MEL-060] (AM|MEL) 'የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ' [Tag: TSADQAN/አባለክርስቶስ]
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL], 6/19 (የካቲት 19) [ANNUAL]
+
+[AM-MEL-061] (AM|MEL) 'የአቡነ ዘርዐ ቡሩክ መልክዕ በአማርኛ' [Tag: TSADQAN/ዘርዐቡሩክ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/13 (ታኅሣሥ 13) [ANNUAL+MONTHLY], 5/13 (ጥር 13) [ANNUAL+MONTHLY]
+
+[AM-MEL-062] (AM|MEL) 'የአቡነ ዜና ማርቆስ መልክዕ በአማርኛ' [Tag: TSADQAN/ዜናማርቆስ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY]
+
+[AM-MEL-063] (AM|MEL) 'የአባታችን አብርሃም መልክዕ በአማርኛ' [Tag: NEBIYAT/አብርሃም]
+  -> ANNUAL FEASTS: 11/7 (ሐምሌ 7) [ANNUAL], 12/28 (ነሐሴ 28) [ANNUAL]
+
+[AM-MEL-064] (AM|MEL) 'የጽዮን ማርያም 3ኛ መልክዕ በአማርኛ' [Tag: MARIAM/ጽዮን]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-065] (AM|MEL) 'ጸሎተ መልክዐ ሥቃዩ ለቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-066] (AM|MEL) 'ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-067] (AM|MEL) 'ጸሎተ መልክዕ ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት ካልዕ በአማርኛ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-MEL-068] (AM|MEL) 'የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ' [Tag: TSADQAN/መልከጼዴቅ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/4 (ግንቦት 4) [ANNUAL], 13/3 (ጳጉሜን 3) [ANNUAL]
+
+[AM-MEN-001] (AM|TSE) 'መንገደ ሰማይ በአማርኛ' [Tag: AMLAK/መንገደሰማይ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['የመንገደ ሰማይ መቅድም።']
+  -> Sample Text: የክርስቲያን መንገድ የክፉ ሰው ሞትና ሥቃይ // የመንገደ ሰማይ መቅድም።
+
+[AM-MET-001] (AM|MET) 'መጽሐፈ ባርቶስ በአማርኛ' [Tag: AMLAK/ባርቶስ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MET-002] (AM|MET) 'መጽሐፈ አርጋኖን በአማርኛ' [Tag: MARIAM/አርጋኖን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MIK-001] (AM|TSE) 'ምክሓ ምእመናን ክርስቶስ በአማርኛ' [Tag: AMLAK/ምክሓ]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[AM-MTS-001] (AM|MTS) 'መጽሐፈ ሜላድ በአማርኛ' [Tag: TSADQAN/ሜላድ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-MZM-001] (AM|MZM) 'መዝሙረ ዳዊት በአማርኛ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-RAY-001] (AM|TSE) 'ራዕየ ማርያም በአማርኛ' [Tag: MARIAM/ራዕይ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-SBT-001] (AM|TSE) 'የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት' [Tag: HAYMANOT/ሰባት]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት']
+  -> Sample Text: የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት // በልማደ ዕብራውያን ሰባት ቁጥር ምሉዕ ነው ፡፡ እግዚአብሔር አምላክም ይህንን ዓለምንና ኻያ ኹለቱን ሥነ ፍጥረት ፈጥሮ የዐረፈው በሰባተኛው ቀን ነው ፡፡
+
+[AM-SEL-001] (AM|TSE) 'ሰላም ለፍልሰተ ሥጋኪ በአማርኛ' [Tag: MARIAM/ፍልሰታ]
+  -> ANNUAL FEASTS: 12/1 (ነሐሴ 1) [ANNUAL], 12/2 (ነሐሴ 2) [ANNUAL], 12/3 (ነሐሴ 3) [ANNUAL], 12/4 (ነሐሴ 4) [ANNUAL], 12/5 (ነሐሴ 5) [ANNUAL], 12/6 (ነሐሴ 6) [ANNUAL], 12/7 (ነሐሴ 7) [ANNUAL], 12/8 (ነሐሴ 8) [ANNUAL], 12/9 (ነሐሴ 9) [ANNUAL], 12/10 (ነሐሴ 10) [ANNUAL], 12/11 (ነሐሴ 11) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL], 12/13 (ነሐሴ 13) [ANNUAL], 12/14 (ነሐሴ 14) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-SEY-001] (AM|SEY) 'ሰይፈ መለኮት በአማርኛ' [Tag: AMLAK/ሰይፈመለኮት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-SEY-002] (AM|SEY) 'ሰይፈ ሥላሴ በአማርኛ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-SIB-001] (AM|WUD) 'ስብሐተ ፍቁር ዘቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት በአማርኛ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-TAM-001] (AM|TAM) 'ተአምረ ኢየሱስ በአማርኛ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[AM-TAM-002] (AM|TAM) 'ተአምረ ማርያም በአማርኛ' [Tag: MARIAM/ማርያም]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[AM-TEA-001] (AM|TEA) 'ተአምኆ ቅዱሳን በአማርኛ' [Tag: TSADQAN/ተአምኆቅዱሳን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TEA-002] (AM|TEA) 'ተአምኆ ዘሥሉስ ቅዱስ በአማርኛ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TEA-003] (AM|MEL) 'ተአምኆ ዘሥሉስ ቅዱስ መልክዕ በአማርኛ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-001] (AM|TSE) 'የመስቀል አጥር ጸሎት በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-002] (AM|TSE) 'የሠርክ ጸሎት በአማርኛ' [Tag: AMLAK/ሠርክ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-003] (AM|TSE) 'የነቢያት ጸሎት በአማርኛ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-004] (AM|TSE) 'የኪዳን ጸሎት በአማርኛ' [Tag: AMLAK/ኪዳን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-005] (AM|TSE) 'የዘወትር ጸሎት በአማርኛ' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-TSE-006] (AM|TSE) 'ጸሎተ ንድራ በአማርኛ' [Tag: AMLAK/ንድራ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-WUD-001] (AM|WUD) 'ውዳሴ መስቀል በአማርኛ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-WUD-002] (AM|WUD) 'ውዳሴ ማርያም በአማርኛ' [Tag: MARIAM/ውዳሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-WUD-003] (AM|WUD) 'ውዳሴ አምላክ በአማርኛ' [Tag: AMLAK/ውዳሴአምላክ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-ZNA-001] (AM|ZNA) 'ዜና ሥላሴ በአማርኛ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[AM-ZNA-002] (AM|ZNA) 'ዜና አበው በአማርኛ' [Tag: TSADQAN/አበው]
+  -> ANNUAL FEASTS: 3/4 (ኅዳር 4) [ANNUAL], 5/26 (ጥር 26) [ANNUAL]
+
+[AM-ZNA-003] (AM|ZNA) 'ዜና ሐዋርያት በአማርኛ' [Tag: HAWARYAT/ሐዋርያት]
+  -> ANNUAL FEASTS: 11/5 (ሐምሌ 5) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL]
+
+[EN-TSE-001] (EN|TSE) 'Daily prayers' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[EN-WUD-001] (EN|WUD) 'HYMN OF PRAISE' [Tag: AMLAK/ውዳሴአምላክ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-BEE-001] (GZ|TSE) 'በእንተ ቅድሳት በግእዝ' [Tag: TSADQAN/በእንተቅድሳት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-DRS-001] (GZ|DRS) 'ድርሳነ ዑራኤል በግእዝ' [Tag: MALAKT/ዑራኤል]
+  -> MONTHLY: Day 22 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/22 (ጥር 22) [ANNUAL+MONTHLY], 11/21 (ሐምሌ 21) [ANNUAL], 11/22 (ሐምሌ 22) [ANNUAL+MONTHLY]
+
+[GZ-DRS-002] (GZ|DRS) 'ድርሳነ መስቀል በግእዝ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[GZ-DRS-003] (GZ|DRS) 'ድርሳነ ቅዱስ ራጉኤል በግእዝ' [Tag: MALAKT/ራጉኤል]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL+MONTHLY], 13/6 (ጳጉሜን 6) [ANNUAL]
+
+[GZ-DRS-004] (GZ|DRS) 'ድርሳነ ማኅየዊ በግእዝ' [Tag: AMLAK/ማኅየዊ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-DRS-005] (GZ|DRS) 'ድርሳነ መድኃኔ ዓለም በግእዝ' [Tag: AMLAK/ዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[GZ-DRS-006] (GZ|DRS) 'ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ' [Tag: TSADQAN/ፊሳልጎስ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ጥበቡ ሶበ ይመጽኡ ጼና ዘይንዕዎ በዘነቡ ይደመስስ አሠሮ እለ ይተልዉ አሠሮ ነዐውት ከመ ኢይርከቡ በአቶ ወኢየአኀዝዎ።']
+  -> Sample Text: ደርሳን ዘብፁዕ ፊሳልጎስ ዘደረሶ በእንተ አራዊት ወአዕዋፍ ከመቦ ላዕሌሆሙ ብዙኅ አምሳል ክመ ወብዙኅ ትእምርት ዘይከውን በቍዔተ ለዘያነብቦ። ነገር ቀዳማዊ በእ // ጥበቡ ሶበ ይመጽኡ ጼና ዘይንዕዎ በዘነቡ ይደመስስ አሠሮ እለ ይተልዉ አሠሮ ነዐውት ከመ ኢይርከቡ በአቶ ወኢየአኀዝዎ።
+
+[GZ-DRS-007] (GZ|DRS) 'ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ' [Tag: TSADQAN/ሐና]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/7 (መስከረም 7) [ANNUAL], 1/12 (መስከረም 12) [ANNUAL], 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY], 4/13 (ታኅሣሥ 13) [ANNUAL], 8/7 (ሚያዝያ 7) [ANNUAL], 9/1 (ግንቦት 1) [ANNUAL+MONTHLY], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-DRS-008] (GZ|DRS) 'ድርሳነ ሚካኤል በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[GZ-DRS-009] (GZ|DRS) 'ድርሳን ቅዱስ ሩፋኤል በግእዝ' [Tag: MALAKT/ሩፋኤል]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 13/3 (ጳጉሜን 3) [ANNUAL]
+
+[GZ-DRS-010] (GZ|DRS) 'ድርሳነ ገብርኤል በግእዝ' [Tag: MALAKT/ገብርኤል]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL+MONTHLY], 4/22 (ታኅሣሥ 22) [ANNUAL], 7/30 (መጋቢት 30) [ANNUAL], 10/13 (ሰኔ 13) [ANNUAL], 10/26 (ሰኔ 26) [ANNUAL], 11/19 (ሐምሌ 19) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-ENZ-001] (GZ|ENZ) 'እንዚራ ስብሐት በግእዝ' [Tag: AMLAK/እንዚራ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-ETA-001] (GZ|TSE) 'እትአመነኪ ማርያም በሰማይ ወበምድር በግእዝ' [Tag: MARIAM/እትአመነኪ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-GDL-001] (GZ|GDL) 'ገድለ አቡነ ፊልጶስ ዘደብረ ሊባኖስ በግእዝ' [Tag: TSADQAN/ሊባኖስ]
+  -> ANNUAL FEASTS: 7/23 (መጋቢት 23) [ANNUAL], 11/28 (ሐምሌ 28) [ANNUAL]
+
+[GZ-GDL-002] (GZ|GDL) 'ገድለ ሰማዕት ቅዱስ መርቆሬዎስ በግእዝ' [Tag: SAMAET/መርቆሬዎስ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/25 (ኅዳር 25) [ANNUAL+MONTHLY], 5/25 (ጥር 25) [ANNUAL+MONTHLY], 11/25 (ሐምሌ 25) [ANNUAL+MONTHLY]
+
+[GZ-GDL-003] (GZ|GDL) 'ገድለ እምነ ወለተ ጴጥሮስ በግእዝ' [Tag: TSADQAN/ጴጥሮስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/17 (ኅዳር 17) [ANNUAL+MONTHLY]
+
+[GZ-GDL-004] (GZ|GDL) 'ገድለ አቡነ ዘርዐ ቡሩከ በግእዝ' [Tag: TSADQAN/ቡሩከ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/13 (ታኅሣሥ 13) [ANNUAL+MONTHLY], 5/13 (ጥር 13) [ANNUAL+MONTHLY]
+
+[GZ-GDL-005] (GZ|GDL) 'ገድለ አቡነ አበክረዙን በግእዝ' [Tag: TSADQAN/አበክረዙን]
+  -> ANNUAL FEASTS: 11/3 (ሐምሌ 3) [ANNUAL]
+
+[GZ-GDL-006] (GZ|GDL) 'ገድለ አቡነ እስትንፋስ ክርስቶስ በግእዝ' [Tag: TSADQAN/ክርስቶስ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/9 (የካቲት 9) [ANNUAL+MONTHLY], 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[GZ-GDL-007] (GZ|GDL) 'ገድለ ቅዱስ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ' [Tag: TSADQAN/ዘጋሥጫ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 11/7 (ሐምሌ 7) [ANNUAL+MONTHLY]
+
+[GZ-GDL-008] (GZ|GDL) 'ገድለ ቅዱስ ዞሲማስ በግእዝ' [Tag: TSADQAN/ዞሲማስ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[GZ-GDL-009] (GZ|GDL) 'ገድለ ቅዱስ ሱስንዮስ በግእዝ' [Tag: TSADQAN/ሱስንዮስ]
+  -> ANNUAL FEASTS: 8/26 (ሚያዝያ 26) [ANNUAL]
+
+[GZ-GDL-010] (GZ|GDL) 'ገድለ ቅዱስ ዮስጦስ በግእዝ' [Tag: TSADQAN/ዮስጦስ]
+  -> ANNUAL FEASTS: 6/10 (የካቲት 10) [ANNUAL], 11/17 (ሐምሌ 17) [ANNUAL]
+
+[GZ-GDL-011] (GZ|GDL) 'ገድለ አቡነ ፊልጶስ በግእዝ' [Tag: TSADQAN/ፊልጶስ]
+  -> ANNUAL FEASTS: 11/28 (ሐምሌ 28) [ANNUAL]
+
+[GZ-GDL-012] (GZ|GDL) 'ገድለ ቅዱስ ቈጵርያኖስ ወቅድስት ኢዩስጣ በግእዝ' [Tag: TSADQAN/ኢዩስጣ]
+  -> ANNUAL FEASTS: 1/21 (መስከረም 21) [ANNUAL]
+
+[GZ-GDL-013] (GZ|GDL) 'ገድለ ዘርዐ አብርሃም በግእዝ' [Tag: TSADQAN/አብርሃም]
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL]
+
+[GZ-GDL-014] (GZ|GDL) 'ገድለ ቅዱስ ጊዮርጊስ ሰማዕት በግእዝ' [Tag: SAMAET/ሰማዕት]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-GDL-015] (GZ|GDL) 'ገድለ አቡነ በጸሎተ ሚካኤል በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/6 (ጥቅምት 6) [ANNUAL], 11/21 (ሐምሌ 21) [ANNUAL+MONTHLY]
+
+[GZ-GDL-016] (GZ|GDL) 'ገድለ አቡነ ኪሮስ በግእዝ' [Tag: TSADQAN/ኪሮስ]
+  -> MONTHLY: Day 8 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/8 (ታኅሣሥ 8) [ANNUAL+MONTHLY], 11/8 (ሐምሌ 8) [ANNUAL+MONTHLY]
+
+[GZ-GDL-017] (GZ|GDL) 'ገድለ አቡነ ተክለ ሐዋርያት በግእዝ' [Tag: HAWARYAT/ሐዋርያት]
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL]
+
+[GZ-GDL-018] (GZ|GDL) 'ገድለ አቡነ ዮሐንስ በግእዝ' [Tag: TSADQAN/ዮሐንስ]
+  -> ANNUAL FEASTS: 11/29 (ሐምሌ 29) [ANNUAL]
+
+[GZ-GDL-019] (GZ|GDL) 'ገድለ ቅድስት ክርስቶስ ሠምራ በግእዝ' [Tag: TSADQAN/ሠምራ]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/24 (መስከረም 24) [ANNUAL+MONTHLY], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[GZ-GDL-020] (GZ|GDL) 'ገድለ አቡነ ፊልሞና በግእዝ' [Tag: TSADQAN/ፊልሞና]
+  -> ANNUAL FEASTS: 4/22 (ታኅሣሥ 22) [ANNUAL]
+
+[GZ-GDL-021] (GZ|GDL) 'ድርሳን ወገድል ዘቅዱስ ያሬድ በግእዝ' [Tag: TSADQAN/ያሬድ]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 9/11 (ግንቦት 11) [ANNUAL+MONTHLY]
+
+[GZ-GDL-022] (GZ|GDL) 'ገድለ ቅዱስ እስጢፋኖስ በግእዝ' [Tag: SAMAET/እስጢፋኖስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/15 (መስከረም 15) [ANNUAL], 2/17 (ጥቅምት 17) [ANNUAL+MONTHLY], 5/1 (ጥር 1) [ANNUAL]
+
+[GZ-GDL-023] (GZ|GDL) 'ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ' [Tag: TSADQAN/ክርስቶስ]
+  -> ANNUAL FEASTS: 9/29 (ግንቦት 29) [ANNUAL]
+
+[GZ-GDL-024] (GZ|GDL) 'ገድለ አቡነ አሮን መንክራዊ ግእዝ' [Tag: TSADQAN/መንክራዊ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/5 (መስከረም 5) [ANNUAL+MONTHLY]
+
+[GZ-GDL-025] (GZ|GDL) 'ገድለ አባ በግዑ በግእዝ' [Tag: TSADQAN/በግዑ]
+  -> ANNUAL FEASTS: 4/27 (ታኅሣሥ 27) [ANNUAL]
+
+[GZ-GDL-026] (GZ|GDL) 'ገድለ ቅዱሳን አባዲር ወኢራኢ በግእዝ' [Tag: TSADQAN/ወኢራኢ]
+  -> ANNUAL FEASTS: 1/28 (መስከረም 28) [ANNUAL]
+
+[GZ-GDL-027] (GZ|GDL) 'ገድለ ቅዱስ ፊቅጦር በግእዝ' [Tag: TSADQAN/ፊቅጦር]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/5 (ታኅሣሥ 5) [ANNUAL], 6/13 (የካቲት 13) [ANNUAL], 8/27 (ሚያዝያ 27) [ANNUAL+MONTHLY]
+
+[GZ-GDL-028] (GZ|GDL) 'ገድለ አቡነ ዳንኤል በግእዝ' [Tag: TSADQAN/ዳንኤል]
+  -> ANNUAL FEASTS: 3/6 (ኅዳር 6) [ANNUAL]
+
+[GZ-GDL-029] (GZ|GDL) 'ገድለ አቡነ ዮሴፍ በግእዝ' [Tag: TSADQAN/ዮሴፍ]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/19 (ግንቦት 19) [ANNUAL+MONTHLY]
+
+[GZ-GDL-030] (GZ|GDL) 'ገድለ ቅዱስ ቴዎድሮስ በግእዝ' [Tag: TSADQAN/ቴዎድሮስ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 20 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/5 (ኅዳር 5) [ANNUAL], 3/20 (ኅዳር 20) [ANNUAL+MONTHLY], 5/12 (ጥር 12) [ANNUAL+MONTHLY], 6/28 (የካቲት 28) [ANNUAL]
+
+[GZ-GDL-031] (GZ|GDL) 'ገድለ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ' [Tag: SAMAET/ቴዎድሮስ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 20 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/5 (ኅዳር 5) [ANNUAL], 3/20 (ኅዳር 20) [ANNUAL+MONTHLY], 5/12 (ጥር 12) [ANNUAL+MONTHLY], 6/28 (የካቲት 28) [ANNUAL]
+
+[GZ-GDL-032] (GZ|GDL) 'መጽሐፈ ገድለ ቅዱሳን ሐዋርያት በግእዝ' [Tag: HAWARYAT/ሐዋርያት]
+  -> ANNUAL FEASTS: 11/5 (ሐምሌ 5) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL]
+
+[GZ-GDL-033] (GZ|GDL) 'ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ' [Tag: SAMAET/አርሴማ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/29 (መስከረም 29) [ANNUAL], 4/6 (ታኅሣሥ 6) [ANNUAL+MONTHLY], 10/17 (ሰኔ 17) [ANNUAL]
+
+[GZ-GDL-034] (GZ|GDL) 'ገድለ አቡነ ፍሬ ሚካኤል በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> ANNUAL FEASTS: 3/3 (ኅዳር 3) [ANNUAL]
+
+[GZ-HAT-001] (GZ|HAT) 'ሐፁረ መስቀል በግእዝ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-HIB-001] (GZ|TSE) 'ኅብረ ሥላሴ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+
+[GZ-KOH-001] (GZ|KOH) 'ኆኅተ ብርሃን በግእዝ' [Tag: AMLAK/ኆኅተ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-LAH-001] (GZ|LAH) 'ላሐ ማርያም በግእዝ' [Tag: MARIAM/ላሐ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-001] (GZ|MEL) 'ሐዲስ መልክዐ መድኃኔዓለም በግእዝ' [Tag: AMLAK/መድኃኔዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[GZ-MEL-002] (GZ|MEL) 'መልከዐ ማርያም ዳግሚት በግእዝ' [Tag: MARIAM/መልክዕ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-003] (GZ|MEL) 'መልከዐ አቡነ ሊቃኖስ በግእዝ' [Tag: TESATU/ሊቃኖስ]
+  -> ANNUAL FEASTS: 3/28 (ኅዳር 28) [ANNUAL]
+
+[GZ-MEL-004] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ሣልስ በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-005] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-006] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ሩፋኤል በግእዝ' [Tag: MALAKT/ሩፋኤል]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 13/3 (ጳጉሜን 3) [ANNUAL]
+
+[GZ-MEL-007] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ራጉኤል በግእዝ' [Tag: MALAKT/ራጉኤል]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL+MONTHLY], 13/6 (ጳጉሜን 6) [ANNUAL]
+
+[GZ-MEL-008] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ሱርያል በግእዝ' [Tag: MALAKT/ሱርያል]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/27 (ጥር 27) [ANNUAL+MONTHLY], 12/27 (ነሐሴ 27) [ANNUAL+MONTHLY]
+
+[GZ-MEL-009] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ' [Tag: MALAKT/ሚካኤል]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 5/12 (ጥር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY], 11/12 (ሐምሌ 12) [ANNUAL+MONTHLY]
+  -> FORENSIC TEXT SAMPLE: መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል // ሰላም ለዝክረ ስምከ ምስለ ስመ ልዑል ዘተሳተፈ። ወልደ ያሬድ ሄኖክ በከመ ጸሐፈ። ሶበ እጼውዕ ስመከ ከሲትየ አፈ። ረዳኤ ምንዳባን ሚካኤል በከመ ታለምድ ዘልፈ ለረዲኦትየ ነዓ ሰፊሐከ ክንፈ። // ሰላም ለስእርተ ርእስከ ዘኢይጤየቅ ግዕዛ። ሚካኤል ሳውዕ አጽንሐሔ ሠናይ ፄና መዓዛ። በፂሐከ ግብተ ለነፍስየ አመ ትካዛ። ለልበ ዚአየ በትንባሌከ ናዝዛ። እንበለ ጊዜ በላህ ኢይርሳእ ወሬዛ።
+
+[GZ-MEL-010] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ አፍኒን በግእዝ' [Tag: MALAKT/አፍኒን]
+  -> ANNUAL FEASTS: 3/8 (ኅዳር 8) [ANNUAL]
+
+[GZ-MEL-011] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል በግእዝ' [Tag: MALAKT/ዑራኤል]
+  -> MONTHLY: Day 22 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/22 (ጥር 22) [ANNUAL+MONTHLY], 11/21 (ሐምሌ 21) [ANNUAL], 11/22 (ሐምሌ 22) [ANNUAL+MONTHLY]
+
+[GZ-MEL-012] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ዑራኤል ካልእ በግእዝ' [Tag: MALAKT/ዑራኤል]
+  -> MONTHLY: Day 22 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/22 (ጥር 22) [ANNUAL+MONTHLY], 11/21 (ሐምሌ 21) [ANNUAL], 11/22 (ሐምሌ 22) [ANNUAL+MONTHLY]
+
+[GZ-MEL-013] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል በግእዝ' [Tag: MALAKT/ገብርኤል]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL+MONTHLY], 4/22 (ታኅሣሥ 22) [ANNUAL], 7/30 (መጋቢት 30) [ANNUAL], 10/13 (ሰኔ 13) [ANNUAL], 10/26 (ሰኔ 26) [ANNUAL], 11/19 (ሐምሌ 19) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-MEL-014] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ገብርኤል ካልዕ (ደቅስዮስ) በግእዝ' [Tag: MALAKT/ገብርኤል]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL+MONTHLY], 4/22 (ታኅሣሥ 22) [ANNUAL], 7/30 (መጋቢት 30) [ANNUAL], 10/13 (ሰኔ 13) [ANNUAL], 10/26 (ሰኔ 26) [ANNUAL], 11/19 (ሐምሌ 19) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-MEL-015] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ፋኑኤል በግእዝ' [Tag: MALAKT/ፋኑኤል]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY]
+
+[GZ-MEL-016] (GZ|MEL) 'መልክዐ ሊቀ ሰማዕታት ቅዱስ እስጢፋኖስ በግእዝ' [Tag: SAMAET/እስጢፋኖስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/15 (መስከረም 15) [ANNUAL], 2/17 (ጥቅምት 17) [ANNUAL+MONTHLY], 5/1 (ጥር 1) [ANNUAL]
+
+[GZ-MEL-017] (GZ|MEL) 'መልክዐ ሊቀ ሰማዕታት ቅዱስ እስጢፋኖስ ካልእ በግእዝ' [Tag: SAMAET/እስጢፋኖስ]
+  -> MONTHLY: Day 17 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/15 (መስከረም 15) [ANNUAL], 2/17 (ጥቅምት 17) [ANNUAL+MONTHLY], 5/1 (ጥር 1) [ANNUAL]
+
+[GZ-MEL-018] (GZ|MEL) 'መልክዐ ሊባኖስ በግእዝ' [Tag: TSADQAN/ሊባኖስ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/3 (ጥር 3) [ANNUAL+MONTHLY]
+
+[GZ-MEL-019] (GZ|MEL) 'መልክዐ ላሊበላ በግዕዝ' [Tag: TSADQAN/ላሊበላ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL], 7/29 (መጋቢት 29) [ANNUAL], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-020] (GZ|MEL) 'መልክዐ ልደታ በግእዝ' [Tag: MARIAM/ልደት]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/1 (ግንቦት 1) [ANNUAL+MONTHLY]
+
+[GZ-MEL-021] (GZ|MEL) 'መልክዐ ሐራ ድንግል በግእዝ' [Tag: TSADQAN/ሐራድንግል]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/11 (ጥር 11) [ANNUAL+MONTHLY], 9/11 (ግንቦት 11) [ANNUAL+MONTHLY]
+
+[GZ-MEL-022] (GZ|MEL) 'መልክዐ ሐና በግእዝ' [Tag: MARIAM/ሐና]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/7 (መስከረም 7) [ANNUAL], 1/12 (መስከረም 12) [ANNUAL], 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY], 4/13 (ታኅሣሥ 13) [ANNUAL], 8/7 (ሚያዝያ 7) [ANNUAL], 9/1 (ግንቦት 1) [ANNUAL+MONTHLY], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-MEL-023] (GZ|MEL) 'መልክዐ ሐዋርያት በግእዝ' [Tag: HAWARYAT/ሐዋርያት]
+  -> ANNUAL FEASTS: 11/5 (ሐምሌ 5) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL]
+
+[GZ-MEL-024] (GZ|MEL) 'መልክዐ ሕማማተ መስቀል በግእዝ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-025] (GZ|MEL) 'መልክዐ ሕፃን ሞዐ በግእዝ' [Tag: TSADQAN/ኢየሱስሞዐ]
+  -> ANNUAL FEASTS: 11/25 (ሐምሌ 25) [ANNUAL]
+
+[GZ-MEL-026] (GZ|MEL) 'መልክዐ መቃርዮስ በግእዝ' [Tag: TSADQAN/መቃርዮስ]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/8 (ጥር 8) [ANNUAL], 7/13 (መጋቢት 13) [ANNUAL], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY], 11/14 (ሐምሌ 14) [ANNUAL], 12/19 (ነሐሴ 19) [ANNUAL]
+
+[GZ-MEL-027] (GZ|MEL) 'መልክዐ መድኀኔ ዓለም ሣልስ በግዕዝ' [Tag: AMLAK/መድኃኔዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[GZ-MEL-028] (GZ|MEL) 'መልክዐ መድኃኔ ዓለም በግእዝ' [Tag: AMLAK/መድኃኔዓለም]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/27 (ኅዳር 27) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL+MONTHLY]
+
+[GZ-MEL-029] (GZ|MEL) 'መልክዐ ማሕየዊ በግእዝ' [Tag: AMLAK/ማሕየዊ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-030] (GZ|MEL) 'መልክዐ ማርቆስ በግእዝ' [Tag: HAWARYAT/ማርቆስ]
+  -> MONTHLY: Day 30 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/30 (ጥቅምት 30) [ANNUAL+MONTHLY], 8/30 (ሚያዝያ 30) [ANNUAL+MONTHLY]
+
+[GZ-MEL-031] (GZ|MEL) 'መልክዐ ማርያም ሣልሲት በግእዝ' [Tag: MARIAM/መልክዕ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-032] (GZ|MEL) 'መልክዐ ማርያም በግእዝ' [Tag: MARIAM/መልክዕ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-033] (GZ|MEL) 'መልክዐ ሠለስቱ ምዕት በግእዝ' [Tag: TSADQAN/ሠለስቱምዕት]
+  -> ANNUAL FEASTS: 3/9 (ኅዳር 9) [ANNUAL]
+
+[GZ-MEL-034] (GZ|MEL) 'መልክዐ ሥሉስ ቅዱስ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> ANNUAL FEASTS: 5/7 (ጥር 7) [ANNUAL]
+
+[GZ-MEL-035] (GZ|MEL) 'መልክዐ ሥላሴ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-036] (GZ|MEL) 'መልክዐ ሥቃዩ ለጊዮርጊስ በግእዝ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-037] (GZ|MEL) 'መልክዐ ሥዕል ካልእ በግእዝ' [Tag: AMLAK/ሥዕል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/26 (መስከረም 26) [ANNUAL], 3/5 (ኅዳር 5) [ANNUAL]
+
+[GZ-MEL-038] (GZ|MEL) 'መልክዐ ሰላማ በግእዝ' [Tag: TSADQAN/ሰላማ]
+  -> ANNUAL FEASTS: 4/18 (ታኅሣሥ 18) [ANNUAL], 11/26 (ሐምሌ 26) [ANNUAL]
+
+[GZ-MEL-039] (GZ|MEL) 'መልክዐ ሰማዕት ቅዱስ መርቆሬዎስ በግእዝ' [Tag: SAMAET/መርቆሬዎስሰማዕት]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/25 (ኅዳር 25) [ANNUAL+MONTHLY], 5/25 (ጥር 25) [ANNUAL+MONTHLY], 11/25 (ሐምሌ 25) [ANNUAL+MONTHLY]
+
+[GZ-MEL-040] (GZ|MEL) 'መልክዐ ሰማዕት ቅዱስ ቴዎድሮስ በግእዝ' [Tag: SAMAET/ቴዎድሮስ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 20 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/5 (ኅዳር 5) [ANNUAL], 3/20 (ኅዳር 20) [ANNUAL+MONTHLY], 5/12 (ጥር 12) [ANNUAL+MONTHLY], 6/28 (የካቲት 28) [ANNUAL]
+
+[GZ-MEL-041] (GZ|MEL) 'መልክዐ ሰማዕት ቅዱስ ፋሲለደስ በግእዝ' [Tag: SAMAET/ፋሲለደስ]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/11 (መስከረም 11) [ANNUAL+MONTHLY]
+
+[GZ-MEL-042] (GZ|MEL) 'መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ' [Tag: SAMAET/አርሴማ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/29 (መስከረም 29) [ANNUAL], 4/6 (ታኅሣሥ 6) [ANNUAL+MONTHLY], 10/17 (ሰኔ 17) [ANNUAL]
+
+[GZ-MEL-043] (GZ|MEL) 'መልክዐ ሰማዕት ቅድስት ኢየሉጣ በግእዝ' [Tag: SAMAET/ኢየሉጣ]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/15 (ጥር 15) [ANNUAL+MONTHLY], 11/19 (ሐምሌ 19) [ANNUAL]
+
+[GZ-MEL-044] (GZ|MEL) 'መልክዐ ሰንበት በግዕዝ' [Tag: AMLAK/ሰንበት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-045] (GZ|MEL) 'መልክዐ ቁስቋም በግእዝ' [Tag: MARIAM/ቁስቋም]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/6 (ኅዳር 6) [ANNUAL+MONTHLY]
+
+[GZ-MEL-046] (GZ|MEL) 'መልክዐ ቅንዋት በግእዝ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-047] (GZ|MEL) 'መልክዐ ቅዱሳን ሠለስቱ ደቂቅ በግእዝ' [Tag: SAMAET/ሠለስቱደቂቅ]
+  -> ANNUAL FEASTS: 4/2 (ታኅሣሥ 2) [ANNUAL], 4/19 (ታኅሣሥ 19) [ANNUAL], 9/10 (ግንቦት 10) [ANNUAL]
+
+[GZ-MEL-048] (GZ|MEL) 'መልክዐ ቅዱሳን ዘመጠራ በግእዝ' [Tag: TSADQAN/ቅዱሳንዘመጠራ]
+  -> ANNUAL FEASTS: 2/19 (ጥቅምት 19) [ANNUAL]
+
+[GZ-MEL-049] (GZ|MEL) 'መልክዐ ቅዱስ መርምሕናም በግእዝ' [Tag: SAMAET/መርምሕናም]
+  -> ANNUAL FEASTS: 4/14 (ታኅሣሥ 14) [ANNUAL], 5/20 (ጥር 20) [ANNUAL]
+
+[GZ-MEL-050] (GZ|MEL) 'መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[GZ-MEL-051] (GZ|MEL) 'መልክዐ ቅዱስ መስቀል በግእዝ' [Tag: AMLAK/መስቀል]
+  -> MONTHLY: Day 10 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/10 (መስከረም 10) [ANNUAL+MONTHLY], 1/17 (መስከረም 17) [ANNUAL], 1/18 (መስከረም 18) [ANNUAL], 1/19 (መስከረም 19) [ANNUAL], 1/25 (መስከረም 25) [ANNUAL], 3/8 (ኅዳር 8) [ANNUAL], 7/10 (መጋቢት 10) [ANNUAL+MONTHLY], 7/27 (መጋቢት 27) [ANNUAL], 8/21 (ሚያዝያ 21) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL]
+
+[GZ-MEL-052] (GZ|MEL) 'መልክዐ ቅዱስ ሚናስ በግእዝ' [Tag: SAMAET/ሚናስ]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/15 (ኅዳር 15) [ANNUAL+MONTHLY], 10/15 (ሰኔ 15) [ANNUAL+MONTHLY]
+
+[GZ-MEL-053] (GZ|MEL) 'መልክዐ ቅዱስ ማርቆስ ካልእ በግእዝ' [Tag: HAWARYAT/ማርቆስ]
+  -> MONTHLY: Day 30 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/30 (ጥቅምት 30) [ANNUAL+MONTHLY], 8/30 (ሚያዝያ 30) [ANNUAL+MONTHLY]
+
+[GZ-MEL-054] (GZ|MEL) 'መልክዐ ቅዱስ ቂርቆስ በግእዝ' [Tag: SAMAET/ቂርቆስ]
+  -> MONTHLY: Day 15 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/15 (ጥር 15) [ANNUAL+MONTHLY], 11/19 (ሐምሌ 19) [ANNUAL]
+
+[GZ-MEL-055] (GZ|MEL) 'መልክዐ ቅዱስ ታዴዎስ በግእዝ' [Tag: HAWARYAT/ታዴዎስ]
+  -> MONTHLY: Day 2 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 11/2 (ሐምሌ 2) [ANNUAL+MONTHLY], 11/29 (ሐምሌ 29) [ANNUAL]
+
+[GZ-MEL-056] (GZ|MEL) 'መልክዐ ቅዱስ አባዲር በግእዝ' [Tag: SAMAET/አባዲር]
+  -> ANNUAL FEASTS: 1/28 (መስከረም 28) [ANNUAL]
+
+[GZ-MEL-057] (GZ|MEL) 'መልክዐ ቅዱስ አቦሊ በግእዝ' [Tag: SAMAET/አቦሊ]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/26 (መስከረም 26) [ANNUAL], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY]
+
+[GZ-MEL-058] (GZ|MEL) 'መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ' [Tag: SAMAET/አግናጥዮስ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/26 (ጥቅምት 26) [ANNUAL], 4/24 (ታኅሣሥ 24) [ANNUAL], 11/1 (ሐምሌ 1) [ANNUAL], 11/7 (ሐምሌ 7) [ANNUAL+MONTHLY]
+
+[GZ-MEL-059] (GZ|MEL) 'መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ' [Tag: NEBIYAT/ኤልያስ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 5/6 (ጥር 6) [ANNUAL+MONTHLY], 12/13 (ነሐሴ 13) [ANNUAL]
+
+[GZ-MEL-060] (GZ|MEL) 'መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ' [Tag: NEBIYAT/ዮሐንስመጥምቅ]
+  -> MONTHLY: Day 2 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 30 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL], 1/2 (መስከረም 2) [ANNUAL+MONTHLY], 1/26 (መስከረም 26) [ANNUAL], 5/11 (ጥር 11) [ANNUAL], 6/30 (የካቲት 30) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL], 10/2 (ሰኔ 2) [ANNUAL+MONTHLY], 10/30 (ሰኔ 30) [ANNUAL+MONTHLY], 13/1 (ጳጉሜን 1) [ANNUAL]
+
+[GZ-MEL-061] (GZ|MEL) 'መልክዐ ቅዱስ ዮሐንስ ካልእ በግእዝ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[GZ-MEL-062] (GZ|MEL) 'መልክዐ ቅዱስ ዮሐንስ ወንጌላዊ በግእዝ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[GZ-MEL-063] (GZ|MEL) 'መልክዐ ቅዱስ ዮስጦስ በግእዝ' [Tag: SAMAET/ዮስጦስ]
+  -> ANNUAL FEASTS: 6/10 (የካቲት 10) [ANNUAL], 11/17 (ሐምሌ 17) [ANNUAL]
+
+[GZ-MEL-064] (GZ|MEL) 'መልክዐ ቅዱስ ዳዊት በግእዝ' [Tag: NEBIYAT/ዳዊት]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/23 (ታኅሣሥ 23) [ANNUAL+MONTHLY], 8/6 (ሚያዝያ 6) [ANNUAL]
+
+[GZ-MEL-065] (GZ|MEL) 'መልክዐ ቅዱስ ጊዮርጊስ በግእዝ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-066] (GZ|MEL) 'መልክዐ ቅድስት ፍቅርተ ክርስቶስ በግእዝ' [Tag: TSADQAN/ፍቅርተክርስቶስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/29 (የካቲት 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MEL-067] (GZ|MEL) 'መልክዐ ቍርባን በግዕዝ' [Tag: AMLAK/ቁርባን]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['መልክዐ ቍርባን በግዕዝ']
+  -> Sample Text: ይ. ካ ሰላም ለኪ እንዘ ንሰግድ ንብለኪ ማርያም እምነ ናስተበቍዓኪ እምአርዌ ነዓዊ ተማኅፀነ ብኪ በእንተ ሐና እምኪ ወ ኢያቄም አቡኪ ማኅበረነ ዮም ድንግል ባ // ይ. ካ ንፍቅ ሰላም ሰላም ለመልክዐ ሐና ወ ኢያቄም ዘወለድዋ በርስአኖሙ ለቡርክት ማርያም ። እትማኅፀን አንሰ በመልክዖሙ ፍጹም። ወእትዓተብ መልክዕየ በእደ ማ
+
+[GZ-MEL-068] (GZ|MEL) 'መልክዐ ተክለ ሃይማኖት በግእዝ' [Tag: TSADQAN/ተክለሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-069] (GZ|MEL) 'መልክዐ ተክለ ሃይማኖት ካልእ በግእዝ' [Tag: TSADQAN/ተክለሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-070] (GZ|MEL) 'መልክዐ ተክለ ማርያም ዘይሰመይ መብዓ ጽዮን በግእዝ' [Tag: TSADQAN/ተክለማርያም]
+  -> ANNUAL FEASTS: 12/13 (ነሐሴ 13) [ANNUAL]
+
+[GZ-MEL-071] (GZ|MEL) 'መልክዐ ነአኵቶ ለአብ በግእዝ' [Tag: TSADQAN/ነአኵቶለአብ]
+  -> ANNUAL FEASTS: 3/1 (ኅዳር 1) [ANNUAL], 3/3 (ኅዳር 3) [ANNUAL]
+
+[GZ-MEL-072] (GZ|MEL) 'መልክዐ አማኑኤል በግእዝ' [Tag: AMLAK/አማኑኤል]
+  -> MONTHLY: Day 28 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/28 (ታኅሣሥ 28) [ANNUAL+MONTHLY]
+
+[GZ-MEL-073] (GZ|MEL) 'መልክዐ አረጋዊ በግእዝ' [Tag: TESATU/አረጋዊ]
+  -> MONTHLY: Day 14 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/14 (ጥቅምት 14) [ANNUAL+MONTHLY], 5/14 (ጥር 14) [ANNUAL+MONTHLY]
+
+[GZ-MEL-074] (GZ|MEL) 'መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ' [Tag: TSADQAN/ሊባኖስ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 5/3 (ጥር 3) [ANNUAL+MONTHLY]
+
+[GZ-MEL-075] (GZ|MEL) 'መልክዐ አቡነ መልከ ጼዴቅ በግእዝ' [Tag: TSADQAN/መልከጼዴቅ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/4 (ግንቦት 4) [ANNUAL], 13/3 (ጳጉሜን 3) [ANNUAL]
+
+[GZ-MEL-076] (GZ|MEL) 'መልክዐ አቡነ መርቆሬዎስ ዘደብረ ድማኅ በግእዝ' [Tag: TSADQAN/መርቆሬዎስዘድማኅ]
+  -> ANNUAL FEASTS: 4/16 (ታኅሣሥ 16) [ANNUAL]
+
+[GZ-MEL-077] (GZ|MEL) 'መልክዐ አቡነ መዝገበ ሥላሴ በግእዝ' [Tag: TSADQAN/መዝገበሥላሴ]
+  -> ANNUAL FEASTS: 2/9 (ጥቅምት 9) [ANNUAL]
+
+[GZ-MEL-078] (GZ|MEL) 'መልክዐ አቡነ መድኃኒነ እግዚእ በግእዝ' [Tag: TSADQAN/መድኃኒነእግዚእ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/3 (ኅዳር 3) [ANNUAL+MONTHLY]
+
+[GZ-MEL-079] (GZ|MEL) 'መልክዐ አቡነ ሙሴ በግእዝ' [Tag: TSADQAN/ሙሴ]
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL]
+
+[GZ-MEL-080] (GZ|MEL) 'መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ' [Tag: TSADQAN/ማቴዎስዘበርበሬ]
+  -> ANNUAL FEASTS: 5/14 (ጥር 14) [ANNUAL]
+
+[GZ-MEL-081] (GZ|MEL) 'መልክዐ አቡነ ማቴዎስ ዘደብረ በርበሬ በግእዝ ካልእ' [Tag: TSADQAN/ማቴዎስዘበርበሬ]
+  -> ANNUAL FEASTS: 3/13 (ኅዳር 13) [ANNUAL]
+
+[GZ-MEL-082] (GZ|MEL) 'መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ' [Tag: TSADQAN/ሠምረክርስቶስ]
+  -> ANNUAL FEASTS: 5/20 (ጥር 20) [ANNUAL]
+
+[GZ-MEL-083] (GZ|MEL) 'መልክዐ አቡነ ሰይፈ ሚካኤል በግእዝ' [Tag: TSADQAN/ሰይፈሚካኤል]
+  -> ANNUAL FEASTS: 2/19 (ጥቅምት 19) [ANNUAL]
+
+[GZ-MEL-084] (GZ|MEL) 'መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ' [Tag: TSADQAN/ሳሙኤልዘዋልድባ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/29 (ጥቅምት 29) [ANNUAL], 4/12 (ታኅሣሥ 12) [ANNUAL+MONTHLY], 4/23 (ታኅሣሥ 23) [ANNUAL], 8/12 (ሚያዝያ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-085] (GZ|MEL) 'መልክዐ አቡነ ሳሙኤል ዘዋልድባ በግእዝ' [Tag: TSADQAN/ሳሙኤልዘዋልድባ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/12 (ታኅሣሥ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-086] (GZ|MEL) 'መልክዐ አቡነ ሳሙኤል ዘዋልድባ ካልዕ በግእዝ' [Tag: TSADQAN/ሳሙኤልዘዋልድባ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/12 (ታኅሣሥ 12) [ANNUAL+MONTHLY]
+
+[GZ-MEL-087] (GZ|MEL) 'መልክዐ አቡነ ሴት በግእዝ' [Tag: TSADQAN/ሴት]
+  -> ANNUAL FEASTS: 3/24 (ኅዳር 24) [ANNUAL]
+
+[GZ-MEL-088] (GZ|MEL) 'መልክዐ አቡነ ቡሩከ አምላክ ዘደብረ ኮል በግእዝ' [Tag: TSADQAN/ቡሩከአምላክ]
+  -> ANNUAL FEASTS: 12/14 (ነሐሴ 14) [ANNUAL]
+
+[GZ-MEL-089] (GZ|MEL) 'መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ' [Tag: TSADQAN/ብፁዓአምላክ]
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 9/9 (ግንቦት 9) [ANNUAL]
+
+[GZ-MEL-090] (GZ|MEL) 'መልክዐ አቡነ ተንሥአ መድኅን በግእዝ' [Tag: TSADQAN/ተንሥአመድኅን]
+  -> STATUS: SEASON {'PENTECOST'}
+  -> ANNUAL FEASTS: 5/19 (ጥር 19) [ANNUAL]
+
+[GZ-MEL-091] (GZ|MEL) 'መልክዐ አቡነ ተከስተ ብርሃን በግእዝ' [Tag: TSADQAN/ተከስተብርሃን]
+  -> ANNUAL FEASTS: 7/10 (መጋቢት 10) [ANNUAL]
+
+[GZ-MEL-092] (GZ|MEL) 'መልክዐ አቡነ ተክለ ሃይማኖት በግእዝ' [Tag: TSADQAN/ተክለሃይማኖት]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/24 (ታኅሣሥ 24) [ANNUAL+MONTHLY], 5/24 (ጥር 24) [ANNUAL+MONTHLY], 7/24 (መጋቢት 24) [ANNUAL+MONTHLY], 8/22 (ሚያዝያ 22) [ANNUAL], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-093] (GZ|MEL) 'መልክዐ አቡነ ተክለ አልፋ በግእዝ' [Tag: TSADQAN/ተክለአልፋ]
+  -> ANNUAL FEASTS: 4/8 (ታኅሣሥ 8) [ANNUAL]
+
+[GZ-MEL-094] (GZ|MEL) 'መልክዐ አቡነ ቶማስ ዘዘናቁዴ በግእዝ' [Tag: TSADQAN/ቶማስዘዘናቁዴ]
+  -> ANNUAL FEASTS: 3/3 (ኅዳር 3) [ANNUAL]
+
+[GZ-MEL-095] (GZ|MEL) 'መልክዐ አቡነ አቢብ በግእዝ' [Tag: TSADQAN/አቢብ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/25 (ጥቅምት 25) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL]
+
+[GZ-MEL-096] (GZ|MEL) 'መልክዐ አቡነ አባለ ክርስቶስ በግእዝ' [Tag: TSADQAN/አባለክርስቶስ]
+  -> ANNUAL FEASTS: 4/19 (ታኅሣሥ 19) [ANNUAL], 6/19 (የካቲት 19) [ANNUAL]
+
+[GZ-MEL-097] (GZ|MEL) 'መልክዐ አቡነ አብራንዮስ ዘደብር ጥሉል በግእዝ' [Tag: TSADQAN/አብራንዮስ]
+  -> ANNUAL FEASTS: 3/22 (ኅዳር 22) [ANNUAL], 10/22 (ሰኔ 22) [ANNUAL]
+
+[GZ-MEL-098] (GZ|MEL) 'መልክዐ አቡነ አብርሃም በግእዝ' [Tag: TSADQAN/አቡነአብርሃም]
+  -> ANNUAL FEASTS: 11/7 (ሐምሌ 7) [ANNUAL], 12/28 (ነሐሴ 28) [ANNUAL]
+
+[GZ-MEL-099] (GZ|MEL) 'መልክዐ አቡነ አብሳዲ ዘደብረ ማርያም በግእዝ' [Tag: TSADQAN/አብሳዲ]
+  -> ANNUAL FEASTS: 1/30 (መስከረም 30) [ANNUAL]
+
+[GZ-MEL-100] (GZ|MEL) 'መልክዐ አቡነ አፍቅረነ እግዚእ በግእዝ' [Tag: TSADQAN/አፍቅረነእግዚእ]
+  -> ANNUAL FEASTS: 9/19 (ግንቦት 19) [ANNUAL]
+
+[GZ-MEL-101] (GZ|MEL) 'መልክዐ አቡነ አፍጼ በግእዝ' [Tag: TESATU/አፍጼ]
+  -> ANNUAL FEASTS: 9/29 (ግንቦት 29) [ANNUAL]
+
+[GZ-MEL-102] (GZ|MEL) 'መልክዐ አቡነ እንድርያስ ዘደብረ ስኂን (ፅፉን) በግእዝ' [Tag: TSADQAN/እንድርያስዘስኂን]
+  -> ANNUAL FEASTS: 7/29 (መጋቢት 29) [ANNUAL]
+
+[GZ-MEL-103] (GZ|MEL) 'መልክዐ አቡነ እንድርያስ ዘደብረ ጽጌ በግእዝ' [Tag: TSADQAN/እንድርያስዘጽጌ]
+  -> ANNUAL FEASTS: 6/1 (የካቲት 1) [ANNUAL]
+
+[GZ-MEL-104] (GZ|MEL) 'መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ' [Tag: TSADQAN/ዕጨጌዮሐንስ]
+  -> ANNUAL FEASTS: 11/29 (ሐምሌ 29) [ANNUAL]
+
+[GZ-MEL-105] (GZ|MEL) 'መልክዐ አቡነ ዘርዐ ቡሩክ በግእዝ' [Tag: TSADQAN/ዘርዐቡሩክ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/13 (ታኅሣሥ 13) [ANNUAL+MONTHLY], 5/13 (ጥር 13) [ANNUAL+MONTHLY]
+
+[GZ-MEL-106] (GZ|MEL) 'መልክዐ አቡነ ዜና ማርቆስ በግእዝ' [Tag: TSADQAN/ዜናማርቆስ]
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY]
+
+[GZ-MEL-107] (GZ|MEL) 'መልክዐ አቡነ የሐንስ ዘደብረ ቢዘን በግእዝ' [Tag: TSADQAN/የሐንስዘቢዘን]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+
+[GZ-MEL-108] (GZ|MEL) 'መልክዐ አቡነ ይምአታ በግእዝ' [Tag: TSADQAN/ይምአታ]
+  -> ANNUAL FEASTS: 2/28 (ጥቅምት 28) [ANNUAL]
+
+[GZ-MEL-109] (GZ|MEL) 'መልክዐ አቡነ ዮሐንስ ከማ በግእዝ' [Tag: TSADQAN/ዮሐንስከማ]
+  -> ANNUAL FEASTS: 4/25 (ታኅሣሥ 25) [ANNUAL]
+
+[GZ-MEL-110] (GZ|MEL) 'መልክዐ አቡነ ዮሐንስ ዘድብረ ዳጋ በግእዝ' [Tag: TSADQAN/ዮሐንስዘዳጋ]
+  -> ANNUAL FEASTS: 12/8 (ነሐሴ 8) [ANNUAL]
+
+[GZ-MEL-111] (GZ|MEL) 'መልክዐ አቡነ ዮሴፍ በግእዝ' [Tag: TSADQAN/ዮሴፍ]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/19 (ግንቦት 19) [ANNUAL+MONTHLY]
+
+[GZ-MEL-112] (GZ|MEL) 'መልክዐ አቡነ ዮስጢኖስ በግእዝ' [Tag: TSADQAN/ዮስጢኖስ]
+  -> ANNUAL FEASTS: 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-113] (GZ|MEL) 'መልክዐ አቡነ ዮናስ ዘደብረ ድኁኃን ዘደብረ ጽጌ ወዘደብረ ጽዮን በግእዝ' [Tag: TSADQAN/ዮናስ]
+  -> ANNUAL FEASTS: 3/17 (ኅዳር 17) [ANNUAL], 7/17 (መጋቢት 17) [ANNUAL]
+
+[GZ-MEL-114] (GZ|MEL) 'መልክዐ አቡነ ዳንኤል በግእዝ' [Tag: TSADQAN/ዳንኤል]
+  -> ANNUAL FEASTS: 3/6 (ኅዳር 6) [ANNUAL]
+
+[GZ-MEL-115] (GZ|MEL) 'መልክዐ አቡነ ጰንጠሌዎን በግእዝ' [Tag: TESATU/ጰንጠሌዎን]
+  -> ANNUAL FEASTS: 2/6 (ጥቅምት 6) [ANNUAL]
+
+[GZ-MEL-116] (GZ|MEL) 'መልክዐ አቡነ ጼዋ ለጽድቅ በግእዝ' [Tag: TSADQAN/ጼዋለጽድቅ]
+  -> ANNUAL FEASTS: 3/29 (ኅዳር 29) [ANNUAL]
+
+[GZ-MEL-117] (GZ|MEL) 'መልክዐ አቡነ ፊልሞና በግእዝ' [Tag: TSADQAN/ፊልሞና]
+  -> ANNUAL FEASTS: 4/22 (ታኅሣሥ 22) [ANNUAL]
+
+[GZ-MEL-118] (GZ|MEL) 'መልክዐ አቡነ ፊልጶስ በግእዝ' [Tag: TSADQAN/ፊልጶስ]
+  -> ANNUAL FEASTS: 11/28 (ሐምሌ 28) [ANNUAL]
+
+[GZ-MEL-120] (GZ|MEL) 'መልክዐ አቡነ ፊልጶስ ዘደብረ ቢዘን በግእዝ' [Tag: TSADQAN/ፊልጶስ]
+  -> ANNUAL FEASTS: 12/5 (ነሐሴ 5) [ANNUAL]
+
+[GZ-MEL-121] (GZ|MEL) 'መልክዐ አባ በጸሎተ ሚካኤል በግእዝ' [Tag: TSADQAN/በጸሎተሚካኤል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/6 (ጥቅምት 6) [ANNUAL], 11/21 (ሐምሌ 21) [ANNUAL+MONTHLY]
+
+[GZ-MEL-122] (GZ|MEL) 'መልክዐ አባ ኖብ ሰማዕት በግእዝ' [Tag: SAMAET/አባኖብ]
+  -> ANNUAL FEASTS: 1/18 (መስከረም 18) [ANNUAL], 3/7 (ኅዳር 7) [ANNUAL], 6/5 (የካቲት 5) [ANNUAL], 7/9 (መጋቢት 9) [ANNUAL], 10/19 (ሰኔ 19) [ANNUAL], 10/23 (ሰኔ 23) [ANNUAL], 11/24 (ሐምሌ 24) [ANNUAL]
+
+[GZ-MEL-123] (GZ|MEL) 'መልክዐ አባ ጊዮርጊስ ዘጋሥጫ በግእዝ' [Tag: TSADQAN/አባጊዮርጊስዘጋሥጫ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 11/7 (ሐምሌ 7) [ANNUAL+MONTHLY]
+
+[GZ-MEL-124] (GZ|MEL) 'መልክዐ አብርሃም ይሥሐቅ ወያዕቆብ በግእዝ' [Tag: NEBIYAT/አብርሃምይሥሐቅያዕቆብ]
+  -> MONTHLY: Day 28 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 12/24 (ነሐሴ 24) [ANNUAL]
+
+[GZ-MEL-125] (GZ|MEL) 'መልክዐ አእላፍ መላእክት በግእዝ' [Tag: MALAKT/አእላፍ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/13 (ኅዳር 13) [ANNUAL+MONTHLY]
+
+[GZ-MEL-126] (GZ|MEL) 'መልክዐ አእላፍ መላእክት ካልእ በግእዝ' [Tag: MALAKT/አእላፍ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/13 (ኅዳር 13) [ANNUAL+MONTHLY]
+
+[GZ-MEL-127] (GZ|MEL) 'መልክዐ አዳም ወሔዋን በግእዝ' [Tag: NEBIYAT/አዳमወሔዋን]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 8/6 (ሚያዝያ 6) [ANNUAL+MONTHLY]
+
+[GZ-MEL-128] (GZ|MEL) 'መልክዐ አᎄነ አሮን መንክራዌ በግእዝ' [Tag: TSADQAN/አሮንመንክራዌ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/5 (መስከረም 5) [ANNUAL+MONTHLY]
+
+[GZ-MEL-129] (GZ|MEL) 'መልክዐ ኢትዮጵያ በግዕዝ' [Tag: AMLAK/ኢትዮጵያ]
+  -> ANNUAL FEASTS: 1/1 (መስከረም 1) [ANNUAL]
+
+[GZ-MEL-130] (GZ|MEL) 'መልክዐ ኢየሱስ ሞዐ በግእዝ' [Tag: TSADQAN/ኢየሱስሞዐ]
+  -> MONTHLY: Day 26 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/26 (ኅዳር 26) [ANNUAL+MONTHLY]
+
+[GZ-MEL-131] (GZ|MEL) 'መልክዐ ኢየሱስ በግእዝ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MEL-132] (GZ|MEL) 'መልክዐ ኢየሱስ ካልዕ በግእዝ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MEL-133] (GZ|MEL) 'መልክዐ ኢያቄም በግእዝ' [Tag: MARIAM/ኢያቄም]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 3 | Coverage: FULL (12/12)
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/7 (መስከረም 7) [ANNUAL], 1/12 (መስከረም 12) [ANNUAL], 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 4/3 (ታኅሣሥ 3) [ANNUAL+MONTHLY], 4/13 (ታኅሣሥ 13) [ANNUAL], 8/7 (ሚያዝያ 7) [ANNUAL], 9/1 (ግንቦት 1) [ANNUAL+MONTHLY], 12/1 (ነሐሴ 1) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-MEL-134] (GZ|MEL) 'መልክዐ ኤልያስ በግእዝ' [Tag: NEBIYAT/ኤልያስ]
+  -> MONTHLY: Day 6 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 5/6 (ጥር 6) [ANNUAL+MONTHLY], 12/13 (ነሐሴ 13) [ANNUAL]
+
+[GZ-MEL-135] (GZ|MEL) 'መልክዐ ኤዎስጣቴዎስ በግእዝ' [Tag: TSADQAN/ኤዎስጣቴዎስ]
+  -> MONTHLY: Day 18 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/18 (መስከረም 18) [ANNUAL+MONTHLY]
+
+[GZ-MEL-136] (GZ|MEL) 'መልክዐ እስትንፋሰ ክርስቶስ በግእዝ' [Tag: TSADQAN/እስትንፋሰክርስቶስ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/9 (የካቲት 9) [ANNUAL+MONTHLY], 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[GZ-MEL-137] (GZ|MEL) 'መልክዐ እንድርያስ ሐዋርያ በግእዝ' [Tag: HAWARYAT/እንድርያስሐዋርያ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/4 (ታኅሣሥ 4) [ANNUAL+MONTHLY], 11/30 (ሐምሌ 30) [ANNUAL], 12/30 (ነሐሴ 30) [ANNUAL]
+
+[GZ-MEL-138] (GZ|MEL) 'መልክዐ እንጦንዮስ በግእዝ' [Tag: TSADQAN/እንጦንዮስ]
+  -> ANNUAL FEASTS: 5/22 (ጥር 22) [ANNUAL], 7/6 (መጋቢት 6) [ANNUAL], 11/22 (ሐምሌ 22) [ANNUAL]
+
+[GZ-MEL-139] (GZ|MEL) 'መልክዐ እግዚአብሔር አብ በግእዝ' [Tag: AMLAK/እግዚአብሔርአብ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+
+[GZ-MEL-140] (GZ|MEL) 'መልክዐ እግዚአብሔር አብ ካልዕ በግእዝ' [Tag: AMLAK/እግዚአብሔርአብ]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+
+[GZ-MEL-141] (GZ|MEL) 'መልክዐ ኪዳነ ምሕረት በግእዝ' [Tag: MARIAM/ኪዳነምሕረት]
+  -> MONTHLY: Day 16 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/16 (የካቲት 16) [ANNUAL+MONTHLY]
+
+[GZ-MEL-142] (GZ|MEL) 'መልክዐ ካህናተ ሰማይ በግእዝ' [Tag: MALAKT/ካህናተሰማይ]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/24 (ኅዳር 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-143] (GZ|MEL) 'መልክዐ ክርስቶስ ሠምራ በግእዝ' [Tag: TSADQAN/ክርስቶስሠምራ]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/24 (መስከረም 24) [ANNUAL+MONTHLY], 9/12 (ግንቦት 12) [ANNUAL], 12/24 (ነሐሴ 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-144] (GZ|MEL) 'መልክዐ ዐቢብ ካልዕ በግእዝ' [Tag: TSADQAN/አቢብ]
+  -> MONTHLY: Day 25 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/25 (ጥቅምት 25) [ANNUAL+MONTHLY], 8/15 (ሚያዝያ 15) [ANNUAL]
+
+[GZ-MEL-145] (GZ|MEL) 'መልክዐ ዓቢየ እግዚእ በግእዝ' [Tag: TSADQAN/ዓቢየእግዚእ]
+  -> MONTHLY: Day 19 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/19 (ግንቦት 19) [ANNUAL+MONTHLY], 12/10 (ነሐሴ 10) [ANNUAL], 12/13 (ነሐሴ 13) [ANNUAL]
+
+[GZ-MEL-146] (GZ|MEL) 'መልክዐ ያሬድ በግእዝ' [Tag: TSADQAN/ያሬድ]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 9/11 (ግንቦት 11) [ANNUAL+MONTHLY]
+
+[GZ-MEL-147] (GZ|MEL) 'መልክዐ ያሬድ ካልዕ በግእዝ' [Tag: TSADQAN/ያሬድ]
+  -> MONTHLY: Day 11 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/11 (ኅዳር 11) [ANNUAL+MONTHLY], 9/11 (ግንቦት 11) [ANNUAL+MONTHLY]
+
+[GZ-MEL-148] (GZ|MEL) 'መልክዐ ይምርሃነ ክርስቶስ በግእዝ' [Tag: TSADQAN/ይምርሃነክርስቶስ]
+  -> ANNUAL FEASTS: 2/19 (ጥቅምት 19) [ANNUAL]
+
+[GZ-MEL-149] (GZ|MEL) 'መልክዐ ዮሐንስ ወልደ ነጎድጓድ በግእዝ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[GZ-MEL-150] (GZ|MEL) 'መልክዐ ዮሐንስ ፍቁረ እግዚእ በግእዝ' [Tag: HAWARYAT/ዮሐንስወንጌላዊ]
+  -> MONTHLY: Day 4 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/4 (መስከረም 4) [ANNUAL+MONTHLY], 1/29 (መስከረም 29) [ANNUAL], 5/4 (ጥር 4) [ANNUAL+MONTHLY], 9/16 (ግንቦት 16) [ANNUAL], 11/27 (ሐምሌ 27) [ANNUAL]
+
+[GZ-MEL-151] (GZ|MEL) 'መልክዐ ገብረ መንፈስ ቅዱስ በግእዝ' [Tag: TSADQAN/ገብረመንፈስቅዱስ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/5 (ጥቅምት 5) [ANNUAL+MONTHLY], 4/29 (ታኅሣሥ 29) [ANNUAL], 7/5 (መጋቢት 5) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL]
+
+[GZ-MEL-152] (GZ|MEL) 'መልክዐ ገብረ መንፈስ ቅዱስ ካልዕ በግእዝ' [Tag: TSADQAN/ገብረመንፈስቅዱስ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/5 (ጥቅምት 5) [ANNUAL+MONTHLY], 4/29 (ታኅሣሥ 29) [ANNUAL], 7/5 (መጋቢት 5) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL]
+
+[GZ-MEL-153] (GZ|MEL) 'መልክዐ ገብረ ክርስቶስ በግእዝ' [Tag: TSADQAN/ገብረክርስቶስ]
+  -> ANNUAL FEASTS: 2/14 (ጥቅምት 14) [ANNUAL]
+
+[GZ-MEL-154] (GZ|MEL) 'መልክዐ ጊዮርጊስ በግእዝ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-155] (GZ|MEL) 'መልክዐ ጊዮርጊስ ካልዕ ወሥቃዩ በግእዝ' [Tag: SAMAET/ጊዮርጊስ]
+  -> MONTHLY: Day 23 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/7 (ኅዳር 7) [ANNUAL], 5/18 (ጥር 18) [ANNUAL], 6/23 (የካቲት 23) [ANNUAL+MONTHLY], 8/23 (ሚያዝያ 23) [ANNUAL+MONTHLY], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-156] (GZ|MEL) 'መልክዐ ጠቢበ ጠቢባን በግእዝ' [Tag: AMLAK/ጠቢበጠቢባን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MEL-157] (GZ|MEL) 'መልክዐ ጰራቅሊጦስ በግእዝ' [Tag: AMLAK/ጰራቅሊጦስ]
+  -> MONTHLY: Day 7 | Coverage: FULL (12/12)
+
+[GZ-MEL-158] (GZ|MEL) 'መልክዐ ጴጥሮስ ወጳውሎስ በግእዝ' [Tag: HAWARYAT/ጴጥሮስወጳውሎስ]
+  -> ANNUAL FEASTS: 11/5 (ሐምሌ 5) [ANNUAL]
+
+[GZ-MEL-159] (GZ|MEL) 'መልክዐ ጸበለ ማርያም ቅድስት በግእዝ' [Tag: TSADQAN/ጸበለማርያም]
+  -> MONTHLY: Day 24 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 2/24 (ጥቅምት 24) [ANNUAL+MONTHLY]
+
+[GZ-MEL-160] (GZ|MEL) 'መልክዐ ጻድቃን ዘባርክናሃ በግእዝ' [Tag: TSADQAN/ጻድቃንዘባርክናሃ]
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL]
+
+[GZ-MEL-161] (GZ|MEL) 'መልክዐ ጽዮን ማርያም ሣልስ በግእዝ' [Tag: MARIAM/ጽዮን]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-162] (GZ|MEL) 'መልክዐ ፊቅጦር በግእዝ' [Tag: SAMAET/ፊቅጦር]
+  -> MONTHLY: Day 27 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/5 (ታኅሣሥ 5) [ANNUAL], 6/13 (የካቲት 13) [ANNUAL], 8/27 (ሚያዝያ 27) [ANNUAL+MONTHLY]
+
+[GZ-MEL-163] (GZ|MEL) 'መልክዐ ፍልሰታ በግእዝ' [Tag: MARIAM/ፍልሰታ]
+  -> ANNUAL FEASTS: 12/1 (ነሐሴ 1) [ANNUAL], 12/2 (ነሐሴ 2) [ANNUAL], 12/3 (ነሐሴ 3) [ANNUAL], 12/4 (ነሐሴ 4) [ANNUAL], 12/5 (ነሐሴ 5) [ANNUAL], 12/6 (ነሐሴ 6) [ANNUAL], 12/7 (ነሐሴ 7) [ANNUAL], 12/8 (ነሐሴ 8) [ANNUAL], 12/9 (ነሐሴ 9) [ANNUAL], 12/10 (ነሐሴ 10) [ANNUAL], 12/11 (ነሐሴ 11) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL], 12/13 (ነሐሴ 13) [ANNUAL], 12/14 (ነሐሴ 14) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-MEL-164] (GZ|MEL) 'መልክዐ ፬ቱ እንስሳ በግእዝ' [Tag: MALAKT/አራቱእንስሳ]
+  -> MONTHLY: Day 8 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/8 (ኅዳር 8) [ANNUAL+MONTHLY]
+
+[GZ-MEL-165] (GZ|MEL) 'መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል ካልዕ በግእ' [Tag: MALAKT/በግእ]
+  -> MONTHLY: Day 12 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/9 (መስከረም 9) [ANNUAL], 3/12 (ኅዳር 12) [ANNUAL+MONTHLY], 10/12 (ሰኔ 12) [ANNUAL+MONTHLY]
+
+[GZ-MET-001] (GZ|MET) 'መጽሐፈ ባርቶስ በግእዝ' [Tag: AMLAK/ባርቶስ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MET-003] (GZ|MET) 'መጽሐፈ አርጋኖን በግእዝ' [Tag: MARIAM/አርጋኖን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MIK-001] (GZ|TSE) 'ምክሐ ምእመናን በግእዝ' [Tag: AMLAK/ምክሓ]
+  -> ANNUAL FEASTS: 9/12 (ግንቦት 12) [ANNUAL]
+
+[GZ-MIK-002] (GZ|TSE) 'ምክሓ ምእመናን በግእዝ' [Tag: AMLAK/ምክሓ]
+  -> ANNUAL FEASTS: 9/12 (ግንቦት 12) [ANNUAL]
+
+[GZ-MTS-001] (GZ|MTS) 'መጽሐፈ ልደታ ለማርያም በግእዝ' [Tag: MARIAM/ለማርያም]
+  -> MONTHLY: Day 1 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 9/1 (ግንቦት 1) [ANNUAL+MONTHLY]
+
+[GZ-MTS-002] (GZ|MTS) 'መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ' [Tag: TSADQAN/ጽድቅ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ምዕራፍ ፩']
+  -> Sample Text: በስመ አብ ወወልድ ወመንፈስ ቅዱስ ፩ አምላክ ፨ ጸሎት በእመድኃኒት መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ ዘጸሐፈ አብ በእደዊሁ እምቅድመ ይትወለድ ክርስቶስ እ
+
+[GZ-MTS-003] (GZ|MTS) 'መጽሐፈ ሜላድ በግእዝ' [Tag: TSADQAN/ሜላድ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-MZM-001] (GZ|MZM) 'መዝሙረ ክርስቶስ በግእዝ' [Tag: AMLAK/መዝሙረክርስቶስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MZM-002] (GZ|MZM) 'መዝሙረ ክርስቶስ ካልዕ በግእዝ' [Tag: AMLAK/መዝሙረክርስቶስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MZM-003] (GZ|MZM) 'መዝሙረ ክርስቶስ ዘመኃልየ መኃልይ። በግእዝ' [Tag: AMLAK/መዝሙረክርስቶስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-MZM-004] (GZ|MZM) 'መዝሙረ ዳዊት በግእዝ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-SEL-001] (GZ|TSE) 'ሰላም ለፍልሰተ ሥጋኪ በግእዝ' [Tag: MARIAM/ፍልሰታ]
+  -> ANNUAL FEASTS: 12/1 (ነሐሴ 1) [ANNUAL], 12/2 (ነሐሴ 2) [ANNUAL], 12/3 (ነሐሴ 3) [ANNUAL], 12/4 (ነሐሴ 4) [ANNUAL], 12/5 (ነሐሴ 5) [ANNUAL], 12/6 (ነሐሴ 6) [ANNUAL], 12/7 (ነሐሴ 7) [ANNUAL], 12/8 (ነሐሴ 8) [ANNUAL], 12/9 (ነሐሴ 9) [ANNUAL], 12/10 (ነሐሴ 10) [ANNUAL], 12/11 (ነሐሴ 11) [ANNUAL], 12/12 (ነሐሴ 12) [ANNUAL], 12/13 (ነሐሴ 13) [ANNUAL], 12/14 (ነሐሴ 14) [ANNUAL], 12/15 (ነሐሴ 15) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-SEY-001] (GZ|SEY) 'ሰይፈ መለኮት በግእዝ' [Tag: AMLAK/ሰይፈመለኮት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-SEY-002] (GZ|SEY) 'ሰይፈ ሥላሴ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-SME-001] (GZ|SME) 'ስምዐ ጲላጦስ በግእዝ' [Tag: TSADQAN/ጲላጦስ]
+  -> ANNUAL FEASTS: 10/25 (ሰኔ 25) [ANNUAL]
+
+[GZ-TAM-001] (GZ|TAM) 'ተአምረ ማርያም በግእዝ' [Tag: MARIAM/ማርያም]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[GZ-TAM-002] (GZ|TAM) 'ተአምረ ኢየሱስ በግእዝ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[GZ-TAM-003] (GZ|TAM) 'ተአምራቲሆሙ ለሥላሴ' [Tag: AMLAK/ለሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TBB-001] (GZ|TBB) 'ጥበበ ሰሎሞን በግእዝ' [Tag: TSADQAN/ሰሎሞን]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ምዕራፍ ፩']
+  -> Sample Text: ክፍል ፩። አፍቅርዋ ለጽድቅ መኳንንተ ምድር፤ ኀልዩ በእንተ እግዚአብሔር ሠናየ፤ ወበፍሥሓ ልብክሙ ኅሥዎ። እስመ ይትረከብ ለእለ ኢያሜክርዎ፤ ወያስተርኢ ለእለ 
+
+[GZ-TEA-001] (GZ|TEA) 'ተአምኆ ቅዱሳን በግእዝ' [Tag: TSADQAN/ተአምኆቅዱሳን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TEA-002] (GZ|TEA) 'ተአምኆ ዘሥሉስ ቅዱስ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TEA-003] (GZ|TEA) 'ተአምኆ ዘሥሉስ ቅዱስ በግእዝ ካልእ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-001] (GZ|TSE) 'ጸሎተ ሊጦን በግእዝ' [Tag: AMLAK/ሊጦን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-002] (GZ|TSE) 'ጸሎተ ነቢያት በግእዝ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-003] (GZ|TSE) 'ጸሎተ ንድራ በግእዝ' [Tag: AMLAK/ንድራ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-004] (GZ|TSE) 'ጸሎተ ኪዳን በግእዝ' [Tag: AMLAK/ኪዳን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-005] (GZ|TSE) 'ጸሎተ ዘሠርክ በግእዝ' [Tag: AMLAK/ሠርክ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-006] (GZ|TSE) 'ጸሎት ዘዘወትር በግእዝ' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-TSE-007] (GZ|TSE) 'ጸሎቱ ለጴጥሮስ በግእዝ' [Tag: HAWARYAT/ጴጥሮስ]
+  -> MONTHLY: Day 5 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/1 (ታኅሣሥ 1) [ANNUAL], 6/9 (የካቲት 9) [ANNUAL], 10/21 (ሰኔ 21) [ANNUAL], 11/5 (ሐምሌ 5) [ANNUAL+MONTHLY], 12/7 (ነሐሴ 7) [ANNUAL]
+
+[GZ-TUL-001] (GZ|MET) 'መጽሐፈ ቱላዳን በግእዝ' [Tag: AMLAK/ቱላዳን]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ቱላዳን ዘሰኑይ', 'ቱላዳን ዘሠሉስ', 'ቱላዳን ዘረቡዕ']
+  -> Sample Text: ቱላዳን ዘሰኑይ // ቱላዳን ዘሠሉስ
+
+[GZ-WUD-001] (GZ|WUD) 'ውዳሴ መስቀል በግእዝ' [Tag: AMLAK/መስቀል]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-WUD-002] (GZ|WUD) 'ውዳሴ ማርያም በግእዝ' [Tag: MARIAM/ውዳሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[GZ-ZNA-001] (GZ|ZNA) 'ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ' [Tag: TSADQAN/በካፋ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ክፍል ፩።', 'ክፍል ፩።']
+  -> Sample Text: እግዚአብሔር ዘይሤለስ ወይትወሐድ። ኦ አምላክ ዘለዓለም ቀዳማይ ወደኃራይ ዘስውር አንተ እምነ ኵሉ ወክሡት ለከ ኵሉ። ወአመ ፈጠርከ ዓለመ አልቦ ዘረድአከ እስመ // ክፍል ፩።
+
+[GZ-ZNA-002] (GZ|ZNA) 'ዜናሁ ለንጉሥ ገላውዴዎስ በግእዝ' [Tag: TSADQAN/ገላውዴዎስ]
+  -> ANNUAL FEASTS: 7/27 (መጋቢት 27) [ANNUAL]
+
+[GZ-ZNA-003] (GZ|ZNA) 'ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ' [Tag: TSADQAN/ላልይበላ]
+  -> STATUS: UNMAPPED (0 mappings)
+  -> Chapters: ['ክፍል ፩', 'ክፍል ፪', 'ክፍል ፫']
+  -> Sample Text: ክፍል ፩ // ክፍል ፪
+
+[GZ-ZNA-004] (GZ|ZNA) 'ዜና ሥላሴ በግእዝ' [Tag: AMLAK/ሥላሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[OR-MZM-001] (OR|MZM) 'MACAAFA FAARFANNAA' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[OR-TSE-001] (OR|TSE) 'Kadhannaa Raajootaa' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[OR-TSE-002] (OR|TSE) 'Kadhannaa Yeroo Hundaa' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[OR-WUD-001] (OR|WUD) 'Galata Maariyaam' [Tag: MARIAM/ውዳሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-BEE-001] (TI|TSE) 'በእንተ ቅድሳት ብትግርኛ' [Tag: TSADQAN/በእንተቅድሳት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-GDL-001] (TI|GDL) 'ገድሊ ኣቡነ ዘርኣ ቡሩክን ብትግርኛ' [Tag: TSADQAN/ቡሩክን]
+  -> MONTHLY: Day 13 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/13 (ታኅሣሥ 13) [ANNUAL+MONTHLY], 5/13 (ጥር 13) [ANNUAL+MONTHLY]
+
+[TI-GDL-002] (TI|GDL) 'ገድሊ አቡነ እስትንፋስ ክርስቶስ ትግርኛ' [Tag: TSADQAN/ክርስቶስ]
+  -> MONTHLY: Day 9 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 6/9 (የካቲት 9) [ANNUAL+MONTHLY], 8/9 (ሚያዝያ 9) [ANNUAL+MONTHLY]
+
+[TI-MEL-001] (TI|MEL) 'መልክአ ሥዕል ብትግርኛ' [Tag: AMLAK/ሥዕል]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 1/26 (መስከረም 26) [ANNUAL], 3/5 (ኅዳር 5) [ANNUAL]
+
+[TI-MZM-001] (TI|MZM) 'መዝሙረ ዳዊት ብትግርኛ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-MZM-002] (TI|MZM) 'መዝሙር መኃልይ ነቢያት ብትግርኛ' [Tag: AMLAK/መዝሙረዳዊት]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-RAY-001] (TI|TSE) 'ራእየ ማርያም ብትግርኛ' [Tag: MARIAM/ራዕይ]
+  -> MONTHLY: Day 21 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 3/21 (ኅዳር 21) [ANNUAL+MONTHLY], 5/21 (ጥር 21) [ANNUAL+MONTHLY], 9/1 (ግንቦት 1) [ANNUAL], 12/16 (ነሐሴ 16) [ANNUAL]
+
+[TI-TAM-001] (TI|TAM) 'ተአምረ ኢየሱስ ብትግርኛ' [Tag: AMLAK/ኢየሱስ]
+  -> MONTHLY: Day 29 | Coverage: FULL (12/12)
+  -> ANNUAL FEASTS: 4/29 (ታኅሣሥ 29) [ANNUAL+MONTHLY], 7/29 (መጋቢት 29) [ANNUAL+MONTHLY]
+
+[TI-TSE-001] (TI|TSE) 'መዓልታዊ ሾብዓተ ሰዓታት ጸሎት ብትግርኛ' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-TSE-002] (TI|TSE) 'ናይ ኩሉ ጊዜ ጸሎት ብትግርኛ' [Tag: MARIAM/ዘወትር]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-TSE-003] (TI|TSE) 'ጸሎተ ኪዳን ብትግርኛ' [Tag: AMLAK/ኪዳን]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-WUD-001] (TI|WUD) 'ውዳሴ ማርያም ብትግርኛ' [Tag: MARIAM/ውዳሴ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+[TI-WUD-002] (TI|WUD) 'ውዳሴ አምላክ ብትግርኛ' [Tag: AMLAK/ውዳሴአምላክ]
+  -> STATUS: ALWAYS (General / Daily Prayer)
+
+
+##############################################################################################################
+PART 2: SINKSAR RECURRING MONTHLY COMMEMORATIONS (DAYS 1 TO 30)
+##############################################################################################################
+DAY  1: በርተሎሜዎስ (11/12 mos) | ኢያቄም ወሐና (11/12 mos) | ልደታ ለማርያም ድንግል እግዝእትነ (10/12 mos) | ሚልኪ ትሩፈ ምግባር (10/12 mos) | ራጉኤል ሊቀ መላዕክት (7/12 mos) | ራጉኤል ሊቀ መላእክት (4/12 mos) | ልደታ ለቅድስት ድንግል ማርያም እግዝእትነ (1/12 mos) | ሚልኪ ቁልዝማዊ (1/12 mos)
+DAY  2: አቤል (11/12 mos) | ዻውሊ ገዳማዊ (11/12 mos) | ሳዊሮስ ዘአንጾኪያ (10/12 mos) | ኢዮብ ጻድቅ ተአጋሲ (9/12 mos) | ሕርያቆስ ዘሃገረ ብሕንሳ (6/12 mos) | ታዴዎስ (6/12 mos) | ዮሐንስ መጥምቀ መለኮት (6/12 mos) | ታዴዎስ ሐዋርያ (5/12 mos) | ዮሐንስ ነቢይ (4/12 mos) | ሊቁ አባ ሕርያቆስ (3/12 mos) | ሕርያቆስ ዘሀገረ ብሕንሳ (1/12 mos) | ሕርያቆስ ዘሐገረ ብሕንሳ (1/12 mos) | ሳዊሮስ ዘአንጾኪያ (1/12 mos) | ኢዮብ (1/12 mos) | ዕዮብ ጻድቅ ተአጋሲ (1/12 mos)
+DAY  3: ሊባኖስ ዘመጣዕ (11/12 mos) | ኢያቄም ወሐና (10/12 mos) | ዜና ማርቆስ (10/12 mos) | ሊቃነ ካህናት አበው (9/12 mos) | በዓታ ለእግዝእትነ ማርያም ድንግል ወላዲተ አምላክ (9/12 mos) | መድኃኒነ እግዚእ ዘደብረ በንኮል (8/12 mos) | ቄርሎስ ሊቅ (5/12 mos) | መድኀኒነ እግዚኦ (1/12 mos) | መድኃኒነ እግዚእ (1/12 mos) | መድኃኒነ እግዚእ ጻድቅ (1/12 mos) | ቄርሎስ ዓምደ ሃይማኖት (1/12 mos) | በዓታ ለእግዝእትነ ማርያም ድንግል (1/12 mos) | በዓታ ማርያም (1/12 mos) | ካህናት (1/12 mos) | ዘካርያስ ወስምኦን (1/12 mos) | ዜና ማርቆስ (1/12 mos) | ፋኑኤል (1/12 mos)
+DAY  4: ሶፍያ (10/12 mos) | እንድርያስ (10/12 mos) | ዮሐንስ ዘሐራቅሊ (10/12 mos) | ዮሐንስ ወልደ ነጎድጉዋድ (5/12 mos) | ዮሐንስ ወንጌላዊ (4/12 mos) | መቃርዮስ (1/12 mos) | አብርሐ (1/12 mos) | ዮሐንስ ወልደ ነጎድጉዋድ (1/12 mos) | ዮሐንስ ወልደ ነጎድጓድ (1/12 mos)
+DAY  5: አሞኒ ዘናሒሶ (9/12 mos) | ዮሐኒ ኢትዮዽያዊ (9/12 mos) | ዼጥሮስ ሊቀ ሐዋርያት (9/12 mos) | ገብረ መንፈስ ቅዱስ (7/12 mos) | አውጋንያ (6/12 mos) | ዻውሎስ ብርሃነ ዓለም (6/12 mos) | ዻውሎስ (4/12 mos) | ገብረ መንፈስ ቅዱስ (1/12 mos) | ገብረ መንፈስ ቅዱስ ጻድቅ (1/12 mos) | ገብረመንፈስ ቅዱስ (1/12 mos) | ጴጥሮስ ሊቀ ሐዋርያት (1/12 mos) | ጴጥሮስና ጳውሎስ (1/12 mos)
+DAY  6: አርሴማ ድንግል (11/12 mos) | አርከ ሥሉስ (11/12 mos) | ሰሎሜ (10/12 mos) | ባስልዮስ ዘቂሣርያ (10/12 mos) | አባታችን አዳምና እናታችን ሔዋን (10/12 mos) | ኤልያስ (10/12 mos) | ዮሴፍ አረጋዊ (10/12 mos) | ደብረ ቁስቁዋም (10/12 mos) | ጽጌ ድንግል (10/12 mos) | አባታችን ኖኅና እናታችን ሐይከል (9/12 mos) | እናታችን ሐይከል (1/12 mos)
+DAY  7: ባውላ ገዳማዊ (11/12 mos) | አትናቴዎስ ሐዋርያዊ (11/12 mos) | ሲኖዳ (10/12 mos) | አግናጥዮስ (10/12 mos) | ዳንኤል ዘገዳመ ሲሐት (10/12 mos) | ጊዮርጊስ ዘጋስጫ (10/12 mos) | ሥሉስ ቅዱስ (8/12 mos) | ሥሉስ ቅዱስ (1/12 mos)
+DAY  8: ሙሴ ሊቀ ነቢያት (11/12 mos) | ሳሙኤል ዘደብረ ቀልሞን (11/12 mos) | ማትያስ ሐዋርያ (10/12 mos) | ብሶይ (10/12 mos) | ኪሩቤል (10/12 mos) | ኪሮስ (10/12 mos) | ማትያስ (1/12 mos) | ብሶይ (1/12 mos) | ፬ቱ እንስሳ (1/12 mos)
+DAY  9: በርሱማ ሶርያዊ (11/12 mos) | የብሔረ ብፁዐን ጻድቃን (11/12 mos) | መልከ ጼዴቅ ዘሚዳ (8/12 mos) | ዞሲማስ ጻድቅ (8/12 mos) | እስትንፋሰ ክርስቶስ (7/12 mos) | "፫፲፰ቱ" ቅዱሳን ሊቃውንት (6/12 mos) | መልከ ጼዴቅ ዘሚዳ (3/12 mos) | እስትንፋሰ ክርስቶስ (3/12 mos) | ዞሲማስ (3/12 mos) | "፫፻፲፰ቱ" ቅዱሳን ሊቃውንት (2/12 mos) | ፫፲፰ቱ ሊቃውንት (2/12 mos) | "318ቱ" ቅዱሳን ሊቃውንት (1/12 mos) | መልከ ጸዴቅ ዘሚዳ (1/12 mos)
+DAY 10: መልክዐ ክርስቶስ (11/12 mos) | ኒቆላዎስ ዘሃገረ ሜራ (11/12 mos) | ያዕቆብ ሐዋርያ (11/12 mos) | ናትናኤል (10/12 mos) | ዕሌኒ ንግስት (10/12 mos) | ታላቁ ቅዱስ ቆስጠንጢኖስ (7/12 mos) | ዕፀ መስቀል (5/12 mos) | እፀ መስቀል (4/12 mos) | ቆስጠንጢኖስ ጻድቅ ንጉሥ (3/12 mos)
+DAY 11: ያሬድ ካህን (11/12 mos) | ሐራ ድንግል (10/12 mos) | ፋሲለደስ (10/12 mos) | ብፁዐን ኢያቄም እና ሐና (7/12 mos) | ማር ገላውዴዎስ (5/12 mos) | ገላውዴዎስ (4/12 mos) | ሐና ቡርክት (2/12 mos) | ብፁዐን ኢያቄምና ሐና (2/12 mos) | ማር ገላውዴዎwስ (1/12 mos) | ማር ገላውዴዎስ ርንቤተክ (1/12 mos)
+DAY 12: ቴዎድሮስ ምሥራቃዊ (11/12 mos) | ማቴዎስ (10/12 mos) | ሳሙኤል ዘዋልድባ (10/12 mos) | ክርስቶስ ሠምራ (10/12 mos) | ዮሐንስ አፈ ወርቅ (10/12 mos) | ድሜጥሮስ (7/12 mos) | ላሊበላ ጻድቅ (6/12 mos) | ሚካኤል ሊቀ መላእክት (5/12 mos) | ሚካኤል ሊቀ መላዕክት (3/12 mos) | ድሜጥሮስ ሊቅ (2/12 mos) | ላሊበላ (1/12 mos) | ሚካኤል ሊቀ መላዕክት (1/12 mos)
+DAY 13: እግዚአብሔር አብ (12/12 mos) | ሩፋኤል ሊቀ መላዕክት (11/12 mos) | አርሳንዮስ ጠቢብ ገዳማዊ (10/12 mos) | ዘርዐ ቡሩክ (10/12 mos) | "፲፫ቱ" ግኁሳን አባቶች (9/12 mos) | አስከናፍር (9/12 mos) | "99ኙ" ነገደ መላዕክት (4/12 mos) | "፱፱ኙ" ነገደ መላዕክት (4/12 mos) | "፲፫ቱ" ግኁሳን አበው (1/12 mos) | "፺፱ኙ" ነገደ መላዕክት (1/12 mos) | ሩፋኤል ሊቀ መላእክት (1/12 mos) | አስከናፍር ሮማዊ (1/12 mos) | አእላፍ  ነገደ መላእክት (1/12 mos)
+DAY 14: ዮሐንስ (11/12 mos) | ስምዖን ገዳማዊ (10/12 mos) | አረጋዊ (10/12 mos) | እናታችን ቅድስት ነሣሒት (10/12 mos) | ገብረ ክርስቶስ መርዓዊ (10/12 mos) | ሙሴ (8/12 mos) | ፊልዾስ (7/12 mos) | ሙሴ መርዓዊ (2/12 mos) | ፊልዾስ ሐዋርያ (2/12 mos) | ሙሴ (1/12 mos) | ስምዖን (1/12 mos) | ነሣሒት (1/12 mos) | አረጋዊ (1/12 mos) | ዮሐንስ (1/12 mos) | ገብረ ክርስቶስ (1/12 mos) | ፊልዾስ (1/12 mos) | ፊልጶስ (1/12 mos)
+DAY 15: እንባ መሪና (11/12 mos) | ክርስጢና (11/12 mos) | ቂርቆስና እናቱ ኢየሉጣ (9/12 mos) | ኤፍሬም ሶርያዊ (8/12 mos) | ሚናስ ግብፃዊ (5/12 mos) | ሚናስ (2/12 mos) | ሚናስ (2/12 mos) | ሚናስ ግብጻዊ (1/12 mos) | ማሪ ኤፍሬም ሶርያዊ (1/12 mos) | ቂርቆስ (1/12 mos) | ኤፍሬም ሶርያዊ (1/12 mos) | ኤፍሬም ሶርያዊ አፈ በረከት (1/12 mos)
+DAY 16: አቡናፍር ገዳማዊ (10/12 mos) | ኤልሳቤጥ (10/12 mos) | ኪዳነ ምሕረት (10/12 mos) | አኖሬዎስ ንጉሥ (9/12 mos) | ዳንኤል (9/12 mos) | ዮሐንስ ወንጌሉ ዘወርቅ (6/12 mos) | ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (6/12 mos) | ዮሐንስ ጻድቅ (3/12 mos) | ዮሐንስ ወንጌሉ ዘወርቅ (2/12 mos) | ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (2/12 mos) | በዓለ ኪዳና ለድንግል (1/12 mos) | አኖሬዎስ (1/12 mos) | አኖሬዎስ ንጉሥ (1/12 mos) | ኤልሳቤጥ (1/12 mos) | ዳንኤል (1/12 mos) | ዳንኤል ገዳማዊ (1/12 mos) | ገብረ ማርያም (1/12 mos) | ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (1/12 mos) | ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮጵያ (1/12 mos)
+DAY 17: አበው መክሲሞስና ዱማቴዎስ (10/12 mos) | ያዕቆብ ሐዋርያ (10/12 mos) | ለትጹን የዋህ (9/12 mos) | ገሪማ ዘመደራ (9/12 mos) | እስጢፋኖስ ሊቀ ዲያቆናት (8/12 mos) | ዸላሞን ፈላሢ (8/12 mos) | ኤዺፋንዮስ ሊቅ (5/12 mos) | ኤዺፋንዮስ ዘቆዽሮስ (3/12 mos) | ገሪማ (2/12 mos) | ለትጹን (1/12 mos) | ለትፁን የዋሕ (1/12 mos) | መክሲሞስና ዱማቴዎስ (1/12 mos) | ኤዺፋንዮስ (1/12 mos) | ኤዺፋንዮስ ሊቅ (1/12 mos) | ኤጲፋንዮስ ዘቆዽሮስ (1/12 mos) | እስጢፋኖስ (1/12 mos) | እስጢፋኖስ ሊቀ ዲያቆናት (1/12 mos) | እስጢፋኖስ ሊቀ ዲያቆናት (1/12 mos) | ወለተ ዼጥሮስ (1/12 mos) | ያዕቆብ (1/12 mos) | ዸላሞን (1/12 mos) | ዸላሞን ፈላሲ (1/12 mos) | ጰላሞን ፈላሢ (1/12 mos)
+DAY 18: ፊልዾስ (10/12 mos) | ማር ያዕቆብ ግብፃዊ (8/12 mos) | አኖሬዎስ ዘደብረ ጽጋጋ (7/12 mos) | ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (6/12 mos) | ያዕቆብ ሐዋርያ (4/12 mos) | ማር ያዕቆብ ግብጻዊ (3/12 mos) | አኖሬዎስ ዓቢይ (3/12 mos) | ኤዎስጣቴዎስ ረባን (3/12 mos) | አኖሬዎስ (1/12 mos) | ኤዎስጣቴዎስ (1/12 mos) | ኤዎስጣቴዎስ ሰባኬ ሃይማኖት (1/12 mos) | ያዕቆብ ሐዋርያ (1/12 mos) | ፊልዾስ ሐዋርያ (1/12 mos)
+DAY 19: ስነ ኢየሱስ (11/12 mos) | ኤስድሮስ (11/12 mos) | ዮሴፍ ብርሃነ ዓለም (11/12 mos) | ዓቢየ እግዚእ (10/12 mos) | ገብርኤል ሊቀ መላእክት (9/12 mos) | ይምርሐነ ክርስቶስ (2/12 mos) | ዓቢየ እግዚእ ጻድቅ (1/12 mos) | ገብርኤል ሊቀ መላዕክት (1/12 mos)
+DAY 20: አክሎግ ቀሲስ (11/12 mos) | ዮሐንስ ሐፂር (11/12 mos) | ሳድዥ የዋሒት (10/12 mos) | አሞንዮስ ዘሃገረ ቶና (10/12 mos) | አፄ ካሌብ ጻድቅ (9/12 mos) | ቴዎድሮስ ሊቀ ሠራዊት (5/12 mos) | ወክቡር ማር ቴዎድሮስ (3/12 mos) | ማር ቴዎድሮስ ኃያል (1/12 mos) | ሳድዥ የዋሂት (1/12 mos) | ቴዎድሮስ ሊቀ ሠራዊት (1/12 mos) | አሞንዮስ (1/12 mos) | አፄ ካሌብ (1/12 mos) | ካሌብ ንጉሠ ኢትዮዽያ (1/12 mos)
+DAY 21: አበው ጎርጎርዮሳት (12/12 mos) | ምዕመነ ድንግል (11/12 mos) | አምደ ሥላሴ (11/12 mos) | አሮን ሶርያዊ (11/12 mos) | መርትያኖስ (9/12 mos) | ድንግል እመቤታችን ማርያም (3/12 mos) | ድንግል እግዝእትነ ማርያም ወላዲተ አምላክ (3/12 mos) | መርትያኖስ (1/12 mos) | መርትያኖስ ጻድቅ️ (1/12 mos) | ምዕመነ ድንግል (1/12 mos) | አምደ ሥላሴ (1/12 mos) | ድንግል እግዝእትነ ማርያም (1/12 mos)
+DAY 22: ዑራኤል ሊቀ መላእክት (11/12 mos) | ዻውሊ የዋህ (11/12 mos) | ሉቃስ ወንጌላዊ (10/12 mos) | ደቅስዮስ (10/12 mos) | እንጦንዮስ (5/12 mos) | እንጦንስ አበ መነኮሳት (4/12 mos) | ዮልዮስ (2/12 mos) | ሉቃስ ወንጌላዊ (1/12 mos) | እንጦንስ (1/12 mos) | ዮልዮስ (1/12 mos) | ደቅስዮስ ኤዺስ ቆዾስ (1/12 mos)
+DAY 23: ሳሙኤል (11/12 mos) | ስምዖን (11/12 mos) | ገብርኤል (11/12 mos) | ጢሞቴዎስ ገዳማዊ (11/12 mos) | ልበ አምላክ ቅዱስ ዳዊት (10/12 mos) | ጊዮርጊስ ሊቀ ሰማዕታት (10/12 mos) | ነቢየ ጽድቅ ቅዱስ ሰሎሞን (6/12 mos) | ዳንኤል (6/12 mos) | ሰሎሞን ንጉሠ እስራኤል (4/12 mos) | ሰሎሞን ንጉሠ እሥራኤል (1/12 mos) | ዳንኤል (1/12 mos) | ዳዊት ልበ አምላክ (1/12 mos)
+DAY 24: አብላርዮስ ታላቁ (11/12 mos) | ቶማስ ዘመርዐስ (10/12 mos) | "፳፬ቱ" ካኅናተ ሰማይ (9/12 mos) | ክርስቶስ ሠምራ (9/12 mos) | አጋቢጦስ (7/12 mos) | ሙሴ ጸሊም (5/12 mos) | ዘዮሐንስ ጻድቅ ዘክብራን (5/12 mos) | ሙሴ ፀሊም (4/12 mos) | ተክለ ሃይማኖት (4/12 mos) | ተክለ ሃይማኖት (4/12 mos) | ዘዮሐንስ ጻድቅ (2/12 mos) | "፳፬ቱ" ካኅናተ ሰማይ (1/12 mos) | ሙሴ ጸሊም (1/12 mos) | ሙሴ ጸሊም (1/12 mos) | ቶማስ ዘመርዓስ (1/12 mos) | አጋቢጦስ (1/12 mos) | አጋቢጦስ (1/12 mos) | አጋቢጦስ (1/12 mos) | አጋቢጦስ (1/12 mos) | እናታችን ክርስቶስ ሠምራ (1/12 mos) | ዘዮሐንስ (1/12 mos) | ዘዮሐንስ ጻድቅ (1/12 mos) | ፳፬ቱ ካህናተ ሠማይ (1/12 mos)
+DAY 25: ቴክላ ሐዋርያዊት (11/12 mos) | አበከረዙን (11/12 mos) | ዱማድዮስ ሶርያዊ (11/12 mos) | መርቆሬዎስ (9/12 mos) | አቡፋና (8/12 mos) | አቢብ (7/12 mos) | አቢብ /አባ ቡላ/ (3/12 mos) | ታላቁ አባ ቢጻርዮን (2/12 mos) | ታላቁ አባ ቢጻርዮን ገዳማዊ (2/12 mos) | አቡፋና (2/12 mos) | አቡፋና (1/12 mos) | አቢብ (1/12 mos) | ይሁዳ ሐዋርያ (1/12 mos)
+DAY 26: ቶማስ (11/12 mos) | ኢየሱስ ሞዐ ዘሐይቅ (11/12 mos) | ሰማዕታተ ናግራን (10/12 mos) | ሐብተ ማርያም (9/12 mos) | ሰላማ ከሣቴ ብርሃን (6/12 mos) | ሰላማ ከሣቴ ብርሃን (5/12 mos) | ሐብተ ማርያም ኢትዮዽያዊ (1/12 mos)
+DAY 27: ቢፋሞን ጻድቅና (10/12 mos) | ያዕቆብ ዘግሙድ (10/12 mos) | መቃርስ (9/12 mos) | ገላውዴዎስ ሰማዕት (9/12 mos) | ማር ቅዱስ ፊቅጦር (7/12 mos) | መብዐ ፅዮን (6/12 mos) | የጌታችንና አምላካችን መድኃኔ ዓለም ክርስቶስ በዓለ ስቅለት (6/12 mos) | ፊቅጦር (3/12 mos) | መባዓ ጽዮን (2/12 mos) | ጌታችን ኢየሱስ ክርስቶስ (2/12 mos) | መቃርስ ርዕሰ መነኮሳት (1/12 mos) | መባዐ ፅዮን (1/12 mos) | መብአፂዮን (1/12 mos) | መብዐ ጽዮን (1/12 mos) | መድኃኔ ዓለም (1/12 mos) | መድኃኔ ዓለም ኢየሱስ ክርስቶስ (1/12 mos) | ገላውዴዎስ ሰማዕት (1/12 mos)
+DAY 28: አማኑኤል ቸር አምላካችን (8/12 mos) | አበው (8/12 mos) | እንድራኒቆስና ሚስቱ ቅድስት አትናስያ (8/12 mos) | ዓመተ ክ ክርስቶስ (8/12 mos) | ቴዎድሮስ ሮማዊ (7/12 mos) | አባዲርና ቅድስት ኢራኢ (3/12 mos) | ቴዎድሮስ ሮማዊ (2/12 mos) | ቅዱሳን (አብርሃም ይስሐቅና ያዕቆብ) (1/12 mos) | አማኑኤል (1/12 mos) | አበው አብርሃም ይህሳቅ ያዕቆብ (1/12 mos) | አባቶቻችን አብርሃም ይስሐቅና ያዕቆብ (1/12 mos) | እንድራኒቆስና አትናስያ (1/12 mos) | ዓመተ ክርስቶስ (1/12 mos)
+DAY 29: ማርቆስ ዘቶርማቅ (12/12 mos) | አርሴማ ድንግል (10/12 mos) | ዼጥሮስ ተፍጻሜተ (9/12 mos) | ፍቅርተ ክርስቶስ ኢትዮዽያዊት (9/12 mos) | የፈጣሪያችንና ጌታችን ኢየሱስ ክርስቶስ በዓለ ልደት (8/12 mos) | ዘርዐ ክርስቶስ (7/12 mos) | ዘርዐ ክርስቶስ (4/12 mos) | የፈጣሪያችን ኢየሱስ ክርስቶስ ልደት (2/12 mos) | ላሊበላ (1/12 mos) | አርሴማ (1/12 mos) | ዼጥሮስ ተፍፃሜተ (1/12 mos) | ጴጥሮስ ተፍጻሜተ (1/12 mos) | ፍቅርተ ክርስቶስ ኢትዮጵያዊት (1/12 mos) | ፍቅርተ ክርስቶስ እናታችን (1/12 mos)
+DAY 30: ሶፍያ (11/12 mos) | ጐርጐርዮስ ነባቤ መለኮት (10/12 mos) | ዮሐንስ መጥምቀ መለኮት (9/12 mos) | ሣሉሲ ክቡር (8/12 mos) | ማርቆስ ዘአንበሳ (6/12 mos) | ሣሉሲ ክቡር (3/12 mos) | ማርቆስ (2/12 mos) | ማርቆስ ዘአንበሳ (2/12 mos) | ጎርጎርዮስ ነባቤ መለኮት (1/12 mos)
+
+##############################################################################################################
+PART 3: SINKSAR 366-DAY ANNUAL FEASTS CATALOG (DAY-BY-DAY)
+##############################################################################################################
+ 1/ 1 (መስከረም  1): ርዕሰ ዓውደ ዓመት | ቅዱስ በርተሎሜዎስ ሐዋርያ | ቅዱስ /ማር/ ሚልኪ (ትሩፈ ምግባር) | ቅዱስ ራጉኤል ሊቀ መላእክት | ቅዱስ ኢዮብ ተአጋሲ | ቅዱስ ሜልዮስ ሊቀ ዻዻሳት
+ 1/ 2 (መስከረም  2): ቅዱስ ዮሐንስ ነቢይ (መጥምቀ መለኮት) | ቅዱስ ዳስያ ሰማዕት | ቅዱስ ዲዲሞስ ሰማዕት | ቅድስት መሪና
+ 1/ 3 (መስከረም  3): አባ ሙሴ ዘደብረ ሲሐት | አባ አንበስ ኢትዮዽያዊ | አበው ኤዺስ ቆዾሳት | አባ ዲዮናስዮስ | አባ ዲዮስቆሮስ ሰማዕት | ቅዱስ በትንከል ዲያቆን
+ 1/ 4 (መስከረም  4): ቅዱስ ኢያሱ ወልደ ነዌ (ነቢይና መስፍን) | ቅዱስ ዮሐንስ ወንጌላዊ (ልደቱ) | ቅዱሳን ዘብዴዎስና ማርያም ባውፍልያ | አባ መቃርስ ሊቀ ዻዻሳት | አባ ሙሴ ዻዻስ
+ 1/ 5 (መስከረም  5): ቅድስት ሶፍያ ሰማዕት | ቅዱሳት አክሶስናና በርናባ | ቅዱስ ማማስ ሰማዕት | ቅዱሳን ቴዎዶስዮስና ታውፍና | አቡነ አሮን መንክራዊ | አፄ ልብነ ድንግል
+ 1/ 6 (መስከረም  6): ቅዱስ ኢሳይያስ ነቢይ (ልዑለ ቃል) | ቅድስት ሰብልትንያ ሰማዕት | አባ ያዕቆብ ገዳማዊ | ቅዱስ አናቲሞስ ኤዺስ ቆዾስ
+ 1/ 7 (መስከረም  7): እናታችን ቅድስት ኤልሳቤጥ | ቅዱስ ዲዮስቆሮስ ሊቅ (የተዋሕዶ ሃይማኖት አባት) | ታላቁ ቅዱስ ሳዊርያኖስ | ቅድስት ሐና (የእመ ብርሃን እናት-ልደቷ ነው) | ቅዱሳን አጋቶን ዼጥሮስ ዮሐንስ አሞንና እናታቸው ራፊቃ (ሰማዕታት)
+ 1/ 8 (መስከረም  8): ቅዱስ ሙሴ ሊቀ ነቢያት | ቅዱስ ዘካርያስ ካህን (ጻድቅ ነቢይ) | ቅዱስ አሮን ካህን | ቅዱስ ዲማድዮስ ሰማዕት
+ 1/ 9 (መስከረም  9): ቅዱስ ሚካኤል ሊቀ መላእክት | ቅዱስ ቢሶራ ሰማዕት | ቅዱስ ያሳይ ንጉሥ | ቅዱስ ፋሲለደስ ሰማዕት (ልደቱ) | "፲፬,፯፴" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)
+ 1/10 (መስከረም 10): ቅድስት ድንግል እግዝእትነ ማርያም | በዓለ ስዕለ አድኅኖ | ቅዱስ እፀ መስቀል (ተቀጸል ጽጌ) | ቅዱስ ሉቃስ ወንጌላዊ | ቅድስት ማርታ ዘጼዴንያ | ቅድስት ዮዲት ጥበበኛዋ | ንግስተ ሳባ / ማክዳ / አዜብ | ቅድስት መጥሮንያ ሰማዕት | አፄ ዳዊት ንጉሥ | ቅድስት አትናስያና ፫ ልጆቿ
+ 1/11 (መስከረም 11): ቅዱስ ፋሲለደስ ሰማዕት | ቅድስት ታኦድራ እናታችን | ቅዱስ ቆርኔሌዎስ ሐዋርያዊ (ሐዋ | ፲ን ያንብቡ) | ቅድስት በነፍዝዝ ሰማዕት | "፫ቱ" ገበሬዎች ሰማዕታት (ሱርስ፣ አጤኬዎስና ፣ መስተሐድራ)
+ 1/12 (መስከረም 12): ቅዱሳን ፳፻ው ሊቃውንት (በኤፌሶን የተሰበሰቡ) | ቅዱስ ቄርሎስ ዓምደ ሃይማኖት | ጻድቅ ንጉሥ ቴዎዶስዮስ | ቅዱስ እስጢፋኖስ ሊቀ ዲያቆናት | ቅዱሳን ኢያቄም ወሐና | ቅዱስ ኢሳይያስ ነቢይ
+ 1/13 (መስከረም 13): ታላቁ ቅዱስ ባስልዮስ ዘቂሣርያ | አባ ይስሐቅ ባሕታዊ
+ 1/14 (መስከረም 14): አባ አጋቶን ዘዓምድ | አቡነ ያሳይ ዘመንዳባ | አባ ዼጥሮስ መምሕረ ጻና (ጣና) | ቅዱስ ዴግና ቀሲስ
+ 1/15 (መስከረም 15): ቅዱስ እስጢፋኖስ ሊቀ ዲያቆናት ወቀዳሜ ሰማዕት (ፍልሠቱ) | አቡነ ገብረ ማርያም ዘሐንታ | አባ ዼጥሮስ ዘሃገረ ጠራው
+ 1/16 (መስከረም 16): ሕንጸታ ለኢየሩሳሌም | ቅድስት እሌኒ ንግሥት | ቅዱስ ጦቢት ነቢይ | ቅዱሳን ጦብያና ሣራ | አባ አጋቶን ባሕታዊ
+ 1/17 (መስከረም 17): ቅዱስ ዕፀ መስቀል | ቅድስት እሌኒ ንግስት | ቅዱስ ኪራኮስ አረጋዊ | ቅዱስ መቃርስ ሊቀ ዻዻስ | ቅዱስ አውዶኪስ ቀሲስ | ብጽዕት ታኦግንስጣ ሮማዊት | ቅዱስ ዲዮናስዮስ ሊቀ ዻዻሳት
+ 1/18 (መስከረም 18): አቡነ ኤዎስጣቴዎስ ረባን | አቡነ አኖሬዎስ ዓቢይ | ማር ያዕቆብ ግብጻዊ | ቅዱስ ዕፀ መስቀል | ቅድስት እሌኒ ንግሠት | ቅዱስ ቶማስ ሐዋርያ | ቅዱስ መርቆሬዎስ ካልዕ (ሰማዕት) | ቅዱስ ቶማስ ሰማዕት | ቅዱስ ኤፍሬም ሰማዕት | አባ ፊልሞስ | ቅዱስ ሰልሖን ሰማዕት | ቅዱስ አክሳኤልስ ሰማዕት | ቅዱስ ይስሐቅ ሰማዕት | ቅዱስ እስጢፋኖስ ቀሲስ | ቅዱስ ነኪጣ ሰማዕት | አባ ፊላታውዎስ መንክራዊ | አባ ኖብ ባሕታዊ | አባ አትናቴዎስ ሊቀ ዻዻሳት | "፮0" ሰማዕታት (ማሕበረ ቅዱስ አቦሊ)
+ 1/19 (መስከረም 19): ቅዱስ ጐርጐርዮስ ዘአርማርያ | ቅዱስ ቂርቆስ ገዳማዊ | ቅድስት ሮማነ ወርቅ | ቅዱስ ዕጸ መስቀል
+ 1/20 (መስከረም 20): አባ አትናቴዎስ ካልዕ | ቅድስት መሊዳማ ድንግል | ቅድስት አቴና ድንግል | ቅዱስ ስምዖን ዘኢየሩሳሌም | ቅዱስ አብርሃም መነኮስ
+ 1/21 (መስከረም 21): ቅድስት ግሼን ደብረ ከርቤ | ብዙኃን ማርያም | "፫፲፰ቱ" ቅዱሳን ሊቃውንት | ቅዱስ ቆዽርያኖስ ሰማዕት | ቅድስት ዮስቴና ድንግል | ቅዱስ ጢባርዮስ ሐዋርያ
+ 1/22 (መስከረም 22): ቅዱስ ዮልዮስ ሰማዕት | ቅዱስ ኮቶሎስ ሰማዕት | ቅድስት አክሱ ሰማዕት | ቅዱስ ጣጦስ ሰማዕት | ቅዱስ ባላን ሰማዕት
+ 1/23 (መስከረም 23): ቅዱሳን ጻድቃን አውናብዮስ ወእንድርያስ (ሰማዕታት) | ቅዱስ ጐርጐርዮስ መንክራዊ | ቅድስት ቴክላ ድንግል | ቅዱስ ኤዎስጣቴዎስ ሰማዕት
+ 1/24 (መስከረም 24): ቅዱስ ጐርጐርዮስ ገዳማዊ | ቅድስት ክርስቶስ ሠምራ (ደብረ ሊባኖስ የገባችበት) | ቅዱስ አድሊጦስ ሐዋርያ (ከ፯፪ቱ አርድእት) | አቡነ ሰላማ
+ 1/25 (መስከረም 25): ጸአተ ክረምት (የክረምት መውጫ) | ቅዱስ ዮናስ ነቢይ | ቅዱስ እንጦንዮስ | ቅድስት በርባራ | ሐዋርያት ዼጥሮስ ወዻውሎስ | ቅዱስ ዕፀ መስቀል
+ 1/26 (መስከረም 26): ቅድስት ድንግል ማርያም | ቅዱስ ዮሴፍ አረጋዊ | ቅዱስ ዮሐንስ መጥምቅ (ጽንሰቱ) | ቅዱሳን ዘካርያስና ኤልሳቤጥ | ቅዱስ አቦሊ ሰማዕት (ፍልሠቱ)
+ 1/27 (መስከረም 27): ቅዱስ ኤዎስጣቴዎስና ቤተሰቡ (ሰማዕታት) | ቅዱስ አንጢላርዮስ ጻድቅ | ቅድስት ጤቅላ ሐዋርያዊት | አባ ዮሐንስ ዘደብረ ጽጌ
+ 1/28 (መስከረም 28): ቅዱስ አባዲር ሰማዕት | ቅድስት ኢራኢ እህቱ | ቅድስት ሶስና እናታችን | ቅዱስ ሉቃስ መነኰስ | ቅዱስ ዻውፍርና
+ 1/29 (መስከረም 29): ቅድስት አርሴማ ድንግል (ሰማዕት) | ቅድስት አጋታ እመ ምኔት | "፲፱፻" ሰማዕታት (የቅድስት አርሴማ ማሕበር) | ቅዱስ ዮሐንስ ወንጌላዊ (ነባቤ መለኮት) | ቅድስት ክርስቶስ ክብራ ኢትዮዽያዊት (በዚህ ቀን ነፍሳትን ከሲዖል ታወጣለች)
+ 1/30 (መስከረም 30): ቅዱስ አትናቴዎስ ሐዋርያዊ | አባ ሣሉሲ ክቡር ጻድቅ | ቅዱሳን ያዕቆብና ዮሐንስ ሐዋርያት (ለወንጌል የተጠሩበት) | ቅዱስ ጎርጎርዮስ ዘአርማንያ | አባ አብሳዲ ዘደብረ ማርያም | አባ አሮን ዘገሊላ
+ 2/ 1 (ጥቅምት  1): ቅድስት አንስጣስያ (ድንግል ጻድቅት ሰማዕት) | ቅድስት ማርያም እንተ ዕፍረት | ቅድስት ሶስና ድንግል | ቅድስት ኅርጣን ድንግል
+ 2/ 2 (ጥቅምት  2): ሊቁ አባ ሕርያቆስ | ቅዱስ ሳዊሮስ ዘአንጾኪያ | ቅድስት ቴክላ ሰማዕት
+ 2/ 3 (ጥቅምት  3): ቅዱስ ጊዮርጊስ ሐዲስ (ሰማዕት) | አባ ስምዖን ሊቀ ዻዻሳት | ቅዱስ ጎርጎርዮስ ዘአርማንያ | ቅድስት ታኦድራ ልዕልት | ቅድስት ታኦፊላ
+ 2/ 4 (ጥቅምት  4): ቅዱሳን ነገሥት አብርሃ ወአጽብሃ | ቅዱስ ሐናንያ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ በርተሎሜዎስ ሐዋርያ | ቅዱስ ባኮስ ሰማዕት | ቅዱሳን ባባ እና ማማ | ቅዱስ ዮሐንስ ሕጽው
+ 2/ 5 (ጥቅምት  5): አቡነ ገብረ መንፈስ ቅዱስ ጻድቅ | ቅዱስ ኪራኮስ አረጋዊ (ዻዻስ ወሰማዕት) | ቅድስት ሐና ሰማዕት (እናቱ) | ቅዱስ ያዕቆብ ወልደ እልፍዮስ (ከ፲፪ቱ ሐዋርያት) | አባ ዻውሎስ ሰማዕት (አርዮሳውያን አንቀው የገደሉት አባት)
+ 2/ 6 (ጥቅምት  6): ቅዱስ ዲዮናስዮስ ሐዋርያዊ | አባ ዸንጠሌዎን ዘጾማዕት | ቅዱስ ዕንባቆም ነቢይ (ዕን | ከ፩ - ፫ ያንብቡ) | ቅድስት ሐና ነቢይት (የሳሙኤል እናት - ፩ሳሙ | ከ፩ - ፪ን ያንብቡ) | ቅዱሳን ኡሲፎርና ኡርያኖስ (ሰማዕታት) | አቡነ በጸሎተ ሚካኤል ኢትዮዽያዊ (ፍልሠቱ) | ቅዱስ ሄኖስ ነቢይ
+ 2/ 7 (ጥቅምት  7): አባ ባውላ መስተጋድል | አባ ሕዝቅኤል ጻድቅ | ቅዱስ ሚናስ ሰማዕት | ቅዱስ ሐናሲ ሰማዕት
+ 2/ 8 (ጥቅምት  8): አባ አጋቶን ባሕታዊ | ቅዱስ መጥራ አረጋዊ (ሰማዕት) | ቅድስት ሶስናና ልጆቿ (ሰማዕታት) | አባ ሖር | ቅድስት በላግያ ሰማዕት
+ 2/ 9 (ጥቅምት  9): ቅዱስ ቶማስ ሐዋርያ | ቅዱስ እስጢፋኖስ ካልዕ (ሰማዕት) | ቅዱስ አትናስዮስ ብጹዕ | ቅዱስ ስምዖን ሰማዕት | ቅዱስ ሊዋርዮስ ሊቀ ዻዻሳት | ቅዱስ ባስልዮስ ዘቂሣርያ | ቅዱስ ቄርሎስ ሊቀ ዻዻሳት | አቡነ መዝገበ ሥላሴ ጻድቅ (ኢትዮዽያዊ) | አፄ ዳዊት ጻድቅ ንጉሠ ኢትዮዽያ (ግማደ መስቀሉን ያመጡ)
+ 2/10 (ጥቅምት 10): ቅዱሳን ባኮስና ሰርጊስ (ሰማዕታት) | ቅዱስ ዮሐንስ መስተጋድል | አባ አውማንዮስ ሊቀ ዻዻሳት
+ 2/11 (ጥቅምት 11): ቅዱስ አባ ያዕቆብ (ስደተኛው ሊቀ ዻዻሳት) | ቅድስት ዺላግያ ገዳማዊት | ቅዱስ ፋሲለደስ ሰማዕት | ቅዱስ አርማሚ ሰማዕት
+ 2/12 (ጥቅምት 12): ቅዱስ ዳዊት ልበ አምላክ (የነገሠበት) | ቅዱስ ማቴዎስ ሐዋርያ | ቅዱስ ድሜጥሮስ ሊቅ | ቅድስት ልዕልተ ወይን | ቅዱስ ሳሙኤል ነቢይ | ጻድቃን ዼጥሮስ ወዻውሎስ
+ 2/13 (ጥቅምት 13): ቅዱስ ዮሐንስ አፈ ወርቅ | አባ ዘካርያስ ገዳማዊ | አባ ማርዳሪ ጻድቅ | ቅዱስ አብጥማዎስ ሰማዕት
+ 2/14 (ጥቅምት 14): አቡነ አረጋዊ (ዘሚካኤል) | ቅዱስ ፊልዾስ ሐዋርያ (ከ፸፪ቱ አርድእት) | ቅዱስ ገብረ ክርስቶስ መርዓዊ | ቅዱስ ሙሴ መርዓዊ | ቅድስት እድና (የአረጋዊ እናት) | አባ ማትያስ (የአረጋዊ ረድዕ)
+ 2/15 (ጥቅምት 15): "፲፪ቱ" ቅዱሳን ሐዋርያት | ቅዱስ ቢላሞን ሰማዕት | "፻፶፰" ሰማዕታት (የቅዱስ ቢላሞን ማሕበር) | ቅዱስ ሲላስ ሐዋርያ | ቅድስት ጾመታ
+ 2/16 (ጥቅምት 16): አባ ያቃቱ ሊቀ ዻዻሳት | ጻድቃን እለ ድርቂ | አባ ዻውሊ ገዳማዊ | አባ ማርቆስ መስተጋድል | አባ አሮን መስተጋድል
+ 2/17 (ጥቅምት 17): ቅዱስ እስጢፋኖስ ሊቀ ዲያቆናት (ወቀዳሜ ሰማዕት) | ቅዱስ ፊልያስ ሰማዕት | ቅድስት ሐና ነቢይት | ታላቁ ሊቅ ቅዱስ ጎርጎርዮስ ዘኑሲስ | የደብረ ሊባኖስ ሰማዕታት (ካቶሊካውያን የገደሏቸው) | ቅዱሳን ሔራን ሰማዕታት | አባ ዲዮስቆሮስ ካልዕ
+ 2/18 (ጥቅምት 18): ቅዱስ ቴዎፍሎስ ሊቅ | ቅዱስ ሮማኖስ ሰማዕት | ቅዱስ ዮሐንስ ሰማዕት | ቅድስት አስማኒትና ፯ቱ ልጆቿ
+ 2/19 (ጥቅምት 19): ቅዱስ ይምርሐነ ክርስቶስ (ጻድቅ ንጉሠ ኢትዮዽያ) | ቅዱስ ዮሐንስ ዘጸይለም | አባ ስምዖን ገዳማዊ | ቅዱሳን በርተሎሜዎስና ሚስቱ (ሰማዕታት) | አበው ኤዺስ ቆዾሳት (ሳምሳጢን ያወገዙ) | ጻድቃን እለ መጥራ (ቅዱስ ይምርሐነ ቤተ መቅደስ ውስጥ የምናያቸው አጽማቸው የፈሰሰው ቅዱሳን ናቸው)
+ 2/20 (ጥቅምት 20): ቅዱስ አባ ዮሐንስ ሐጺር | ቅዱስ ኤልሳዕ ነቢይ | አባ ባይሞይ
+ 2/21 (ጥቅምት 21): እግዝእትነ ማርያም | ቅዱስ አልዓዛር ሐዋርያ | አባ ዮሐንስ ዘኢየሩሳሌም | ቅዱስ ኢዩኤል ነቢይ | ቅዱስ ማትያስ ረድእ
+ 2/22 (ጥቅምት 22): ቅዱስ ሉቃስ ወንጌላዊ ሐዋርያ | ቅዱስ ሲላስ አረጋዊ (የቅዱስ ሉቃስ ረድእ) | ቅዱስ ታኦፊላ | "፵፻፸፯" ሰማዕታት (የቅዱስ ሉቃስ ማሕበር)
+ 2/23 (ጥቅምት 23): አባ ዮሴፍ ጻድቅ ሊቀ ዻዻሳት | ቅዱስ ዲዮናስዮስ ሰማዕት | ቅዱስ ኢላርዮስ | ቅድስት እለእስክንድርያ ሰማዕት
+ 2/24 (ጥቅምት 24): ቅዱስ አብላርዮስ ገዳማዊ | ቅድስት ጸበለ ማርያም | ቅድስት አውስያ | አባ ዻውሎስ ሊቀ ዻዻሳት
+ 2/25 (ጥቅምት 25): አቡነ አቢብ (አባ ቡላ) | አባ ዕብሎይ ገዳማዊ | ቅዱስ ዮልዮስ ሰማዕት | ቅዱሳን አብርሃምና ሐሪክ | ቅዱሳን አሞኒና ሙስያ (የታላቁ ዕብሎ ወላጆች)
+ 2/26 (ጥቅምት 26): ቅዱስ ያዕቆብ ሐዋርያ (ወልደ ዮሴፍ) | ቅዱስ ጢሞና ሐዋርያ ወዲያቆን | ቅዱስ አግናጥዮስ | ቅዱስ ፊልዾስ
+ 2/27 (ጥቅምት 27): ጌታችን ኢየሱስ ክርስቶስ | ቅዱስ መቃርስ ብጹዓዊ | አቡነ መብዓ ጽዮን ጻድቅ | አባ ጽጌ ድንግል ዘወለቃ
+ 2/28 (ጥቅምት 28): አባ ይምዓታ ጻድቅ (ከተስዓቱ ቅዱሳን) | ቅዱሳን መርትያኖስ ወመርቆሬዎስ (ሰማዕታት) | አባታችን ያፌት (የኖኅ ልጅ)
+ 2/29 (ጥቅምት 29): አቡነ ሳሙኤል ጻድቅ (ዘደብረ ወገግ) | አባ ጸቃውዐ ድንግል (ዘደብረ ዘኸኝ) | ቅዱስ ድሜጥሮስ ሰማዕት | ቅዱስ ስቅጣር ሰማዕት
+ 2/30 (ጥቅምት 30): ቅዱስ ማርቆስ ሐዋርያ | ቅዱስ አርስጥቦሎስ (አባቱ) | ቅድስት ማርያም (እናቱ) | ቅዱስ ዮሐንስ መጥምቀ መለኮት | አባ አብርሃም ገዳማዊ | ቅዱስ ይስሐቅ ንጉሥ
+ 3/ 1 (ኅዳር  1): ቅዱስ ነአኩቶ ለአብ ጻድቅ (ንጉሠ ኢትዮዽያ) | ቅዱሳን መክሲሞስና ባልንጀሮቹ (ሰማዕታት)
+ 3/ 2 (ኅዳር  2): አባ ዼጥሮስ ሊቀ ዻዻሳት ሣልስ | አባ ሱንትዩ ሊቀ ዻዻሳት | ቅድስት ሴቴንዋ ነቢዪት | ቅድስት አንስጣስያ
+ 3/ 3 (ኅዳር  3): አቡነ መድኃኒነ እግዚእ ጻድቅ (ዘደብረ በንኮል) | ቅዱስ ዓምደ ሚካኤል ጻድቅ (የሠራዊት አለቃ) | ቅዱስ ኪርያቆስ ሊቅ | ቅዱስ ነአኩቶ ለአብ ንጉሥ (ልደቱ) | ቅዱሳን አትናቴዎስና እህቱ ኢራኢ (ሰማዕታት) | አቡነ ፍሬ ካህን
+ 3/ 4 (ኅዳር  4): ቅዱስ ቶማስ ዘደማስቆ | ቅዱሳን ያዕቆብና ዮሐንስ | ቅዱሳን አቢማኮስ ወአዛርያኖስ | አባ አበጊዶ ዘትግራይ | ታላቁ አባ ዘካርያስ | ጉባኤ ቅዱሳን ሰማዕታት
+ 3/ 5 (ኅዳር  5): ታላቁ ቅዱስ ዮሐኒ (ዘትግራይ) | አባ አሞኒ ዘናሕሶ | ቅዱስ ለንጊኖስ ሰማዕት | ቅዱስ ቴዎድሮስ ሊቀ ሠራዊት | ቅዱስ ጢሞቴዎስ ሰማዕት
+ 3/ 6 (ኅዳር  6): ቅድስት ደብረ ቁስቁዋም (ሚጠታ ለማርያም ) | ቅዱስ ዮሴፍ አረጋዊ | ቅድስት ሰሎሜ ቡርክት | ቅዱስ ዮሳ (ወልደ ዮሴፍ) | ቅዱስ ቴዎፍሎስ ሊቅ | አባ ጽጌ ድንግል ዘወለቃ | አባ ፊልክስ ዘሮሜ
+ 3/ 7 (ኅዳር  7): ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ቅዳሴ ቤቱ) | ቅዱስ ጊዮርጊስ እስክንድርያዊ | ቅዱሳን ዘኖቢስና ዘኖብያ (ሰማዕታት) | ቅዱስ ሚናስ ዘተመይ | ቅዱሳን መርቆሬዎስና ዮሐንስ (ጻድቃን ወሰማዕት) | አባ ናሕርው ሰማዕት
+ 3/ 8 (ኅዳር  8): ቅዱሳን ፬ቱ እንስሳ (ኪሩቤል) | ቅዱስ አፍኒን ሊቀ መላእክት | አባ ቅፍሮንያ ጻድቅ | ቅዱስ ቆስጠንጢኖስ ንጉሥ (ዘምስለ ቅዱስ መስቀል) | ቅድስት እግዚእ ክብራ
+ 3/ 9 (ኅዳር  9): ቅዱሳን ፫፲፰ቱ ሊቃውንት | ቅዱስ እለእስክንድሮስ ሊቅ | ቅዱስ አትናቴዎስ ሐዋርያዊ | አባ ይስሐቅ ሊቀ ዻዻሳት | ሊቁ አካለ ወልድ
+ 3/10 (ኅዳር 10): ቅድስት ሶፍያ ሰማዕት | ደናግለ ሮሜ (ሰማዕታት) | ቅዱስ ዻውሎስ ሰማዕት | ቅዱስ ድሜጥሮስ ሊቅ | ጉቡዓን ኤዺስ ቆዾሳት
+ 3/11 (ኅዳር 11): ቅድስት ሐና ቡርክት | ቅዱስ አርኬላዎስ ሰማዕት | አባ ኤልሳዕ አበ ምኔት | አባ ዻኩሚስ መነኮስ | ቅዱስ ሚናስ ሰማዕት | ቅድስት አውራንያ (የሰማዕቱ እናት)
+ 3/12 (ኅዳር 12): ቅዱስ ሚካኤል ሊቀ መላእክት | ቅዱስ ኢያሱ ነቢይ | ቅዱሳን ዱራታኦስና ቴዎብስታ | አፄ በዕደ ማርያም ጻድቅ | ቅዱስ ዮሐንስ መጥምቅ | ቅዱስ ባሕራን ቀሲስ | አባ ፊላታዎስ ሊቀ ዻዻሳት
+ 3/13 (ኅዳር 13): አእላፍ (፱፱ኙ) ነገደ መላእክት | ቅዱስ አስከናፍር ሮማዊ | "፲፫ቱ" ግኁሳን አበው (ሽፍቶች የነበሩ) | ቅዱስ ጢሞቴዎስ ዘእንጽና | አባ ዘካርያስ ሊቀ ዻዻሳት
+ 3/14 (ኅዳር 14): አባ ዳንኤል ገዳማዊ | አባ መርትያኖስ ካልዕ (ዘጠራክያ) | አባ ዮሐንስ ዘደብረ ቢዘን (ኤርትራ) | ቅድስት ደብረ ቀልሞን
+ 3/15 (ኅዳር 15): በዓተ ጾመ ነቢያት | ቅዱስ ሚናስ ሰማዕት | ልደተ ቅዱስ ቂርቆስ | ብጽዕት ኢየሉጣ | አባ ሚናስ ዳግማይ
+ 3/16 (ኅዳር 16): ቅዱስ አኖሬዎስ ጻድቅ (ንጉሠ ሮም) | አባ ዳንኤል ገዳማዊ | ቅዱስ አውሎጊስ መነኮስ | ቅድስት ጣጡስ ሰማዕት | አባ አቡናፍር ገዳማዊ | ቅዱስ ኪስጦስ ሰማዕት | ቅዱስ ፊቅጦር ምዑዝ | አባ ዮሐንስ መሐሪ
+ 3/17 (ኅዳር 17): ቅዱስ ዮሐንስ አፈ ወርቅ (ፍልሠቱ) | ቅድስት ወለተ ዼጥሮስ ኢትዮዽያዊት | አባ ሲኖዳ (ዘደብረ ጽሙና - ጐጃም) | ጻድቃን እለ ወጺፍ | ቅዱሳን አብርሃምና ሐሪክ | ቅድስት ወለተ ዻውሎስና ወለተ ክርስቶስ
+ 3/18 (ኅዳር 18): ቅዱስ ፊልዾስ ሐዋርያ (ከ፲፪ቱ) | ቅዱስ ኤላውትሮስና እናቱ እንትያ (ሰማዕታት) | ቅዱሳት ደናግል አጥራስስ ወዮና (ሰማዕታት) | ቅዱስ አትናቴዎስ የዋሕ
+ 3/19 (ኅዳር 19): ቅዱስ ሰርጊስ ሰማዕት | ቅዱስ ቴዎፍሎስ ሰማዕት | ቅዱሳን ዸጥሪቃና ደማሊስ (የቅዱሱ ሚስትና ልጅ) | ቅዱስ በርተሎሜዎስ ሐዋርያ (ልደቱ)
+ 3/20 (ኅዳር 20): ማር ቴዎድሮስ ኃያል ሰማዕት | ቅዱስ አንያኖስ (አንያኑ)
+ 3/21 (ኅዳር 21): ቅድስት ጽዮን ድንግል ማርያም | ቅዱስ ጐርጐርዮስ ዘሮሜ | ቅዱስ ዮሐንስ ዘአስዩጥ | ቅዱስ ቆዝሞስ ሊቀ ዻዻሳት | ቅድስት ዲቦራ ዘድልበት | ቅዱስ ዘኬዎስ ሐጺር
+ 3/22 (ኅዳር 22): ቅዱሳን ቆዝሞስ ወድምያኖስ (ሰማዕታት) | ቅድስት ቴዎዳዳ (እናታቸው) | ቅዱሳን አንቲቆስ ዮንዲኖስና አብራንዮስ (ወንድሞቻቸው) | "፫፲፩" ሰማዕታት (የነ ቆዝሞስ ማሕበር)
+ 3/23 (ኅዳር 23): ቅዱስ ቆርኔሌዎስ (ሐዋርያዊ ጻድቅ) | ቅዱስ አብድዩ ነቢይ
+ 3/24 (ኅዳር 24): "፳፬ቱ" ቅዱሳን ካህናተ ሰማይ (ሱራፌል) | ቅዱስ አዝቂር ሰማዕት | "፵፰" ሰማዕታት (ማሕበሩ) | አባ ዮሴፍ ዘሃገረ ጻን | ቅዱስ ዲዮስቆሮስ ጥዑመ ዜና | ቅዱስ ኪርያቅ ሰማዕት
+ 3/25 (ኅዳር 25): ቅዱስ መርቆሬዎስ ሰማዕት | ቅዱሳን ታቦትና ኖኅ (ወላጆቹ) | ቅዱስ ሮማኖስ
+ 3/26 (ኅዳር 26): አቡነ ኢየሱስ ሞዐ ዘሐይቅ | አቡነ ሃብተ ማርያም ንጹሕ | ቅዱሳን ሰማዕታተ ናግራን | ቅዱስ ሒሩት አረጋዊ | ቅዱሳን ቢላርያኖስ ኪልቅያና ታቱስብያ (ሰማዕታት) | ቅዱስ ጐርጐርዮስ ዘደሴተ ሰንሲላ | ቅድስት ዮስቴና ቡርክት
+ 3/27 (ኅዳር 27): ቅዱስ ያዕቆብ ዘግሙድ | አቡነ ተክለ ሐዋርያት ጻድቅ | ቅዱስ ፊልሞና ሐዋርያ | ቅዱስ ቀሌምንጦስ ሰማዕት | ቅዱስ ጢሞቴዎስ ሰማዕት | አባ ገብረ ዮሐንስ ጻድቅ
+ 3/28 (ኅዳር 28): አባ ሊቃኖስ ጻድቅ (ከተስዓቱ ቅዱሳን) | ቅዱስ ሰረባሞን ሰማዕት
+ 3/29 (ኅዳር 29): ቅዱሳን ሰማዕታተ ክርስቶስ (ሁሉም) | ቅዱስ ዼጥሮስ ተፍጻሜተ ሰማዕት | ቅዱስ ቀሌምንጦስ ሐዋርያ (ዘሮም)
+ 3/30 (ኅዳር 30): አፄ ገብረ መስቀል ጻድቅ (ንጉሠ ኢትዮዽያ) | ቅዱስ አካክዮስ ሊቅ | ቅዱሳን ቆዝሞስ ወድምያኖስ | ቅዱስ አናንዮስ ዘዓምድ | አባ መርቆሬዎስ ሰማዕት
+ 4/ 1 (ታኅሣሥ  1): ቅዱስ ኤልያስ ርዕሰ ነቢያት | ቅዱስ ጴጥሮስ ዘጋዛ | ቅድስት ቤርሳቤህ (ቤትስባ) | ናቡቴ ኢይዝራኤላዊ | አባ ዮሐንስ ሊቀ ጳጳሳት
+ 4/ 2 (ታኅሣሥ  2): ቅዱሳን ሠለስቱ ደቂቅ (አናንያ አዛርያ ሚሳኤል) | አባ ሖር ጻድቅ | ቅዱስ አውካቲዎስ ሰማዕት | አባ አንበስ ሰማዕት | ፯,0፫፫ ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር) | ቅዱስ ናትናኤል መነኮስ
+ 4/ 3 (ታኅሣሥ  3): በዓታ ለእግዝእትነ ማርያም | ብጹዓን ኢያቄም ወሐና | ቅዱሳን ካህናት ዘካርያስና ስምዖን | ቅዱስ ፋኑኤል ሊቀ መላእክት | አቡነ ዜና ማርቆስ ጻድቅ
+ 4/ 4 (ታኅሣሥ  4): ቅዱስ እንድርያስ ሐዋርያ | አባ ጻዕ | አባ ያዕቆብ | ቅድስት ታዖድራ
+ 4/ 5 (ታኅሣሥ  5): ቅድስት አውጋንያ ተጋዳሊት | አባ ገብረ ናዝራዊ ንጹሕ | ቅዱስ ፊቅጦር ሰማዕት | ቅዱስ ፊልዾስ | ቅዱስ ናሆም ነቢይ
+ 4/ 6 (ታኅሣሥ  6): ቅድስት አርሴማ ድንግል | "፩፲፱" ሰማዕታት (ማሕበሯ) | ቅዱስ ስምዖን ጻድቅ (ጫማ ሠፊው) | አባ አብርሃም ሶርያዊ | ቅዱስ እንጣልዮስ ሰማዕት
+ 4/ 7 (ታኅሣሥ  7): ስብከተ ነቢያት | አባ ዳንኤል ገዳማዊ | አባ ማቴዎስ ገዳማዊ | ብጽዕት ዲዮጥርስ
+ 4/ 8 (ታኅሣሥ  8): ታላቁ አቡነ ኪሮስ | አባ ሳሙኤል ዘደብረ ቀልሞን | አባ ዮሐንስ ዘደማስቆ (ሊቁ) | አባ ኤሲና ቅድስት ቴክላ | ቅዱሳት በርባራና ዮልያና | ቅድስት እንባ መሪና | አባ ተክለ አልፋ ዘደብረ ድማሕ | ቅዱስ ገብረ ማርያም ተአማኒ | አባ ያሮክላ ሊቀ ዻዻሳት | አቡነ እስትፋሰ ክርስቶስ (ልደታቸው)
+ 4/ 9 (ታኅሣሥ  9): ቅዱስ አባ በአሚን (ጻድቅና ሰማዕት) | ቅድስት አርምያ | ቅዱስ ዘካርያስ
+ 4/10 (ታኅሣሥ 10): ቅዱስ ኒቆላዎስ ሊቅ | ቅዱስ ሳዊሮስ ሊቅ (ዘአንጾኪያ) | ቅድስት ሱርስት ገዳማዊት | ቅዱስ ጥዋሽ ሕጽው | ቅዱሳን ተላስስና አልዓዛር (ሰማዕታት)
+ 4/11 (ታኅሣሥ 11): ታላቁ አባ በኪሞስ | ቅዱስ በርተሎሜዎስ | ቅዱስ ቴዎድሮስ | ቅዱስ በጥላን
+ 4/12 (ታኅሣሥ 12): አቡነ ሳሙኤል ዘዋልድባ | ቅዱሳን አንቂጦስ ወፎጢኖስ (ሰማዕታት) | አባ ነድራ | ቅዱስ ዮሐንስ ተአማኒ | ጉቡዓን ኤዺስ ቆዾሳት
+ 4/13 (ታኅሣሥ 13): አቡነ ዘርዓ ቡሩክ ጻድቅ | ቅዱስ መቃርስ ገዳማዊ | አባ አብራኮስ ገዳማዊ | ብጽዕት ሐና (የእመቤታችን እናት) | አባ በጽንፍርዮስ ሰማዕት | አባ ሚካኤል ዘቀልሞን
+ 4/14 (ታኅሣሥ 14): ዕለተ ብርሃን | ቅዱስ መርምሕናምና እህቱ ሣራ | "፬0" ሰማዕታት (የቅዱሱ ተከታዮች) | "፲፯0,000" ሰማዕታት (የቅዱሱ ሠራዊት) | ቅድስት ነሣሒት ቡርክት | ቅዱስ ስምዖን ሰማዕት | ቅዱስ አሞንዮስ ሰማዕት | አባ ገብረ ክርቶስ ሊቀ ዻዻሳት
+ 4/15 (ታኅሣሥ 15): ቅዱስ ጐርጐርዮስ ሊቅ (ዘአርማንያ) | አቡነ ኤዎስጣቴዎስ ረባን | ቅዱስ ሉቃስ ዘዓምድ | አባ ይምላህ
+ 4/16 (ታኅሣሥ 16): ቅዱስ ጌዴዎን ኃያል | ማርያም እህተ ሙሴ
+ 4/17 (ታኅሣሥ 17): ቅዱስ ሉቃስ ዘዓምድ | ቅዱስ ናትናኤል ጻማዊ | ቅዱስ ማርቆስ
+ 4/18 (ታኅሣሥ 18): ቅዱስ ቶማስ ሐዋርያ (ፍልሠቱ) | ቅዱስ ቲቶ ሐዋርያ (ፍልሠቱ) | አቡነ ሰላማ ከሣቴ ብርሃን | ቅዱስ ፊልሞና ባሕታዊ | ቅዱስ ኢርቅላ
+ 4/19 (ታኅሣሥ 19): ቅዱስ ገብርኤል ሊቀ መላእክት | ቅዱስ ዮሐንስ ዘቡርልስ | አቡነ ስነ ኢየሱስ ጻድቅ
+ 4/20 (ታኅሣሥ 20): ቅዱስ ሐጌ ነቢይ | አባ አውጋንዮስ | ታውፊና ንግሥት
+ 4/21 (ታኅሣሥ 21): ኖላዊ ሔር | ቅዱስ በርናባስ ሐዋርያ | አባ ይስሐቅ ጻድቅ
+ 4/22 (ታኅሣሥ 22): ተአምረ ማርያም | ቅዱስ ደቅስዮስ ጻድቅ | ቅዱስ ገብርኤል ሊቀ መላእክት | ቅዱስ አንስጣስዮስ ሊቅ | አባ አርኬላዎስ
+ 4/23 (ታኅሣሥ 23): ቅዱስ ዳዊት ልበ አምላክ | አባ ጢሞቴዎስ ገዳማዊ | አባ ሳሙኤል ጻድቅ | አባ ስምዖን ጻድቅ | አባ ገብርኤል ጻድቅ | አባ ይስሐቅ ጻድቅ
+ 4/24 (ታኅሣሥ 24): ቅዱስ አቡነ ተክለ ሃይማኖት | ቅዱሳን ጸጋ ዘአብና እግዚእ ኃረያ | ቅዱስ አግናጥዮስ ሐዋርያ | ቅድስት አስቴር | አባ ፊሎንጐስ ሊቀ ዻዻሳት | አባ ዻውሊ ጻድቅ | ጻድቃን ቅዱሳን ዘከዲህ
+ 4/25 (ታኅሣሥ 25): ቅዱሳን ፭ቱ መቃብያን | ቅዱስ ዮሐንስ ከማ (እና የተቀደሰች ሚስቱ) | ቅዱስ ዳንኤል መነኮስ | ቅዱስ ኒቆላዎስ መኮንን
+ 4/26 (ታኅሣሥ 26): ቅድስት አንስጣስያ ሰማዕት | ቅዱስ አቦሊ ጻድቅ | ቅድሰት ዮልያና ሰማዕት
+ 4/27 (ታኅሣሥ 27): ቅዱስ አብሳዲ ሰማዕት | አባ አላኒቆስ ሰማዕት | አባ በግዑ ጻድቅ | አባ ፊልዾስ
+ 4/28 (ታኅሣሥ 28): አማኑኤል አምላካችን | በዓለ ጌና ስቡሕ | ዕለተ ማርያም ድንግል | "፻፸፬" ሰማዕታት (የቅዱስ ዻውሎስ ማሕበር)
+ 4/29 (ታኅሣሥ 29): ልደተ ክርስቶስ ስቡሕ | ታኦዶኮስ ( ድንግል ማርያም ) | ቅዱስ ኢያሱ ነቢይ (ልደቱ) | ቅዱስ ላሊበላ (ልደቱ) | አቡነ ገብረ መንፈስ ቅዱስ (ልደታቸው) | ጻድቅ አቃርዮስ (ንጉሠ ሮሃ) | ቅዱስ ቆሪል ገመላዊ | ሰብአ ሰገል | ዮሴፍና ሰሎሜ | ቅዱሳን ሰማዕታተ አክሚም
+ 4/30 (ታኅሣሥ 30): አባ ዮሐንስ አበ ምኔት | አባ ዘካርያስ ገዳማዊ | አባ ዮሐንስ ብጹዕ | "፲፬፼ሺ" ሕጻናት (ሔሮድስ የገደላቸው)
+ 5/ 1 (ጥር  1): ቅዱስ እስጢፋኖስ ቀዳሜ ሰማዕት (ሊቀ ዲያቆናት) | ቅዱሳን ሰማዕታተ አክሚም | ቅዱሳን ዲዮስቆሮስ ወሰከላብዮስ | ቅዱስ ለውንድዮስ ሰማዕት | አባ መቃርስ ሊቀ ዻዻሳት
+ 5/ 2 (ጥር  2): ቅዱስ አቤል ጻድቅ | ቅዱስ ቴዎናስ ሊቀ ዻዻሳት | ቅዱስ አላኒቆስ ሰማዕት | ቅድስት ሳቤላ ነቢዪት | ቅዳሴ ቤቷ ለድንግል (በደብረ አባ ሲኖዳ)
+ 5/ 3 (ጥር  3): "፲፬፬ ሺ" ቅዱሳን ሕጻናት | አባ ሊባኖስ ዘመጣዕ | አባ አሞን መስተጋድል
+ 5/ 4 (ጥር  4): ቅዱስ ዮሐንስ ሐዋርያ (ፍቁረ እግዚእ) | አባ ናርዶስ ጻድቅ (ዘደብረ ቢዘን) | ቅዱስ ጊዮርጊስ | ቅዱስ ማርቴና
+ 5/ 5 (ጥር  5): ቅዱስ አባ ማቴዎስ | ቅዱስ አውስግንዮስ አረጋዊ (ሰማዕት) | ቅድስት እስክንድርያ | ቅድስት አውስያ ሰማዕት
+ 5/ 6 (ጥር  6): በዓለ ግዝረቱ ለክርስቶስ | ቅዱስ ኤልያስ ነቢይ | ቅዱስ ኖኅ ጻድቅ | ታላቁ ቅዱስ ባስልዮስ ዘቂሣርያ | አባ ሙሴ ገዳማዊ | አባ ወርክያኖስ
+ 5/ 7 (ጥር  7): በዓለ ሥሉስ ቅዱስ | ቅዱስ ሶል ዼጥሮስ | ቅዱስ ኤፍሬም | ቅዱስ ሰሎሞን
+ 5/ 8 (ጥር  8): ታላቁ ቅዱስ መቃርስ | ቅዱስ ሚክያስ ነቢይ | አባ እንድራኒቆስ ሊቀ ዻዻሳት | አባ ብንያሚን ሊቀ ዻዻሳት
+ 5/ 9 (ጥር  9): አባ አብርሃም ገዳማዊ | አባ ገዐርጊ ጻድቅ | ቅዱስ ዲዮስቅርስ ዘሮሜ | አባ ኪናፎርያ
+ 5/10 (ጥር 10): ጾመ ገሃድ | አባ ታውብንስጦስ ዘሲሐት | ቅዱስ ኪናርያ | ቅድስት ጠምያኒ
+ 5/11 (ጥር 11): በዓለ ኤዺፋንያ | ቅዱስ ዮሐንስ መጥምቅ | አቡነ ሐራ ድንግል ጻድቅ | አባ ወቅሪስ ገዳማዊ | አባ ዮሐንስ ሊቀ ዻዻሳት | ቅዱስ እንጣልዮስ ሰማዕት
+ 5/12 (ጥር 12): ቃና ዘገሊላ | ቅዱስ ያዕቆብ እሥራኤል | ቅዱስ ቴዎድሮስ በናድሌዎስ | ቅዱሳን ለውንድዮስ እና ኒቆሮስ | ፭ ሚሊየን" ሰማዕታት (የቅዱስ ቴዎድሮስ ማሕበር)
+ 5/13 (ጥር 13): አቡነ ዘርዓ ቡሩክ ኢትዮዽያዊ (እረፍታቸው) | ሰባቱ ደቂቅ ቅዱሳን (ከኤፌሶን) | ቅዱስ አባ ነካሮ | ቅዱሳን ቃሮስና ሰሚኖስ
+ 5/14 (ጥር 14): አቡነ አረጋዊ (ዘ ሚካኤል ) | ቅዱስ አባ መክሲሞስ | ቅዱስ አባ አርከሌድስ | ቅድስት እምራይስ | ቅድስት ምሕራኤል | "፵፻፴፬"ሰማዕታት (ማሕበራነ ቅዱስ ቂርቆስ)
+ 5/15 (ጥር 15): ቅዱስ ቂርቆስና እናቱ ቅድስት ኢየሉጣ | ቅዱስ አብድዩ ነቢይ | ቅዱስ ጎርጎርዮስ ዘኑሲስ | ቅድስት ሶፍያ | ቅድስት አድምራ
+ 5/16 (ጥር 16): ቅዱስ ፊላታዎስ ሰማዕት | አባ ዸላድዮስ ገዳማዊ | ማር ዳንኤል ሶርያዊ | አባ ዮሐንስ መሐሪ (ሊቀ ዻዻሳት) | 11,00፬ ሰማዕታት (የቅ/ቂርቆስ ማሕበር) | 11,50፫ (የቅ/ፊላታዎስ ማሕበር) | አባ ጽሕማ (ከተስዓቱ ቅዱሳን አንዱ)
+ 5/17 (ጥር 17): ቅዱሳን እና ክቡራን የሚሆኑ አባቶቻችን "መክሲሞስ እና ዱማቴዎስ"
+ 5/18 (ጥር 18): ቅዱስ ጊዮርጊስ መክብበ ሰማዕታት (ዝርወተ ዓጽሙ) | ቅዱሳት ደናግል ማርያ እና ማርታ (ከ፫፮ቱ ቅዱሳት አንስት) | ቅዱስ ያዕቆብ ዘንፅቢን (ከ፫፲፰ቱ) | ቅዱስ ባኮስ ኢትዮዽያዊ (አቤላክ / አቤሜሌክ)
+ 5/19 (ጥር 19): ጻድቁ አቡነ ያፍቅረነ እግዚእ (አፍቀረነ እግዚእ ዘጉጉቤ - ጣና ውስጥ - ከሰብዓቱ ከዋክብት አንዱ) | አባ ባሱራ | ቅድስት ኔራ | ቅድስት በርስጢና | አባ ዝሑራ
+ 5/20 (ጥር 20): ቅዱስ አክሎግ ቀሲስ (ሰማዕትና ጻድቅ) | ቅዱስ መርምሕናም ሰማዕት (ቅዳሴ ቤቱ) | ቅዱስ ዮሐንስ ወንጌሉ ዘወርቅ (ቅዳሴ ቤቱ) | አባ አብድዩ ጻድቅ | ቅዱስ ብሕኑ ሰማዕት | ቅዱስ አብሮኮሮስ ሐዋርያ (የወንጌላዊው ቅዱስ ዮሐንስ ደቀ መዝሙር) | አባ ኖሕ
+ 5/21 (ጥር 21): በዓለ አስተርዕዮ ማርያም (እመቤታችን ከእረፍቱዋ በሁዋላ ለደቀ መዛሙርት በዚሁ ቀን ተገልጣ ነበር) | ቅዱስ ጎርጎርዮስ ዘኑሲስ (ታላቅ ሊቅና ጻድቅ) | ቅድስት ኢላርያ እናታችን (የዘይኑን ንጉሥ ልጅ) | ቅዱስ ኤርምያስ ነቢይ | ቅዱስ ዮሐንስ መጥምቅ | ቅዱስ ኒቆላዎስ ሰማዕት | አባ ፊቅጦር
+ 5/22 (ጥር 22): ቅዱስ አባ እንጦንስ (የመነኮሳት አባት - የበርሐው ኮከብ / ልደቱና ዕረፍቱ) | ቅዱስ ዑራኤል ሊቀ መላዕክት (ለተጠሙ ጽዋዓ ልቡናን የሚያጠጣ ምሥጢር ገላጭ መልዐክ) | ቅዱስ ሚናስ ኤዺስ ቆዾስ
+ 5/23 (ጥር 23): ቅዱስ ጢሞቴዎስ (ሐዋርያና ሰማዕት-የቅ/ዻውሎስ ደቀ መዝሙር) | ቅዱስ ጌርሎስ ሰማዕት | ቅዱስ አትናቴዎስ ሰማዕት | ጻድቅ ንጉሥ ቴዎዶስዮስ (ዘቁስጥንጥንያ)
+ 5/24 (ጥር 24): አቡነ ቅዱስ ተክለ ሃይማኖት | ቅድስት ማርያ ግብጻዊት | ታላቁ አባ ቢፋ | አባ አብሳዲ ቀሲስ | ቅዱሳን ጻድቃነ ሐውዚን
+ 5/25 (ጥር 25): ቅዱስ መርቆሬዎስ ሰማዕተ ሮሜ | ቅዱሳን ባስልዮስና ጎርጎርዮስ | ብፁዕ አባ ዼጥሮስ ጽሙድ (ለምጽዋት ራሱን የሸጠ አባት) | ቅዱስ ሰብስትያኖስ ሰማዕት | ቅዱስ አስኪላ ሰማዕት
+ 5/26 (ጥር 26): "፵፱" አረጋውያን ሰማዕታት (ግብፅ ገዳመ አስቄጥስ ውስጥ) | ቅድስት አንስጣስያ | ቅዱስ ዮሴፍ (መፍቀሬ ነዳያን) | አባ ጽሕማ (ከተስዓቱ ቅዱሳን)
+ 5/27 (ጥር 27): ቅዱስ ኄኖክ ነቢይ (ወደ ብሔረ ሕያዋን ያረገበት) | ቅዱስ ጢሞቴዎስ ሐዋርያ (ፍልሠቱ) | ቅዱስ አባ ቢፋሞን ሰማዕት | ቅዱስ ሰራብዮን ሰማዕት | ቅዱስ ሱርያል ሊቀ መላዕክት (ከ፯ቱ ሊቃናት አንዱ)
+ 5/28 (ጥር 28): ቅዱስ ቀሌምንጦስ ሰማዕት (ስለ ሃይማኖት ፯ ጊዜ ሙቶ የተነሳ, ፯ አክሊል የወረደለት) | ቅዱስ አካውህ መነኮስ | "፰00" ሰማዕታት | ቅዱስ ዮሴፍ አይሁዳዊ (የእመቤታችን ወዳጅ) | ቅድስት ሳቤላ
+ 5/29 (ጥር 29): ጻድቃን ቅዱሳን ማሕበረ ዶጌ (ዴጌ ጻድቃን)
+ 5/30 (ጥር 30): ቅድስት ሶፍያና ፫ቱ ሰማዕታት ልጆቿ (ጲስጢስ አላዺስና አጋዺስ) | ቅድስት ኦርኒ ሰማዕት (በ፭ ነገሥታት እጅ የተሰቃየች የሐዋርያው ጢሞቴዎስ ተከታይና ወደ ብሔረ ሕያዋን የተነጠቀች እናት) | ቅዱስ ጐርጐርዮስ ነባቤ መለኮት | አባ አክርስጥሮስ | አምስቱ ደናግል ሰማዕታት (ጤቅላ ማርያ ማርታ አበያ ዓመታ) | ጻድቃነ ዴጌ (የተሠወሩበት) | አባ ሚናስ ሊቀ ዻዻሳት | "130,000" ሰማዕታት (የቅ/ኦርኒ ማሕበር)
+ 6/ 1 (የካቲት  1): ቅዱስ ዼጥሮስ ተፍጻሜተ ሰማዕት (ቅዳሴ ቤቱ) | ታላቁ ቴዎዶስዮስ ጻድቅ (ንጉሠ ቍስጥንጥንያ)
+ 6/ 2 (የካቲት  2): ቅዱስ አባ ዻውሊ ገዳማዊ (የባሕታውያን ኁሉ አባት) | ቅዱስ አባ ለንጊኖስ ሊቀ ምኔት (ደብረ ዝጋግ - ግብፅ) | ቅዱስ ቶማስ ሐዋርያ
+ 6/ 3 (የካቲት  3): ቅዱስ ኤፍሬም ሶርያዊ (አፈ በረከት በዓለ ፍልሰቱ) | ቅዱስ አባ ዕብሎይ ገዳማዊ | አባ ያዕቆብ መስተጋድል
+ 6/ 4 (የካቲት  4): ሐዋርያው አጋቦስ | አባ ዘካርያስ
+ 6/ 5 (የካቲት  5): ቅዱስ አባ ዕብሎይ ገዳማዊ | ቅዱስ አባ ብሶይ ጻድቅ | አባ አክርጵዮስ | "49" አረጋውያን ሰማዕታት (ፍልሠታቸው) | ቅዱስ አሞኒና ሚስቱ ቅድስት ሙስያ (የታላቁ ዕብሎይ ወላጆች) | አባ ኖብ ጻድቅ, መነሳንሱ ዘወርቅ
+ 6/ 6 (የካቲት  6): ቅድስት ማርያም እንተ ዕፍረት | የዓለም ኁሉ መምሕር ቅዱስ አቡሊዲስ (ብዙ መንፈሳዊ ድርሳናትን የደረሰ ሊቀ ዻዻስና ሰማዕት) | ቅዱሳን አቡቂርና ዮሐንስ (ሰማዕታት) | ቅድስት አትናስያና ፫ቱ ሰማዕታት ልጆቿ (ቴዎድራ ቴዎፍናና ቴዎዶክስያ)
+ 6/ 7 (የካቲት  7): አባ አብዱልማስ ገዳማዊ | አባ ቴዎድሮስ ሊቀ ዻዻሳት | አባ እለእስክንድሮስ ሊቀ ዻዻሳት | ቅዱስ አባዲር
+ 6/ 8 (የካቲት  8): ቅዱስ ስምዖን አረጋዊ | ቅድስት ሐና ነቢይት (የፋኑኤል ልጅ) | ቅድስት ዓመተ ክርስቶስ እግዝእት | አባ ኤልያስ ገዳማዊ (በትህትና ያጌጠ ቅዱስ ሰው)
+ 6/ 9 (የካቲት  9): አባ በርሱማ ሶርያዊ (ለሶርያ መነኰሳት ሁሉ አባት) | አቡነ እስትንፋሰ ክርስቶስ (ኢትዮዽያዊ) የመነኰሱበት በዓል | ቅዱስ ጳውሎስ ሶርያዊ (ሰማዕት) | ቅዱስ ጴጥሮስ ሰማዕት
+ 6/10 (የካቲት 10): ቅዱስ ያዕቆብ ሐዋርያ (ወልደ እልፍዮስ) | ቅዱስ ዮስጦስ ሰማዕት | አባ ኤስድሮስ ጻድቅ (ዘሃገረ ፈርማ) | አባ ፌሎ ሰማዕት | ቅዱስ ስምዖን | ቅዱስ ኒቆላዎስ
+ 6/11 (የካቲት 11): አባ አውሎግ አንበሳዊ | አባ አውሎጊን ጻድቅ (የአባ አውሎግ መምሕር) | አባ በትራ (የጻድቁ አባ ስልዋኖስ ደቀ መዝሙር) | አባ በላትያኖስ ሰማዕት (የሮም ሊቀ ዻዻሳት የነበረ) | አባ አብርሃም ኤዺስ ቆዾስ | አባ መቃቢስ | አባ ኮንቲ
+ 6/12 (የካቲት 12): "30,000 ሰማዕታተ ኢትዮዽያ (ሮማዊው ፋሽስት የገደላቸው) | ቅዱስ ሶምሶን ረዓይታዊ (የእስራኤል መስፍን) | ቅዱስ አባ ገላስዮስ ገዳማዊ | ቅድስት ዶርቃስ
+ 6/13 (የካቲት 13): ቅዱስ አውሳብዮስ ጻድቅ (ጥዑመ ዜና) | ቅዱስ ፊቅጦር ሰማዕት (ልደቱ) | ቅዱስ ሰርግዮስ ሰማዕት | ቅዱስ መፁን ቀሲስ | ቅዱስ ቴዎድሮስ ሰማዕት (የቅ/ፋሲለደስ ልጅ) | አባ ጢሞቴዎስ ሊቀ ዻዻሳት | አባ ክፍላ | አባ ኅብስ
+ 6/14 (የካቲት 14): ቅዱስ ሳዊሮስ ዘአንጾኪያ | ቅዱስ ቄርሎስ ሊቀ ዻዻሳት | አባ ያዕቆብ ሊቀ ዻዻሳት | ቅዱስ ዳርዮስ | ቅድስት ሊድና
+ 6/15 (የካቲት 15): ቅዱስ ዘካርያስ ነቢይ (ከ፲፪ቱ ደቂቀ ነቢያት አንዱ) | ቅዱስ አባ በፍኑትዮስ ገዳማዊ (ከጻድቅነቱ ባሻገር በግብፅ በርሃ የሚኖሩ የብዙ ቅዱሳንን ዜና ሕይወት የጻፈ አባት ነው) | ቅዱሳን አርብዐ ሐራ ሰማይ (፬0 የሰማይ ጭፍሮች)
+ 6/16 (የካቲት 16): ኪዳነ ምሕረት (የሰባቱ ኪዳናት ማሕተም) | ቅድስት ኤልሳቤጥ (የመጥምቁ ዮሐንስ እናት / የእመቤታችን አክስት / የሶፍያ ልጅ) | ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)
+ 6/17 (የካቲት 17): ቅዱስ ሙሴ ሊቀ ነቢያት (በ፩፳ ዓመቱ ደብረ ናባው ላይ ተቀብሯል) | ቅዱስ ሚናስ ግብጻዊ (ኁለተኛው)
+ 6/18 (የካቲት 18): ቅዱስ ያዕቆብ ሐዋርያ (የቅዱስ ዮሴፍ ልጅ ከ፯፪ቱ አርድእት አንዱ) | ቅዱስ አባ መላልዮስ ጻድቅ ሊቀ ዻዻሳት
+ 6/19 (የካቲት 19): ታላቁ አባ መርትያኖስ (በዝሙት ላለመሰናከል እግራቸውን በእሳት ያቃጠሉ አባት)
+ 6/20 (የካቲት 20): አቡነ ክፍለ- ማርያም ዘዲባጋ (የተሰወረበት) | አቡነ ገብረ-መርዐዊ ዘአግዶ (ኢትዮዽያዊ) | ቅዱስ ፊልሞን መዐንዝር (ከአዝማሪነት በክርስቶስ አምኖ ለሰማዕትነት የበቃ ቅዱስ ሰው) | ቅዱስ አስቃሎን አናጉንስጢስ (ሰማዕት) | ቅዱስ ዼጥሮስ ሊቀ ዻዻሳት (የታላቁ ሐዋርያዊ አትናቴዎስ ደቀ መዝሙር)
+ 6/21 (የካቲት 21): ቅዱስ አናሲሞስ ሐዋርያ | ፩፥፲፩) | አባ ዘካርያስ ዘሃገረ ስሃ | አባ አካክዮስ ጻድቅ | አባ ገብርኤል ሊቀ ዻዻሳት | አባ ገብርኤል (የኢትዮዽያ ጳጳስ የነበሩ)
+ 6/22 (የካቲት 22): ቅዱሳን ሰማዕታተ ፋርስ (ፍልሠታቸውና ቅዳሴ ቤታቸው) | ቅዱስ አባ ማሩና ጻድቅ ኤዺስ ቆዾስ (የፋርስ ሰማዕታትን አጽም የሠበሠበ) | ቅዱስ አባ ቡላ
+ 6/23 (የካቲት 23): ቅዱስ ፖሊካርፐስ ሐዋርያዊ ሰማዕት (የሰርምኔስ ዻዻስ) | ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (አባቶቻችንን አድዋ ላይ የረዳበት) | ቅዱስ አውሳብዮስ ሰማዕት (የቅዱስ ፋሲለደስ ልጅ) | ቅዱስ አውስግንዮስ ሰማዕት
+ 6/24 (የካቲት 24): ቅዱስ አጋቢጦስ (ጻድቅ ኤዺስቆዾስ) | ቅዱስ ጢሞቴዎስ ሰማዕት (ዘጋዛ) | ቅዱስ ሚናስ ዘቆዽሮስ
+ 6/25 (የካቲት 25): ቅዱስ አባ አቡፋና ጻድቅ | ቅዱስ እንጦኒ /Anthony/ ሐዲስ ሰማዕት | ቅዱሳን ሰማዕታት -አውሳንዮስ ፊልሞናና ሉቅያ ድንግል (የቅዱስ ዻውሎስ ሐዋርያ ደቀ መዛሙርት) | ቅዱስ ቶና ዲያቆንና ሰማዕት | ቅዱስ ሚናስ ዘሃገረ ቁስ
+ 6/26 (የካቲት 26): ቅዱስ ሆሴዕ ነቢይ (ከ፲፪ቱ ደቂቀ ነቢያት) | ቅዱስ ሳዶቅ ሰማዕት | "፰0፰" ሰማዕታት (ከቅ/ሳዶቅ ጋር የተሰየፉ)
+ 6/27 (የካቲት 27): አባ አንስጣስዮስ ርቱዓ ሃይማኖት (ዘአንጾኪያ)
+ 6/28 (የካቲት 28): ቅዱስ ቴዎድሮስ ሮማዊ (ሰማዕት) | "፮,፴፬" ሰማዕታት (በቅ/ቴዎድሮስ አምላክ አምነው ሰማዕትነት የተቀበሉ)
+ 6/29 (የካቲት 29): ቅድስት ፍቅርተ ክርስቶስ ኢትዮዽያዊት | ቅዱስ ዘርዐ ክርስቶስ (ጻድቅና ሰማዕት) | ቅዱሱ ሕፃን (የፍቅርተ ክርስቶስ ልጅ) | ቅዱስ ቢላካርዮስ ዘሃገረ አርሞኒ (አረጋዊ ደራሲ ጻድቅና ሰማዕት)
+ 6/30 (የካቲት 30): ቅዱስ ዮሐንስ መጥምቀ መለኮት
+ 7/ 1 (መጋቢት  1): አባታችን ማቱሣላ (በ፱፮፱ ዓመቱ ያረፈበት) | ቅዱስ በርኪሶስ ዘኢየሩሳሌም | ቅዱስ እለእስክንድሮስ | ቅዱስ መርቆሬዎስ | አባ ሚካኤል ዘሀገረ አትሪብና አባ ዮሐንስ ዘሀገረ ቡርልስ (፪ቱ አባቶች ሃይማኖተ አበውን ግፃዌንና ስንክሳርን ያዘጋጁ ናቸው)
+ 7/ 2 (መጋቢት  2): ቅዱስ ጎርጎርዮስ ረዓዬ ኅቡዓት (ዘሃገረ ሮሀ) | አቡነ መክፈልተ ማርያም ጻድቅ (ኢትዮዽያዊ) | አባ መከራዊ ዘሀገረ ኒቅዮስ (አረጋዊ ጻድቅ ዻዻስና ሰማዕት)
+ 7/ 3 (መጋቢት  3): ቅዱስ አባ ቆዝሞስ (የእስክንድርያ ሊቀ ዻዻሳት) | አባ በርፎንዮስ ክቡር
+ 7/ 4 (መጋቢት  4): የቅዱሳን ሊቃውንት ጉባዔ (አሞር ደሴት ውስጥ) | ቅዱስ ሐኑልዮስ መኮንን (ሰማዕት)
+ 7/ 5 (መጋቢት  5): አቡነ ገብረ መንፈስ ቅዱስ ጻድቅ (አባ ገብረ ሕይወት) | ቅዱስ አባ ሰረባሞን (በምድረ ግብፅ ምንኩስናን ካስፋፉ ታላላቅ ቅዱሳን አንዱ) | አባ ግርማኖስ ጻድቅ (ሶርያዊ) | ቅድስት አውዶክስያ ሰማዕት (ከከፋ የኃጢአት ሕይወት ተመልሳ ለቅድስና የበቃች እናት) | ቅዱሳን ስምዖንና ሚስቱ አቅሌስያ (የአቡነ ገብረ መንፈስ ቅዱስ ወላጆች)
+ 7/ 6 (መጋቢት  6): ጻድቁ ዐፄ ገብረ መስቀል (የኢትዮዽያ ንጉሥ) | ቅዱስ ዲዮስቆሮስ ሰማዕት (አማሌቃውያን የገደሉት) | ቅዱስ ቴዎዶስዮስ ተአማኒ (ዘቆረንቶስ) | አባ ዘሩፋኤል ጻድቅ | አባ እንጦንስ ገዳማዊ | አባ አርከሌድስ ገዳማዊ
+ 7/ 7 (መጋቢት  7): ጻድቁ ኢትዮዽያዊ ንጉሥ ዐፄ ቴዎድሮስ | ቅዱስ ቴዎዶጦስ ሰማዕት | ቅዱስ ፊልሞን ሰማዕት | ቅዱስ አብላንዮስ ሰማዕት
+ 7/ 8 (መጋቢት  8): ቅዱስ ማትያስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት) | ቅዱስ አርያኖስ ሰማዕት (በዘመነ ሰማዕታት ብዙ ክርስቲያኖችን ያሳድድ የነበረና ጌታ በንስሃ የጠራው) | ቅዱስ ዮልዮስ ሊቀ ዻዻሳት
+ 7/ 9 (መጋቢት  9): ቅዱስ ኩትን ሐዋርያ | ቅዱስ እንድርያኖስ ሰማዕት | ቅዱስ አውሳብዮስ ሰማዕት | "፪,000" ሰማዕታት (የአባ ኖብ ማሕበር)
+ 7/10 (መጋቢት 10): ቅዱስ ዕፀ መስቀል | ቅድስት ዕሌኒ ንግሥት | ቅዱስ ኪራኮስ አረጋዊ | ቅዱስ መቃርስ ዘኢየሩሳሌም
+ 7/11 (መጋቢት 11): አባ አሌፍ ጻድቅ (ከተስዓቱ ቅዱሳን) | ቅዱስ ቴዎቄጤኖስ ሰማዕት | ቅዱስ ባስሊዖስ (ዻዻስና ሰማዕት) | አባ ኤፍሬም ሰማዕት | አባ ኤልያስ ሰማዕት
+ 7/12 (መጋቢት 12): ቅዱስ ድሜጥሮስ ሊቀ ዻዻሳት (ደንግልናው የተገለጠበት) | ቅድስት ልዕልተ ወይን | ቅዱስ መላዚ ሰማዕት
+ 7/13 (መጋቢት 13): ታላቁ ቅዱስ መቃርስ (የመነኮሳት ሁሉ አለቃ-ስደቱ) | ቅዱስ መቃርዮስ እስክንድርያዊ | ፬0 ቅዱሳን ሰማዕታት (ከሃገረ ስብስጥያ) | ቅዱስ ዲዮናስዮስ (ጻድቅ ሊቀ ዻዻሳት)
+ 7/14 (መጋቢት 14): ቅዱስ ቶማስ ሐዋርያ (ጋኔን ያደረባት ሴትን ፈውሶ አሕዛብን ያሳመነበት) | ቅዱስ አባ ባጥል ትሩፈ ምግባር (ባንድ ወቅት ከእስክንድርያ ዝሙትን ለማጥፋት የተጋደሉ ጻድቅና አረጋዊ አባት) | ቅዱስ ሲኖዳ (ሺኖዳ) ሰማዕት | ቅዱስ ቄርሎስ ሊቀ ዻዻሳት
+ 7/15 (መጋቢት 15): ቅዱስ ሰለፍኮስ ሰማዕት | እናታችን ቅድስት ሣራ ጻድቅት (ግብፃዊት) | አባ ሕልያስ ሰማዕት | ቅዱስ ጊዮርጊስ ሐዲስ
+ 7/16 (መጋቢት 16): ቅዱስ አባ ሚካኤል ሊቀ ዻዻሳት
+ 7/17 (መጋቢት 17): ቅዱስ አልዓዛር ጻድቅ ሐዋርያ | ቅዱስ ቴዎቅሪጦስ አናጉንስጢስ (ሰማዕት) | ቅዱስ ተላስስ ሰማዕት | ቅዱስ ዮሴፍ ኤዺስ ቆዾስ | ቅዱስ ጊዮርጊስ መስተጋድል
+ 7/18 (መጋቢት 18): ቅዱስ ኤስድሮስ ሰማዕት
+ 7/19 (መጋቢት 19): ቅዱስ አስከናፍር ሚስቱ ማርታ ልጆቹ አርቃድዮስና ዮሐንስ | ቅዱስ አርስጥቦሎስ ሐዋርያ (ከ፯፪ቱ አርድእት-የቅ/ዻውሎስ ደቀ መዝሙር) | ሰባቱ ቅዱሳን ሰማዕታት (ከተለያየ ቦታ ተሰብስበው በክርስቶስ ስም የሞቱ)
+ 7/20 (መጋቢት 20): ቅዱስ አልዓዛር ጻድቅ ሐዋርያ (የጌታ ወዳጅ) | ቅድስትና ብጽዕት ሰማዕት አስጠራጦኒቃ (ከታላላቅ ሰማዕታት አንዱዋ) | ቅዱሳን ሰማዕታት (የቅ/አስጠራጦኒቃ ማሕበር) | እናታችን ቅድስት ጽጌ- ሥላሴ (ኢትዮዽያዊት) | ቅዱስ አስቃራን ሰማዕት | አባ ሚካኤል ሊቀ ዻዻሳት
+ 7/21 (መጋቢት 21): ቅዱሱ ቤተሰብ (አልዓዛር ማርያና ማርታ) | አባታችን ላሜኅ (የማቱሳላ ልጅ-የጻድቁ ኖኅ አባት) | ቅዱስ ቴዎድሮስ ሰማዕት | ቅዱስ ጢሞቴዎስ ሰማዕት
+ 7/22 (መጋቢት 22): ቅዱሳን ሐዋርያት ንጹሐን አርድእትና ቅዱሳት አንስት (የጌታችን ፩፳ ቤተሰቦች) | ቅዱስ ቄርሎስ መንፈሳዊ
+ 7/23 (መጋቢት 23): ነቢየ እግዚአብሔር ቅዱስ ዳንኤል (የስሙ ትርጏሜ- እግዚአብሔር ፈራጅ ነው ማለት ነው)
+ 7/24 (መጋቢት 24): ቅዱስ ተክለ ሃይማኖት (ጽንሰቱ) | ቅዱሳን እግዚእ ኃረያና ጸጋ ዘአብ | ቅዱስ አባ መቃርስ ሊቀ ዻዻሳት
+ 7/25 (መጋቢት 25): ቅዱስ አንሲፎሮስ ሐዋርያ (ከ፯፪ቱ አርድእት)
+ 7/26 (መጋቢት 26): ቅዱሳን ሐርያት | ቅድስት ድንግል ኢዮዸራቅስያ | ቅዱስ ፍርፍርዮስ ሰማዕት
+ 7/27 (መጋቢት 27): ቅዱስ ዮሐንስ (ፍቁረ እግዚእ) | ቅዱሳት አንስት (ከእግረ መስቀሉ ያልተለዩ) | 500' ቅዱሳን ባልንጀሮች (በጌታ ስቅለት ጊዜ ከሞት የተነሱ) | ቅዱሳን ዮሴፍና ኒቆዲሞስ | ታላቁ ቅዱስ መቃርስ (የመነኮሳት አለቃ) | ማር ገላውዴዎስ ሰማዕት (የኢትዮዽያ ንጉሥ) | ቅዱስ ዕፀ መስቀል
+ 7/28 (መጋቢት 28): ጻድቅ ንጉሥ ቁስጠንጢኖስ እረፍቱ
+ 7/29 (መጋቢት 29): ጥንተ ዕለተ ፍጥረት (ዓለም የተፈጠረችበት) | በዓለ ትስብእት (የጌታችን ጽንሰቱ) | ጥንተ በዓለ ትንሳኤ | ዳግም ምጽዐት | ቅድስት ማርያም መግደላዊት | ቅዱስ ዻውሎስ ሐዋርያ | ቅዱሳት አንስት (ትንሳኤውን የሰበኩ) | ቅድስት ፍቅርተ ክርስቶስ (ጽንሰታ) | አብርሃ ወአጽብሐ (ጽንሰታቸው) | ቅዱስ ኢያሱ ነቢይ (ጽንሰቱ) | ቅዱስ ላሊበላ (ጽንሰቱ) | አቡነ ገብረ መንፈስ ቅዱስ (ጽንሰታቸው)
+ 7/30 (መጋቢት 30): ቅዱስ ገብርኤል ሊቀ መላእክት (እመቤታችንን ያበሠረበት መታሰቢያ) | ቅዱስ ሶምሶን (መስፍነ እስራኤል) | ቅዱስ ያዕቆብ ዘግሙድ (ፍልሠቱ) | ቅዱስ ዮሐንስ ዘአክሱም (ድርሳነ ሚካኤልን መጻፉ የሚነገርለት አባት) | እግዚአብሔር ውሃን ከ፫ ከፈለው (ጠፈርን ፈጠረ)
+ 8/ 1 (ሚያዝያ  1): ቅዱስ አሮን ካህን (የሊቀ ነቢያት ሙሴ ወንድም) | አባ ስልዋኖስ ጻድቅ | ቅዱሳን መነኮሳት | ቅድስት መጥሮንያ
+ 8/ 2 (ሚያዝያ  2): ቅዱስ ክርስቶፎሮስ (ሐዋርያና ሰማዕት) | አባ ስምዖን ዘሃገረ ሐሊባ | ቅዱስ መላልኤል (የያሬድ አባት - ከአዳም ፭ኛ ትውልድ) | እግዚአብሔር ፀሐይን ጨረቃን ከዋክብትን ፈጠረ
+ 8/ 3 (ሚያዝያ  3): ቅዱስ መርቄ ጻድቅ (ክርስቲያናዊ ነጋዴ) | ቅዱስ ዮሐንስ ዘኢየሩሳሌም | አባ ሚካኤል ዘእስክንድርያ | እግዚአብሔር - በእግር የሚራመዱ በክንፍ የሚበሩና በልብ የሚሳቡ በየብስ የሚኖሩ ፍጥረታትን ፈጠረ
+ 8/ 4 (ሚያዝያ  4): እግዚአብሔር የሰው ልጅን ፈጠረ | ቅዱሳን አብርሃ ወአጽብሐ (ጻድቃን ነገሥት) | ቅዱሳን ፊቅጦር ዳኬዎስና ኤርሞ (ሰማዕታት)
+ 8/ 5 (ሚያዝያ  5): እግዚአብሔር ሰንበትን ቀደሰ | ቅዱስ ሕዝቅኤል ነቢይ | ቅዱስ ዲዮስቆሮስ (ክፉ ላለመናገር ዲንጋይ ጐርሶ የኖረ አባት) | ቅድስት ታኦድራ | ቅዱስ አርሳኒ | ቅዱስ ያሬድ ካህን (ልደቱ)
+ 8/ 6 (ሚያዝያ  6): ቅዱሳን አዳምና ሔዋን (የዕረፍታቸው መታሠቢያ) | ልበ አምላክ ቅዱስ ዳዊት (ልደቱ) | አባታችን ቅዱስ ኖኅ (ልደቱ) | ቅዱስ ቶማስ ሐዋርያ (የጌታችንን ጐኑን የዳሰሰበት) | ቅድስት ማርያም ግብፃዊት (ከኃጢአት ሕይወት ተመልሳ በፍፁም ቅድስናዋ የተመሠከረላት እናት)
+ 8/ 7 (ሚያዝያ  7): ቅዱስ ኢያቄም (የ ድንግል ማርያም አባት) | ቅዱስ አጋቦስ ሰማዕት | ቅድስት ቴዎድራ ሰማዕት | ቅዱስ አባ መቅሩፋ ጻድቅ
+ 8/ 8 (ሚያዝያ  8): ቅዱሳት ደናግል አጋሊዝ ኢራኒና ሱስንያ | "፲፭0" ቅዱሳን ሰማዕታት (ፋርስ (ኢራን) ውስጥ የተሰየፉ) | አባ ጢሞቴዎስ ሊቀ ዻዻሳት
+ 8/ 9 (ሚያዝያ  9): ቅዱሳን የብሔረ ብጹዐን ጻድቃን | አቡነ እስትንፋሰ ክርስቶስ ጻድቅ (ኢትዮዽያዊ) | ቅዱስ ዞሲማስ ገዳማዊ (ብሔረ ብጹዐንን ያየ እና ዜናቸውን የጻፈ አባት) | ቅዱስ ኤስድሮስ ሕጻን ሰማዕት (ገና በ፲ ወር ዕድሜው ሰማዕት የሆነ) | አባ ሱንቱዩ ሊቀ ዻዻሳት
+ 8/10 (ሚያዝያ 10): ቅዱስ አባ ይስሐቅ ገዳማዊ (የታላቁ ዕብሎይ ደቀ መዝሙር) | አባ ገብርኤል ሊቀ ዻዻሳት
+ 8/11 (ሚያዝያ 11): ቅድስት ታኦድራ ገዳማዊት | አባ በኪሞስ ጻድቅ | ስምኦን ዘለምጽ | ቅዱስ ዮሐንስ ኤዺስ ቆዾስ
+ 8/12 (ሚያዝያ 12): አቡነ ሳሙኤል ዘቆየጻ (ኢትዮዽያዊ) | ቅዱስ ኤርምያስ ነቢይ | ቅዱስ አቤሜሌክ ኢትዮዽያዊ | ቅዱስ ባሮክ | ቅዱስ እለእስክንድሮስ ዘኢየሩሳሌም
+ 8/13 (ሚያዝያ 13): ቅድስት ዲዮኒስ ዲያቆናዊት (የሐዋርያት ተከታይ የነበረች) | አባ ኢያሱና አባ ዮሴፍ (ሰማዕታት) | ቅዱስ መናድሌዎስ | አባ አኮላቲሞስ
+ 8/14 (ሚያዝያ 14): አባ መክሲሞስ ሊቀ ጳጳሳት
+ 8/15 (ሚያዝያ 15): ቅዱስ ዮሐንስ መጥምቀ መለኮት (ጸዐተ ነፍሱ) | ቅዱስ ኒቆላዎስ ዘሀገረ ሜራ (ከ፫፲፰ቱ ሊቃውንት) | ቅዱስ አጋቦስ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅድስት እለእስክንድርያ ሰማዕት | አቡነ አቢብ ጻድቅ
+ 8/16 (ሚያዝያ 16): ቅዱስ አንቲቦስ ዘሀገረ በአርማ (ሐዋርያዊ ዻዻስና ሰማዕት) | ቅዱስ ሳባ ሰማዕት
+ 8/17 (ሚያዝያ 17): ቅዱስ ያዕቆብ ሐዋርያ ወልደ ዘብዴዎስ (ከ፲፪ቱ ሐዋርያት)
+ 8/18 (ሚያዝያ 18): ቅዱስ አውሳብዮስ ሰማዕት | አባ ዼጥሮስ ሰማዕት | ሰማዕታተ ጠርሴስ
+ 8/19 (ሚያዝያ 19): ቅዱስ ስምዖን ሰማዕት (አርማንያዊ) | "፲፭0" ቅዱሳን ሰማዕታት (የስምዖን ማሕበር)
+ 8/20 (ሚያዝያ 20): ቅዱስ በብኑዳ (ሰማዕት ወጻድቅ) | ቅዱስ ቄርሎስ ሚስቱና ፲፪ ልጆቹ ሰማዕታት (ከቅዱስ በብኑዳ ጋር የተገደሉ)
+ 8/21 (ሚያዝያ 21): ቅዱስ ዮሐንስ (ፍቁረ እግዚእ) | ቅዱሳት አንስት (ከእግረ መስቀሉ ያልተለዩ) | 500' ቅዱሳን ባልንጀሮች (በጌታ ስቅለት ጊዜ ከሞት የተነሱ) | ቅዱሳን ዮሴፍና ኒቆዲሞስ | ቅዱስ ዕፀ መስቀል | ቅዱስ ብሩታዎስ ሐዋርያዊ | አባ ዕንባቆም ጻድቅ ሰባኬ ሃይማኖት ዘደብረ ሊባኖስ (ኢትዮዽያዊ) | ቅዱስ አካክሪስ | ቅዱስ ይወራስ
+ 8/22 (ሚያዝያ 22): ጻድቁ አቡነ ተክለ ሃይማኖት | ቅዱስ እለእስክንድሮስ ሊቅ (አርዮስን ያወገዘ) | አባ ይስሐቅ ጻድቅ | አባ ማርቆስ ሐዲስ | አባ ሚካኤል ዘኢየሩሳሌም | አባ ሚካኤል ዘእስክንድርያ
+ 8/23 (ሚያዝያ 23): ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት | ቅዱስ ሮቆ ጻድቅ (በስሙ ለተማጸነ ከወባ በሽታ እንዲጠብቀው ጌታ ቃል ኪዳን ገብቶለታል)
+ 8/24 (ሚያዝያ 24): ቅዱስ ፃና ሰማዕት | አባ ስንትዩ ሊቀ ዻዻሳት | አባ ይድራ | የደብረ ሲና ቅዳሴ ቤት
+ 8/25 (ሚያዝያ 25): ቅድስት ሣራና ፪ ልጆቿ (ሰማዕታት) | አቡነ ገብረ ማርያም ጻድቅ-ዘልሆኝ (ኢትዮዽያዊ) | አባ በብኑዳ ባሕታዊ | ቅዱስ ቴዎድሮስ መስተጋድል | ቅድስት ዶራ
+ 8/26 (ሚያዝያ 26): ቅዱስ ዮሐንስ ሰማዕት (ወልደ ፀራቢ) | ቅዱስ ሱስንዮስ ሰማዕት (ሶርያዊ) | ሰማዕታት (የቅዱስ ሱስንዮስ ማኅበር) | አባ ሠርጋ | ቅዱስ ይድራስ
+ 8/27 (ሚያዝያ 27): ጽኑዕና ኃያል ማር ቅዱስ ፊቅጦር ሰማዕት | ቅድስት ማርታ (የፊቅጦር እናት) | ብጽዕት እስጢፋና ( በክርስቶስ ስላመነች ከ፪ ሰንጥቀው የገደሏት የ፲፭ ዓመት ብላቴና) | ቅዱሳን ሳሲማና አባ ኖባ (ሰማዕታት)
+ 8/28 (ሚያዝያ 28): ቅዱስ ሜልዮስ ዘደብረ ኮራሳን (ጻድቅና ሰማዕት) | አባ ኢያሱና አባ ዮሴፍ (ደቀ መዛሙርቱ) | ቅዱስ ብስጣውሮስ ሰማዕት (ተንባላት የገደሉት)
+ 8/29 (ሚያዝያ 29): ቅዱስ አርስጦስ ሐዋርያ (ከ፯፪ቱ አርድእት) | አባ አካክዮስ ዘኢየሩሳሌም (ጻድቅና ንጹሕ) | አባ ገምሶ ሰማዕት
+ 8/30 (ሚያዝያ 30): ቅዱስ ማርቆስ ሐዋርያ | ቅዱስ አርስጥቦሎስ (አባቱ) | ቅድስት ማርያም (እናቱ)
+ 9/ 1 (ግንቦት  1): እመቤታችን ቅድስት ድንግል ማርያም (ልደታ) | ቅዱሳን ኢያቄም ወሐና | ቴክታና በጥሪቃ | አባ ሕርያቆስ ዘሃገረ ብሕንሳ (የእመቤታችንን ቅዳሴ የደረሰበት)
+ 9/ 2 (ግንቦት  2): ቅዱስ ኢዮብ ጻድቅ (የትእግስት አባት) | አባ ቴዎድሮስ ሊቀ ምኔት (የታላቁ ቅዱስ ዻኩሚስ ደቀ መዝሙርና የአቡነ አረጋዊ ጉዋደኛ) | "፳፪" ሰማዕታት (የአባ ኤሲ ማሕበር)
+ 9/ 3 (ግንቦት  3): ቅዱስ ያሶን ሐዋርያ (ከ፯፪ቱ አርድእት አንዱ) | አባ ብሶይ ሰማዕት | ቅዱስ አውሳብዮስ ቀሲስ | ቡርክት ወለተ ማርያም ንግሥት (የዐፄ ልብነ ድንግል እናት)
+ 9/ 4 (ግንቦት  4): አቡነ መልከ ጼዴቅ ካህን (ኢትዮዽያዊ ጻድቅ) | አባ ዮሐንስ ሊቀ ዻዻሳት | ቅዱሳን ሶሲማና ኖዳ ሰማዕታት (የታላቁ ፊቅጦር ተከታዮች የነበሩ)
+ 9/ 5 (ግንቦት  5): ቅዱስ ኤርምያስ ነቢይ (ከታላላቆቹ ነቢያት አንዱ)
+ 9/ 6 (ግንቦት  6): ቅዱስ አባ መቃርስ ገዳማዊ | እናታችን ቅድስት ሰሎሜ ኢትዮዽያዊት | አባ ይስሐቅ ጻድቅ | ቅድስት ዲላጊና ፬ ሴት ልጆቿ (ሰማዕታት) | ቅዱስ ዳናስዮስ ሰማዕት | ቅዱስ በንደላዖስ ሰማዕት (የታላቁ ኤስድሮስ አባት) | አባ አሞን ጻድቅ (ዽዽስናን አልፈልግም ብሎ የሸሸ አባት)
+ 9/ 7 (ግንቦት  7): ቅዱስ አትናቴዎስ ሐዋርያዊ | የባሕታውያን አለቃ ታላቁ አባ ሲኖዳ (ጽንሰቱ) | ቅዱስ ዮሐንስ ጻድቅ (ሃብቱን ንብረቱን ልብሱን ሳይቀር መጽውቶ ራቁቱን የተገኘ ደግ ሰው ነው) | አባ ሐርስዮስ ገዳማዊ
+ 9/ 8 (ግንቦት  8): ቅዱሳን የጌታ ቤተሰብ (መቶ ሃያው)
+ 9/ 9 (ግንቦት  9): ቅድስት እሌኒ ንግሥት | ቅዱስ ስልዋኖስ
+ 9/10 (ግንቦት 10): ሠለስቱ ደቂቅ ቅዱሳን (አናንያ አዛርያና ሚሳኤል) | ቅዱስ አብርሃም ጸራቢ (ሰማዕት) | አባ ሚካኤል ገዳማዊ | አባ ይስሐቅ ግብጻዊ
+ 9/11 (ግንቦት 11): ቅዱስ ያሬድ ካህን ወማኅሌታይ | አቡነ ሐራ ድንግል ጻድቅ | ክርስቲናና ይስሐቅ (የቅዱስ ያሬድ ወላጆች) | ቅድስት ታውክልያ እናታችን (ንግሥናን ንቃ ሰማዕት የሆነች) | ቅድስት ኤፎምያ ሰማዕት | ቅድስት ሶፍያ ሰማዕት | ቅድስት አናሲማ ገዳማዊት | አባ በፍኑትዮስ ገዳማዊ | አባ አሴር ሰማዕት (ኢትዮዽያዊ) | አባ በኪሞስ ጻድቅ
+ 9/12 (ግንቦት 12): ቅዱስ ዮሐንስ አፈ ወርቅ (የዓለም ሁሉ መምሕር)
+ 9/13 (ግንቦት 13): ቅዱስ አርሳንዮስ - አርሳኒ (ጠቢብ ገዳማዊ)
+ 9/14 (ግንቦት 14): ቅዱስ አባ ዻኩሚስ (አበ መነኮሳት ሣልሳዊ) | አባ ሲማኮስ ሰማዕት
+ 9/15 (ግንቦት 15): ቅዱስ ናትናኤል ሐዋርያ (ቀናተኛው ስምዖን) | ቅዱስ ሚናስ ባሕታዊ | ቅዱስ ቀርጢኖስ ሰማዕት
+ 9/16 (ግንቦት 16): ቅዱስ ዮሐንስ ወንጌላዊ (ስብከቱና ቅዳሴ ቤቱ) | ቅዱስ ኢያሱ ሲራክ ነቢይና ጠቢብ (መጽሐፈ ሲራክን የጻፈ) | ቅድስት እናታችን ዐስበ ሚካኤል (ኢትዮዽያዊት)
+ 9/17 (ግንቦት 17): ቅዱስ ኤዺፋንዮስ ሊቅ (ዘደሴተ ቆዽሮስ) | ቅዱስ ኢላርዮን ገዳማዊ | አባ ሉክያኖስ ጻድቅ | ቅዱስ ፊላታዎስ ክርስቲያናዊ
+ 9/18 (ግንቦት 18): ቅዱሳን ሐዋርያት ወአርድእት | አባ ገዐርጊ ገዳማዊ | ቅዱስ ሲኖዳ ሰማዕት
+ 9/19 (ግንቦት 19): አባ ዓቢየ እግዚእ ጻድቅ (ኢትዮዽያዊ) | አቡነ ዮሴፍ ብርሃነ ዓለም (የ፲፪ቱ ሐዋርያት መቃብር ከጌታ የተገለጠላቸው ኢትዮዽያዊ) | አቡነ ብስጣውሮስ ዘሐይቅ እስጢፋኖስ (ኢትዮዽያዊ) | ቅዱስ ኤስድሮስ ሰማዕት ታላቁ (፯ ጊዜ ሙቶ የተነሳ) | "፰0፭,00፯" ሰማዕታት (በአንድ ቀን ብቻ የተገደሉ) | አባ ይህሳቅ ገዳማዊ
+ 9/20 (ግንቦት 20): ቅዱስ አፄ ካሌብ (መናኙ ንጉሠ ኢትዮዽያ) | ቅዱስ አሞንዮስ ገዳማዊ (ታላቁ አሞኒ ዘቶና) | ቅድስት ሳድዥ የዋሂት | አባ ሖር ጻድቅ | አባ ዳርማ ገዳማዊ | ቅዱስ ዘካርያስ አንጾኪያዊ | አባ ዘትረ ወንጌል ዘደብረ ሊባኖስ
+ 9/21 (ግንቦት 21): ቅድስት ደብረ ምጥማቅ (የእመቤታችን መገለጥ) | አባ መርትያኖስ ጻድቅ (በዝሙት ላለመሰናከል እግራቸውን በእሳት ያቃጠሉ አባት) | ቅዱስ አሮን ሶርያዊ | ቅዱስ አሞጽ ነቢይ
+ 9/22 (ግንቦት 22): ቅዱስ እንድራኒቆስ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ ያዕቆብ ምሥራቃዊ ( ለክርስቶስ የታመነ)
+ 9/23 (ግንቦት 23): ቅዱስ ዮልዮስ (ዮልያን) ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ አፍሮዲጡ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱሱ ሕጻን ሰማዕት | አባ አንስያ ሰማዕት | ቅዱስ ታኦድራጦስ
+ 9/24 (ግንቦት 24): ቅዱስ ዕንባቆም ነቢይ | ቅዱስ ዮሴፍ አረጋዊና ቅድስት ሰሎሜ | ቅዱስ አብቁልታ ሰማዕት | ቅዱስ አልዓዛር ካህን (የአሮን ልጅ)
+ 9/25 (ግንቦት 25): እናታችን ቅድስት ሰሎሜ (ከ፫፮ቱ ቅዱሳት አንስት) | ታላቁ አባ ሔሮዳ ሰማዕት | "፴,000" ሰማዕታት (የአባ ሔሮዳ ማሕበር) | ቅዱስ አብቁልታ ሰማዕት | ቅዱስ ቅብዐ ሜሮን
+ 9/26 (ግንቦት 26): ቅዱስ ቶማስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት) | ቅድስት አርሶንያ (የቅዱስ ቶማስ ተከታይ) | አቡነ ሐብተ ማርያም ጻድቅ
+ 9/27 (ግንቦት 27): ቅዱሳን ሐዋርያት ወአርድእት | ቅዱስ አልዓዛር ጻድቅ ሐዋርያ | ቅዱሳት ደናግል ማርያ ወማርታ | አባ ዮሐንስ ሊቀ ዻዻሳት
+ 9/28 (ግንቦት 28): ቅድስት ዓመተ ክርስቶስ ተጋዳሊት (ገዳማዊት) | ቅዱስ ኤዺፋንዮስ ሊቅ (ሥጋው ቆዽሮስ የደረሰበት) | አባ መርቆሬዎስ ገዳማዊ | አባ ጌርሎስ (ጻድቅና ሰማዕት) | "፬፭" ሰማዕታት (የአባ ጌርሎስ ደቀ መዛሙርት) | ቅዱስ አጋቦስ ሰማዕት
+ 9/29 (ግንቦት 29): አባ አፍፄ (ከዘጠኙ ቅዱሳን) | አባ ጉባ (ከዘጠኙ ቅዱሳን) | አባ ስምዖን ገዳማዊ (በ፯ ዓመታቸው መንነው ለ፰፩ ዓመታት በተጋድሎ የኖሩ ሶርያዊ) | አባ ይስሐቅ ጻድቅ
+ 9/30 (ግንቦት 30): ቅድስት አርዋ እናታችን | ቅዱስ ቆሮስ ሐዋርያ | ቅዱስ ዲማዲስ ሰማዕት | አባ ሚካኤል ሊቀ ዻዻሳት
+10/ 1 (ሰኔ  1): ቅዱስ ዮሴፍ ጻድቅ (የያዕቆብ ልጅ) | እናታችን አስኔት (የቅ/ ዮሴፍ ሚስት) | ቅዱስ ለውንትዮስ ክቡር ሰማዕት | ቅዱስ ቢፋሞን ሰማዕት | ቅዱስ ቆዝሞስ ሰማዕት
+10/ 2 (ሰኔ  2): ቅዱስ ዮሐንስ መጥምቀ መለኮት (ፍልሠቱ) | ቅዱስ ኤልሳዕ ነቢይ (ፍልሠቱ) | አባ ቀውስጦስ ኢትዮዽያዊ
+10/ 3 (ሰኔ  3): ቅድስት ማርታ ተሐራሚት | አቡነ ተጠምቀ መድኅን ጻድቅ (ኢትዮዽያዊ) | ቅዱስ ኢላርዮን ሰማዕት | ቅዱስ ኮርዮን ሰማዕት
+10/ 4 (ሰኔ  4): ቅድስት ሶፍያ ተጋዳሊት ወሰማዕት | ቅዱስ ዮሐንስ ዘሐራቅሊ (ሰማዕት) | ቅዱስ ሳኑሲ ሰማዕት | ቅድስት ማርያ ሰማዕት | ቅዱስ አርቃድዮስና ባልንጀሮቹ (ሰማዕታት) | ቅዱስ አሞን ሰማዕት
+10/ 5 (ሰኔ  5): ቅዱስ አባ ብሶይ (ኃያል ሰማዕት) | ቅድስት ማርታ ለባሲተ ክርስቶስ (በቅድስናዋ የተወደሰች በስደት ያረፈች እናት ናት) | ቅዱስ ያዕቆብ ምሥራቃዊ | ቅዱስ ቢፋሞን ሰማዕት | ቅዱስ መቃርስ ሰማዕት | ቅዱስ መርቆሬዎስና ማሕበሩ (ሰማዕታት)
+10/ 6 (ሰኔ  6): ቅዱስ አባ ቴዎድሮስ ሰማዕት | አባ ገብረ ክርስቶስ | "40" ሰማዕታት
+10/ 7 (ሰኔ  7): ቅዱስ ያዕቆብ ዘሥሩግ | ቅዱስ ቡሩክና አሸናፊ አባ አበስኪሮን (ታላቅ ሰማዕትና ባለ ብዙ ተአምራት) | "፲፮,000" ሰማዕታት (በአንድ ቀን የተገደሉ) | የእመቤታችን ቤተ ክርስቲያን የተከፈተበት በዓል (ከ፯00 ዓመታት በፊት ምስር (CAIRO) ውስጥ)
+10/ 8 (ሰኔ  8): የእመቤታችን ድንግል ማርያም ቅዳሴ ቤት | የቅዱስ ውሃ (ጸበል) መታሠቢያ | ቅድስት ትምዳ እናታችን | ቅዱስ አውሎጊስ | አባ አትካሮን
+10/ 9 (ሰኔ  9): ቅዱስ ሳሙኤል ነቢይ | ቅዱስ ሉክያኖስ ሰማዕት | ቅዱስ ዮሐንስ
+10/10 (ሰኔ 10): ቅድስት ቤተ ክርስቲያን | ታላቁ ቅዱስ ቈስጠንጢኖስ | ቅድስት ሶፍያ ሰማዕት (ከታላላቆቹ ሶፍያዎች አንዷ ናት) | ቅዱሳት ሰማዕታት ደባሞንና ብስጣሞን (የቅድስት ሶፍያ ልጆች) | ቅዱስ አውሎጊስ ሰማዕት | ቅዱስ ዋርስኖፋ ሰማዕት
+10/11 (ሰኔ 11): ማር ገላውዴዎስ ሰማዕት (ሕይወቱ መላዕክትን የመሰለ) | "፩,0፰፰" ሰማዕታት (የቅዱስ ገላውዴዎስ ማኅበር) | አባ ክርዳኑ ሊቀ ዻዻሳት | እናታችን ቅድስት ክርስቶስ ክብራ (ኢትዮዽያዊት የአቡነ በጸሎተ ሚካኤል እህት) | የጌታችን ኢየሱስ ክርስቶስ ቅዳሴ ቤቱ (ግብፅ)
+10/12 (ሰኔ 12): ቅዱስ ሚካኤል ሊቀ መላእክት | ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ) | ቅድስት አፎምያና ባለቤቷ ቅዱስ አስተራኒቆስ | ቅዱስ ባሕራን ቀሲስ | ቅዱስ እለ እስክንድሮስ ሊቅ | አባ ዮስጦስ ሊቀ ዻዻሳት (የሐዋርያው ቅዱስ ማርቆስ ደቀ መዝሙር) | አባ ቄርሎስ ሊቀ ዻዻሳት
+10/13 (ሰኔ 13): ቅዱስ ገብርኤል ሊቀ መላእክት (ወደ ዳንኤል የወረደበት) | አባ ዮሐንስ ዘኢየሩሳሌም | አባታችን ቃይናን (ከአዳም ፬ኛ ትውልድ) | አባ ማትያን ጻድቅ (ስደተኛው አባት)
+10/14 (ሰኔ 14): ቅዱሳን አበው ሰማዕታት (አባ አክራ አባ ዮሐንስ አባ አብጥልማ አባ ፊልጶስ)
+10/15 (ሰኔ 15): ቅዱስ ሚናስ (ማር ሚና) ሰማዕት (ቅዳሴ ቤቱ)
+10/16 (ሰኔ 16): አባ አቡናፍር ገዳማዊ (ስም አጠራሩ የከበረ ሽምግልናው ያማረ አባት) | አበው ቅዱሳን ባሕታውያን | የእግዚአብሔር መልአክ ለዮሴፍ በሕልም ከግብጽ እንዲመለስ የነገረበት (ተዝካረ ሚጠታ ለእግዝእትነ ማርያም ) | አፄ ይኩኖ አምላክ (ንጉሠ ኢትዮጵያ)
+10/17 (ሰኔ 17): ብጹዕ አባ ገሪማ (ይስሐቅ) ዘመደራ | አባ ለትጹን ዐቢይ ወየዋሕ | አባ ዸላሞን ፈላሲ | ቅድስት አርሴማ ጻድቅት | ሰማዕታት እለ አኮራን
+10/18 (ሰኔ 18): አባ ድምያኖስ ጻድቅ ሊቀ ዻዻሳት | ቅዱስ ኤስድሮስ ሰማዕት
+10/19 (ሰኔ 19): ቅዱስ ጊዮርጊስ ሐዲስ ሰማዕት | አባ ብሶይ አኖብ ሰማዕት (በአንበሳ ጀርባ ላይ የተቀመጠ አባት) | ቅዱሳን "፭ቱ" ጭፍሮች (በብዙ ስቃይ ሰማዕት የሆኑ ባልንጀሮች) | አባቶቻችን የደብረ ቁዋዐት ጻድቃን
+10/20 (ሰኔ 20): እመቤታችን ቅድስት ድንግል ማርያም | ቅድስት ቤተ ክርስቲያን | ቅዱሳን ሐዋርያት | ቅዱስ ኤልሳዕ ነቢይ (ዕረፍቱ)
+10/21 (ሰኔ 21): እመቤታችን ቅድስት ድንግል ማርያም | ቅድስት ቤተ ክርስቲያን | ቅዱሳን ሐዋርያት | ቅዱስ ጴጥሮስ ሊቀ ሐዋርያት | ቅዱሳን ጳውሎስና በርናባስ | ቅዱስ ቶማስ ሐዋርያ | ቅዱስ ባስልዮስ ዘቂሣርያ | ቅዱስ ጢሞቴዎስ ዘምስር (ሰማዕት) | አባ ከላድያኖስ ሊቀ ጳጳሳት
+10/22 (ሰኔ 22): ቅዱስ አባ ጳውሊ የዋሕ | ቅዱሳን ወክቡራን ቆዝሞስና ድምያኖስ (ሰማዕታት) | ቅድስት ቴዎዳዳ ሰማዕት (እናታቸው) | አንቲቆስ ዮንዲኖስና አብራንዮስ (ሰማዕታት)
+10/23 (ሰኔ 23): ነቢየ ጽድቅ ቅዱስ ሰሎሞን (ንጉሠ እሥራኤል) | ቅዱስ አባ ኖብ (ሰማዕት ወጻድቅ) | ቅዱሳን መርቆሬዎስ ፊልዾስና ቶማስ (ሰማዕታት)
+10/24 (ሰኔ 24): ቅዱስ አባ ሙሴ ጸሊም (ኢትዮጵያዊ) | "፯ቱ" ቅዱሳን መነኮሳት (ደቀ መዛሙርቱ) | አባ ኤስድሮስ ታላቁ
+10/25 (ሰኔ 25): ቅዱስ ይሁዳ ሐዋርያ (ከ፯፪ቱ አርድእት) | ሰማዕቱ ጲላጦስ መስፍን | ቅድስት አብሮቅላ (ሚስቱ) | አባ ጴጥሮስ ሊቀ ጳጳሳት | የጸደይ መውጫ / የክረምት መግቢያ
+10/26 (ሰኔ 26): ቅዱስ ኢያሱ ነቢይ ወመስፍን | ቅዱስ ገብርኤል ሊቀ መላእክት (ቅዳሴ ቤቱ)
+10/27 (ሰኔ 27): ቅዱስ ሐናንያ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ ቶማስ ሰማዕት (ዘሰንደላት) | ቅዱስ አልዓዛር ነዳይ (በነዌ ደጅ የወደቀ ቀጥሎ ደግሞ ‪‎በአብርሃም‬ እቅፍ ውስጥ የተገኘ ጻድቅ- ሉቃ | ፲፮ ፥፲፱)‬‬‬ | ቅዱስ ማማስ
+10/28 (ሰኔ 28): አባ ቴዎዶስዮስ ሊቀ ዻዻሳት | ቅዱስ ያዕቆብ ዘእልበረዳይ | ቅዱስ ባስልዮስ | ቅዱስ ባሊዲስ
+10/29 (ሰኔ 29): ቅዱስ ማርቆስ ንጉሠ ሮም (ጻድቅ ንጹሕና ገዳማዊ) | ቅዱስ ቴዎድሮስ ጻድቅ (ንጉሠ ኢትዮዽያ) | ቅዱስ ዓምደ ሚካኤል ኢትዮዽያዊ (ፍልሠቱ) | "፯ቱ" ቅዱሳን መስተጋድላን (አባ አብሲዳ አባ ኮቶሎስ አባ አርድማ አባ ኒኮላስ አባ ሙሴ አባ እሴይ አባ ብሶይ) | ቅዱሳን አባ ሖር አባ ብሶይ አባ ሖርሳና እናታቸው ቅድስት ይድራ (ሰማዕታት)
+10/30 (ሰኔ 30): ቅዱስ ዮሐንስ መጥምቀ መለኮት (ልደቱ) | ቅዱሳን ዘካርያስና ኤልሳቤጥ (ወላጆቹ) | አባ ጌራን መስተጋድል (ሕንዳዊ) | ቅዱሳት ደናግል ማርያና ማርታ (ከ፫፮ቱ ቅዱሳት አንስት-የአልዓዛር እህቶች)
+11/ 1 (ሐምሌ  1): ቅዱስ አግናጥዮስ ሐዋርያዊ ሰማዕት | አበው ቅዱሳን ብዮክና ብንያሚን | ቅድስት ቅፍሮንያ (ሰማዕት ወጻድቅት) | ቅዱስ ቶማስ ሐዋርያ | አቡነ ገብረ መድኅን ጻድቅ | አባ ክልዮስ ዘሮሜ
+11/ 2 (ሐምሌ  2): ቅዱስ ታዴዎስ ሐዋርያ (ከ፲፪ቱ ሐዋርያት)
+11/ 3 (ሐምሌ  3): ቅዱስ ቄርሎስ ሊቅ (ዓምደ ሃይማኖት) | ቅዱስ ክልስቲያኖስ ዘሮሜ (ታላቅ ጻድቅ ሊቀ ዻዻሳት) | አባ ሉቅያስ ኤዺስ ቆዾስ
+11/ 4 (ሐምሌ  4): "፲፪ቱ" ቅዱሳን ደቂቀ ነቢያት | ቅዱስ ሶፎንያስ ነቢይ (ዕረፍቱ) | ቅዱሳን ሰማዕታት አቡቂርና ዮሐንስ (ቅዳሴ ቤታቸው)
+11/ 5 (ሐምሌ  5): ቅዱስ ዼጥሮስ ሊቀ ሐዋርያት | ቅዱስ ዻውሎስ ብርሃነ ዓለም | ቅዱሳን ፯፪ቱ አርድእት (ዛሬ ሁሉም ይታሠባሉ) | ቅዱስ ሳቁኤል ሊቀ መላእክት | ቅድስት መስቀል ክብራ (የቅዱስ ላሊበላ ሚስት) | ቅዱሳን ዘደብረ ዓሣ | ቅዱሳት አንስት (ዴውርስ፣ ቃርያ፣ አቅባማ፣ አቅረባንያና አክስቲያና-የቅዱስ ዼጥሮስ ተከታዮች)
+11/ 6 (ሐምሌ  6): ቅዱስ መርቄሎስ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ ዕዝራ ነቢይ | ቅዱስ በርተሎሜዎስ ሐዋርያ | ቅድስት ቴዎዳስያ ሰማዕት | ቅድስት ንስተሮኒን ዘኢየሩሳሌም
+11/ 7 (ሐምሌ  7): ቅዱሳን አብርሃምና ሣራ ( ሥላሴ ን ያስተናገዱ) | ብሥራተ ልደተ ይስሐቅ | ታላቁ አባ ሲኖዳ (የባሕታውያን ሁሉ አለቃ) | አባ ጊዮርጊስ ዘጋስጫ (ሊቀ ሊቃውንት ኢትዮዽያዊ የሃይማኖት ምሰሶ) | ቅዱስ አግናጥዮስ ዘአንጾኪያ (ምጥው ለአንበሳ) | አባ መቃቢስ | አባ አግራጥስ
+11/ 8 (ሐምሌ  8): አቡነ ኪሮስ ጻድቅ (አረጋዊና ገዳማዊ) | አባ ብሶይ ጻድቅ (ኮከበ ገዳም) | አባ ሚሳኤል ነዳይ (ጻድቅ) | አባ ቢማ ሰማዕት | አባ በላኒ ሰማዕት | ቅዱሳን አቤሮንና አቶም (ሰማዕታት)
+11/ 9 (ሐምሌ  9): አባ ኅልያን ገዳማዊ | ቅዱስ ቴዎድሮስ ሰማዕት (ዘሐምስቱ አሕጉር) | ቅዱስ ታውድሮስ ሰማዕት | ሰማዕታት ሉክዮስና ድግናንዮስ (በንስሃ ለክብር የበቁ የጦር አለቆች)
+11/10 (ሐምሌ 10): ቅዱስ ናትናኤል ሐዋርያ (ቀናተኛው ስምዖን) | ታላቁ አባ ብስንዳ ጻድቅ | አባ ከላድያኖስ ሊቀ ዻዻሳት
+11/11 (ሐምሌ 11): ቅዱስ አባ ዮሐንስ (ሰማዕት ወጻድቅ) | ቅዱስ ስምዖን (ደቀ መዝሙሩ) | አባ ኢሳይያስ ዘገዳመ አስቄጥስ | አባ ገብርኤል ሊቀ ዻዻሳት
+11/12 (ሐምሌ 12): ቅዱስ ሕዝቅያስ ንጉሥ | ቅዱስ ኢሳይያስ ልዑለ ቃል | ቅዱስ አባ ሖር ሰማዕት
+11/13 (ሐምሌ 13): ቅዱስ ብስንድዮስ ሊቅ ወጻድቅ | ቅዱስ አሞን ሰማዕት (ዘሃገረ ጡህ)
+11/14 (ሐምሌ 14): ቅዱስ አብሮኮሮንዮስ ሰማዕት | ቅዱሳን ክርስቶፎሮስና ቴዎዳስያ (ወላጆቹ) | ታላቁ ቅዱስ መቃርስ (የመነኮሳት አለቃ) | ቅዱስ አሞንዮስ
+11/15 (ሐምሌ 15): ቅዱስ ማር ኤፍሬም ሶርያዊ (አፈ በረከት) | ብርሃናተ ዓለም ቅዱሳን ሐዋርያት ዼጥሮስ ወዻውሎስ | አባ ሐርዮንና ደቀ መዛሙርቱ (ሰማዕታት) | አባ ፍሬምናጦስ መስተጋድል
+11/16 (ሐምሌ 16): ቅዱስ አባ ዮሐንስ ጻድቅ (ወንጌሉ ዘወርቅ)
+11/17 (ሐምሌ 17): ቅዱስ ዮናስ ነቢይ (ከአሣ አንበሪ ሆድ የወጣበት) | ቅድስት አውፎምያ (ጻድቅትና ሰማዕት) | ቅዱስ ዮስጦስ ሰማዕት (ታላቁ) | ቅዱስ ዘካርያስ
+11/18 (ሐምሌ 18): ቅዱስ ያዕቆብ ሐዋርያ (ከ፯፪ቱ አርድእት-የመጀመሪያው የኢየሩሳሌም ሊቀ ዻዻሳት) | ቅዱስ አትናቴዎስ ሰማዕት | ቅዱስ እንድራኒቆስ ሰማዕት | "፱,000" ሰማዕታት (የቅዱስ ኤስድሮስ ማሕበር)
+11/19 (ሐምሌ 19): ቅዱስ ገብርኤል ሊቀ መላእክት | ቅዱስ ቂርቆስ ወእሙ ኢየሉጣ | ቅዱስ በጥላን ጠቢብ ሰማዕት እና ማሕበሩ | ቅዱሳን ሰማዕታተ እስና
+11/20 (ሐምሌ 20): በዓታ ለእግዝእትነ ማርያም (በ፰0 ዕለት) | ቅዱስ ወክቡር ማር ቴዎድሮስ ሰማዕት (የሠራዊት አለቃ) | ቅዱስ ጢሞቴዎስ ዘእስክንድርያ
+11/21 (ሐምሌ 21): ቅድስት ድንግል እግዝእትነ ማርያም ወላዲተ አምላክ | ቅዱስ ዑራኤል ሊቀ መላእክት | አቡነ በጸሎተ ሚካኤል ጻድቅ (ኢትዮዽያዊ) | ቅዱስ ላዕከ ማርያም ሔር (ኢትዮዽያዊ) | አቡነ ኤዎስጣቴዎስ (ኢትዮዽያዊ) ልደታቸው | ብጹዕ አወ ክርስቶስና ሚስቱ (ጻድቃን) | ቅዱስ ሱስንዮስ ጻድቅ | ቅዱስ ዮራኖስ መኮንን (የ100 አለቃው)
+11/22 (ሐምሌ 22): አቡነ ዼጥሮስ ሰማዕት (ኢትዮዽያዊ) | ቅዱስ መቃርስ ሰማዕት (የፋሲለደስ ልጅ) | ቅዱስ ለውንትዮስ (ክቡር ሰማዕት) | አባ እንጦንስ አበ መነኮሳት (ቅዳሴ ቤታቸው) | ቅዱስ መርካሎስ
+11/23 (ሐምሌ 23): ቅድስት መሪና እናታችን (ታላቁዋ ሰማዕት) | ቅዱስ ለንጊኖስ ሐራ (ሐዋርያና ሰማዕት) | ቅዱስ አብጥልማዎስ
+11/24 (ሐምሌ 24): አቡነ ዘዮሐንስ ጻድቅ ዘክብራን (ኢትዮዽያዊ) | ቅዱስ አባ ኖብ ሰማዕት | "፲፱0,000" ሰማዕታት (የአባ ኖብ ማሕበር) | አባ ተክለ አዶናይ ዘደብረ ሊባኖስ | አቡነ ተወልደ መድኅን (ኢትዮዽያዊ) | አባ ስምዖን ጻድቅ ሊቀ ዻዻሳት | ቅድስት ክብራ (መስቀል ክብራ) ዘእንጦንስ ኢየሱስ
+11/25 (ሐምሌ 25): ቅዱስ መርቆሬዎስ ሰማዕት (ቅዳሴ ቤቱ) | ቅዱስ ኄኖክ ነቢይ (ዕርገቱ) | ቅድስት ቴክላ ሐዋርያዊት | ቅዱስ አበከረዙን ታላቁ (ጻድቅና ሰማዕት) | ቅዱስ ዱማድዮስ ሶርያዊ (ጻድቅና ሰማዕት) | ቅድስት ኢላርያ ሰማዕት | ቅዱሳት ቴክላ ወሙጊ ሰማዕታት | ቅዱስ እንዲኒና ሰማዕት | አባ ይስሐቅ ሰማዕት | አባ ሕጻን ሞዐ ዘደብረ ሊባኖስ | "25,000" ሰማዕታት (የአትሪብ /ግብፅ/ ሰዎች)
+11/26 (ሐምሌ 26): ቅዱስ አቡነ ሰላማ ከሣቴ ብርሃን | ቅዱስ ዮሴፍ አረጋዊ (የ ድንግል ማርያም ጠባቂ) | ቅዱስ አባ ጢሞቴዎስ (ዘአልቦ ጥሪት) | አባ ሮዲስ
+11/27 (ሐምሌ 27): ቅዱስ ሴት ነቢይ (ወልደ አዳም) | ቅዱስ ሕዝቅኤል ነቢይ | ቅዱስ ዮሐንስ ወንጌላዊ (ቅዳሴ ቤቱ) | ቅዱስ አሞን ሰማዕት
+11/28 (ሐምሌ 28): ቅዱሳን ጻድቃን እንድራኒቆስና አትናስያ | አቡነ ፊልዾስ ጻድቅ (ዘደብረ ሊባኖስ)
+11/29 (ሐምሌ 29): ቅዱስ ታዴዎስ ሐዋርያ (ፍልሠቱ) | ቅዱስ ዋርስኖፋ ሰማዕት | እጨጌ አባ ዮሐንስ (ዘጐንድ)
+11/30 (ሐምሌ 30): ቅዱስ እንድርያስ ሐዋርያ | ቅዱስ ዻውሎስ መናኒ (ከቤተሰቡ ጋር) | ቅዱስ ሱርያል (እሥራልዩ) ሊቀ መላእክት | ቅዱሳን መርቆሬዎስና ኤፍሬም (ሰማዕታት) | ቅዱስ ጢሞቴዎስ ዘአልቦ ጥሪት (ፍልሠቱ) | እናታችን ማርያም ክብራ ኢትዮዽያዊት (የዐፄ ናዖድ ሚስት)
+12/ 1 (ነሐሴ  1): በአተ ጾመ ፍልሠታ | አበው ሐዋርያት ዮሴፍና ኒቆዲሞስ | ቅዱስ አቦሊ ሰማዕት | ታላቁ ቅዱስ ዸላሞን ገዳማዊ | ቅድስት ሐና (የእመ ብርሃን እናት) | ቅድስት ሐና ነቢይት (ወለተ ፋኑኤል) | ደናግል ቅዱሳት (የንግስት ሶፍያ ልጆች)
+12/ 2 (ነሐሴ  2): ቅድስት አትናስያ ቡርክት | ቅድስት ኢዮዸራቅስያ ድንግል | ቅዱስ ዴሚና ሰማዕት
+12/ 3 (ነሐሴ  3): ታላቁ አባ ስምዖን ዘዓምድ | ቅድስት ሶፍያ ቡርክትና ደናግል ልጆቿ
+12/ 4 (ነሐሴ  4): ቅዱስ ሕዝቅያስ ጻድቅ (ንጉሠ ይሁዳ) | አባ ማቴዎስ ገዳማዊ | ቅዱስ ዳዊት ሰማዕት
+12/ 5 (ነሐሴ  5): ቅዱስ አባ አብርሃም ገዳማዊ | ቅድስት ማርያ እህቱ | ቅዱስ ዮሐንስ ጻድቅ | አባ ፊልዾስ ዘደብረ ቢዘን
+12/ 6 (ነሐሴ  6): ቅድስት ማርያም መግደላዊት (ከ፫፮ቱ ቅዱሳት አንስት) | ቅድስት ኢየሉጣ ሰማዕት (ዘቂሣርያ) | አባ ዊጻ (የታላቁ ሲኖዳ ደቀ መዝሙር)
+12/ 7 (ነሐሴ  7): በዓለ ጽንሰታ ለእግዝእትነ ማርያም | ቅዱሳን ኢያቄም ወሐና | ቅዱስ ገብርኤል መበሥር | ቅዱስ ዼጥሮስ ሊቀ ሐዋርያት | አፄ ናዖድ ጻድቅ (ንጉሠ ኢትዮዽያ) | ቅዱስ ዮሴፍ ጻድቅ (ወልደ ያዕቆብ-ልደቱ) | አባ ጢሞቴዎስ ሊቀ ዻዻሳት
+12/ 8 (ነሐሴ  8): ቅዱስ አልዓዛር ካህን (ሰማዕት) | ቅድስት ሰሎሜ ሰማዕት (ሚስቱ) | "፯ቱ" ቅዱሳን ሰማዕታት (ልጆቹ) | ቅዱስ አሞን ሰማዕት
+12/ 9 (ነሐሴ  9): ቅዱስ አባ ኦሪ ቀሲስ (ሰማዕት) | አባ ዺላጦስ ሊቀ ዻዻሳት
+12/10 (ነሐሴ 10): ቅዱስ አባ ዓቢየ እግዚእ ኢትዮዽያዊ (ተአምራትን ያደረጉበት) | ቅዱስ መጥራ ሰማዕት | ቅዱስ ሐርስጥፎሮስ ሰማዕት | "፴፼" ሰማዕታት (የሐርስጥፎሮስ ማሕበር) | ቅዱሳን ቢካቦስና ዮሐንስ (ሰማዕታት)
+12/11 (ነሐሴ 11): ቅዱስ አባ ሞይስስ | ቅዱስ አብጥልማዎስ | "34" ሰማዕታት (የቅዱስ ፋሲለደስ ማሕበር)
+12/12 (ነሐሴ 12): ታላቁ ቅዱስ ቆስጠንጢኖስ (ጻድቅ ንጉሥ) | ቅዱስ ዕፀ መስቀል
+12/13 (ነሐሴ 13): ደብረ ታቦር / ደብረ ምሥጢር / ደብረ በረከት | ቅዱስ ሙሴ ሊቀ ነቢያት (ልደቱ) | ቅዱስ ኤልያስ ነቢይ | ቅዱሳን አበው ሐዋርያት | አባ ጋልዮን መስተጋድል | አቡነ ዓቢየ እግዚእ ጻድቅ (ልደታቸው) | ቅድስት ኦፍራ ሰማዕት
+12/14 (ነሐሴ 14): ቅዱስ መስቀለ ክርስቶስ | ጻድቃን ቅዱሳን (አባ ስምዖንና አባ ዮሐንስ) | ቅዱስ ባስሊቆስ (ኃያል ሰማዕት) | ቅዱስ ድምጥያና ደቀ መዛሙርቱ (ሰማዕታት)
+12/15 (ነሐሴ 15): ቅድስት እንባ መሪና ገዳማዊት | ቅድስት ክርስጢና ሰማዕት | ቅዱስ ለውረንዮስ ሰማዕት | ፴፻ ሰማዕታት (የቅድስት ክርስቲና ማሕበር) | አበው ቅዱሳን ሐዋርያት (ወላዲተ አምላክን ለመገነዝ በዚህ ዕለት ተሠብስበዋል)
+12/16 (ነሐሴ 16): ቅድስት ድንግል እግዝእትነ ማርያም (ፍልሠቷ ትንሳኤዋና ዕርገቷ) | ቅዱሳን ሐዋርያት | ቅዱስ ጊዮርጊስ ሊቀ ሰማዕታት (ፍልሠቱ) | ቅዱስ ጊጋር ሶርያዊ (ሰማዕት)
+12/17 (ነሐሴ 17): ተዝካረ ፍልሠታ ለማርያም ድንግል | ቅዱስ እንጣዎስ አሞራዊ (ሰማዕት) | ቅዱስ ያዕቆብ ግብጻዊ (ሰማዕት) | ቅዱስ አክራጥስ ሰማዕት | አባ እለእስክንድሮስ ዘቁስጥንጥንያ
+12/18 (ነሐሴ 18): ተዝካረ ፍልሠታ ለማርያም ድንግል (፫ኛ ቀን) | ቅዱስ እለእስክንድሮስ ሊቅ | ቅዱስ እንድራኒቆስ ዲያቆን | አባ ዘ ክርስቶስ ዘወሎ (ኢትዮዽያዊ ጻድቅ)
+12/19 (ነሐሴ 19): ተዝካረ ፍልሠታ ለማርያም ድንግል (፬ኛ ቀን) | ታላቁ ቅዱስ መቃርስ (ፍልሠቱ) | አባታችን ቅዱስ አብርሃም (ጣዖቱን የሰበረበት) | ቅዱስ ፊንሐን ካህን (ወልደ አልዓዛር)
+12/20 (ነሐሴ 20): ተዝካረ ፍልሠታ ለማርያም ድንግል (፭ኛ ቀን) | ቅዱሳን ፯ቱ ደቂቅ | አቡነ ሰላማ ካልዕ (መተርጉም) | ቅድስት ሔዛዊ
+12/21 (ነሐሴ 21): ተዝካረ ፍልሠታ ለማርያም ድንግል (፮ኛ ቀን) | ቅድስት ኄራኒ ሐዋርያዊት (ሰማዕት) | ቡርክት ንግሥተ ሳባ (ልደቷ) | ቅድስት ዕሌኒ ንግሥት (ልደቷ)
+12/22 (ነሐሴ 22): ቅዱስ ሚክያስ ነቢይ
+12/23 (ነሐሴ 23): "30,000" የእስክንድርያ (ግብጽ) ሰማዕታት | ቅዱስ ድምያኖስ ሰማዕት
+12/24 (ነሐሴ 24): ቅዱስ አቡነ ተክለ ሃይማኖት (መምሕረ ትሩፋት) | ቅድስት ክርስቶስ ሠምራ (ጻድቅት) | ቅዱስ ቶማስ ዘመርዐስ | አበው አብርሃም ይስሐቅና ያዕቆብ
+12/25 (ነሐሴ 25): ቅዱስ እንድርያኖስ ሰማዕት | "፳፬ቱ" ሰማዕታት (ማሕበሩ) | ቅድስት ኤልያና (ሚስቱ) | ታላቁ አባ ቢጻርዮን ገዳማዊ | ቅዱስ ኤልያኖስና እህቱ አውዶክስያ (ሰማዕታት)
+12/26 (ነሐሴ 26): ብጽዕት ሣራ (የአብርሃም ሚስት) | ቅዱሳን አባ ሞይስስና እህቱ ሣራ (ሰማዕታት) | ቅዱሳን አጋቦስና ቴክላ (ሰማዕታት)
+12/27 (ነሐሴ 27): "፲፪ቱ" ደቂቀ ያዕቆብ (እሥራኤል) | ቅዱስ ሳሙኤል ነቢይ (የተጠራበት) | ቅዱስ ሱርያል ሊቀ መላእክት | ቅዱስ ብንያሚንና እህቱ አውዶከስያ (ሰማዕታት) | ቅዱስ ፊቅጦርና እናቱ ሣራ | አባ ባስልዮስ ፓትርያርክ ዘኢትዮዽያ (የተሾሙበት)
+12/28 (ነሐሴ 28): ቅዱስ አብርሃም (የአባቶች አለቃ) | ቅዱስ ይስሐቅ (የአባቶች አለቃ) | ቅዱስ ያዕቆብ (የአባቶች አለቃ)
+12/29 (ነሐሴ 29): ቅዱስ አባ ዮሐንስ ሐጺር (ፍልሠቱ) | ቅዱስ አትናቴዎስ ሰማዕት | ቅዱሳን ገርሲሞስና ቴዎዶጦስ (ሰማዕታት) | አባ ባስልዮስ ጻድቅ (ዘትግራይ)
+12/30 (ነሐሴ 30): ቅዱስ እንድርያስ ሐዋርያ | ቅዱስ ሚልክያስ ነቢይ | አባ ሙሴ ዘሃገረ ፈርማ
+13/ 1 (ጳጉሜን  1): ቅዱስ ዮሐንስ መጥምቅ (የታሠረበት) | ቅዱስ ዑቲኮስ ሐዋርያ (ከ፯፪ቱ አርድእት) | ቅዱስ ብሶይ ቀሲስ (ሰማዕት) | አባ ዻኩሚስ / ባኹም (የ፫,000 ቅዱሳን አባት) | አባ ሰራብዮን / ሰራፕዮን (የ፲,000 ቅዱሳን አባት)
+13/ 2 (ጳጉሜን  2): ቅዱስ ቲቶ ሐዋርያ (ከ፯፪ቱ አርድእት)
+13/ 3 (ጳጉሜን  3): ርኅወተ ሰማይ (የሰማይ መከፈት) | ቅዱስ ሩፋኤል ሊቀ መላእክት | ቅዱስ መልከ ጼዴቅ ካህን | አፄ ዘርዓያ ዕቆብ ንጉሥ (የእመቤታችን ወዳጅ) | ቅዱስ ሰራዽዮን ዘሰንዱን | ቅዱስ አኖሬዎስ | ቅዱስ ቴዎፍሎስ | አባ ዮሐንስ | ቅዱስ ጦቢት | ቅዱሳን ጦብያና ሣራ
+13/ 4 (ጳጉሜን  4): ቅዱስ አባ ባይሞን (ዼሜን) | "፮ቱ" ወንድሞቹ (አብርሃም ያዕቆብ ዮሴፍ ኢዮብ ላስልዮስና ዮሐንስ) | ቅዱስ ሊባርዮስ ሊቅ
+13/ 5 (ጳጉሜን  5): ታላቁ አባ በርሶማ | ቅዱስ አሞጽ ነቢይ | ቅዱስ ያዕቆብ ዘምስር | አባ መግደር ( እግዚአብሔር በጸሎቱ ይማረን)
+13/ 6 (ጳጉሜን  6): (No annual feast listed)

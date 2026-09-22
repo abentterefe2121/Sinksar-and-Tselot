@@ -1,0 +1,239 @@
+INSPECT PRIORITY FIXES (Read-Only)
+Generated: 2026-09-22T08:35:10
+Target DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+1. GZ-MEL-041 (Fasiledes) current rows (12):
+   GZ-MEL-041 | month 1, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 2, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 3, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 4, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 5, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 6, day 11 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-041 | month 7, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 8, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 9, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 10, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 11, day 11 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-041 | month 12, day 11 | is_annual=0 | notes=MONTHLY
+
+2. GZ-MEL-008 (Suryal) current rows (12):
+   GZ-MEL-008 | month 1, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 2, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 3, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 4, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 5, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 6, day 27 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-008 | month 7, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 8, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 9, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 10, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 11, day 27 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-008 | month 12, day 27 | is_annual=0 | notes=MONTHLY
+
+3. GZ-MEL-135 (Ewostatewos) current rows (1):
+   GZ-MEL-135 | month 1, day 18 | is_annual=1 | notes=ANNUAL
+
+4. Status of books flagged by Detector B (134 rows):
+   AM-GDL-005 | month 1, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   AM-GDL-005 | month 2, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 3, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 4, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 5, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 6, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 7, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 8, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 9, day 12 | is_annual=1 | notes=ANNUAL
+   AM-GDL-005 | month 9, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 10, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 11, day 24 | is_annual=0 | notes=MONTHLY
+   AM-GDL-005 | month 12, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   AM-GDL-008 | month 1, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 1, day 29 | is_annual=1 | notes=ANNUAL
+   AM-GDL-008 | month 2, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 3, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 4, day 6 | is_annual=1 | notes=ANNUAL+MONTHLY
+   AM-GDL-008 | month 5, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 6, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 7, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 8, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 9, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 10, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 10, day 17 | is_annual=1 | notes=ANNUAL
+   AM-GDL-008 | month 11, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 12, day 6 | is_annual=0 | notes=MONTHLY
+   AM-GDL-008 | month 13, day 6 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 1, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 2, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 3, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 4, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 5, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 5, day 20 | is_annual=1 | notes=ANNUAL
+   AM-MEL-021 | month 6, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 7, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 8, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 9, day 7 | is_annual=1 | notes=ANNUAL
+   AM-MEL-021 | month 9, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 10, day 16 | is_annual=0 | notes=MONTHLY
+   AM-MEL-021 | month 11, day 16 | is_annual=1 | notes=ANNUAL+MONTHLY
+   AM-MEL-021 | month 12, day 16 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 1, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-GDL-019 | month 2, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 3, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 4, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 5, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 6, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 7, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 8, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 9, day 12 | is_annual=1 | notes=ANNUAL
+   GZ-GDL-019 | month 9, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 10, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 11, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-019 | month 12, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-GDL-023 | month 9, day 29 | is_annual=1 | notes=ANNUAL
+   GZ-GDL-033 | month 1, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 1, day 29 | is_annual=1 | notes=ANNUAL
+   GZ-GDL-033 | month 2, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 3, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 4, day 6 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-GDL-033 | month 5, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 6, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 7, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 8, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 9, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 10, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 10, day 17 | is_annual=1 | notes=ANNUAL
+   GZ-GDL-033 | month 11, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 12, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-GDL-033 | month 13, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 1, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 2, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 3, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 4, day 19 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-014 | month 4, day 22 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-014 | month 5, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 6, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 7, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 7, day 30 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-014 | month 8, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 9, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 10, day 13 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-014 | month 10, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-014 | month 10, day 26 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-014 | month 11, day 19 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-014 | month 12, day 7 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-014 | month 12, day 19 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-038 | month 4, day 18 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-038 | month 11, day 26 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-042 | month 1, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 1, day 29 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-042 | month 2, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 3, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 4, day 6 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-042 | month 5, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 6, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 7, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 8, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 9, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 10, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 10, day 17 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-042 | month 11, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 12, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-042 | month 13, day 6 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 1, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 2, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 2, day 29 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-084 | month 3, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 4, day 12 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-084 | month 4, day 23 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-084 | month 5, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 6, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 7, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 8, day 12 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-084 | month 9, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 10, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 11, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-084 | month 12, day 12 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 1, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-143 | month 2, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 3, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 4, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 5, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 6, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 7, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 8, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 9, day 12 | is_annual=1 | notes=ANNUAL
+   GZ-MEL-143 | month 9, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 10, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 11, day 24 | is_annual=0 | notes=MONTHLY
+   GZ-MEL-143 | month 12, day 24 | is_annual=1 | notes=ANNUAL+MONTHLY
+   GZ-MEL-153 | month 2, day 14 | is_annual=1 | notes=ANNUAL
+   GZ-ZNA-002 | month 7, day 27 | is_annual=1 | notes=ANNUAL
+
+5. Pagumen (Month 13) purely MONTHLY rows: 54 rows across 50 books
+   Total rows in Month 13: 65
+   Month 13 / Day 1 | AM-DRS-001 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | AM-DRS-010 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | AM-MEL-014 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | AM-MEL-044 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | AM-MEL-048 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 1 | GZ-DRS-003 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-DRS-007 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MEL-007 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MEL-020 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MEL-022 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MEL-057 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MEL-060 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 1 | GZ-MEL-133 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 1 | GZ-MTS-001 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 2 | AM-MEL-033 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 2 | AM-MEL-048 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 2 | GZ-MEL-055 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 2 | GZ-MEL-060 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | AM-DRS-001 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | AM-MEL-043 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 3 | AM-MEL-053 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | AM-MEL-062 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | AM-MEL-068 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 3 | GZ-DRS-007 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-DRS-009 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 3 | GZ-MEL-006 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 3 | GZ-MEL-015 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-018 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-022 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-074 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-075 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 3 | GZ-MEL-078 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-106 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 3 | GZ-MEL-133 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | AM-GDL-013 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | AM-MEL-016 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | AM-MEL-046 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | AM-MEL-047 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | GZ-MEL-061 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | GZ-MEL-062 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | GZ-MEL-137 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | GZ-MEL-149 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 4 | GZ-MEL-150 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | AM-GDL-007 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | AM-GDL-028 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | GZ-GDL-024 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | GZ-MEL-128 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | GZ-MEL-151 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | GZ-MEL-152 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 5 | GZ-TSE-007 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | AM-DRS-005 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | AM-DRS-010 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 6 | AM-GDL-008 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | AM-GDL-019 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | AM-MEL-014 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 6 | AM-MEL-023 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | AM-MEL-052 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-DRS-003 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 6 | GZ-GDL-033 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-MEL-007 | is_annual=1 | notes=ANNUAL
+   Month 13 / Day 6 | GZ-MEL-042 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-MEL-045 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-MEL-059 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-MEL-127 | is_annual=0 | notes=MONTHLY
+   Month 13 / Day 6 | GZ-MEL-134 | is_annual=0 | notes=MONTHLY
+

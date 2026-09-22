@@ -1,0 +1,305 @@
+INSERT VERIFIED MAPPINGS REPORT
+Generated: 2026-09-21T13:25:03
+Insert key: book_id only
+Locked book_id count: 81
+
+PARSE / EXPANSION BY book_id
+  GZ-GDL-025 | annual=4/27 | monthly=- | rows=1
+  AM-GDL-006 | annual=4/27 | monthly=- | rows=1
+  GZ-GDL-027 | annual=4/5,6/13,8/27 | monthly=27 | rows=14
+  AM-GDL-029 | annual=4/5,6/13,8/27 | monthly=27 | rows=14
+  GZ-MEL-162 | annual=4/5,6/13,8/27 | monthly=27 | rows=14
+  AM-GDL-024 | annual=2/25,8/15 | monthly=25 | rows=13
+  AM-MEL-003 | annual=2/25,8/15 | monthly=25 | rows=13
+  GZ-MEL-095 | annual=2/25,8/15 | monthly=25 | rows=13
+  GZ-MEL-144 | annual=2/25,8/15 | monthly=25 | rows=13
+  AM-MEL-059 | annual=2/25,8/15 | monthly=25 | rows=13
+  AM-DRS-005 | annual=4/1,5/6,12/13 | monthly=6 | rows=15
+  GZ-MEL-134 | annual=4/1,5/6,12/13 | monthly=6 | rows=15
+  GZ-MEL-059 | annual=4/1,5/6,12/13 | monthly=6 | rows=15
+  AM-MEL-052 | annual=4/1,5/6,12/13 | monthly=6 | rows=15
+  GZ-MEL-060 | annual=1/1,1/2,1/26,5/11,6/30,8/15,10/2,10/30,13/1 | monthly=2,30 | rows=30
+  AM-MEL-048 | annual=1/1,1/2,1/26,5/11,6/30,8/15,10/2,10/30,13/1 | monthly=2,30 | rows=30
+  GZ-MEL-018 | annual=5/3 | monthly=3 | rows=13
+  GZ-MEL-074 | annual=5/3 | monthly=3 | rows=13
+  AM-MEL-053 | annual=5/3 | monthly=3 | rows=13
+  GZ-MEL-091 | annual=7/10 | monthly=- | rows=1
+  AM-MEL-056 | annual=7/10 | monthly=- | rows=1
+  GZ-MEL-096 | annual=4/19,6/19 | monthly=- | rows=2
+  AM-MEL-060 | annual=4/19,6/19 | monthly=- | rows=2
+  GZ-MEL-098 | annual=11/7,12/28 | monthly=- | rows=2
+  AM-MEL-063 | annual=11/7,12/28 | monthly=- | rows=2
+  GZ-MEL-075 | annual=9/4,13/3 | monthly=9 | rows=14
+  AM-MEL-068 | annual=9/4,13/3 | monthly=9 | rows=14
+  GZ-GDL-010 | annual=6/10,11/17 | monthly=- | rows=2
+  GZ-MEL-063 | annual=6/10,11/17 | monthly=- | rows=2
+  GZ-GDL-011 | annual=11/28 | monthly=- | rows=1
+  GZ-MEL-118 | annual=11/28 | monthly=- | rows=1
+  GZ-GDL-020 | annual=4/22 | monthly=- | rows=1
+  GZ-MEL-117 | annual=4/22 | monthly=- | rows=1
+  GZ-GDL-028 | annual=3/6 | monthly=- | rows=1
+  GZ-MEL-114 | annual=3/6 | monthly=- | rows=1
+  GZ-GDL-029 | annual=9/19 | monthly=19 | rows=12
+  GZ-MEL-111 | annual=9/19 | monthly=19 | rows=12
+  GZ-DRS-002 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  AM-DRS-008 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  GZ-DRS-007 | annual=1/7,1/12,4/3,4/13,8/7,9/1,12/1,12/7,3/11 | monthly=1,3,11 | rows=43
+  AM-DRS-001 | annual=1/7,1/12,4/3,4/13,8/7,9/1,12/1,12/7,3/11 | monthly=1,3,11 | rows=43
+  GZ-MEL-051 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  AM-MEL-012 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  GZ-MEL-050 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  AM-MEL-040 | annual=1/10,1/17,1/18,1/19,1/25,3/8,7/10,7/27,8/21,12/12 | monthly=10 | rows=20
+  GZ-MEL-021 | annual=5/11,9/11 | monthly=11 | rows=12
+  AM-MEL-019 | annual=5/11,9/11 | monthly=11 | rows=12
+  GZ-MEL-049 | annual=4/14,5/20 | monthly=- | rows=2
+  AM-MEL-039 | annual=4/14,5/20 | monthly=- | rows=2
+  GZ-MEL-104 | annual=11/29 | monthly=- | rows=1
+  AM-MEL-020 | annual=11/29 | monthly=- | rows=1
+  GZ-MEL-101 | annual=9/29 | monthly=- | rows=1
+  AM-MEL-024 | annual=9/29 | monthly=- | rows=1
+  GZ-MEL-022 | annual=1/7,1/12,4/3,4/13,8/7,9/1,12/1,12/7,3/11 | monthly=1,3,11 | rows=43
+  GZ-MEL-133 | annual=1/7,1/12,4/3,4/13,8/7,9/1,12/1,12/7,3/11 | monthly=1,3,11 | rows=43
+  AM-GDL-026 | annual=3/26 | monthly=26 | rows=12
+  GZ-MEL-130 | annual=3/26 | monthly=26 | rows=12
+  GZ-MIK-001 | annual=9/12 | monthly=- | rows=1
+  GZ-MIK-002 | annual=9/12 | monthly=- | rows=1
+  AM-GDL-022 | annual=2/27 | monthly=27 | rows=12
+  AM-GOL-001 | annual=- | monthly=21 | rows=12
+  GZ-GDL-013 | annual=4/24 | monthly=- | rows=1
+  GZ-GDL-017 | annual=3/27 | monthly=- | rows=1
+  GZ-GDL-023 | annual=9/29 | monthly=- | rows=1
+  GZ-MEL-010 | annual=3/8 | monthly=- | rows=1
+  GZ-MEL-025 | annual=11/25 | monthly=- | rows=1
+  GZ-MEL-045 | annual=3/6 | monthly=6 | rows=13
+  GZ-MEL-058 | annual=2/26,4/24,11/1,11/7 | monthly=7 | rows=15
+  GZ-MEL-071 | annual=3/1,3/3 | monthly=- | rows=2
+  GZ-MEL-082 | annual=5/20 | monthly=- | rows=1
+  GZ-MEL-084 | annual=2/29,4/12,4/23,8/12 | monthly=12 | rows=14
+  GZ-MEL-087 | annual=3/24 | monthly=- | rows=1
+  GZ-MEL-088 | annual=12/14 | monthly=- | rows=1
+  GZ-MEL-089 | annual=4/1,9/9 | monthly=- | rows=2
+  GZ-MEL-097 | annual=3/22,10/22 | monthly=- | rows=2
+  GZ-MEL-112 | annual=12/16 | monthly=- | rows=1
+  GZ-MEL-116 | annual=3/29 | monthly=- | rows=1
+  GZ-MEL-122 | annual=1/18,3/7,6/5,7/9,10/19,10/23,11/24 | monthly=- | rows=7
+  GZ-MEL-145 | annual=9/19,12/10,12/13 | monthly=19 | rows=14
+  GZ-MEL-160 | annual=4/29 | monthly=- | rows=1
+  GZ-TSE-007 | annual=4/1,6/9,10/21,11/5,12/7 | monthly=5 | rows=17
+TOTAL EXPANDED ROWS: 811
+
+book_calendar_mappings before: 811
+book_calendar_mappings after : 811
+inserted rows: 811
+
+ROW COUNT PER book_id
+  PASS GZ-GDL-025: 1/1
+  PASS AM-GDL-006: 1/1
+  PASS GZ-GDL-027: 14/14
+  PASS AM-GDL-029: 14/14
+  PASS GZ-MEL-162: 14/14
+  PASS AM-GDL-024: 13/13
+  PASS AM-MEL-003: 13/13
+  PASS GZ-MEL-095: 13/13
+  PASS GZ-MEL-144: 13/13
+  PASS AM-MEL-059: 13/13
+  PASS AM-DRS-005: 15/15
+  PASS GZ-MEL-134: 15/15
+  PASS GZ-MEL-059: 15/15
+  PASS AM-MEL-052: 15/15
+  PASS GZ-MEL-060: 30/30
+  PASS AM-MEL-048: 30/30
+  PASS GZ-MEL-018: 13/13
+  PASS GZ-MEL-074: 13/13
+  PASS AM-MEL-053: 13/13
+  PASS GZ-MEL-091: 1/1
+  PASS AM-MEL-056: 1/1
+  PASS GZ-MEL-096: 2/2
+  PASS AM-MEL-060: 2/2
+  PASS GZ-MEL-098: 2/2
+  PASS AM-MEL-063: 2/2
+  PASS GZ-MEL-075: 14/14
+  PASS AM-MEL-068: 14/14
+  PASS GZ-GDL-010: 2/2
+  PASS GZ-MEL-063: 2/2
+  PASS GZ-GDL-011: 1/1
+  PASS GZ-MEL-118: 1/1
+  PASS GZ-GDL-020: 1/1
+  PASS GZ-MEL-117: 1/1
+  PASS GZ-GDL-028: 1/1
+  PASS GZ-MEL-114: 1/1
+  PASS GZ-GDL-029: 12/12
+  PASS GZ-MEL-111: 12/12
+  PASS GZ-DRS-002: 20/20
+  PASS AM-DRS-008: 20/20
+  PASS GZ-DRS-007: 43/43
+  PASS AM-DRS-001: 43/43
+  PASS GZ-MEL-051: 20/20
+  PASS AM-MEL-012: 20/20
+  PASS GZ-MEL-050: 20/20
+  PASS AM-MEL-040: 20/20
+  PASS GZ-MEL-021: 12/12
+  PASS AM-MEL-019: 12/12
+  PASS GZ-MEL-049: 2/2
+  PASS AM-MEL-039: 2/2
+  PASS GZ-MEL-104: 1/1
+  PASS AM-MEL-020: 1/1
+  PASS GZ-MEL-101: 1/1
+  PASS AM-MEL-024: 1/1
+  PASS GZ-MEL-022: 43/43
+  PASS GZ-MEL-133: 43/43
+  PASS AM-GDL-026: 12/12
+  PASS GZ-MEL-130: 12/12
+  PASS GZ-MIK-001: 1/1
+  PASS GZ-MIK-002: 1/1
+  PASS AM-GDL-022: 12/12
+  PASS AM-GOL-001: 12/12
+  PASS GZ-GDL-013: 1/1
+  PASS GZ-GDL-017: 1/1
+  PASS GZ-GDL-023: 1/1
+  PASS GZ-MEL-010: 1/1
+  PASS GZ-MEL-025: 1/1
+  PASS GZ-MEL-045: 13/13
+  PASS GZ-MEL-058: 15/15
+  PASS GZ-MEL-071: 2/2
+  PASS GZ-MEL-082: 1/1
+  PASS GZ-MEL-084: 14/14
+  PASS GZ-MEL-087: 1/1
+  PASS GZ-MEL-088: 1/1
+  PASS GZ-MEL-089: 2/2
+  PASS GZ-MEL-097: 2/2
+  PASS GZ-MEL-112: 1/1
+  PASS GZ-MEL-116: 1/1
+  PASS GZ-MEL-122: 7/7
+  PASS GZ-MEL-145: 14/14
+  PASS GZ-MEL-160: 1/1
+  PASS GZ-TSE-007: 17/17
+
+LOOKUP TESTS (date -> book_id must include)
+  PASS 4/27 required=['GZ-GDL-025', 'AM-GDL-006'] found=['AM-GDL-006', 'AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-025', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 4/5 required=['GZ-GDL-027', 'AM-GDL-029', 'GZ-MEL-162'] found=['AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162', 'GZ-TSE-007']
+  PASS 6/13 required=['GZ-GDL-027', 'AM-GDL-029', 'GZ-MEL-162'] found=['AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 8/27 required=['GZ-GDL-027', 'AM-GDL-029', 'GZ-MEL-162'] found=['AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 1/27 required=['GZ-GDL-027', 'AM-GDL-029', 'GZ-MEL-162'] found=['AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 2/25 required=['AM-GDL-024', 'AM-MEL-003', 'GZ-MEL-095', 'GZ-MEL-144', 'AM-MEL-059'] found=['AM-GDL-024', 'AM-MEL-003', 'AM-MEL-059', 'GZ-MEL-095', 'GZ-MEL-144']
+  PASS 8/15 required=['AM-GDL-024', 'AM-MEL-003', 'GZ-MEL-095', 'GZ-MEL-144', 'AM-MEL-059'] found=['AM-GDL-024', 'AM-MEL-003', 'AM-MEL-048', 'AM-MEL-059', 'GZ-MEL-060', 'GZ-MEL-095', 'GZ-MEL-144']
+  PASS 1/25 required=['AM-GDL-024', 'AM-MEL-003', 'GZ-MEL-095', 'GZ-MEL-144', 'AM-MEL-059'] found=['AM-DRS-008', 'AM-GDL-024', 'AM-MEL-003', 'AM-MEL-012', 'AM-MEL-040', 'AM-MEL-059', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-095', 'GZ-MEL-144']
+  PASS 4/1 required=['AM-DRS-005', 'GZ-MEL-134', 'GZ-MEL-059', 'AM-MEL-052'] found=['AM-DRS-001', 'AM-DRS-005', 'AM-MEL-052', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-059', 'GZ-MEL-089', 'GZ-MEL-133', 'GZ-MEL-134', 'GZ-TSE-007']
+  PASS 5/6 required=['AM-DRS-005', 'GZ-MEL-134', 'GZ-MEL-059', 'AM-MEL-052'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-MEL-045', 'GZ-MEL-059', 'GZ-MEL-134']
+  PASS 12/13 required=['AM-DRS-005', 'GZ-MEL-134', 'GZ-MEL-059', 'AM-MEL-052'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-MEL-059', 'GZ-MEL-134', 'GZ-MEL-145']
+  PASS 1/6 required=['AM-DRS-005', 'GZ-MEL-134', 'GZ-MEL-059', 'AM-MEL-052'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-MEL-045', 'GZ-MEL-059', 'GZ-MEL-134']
+  PASS 1/2 required=['GZ-MEL-060', 'AM-MEL-048'] found=['AM-MEL-048', 'GZ-MEL-060']
+  PASS 6/30 required=['GZ-MEL-060', 'AM-MEL-048'] found=['AM-MEL-048', 'GZ-MEL-060']
+  PASS 1/1 required=['GZ-MEL-060', 'AM-MEL-048'] found=['AM-DRS-001', 'AM-MEL-048', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-060', 'GZ-MEL-133']
+  PASS 13/1 required=['GZ-MEL-060', 'AM-MEL-048'] found=['AM-DRS-001', 'AM-MEL-048', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-060', 'GZ-MEL-133']
+  PASS 5/3 required=['GZ-MEL-018', 'GZ-MEL-074', 'AM-MEL-053'] found=['AM-DRS-001', 'AM-MEL-053', 'GZ-DRS-007', 'GZ-MEL-018', 'GZ-MEL-022', 'GZ-MEL-074', 'GZ-MEL-133']
+  PASS 2/3 required=['GZ-MEL-018', 'GZ-MEL-074', 'AM-MEL-053'] found=['AM-DRS-001', 'AM-MEL-053', 'GZ-DRS-007', 'GZ-MEL-018', 'GZ-MEL-022', 'GZ-MEL-074', 'GZ-MEL-133']
+  PASS 7/10 required=['GZ-MEL-091', 'AM-MEL-056'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'AM-MEL-056', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-091']
+  PASS 4/19 required=['GZ-MEL-096', 'AM-MEL-060'] found=['AM-MEL-060', 'GZ-GDL-029', 'GZ-MEL-096', 'GZ-MEL-111', 'GZ-MEL-145']
+  PASS 6/19 required=['GZ-MEL-096', 'AM-MEL-060'] found=['AM-MEL-060', 'GZ-GDL-029', 'GZ-MEL-096', 'GZ-MEL-111', 'GZ-MEL-145']
+  PASS 11/7 required=['GZ-MEL-098', 'AM-MEL-063'] found=['AM-MEL-063', 'GZ-MEL-058', 'GZ-MEL-098']
+  PASS 12/28 required=['GZ-MEL-098', 'AM-MEL-063'] found=['AM-MEL-063', 'GZ-MEL-098']
+  PASS 9/4 required=['GZ-MEL-075', 'AM-MEL-068'] found=['AM-MEL-068', 'GZ-MEL-075']
+  PASS 13/3 required=['GZ-MEL-075', 'AM-MEL-068'] found=['AM-DRS-001', 'AM-MEL-053', 'AM-MEL-068', 'GZ-DRS-007', 'GZ-MEL-018', 'GZ-MEL-022', 'GZ-MEL-074', 'GZ-MEL-075', 'GZ-MEL-133']
+  PASS 5/9 required=['GZ-MEL-075', 'AM-MEL-068'] found=['AM-MEL-068', 'GZ-MEL-075']
+  PASS 4/9 required=['GZ-MEL-075', 'AM-MEL-068'] found=['AM-MEL-068', 'GZ-MEL-075']
+  PASS 6/10 required=['GZ-GDL-010', 'GZ-MEL-063'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-GDL-010', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-063']
+  PASS 11/17 required=['GZ-GDL-010', 'GZ-MEL-063'] found=['GZ-GDL-010', 'GZ-MEL-063']
+  PASS 11/28 required=['GZ-GDL-011', 'GZ-MEL-118'] found=['GZ-GDL-011', 'GZ-MEL-118']
+  PASS 4/22 required=['GZ-GDL-020', 'GZ-MEL-117'] found=['GZ-GDL-020', 'GZ-MEL-117']
+  PASS 3/6 required=['GZ-GDL-028', 'GZ-MEL-114', 'GZ-MEL-045'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-GDL-028', 'GZ-MEL-045', 'GZ-MEL-059', 'GZ-MEL-114', 'GZ-MEL-134']
+  PASS 9/19 required=['GZ-GDL-029', 'GZ-MEL-111'] found=['GZ-GDL-029', 'GZ-MEL-111', 'GZ-MEL-145']
+  PASS 1/19 required=['GZ-GDL-029', 'GZ-MEL-111'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-GDL-029', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-111', 'GZ-MEL-145']
+  PASS 1/10 required=['GZ-DRS-002', 'AM-DRS-008', 'GZ-MEL-051', 'AM-MEL-012', 'GZ-MEL-050', 'AM-MEL-040'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051']
+  PASS 1/17 required=['GZ-DRS-002', 'AM-DRS-008', 'GZ-MEL-051', 'AM-MEL-012', 'GZ-MEL-050', 'AM-MEL-040'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051']
+  PASS 7/10 required=['GZ-DRS-002', 'AM-DRS-008', 'GZ-MEL-051', 'AM-MEL-012', 'GZ-MEL-050', 'AM-MEL-040'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'AM-MEL-056', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-091']
+  PASS 1/7 required=['GZ-DRS-007', 'AM-DRS-001', 'GZ-MEL-022', 'GZ-MEL-133'] found=['AM-DRS-001', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-058', 'GZ-MEL-133']
+  PASS 12/7 required=['GZ-DRS-007', 'AM-DRS-001', 'GZ-MEL-022', 'GZ-MEL-133'] found=['AM-DRS-001', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-058', 'GZ-MEL-133', 'GZ-TSE-007']
+  PASS 3/11 required=['GZ-DRS-007', 'AM-DRS-001', 'GZ-MEL-022', 'GZ-MEL-133'] found=['AM-DRS-001', 'AM-MEL-019', 'GZ-DRS-007', 'GZ-MEL-021', 'GZ-MEL-022', 'GZ-MEL-133']
+  PASS 9/11 required=['GZ-MEL-021', 'AM-MEL-019'] found=['AM-DRS-001', 'AM-MEL-019', 'GZ-DRS-007', 'GZ-MEL-021', 'GZ-MEL-022', 'GZ-MEL-133']
+  PASS 5/11 required=['GZ-MEL-021', 'AM-MEL-019'] found=['AM-DRS-001', 'AM-MEL-019', 'AM-MEL-048', 'GZ-DRS-007', 'GZ-MEL-021', 'GZ-MEL-022', 'GZ-MEL-060', 'GZ-MEL-133']
+  PASS 1/11 required=['GZ-MEL-021', 'AM-MEL-019'] found=['AM-DRS-001', 'AM-MEL-019', 'GZ-DRS-007', 'GZ-MEL-021', 'GZ-MEL-022', 'GZ-MEL-133']
+  PASS 4/14 required=['GZ-MEL-049', 'AM-MEL-039'] found=['AM-MEL-039', 'GZ-MEL-049']
+  PASS 5/20 required=['GZ-MEL-049', 'AM-MEL-039', 'GZ-MEL-082'] found=['AM-MEL-039', 'GZ-MEL-049', 'GZ-MEL-082']
+  PASS 11/29 required=['GZ-MEL-104', 'AM-MEL-020'] found=['AM-MEL-020', 'GZ-MEL-104']
+  PASS 9/29 required=['GZ-MEL-101', 'AM-MEL-024', 'GZ-GDL-023'] found=['AM-MEL-024', 'GZ-GDL-023', 'GZ-MEL-101']
+  PASS 3/26 required=['AM-GDL-026', 'GZ-MEL-130'] found=['AM-GDL-026', 'GZ-MEL-130']
+  PASS 1/26 required=['AM-GDL-026', 'GZ-MEL-130'] found=['AM-GDL-026', 'AM-MEL-048', 'GZ-MEL-060', 'GZ-MEL-130']
+  PASS 9/12 required=['GZ-MIK-001', 'GZ-MIK-002'] found=['GZ-MEL-084', 'GZ-MIK-001', 'GZ-MIK-002']
+  PASS 2/27 required=['AM-GDL-022'] found=['AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 10/21 required=['AM-GOL-001'] found=['AM-GOL-001', 'GZ-TSE-007']
+  PASS 7/21 required=['AM-GOL-001'] found=['AM-GOL-001']
+  PASS 4/24 required=['GZ-GDL-013', 'GZ-MEL-058'] found=['GZ-GDL-013', 'GZ-MEL-058']
+  PASS 3/27 required=['GZ-GDL-017'] found=['AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-017', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 3/8 required=['GZ-MEL-010'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-010', 'GZ-MEL-050', 'GZ-MEL-051']
+  PASS 11/25 required=['GZ-MEL-025'] found=['AM-GDL-024', 'AM-MEL-003', 'AM-MEL-059', 'GZ-MEL-025', 'GZ-MEL-095', 'GZ-MEL-144']
+  PASS 1/6 required=['GZ-MEL-045'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-MEL-045', 'GZ-MEL-059', 'GZ-MEL-134']
+  PASS 11/1 required=['GZ-MEL-058'] found=['AM-DRS-001', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-058', 'GZ-MEL-133']
+  PASS 11/7 required=['GZ-MEL-058'] found=['AM-MEL-063', 'GZ-MEL-058', 'GZ-MEL-098']
+  PASS 3/1 required=['GZ-MEL-071'] found=['AM-DRS-001', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-071', 'GZ-MEL-133']
+  PASS 3/3 required=['GZ-MEL-071'] found=['AM-DRS-001', 'AM-MEL-053', 'GZ-DRS-007', 'GZ-MEL-018', 'GZ-MEL-022', 'GZ-MEL-071', 'GZ-MEL-074', 'GZ-MEL-133']
+  PASS 4/12 required=['GZ-MEL-084'] found=['GZ-MEL-084']
+  PASS 1/12 required=['GZ-MEL-084'] found=['AM-DRS-001', 'GZ-DRS-007', 'GZ-MEL-022', 'GZ-MEL-084', 'GZ-MEL-133']
+  PASS 3/24 required=['GZ-MEL-087'] found=['GZ-MEL-087']
+  PASS 12/14 required=['GZ-MEL-088'] found=['GZ-MEL-088']
+  PASS 9/9 required=['GZ-MEL-089'] found=['AM-MEL-068', 'GZ-MEL-075', 'GZ-MEL-089']
+  PASS 3/22 required=['GZ-MEL-097'] found=['GZ-MEL-097']
+  PASS 10/22 required=['GZ-MEL-097'] found=['GZ-MEL-097']
+  PASS 12/16 required=['GZ-MEL-112'] found=['GZ-MEL-112']
+  PASS 3/29 required=['GZ-MEL-116'] found=['GZ-MEL-116']
+  PASS 1/18 required=['GZ-MEL-122'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-122']
+  PASS 11/24 required=['GZ-MEL-122'] found=['GZ-MEL-122']
+  PASS 12/10 required=['GZ-MEL-145'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051', 'GZ-MEL-145']
+  PASS 4/29 required=['GZ-MEL-160'] found=['GZ-MEL-160']
+  PASS 11/5 required=['GZ-TSE-007'] found=['GZ-TSE-007']
+  PASS 1/5 required=['GZ-TSE-007'] found=['GZ-TSE-007']
+
+ABSENT TESTS (date must NOT contain book_id)
+  PASS 5/27 forbidden=['GZ-GDL-025', 'AM-GDL-006'] found=['AM-GDL-022', 'AM-GDL-029', 'GZ-GDL-027', 'GZ-MEL-162']
+  PASS 12/5 forbidden=['GZ-GDL-020', 'GZ-MEL-117'] found=['GZ-TSE-007']
+  PASS 8/10 forbidden=['GZ-MEL-091', 'AM-MEL-056'] found=['AM-DRS-008', 'AM-MEL-012', 'AM-MEL-040', 'GZ-DRS-002', 'GZ-MEL-050', 'GZ-MEL-051']
+  PASS 9/3 forbidden=['GZ-MEL-075', 'AM-MEL-068'] found=['AM-DRS-001', 'AM-MEL-053', 'GZ-DRS-007', 'GZ-MEL-018', 'GZ-MEL-022', 'GZ-MEL-074', 'GZ-MEL-133']
+  PASS 1/4 forbidden=['GZ-MEL-075', 'AM-MEL-068'] found=[]
+  PASS 12/5 forbidden=['GZ-GDL-011', 'GZ-MEL-118'] found=['GZ-TSE-007']
+  PASS 5/29 forbidden=['GZ-MEL-104', 'AM-MEL-020'] found=[]
+  PASS 3/12 forbidden=['GZ-MIK-001', 'GZ-MIK-002'] found=['GZ-MEL-084']
+  PASS 13/21 forbidden=['AM-GOL-001'] found=[]
+  PASS 2/6 forbidden=['GZ-GDL-028', 'GZ-MEL-114'] found=['AM-DRS-005', 'AM-MEL-052', 'GZ-MEL-045', 'GZ-MEL-059', 'GZ-MEL-134']
+  PASS 5/19 forbidden=['GZ-MEL-096', 'AM-MEL-060'] found=['GZ-GDL-029', 'GZ-MEL-111', 'GZ-MEL-145']
+  PASS 12/29 forbidden=['GZ-MEL-160'] found=[]
+  PASS 9/5 forbidden=['GZ-MEL-075', 'AM-MEL-068'] found=['GZ-TSE-007']
+  PASS 7/22 forbidden=['AM-GOL-001'] found=[]
+
+IS_ANNUAL FLAG TESTS
+  PASS GZ-GDL-025 4/27 is_annual=1 expected=1
+  PASS GZ-GDL-027 8/27 is_annual=1 expected=1
+  PASS GZ-GDL-027 1/27 is_annual=0 expected=0
+  PASS GZ-GDL-027 4/5 is_annual=1 expected=1
+  PASS AM-GDL-024 2/25 is_annual=1 expected=1
+  PASS AM-GDL-024 1/25 is_annual=0 expected=0
+  PASS AM-GDL-024 8/15 is_annual=1 expected=1
+  PASS AM-DRS-005 5/6 is_annual=1 expected=1
+  PASS AM-DRS-005 1/6 is_annual=0 expected=0
+  PASS AM-DRS-005 12/13 is_annual=1 expected=1
+  PASS GZ-MEL-018 5/3 is_annual=1 expected=1
+  PASS GZ-MEL-018 1/3 is_annual=0 expected=0
+  PASS AM-GOL-001 10/21 is_annual=0 expected=0
+  PASS GZ-MEL-021 9/11 is_annual=1 expected=1
+  PASS GZ-MEL-021 1/11 is_annual=0 expected=0
+  PASS AM-GDL-006 4/27 is_annual=1 expected=1
+  PASS GZ-MEL-160 4/29 is_annual=1 expected=1
+  PASS GZ-MEL-075 4/9 is_annual=0 expected=0
+  PASS AM-GOL-001 7/21 is_annual=0 expected=0
+
+calendar_day_id mismatches: 0
+books: 415
+commemorations: 0
+book_seasonal_mappings: 0
+PRAGMA integrity_check: ok
+
+Expanded CSV: C:\Android Project Collection\analyze\New folder\for analysis\expanded_mappings_by_id.csv
+Working copy updated: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+RESULT: PASS
+81 book_id values mapped.
+811 calendar rows inserted.
+Lookup tests passed. Absent tests passed. is_annual tests passed.

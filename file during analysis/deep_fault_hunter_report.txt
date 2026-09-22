@@ -1,0 +1,155 @@
+====================================================================================================
+DEEP FAULT & LITURGICAL ANOMALY HUNTER REPORT
+Generated: 2026-09-22T09:06:36
+App DB:    C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+Sinksar:   C:\Android Project Collection\analyze\New folder\sinksar_calendar (2).db
+====================================================================================================
+
+====================================================================================================
+SECTION 1: THE ST. ARSEMA (ቅድስት አርሴማ) LITURGICAL AUDIT
+====================================================================================================
+Found 3 Arsema books in App DB:
+  - [GZ-MEL-042] መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ (MEL, GZ)
+  - [AM-GDL-008] ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ (GDL, AM)
+  - [GZ-GDL-033] ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ (GDL, GZ)
+
+Mappings for [GZ-MEL-042] 'መልክዐ ሰማዕት ቅድስት አርሴማ በግእዝ': Total=14
+   Day 6: covers 12/12 months -> Months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | Notes: {'ANNUAL+MONTHLY', 'MONTHLY'}
+   Day 29: covers 1/12 months -> Months: [1] | Notes: {'ANNUAL'}
+   >>> Note: Day 29 mapping is present for 1 month(s): [1]
+   Day 17: covers 1/12 months -> Months: [10] | Notes: {'ANNUAL'}
+
+Mappings for [AM-GDL-008] 'ገድለ ሰማዕት ቅድስት አርሴማ በአማርኛ': Total=14
+   Day 6: covers 12/12 months -> Months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | Notes: {'ANNUAL+MONTHLY', 'MONTHLY'}
+   Day 29: covers 1/12 months -> Months: [1] | Notes: {'ANNUAL'}
+   >>> Note: Day 29 mapping is present for 1 month(s): [1]
+   Day 17: covers 1/12 months -> Months: [10] | Notes: {'ANNUAL'}
+
+Mappings for [GZ-GDL-033] 'ገድለ ሰማዕት ቅድስት አርሴማ በግእዝ': Total=14
+   Day 6: covers 12/12 months -> Months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] | Notes: {'ANNUAL+MONTHLY', 'MONTHLY'}
+   Day 29: covers 1/12 months -> Months: [1] | Notes: {'ANNUAL'}
+   >>> Note: Day 29 mapping is present for 1 month(s): [1]
+   Day 17: covers 1/12 months -> Months: [10] | Notes: {'ANNUAL'}
+
+Sinksar commemorations on Day 6 across months:
+   Month 1 (መስከረም) Day 6: Sinksar has 14 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 2 (ጥቅምት) Day 6: Sinksar has 19 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 3 (ኅዳር) Day 6: Sinksar has 13 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 4 (ታኅሣሥ) Day 6: Sinksar has 5 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 5 (ጥር) Day 6: Sinksar has 13 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 6 (የካቲት) Day 6: Sinksar has 14 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 7 (መጋቢት) Day 6: Sinksar has 16 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 8 (ሚያዝያ) Day 6: Sinksar has 14 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 9 (ግንቦት) Day 6: Sinksar has 17 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 10 (ሰኔ) Day 6: Sinksar has 13 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 11 (ሐምሌ) Day 6: Sinksar has 15 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 12 (ነሐሴ) Day 6: Sinksar has 13 commemorations. Arsema mention: ['ቅድስት አርሴማ ድንግል']
+   Month 13 (ጳጉሜን) Day 6: Sinksar has 0 commemorations. Arsema mention: None
+
+====================================================================================================
+SECTION 2: FORENSIC INSPECTION OF BOOK GZ-MEL-009 ('መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ')
+====================================================================================================
+Metadata for GZ-MEL-009: ('GZ-MEL-009', 'መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ', 'መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ', None, 'MALAKT', 'ሚካኤል')
+Chapters for GZ-MEL-009: [('GZ-MEL-009-C01', 1, 'መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል')]
+First 5 content blocks of GZ-MEL-009:
+   Seq 1 | Verse None: መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል
+   Seq 2 | Verse 1: ሰላም ለዝክረ ስምከ ምስለ ስመ ልዑል ዘተሳተፈ። ወልደ ያሬድ ሄኖክ በከመ ጸሐፈ። ሶበ እጼውዕ ስመከ ከሲትየ አፈ። ረዳኤ ምንዳባን ሚካኤል በከመ ታለምድ ዘልፈ ለረዲኦትየ ነዓ ሰፊሐከ ክንፈ።
+   Seq 3 | Verse 2: ሰላም ለስእርተ ርእስከ ዘኢይጤየቅ ግዕዛ። ሚካኤል ሳውዕ አጽንሐሔ ሠናይ ፄና መዓዛ። በፂሐከ ግብተ ለነፍስየ አመ ትካዛ። ለልበ ዚአየ በትንባሌከ ናዝዛ። እንበለ ጊዜ በላህ ኢይርሳእ ወሬዛ።
+   Seq 4 | Verse 3: ሰላም ለርእስከ ዘይትገለበብ መብረቀ። ሚካኤል ዘኮንከ ዲበ ሐራ ሰማይ ሊቀ። ኪያከ ረሰይኩ እምነ ትንታኔ ሰዋቀ። ከመ ታርኢ በላዕሌየ አድኅኖተከ ጥዩቀ። ቅሩብ የማንየ ሀሉ ወኢትቁም ርኁቀ።
+   Seq 5 | Verse 4: ሰላም ለገጽከ እምነፋስ ወነድ ዘተሥዕለ። ምስለ ማይ ወመሬት ዘኢተሐወለ። ሚካኤል ኀቤከ ሶበ አወትር ስኢለ። ከመ ይትከደኑ አዕዋመ ሊባኖስ ቆጽለ። ተረፈ ሕይወትየ ክድን ወአሠርጕ ሣህለ።
+Calendar mappings for GZ-MEL-009: [(1, 12, 0, 'CALENDAR', 'MONTHLY'), (2, 12, 0, 'CALENDAR', 'MONTHLY'), (3, 12, 1, 'CALENDAR', 'ANNUAL+MONTHLY'), (4, 12, 0, 'CALENDAR', 'MONTHLY'), (5, 12, 1, 'CALENDAR', 'ANNUAL+MONTHLY'), (6, 12, 0, 'CALENDAR', 'MONTHLY'), (7, 12, 0, 'CALENDAR', 'MONTHLY'), (8, 12, 0, 'CALENDAR', 'MONTHLY'), (9, 12, 0, 'CALENDAR', 'MONTHLY'), (10, 12, 1, 'CALENDAR', 'ANNUAL+MONTHLY'), (11, 12, 1, 'CALENDAR', 'ANNUAL+MONTHLY'), (12, 12, 0, 'CALENDAR', 'MONTHLY')]
+
+====================================================================================================
+SECTION 3: FORENSIC TEXT INSPECTION OF THE 10 UNMAPPED BOOKS
+====================================================================================================
+
+[AM-KID-001] 'መዓዛ ቅዳሴ በአማርኛ' (TSE, AM) | Subj: AMLAK/ቅዳሴ | Chapters: 1
+   Sample text: 1 አባ ጊዮርጊስ ዘጋስጫ አምላክን ስለ ወለደች ስለ እመቤታችን ድንግል ማርያም በመንፈስ ቅዱስ የደረሰው ምስጋና ይህ ነው። ልመናዋ ክብሯ የልጇ ቸርነት ከሁላችንም ጋር ይሁን ለዘለዓለሙ አሜን...
+
+[AM-MEN-001] 'መንገደ ሰማይ በአማርኛ' (TSE, AM) | Subj: AMLAK/መንገደሰማይ | Chapters: 1
+   Sample text: የክርስቲያን መንገድ የክፉ ሰው ሞትና ሥቃይ...
+
+[AM-SBT-001] 'የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት' (TSE, AM) | Subj: HAYMANOT/ሰባት | Chapters: 1
+   Sample text: የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት...
+
+[GZ-DRS-006] 'ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ' (DRS, GZ) | Subj: TSADQAN/ፊሳልጎስ | Chapters: 1
+   Sample text: ደርሳን ዘብፁዕ ፊሳልጎስ ዘደረሶ በእንተ አራዊት ወአዕዋፍ ከመቦ ላዕሌሆሙ ብዙኅ አምሳል ክመ ወብዙኅ ትእምርት ዘይከውን በቍዔተ ለዘያነብቦ።
+ነገር ቀዳማዊ በእንተ ዐንበሳ ንጉሠ አራዊት። ወዝ...
+
+[GZ-MEL-067] 'መልክዐ ቍርባን በግዕዝ' (MEL, GZ) | Subj: AMLAK/ቁርባን | Chapters: 1
+   Sample text: ይ. ካ ሰላም ለኪ እንዘ ንሰግድ ንብለኪ ማርያም እምነ ናስተበቍዓኪ እምአርዌ ነዓዊ ተማኅፀነ ብኪ በእንተ ሐና እምኪ ወ ኢያቄም አቡኪ ማኅበረነ ዮም ድንግል ባርኪ።...
+
+[GZ-MTS-002] 'መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ' (MTS, GZ) | Subj: TSADQAN/ጽድቅ | Chapters: 1
+   Sample text: በስመ አብ ወወልድ ወመንፈስ ቅዱስ ፩ አምላክ ፨
+ጸሎት በእመድኃኒት መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ ዘጸሐፈ አብ በእደዊሁ እምቅድመ ይትወለድ ክርስቶስ እምቅድስት ድንግል ማርያም እንተ ...
+
+[GZ-TBB-001] 'ጥበበ ሰሎሞን በግእዝ' (TBB, GZ) | Subj: TSADQAN/ሰሎሞን | Chapters: 1
+   Sample text: ክፍል ፩።
+አፍቅርዋ ለጽድቅ መኳንንተ ምድር፤ ኀልዩ በእንተ እግዚአብሔር ሠናየ፤ ወበፍሥሓ ልብክሙ ኅሥዎ። እስመ ይትረከብ ለእለ ኢያሜክርዎ፤ ወያስተርኢ ለእለ ኢይክሕድዎ። እስመ ጠዋይ ኅሊና ...
+
+[GZ-TUL-001] 'መጽሐፈ ቱላዳን በግእዝ' (MET, GZ) | Subj: AMLAK/ቱላዳን | Chapters: 7
+   Sample text: ቱላዳን ዘሰኑይ...
+
+[GZ-ZNA-001] 'ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ' (ZNA, GZ) | Subj: TSADQAN/በካፋ | Chapters: 2
+   Sample text: እግዚአብሔር ዘይሤለስ ወይትወሐድ። ኦ አምላክ ዘለዓለም ቀዳማይ ወደኃራይ ዘስውር አንተ እምነ ኵሉ ወክሡት ለከ ኵሉ። ወአመ ፈጠርከ ዓለመ አልቦ ዘረድአከ እስመ ከሀሊ አንተ። ወኢኮንከ ከመ ብ...
+
+[GZ-ZNA-003] 'ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ' (ZNA, GZ) | Subj: TSADQAN/ላልይበላ | Chapters: 15
+   Sample text: ክፍል ፩...
+   >>> Sinksar entries for Lalibela: [(1, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (1, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (2, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (2, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (3, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (4, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (4, 29, 'annual', 'ቅዱስ ላሊበላ (ልደቱ)'), (6, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ'), (6, 16, 'annual', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (7, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (7, 29, 'annual', 'ቅዱስ ላሊበላ (ጽንሰቱ)'), (8, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅዱስ ላሊበላ ወንድም)'), (9, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (10, 12, 'annual', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (10, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮጵያ (የቅዱስ ላሊበላ ወንድም)'), (11, 5, 'annual', 'ቅድስት መስቀል ክብራ (የቅዱስ ላሊበላ ሚስት)'), (11, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (11, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (12, 12, 'monthly', 'ቅዱስ ላሊበላ ጻድቅ (ንጉሠ ኢትዮዽያ)'), (12, 16, 'monthly', 'ቅዱስ ገብረ ማርያም ጻድቅ ንጉሠ ኢትዮዽያ (የቅ/ላሊበላ ወንድም)'), (12, 29, 'monthly', 'ቅዱስ ላሊበላ')]
+
+====================================================================================================
+SECTION 4: SYSTEMATIC AUDIT OF THE 17 STANDARD MONTHLY COMMEMORATION DAYS
+====================================================================================================
+Day   | Patron Saint(s)                     | Books Mapped   | Coverage (Months)    | Status
+------------------------------------------------------------------------------------------
+Day 3  | በዓታ ለማርያም / ዜና ማርቆስ                 | 24 books mapped | 13/12 months         | GAPS DETECTED
+Day 5  | አቡነ ገብረ መንፈስ ቅዱስ / ጴጥሮስ ወጳውሎስ       | 27 books mapped | 12/12 months         | OK
+Day 6  | ቅድስት አርሴማ / ደብረ ቁስቋም                | 30 books mapped | 13/12 months         | GAPS DETECTED
+Day 7  | ቅዱስ ሥላሴ / አባ ጊዮርጊስ ዘጋስጫ             | 37 books mapped | 12/12 months         | OK
+Day 12 | ቅዱስ ሚካኤል / ክርስቶስ ሠምራ                | 44 books mapped | 12/12 months         | OK
+Day 14 | አቡነ አረጋዊ / ገብረ ክርስቶስ                | 13 books mapped | 12/12 months         | OK
+Day 15 | ቅዱስ ቂርቆስና ኢየሉጣ                      | 25 books mapped | 12/12 months         | OK
+Day 16 | ኪዳነ ምሕረት                            | 42 books mapped | 12/12 months         | OK
+Day 17 | ቅዱስ እስጢፋኖስ                          | 20 books mapped | 12/12 months         | OK
+Day 18 | አቡነ ኤዎስጣቴዎስ / ፊልጶስ                  | 20 books mapped | 12/12 months         | OK
+Day 19 | ቅዱስ ገብርኤል                           | 30 books mapped | 12/12 months         | OK
+Day 21 | እመቤታችን ቅድስት ድንግል ማርያም               | 33 books mapped | 12/12 months         | OK
+Day 22 | ቅዱስ ዑራኤል / ደቅስዮስ                    | 19 books mapped | 12/12 months         | OK
+Day 23 | ቅዱስ ጊዮርጊስ                           | 16 books mapped | 12/12 months         | OK
+Day 24 | አቡነ ተክለ ሃይማኖት / ፳፬ቱ ካህናተ ሰማይ        | 18 books mapped | 12/12 months         | OK
+Day 27 | መድኃኔዓለም / መብዐ ጽዮን                   | 32 books mapped | 12/12 months         | OK
+Day 28 | አማኑኤል / አብርሃም ይስሐቅ ያዕቆብ             | 16 books mapped | 12/12 months         | OK
+Day 29 | በዓለ ወልድ / ልደተ ክርስቶስ                 | 39 books mapped | 12/12 months         | OK
+
+====================================================================================================
+SECTION 5: MULTI-DAY FEAST CONTINUITY (FILSETA FAST NEHASE 1-16 AUDIT)
+====================================================================================================
+  [OK] [AM-MEL-030] 'መልክዐ ፍልሰታ በአማርኛ' perfectly covers all 16 days (Nehase 1-16) ✓
+  [OK] [AM-SEL-001] 'ሰላም ለፍልሰተ ሥጋኪ በአማርኛ' perfectly covers all 16 days (Nehase 1-16) ✓
+  [OK] [GZ-SEL-001] 'ሰላም ለፍልሰተ ሥጋኪ በግእዝ' perfectly covers all 16 days (Nehase 1-16) ✓
+  [OK] [GZ-MEL-163] 'መልክዐ ፍልሰታ በግእዝ' perfectly covers all 16 days (Nehase 1-16) ✓
+
+====================================================================================================
+SECTION 6: THE is_primary_feast QUALITY AUDIT
+====================================================================================================
+Days with NO book marked as is_primary_feast=1: 3 days
+   - 13/2 (ጳጉሜን 2) has NO primary feast prayer
+   - 13/4 (ጳጉሜን 4) has NO primary feast prayer
+   - 13/5 (ጳጉሜን 5) has NO primary feast prayer
+
+Days with MULTIPLE books marked is_primary_feast=1: 354 days
+   - 12/16 (ነሐሴ 16): 34 primary books -> GZ-MEL-112,AM-LAH-001,AM-MEL-008,AM-MEL-009,AM-MEL-064,AM-RA...
+   - 9/12 (ግንቦት 12): 29 primary books -> GZ-MIK-001,GZ-MIK-002,GZ-MEL-084,AM-DRS-009,AM-MEL-006,AM-ME...
+   - 12/12 (ነሐሴ 12): 28 primary books -> GZ-DRS-002,AM-DRS-008,GZ-MEL-051,AM-MEL-012,GZ-MEL-050,AM-ME...
+   - 8/21 (ሚያዝያ 21): 27 primary books -> GZ-DRS-002,AM-DRS-008,GZ-MEL-051,AM-MEL-012,GZ-MEL-050,AM-ME...
+   - 9/1 (ግንቦት 1): 26 primary books -> GZ-DRS-007,AM-DRS-001,GZ-MEL-022,GZ-MEL-133,AM-DRS-010,AM-ME...
+   ... and 349 more days.
+
+====================================================================================================
+SECTION 7: APP INTERNAL COMMEMORATIONS TABLE AUDIT
+====================================================================================================
+App DB commemorations row count: 0
+App DB Views defined: 0
+   >>> OBSERVATION: The 'commemorations' table is completely empty (0 rows).
+       In Sinksar DB, commemorations contains 3,574 feast records.
+       If the Android App has a 'Today's Commemorations' or feast list feature, it currently gets 0 rows from this table.

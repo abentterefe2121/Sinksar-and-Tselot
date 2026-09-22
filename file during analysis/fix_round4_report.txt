@@ -1,0 +1,71 @@
+FIX ROUND 4: Title rename + Yohans day shift + Drop commemorations
+Generated: 2026-09-22T09:30:18
+Write target: WORKING COPY only
+
+ORIGINAL DB: 811 rows — untouched ✓
+
+WORKING COPY BEFORE: 3549 rows
+Current GZ-MEL-009 title: መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+Current GZ-MEL-009 title_short: መልክዐ ሊቀ መላእክት ቅዱስ በግእዝ
+GZ-MEL-107 current rows: 12
+  month 1, day 13 | is_annual=0 | MONTHLY
+  month 2, day 13 | is_annual=0 | MONTHLY
+  month 3, day 13 | is_annual=0 | MONTHLY
+  month 4, day 13 | is_annual=0 | MONTHLY
+  month 5, day 13 | is_annual=0 | MONTHLY
+  month 6, day 13 | is_annual=0 | MONTHLY
+  month 7, day 13 | is_annual=0 | MONTHLY
+  month 8, day 13 | is_annual=0 | MONTHLY
+  month 9, day 13 | is_annual=0 | MONTHLY
+  month 10, day 13 | is_annual=0 | MONTHLY
+  month 11, day 13 | is_annual=0 | MONTHLY
+  month 12, day 13 | is_annual=0 | MONTHLY
+commemorations table rows: 0
+
+PRE-STATE VALIDATION
+  GZ-MEL-107: day-13=12 rows, day-14=0 rows
+  GZ-MEL-009 title matches old: True
+  commemorations empty: True
+  All pre-state checks PASSED
+
+APPLYING FIXES
+  GZ-MEL-009 title updated ✓
+  GZ-MEL-009 title_short updated ✓
+  GZ-MEL-107: deleted 12 old rows (day 13)
+  GZ-MEL-107: inserted 12 new rows (day 14, annual at month 3) ✓
+  commemorations table dropped ✓
+
+POST-STATE VALIDATION
+  Total rows: 3549 (expected 3550)
+  GZ-MEL-009 title: መልክዐ ሊቀ መላእክት ቅዱስ ሚካኤል በግእዝ
+  GZ-MEL-107: 12 rows
+    month 1, day 14 | is_annual=0 | MONTHLY
+    month 2, day 14 | is_annual=0 | MONTHLY
+    month 3, day 14 | is_annual=1 | ANNUAL+MONTHLY
+    month 4, day 14 | is_annual=0 | MONTHLY
+    month 5, day 14 | is_annual=0 | MONTHLY
+    month 6, day 14 | is_annual=0 | MONTHLY
+    month 7, day 14 | is_annual=0 | MONTHLY
+    month 8, day 14 | is_annual=0 | MONTHLY
+    month 9, day 14 | is_annual=0 | MONTHLY
+    month 10, day 14 | is_annual=0 | MONTHLY
+    month 11, day 14 | is_annual=0 | MONTHLY
+    month 12, day 14 | is_annual=0 | MONTHLY
+  GZ-MEL-107 day-13 remaining: 0
+  Notes: {'ALWAYS': 77, 'ANNUAL': 507, 'ANNUAL+MONTHLY': 375, 'MONTHLY': 2589, 'PENTECOST': 1}
+  commemorations table exists: False
+  Integrity: ok
+  Duplicates: 0
+  Previous fix spot checks:
+    PASS GZ-MEL-041 1/11
+    PASS GZ-MEL-008 5/27
+    PASS GZ-MEL-135 1/18
+    PASS GZ-MEL-090 5/19
+    PASS AM-GDL-023 3/15
+    PASS AM-GOL-001 10/21
+    FAIL GZ-MEL-025 4/27
+  Original DB: 811 (unchanged)
+
+RESULT: FAIL
+  - Row count 3549 != 3550
+  - previous fix GZ-MEL-025 4/27: got=[]

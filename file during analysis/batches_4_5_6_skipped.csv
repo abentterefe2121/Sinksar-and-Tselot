@@ -1,0 +1,39 @@
+﻿book_id,reason,final_dates,source
+AM-DRS-002,WEEKLY_OR_DAILY,"Weekly: ቅዳሜ, እሁድ",batch4_final_decided.csv
+GZ-MEL-044,WEEKLY_OR_DAILY,"Weekly: ቅዳሜ, እሁድ",batch4_final_decided.csv
+AM-DRS-007,WEEKLY_OR_DAILY,"Weekly: ረቡዕ, አርብ",batch4_final_decided.csv
+AM-MEL-007,WEEKLY_OR_DAILY,"Weekly: ረቡዕ, አርብ",batch4_final_decided.csv
+GZ-MEL-029,WEEKLY_OR_DAILY,"Weekly: ረቡዕ, አርብ",batch4_final_decided.csv
+AM-ENZ-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-ETA-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-KOH-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-MEL-026,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-MTS-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-TEA-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-WUD-002,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ",batch5_final_decided.csv
+GZ-ENZ-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-KOH-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-MTS-003,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-TEA-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-WUD-002,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ",batch5_final_decided.csv
+TI-WUD-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ",batch5_final_decided.csv
+AM-MEL-001,WEEKLY_OR_DAILY,"ታኅሣሥ 21 / Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-MEL-004,WEEKLY_OR_DAILY,"Weekly: ረቡዕ, አርብ",batch5_final_decided.csv
+GZ-MEL-024,WEEKLY_OR_DAILY,"Weekly: ረቡዕ, አርብ",batch5_final_decided.csv
+AM-MEL-010,WEEKLY_OR_DAILY,"ሐምሌ 7 / Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-SEY-002,WEEKLY_OR_DAILY,"Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-ZNA-001,WEEKLY_OR_DAILY,"Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-MEL-035,WEEKLY_OR_DAILY,"ሐምሌ 7 / Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-SEY-002,WEEKLY_OR_DAILY,"Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+GZ-ZNA-004,WEEKLY_OR_DAILY,"Monthly Day 7 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch5_final_decided.csv
+AM-KID-001,EMPTY,,batch5_final_decided.csv
+AM-MEL-011,WEEKLY_OR_DAILY,"መስከረም 17, መጋቢት 10 / Monthly Day 10 / Weekly: ረቡዕ, አርብ",batch6_final_decided.csv
+GZ-MEL-046,WEEKLY_OR_DAILY,"መስከረም 17, መጋቢት 10 / Monthly Day 10 / Weekly: ረቡዕ, አርብ",batch6_final_decided.csv
+AM-MEL-029,MOVABLE,Movable: ጰንጠቆስጤ / Monthly Day 7,batch6_final_decided.csv
+GZ-MEL-157,MOVABLE,Movable: ጰንጠቆስጤ / Monthly Day 7,batch6_final_decided.csv
+AM-MEN-001,FUNERAL_MEMORIAL,ጸሎተ ፍትሐት (Funeral & Memorial Services),batch6_final_decided.csv
+AM-TSE-006,WEEKLY_OR_DAILY,ሚያዝያ 26 / Monthly Day 26 / Daily: ሁልጊዜ,batch6_final_decided.csv
+GZ-TSE-003,WEEKLY_OR_DAILY,ሚያዝያ 26 / Monthly Day 26 / Daily: ሁልጊዜ,batch6_final_decided.csv
+AM-WUD-003,WEEKLY_OR_DAILY,"Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch6_final_decided.csv
+TI-WUD-002,WEEKLY_OR_DAILY,"Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch6_final_decided.csv
+EN-WUD-001,WEEKLY_OR_DAILY,"Monthly Day 21 / Weekly: ሰኞ, ማክሰኞ, ረቡዕ, ሐሙስ, አርብ, ቅዳሜ, እሁድ / Daily: ሁልጊዜ",batch6_final_decided.csv

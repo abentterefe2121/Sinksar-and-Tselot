@@ -1,0 +1,220 @@
+DATABASE SCHEMA INSPECTION: C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+================================================================================
+Total tables/views found: 18
+
+[TABLE] book_calendar_mappings (Row count: 1262)
+------------------------------------------------------------
+CREATE TABLE book_calendar_mappings (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id TEXT NOT NULL,
+            calendar_day_id INTEGER,
+            ethiopian_month INTEGER,
+            ethiopian_day INTEGER,
+            is_annual INTEGER NOT NULL DEFAULT 0,
+            is_primary_feast INTEGER NOT NULL DEFAULT 1,
+            reading_cycle TEXT NOT NULL DEFAULT 'CALENDAR',
+            weekday_number INTEGER,
+            season_code TEXT,
+            app_section TEXT NOT NULL DEFAULT 'TODAYS_FEAST',
+            notes TEXT,
+            FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE,
+            FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id) ON DELETE SET NULL
+        )
+
+================================================================================
+
+[TABLE] book_seasonal_mappings (Row count: 18)
+------------------------------------------------------------
+CREATE TABLE book_seasonal_mappings (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  book_id TEXT,
+  season_code TEXT,
+  reading_order INTEGER,
+  notes TEXT,
+  FOREIGN KEY(book_id) REFERENCES books(id),
+  FOREIGN KEY(season_code) REFERENCES seasonal_periods(code)
+)
+
+================================================================================
+
+[TABLE] books (Row count: 415)
+------------------------------------------------------------
+CREATE TABLE "books" (
+    id TEXT NOT NULL PRIMARY KEY,
+    language_id TEXT NOT NULL,
+    category_id TEXT NOT NULL,
+    title TEXT NOT NULL,
+    title_short TEXT,
+    description TEXT,
+    total_chapters INTEGER NOT NULL DEFAULT 0,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    subject_category TEXT DEFAULT '' NOT NULL,
+    subject_tag TEXT DEFAULT '' NOT NULL,
+    cover_image TEXT DEFAULT '' NOT NULL, main_category_id TEXT REFERENCES main_categories(id), sub_category_id TEXT REFERENCES sub_categories(id),
+    FOREIGN KEY (language_id) REFERENCES languages(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+)
+
+================================================================================
+
+[TABLE] calendar_days (Row count: 366)
+------------------------------------------------------------
+CREATE TABLE calendar_days (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    ethiopian_month INTEGER NOT NULL,
+    day_of_month INTEGER NOT NULL,
+    UNIQUE(ethiopian_month, day_of_month),
+    FOREIGN KEY (ethiopian_month) REFERENCES ethiopian_months(id)
+)
+
+================================================================================
+
+[TABLE] categories (Row count: 19)
+------------------------------------------------------------
+CREATE TABLE categories (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT,
+    name_amharic TEXT,
+    name_geez TEXT,
+    icon_name TEXT,
+    sort_order INTEGER NOT NULL DEFAULT 0
+)
+
+================================================================================
+
+[TABLE] chapters (Row count: 2756)
+------------------------------------------------------------
+CREATE TABLE "chapters" (
+    id TEXT NOT NULL PRIMARY KEY,
+    book_id TEXT NOT NULL,
+    chapter_number INTEGER NOT NULL,
+    title TEXT,
+    description TEXT,
+    verse_count INTEGER NOT NULL DEFAULT 0,
+    block_count INTEGER NOT NULL DEFAULT 0,
+    estimated_read_minutes INTEGER NOT NULL DEFAULT 1,
+    FOREIGN KEY (book_id) REFERENCES books(id) ON DELETE CASCADE
+)
+
+================================================================================
+
+[TABLE] commemorations (Row count: 4686)
+------------------------------------------------------------
+CREATE TABLE commemorations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    calendar_day_id INTEGER NOT NULL,
+    feast_name TEXT NOT NULL,
+    sort_order INTEGER NOT NULL DEFAULT 0,
+    FOREIGN KEY (calendar_day_id) REFERENCES calendar_days(id)
+)
+
+================================================================================
+
+[TABLE] content_blocks (Row count: 90149)
+------------------------------------------------------------
+CREATE TABLE content_blocks (
+    id TEXT NOT NULL PRIMARY KEY,
+    chapter_id TEXT NOT NULL,
+    sequence INTEGER NOT NULL,
+    block_type TEXT NOT NULL,
+    indent_level INTEGER NOT NULL DEFAULT 0,
+    verse_number INTEGER,
+    verse_ethiopic TEXT,
+    text_plain TEXT NOT NULL
+)
+
+================================================================================
+
+[TABLE] cover_display_names (Row count: 121)
+------------------------------------------------------------
+CREATE TABLE cover_display_names (
+            cover_image TEXT NOT NULL PRIMARY KEY,
+            display_name TEXT NOT NULL,
+            subject_category TEXT,
+            subject_tag TEXT
+        )
+
+================================================================================
+
+[TABLE] cross_references (Row count: 2470)
+------------------------------------------------------------
+CREATE TABLE cross_references (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    origin_ref TEXT,
+    target_refs TEXT
+)
+
+================================================================================
+
+[TABLE] ethiopian_months (Row count: 13)
+------------------------------------------------------------
+CREATE TABLE ethiopian_months (
+    id INTEGER PRIMARY KEY,
+    name_geez TEXT NOT NULL,
+    name_amharic TEXT NOT NULL,
+    name_english TEXT NOT NULL
+)
+
+================================================================================
+
+[TABLE] footnotes (Row count: 306)
+------------------------------------------------------------
+CREATE TABLE footnotes (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    marker TEXT,
+    footnote_text TEXT
+)
+
+================================================================================
+
+[TABLE] languages (Row count: 5)
+------------------------------------------------------------
+CREATE TABLE languages (
+    id TEXT NOT NULL PRIMARY KEY,
+    name_english TEXT NOT NULL,
+    name_native TEXT NOT NULL
+)
+
+================================================================================
+
+[TABLE] main_categories (Row count: 9)
+------------------------------------------------------------
+CREATE TABLE main_categories (id TEXT PRIMARY KEY, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER)
+
+================================================================================
+
+[TABLE] seasonal_periods (Row count: 5)
+------------------------------------------------------------
+CREATE TABLE seasonal_periods (
+  code TEXT PRIMARY KEY,
+  name_am TEXT,
+  name_en TEXT,
+  type TEXT,
+  start_month INTEGER,
+  start_day INTEGER,
+  end_month INTEGER,
+  end_day INTEGER,
+  is_movable INTEGER
+)
+
+================================================================================
+
+[TABLE] sub_categories (Row count: 35)
+------------------------------------------------------------
+CREATE TABLE sub_categories (id TEXT PRIMARY KEY, main_category_id TEXT NOT NULL, name_amharic TEXT NOT NULL, name_geez TEXT, name_english TEXT NOT NULL, icon TEXT, sort_order INTEGER, FOREIGN KEY (main_category_id) REFERENCES main_categories(id))
+
+================================================================================
+
+[TABLE] text_formats (Row count: 88163)
+------------------------------------------------------------
+CREATE TABLE text_formats (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    block_id TEXT NOT NULL,
+    format_type TEXT NOT NULL,
+    start_pos INTEGER NOT NULL,
+    end_pos INTEGER NOT NULL
+)
+
+================================================================================

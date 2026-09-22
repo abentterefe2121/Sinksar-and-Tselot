@@ -1,0 +1,55 @@
+FIX ROUND 3: Qirqos annual + Golgotha annual
+Generated: 2026-09-22T09:17:00
+Write target: WORKING COPY only
+
+ORIGINAL DB: 811 rows — untouched ✓
+
+WORKING COPY BEFORE: 3549 rows
+Notes before: {'ALWAYS': 77, 'ANNUAL': 507, 'ANNUAL+MONTHLY': 369, 'MONTHLY': 2595, 'PENTECOST': 1}
+
+PRE-STATE CHECKS
+  AM-GDL-023 3/15: MONTHLY ✓
+  AM-MEL-015 3/15: MONTHLY ✓
+  GZ-MEL-043 3/15: MONTHLY ✓
+  GZ-MEL-054 3/15: MONTHLY ✓
+  AM-GOL-001 10/21: MONTHLY ✓
+  All pre-state checks PASSED
+
+APPLYING FIXES
+  AM-GDL-023 3/15 → ANNUAL+MONTHLY ✓
+  AM-MEL-015 3/15 → ANNUAL+MONTHLY ✓
+  GZ-MEL-043 3/15 → ANNUAL+MONTHLY ✓
+  GZ-MEL-054 3/15 → ANNUAL+MONTHLY ✓
+  AM-GOL-001 10/21 → ANNUAL+MONTHLY ✓
+
+POST-STATE VALIDATION
+  Total rows: 3549 (expected 3549)
+  Notes: {'ALWAYS': 77, 'ANNUAL': 507, 'ANNUAL+MONTHLY': 374, 'MONTHLY': 2590, 'PENTECOST': 1}
+  Spot checks:
+    PASS AM-GDL-023 3/15 → (1, 'ANNUAL+MONTHLY')
+    PASS AM-MEL-015 3/15 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-043 3/15 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-054 3/15 → (1, 'ANNUAL+MONTHLY')
+    PASS AM-GDL-023 5/15 → (1, 'ANNUAL+MONTHLY')
+    PASS AM-MEL-015 5/15 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-043 11/19 → (1, 'ANNUAL')
+    PASS GZ-MEL-054 11/19 → (1, 'ANNUAL')
+    PASS AM-GDL-023 1/15 → (0, 'MONTHLY')
+    PASS GZ-MEL-054 7/15 → (0, 'MONTHLY')
+    PASS AM-GOL-001 10/21 → (1, 'ANNUAL+MONTHLY')
+    PASS AM-GOL-001 1/21 → (0, 'MONTHLY')
+    PASS AM-GOL-001 7/21 → (0, 'MONTHLY')
+    PASS GZ-MEL-041 1/11 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-008 5/27 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-135 1/18 → (1, 'ANNUAL+MONTHLY')
+    PASS GZ-MEL-090 5/19 → (1, 'ANNUAL')
+  Integrity: ok
+  Duplicates: 0
+  calendar_day_id mismatches: 0
+  Original DB: 811 (unchanged)
+  Pagumen MONTHLY rows: 0
+
+RESULT: PASS
+  5 rows updated (4 Qirqos + 1 Golgotha)
+  Row count unchanged: 3549 = 3549
+  All spot checks passed. Original DB not modified.

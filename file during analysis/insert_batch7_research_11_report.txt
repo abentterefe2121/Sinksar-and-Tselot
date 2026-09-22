@@ -1,0 +1,123 @@
+INSERT BATCH7 RESEARCH-11 REPORT
+Generated: 2026-09-21T22:20:31
+Write target: WORKING COPY only
+User-verified hard copy research: 10 date books + 1 SEASON book + 1 educational skip
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+ORIGINAL DB: size=57786368 mappings=811 ALWAYS=0
+
+PREREQUISITE CHECKS
+  PASS GZ-MEL-008: 12/12
+  PASS GZ-MEL-038: 2/2
+  PASS GZ-MEL-135: 1/1
+  PASS GZ-MEL-158: 1/1
+
+WORKING COPY BEFORE
+  mappings: 3547
+  ALWAYS: 77
+
+PARSE / EXPANSION
+  GZ-MEL-048 | DATE | src=ጥቅምት 19 | rows=1
+  GZ-MEL-100 | DATE | src=ግንቦት 19 | rows=1
+  GZ-MEL-083 | DATE | src=ጥቅምት 19 | rows=1
+  GZ-MEL-108 | DATE | src=ጥቅምት 28 | rows=1
+  GZ-MEL-113 | DATE | src=መጋቢት 17, ኅዳር 17 | rows=2
+  GZ-MEL-107 | DATE | src=Monthly Day 13 | rows=12
+  GZ-MEL-115 | DATE | src=ጥቅምት 6 | rows=1
+  GZ-MEL-033 | DATE | src=ኅዳር 9 | rows=1
+  GZ-MEL-070 | DATE | src=ነሐሴ 13 | rows=1
+  GZ-GDL-005 | DATE | src=ሐምሌ 3 | rows=1
+  GZ-MEL-090 | SEASON | src=PENTECOST season (50-day movable) | rows=1
+  GZ-DRS-006 | SKIP | src=SKIP (educational - book not saint) | rows=0
+DATE ROWS: 22 | SEASON ROWS: 1
+
+INSERT SUMMARY
+  mappings before: 3547
+  inserted rows: 23 (22 date + 1 season)
+  mappings after: 3570
+  expected after: 3570
+
+NOTES COUNTS
+  MONTHLY: 2639
+  ANNUAL: 486
+  ANNUAL+MONTHLY: 367
+  ALWAYS: 77
+  PENTECOST: 1
+
+READING_CYCLE COUNTS
+  CALENDAR: 3492
+  ALWAYS: 77
+  SEASON: 1
+
+ROW COUNT PER book_id
+  PASS GZ-MEL-048: 1/1
+  PASS GZ-MEL-100: 1/1
+  PASS GZ-MEL-083: 1/1
+  PASS GZ-MEL-108: 1/1
+  PASS GZ-MEL-113: 2/2
+  PASS GZ-MEL-107: 12/12
+  PASS GZ-MEL-115: 1/1
+  PASS GZ-MEL-033: 1/1
+  PASS GZ-MEL-070: 1/1
+  PASS GZ-GDL-005: 1/1
+  PASS GZ-MEL-090: 1/1
+  PASS GZ-DRS-006: 0/0
+
+DATE FLAG TESTS
+  PASS GZ-MEL-048 2/19 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-100 9/19 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-083 2/19 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-108 2/28 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-113 7/17 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-113 3/17 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-107 1/13 is_annual=0 notes=MONTHLY
+  PASS GZ-MEL-107 12/13 is_annual=0 notes=MONTHLY
+  PASS GZ-MEL-115 2/6 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-033 3/9 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-070 12/13 is_annual=1 notes=ANNUAL
+  PASS GZ-GDL-005 11/3 is_annual=1 notes=ANNUAL
+
+ABSENT TESTS
+  PASS GZ-MEL-048 not on 2/18
+  PASS GZ-MEL-107 not on 13/13
+  PASS GZ-MEL-113 not on 1/17
+  PASS GZ-MEL-113 not on 4/17
+  PASS GZ-MEL-115 not on 2/5
+  PASS GZ-MEL-033 not on 3/10
+  PASS GZ-GDL-005 not on 11/4
+
+SEASON ROW TESTS (GZ-MEL-090)
+  PASS GZ-MEL-090: 1 row, cycle=SEASON, season=PENTECOST, all date fields NULL
+  PASS PENTECOST season rows total: 25/25
+  PASS GZ-MEL-090 never appears in date-only lookup
+
+SKIP BOOK CHECK (GZ-DRS-006)
+  PASS GZ-DRS-006: 0 rows (educational keep-out)
+
+PREVIOUS BATCHES PRESERVED
+  PASS GZ-GDL-025 4/27 -> (1, 'ANNUAL')
+  PASS GZ-GDL-001 11/28 -> (1, 'ANNUAL')
+  PASS GZ-MEL-008 6/27 -> (1, 'ANNUAL+MONTHLY')
+  PASS GZ-MEL-008 1/27 -> (0, 'MONTHLY')
+  PASS GZ-MEL-038 4/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-135 1/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-158 11/5 -> (1, 'ANNUAL')
+  PASS GZ-MEL-146 3/11 -> (1, 'ANNUAL+MONTHLY')
+  PASS AM-MEL-030 12/1 -> (1, 'ANNUAL')
+  PASS AM-DIR-001 3/13 -> (1, 'ANNUAL+MONTHLY')
+  PASS AM-BEE-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-WUD-002: 1/1
+
+calendar_day_id mismatches: 0
+PRAGMA integrity_check: ok
+unmapped books after: 29 (expected 29)
+ORIGINAL DB UNCHANGED CHECK: done
+
+CSV: C:\Android Project Collection\analyze\New folder\for analysis\batch7_research_11_mappings.csv rows=23
+RESULT: PASS
+10 date books (22 rows) + 1 SEASON book (PENTECOST) inserted.
+GZ-DRS-006 confirmed educational skip (0 rows).
+Copy total: 3570. Original DB not modified.

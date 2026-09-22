@@ -1,0 +1,299 @@
+ANNUAL vs MONTHLY FLAG CHECK
+Generated: 2026-09-21T13:46:00
+Rule:
+  monthly day N on a month that is NOT an annual feast -> is_annual=0
+  annual date M/D -> is_annual=1
+  if annual date falls on monthly day N -> ONE row, is_annual=1
+
+[PASS] GZ-GDL-025 | አባ በግዑ | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 27
+    monthly 0 count: 0
+[PASS] AM-GDL-006 | አባ በግዑ | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 27
+    monthly 0 count: 0
+[PASS] GZ-GDL-027 | ቅዱስ ፊቅጦር | 1=3 0=11 rows=14
+    annual 1: ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27
+    monthly 0 count: 11
+    overlap 1: ሚያዝያ 27
+[PASS] AM-GDL-029 | ቅዱስ ፊቅጦር | 1=3 0=11 rows=14
+    annual 1: ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27
+    monthly 0 count: 11
+    overlap 1: ሚያዝያ 27
+[PASS] GZ-MEL-162 | ቅዱስ ፊቅጦር | 1=3 0=11 rows=14
+    annual 1: ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27
+    monthly 0 count: 11
+    overlap 1: ሚያዝያ 27
+[PASS] AM-GDL-024 | አቡነ አቢብ | 1=2 0=11 rows=13
+    annual 1: ጥቅምት 25, ሚያዝያ 15
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 25
+[PASS] AM-MEL-003 | አቡነ አቢብ | 1=2 0=11 rows=13
+    annual 1: ጥቅምት 25, ሚያዝያ 15
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 25
+[PASS] GZ-MEL-095 | አቡነ አቢብ | 1=2 0=11 rows=13
+    annual 1: ጥቅምት 25, ሚያዝያ 15
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 25
+[PASS] GZ-MEL-144 | አቡነ አቢብ | 1=2 0=11 rows=13
+    annual 1: ጥቅምት 25, ሚያዝያ 15
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 25
+[PASS] AM-MEL-059 | አቡነ አቢብ | 1=2 0=11 rows=13
+    annual 1: ጥቅምት 25, ሚያዝያ 15
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 25
+[PASS] AM-DRS-005 | ኤልያስ ነቢይ | 1=3 0=12 rows=15
+    annual 1: ታኅሣሥ 1, ጥር 6, ነሐሴ 13
+    monthly 0 count: 12
+    overlap 1: ጥር 6
+[PASS] GZ-MEL-134 | ኤልያስ ነቢይ | 1=3 0=12 rows=15
+    annual 1: ታኅሣሥ 1, ጥር 6, ነሐሴ 13
+    monthly 0 count: 12
+    overlap 1: ጥር 6
+[PASS] GZ-MEL-059 | ኤልያስ ነቢይ | 1=3 0=12 rows=15
+    annual 1: ታኅሣሥ 1, ጥር 6, ነሐሴ 13
+    monthly 0 count: 12
+    overlap 1: ጥር 6
+[PASS] AM-MEL-052 | ኤልያስ ነቢይ | 1=3 0=12 rows=15
+    annual 1: ታኅሣሥ 1, ጥር 6, ነሐሴ 13
+    monthly 0 count: 12
+    overlap 1: ጥር 6
+[PASS] GZ-MEL-060 | ዮሐንስ መጥምቅ | 1=9 0=21 rows=30
+    annual 1: መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1
+    monthly 0 count: 21
+    overlap 1: መስከረም 2, የካቲት 30, ሰኔ 2, ሰኔ 30
+[PASS] AM-MEL-048 | ዮሐንስ መጥምቅ | 1=9 0=21 rows=30
+    annual 1: መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1
+    monthly 0 count: 21
+    overlap 1: መስከረም 2, የካቲት 30, ሰኔ 2, ሰኔ 30
+[PASS] GZ-MEL-018 | አቡነ ሊባኖስ | 1=1 0=12 rows=13
+    annual 1: ጥር 3
+    monthly 0 count: 12
+    overlap 1: ጥር 3
+[PASS] GZ-MEL-074 | አቡነ ሊባኖስ | 1=1 0=12 rows=13
+    annual 1: ጥር 3
+    monthly 0 count: 12
+    overlap 1: ጥር 3
+[PASS] AM-MEL-053 | አቡነ ሊባኖስ | 1=1 0=12 rows=13
+    annual 1: ጥር 3
+    monthly 0 count: 12
+    overlap 1: ጥር 3
+[PASS] GZ-MEL-091 | አቡነ ተከስተ ብርሃን | 1=1 0=0 rows=1
+    annual 1: መጋቢት 10
+    monthly 0 count: 0
+[PASS] AM-MEL-056 | አቡነ ተከስተ ብርሃን | 1=1 0=0 rows=1
+    annual 1: መጋቢት 10
+    monthly 0 count: 0
+[PASS] GZ-MEL-096 | አቡነ አባለ ክርስቶስ | 1=2 0=0 rows=2
+    annual 1: ታኅሣሥ 19, የካቲት 19
+    monthly 0 count: 0
+[PASS] AM-MEL-060 | አቡነ አባለ ክርስቶስ | 1=2 0=0 rows=2
+    annual 1: ታኅሣሥ 19, የካቲት 19
+    monthly 0 count: 0
+[PASS] GZ-MEL-098 | አብርሃም | 1=2 0=0 rows=2
+    annual 1: ሐምሌ 7, ነሐሴ 28
+    monthly 0 count: 0
+[PASS] AM-MEL-063 | አብርሃም | 1=2 0=0 rows=2
+    annual 1: ሐምሌ 7, ነሐሴ 28
+    monthly 0 count: 0
+[PASS] GZ-MEL-075 | መልከ ጼዴቅ | 1=2 0=12 rows=14
+    annual 1: ግንቦት 4, ጳጉሜን 3
+    monthly 0 count: 12
+[PASS] AM-MEL-068 | መልከ ጼዴቅ | 1=2 0=12 rows=14
+    annual 1: ግንቦት 4, ጳጉሜን 3
+    monthly 0 count: 12
+[PASS] GZ-GDL-010 | ቅዱስ ዮስጦስ | 1=2 0=0 rows=2
+    annual 1: የካቲት 10, ሐምሌ 17
+    monthly 0 count: 0
+[PASS] GZ-MEL-063 | ቅዱስ ዮስጦስ | 1=2 0=0 rows=2
+    annual 1: የካቲት 10, ሐምሌ 17
+    monthly 0 count: 0
+[PASS] GZ-GDL-011 | አቡነ ፊልጶስ | 1=1 0=0 rows=1
+    annual 1: ሐምሌ 28
+    monthly 0 count: 0
+[PASS] GZ-MEL-118 | አቡነ ፊልጶስ | 1=1 0=0 rows=1
+    annual 1: ሐምሌ 28
+    monthly 0 count: 0
+[PASS] GZ-GDL-020 | አቡነ ፊልሞና | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 22
+    monthly 0 count: 0
+[PASS] GZ-MEL-117 | አቡነ ፊልሞና | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 22
+    monthly 0 count: 0
+[PASS] GZ-GDL-028 | አቡነ ዳንኤል | 1=1 0=0 rows=1
+    annual 1: ኅዳር 6
+    monthly 0 count: 0
+[PASS] GZ-MEL-114 | አቡነ ዳንኤል | 1=1 0=0 rows=1
+    annual 1: ኅዳር 6
+    monthly 0 count: 0
+[PASS] GZ-GDL-029 | አቡነ ዮሴፍ | 1=1 0=11 rows=12
+    annual 1: ግንቦት 19
+    monthly 0 count: 11
+    overlap 1: ግንቦት 19
+[PASS] GZ-MEL-111 | አቡነ ዮሴፍ | 1=1 0=11 rows=12
+    annual 1: ግንቦት 19
+    monthly 0 count: 11
+    overlap 1: ግንቦት 19
+[PASS] GZ-DRS-002 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] AM-DRS-008 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] GZ-DRS-007 | ኢያቄም ወሐና | 1=9 0=34 rows=43
+    annual 1: መስከረም 7, መስከረም 12, ኅዳር 11, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7
+    monthly 0 count: 34
+    overlap 1: ኅዳር 11, ታኅሣሥ 3, ግንቦት 1, ነሐሴ 1
+[PASS] AM-DRS-001 | ኢያቄም ወሐና | 1=9 0=34 rows=43
+    annual 1: መስከረም 7, መስከረም 12, ኅዳር 11, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7
+    monthly 0 count: 34
+    overlap 1: ኅዳር 11, ታኅሣሥ 3, ግንቦት 1, ነሐሴ 1
+[PASS] GZ-MEL-051 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] AM-MEL-012 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] GZ-MEL-050 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] AM-MEL-040 | ቅዱስ መስቀል | 1=10 0=10 rows=20
+    annual 1: መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12
+    monthly 0 count: 10
+    overlap 1: መስከረም 10, መጋቢት 10
+[PASS] GZ-MEL-021 | ሐራ ድንግል | 1=2 0=10 rows=12
+    annual 1: ጥር 11, ግንቦት 11
+    monthly 0 count: 10
+    overlap 1: ጥር 11, ግንቦት 11
+[PASS] AM-MEL-019 | ሐራ ድንግል | 1=2 0=10 rows=12
+    annual 1: ጥር 11, ግንቦት 11
+    monthly 0 count: 10
+    overlap 1: ጥር 11, ግንቦት 11
+[PASS] GZ-MEL-049 | መርምሕናም | 1=2 0=0 rows=2
+    annual 1: ታኅሣሥ 14, ጥር 20
+    monthly 0 count: 0
+[PASS] AM-MEL-039 | መርምሕናም | 1=2 0=0 rows=2
+    annual 1: ታኅሣሥ 14, ጥር 20
+    monthly 0 count: 0
+[PASS] GZ-MEL-104 | ዕጨጌ ዮሐንስ | 1=1 0=0 rows=1
+    annual 1: ሐምሌ 29
+    monthly 0 count: 0
+[PASS] AM-MEL-020 | ዕጨጌ ዮሐንስ | 1=1 0=0 rows=1
+    annual 1: ሐምሌ 29
+    monthly 0 count: 0
+[PASS] GZ-MEL-101 | አፍጼ | 1=1 0=0 rows=1
+    annual 1: ግንቦት 29
+    monthly 0 count: 0
+[PASS] AM-MEL-024 | አፍጼ | 1=1 0=0 rows=1
+    annual 1: ግንቦት 29
+    monthly 0 count: 0
+[PASS] GZ-MEL-022 | ኢያቄም ወሐና | 1=9 0=34 rows=43
+    annual 1: መስከረም 7, መስከረም 12, ኅዳር 11, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7
+    monthly 0 count: 34
+    overlap 1: ኅዳር 11, ታኅሣሥ 3, ግንቦት 1, ነሐሴ 1
+[PASS] GZ-MEL-133 | ኢያቄም ወሐና | 1=9 0=34 rows=43
+    annual 1: መስከረም 7, መስከረም 12, ኅዳር 11, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7
+    monthly 0 count: 34
+    overlap 1: ኅዳር 11, ታኅሣሥ 3, ግንቦት 1, ነሐሴ 1
+[PASS] AM-GDL-026 | ኢየሱስ ሞዐ | 1=1 0=11 rows=12
+    annual 1: ኅዳር 26
+    monthly 0 count: 11
+    overlap 1: ኅዳር 26
+[PASS] GZ-MEL-130 | ኢየሱስ ሞዐ | 1=1 0=11 rows=12
+    annual 1: ኅዳር 26
+    monthly 0 count: 11
+    overlap 1: ኅዳር 26
+[PASS] GZ-MIK-001 | ምክሐ ምእመናን | 1=1 0=0 rows=1
+    annual 1: ግንቦት 12
+    monthly 0 count: 0
+[PASS] GZ-MIK-002 | ምክሐ ምእመናን | 1=1 0=0 rows=1
+    annual 1: ግንቦት 12
+    monthly 0 count: 0
+[PASS] AM-GDL-022 | መባዓ ጽዮን | 1=1 0=11 rows=12
+    annual 1: ጥቅምት 27
+    monthly 0 count: 11
+    overlap 1: ጥቅምት 27
+[PASS] AM-GOL-001 | የሰኔ ጎልጎታ | 1=0 0=12 rows=12
+    annual 1: -
+    monthly 0 count: 12
+[PASS] GZ-GDL-013 | ዘርዐ አብርሃም | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 24
+    monthly 0 count: 0
+[PASS] GZ-GDL-017 | ተክለ ሐዋርያት | 1=1 0=0 rows=1
+    annual 1: ኅዳር 27
+    monthly 0 count: 0
+[PASS] GZ-GDL-023 | መዝራዕተ ክርስቶስ | 1=1 0=0 rows=1
+    annual 1: ግንቦት 29
+    monthly 0 count: 0
+[PASS] GZ-MEL-010 | አፍኒን | 1=1 0=0 rows=1
+    annual 1: ኅዳር 8
+    monthly 0 count: 0
+[PASS] GZ-MEL-025 | ሕፃን ሞዐ | 1=1 0=0 rows=1
+    annual 1: ሐምሌ 25
+    monthly 0 count: 0
+[PASS] GZ-MEL-045 | ቁስቋም | 1=1 0=12 rows=13
+    annual 1: ኅዳር 6
+    monthly 0 count: 12
+    overlap 1: ኅዳር 6
+[PASS] GZ-MEL-058 | አግናጥዮስ | 1=4 0=11 rows=15
+    annual 1: ጥቅምት 26, ታኅሣሥ 24, ሐምሌ 1, ሐምሌ 7
+    monthly 0 count: 11
+    overlap 1: ሐምሌ 7
+[PASS] GZ-MEL-071 | ነአኵቶ ለአብ | 1=2 0=0 rows=2
+    annual 1: ኅዳር 1, ኅዳር 3
+    monthly 0 count: 0
+[PASS] GZ-MEL-082 | ሠምረ ክርስቶስ | 1=1 0=0 rows=1
+    annual 1: ጥር 20
+    monthly 0 count: 0
+[PASS] GZ-MEL-084 | ሳሙኤል ሣልስ | 1=4 0=10 rows=14
+    annual 1: ጥቅምት 29, ታኅሣሥ 12, ታኅሣሥ 23, ሚያዝያ 12
+    monthly 0 count: 10
+    overlap 1: ታኅሣሥ 12, ሚያዝያ 12
+[PASS] GZ-MEL-087 | ሴት | 1=1 0=0 rows=1
+    annual 1: ኅዳር 24
+    monthly 0 count: 0
+[PASS] GZ-MEL-088 | ቡሩከ አምላክ | 1=1 0=0 rows=1
+    annual 1: ነሐሴ 14
+    monthly 0 count: 0
+[PASS] GZ-MEL-089 | ብፁዓ አምላክ | 1=2 0=0 rows=2
+    annual 1: ታኅሣሥ 1, ግንቦት 9
+    monthly 0 count: 0
+[PASS] GZ-MEL-097 | አብራንዮስ | 1=2 0=0 rows=2
+    annual 1: ኅዳር 22, ሰኔ 22
+    monthly 0 count: 0
+[PASS] GZ-MEL-112 | ዮስጢኖስ | 1=1 0=0 rows=1
+    annual 1: ነሐሴ 16
+    monthly 0 count: 0
+[PASS] GZ-MEL-116 | ጼዋ ለጽድቅ | 1=1 0=0 rows=1
+    annual 1: ኅዳር 29
+    monthly 0 count: 0
+[PASS] GZ-MEL-122 | አባ ኖብ | 1=7 0=0 rows=7
+    annual 1: መስከረም 18, ኅዳር 7, የካቲት 5, መጋቢት 9, ሰኔ 19, ሰኔ 23, ሐምሌ 24
+    monthly 0 count: 0
+[PASS] GZ-MEL-145 | ዓቢየ እግዚእ | 1=3 0=11 rows=14
+    annual 1: ግንቦት 19, ነሐሴ 10, ነሐሴ 13
+    monthly 0 count: 11
+    overlap 1: ግንቦት 19
+[PASS] GZ-MEL-160 | ዘባርክናሃ | 1=1 0=0 rows=1
+    annual 1: ታኅሣሥ 29
+    monthly 0 count: 0
+[PASS] GZ-TSE-007 | ጴጥሮስ | 1=5 0=12 rows=17
+    annual 1: ታኅሣሥ 1, የካቲት 9, ሰኔ 21, ሐምሌ 5, ነሐሴ 7
+    monthly 0 count: 12
+    overlap 1: ሐምሌ 5
+
+book_id PASS: 81
+book_id FAIL: 0
+Compact CSV: C:\Android Project Collection\analyze\New folder\for analysis\annual_monthly_flag_check.csv
+Expanded CSV (every date with 1 or 0): C:\Android Project Collection\analyze\New folder\for analysis\annual_monthly_flags_expanded.csv
+
+RESULT: PASS
+Every annual date is is_annual=1.
+Every monthly-only date is is_annual=0.
+Overlap dates are a single row with is_annual=1.

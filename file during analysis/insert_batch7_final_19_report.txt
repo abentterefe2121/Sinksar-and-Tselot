@@ -1,0 +1,150 @@
+INSERT BATCH7 FINAL-19 REPORT
+Generated: 2026-09-21T23:09:37
+Write target: WORKING COPY only
+User-verified hard-copy research - all critical identity books resolved
+Original DB (read-only): C:\Android Project Collection\analyze\New folder\mezgebe_tselot_v4.db
+Working copy DB: C:\Android Project Collection\analyze\New folder\for analysis\mezgebe_tselot_v4_CLEARED.db
+
+ORIGINAL DB: size=57786368 mappings=811 ALWAYS=0
+
+WORKING COPY BEFORE
+  mappings: 3570
+
+PARSE / EXPANSION
+  GZ-MEL-148 | src=ጥቅምት 19 | rows=1
+  GZ-ZNA-002 | src=መጋቢት 27 | rows=1
+  GZ-SME-001 | src=ሰኔ 25 | rows=1
+  GZ-MEL-034 | src=ጥር 7 | rows=1
+  GZ-MEL-138 | src=ጥር 22, መጋቢት 6, ሐምሌ 22 | rows=3
+  GZ-MEL-056 | src=መስከረም 28 | rows=1
+  GZ-GDL-026 | src=መስከረም 28 | rows=1
+  GZ-GDL-009 | src=ሚያዝያ 26 | rows=1
+  GZ-MEL-153 | src=ጥቅምት 14 | rows=1
+  GZ-MEL-079 | src=መስከረም 4 | rows=1
+  GZ-MEL-110 | src=ነሐሴ 8 | rows=1
+  GZ-GDL-018 | src=ሐምሌ 29 | rows=1
+  GZ-MEL-094 | src=ኅዳር 3 | rows=1
+  GZ-MEL-081 | src=ኅዳር 13 | rows=1
+  GZ-MEL-080 | src=ጥር 14 | rows=1
+  GZ-MEL-120 | src=ነሐሴ 5 | rows=1
+  GZ-MEL-076 | src=ታኅሣሥ 16 | rows=1
+  GZ-MEL-103 | src=የካቲት 1 | rows=1
+  GZ-MEL-102 | src=መጋቢት 29 | rows=1
+TOTAL EXPANDED ROWS: 21
+
+INSERT SUMMARY
+  mappings before: 3570
+  inserted rows: 21
+  mappings after: 3591
+  expected after: 3591
+
+NOTES COUNTS
+  MONTHLY: 2639
+  ANNUAL: 507
+  ANNUAL+MONTHLY: 367
+  ALWAYS: 77
+  PENTECOST: 1
+
+READING_CYCLE COUNTS
+  CALENDAR: 3513
+  ALWAYS: 77
+  SEASON: 1
+
+ROW COUNT PER book_id
+  PASS GZ-MEL-148: 1/1
+  PASS GZ-ZNA-002: 1/1
+  PASS GZ-SME-001: 1/1
+  PASS GZ-MEL-034: 1/1
+  PASS GZ-MEL-138: 3/3
+  PASS GZ-MEL-056: 1/1
+  PASS GZ-GDL-026: 1/1
+  PASS GZ-GDL-009: 1/1
+  PASS GZ-MEL-153: 1/1
+  PASS GZ-MEL-079: 1/1
+  PASS GZ-MEL-110: 1/1
+  PASS GZ-GDL-018: 1/1
+  PASS GZ-MEL-094: 1/1
+  PASS GZ-MEL-081: 1/1
+  PASS GZ-MEL-080: 1/1
+  PASS GZ-MEL-120: 1/1
+  PASS GZ-MEL-076: 1/1
+  PASS GZ-MEL-103: 1/1
+  PASS GZ-MEL-102: 1/1
+
+DATE FLAG TESTS
+  PASS GZ-MEL-148 2/19 is_annual=1 notes=ANNUAL
+  PASS GZ-ZNA-002 7/27 is_annual=1 notes=ANNUAL
+  PASS GZ-SME-001 10/25 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-034 5/7 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-138 5/22 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-138 7/6 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-138 11/22 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-056 1/28 is_annual=1 notes=ANNUAL
+  PASS GZ-GDL-026 1/28 is_annual=1 notes=ANNUAL
+  PASS GZ-GDL-009 8/26 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-153 2/14 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-079 1/4 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-110 12/8 is_annual=1 notes=ANNUAL
+  PASS GZ-GDL-018 11/29 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-094 3/3 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-081 3/13 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-080 5/14 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-120 12/5 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-076 4/16 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-103 6/1 is_annual=1 notes=ANNUAL
+  PASS GZ-MEL-102 7/29 is_annual=1 notes=ANNUAL
+
+ABSENT TESTS (wrong-saint dates must NOT appear)
+  PASS GZ-MEL-148 not on 2/18
+  PASS GZ-MEL-138 not on 5/12
+  PASS GZ-MEL-138 not on 1/25
+  PASS GZ-MEL-034 not on 1/7
+  PASS GZ-MEL-034 not on 2/7
+  PASS GZ-MEL-056 not on 6/28
+  PASS GZ-GDL-026 not on 2/28
+  PASS GZ-GDL-009 not on 11/21
+  PASS GZ-MEL-120 not on 11/28
+  PASS GZ-MEL-102 not on 4/4
+  PASS GZ-MEL-103 not on 4/4
+  PASS GZ-MEL-076 not on 3/25
+  PASS GZ-MEL-080 not on 3/13
+  PASS GZ-MEL-081 not on 5/14
+  PASS GZ-MEL-079 not on 8/8
+
+PREVIOUS BATCHES PRESERVED
+  PASS GZ-GDL-025 4/27 -> (1, 'ANNUAL')
+  PASS GZ-GDL-001 11/28 -> (1, 'ANNUAL')
+  PASS GZ-MEL-008 6/27 -> (1, 'ANNUAL+MONTHLY')
+  PASS GZ-MEL-038 4/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-135 1/18 -> (1, 'ANNUAL')
+  PASS GZ-MEL-158 11/5 -> (1, 'ANNUAL')
+  PASS GZ-MEL-146 3/11 -> (1, 'ANNUAL+MONTHLY')
+  PASS GZ-MEL-090 -> ('SEASON', 'PENTECOST', 'PENTECOST')
+  PASS AM-MEL-030 12/1 -> (1, 'ANNUAL')
+  PASS AM-DIR-001 3/13 -> (1, 'ANNUAL+MONTHLY')
+  PASS AM-BEE-001: 1/1
+  PASS GZ-MEL-156: 1/1
+  PASS OR-WUD-001: 1/1
+  PASS TI-WUD-002: 1/1
+
+calendar_day_id mismatches: 0
+PRAGMA integrity_check: ok
+unmapped books after: 10 (expected 10)
+ORIGINAL DB UNCHANGED CHECK: done
+
+CSV: C:\Android Project Collection\analyze\New folder\for analysis\batch7_final_19_mappings.csv rows=21
+
+REMAINING UNMAPPED (10):
+  AM-KID-001 | መዓዛ ቅዳሴ በአማርኛ
+  AM-MEN-001 | መንገደ ሰማይ በአማርኛ
+  AM-SBT-001 | የሰባት (፯) ቁጥር ምስጢራትና ምሉዕነት
+  GZ-DRS-006 | ድርሳን ዘብጹዕ ፊሳልጎስ በግእዝ
+  GZ-MEL-067 | መልክዐ ቍርባን በግዕዝ
+  GZ-MTS-002 | መጽሐፈ ሕይወት ዘትሰመይ ልፋፈ ጽድቅ በግእዝ
+  GZ-TBB-001 | ጥበበ ሰሎሞን በግእዝ
+  GZ-TUL-001 | መጽሐፈ ቱላዳን በግእዝ
+  GZ-ZNA-001 | ዜናሁ ለንጉሠ ነገሥት በካፋ በግእዝ
+  GZ-ZNA-003 | ዜና ሕይወቱ ለንጉሥ ላልይበላ በግእዝ
+RESULT: PASS
+19 books inserted (21 annual rows) - all critical identity books resolved.
+Copy total: 3591. Original DB not modified.

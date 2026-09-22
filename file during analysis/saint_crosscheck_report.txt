@@ -1,0 +1,1539 @@
+SAINT CROSS-CHECK REPORT
+Generated: 2026-09-21T13:30:39
+Match key: book_id
+Display: saint group + book_id + title from books table + dates
+
+====================================================================================================
+SAINT: አባ በግዑ  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-025 | GZ | ገድለ አባ በግዑ በግእዝ
+    locked text     : ታኅሣሥ 27
+    expected monthly : -
+    expected annual  : ታኅሣሥ 27
+    DB annual rows   : ታኅሣሥ 27
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] AM-GDL-006 | AM | የአባ በግዑ ገድል በአማርኛ
+    locked text     : ታኅሣሥ 27
+    expected monthly : -
+    expected annual  : ታኅሣሥ 27
+    DB annual rows   : ታኅሣሥ 27
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ቅዱስ ፊቅጦር  |  books=3
+====================================================================================================
+[PASS] GZ-GDL-027 | GZ | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    locked text     : ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27
+    expected monthly : 27
+    expected annual  : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB annual rows   : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB monthly-only  : መስከረም 27; ጥቅምት 27; ኅዳር 27; ታኅሣሥ 27; ጥር 27; የካቲት 27; መጋቢት 27; ግንቦት 27; ሰኔ 27; ሐምሌ 27; ነሐሴ 27
+    DB row count     : 14  expected=14
+
+[PASS] AM-GDL-029 | AM | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    locked text     : ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27
+    expected monthly : 27
+    expected annual  : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB annual rows   : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB monthly-only  : መስከረም 27; ጥቅምት 27; ኅዳር 27; ታኅሣሥ 27; ጥር 27; የካቲት 27; መጋቢት 27; ግንቦት 27; ሰኔ 27; ሐምሌ 27; ነሐሴ 27
+    DB row count     : 14  expected=14
+
+[PASS] GZ-MEL-162 | GZ | መልክዐ ፊቅጦር በግእዝ
+    locked text     : ታኅሣሥ 5, የካቲት 13, ሚያዝያ 27 / Monthly Day 27
+    expected monthly : 27
+    expected annual  : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB annual rows   : ታኅሣሥ 5; የካቲት 13; ሚያዝያ 27
+    DB monthly-only  : መስከረም 27; ጥቅምት 27; ኅዳር 27; ታኅሣሥ 27; ጥር 27; የካቲት 27; መጋቢት 27; ግንቦት 27; ሰኔ 27; ሐምሌ 27; ነሐሴ 27
+    DB row count     : 14  expected=14
+
+  GROUP DATE UNITY: PASS  (all 3 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ አቢብ  |  books=5
+====================================================================================================
+[PASS] AM-GDL-024 | AM | ገድለ ቅዱስ አቡነ አቢብ በአማርኛ
+    locked text     : ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25
+    expected monthly : 25
+    expected annual  : ጥቅምት 25; ሚያዝያ 15
+    DB annual rows   : ጥቅምት 25; ሚያዝያ 15
+    DB monthly-only  : መስከረም 25; ኅዳር 25; ታኅሣሥ 25; ጥር 25; የካቲት 25; መጋቢት 25; ሚያዝያ 25; ግንቦት 25; ሰኔ 25; ሐምሌ 25; ነሐሴ 25
+    DB row count     : 13  expected=13
+
+[PASS] AM-MEL-003 | AM | መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ
+    locked text     : ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25
+    expected monthly : 25
+    expected annual  : ጥቅምት 25; ሚያዝያ 15
+    DB annual rows   : ጥቅምት 25; ሚያዝያ 15
+    DB monthly-only  : መስከረም 25; ኅዳር 25; ታኅሣሥ 25; ጥር 25; የካቲት 25; መጋቢት 25; ሚያዝያ 25; ግንቦት 25; ሰኔ 25; ሐምሌ 25; ነሐሴ 25
+    DB row count     : 13  expected=13
+
+[PASS] GZ-MEL-095 | GZ | መልክዐ አቡነ አቢብ በግእዝ
+    locked text     : ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25
+    expected monthly : 25
+    expected annual  : ጥቅምት 25; ሚያዝያ 15
+    DB annual rows   : ጥቅምት 25; ሚያዝያ 15
+    DB monthly-only  : መስከረም 25; ኅዳር 25; ታኅሣሥ 25; ጥር 25; የካቲት 25; መጋቢት 25; ሚያዝያ 25; ግንቦት 25; ሰኔ 25; ሐምሌ 25; ነሐሴ 25
+    DB row count     : 13  expected=13
+
+[PASS] GZ-MEL-144 | GZ | መልክዐ ዐቢብ ካልዕ በግእዝ
+    locked text     : ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25
+    expected monthly : 25
+    expected annual  : ጥቅምት 25; ሚያዝያ 15
+    DB annual rows   : ጥቅምት 25; ሚያዝያ 15
+    DB monthly-only  : መስከረም 25; ኅዳር 25; ታኅሣሥ 25; ጥር 25; የካቲት 25; መጋቢት 25; ሚያዝያ 25; ግንቦት 25; ሰኔ 25; ሐምሌ 25; ነሐሴ 25
+    DB row count     : 13  expected=13
+
+[PASS] AM-MEL-059 | AM | የአቡነ አቢብ መልክዕ በአማርኛ
+    locked text     : ጥቅምት 25, ሚያዝያ 15 / Monthly Day 25
+    expected monthly : 25
+    expected annual  : ጥቅምት 25; ሚያዝያ 15
+    DB annual rows   : ጥቅምት 25; ሚያዝያ 15
+    DB monthly-only  : መስከረም 25; ኅዳር 25; ታኅሣሥ 25; ጥር 25; የካቲት 25; መጋቢት 25; ሚያዝያ 25; ግንቦት 25; ሰኔ 25; ሐምሌ 25; ነሐሴ 25
+    DB row count     : 13  expected=13
+
+  GROUP DATE UNITY: PASS  (all 5 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ኤልያስ ነቢይ  |  books=4
+====================================================================================================
+[PASS] AM-DRS-005 | AM | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    locked text     : ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6
+    expected monthly : 6
+    expected annual  : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB annual rows   : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB monthly-only  : መስከረም 6; ጥቅምት 6; ኅዳር 6; ታኅሣሥ 6; የካቲት 6; መጋቢት 6; ሚያዝያ 6; ግንቦት 6; ሰኔ 6; ሐምሌ 6; ነሐሴ 6; ጳጉሜን 6
+    DB row count     : 15  expected=15
+
+[PASS] GZ-MEL-134 | GZ | መልክዐ ኤልያስ በግእዝ
+    locked text     : ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6
+    expected monthly : 6
+    expected annual  : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB annual rows   : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB monthly-only  : መስከረም 6; ጥቅምት 6; ኅዳር 6; ታኅሣሥ 6; የካቲት 6; መጋቢት 6; ሚያዝያ 6; ግንቦት 6; ሰኔ 6; ሐምሌ 6; ነሐሴ 6; ጳጉሜን 6
+    DB row count     : 15  expected=15
+
+[PASS] GZ-MEL-059 | GZ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    locked text     : ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6
+    expected monthly : 6
+    expected annual  : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB annual rows   : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB monthly-only  : መስከረም 6; ጥቅምት 6; ኅዳር 6; ታኅሣሥ 6; የካቲት 6; መጋቢት 6; ሚያዝያ 6; ግንቦት 6; ሰኔ 6; ሐምሌ 6; ነሐሴ 6; ጳጉሜን 6
+    DB row count     : 15  expected=15
+
+[PASS] AM-MEL-052 | AM | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    locked text     : ታኅሣሥ 1, ጥር 6, ነሐሴ 13 / Monthly Day 6
+    expected monthly : 6
+    expected annual  : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB annual rows   : ታኅሣሥ 1; ጥር 6; ነሐሴ 13
+    DB monthly-only  : መስከረም 6; ጥቅምት 6; ኅዳር 6; ታኅሣሥ 6; የካቲት 6; መጋቢት 6; ሚያዝያ 6; ግንቦት 6; ሰኔ 6; ሐምሌ 6; ነሐሴ 6; ጳጉሜን 6
+    DB row count     : 15  expected=15
+
+  GROUP DATE UNITY: PASS  (all 4 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዮሐንስ መጥምቅ  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-060 | GZ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    locked text     : መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1 / Monthly Day 2, 30
+    expected monthly : 2, 30
+    expected annual  : መስከረም 1; መስከረም 2; መስከረም 26; ጥር 11; የካቲት 30; ሚያዝያ 15; ሰኔ 2; ሰኔ 30; ጳጉሜን 1
+    DB annual rows   : መስከረም 1; መስከረም 2; መስከረም 26; ጥር 11; የካቲት 30; ሚያዝያ 15; ሰኔ 2; ሰኔ 30; ጳጉሜን 1
+    DB monthly-only  : መስከረም 30; ጥቅምት 2; ጥቅምት 30; ኅዳር 2; ኅዳር 30; ታኅሣሥ 2; ታኅሣሥ 30; ጥር 2; ጥር 30; የካቲት 2; መጋቢት 2; መጋቢት 30; ሚያዝያ 2; ሚያዝያ 30; ግንቦት 2; ግንቦት 30; ሐምሌ 2; ሐምሌ 30; ነሐሴ 2; ነሐሴ 30; ጳጉሜን 2
+    DB row count     : 30  expected=30
+
+[PASS] AM-MEL-048 | AM | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    locked text     : መስከረም 1, መስከረም 2, መስከረም 26, ጥር 11, የካቲት 30, ሚያዝያ 15, ሰኔ 2, ሰኔ 30, ጳጉሜን 1 / Monthly Day 2, 30
+    expected monthly : 2, 30
+    expected annual  : መስከረም 1; መስከረም 2; መስከረም 26; ጥር 11; የካቲት 30; ሚያዝያ 15; ሰኔ 2; ሰኔ 30; ጳጉሜን 1
+    DB annual rows   : መስከረም 1; መስከረም 2; መስከረም 26; ጥር 11; የካቲት 30; ሚያዝያ 15; ሰኔ 2; ሰኔ 30; ጳጉሜን 1
+    DB monthly-only  : መስከረም 30; ጥቅምት 2; ጥቅምት 30; ኅዳር 2; ኅዳር 30; ታኅሣሥ 2; ታኅሣሥ 30; ጥር 2; ጥር 30; የካቲት 2; መጋቢት 2; መጋቢት 30; ሚያዝያ 2; ሚያዝያ 30; ግንቦት 2; ግንቦት 30; ሐምሌ 2; ሐምሌ 30; ነሐሴ 2; ነሐሴ 30; ጳጉሜን 2
+    DB row count     : 30  expected=30
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ሊባኖስ  |  books=3
+====================================================================================================
+[PASS] GZ-MEL-018 | GZ | መልክዐ ሊባኖስ በግእዝ
+    locked text     : ጥር 3 / Monthly Day 3
+    expected monthly : 3
+    expected annual  : ጥር 3
+    DB annual rows   : ጥር 3
+    DB monthly-only  : መስከረም 3; ጥቅምት 3; ኅዳር 3; ታኅሣሥ 3; የካቲት 3; መጋቢት 3; ሚያዝያ 3; ግንቦት 3; ሰኔ 3; ሐምሌ 3; ነሐሴ 3; ጳጉሜን 3
+    DB row count     : 13  expected=13
+
+[PASS] GZ-MEL-074 | GZ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+    locked text     : ጥር 3 / Monthly Day 3
+    expected monthly : 3
+    expected annual  : ጥር 3
+    DB annual rows   : ጥር 3
+    DB monthly-only  : መስከረም 3; ጥቅምት 3; ኅዳር 3; ታኅሣሥ 3; የካቲት 3; መጋቢት 3; ሚያዝያ 3; ግንቦት 3; ሰኔ 3; ሐምሌ 3; ነሐሴ 3; ጳጉሜን 3
+    DB row count     : 13  expected=13
+
+[PASS] AM-MEL-053 | AM | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    locked text     : ጥር 3 / Monthly Day 3
+    expected monthly : 3
+    expected annual  : ጥር 3
+    DB annual rows   : ጥር 3
+    DB monthly-only  : መስከረም 3; ጥቅምት 3; ኅዳር 3; ታኅሣሥ 3; የካቲት 3; መጋቢት 3; ሚያዝያ 3; ግንቦት 3; ሰኔ 3; ሐምሌ 3; ነሐሴ 3; ጳጉሜን 3
+    DB row count     : 13  expected=13
+
+  GROUP DATE UNITY: PASS  (all 3 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ተከስተ ብርሃን  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-091 | GZ | መልክዐ አቡነ ተከስተ ብርሃን በግእዝ
+    locked text     : መጋቢት 10
+    expected monthly : -
+    expected annual  : መጋቢት 10
+    DB annual rows   : መጋቢት 10
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] AM-MEL-056 | AM | የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ
+    locked text     : መጋቢት 10
+    expected monthly : -
+    expected annual  : መጋቢት 10
+    DB annual rows   : መጋቢት 10
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ አባለ ክርስቶስ  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-096 | GZ | መልክዐ አቡነ አባለ ክርስቶስ በግእዝ
+    locked text     : ታኅሣሥ 19, የካቲት 19
+    expected monthly : -
+    expected annual  : ታኅሣሥ 19; የካቲት 19
+    DB annual rows   : ታኅሣሥ 19; የካቲት 19
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+[PASS] AM-MEL-060 | AM | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ
+    locked text     : ታኅሣሥ 19, የካቲት 19
+    expected monthly : -
+    expected annual  : ታኅሣሥ 19; የካቲት 19
+    DB annual rows   : ታኅሣሥ 19; የካቲት 19
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አብርሃም  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-098 | GZ | መልክዐ አቡነ አብርሃም በግእዝ
+    locked text     : ሐምሌ 7, ነሐሴ 28
+    expected monthly : -
+    expected annual  : ሐምሌ 7; ነሐሴ 28
+    DB annual rows   : ሐምሌ 7; ነሐሴ 28
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+[PASS] AM-MEL-063 | AM | የአባታችን አብርሃም መልክዕ በአማርኛ
+    locked text     : ሐምሌ 7, ነሐሴ 28
+    expected monthly : -
+    expected annual  : ሐምሌ 7; ነሐሴ 28
+    DB annual rows   : ሐምሌ 7; ነሐሴ 28
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: መልከ ጼዴቅ  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-075 | GZ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+    locked text     : ግንቦት 4, ጳጉሜን 3 / Monthly Day 9
+    expected monthly : 9
+    expected annual  : ግንቦት 4; ጳጉሜን 3
+    DB annual rows   : ግንቦት 4; ጳጉሜን 3
+    DB monthly-only  : መስከረም 9; ጥቅምት 9; ኅዳር 9; ታኅሣሥ 9; ጥር 9; የካቲት 9; መጋቢት 9; ሚያዝያ 9; ግንቦት 9; ሰኔ 9; ሐምሌ 9; ነሐሴ 9
+    DB row count     : 14  expected=14
+
+[PASS] AM-MEL-068 | AM | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    locked text     : ግንቦት 4, ጳጉሜን 3 / Monthly Day 9
+    expected monthly : 9
+    expected annual  : ግንቦት 4; ጳጉሜን 3
+    DB annual rows   : ግንቦት 4; ጳጉሜን 3
+    DB monthly-only  : መስከረም 9; ጥቅምት 9; ኅዳር 9; ታኅሣሥ 9; ጥር 9; የካቲት 9; መጋቢት 9; ሚያዝያ 9; ግንቦት 9; ሰኔ 9; ሐምሌ 9; ነሐሴ 9
+    DB row count     : 14  expected=14
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ቅዱስ ዮስጦስ  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-010 | GZ | ገድለ ቅዱስ ዮስጦስ በግእዝ
+    locked text     : የካቲት 10, ሐምሌ 17
+    expected monthly : -
+    expected annual  : የካቲት 10; ሐምሌ 17
+    DB annual rows   : የካቲት 10; ሐምሌ 17
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+[PASS] GZ-MEL-063 | GZ | መልክዐ ቅዱስ ዮስጦስ በግእዝ
+    locked text     : የካቲት 10, ሐምሌ 17
+    expected monthly : -
+    expected annual  : የካቲት 10; ሐምሌ 17
+    DB annual rows   : የካቲት 10; ሐምሌ 17
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ፊልጶስ  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-011 | GZ | ገድለ አቡነ ፊልጶስ በግእዝ
+    locked text     : ሐምሌ 28
+    expected monthly : -
+    expected annual  : ሐምሌ 28
+    DB annual rows   : ሐምሌ 28
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] GZ-MEL-118 | GZ | መልክዐ አቡነ ፊልጶስ በግእዝ
+    locked text     : ሐምሌ 28
+    expected monthly : -
+    expected annual  : ሐምሌ 28
+    DB annual rows   : ሐምሌ 28
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ፊልሞና  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-020 | GZ | ገድለ አቡነ ፊልሞና በግእዝ
+    locked text     : ታኅሣሥ 22
+    expected monthly : -
+    expected annual  : ታኅሣሥ 22
+    DB annual rows   : ታኅሣሥ 22
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] GZ-MEL-117 | GZ | መልክዐ አቡነ ፊልሞና በግእዝ
+    locked text     : ታኅሣሥ 22
+    expected monthly : -
+    expected annual  : ታኅሣሥ 22
+    DB annual rows   : ታኅሣሥ 22
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ዳንኤል  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-028 | GZ | ገድለ አቡነ ዳንኤል በግእዝ
+    locked text     : ኅዳር 6
+    expected monthly : -
+    expected annual  : ኅዳር 6
+    DB annual rows   : ኅዳር 6
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] GZ-MEL-114 | GZ | መልክዐ አቡነ ዳንኤል በግእዝ
+    locked text     : ኅዳር 6
+    expected monthly : -
+    expected annual  : ኅዳር 6
+    DB annual rows   : ኅዳር 6
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አቡነ ዮሴፍ  |  books=2
+====================================================================================================
+[PASS] GZ-GDL-029 | GZ | ገድለ አቡነ ዮሴፍ በግእዝ
+    locked text     : ግንቦት 19 / Monthly Day 19
+    expected monthly : 19
+    expected annual  : ግንቦት 19
+    DB annual rows   : ግንቦት 19
+    DB monthly-only  : መስከረም 19; ጥቅምት 19; ኅዳር 19; ታኅሣሥ 19; ጥር 19; የካቲት 19; መጋቢት 19; ሚያዝያ 19; ሰኔ 19; ሐምሌ 19; ነሐሴ 19
+    DB row count     : 12  expected=12
+
+[PASS] GZ-MEL-111 | GZ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    locked text     : ግንቦት 19 / Monthly Day 19
+    expected monthly : 19
+    expected annual  : ግንቦት 19
+    DB annual rows   : ግንቦት 19
+    DB monthly-only  : መስከረም 19; ጥቅምት 19; ኅዳር 19; ታኅሣሥ 19; ጥር 19; የካቲት 19; መጋቢት 19; ሚያዝያ 19; ሰኔ 19; ሐምሌ 19; ነሐሴ 19
+    DB row count     : 12  expected=12
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ቅዱስ መስቀል  |  books=6
+====================================================================================================
+[PASS] GZ-DRS-002 | GZ | ድርሳነ መስቀል በግእዝ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+[PASS] AM-DRS-008 | AM | ድርሳነ መስቀል በአማርኛ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+[PASS] GZ-MEL-051 | GZ | መልክዐ ቅዱስ መስቀል በግእዝ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+[PASS] AM-MEL-012 | AM | መልክዐ ቅዱስ መስቀል በአማርኛ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+[PASS] GZ-MEL-050 | GZ | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+[PASS] AM-MEL-040 | AM | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    locked text     : መስከረም 10, መስከረም 17, መስከረም 18, መስከረም 19, መስከረም 25, ኅዳር 8, መጋቢት 10, መጋቢት 27, ሚያዝያ 21, ነሐሴ 12 / Monthly Day 10
+    expected monthly : 10
+    expected annual  : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB annual rows   : መስከረም 10; መስከረም 17; መስከረም 18; መስከረም 19; መስከረም 25; ኅዳር 8; መጋቢት 10; መጋቢት 27; ሚያዝያ 21; ነሐሴ 12
+    DB monthly-only  : ጥቅምት 10; ኅዳር 10; ታኅሣሥ 10; ጥር 10; የካቲት 10; ሚያዝያ 10; ግንቦት 10; ሰኔ 10; ሐምሌ 10; ነሐሴ 10
+    DB row count     : 20  expected=20
+
+  GROUP DATE UNITY: PASS  (all 6 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ኢያቄም ወሐና  |  books=4
+====================================================================================================
+[PASS] GZ-DRS-007 | GZ | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    locked text     : መስከረም 7, መስከረም 12, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7, ኅዳር 11 / Monthly Day 1, 3, 11
+    expected monthly : 1, 3, 11
+    expected annual  : መስከረም 7; መስከረም 12; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7; ኅዳር 11
+    DB annual rows   : መስከረም 7; መስከረም 12; ኅዳር 11; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7
+    DB monthly-only  : መስከረም 1; መስከረም 3; መስከረም 11; ጥቅምት 1; ጥቅምት 3; ጥቅምት 11; ኅዳር 1; ኅዳር 3; ታኅሣሥ 1; ታኅሣሥ 11; ጥር 1; ጥር 3; ጥር 11; የካቲት 1; የካቲት 3; የካቲት 11; መጋቢት 1; መጋቢት 3; መጋቢት 11; ሚያዝያ 1; ሚያዝያ 3; ሚያዝያ 11; ግንቦት 3; ግንቦት 11; ሰኔ 1; ሰኔ 3; ሰኔ 11; ሐምሌ 1; ሐምሌ 3; ሐምሌ 11; ነሐሴ 3; ነሐሴ 11; ጳጉሜን 1; ጳጉሜን 3
+    DB row count     : 43  expected=43
+
+[PASS] AM-DRS-001 | AM | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    locked text     : መስከረም 7, መስከረም 12, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7, ኅዳር 11 / Monthly Day 1, 3, 11
+    expected monthly : 1, 3, 11
+    expected annual  : መስከረም 7; መስከረም 12; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7; ኅዳር 11
+    DB annual rows   : መስከረም 7; መስከረም 12; ኅዳር 11; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7
+    DB monthly-only  : መስከረም 1; መስከረም 3; መስከረም 11; ጥቅምት 1; ጥቅምት 3; ጥቅምት 11; ኅዳር 1; ኅዳር 3; ታኅሣሥ 1; ታኅሣሥ 11; ጥር 1; ጥር 3; ጥር 11; የካቲት 1; የካቲት 3; የካቲት 11; መጋቢት 1; መጋቢት 3; መጋቢት 11; ሚያዝያ 1; ሚያዝያ 3; ሚያዝያ 11; ግንቦት 3; ግንቦት 11; ሰኔ 1; ሰኔ 3; ሰኔ 11; ሐምሌ 1; ሐምሌ 3; ሐምሌ 11; ነሐሴ 3; ነሐሴ 11; ጳጉሜን 1; ጳጉሜን 3
+    DB row count     : 43  expected=43
+
+[PASS] GZ-MEL-022 | GZ | መልክዐ ሐና በግእዝ
+    locked text     : መስከረም 7, መስከረም 12, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7, ኅዳር 11 / Monthly Day 1, 3, 11
+    expected monthly : 1, 3, 11
+    expected annual  : መስከረም 7; መስከረም 12; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7; ኅዳር 11
+    DB annual rows   : መስከረም 7; መስከረም 12; ኅዳር 11; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7
+    DB monthly-only  : መስከረም 1; መስከረም 3; መስከረም 11; ጥቅምት 1; ጥቅምት 3; ጥቅምት 11; ኅዳር 1; ኅዳር 3; ታኅሣሥ 1; ታኅሣሥ 11; ጥር 1; ጥር 3; ጥር 11; የካቲት 1; የካቲት 3; የካቲት 11; መጋቢት 1; መጋቢት 3; መጋቢት 11; ሚያዝያ 1; ሚያዝያ 3; ሚያዝያ 11; ግንቦት 3; ግንቦት 11; ሰኔ 1; ሰኔ 3; ሰኔ 11; ሐምሌ 1; ሐምሌ 3; ሐምሌ 11; ነሐሴ 3; ነሐሴ 11; ጳጉሜን 1; ጳጉሜን 3
+    DB row count     : 43  expected=43
+
+[PASS] GZ-MEL-133 | GZ | መልክዐ ኢያቄም በግእዝ
+    locked text     : መስከረም 7, መስከረም 12, ታኅሣሥ 3, ታኅሣሥ 13, ሚያዝያ 7, ግንቦት 1, ነሐሴ 1, ነሐሴ 7, ኅዳር 11 / Monthly Day 1, 3, 11
+    expected monthly : 1, 3, 11
+    expected annual  : መስከረም 7; መስከረም 12; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7; ኅዳር 11
+    DB annual rows   : መስከረም 7; መስከረም 12; ኅዳር 11; ታኅሣሥ 3; ታኅሣሥ 13; ሚያዝያ 7; ግንቦት 1; ነሐሴ 1; ነሐሴ 7
+    DB monthly-only  : መስከረም 1; መስከረም 3; መስከረም 11; ጥቅምት 1; ጥቅምት 3; ጥቅምት 11; ኅዳር 1; ኅዳር 3; ታኅሣሥ 1; ታኅሣሥ 11; ጥር 1; ጥር 3; ጥር 11; የካቲት 1; የካቲት 3; የካቲት 11; መጋቢት 1; መጋቢት 3; መጋቢት 11; ሚያዝያ 1; ሚያዝያ 3; ሚያዝያ 11; ግንቦት 3; ግንቦት 11; ሰኔ 1; ሰኔ 3; ሰኔ 11; ሐምሌ 1; ሐምሌ 3; ሐምሌ 11; ነሐሴ 3; ነሐሴ 11; ጳጉሜን 1; ጳጉሜን 3
+    DB row count     : 43  expected=43
+
+  GROUP DATE UNITY: PASS  (all 4 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ሐራ ድንግል  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-021 | GZ | መልክዐ ሐራ ድንግል በግእዝ
+    locked text     : ጥር 11, ግንቦት 11 / Monthly Day 11
+    expected monthly : 11
+    expected annual  : ጥር 11; ግንቦት 11
+    DB annual rows   : ጥር 11; ግንቦት 11
+    DB monthly-only  : መስከረም 11; ጥቅምት 11; ኅዳር 11; ታኅሣሥ 11; የካቲት 11; መጋቢት 11; ሚያዝያ 11; ሰኔ 11; ሐምሌ 11; ነሐሴ 11
+    DB row count     : 12  expected=12
+
+[PASS] AM-MEL-019 | AM | መልክዐ አቡነ ሐራ ድንግል በአማርኛ
+    locked text     : ጥር 11, ግንቦት 11 / Monthly Day 11
+    expected monthly : 11
+    expected annual  : ጥር 11; ግንቦት 11
+    DB annual rows   : ጥር 11; ግንቦት 11
+    DB monthly-only  : መስከረም 11; ጥቅምት 11; ኅዳር 11; ታኅሣሥ 11; የካቲት 11; መጋቢት 11; ሚያዝያ 11; ሰኔ 11; ሐምሌ 11; ነሐሴ 11
+    DB row count     : 12  expected=12
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: መርምሕናም  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-049 | GZ | መልክዐ ቅዱስ መርምሕናም በግእዝ
+    locked text     : ታኅሣሥ 14, ጥር 20
+    expected monthly : -
+    expected annual  : ታኅሣሥ 14; ጥር 20
+    DB annual rows   : ታኅሣሥ 14; ጥር 20
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+[PASS] AM-MEL-039 | AM | የቅዱስ መርምሕናም መልክዕ በአማርኛ
+    locked text     : ታኅሣሥ 14, ጥር 20
+    expected monthly : -
+    expected annual  : ታኅሣሥ 14; ጥር 20
+    DB annual rows   : ታኅሣሥ 14; ጥር 20
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዕጨጌ ዮሐንስ  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-104 | GZ | መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ
+    locked text     : ሐምሌ 29
+    expected monthly : -
+    expected annual  : ሐምሌ 29
+    DB annual rows   : ሐምሌ 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] AM-MEL-020 | AM | መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ
+    locked text     : ሐምሌ 29
+    expected monthly : -
+    expected annual  : ሐምሌ 29
+    DB annual rows   : ሐምሌ 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አፍጼ  |  books=2
+====================================================================================================
+[PASS] GZ-MEL-101 | GZ | መልክዐ አቡነ አፍጼ በግእዝ
+    locked text     : ግንቦት 29
+    expected monthly : -
+    expected annual  : ግንቦት 29
+    DB annual rows   : ግንቦት 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] AM-MEL-024 | AM | መልክዐ አፍጼ በአማርኛ
+    locked text     : ግንቦት 29
+    expected monthly : -
+    expected annual  : ግንቦት 29
+    DB annual rows   : ግንቦት 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ኢየሱስ ሞዐ  |  books=2
+====================================================================================================
+[PASS] AM-GDL-026 | AM | ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ
+    locked text     : ኅዳር 26 / Monthly Day 26
+    expected monthly : 26
+    expected annual  : ኅዳር 26
+    DB annual rows   : ኅዳር 26
+    DB monthly-only  : መስከረም 26; ጥቅምት 26; ታኅሣሥ 26; ጥር 26; የካቲት 26; መጋቢት 26; ሚያዝያ 26; ግንቦት 26; ሰኔ 26; ሐምሌ 26; ነሐሴ 26
+    DB row count     : 12  expected=12
+
+[PASS] GZ-MEL-130 | GZ | መልክዐ ኢየሱስ ሞዐ በግእዝ
+    locked text     : ኅዳር 26 / Monthly Day 26
+    expected monthly : 26
+    expected annual  : ኅዳር 26
+    DB annual rows   : ኅዳር 26
+    DB monthly-only  : መስከረም 26; ጥቅምት 26; ታኅሣሥ 26; ጥር 26; የካቲት 26; መጋቢት 26; ሚያዝያ 26; ግንቦት 26; ሰኔ 26; ሐምሌ 26; ነሐሴ 26
+    DB row count     : 12  expected=12
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ምክሐ ምእመናን  |  books=2
+====================================================================================================
+[PASS] GZ-MIK-001 | GZ | ምክሐ ምእመናን በግእዝ
+    locked text     : ግንቦት 12
+    expected monthly : -
+    expected annual  : ግንቦት 12
+    DB annual rows   : ግንቦት 12
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+[PASS] GZ-MIK-002 | GZ | ምክሓ ምእመናን በግእዝ
+    locked text     : ግንቦት 12
+    expected monthly : -
+    expected annual  : ግንቦት 12
+    DB annual rows   : ግንቦት 12
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  GROUP DATE UNITY: PASS  (all 2 book_id share the same dates)
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: መባዓ ጽዮን  |  books=1
+====================================================================================================
+[PASS] AM-GDL-022 | AM | የመባዓ ጽዮን ገድል በአማርኛ
+    locked text     : ጥቅምት 27 / Monthly Day 27
+    expected monthly : 27
+    expected annual  : ጥቅምት 27
+    DB annual rows   : ጥቅምት 27
+    DB monthly-only  : መስከረም 27; ኅዳር 27; ታኅሣሥ 27; ጥር 27; የካቲት 27; መጋቢት 27; ሚያዝያ 27; ግንቦት 27; ሰኔ 27; ሐምሌ 27; ነሐሴ 27
+    DB row count     : 12  expected=12
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: የሰኔ ጎልጎታ  |  books=1
+====================================================================================================
+[PASS] AM-GOL-001 | AM | የሰኔ ጎልጎታ በአማርኛ
+    locked text     : Monthly Day 21
+    expected monthly : 21
+    expected annual  : -
+    DB annual rows   : -
+    DB monthly-only  : መስከረም 21; ጥቅምት 21; ኅዳር 21; ታኅሣሥ 21; ጥር 21; የካቲት 21; መጋቢት 21; ሚያዝያ 21; ግንቦት 21; ሰኔ 21; ሐምሌ 21; ነሐሴ 21
+    DB row count     : 12  expected=12
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዘርዐ አብርሃም  |  books=1
+====================================================================================================
+[PASS] GZ-GDL-013 | GZ | ገድለ ዘርዐ አብርሃም በግእዝ
+    locked text     : ታኅሣሥ 24
+    expected monthly : -
+    expected annual  : ታኅሣሥ 24
+    DB annual rows   : ታኅሣሥ 24
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ተክለ ሐዋርያት  |  books=1
+====================================================================================================
+[PASS] GZ-GDL-017 | GZ | ገድለ አቡነ ተክለ ሐዋርያት በግእዝ
+    locked text     : ኅዳር 27
+    expected monthly : -
+    expected annual  : ኅዳር 27
+    DB annual rows   : ኅዳር 27
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: መዝራዕተ ክርስቶስ  |  books=1
+====================================================================================================
+[PASS] GZ-GDL-023 | GZ | ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ
+    locked text     : ግንቦት 29
+    expected monthly : -
+    expected annual  : ግንቦት 29
+    DB annual rows   : ግንቦት 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አፍኒን  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-010 | GZ | መልክዐ ሊቀ መላእክት ቅዱስ አፍኒን በግእዝ
+    locked text     : ኅዳር 8
+    expected monthly : -
+    expected annual  : ኅዳር 8
+    DB annual rows   : ኅዳር 8
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ሕፃን ሞዐ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-025 | GZ | መልክዐ ሕፃን ሞዐ በግእዝ
+    locked text     : ሐምሌ 25
+    expected monthly : -
+    expected annual  : ሐምሌ 25
+    DB annual rows   : ሐምሌ 25
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ቁስቋም  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-045 | GZ | መልክዐ ቁስቋም በግእዝ
+    locked text     : ኅዳር 6 / Monthly Day 6
+    expected monthly : 6
+    expected annual  : ኅዳር 6
+    DB annual rows   : ኅዳር 6
+    DB monthly-only  : መስከረም 6; ጥቅምት 6; ታኅሣሥ 6; ጥር 6; የካቲት 6; መጋቢት 6; ሚያዝያ 6; ግንቦት 6; ሰኔ 6; ሐምሌ 6; ነሐሴ 6; ጳጉሜን 6
+    DB row count     : 13  expected=13
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አግናጥዮስ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-058 | GZ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+    locked text     : ጥቅምት 26, ታኅሣሥ 24, ሐምሌ 1, ሐምሌ 7 / Monthly Day 7
+    expected monthly : 7
+    expected annual  : ጥቅምት 26; ታኅሣሥ 24; ሐምሌ 1; ሐምሌ 7
+    DB annual rows   : ጥቅምት 26; ታኅሣሥ 24; ሐምሌ 1; ሐምሌ 7
+    DB monthly-only  : መስከረም 7; ጥቅምት 7; ኅዳር 7; ታኅሣሥ 7; ጥር 7; የካቲት 7; መጋቢት 7; ሚያዝያ 7; ግንቦት 7; ሰኔ 7; ነሐሴ 7
+    DB row count     : 15  expected=15
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ነአኵቶ ለአብ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-071 | GZ | መልክዐ ነአኵቶ ለአብ በግእዝ
+    locked text     : ኅዳር 1, ኅዳር 3
+    expected monthly : -
+    expected annual  : ኅዳር 1; ኅዳር 3
+    DB annual rows   : ኅዳር 1; ኅዳር 3
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ሠምረ ክርስቶስ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-082 | GZ | መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ
+    locked text     : ጥር 20
+    expected monthly : -
+    expected annual  : ጥር 20
+    DB annual rows   : ጥር 20
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ሳሙኤል ሣልስ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-084 | GZ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+    locked text     : ጥቅምት 29, ታኅሣሥ 12, ታኅሣሥ 23, ሚያዝያ 12 / Monthly Day 12
+    expected monthly : 12
+    expected annual  : ጥቅምት 29; ታኅሣሥ 12; ታኅሣሥ 23; ሚያዝያ 12
+    DB annual rows   : ጥቅምት 29; ታኅሣሥ 12; ታኅሣሥ 23; ሚያዝያ 12
+    DB monthly-only  : መስከረም 12; ጥቅምት 12; ኅዳር 12; ጥር 12; የካቲት 12; መጋቢት 12; ግንቦት 12; ሰኔ 12; ሐምሌ 12; ነሐሴ 12
+    DB row count     : 14  expected=14
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ሴት  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-087 | GZ | መልክዐ አቡነ ሴት በግእዝ
+    locked text     : ኅዳር 24
+    expected monthly : -
+    expected annual  : ኅዳር 24
+    DB annual rows   : ኅዳር 24
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ቡሩከ አምላክ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-088 | GZ | መልክዐ አቡነ ቡሩከ አምላክ ዘደብረ ኮል በግእዝ
+    locked text     : ነሐሴ 14
+    expected monthly : -
+    expected annual  : ነሐሴ 14
+    DB annual rows   : ነሐሴ 14
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ብፁዓ አምላክ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-089 | GZ | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+    locked text     : ታኅሣሥ 1, ግንቦት 9
+    expected monthly : -
+    expected annual  : ታኅሣሥ 1; ግንቦት 9
+    DB annual rows   : ታኅሣሥ 1; ግንቦት 9
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አብራንዮስ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-097 | GZ | መልክዐ አቡነ አብራንዮስ ዘደብር ጥሉል በግእዝ
+    locked text     : ኅዳር 22, ሰኔ 22
+    expected monthly : -
+    expected annual  : ኅዳር 22; ሰኔ 22
+    DB annual rows   : ኅዳር 22; ሰኔ 22
+    DB monthly-only  : -
+    DB row count     : 2  expected=2
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዮስጢኖስ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-112 | GZ | መልክዐ አቡነ ዮስጢኖስ በግእዝ
+    locked text     : ነሐሴ 16
+    expected monthly : -
+    expected annual  : ነሐሴ 16
+    DB annual rows   : ነሐሴ 16
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ጼዋ ለጽድቅ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-116 | GZ | መልክዐ አቡነ ጼዋ ለጽድቅ በግእዝ
+    locked text     : ኅዳር 29
+    expected monthly : -
+    expected annual  : ኅዳር 29
+    DB annual rows   : ኅዳር 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: አባ ኖብ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-122 | GZ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+    locked text     : መስከረም 18, ኅዳር 7, የካቲት 5, መጋቢት 9, ሰኔ 19, ሰኔ 23, ሐምሌ 24
+    expected monthly : -
+    expected annual  : መስከረም 18; ኅዳር 7; የካቲት 5; መጋቢት 9; ሰኔ 19; ሰኔ 23; ሐምሌ 24
+    DB annual rows   : መስከረም 18; ኅዳር 7; የካቲት 5; መጋቢት 9; ሰኔ 19; ሰኔ 23; ሐምሌ 24
+    DB monthly-only  : -
+    DB row count     : 7  expected=7
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዓቢየ እግዚእ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-145 | GZ | መልክዐ ዓቢየ እግዚእ በግእዝ
+    locked text     : ግንቦት 19, ነሐሴ 10, ነሐሴ 13 / Monthly Day 19
+    expected monthly : 19
+    expected annual  : ግንቦት 19; ነሐሴ 10; ነሐሴ 13
+    DB annual rows   : ግንቦት 19; ነሐሴ 10; ነሐሴ 13
+    DB monthly-only  : መስከረም 19; ጥቅምት 19; ኅዳር 19; ታኅሣሥ 19; ጥር 19; የካቲት 19; መጋቢት 19; ሚያዝያ 19; ሰኔ 19; ሐምሌ 19; ነሐሴ 19
+    DB row count     : 14  expected=14
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ዘባርክናሃ  |  books=1
+====================================================================================================
+[PASS] GZ-MEL-160 | GZ | መልክዐ ጻድቃን ዘባርክናሃ በግእዝ
+    locked text     : ታኅሣሥ 29
+    expected monthly : -
+    expected annual  : ታኅሣሥ 29
+    DB annual rows   : ታኅሣሥ 29
+    DB monthly-only  : -
+    DB row count     : 1  expected=1
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+SAINT: ጴጥሮስ  |  books=1
+====================================================================================================
+[PASS] GZ-TSE-007 | GZ | ጸሎቱ ለጴጥሮስ በግእዝ
+    locked text     : ታኅሣሥ 1, የካቲት 9, ሰኔ 21, ሐምሌ 5, ነሐሴ 7 / Monthly Day 5
+    expected monthly : 5
+    expected annual  : ታኅሣሥ 1; የካቲት 9; ሰኔ 21; ሐምሌ 5; ነሐሴ 7
+    DB annual rows   : ታኅሣሥ 1; የካቲት 9; ሰኔ 21; ሐምሌ 5; ነሐሴ 7
+    DB monthly-only  : መስከረም 5; ጥቅምት 5; ኅዳር 5; ታኅሣሥ 5; ጥር 5; የካቲት 5; መጋቢት 5; ሚያዝያ 5; ግንቦት 5; ሰኔ 5; ነሐሴ 5; ጳጉሜን 5
+    DB row count     : 17  expected=17
+
+  SAINT RESULT: PASS
+
+====================================================================================================
+CROSS-DATE LOOKUP (app question: today month/day -> which book_id?)
+====================================================================================================
+ታኅሣሥ 27  (4/27)  hits=6
+    ANNUAL  | AM-GDL-006   | አባ በግዑ | የአባ በግዑ ገድል በአማርኛ
+    ANNUAL  | GZ-GDL-025   | አባ በግዑ | ገድለ አባ በግዑ በግእዝ
+    MONTHLY | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+    MONTHLY | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    MONTHLY | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    MONTHLY | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+ታኅሣሥ 5  (4/5)  hits=4
+    ANNUAL  | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    ANNUAL  | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    ANNUAL  | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+    MONTHLY | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+
+የካቲት 13  (6/13)  hits=3
+    ANNUAL  | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    ANNUAL  | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    ANNUAL  | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+ሚያዝያ 27  (8/27)  hits=4
+    ANNUAL  | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    ANNUAL  | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    ANNUAL  | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+    MONTHLY | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+
+መስከረም 27  (1/27)  hits=4
+    MONTHLY | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+    MONTHLY | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    MONTHLY | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    MONTHLY | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+ጥቅምት 25  (2/25)  hits=5
+    ANNUAL  | AM-GDL-024   | አቡነ አቢብ | ገድለ ቅዱስ አቡነ አቢብ በአማርኛ
+    ANNUAL  | AM-MEL-003   | አቡነ አቢብ | መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ
+    ANNUAL  | AM-MEL-059   | አቡነ አቢብ | የአቡነ አቢብ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-095   | አቡነ አቢብ | መልክዐ አቡነ አቢብ በግእዝ
+    ANNUAL  | GZ-MEL-144   | አቡነ አቢብ | መልክዐ ዐቢብ ካልዕ በግእዝ
+
+ሚያዝያ 15  (8/15)  hits=7
+    ANNUAL  | AM-GDL-024   | አቡነ አቢብ | ገድለ ቅዱስ አቡነ አቢብ በአማርኛ
+    ANNUAL  | AM-MEL-003   | አቡነ አቢብ | መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | AM-MEL-059   | አቡነ አቢብ | የአቡነ አቢብ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    ANNUAL  | GZ-MEL-095   | አቡነ አቢብ | መልክዐ አቡነ አቢብ በግእዝ
+    ANNUAL  | GZ-MEL-144   | አቡነ አቢብ | መልክዐ ዐቢብ ካልዕ በግእዝ
+
+መስከረም 25  (1/25)  hits=11
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    MONTHLY | AM-GDL-024   | አቡነ አቢብ | ገድለ ቅዱስ አቡነ አቢብ በአማርኛ
+    MONTHLY | AM-MEL-003   | አቡነ አቢብ | መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ
+    MONTHLY | AM-MEL-059   | አቡነ አቢብ | የአቡነ አቢብ መልክዕ በአማርኛ
+    MONTHLY | GZ-MEL-095   | አቡነ አቢብ | መልክዐ አቡነ አቢብ በግእዝ
+    MONTHLY | GZ-MEL-144   | አቡነ አቢብ | መልክዐ ዐቢብ ካልዕ በግእዝ
+
+ታኅሣሥ 1  (4/1)  hits=10
+    ANNUAL  | AM-DRS-005   | ኤልያስ ነቢይ | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    ANNUAL  | AM-MEL-052   | ኤልያስ ነቢይ | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-059   | ኤልያስ ነቢይ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-089   | ብፁዓ አምላክ | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+    ANNUAL  | GZ-MEL-134   | ኤልያስ ነቢይ | መልክዐ ኤልያስ በግእዝ
+    ANNUAL  | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ጥር 6  (5/6)  hits=5
+    ANNUAL  | AM-DRS-005   | ኤልያስ ነቢይ | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    ANNUAL  | AM-MEL-052   | ኤልያስ ነቢይ | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-059   | ኤልያስ ነቢይ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-134   | ኤልያስ ነቢይ | መልክዐ ኤልያስ በግእዝ
+    MONTHLY | GZ-MEL-045   | ቁስቋም | መልክዐ ቁስቋም በግእዝ
+
+ነሐሴ 13  (12/13)  hits=5
+    ANNUAL  | AM-DRS-005   | ኤልያስ ነቢይ | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    ANNUAL  | AM-MEL-052   | ኤልያስ ነቢይ | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-059   | ኤልያስ ነቢይ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-134   | ኤልያስ ነቢይ | መልክዐ ኤልያስ በግእዝ
+    ANNUAL  | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+መስከረም 6  (1/6)  hits=5
+    MONTHLY | AM-DRS-005   | ኤልያስ ነቢይ | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    MONTHLY | AM-MEL-052   | ኤልያስ ነቢይ | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-MEL-045   | ቁስቋም | መልክዐ ቁስቋም በግእዝ
+    MONTHLY | GZ-MEL-059   | ኤልያስ ነቢይ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    MONTHLY | GZ-MEL-134   | ኤልያስ ነቢይ | መልክዐ ኤልያስ በግእዝ
+
+መስከረም 1  (1/1)  hits=6
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+መስከረም 2  (1/2)  hits=2
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+
+መስከረም 26  (1/26)  hits=4
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    MONTHLY | AM-GDL-026   | ኢየሱስ ሞዐ | ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ
+    MONTHLY | GZ-MEL-130   | ኢየሱስ ሞዐ | መልክዐ ኢየሱስ ሞዐ በግእዝ
+
+ጥር 11  (5/11)  hits=8
+    ANNUAL  | AM-MEL-019   | ሐራ ድንግል | መልክዐ አቡነ ሐራ ድንግል በአማርኛ
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-021   | ሐራ ድንግል | መልክዐ ሐራ ድንግል በግእዝ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+የካቲት 30  (6/30)  hits=2
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+
+ሰኔ 2  (10/2)  hits=2
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+
+ሰኔ 30  (10/30)  hits=2
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+
+ጳጉሜን 1  (13/1)  hits=6
+    ANNUAL  | AM-MEL-048   | ዮሐንስ መጥምቅ | የቅዱስ ዮሐንስ መጥምቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-060   | ዮሐንስ መጥምቅ | መልክዐ ቅዱስ ዮሐንስ መጥምቅ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ጥር 3  (5/3)  hits=7
+    ANNUAL  | AM-MEL-053   | አቡነ ሊባኖስ | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-018   | አቡነ ሊባኖስ | መልክዐ ሊባኖስ በግእዝ
+    ANNUAL  | GZ-MEL-074   | አቡነ ሊባኖስ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+መስከረም 3  (1/3)  hits=7
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | AM-MEL-053   | አቡነ ሊባኖስ | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-018   | አቡነ ሊባኖስ | መልክዐ ሊባኖስ በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-074   | አቡነ ሊባኖስ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+መጋቢት 10  (7/10)  hits=8
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | AM-MEL-056   | አቡነ ተከስተ ብርሃን | የአቡነ ተከስተ ብርሃን መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-091   | አቡነ ተከስተ ብርሃን | መልክዐ አቡነ ተከስተ ብርሃን በግእዝ
+
+ታኅሣሥ 19  (4/19)  hits=5
+    ANNUAL  | AM-MEL-060   | አቡነ አባለ ክርስቶስ | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-096   | አቡነ አባለ ክርስቶስ | መልክዐ አቡነ አባለ ክርስቶስ በግእዝ
+    MONTHLY | GZ-GDL-029   | አቡነ ዮሴፍ | ገድለ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-111   | አቡነ ዮሴፍ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+የካቲት 19  (6/19)  hits=5
+    ANNUAL  | AM-MEL-060   | አቡነ አባለ ክርስቶስ | የአቡነ አባለ ክርስቶስ ጻድቅ መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-096   | አቡነ አባለ ክርስቶስ | መልክዐ አቡነ አባለ ክርስቶስ በግእዝ
+    MONTHLY | GZ-GDL-029   | አቡነ ዮሴፍ | ገድለ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-111   | አቡነ ዮሴፍ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+ሐምሌ 7  (11/7)  hits=3
+    ANNUAL  | AM-MEL-063   | አብርሃም | የአባታችን አብርሃም መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+    ANNUAL  | GZ-MEL-098   | አብርሃም | መልክዐ አቡነ አብርሃም በግእዝ
+
+ነሐሴ 28  (12/28)  hits=2
+    ANNUAL  | AM-MEL-063   | አብርሃም | የአባታችን አብርሃም መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-098   | አብርሃም | መልክዐ አቡነ አብርሃም በግእዝ
+
+ግንቦት 4  (9/4)  hits=2
+    ANNUAL  | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    ANNUAL  | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+
+ጳጉሜን 3  (13/3)  hits=9
+    ANNUAL  | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    ANNUAL  | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | AM-MEL-053   | አቡነ ሊባኖስ | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-018   | አቡነ ሊባኖስ | መልክዐ ሊባኖስ በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-074   | አቡነ ሊባኖስ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+መስከረም 9  (1/9)  hits=2
+    MONTHLY | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    MONTHLY | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+
+የካቲት 10  (6/10)  hits=8
+    ANNUAL  | GZ-GDL-010   | ቅዱስ ዮስጦስ | ገድለ ቅዱስ ዮስጦስ በግእዝ
+    ANNUAL  | GZ-MEL-063   | ቅዱስ ዮስጦስ | መልክዐ ቅዱስ ዮስጦስ በግእዝ
+    MONTHLY | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    MONTHLY | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    MONTHLY | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    MONTHLY | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    MONTHLY | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+
+ሐምሌ 17  (11/17)  hits=2
+    ANNUAL  | GZ-GDL-010   | ቅዱስ ዮስጦስ | ገድለ ቅዱስ ዮስጦስ በግእዝ
+    ANNUAL  | GZ-MEL-063   | ቅዱስ ዮስጦስ | መልክዐ ቅዱስ ዮስጦስ በግእዝ
+
+ሐምሌ 28  (11/28)  hits=2
+    ANNUAL  | GZ-GDL-011   | አቡነ ፊልጶስ | ገድለ አቡነ ፊልጶስ በግእዝ
+    ANNUAL  | GZ-MEL-118   | አቡነ ፊልጶስ | መልክዐ አቡነ ፊልጶስ በግእዝ
+
+ታኅሣሥ 22  (4/22)  hits=2
+    ANNUAL  | GZ-GDL-020   | አቡነ ፊልሞና | ገድለ አቡነ ፊልሞና በግእዝ
+    ANNUAL  | GZ-MEL-117   | አቡነ ፊልሞና | መልክዐ አቡነ ፊልሞና በግእዝ
+
+ኅዳር 6  (3/6)  hits=7
+    ANNUAL  | GZ-GDL-028   | አቡነ ዳንኤል | ገድለ አቡነ ዳንኤል በግእዝ
+    ANNUAL  | GZ-MEL-045   | ቁስቋም | መልክዐ ቁስቋም በግእዝ
+    ANNUAL  | GZ-MEL-114   | አቡነ ዳንኤል | መልክዐ አቡነ ዳንኤል በግእዝ
+    MONTHLY | AM-DRS-005   | ኤልያስ ነቢይ | ድርሳነ ኤልያስ ነቢይ በአማርኛ
+    MONTHLY | AM-MEL-052   | ኤልያስ ነቢይ | የነቢዩ የቅዱስ ኤልያስ 3ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-MEL-059   | ኤልያስ ነቢይ | መልክዐ ቅዱስ ኤልያስ ነቢይ ሣልስ በግእዝ
+    MONTHLY | GZ-MEL-134   | ኤልያስ ነቢይ | መልክዐ ኤልያስ በግእዝ
+
+ግንቦት 19  (9/19)  hits=3
+    ANNUAL  | GZ-GDL-029   | አቡነ ዮሴፍ | ገድለ አቡነ ዮሴፍ በግእዝ
+    ANNUAL  | GZ-MEL-111   | አቡነ ዮሴፍ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    ANNUAL  | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+መስከረም 19  (1/19)  hits=9
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    MONTHLY | GZ-GDL-029   | አቡነ ዮሴፍ | ገድለ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-111   | አቡነ ዮሴፍ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+መስከረም 10  (1/10)  hits=6
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+
+መስከረም 17  (1/17)  hits=6
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+
+መስከረም 18  (1/18)  hits=7
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+
+ኅዳር 8  (3/8)  hits=7
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-010   | አፍኒን | መልክዐ ሊቀ መላእክት ቅዱስ አፍኒን በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+
+መጋቢት 27  (7/27)  hits=10
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    MONTHLY | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+    MONTHLY | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    MONTHLY | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    MONTHLY | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+ሚያዝያ 21  (8/21)  hits=7
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    MONTHLY | AM-GOL-001   | የሰኔ ጎልጎታ | የሰኔ ጎልጎታ በአማርኛ
+
+ነሐሴ 12  (12/12)  hits=7
+    ANNUAL  | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    ANNUAL  | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    ANNUAL  | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    ANNUAL  | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    ANNUAL  | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+    MONTHLY | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+መስከረም 7  (1/7)  hits=5
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    MONTHLY | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+
+መስከረም 12  (1/12)  hits=5
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    MONTHLY | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ታኅሣሥ 3  (4/3)  hits=7
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    MONTHLY | AM-MEL-053   | አቡነ ሊባኖስ | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-MEL-018   | አቡነ ሊባኖስ | መልክዐ ሊባኖስ በግእዝ
+    MONTHLY | GZ-MEL-074   | አቡነ ሊባኖስ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+
+ታኅሣሥ 13  (4/13)  hits=4
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ሚያዝያ 7  (8/7)  hits=5
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    MONTHLY | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+
+ግንቦት 1  (9/1)  hits=4
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ነሐሴ 1  (12/1)  hits=4
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ነሐሴ 7  (12/7)  hits=6
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    ANNUAL  | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+    MONTHLY | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+
+ኅዳር 11  (3/11)  hits=6
+    ANNUAL  | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    ANNUAL  | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    ANNUAL  | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    ANNUAL  | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+    MONTHLY | AM-MEL-019   | ሐራ ድንግል | መልክዐ አቡነ ሐራ ድንግል በአማርኛ
+    MONTHLY | GZ-MEL-021   | ሐራ ድንግል | መልክዐ ሐራ ድንግል በግእዝ
+
+ግንቦት 11  (9/11)  hits=6
+    ANNUAL  | AM-MEL-019   | ሐራ ድንግል | መልክዐ አቡነ ሐራ ድንግል በአማርኛ
+    ANNUAL  | GZ-MEL-021   | ሐራ ድንግል | መልክዐ ሐራ ድንግል በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+መስከረም 11  (1/11)  hits=6
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | AM-MEL-019   | ሐራ ድንግል | መልክዐ አቡነ ሐራ ድንግል በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-021   | ሐራ ድንግል | መልክዐ ሐራ ድንግል በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ታኅሣሥ 14  (4/14)  hits=2
+    ANNUAL  | AM-MEL-039   | መርምሕናም | የቅዱስ መርምሕናም መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-049   | መርምሕናም | መልክዐ ቅዱስ መርምሕናም በግእዝ
+
+ጥር 20  (5/20)  hits=3
+    ANNUAL  | AM-MEL-039   | መርምሕናም | የቅዱስ መርምሕናም መልክዕ በአማርኛ
+    ANNUAL  | GZ-MEL-049   | መርምሕናም | መልክዐ ቅዱስ መርምሕናም በግእዝ
+    ANNUAL  | GZ-MEL-082   | ሠምረ ክርስቶስ | መልክዐ አቡነ ሠምረ ክርስቶስ በግእዝ
+
+ሐምሌ 29  (11/29)  hits=2
+    ANNUAL  | AM-MEL-020   | ዕጨጌ ዮሐንስ | መልክዐ አቡነ ዕጨጌ ዮሐንስ በአማርኛ
+    ANNUAL  | GZ-MEL-104   | ዕጨጌ ዮሐንስ | መልክዐ አቡነ ዕጨጌ ዮሐንስ በግእዝ
+
+ግንቦት 29  (9/29)  hits=3
+    ANNUAL  | AM-MEL-024   | አፍጼ | መልክዐ አፍጼ በአማርኛ
+    ANNUAL  | GZ-GDL-023   | መዝራዕተ ክርስቶስ | ገድለ አቡነ መዝራዕተ ክርስቶስ በግእዝ
+    ANNUAL  | GZ-MEL-101   | አፍጼ | መልክዐ አቡነ አፍጼ በግእዝ
+
+ኅዳር 26  (3/26)  hits=2
+    ANNUAL  | AM-GDL-026   | ኢየሱስ ሞዐ | ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ
+    ANNUAL  | GZ-MEL-130   | ኢየሱስ ሞዐ | መልክዐ ኢየሱስ ሞዐ በግእዝ
+
+ግንቦት 12  (9/12)  hits=3
+    ANNUAL  | GZ-MIK-001   | ምክሐ ምእመናን | ምክሐ ምእመናን በግእዝ
+    ANNUAL  | GZ-MIK-002   | ምክሐ ምእመናን | ምክሓ ምእመናን በግእዝ
+    MONTHLY | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ጥቅምት 27  (2/27)  hits=4
+    ANNUAL  | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+    MONTHLY | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    MONTHLY | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    MONTHLY | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+መስከረም 21  (1/21)  hits=1
+    MONTHLY | AM-GOL-001   | የሰኔ ጎልጎታ | የሰኔ ጎልጎታ በአማርኛ
+
+ታኅሣሥ 24  (4/24)  hits=2
+    ANNUAL  | GZ-GDL-013   | ዘርዐ አብርሃም | ገድለ ዘርዐ አብርሃም በግእዝ
+    ANNUAL  | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+
+ኅዳር 27  (3/27)  hits=5
+    ANNUAL  | GZ-GDL-017   | ተክለ ሐዋርያት | ገድለ አቡነ ተክለ ሐዋርያት በግእዝ
+    MONTHLY | AM-GDL-022   | መባዓ ጽዮን | የመባዓ ጽዮን ገድል በአማርኛ
+    MONTHLY | AM-GDL-029   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በአማርኛ
+    MONTHLY | GZ-GDL-027   | ቅዱስ ፊቅጦር | ገድለ ቅዱስ ፊቅጦር በግእዝ
+    MONTHLY | GZ-MEL-162   | ቅዱስ ፊቅጦር | መልክዐ ፊቅጦር በግእዝ
+
+ሐምሌ 25  (11/25)  hits=6
+    ANNUAL  | GZ-MEL-025   | ሕፃን ሞዐ | መልክዐ ሕፃን ሞዐ በግእዝ
+    MONTHLY | AM-GDL-024   | አቡነ አቢብ | ገድለ ቅዱስ አቡነ አቢብ በአማርኛ
+    MONTHLY | AM-MEL-003   | አቡነ አቢብ | መልክዐ ለአቡነ አቢብ ጻድቅ በአማርኛ
+    MONTHLY | AM-MEL-059   | አቡነ አቢብ | የአቡነ አቢብ መልክዕ በአማርኛ
+    MONTHLY | GZ-MEL-095   | አቡነ አቢብ | መልክዐ አቡነ አቢብ በግእዝ
+    MONTHLY | GZ-MEL-144   | አቡነ አቢብ | መልክዐ ዐቢብ ካልዕ በግእዝ
+
+ጥቅምት 26  (2/26)  hits=3
+    ANNUAL  | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+    MONTHLY | AM-GDL-026   | ኢየሱስ ሞዐ | ገድለ አቡነ ኢየሱስ ሞዐ በአማርኛ
+    MONTHLY | GZ-MEL-130   | ኢየሱስ ሞዐ | መልክዐ ኢየሱስ ሞዐ በግእዝ
+
+ሐምሌ 1  (11/1)  hits=5
+    ANNUAL  | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ኅዳር 1  (3/1)  hits=5
+    ANNUAL  | GZ-MEL-071   | ነአኵቶ ለአብ | መልክዐ ነአኵቶ ለአብ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ኅዳር 3  (3/3)  hits=8
+    ANNUAL  | GZ-MEL-071   | ነአኵቶ ለአብ | መልክዐ ነአኵቶ ለአብ በግእዝ
+    MONTHLY | AM-DRS-001   | ኢያቄም ወሐና | የቅዱስ ኢያቄምና- የቅድስት ሐና ድርሳን በአማርኛ
+    MONTHLY | AM-MEL-053   | አቡነ ሊባኖስ | የአቡነ ሊባኖስ 2ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-DRS-007   | ኢያቄም ወሐና | ድርሳን ዘቅዱስ ኢያቄም ወቅድስት ሐና በግእዝ
+    MONTHLY | GZ-MEL-018   | አቡነ ሊባኖስ | መልክዐ ሊባኖስ በግእዝ
+    MONTHLY | GZ-MEL-022   | ኢያቄም ወሐና | መልክዐ ሐና በግእዝ
+    MONTHLY | GZ-MEL-074   | አቡነ ሊባኖስ | መልክዐ አቡነ ሊባኖስ ካልእ በግእዝ
+    MONTHLY | GZ-MEL-133   | ኢያቄም ወሐና | መልክዐ ኢያቄም በግእዝ
+
+ጥቅምት 29  (2/29)  hits=1
+    ANNUAL  | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ታኅሣሥ 12  (4/12)  hits=1
+    ANNUAL  | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ታኅሣሥ 23  (4/23)  hits=1
+    ANNUAL  | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ሚያዝያ 12  (8/12)  hits=1
+    ANNUAL  | GZ-MEL-084   | ሳሙኤል ሣልስ | መልክዐ አቡነ ሳሙኤል በግእዝ ሣልስ በግእዝ
+
+ኅዳር 24  (3/24)  hits=1
+    ANNUAL  | GZ-MEL-087   | ሴት | መልክዐ አቡነ ሴት በግእዝ
+
+ነሐሴ 14  (12/14)  hits=1
+    ANNUAL  | GZ-MEL-088   | ቡሩከ አምላክ | መልክዐ አቡነ ቡሩከ አምላክ ዘደብረ ኮል በግእዝ
+
+ግንቦት 9  (9/9)  hits=3
+    ANNUAL  | GZ-MEL-089   | ብፁዓ አምላክ | መልክዐ አቡነ ብፁዓ አምላክ ዘደብረ ምዕዋን ወዘደብረ ኰዳዱ በግእዝ
+    MONTHLY | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    MONTHLY | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+
+ኅዳር 22  (3/22)  hits=1
+    ANNUAL  | GZ-MEL-097   | አብራንዮስ | መልክዐ አቡነ አብራንዮስ ዘደብር ጥሉል በግእዝ
+
+ሰኔ 22  (10/22)  hits=1
+    ANNUAL  | GZ-MEL-097   | አብራንዮስ | መልክዐ አቡነ አብራንዮስ ዘደብር ጥሉል በግእዝ
+
+ነሐሴ 16  (12/16)  hits=1
+    ANNUAL  | GZ-MEL-112   | ዮስጢኖስ | መልክዐ አቡነ ዮስጢኖስ በግእዝ
+
+ኅዳር 29  (3/29)  hits=1
+    ANNUAL  | GZ-MEL-116   | ጼዋ ለጽድቅ | መልክዐ አቡነ ጼዋ ለጽድቅ በግእዝ
+
+ኅዳር 7  (3/7)  hits=2
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+    MONTHLY | GZ-MEL-058   | አግናጥዮስ | መልክዐ ቅዱስ አግናጥዮስ ምጥው ለአንበሳ በግእዝ
+
+የካቲት 5  (6/5)  hits=2
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+    MONTHLY | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+
+መጋቢት 9  (7/9)  hits=3
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+    MONTHLY | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    MONTHLY | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+
+ሰኔ 19  (10/19)  hits=4
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+    MONTHLY | GZ-GDL-029   | አቡነ ዮሴፍ | ገድለ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-111   | አቡነ ዮሴፍ | መልክዐ አቡነ ዮሴፍ በግእዝ
+    MONTHLY | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+
+ሰኔ 23  (10/23)  hits=1
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+
+ሐምሌ 24  (11/24)  hits=1
+    ANNUAL  | GZ-MEL-122   | አባ ኖብ | መልክዐ አባ ኖብ ሰማዕት በግእዝ
+
+ነሐሴ 10  (12/10)  hits=7
+    ANNUAL  | GZ-MEL-145   | ዓቢየ እግዚእ | መልክዐ ዓቢየ እግዚእ በግእዝ
+    MONTHLY | AM-DRS-008   | ቅዱስ መስቀል | ድርሳነ መስቀል በአማርኛ
+    MONTHLY | AM-MEL-012   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በአማርኛ
+    MONTHLY | AM-MEL-040   | ቅዱስ መስቀል | የቅዱስ መስቀል 3ኛ መልክዕ በአማርኛ
+    MONTHLY | GZ-DRS-002   | ቅዱስ መስቀል | ድርሳነ መስቀል በግእዝ
+    MONTHLY | GZ-MEL-050   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል ሣልስ በግእዝ
+    MONTHLY | GZ-MEL-051   | ቅዱስ መስቀል | መልክዐ ቅዱስ መስቀል በግእዝ
+
+ታኅሣሥ 29  (4/29)  hits=1
+    ANNUAL  | GZ-MEL-160   | ዘባርክናሃ | መልክዐ ጻድቃን ዘባርክናሃ በግእዝ
+
+የካቲት 9  (6/9)  hits=3
+    ANNUAL  | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+    MONTHLY | AM-MEL-068   | መልከ ጼዴቅ | የአቡነ መልከ ጼዴቅ መልክእ በአማርኛ
+    MONTHLY | GZ-MEL-075   | መልከ ጼዴቅ | መልክዐ አቡነ መልከ ጼዴቅ በግእዝ
+
+ሰኔ 21  (10/21)  hits=2
+    ANNUAL  | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+    MONTHLY | AM-GOL-001   | የሰኔ ጎልጎታ | የሰኔ ጎልጎታ በአማርኛ
+
+ሐምሌ 5  (11/5)  hits=1
+    ANNUAL  | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+
+መስከረም 5  (1/5)  hits=1
+    MONTHLY | GZ-TSE-007   | ጴጥሮስ | ጸሎቱ ለጴጥሮስ በግእዝ
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+Locked saints: 45
+Locked book_id: 81
+book_id PASS: 81
+book_id FAIL: 0
+saint PASS: 45
+saint FAIL: 0
+DB mapped book_id: 81
+DB mapping rows: 811
+
+SAINT RESULTS
+  PASS  አባ በግዑ
+  PASS  ቅዱስ ፊቅጦር
+  PASS  አቡነ አቢብ
+  PASS  ኤልያስ ነቢይ
+  PASS  ዮሐንስ መጥምቅ
+  PASS  አቡነ ሊባኖስ
+  PASS  አቡነ ተከስተ ብርሃን
+  PASS  አቡነ አባለ ክርስቶስ
+  PASS  አብርሃም
+  PASS  መልከ ጼዴቅ
+  PASS  ቅዱስ ዮስጦስ
+  PASS  አቡነ ፊልጶስ
+  PASS  አቡነ ፊልሞና
+  PASS  አቡነ ዳንኤል
+  PASS  አቡነ ዮሴፍ
+  PASS  ቅዱስ መስቀል
+  PASS  ኢያቄም ወሐና
+  PASS  ሐራ ድንግል
+  PASS  መርምሕናም
+  PASS  ዕጨጌ ዮሐንስ
+  PASS  አፍጼ
+  PASS  ኢየሱስ ሞዐ
+  PASS  ምክሐ ምእመናን
+  PASS  መባዓ ጽዮን
+  PASS  የሰኔ ጎልጎታ
+  PASS  ዘርዐ አብርሃም
+  PASS  ተክለ ሐዋርያት
+  PASS  መዝራዕተ ክርስቶስ
+  PASS  አፍኒን
+  PASS  ሕፃን ሞዐ
+  PASS  ቁስቋም
+  PASS  አግናጥዮስ
+  PASS  ነአኵቶ ለአብ
+  PASS  ሠምረ ክርስቶስ
+  PASS  ሳሙኤል ሣልስ
+  PASS  ሴት
+  PASS  ቡሩከ አምላክ
+  PASS  ብፁዓ አምላክ
+  PASS  አብራንዮስ
+  PASS  ዮስጢኖስ
+  PASS  ጼዋ ለጽድቅ
+  PASS  አባ ኖብ
+  PASS  ዓቢየ እግዚእ
+  PASS  ዘባርክናሃ
+  PASS  ጴጥሮስ
+
+RESULT: PASS
+Every locked saint group matches DB dates by book_id.
+Member book_id inside each saint share the same date set.
